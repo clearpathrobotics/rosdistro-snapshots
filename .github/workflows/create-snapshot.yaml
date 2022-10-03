@@ -1,0 +1,30 @@
+name: Snapshot
+
+# Run daily, just before 5am.
+on:  
+  schedule:
+    - cron: '55 4 * * *'
+
+jobs:
+  snapshot-rosdistro:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: snapshot/latest
+      - uses: fregante/setup-git-user@v1
+      - name: Fetch from ros/rosdistro
+        run: |
+          git remote add rosdistro https://github.com/ros/rosdistro.git
+          git fetch rosdistro -q
+          git checkout remotes/rosdistro/master -- noetic rolling index.yaml
+      - run: python3 -m pip install rosdistro
+      - name: Freeze distros
+        run: rosdistro_freeze_source index.yaml noetic rolling
+      - name: Create and push snapshot tag
+        run: |
+          NAME="snapshot/$(date +%Y%m%d)"
+          git add noetic rolling
+          git commit -m "Daily snapshot for $(date +%Y-%m-%d)"
+          git tag $NAME
+          git push origin --atomic $NAME snapshot/latest
