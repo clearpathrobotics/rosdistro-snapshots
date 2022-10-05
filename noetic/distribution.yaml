@@ -435,7 +435,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 4490e7bbe72514b13ca17a130b05fe6ad4be9d4b
+      version: e6a8a2fbf27e95e41265b1cd69d6d0acd1e4d059
     status: maintained
   backward_ros:
     doc:
@@ -1502,6 +1502,16 @@ repositories:
       url: https://github.com/ctu-vras/ros-utils.git
       version: 81fc5bd4a43852e31da6752b96ce1589bda76ec1
     status: developed
+  create_robot:
+    doc:
+      type: git
+      url: https://github.com/AutonomyLab/create_robot.git
+      version: melodic
+    source:
+      type: git
+      url: https://github.com/AutonomyLab/create_robot.git
+      version: 8beb0986b157ee95f3befcb52362e8367d49a78d
+    status: developed
   criutils:
     doc:
       type: git
@@ -1955,7 +1965,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/dynamic-graph-tutorial-ros-release.git
-      version: 1.3.5-2
+      version: 1.3.5-3
     source:
       test_pull_requests: true
       type: git
@@ -1976,7 +1986,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/dynamic_reconfigure.git
-      version: 2b46ee443f9f0b860542b3f4804c5ca2e28e4d1b
+      version: 2654f228adae0848c6e9b70fcf07f890ca6a2841
     status: maintained
   dynamic_robot_state_publisher:
     doc:
@@ -4703,7 +4713,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: 310da7c8b86c6ade239ae316c706aa9e23890c72
+      version: 3f1f2d6c4a334942bac712fd4db1185734b11295
     status: maintained
   log_view:
     doc:
@@ -5728,7 +5738,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: b118a4eb073e52e31e121c2b6441578a4d9e7fb7
+      version: 6d3fc83435520172e1df119f34a376bf0830fa45
     status: developed
   nao_meshes:
     release:
@@ -8816,7 +8826,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: d6c3f22ee414e259e11d4f6df49c9c5a81129e38
+      version: 5e8cac8d6d53d30e85297db4461af01d5ba172ef
     status: maintained
   roscompile:
     doc:
@@ -10272,7 +10282,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/sot-tools-ros-release.git
-      version: 2.3.5-1
+      version: 2.3.5-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-tools.git
@@ -10602,7 +10612,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: c5023d34d108f674b8a3c3f167c520ceb4b5bfa8
+      version: c66e0439bdb97d3247f72e51cf99e50d50e17d71
     status: developed
   tf2_2d:
     release:
@@ -10744,7 +10754,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/tsid-ros-release.git
-      version: 1.6.0-1
+      version: 1.6.2-2
     source:
       test_pull_requests: true
       type: git
