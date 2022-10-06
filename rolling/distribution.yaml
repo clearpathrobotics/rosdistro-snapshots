@@ -470,7 +470,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: b3171a5e11c4b15b40411cc863919b92f592f30d
+      version: d84a5c02865937680015d37eb7a87b7b4ea55b21
     status: developed
   bno055:
     doc:
@@ -1458,7 +1458,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tier4/hash_library_vendor.git
-      version: 3d6326b154b3fca4d759d110177661e2efb4e4ce
+      version: f5150b3283edecbe677ab654d8f55d83dfd00f36
     status: maintained
   hls_lfcd_lds_driver:
     doc:
@@ -1626,7 +1626,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: c6b33166ad569bcb76155824d31c59317e0f83ed
+      version: 26a5470f0a71a10c565899da6537ce74e054cac1
     status: maintained
   image_transport_plugins:
     doc:
@@ -1866,7 +1866,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: a36e9b945076ba9c0fbc1e9807600ed630a16ede
+      version: f51503cba9c6ef2c0a8a14c04cf34f7b65484a5f
     status: developed
   launch_param_builder:
     doc:
@@ -1992,7 +1992,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: 662bb96d396c277814e58c22769cb1d0e8a62988
+      version: 4b4bdd55ce932ed12fa6b7bb66714aad4a416f55
     status: maintained
   marti_common:
     doc:
@@ -2108,12 +2108,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 4.5.0-1
+      version: 4.6.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 39c68d00989e90324688abe81214dbf067f53bcf
+      version: e92d36db50514e27c2799c0660ae5f701f308e89
     status: maintained
   micro_ros_diagnostics:
     doc:
@@ -2286,7 +2286,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: 46ab718dc336c2a7fc5375d462e6eddc2b7dd37c
+      version: ded1d5a09158e04b37b5eb521534cfd88967b0ed
     status: developed
   moveit_visual_tools:
     doc:
@@ -2453,7 +2453,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.1.1-1
+      version: 0.1.3-1
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -2885,7 +2885,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: f7a15123be34bd3ec4201c0785f3f881ff88b97b
+      version: 27cc7dd97d91796d1e29b2a744e3e7259a64706e
     status: developed
   plotjuggler:
     doc:
@@ -3711,11 +3711,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic_editor-release.git
-      version: 1.5.1-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 34224cbf40d5ad22145a4fac503b768fed3a1ce4
+      version: 690ae9571bd6762235892eff2f42669797eb67ce
     status: developed
   rmf_utils:
     doc:
@@ -3754,7 +3754,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
-      version: 4e259bd6884b3d6d65dbacf120fda2f8f03b3503
+      version: 191d702dde6f25b553ce35a6a5adcfa58933435d
     status: developed
   rmf_visualization_msgs:
     doc:
@@ -3976,7 +3976,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.0.0-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4006,11 +4006,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.12.0-1
+      version: 2.13.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b157c0d35d42f850dbb48f1d35f91796344c2a5c
+      version: 2457680a8e0dcb22cbb48361783e456fef681c30
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4279,7 +4279,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: c92010b00f894418c7b3fed45866f1ef91df706a
+      version: e7e7269e4b47db726f3257a8e43b02594c8923e9
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -4338,7 +4338,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 610d5e8b176a945eb284529ce17d2551ee90fa5e
+      version: 87b3bf0a1a69a9bcfad5f32cb75303881607a5f1
     status: developed
   rosidl:
     doc:
@@ -4513,7 +4513,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rosidl_typesupport_gurumdds.git
-      version: 8cc3eea764462da53666ec667c61128e8a0e4353
+      version: 0256672aae0c231253139f24e3237331e16d5efa
     status: developed
   rospy_message_converter:
     doc:
@@ -4946,7 +4946,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/PickNikRobotics/RSL-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
@@ -5133,7 +5133,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 0ee7c8701a43bab224df2a71c1cc52f374a629a8
+      version: f38404341a9fff8311f07e70e7a65efcd7248c09
     status: maintained
   slider_publisher:
     doc:
@@ -5541,7 +5541,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: fcbed4037a7a59871f8d05c93aed0d8eb198339f
+      version: f020814732143bb6b93056270070465a47ead42d
     status: developed
   tracetools_acceleration:
     doc:
