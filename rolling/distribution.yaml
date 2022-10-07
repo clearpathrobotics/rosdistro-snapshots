@@ -2333,6 +2333,26 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
       version: c9e44e4c8a7db4b178b65b11baff8d292d22494d
     status: maintained
+  mrpt_navigation:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
+      version: 989fe65b1447314ddba3e3ff6518fe1a00d63946
+    status: developed
+  mrpt_sensors:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
+      version: 54482dc26e4433ef8d93c5eccb53f837e1763e5c
+    status: developed
   mrt_cmake_modules:
     doc:
       type: git
@@ -2361,7 +2381,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 6d3fc83435520172e1df119f34a376bf0830fa45
+      version: 1521d6031c44f390656e15cc61301f02001320f0
     status: developed
   nao_button_sim:
     doc:
@@ -2453,7 +2473,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.1.3-1
+      version: 0.1.3-3
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -3382,7 +3402,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 7780fa11f126495dd644f02cc8f81fe847abdfd8
+      version: e18084fa421fa54a3a6793909d128046b2b5a08e
     status: maintained
   rcpputils:
     doc:
@@ -3612,11 +3632,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: a13119e3e541f4fe7993091fa7953b2105399f6b
+      version: 229481160cd7268864478979c6e486610c50c12c
     status: developed
   rmf_ros2:
     doc:
@@ -4279,7 +4299,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: e7e7269e4b47db726f3257a8e43b02594c8923e9
+      version: e26743ea0a025b53fbaa4b02b01831216b4f4702
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -4308,14 +4328,15 @@ repositories:
       packages:
       - mcap_vendor
       - rosbag2_storage_mcap
+      - rosbag2_storage_mcap_test_fixture_interfaces
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
-      version: 0.1.7-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
-      version: 553283eff28095b5928a66cb977feae779e78143
+      version: 35de1527d398c64d1ada3b0896305523f7bbbfb1
     status: developed
   rosbridge_suite:
     doc:
@@ -5052,7 +5073,7 @@ repositories:
     source:
       type: git
       url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
-      version: 6d394d181c288cd44a64b84a0f82156450f15eab
+      version: 9bb5e57ab3e79835796af0b2440b93936173ddde
     status: maintained
   rviz_visual_tools:
     doc:
@@ -5133,7 +5154,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: f38404341a9fff8311f07e70e7a65efcd7248c09
+      version: 407c9cf1b74aa8586fa51b9f773e3056ba2b2ab9
     status: maintained
   slider_publisher:
     doc:
@@ -5541,7 +5562,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: f020814732143bb6b93056270070465a47ead42d
+      version: 5663bd75282f46cb9940ba2857f47de41960eab8
     status: developed
   tracetools_acceleration:
     doc:
@@ -6002,7 +6023,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
-      version: 9b9a30528c0e044c032c7b02015b4b6d97b67105
+      version: e35e57095da9a7e4e3a6f1b44c89e542e1991443
     status: developed
   variants:
     doc:
