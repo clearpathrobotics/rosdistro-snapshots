@@ -470,7 +470,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: d84a5c02865937680015d37eb7a87b7b4ea55b21
+      version: c00546e8b050459bda438609c1b66a57337c51a1
     status: developed
   bno055:
     doc:
@@ -984,7 +984,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 8c59cd9f7eeaf3d515009ba30a912a87a7ecdc3c
+      version: 6066a36cdf8e42cd4059a09ef06b327aef1acbbc
     status: maintained
   example_interfaces:
     doc:
@@ -1167,6 +1167,17 @@ repositories:
       type: git
       url: https://github.com/foxglove/schemas.git
       version: 0dcb4176e9e12a96e90cea497bcfad48b6301155
+    status: maintained
+  fuse:
+    doc:
+      type: git
+      url: https://github.com/locusrobotics/fuse.git
+      version: rolling
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/locusrobotics/fuse.git
+      version: e0dd00e93df98e4999d70b5549b3297627a84e73
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -2249,7 +2260,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 5c3f98ee4733829154e5de395f9d6eee0b7fd2d9
+      version: e9a34076253c8b979406103700e6dd567d55f1b0
     status: developed
   moveit_msgs:
     doc:
@@ -2473,7 +2484,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -2905,7 +2916,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 27cc7dd97d91796d1e29b2a744e3e7259a64706e
+      version: 668f8652a130807550fe28428279f9beb6bd0b96
     status: developed
   plotjuggler:
     doc:
@@ -3386,7 +3397,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: dec766228dae4e050d37c8d5b8185383fdec76ab
+      version: 3aca271ef5d25c1b8c12e67ecf85166856a88000
     status: maintained
   rclpy:
     doc:
@@ -3604,7 +3615,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_demos-release.git
-      version: 2.0.0-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
@@ -3653,7 +3664,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -4030,7 +4041,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 34da157213e64dbccbc32f3d478519371dbac54c
+      version: 9be3bfe2614230606ce02b95aabb604e616fd089
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4359,7 +4370,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 6edf67d0d33f817f07cf99bfa678c1045ea176d1
+      version: 0d20ff0cce203c5cfb0972e69f8727a8e8cc44c3
     status: developed
   rosidl:
     doc:
@@ -4971,7 +4982,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 8d6acbe6a436ea7fe6eac3ea33760bb2db95c962
+      version: cd1db4562583475ca585787b01f1df4904e653ea
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5154,7 +5165,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 407c9cf1b74aa8586fa51b9f773e3056ba2b2ab9
+      version: 5719685ba63b5a9033d9e197bf437993f3b64e29
     status: maintained
   slider_publisher:
     doc:
@@ -5862,7 +5873,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 63b8e14c1ad32516d7ec6db08cb5b7cc64ee09b4
+      version: bcdcf9496cf61190e98e6a0fd7f35b5a4d220878
     status: developed
   urdf:
     doc:
@@ -6019,7 +6030,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_v4l2_camera-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
