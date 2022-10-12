@@ -466,11 +466,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp-release.git
-      version: 3.6.0-2
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: c00546e8b050459bda438609c1b66a57337c51a1
+      version: 73e10fb8b2a7088521352d6d11fcd8633ba6036c
     status: developed
   bno055:
     doc:
@@ -1069,7 +1069,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 73529d66915db1b0362f036ad79fc74ad8a4e530
+      version: 02f0ef003e86160054e3163f4543ec6afcb23f98
     status: maintained
   filters:
     doc:
@@ -1499,7 +1499,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 49c72d386955aa3d5ab18bf3842c4c703b476307
+      version: 565480a3df68058bd48ae26c00b684d134f28d4b
     status: developed
   iceoryx:
     release:
@@ -2260,7 +2260,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: e9a34076253c8b979406103700e6dd567d55f1b0
+      version: 9c6aa94f0628924ea66e271605616285b326a538
     status: developed
   moveit_msgs:
     doc:
@@ -2327,7 +2327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: e09ddc2038dc6d5b2e57deed600e8dbab5b22612
+      version: e8c36f29bbe6773f2772781799c02716f98768b9
     status: developed
   mrpt_msgs:
     doc:
@@ -2392,7 +2392,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 1521d6031c44f390656e15cc61301f02001320f0
+      version: 05c26a4d0ffeeed49b291a22d508a136f56928ac
     status: developed
   nao_button_sim:
     doc:
@@ -3696,7 +3696,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: main
+      version: rolling
     release:
       packages:
       - rmf_task
@@ -3704,11 +3704,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.1.0-2
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: 8c1cd09d1ebd51f748af25131ca68a5c9cc1c4d2
+      version: 99ec3bf8fff2f6ef287a1ecdddfff157e055136c
     status: developed
   rmf_traffic:
     doc:
@@ -4011,7 +4011,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 4584f96c64260a5b4cb71e416967b1aa1f9a033a
+      version: 1cf9bf27ddd299517ff2794ef4c8a7691facc416
     status: developed
   ros2_controllers:
     doc:
@@ -4041,7 +4041,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 9be3bfe2614230606ce02b95aabb604e616fd089
+      version: eecb7f7af8cd750b9b4116947ae31fb5df52dcfd
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4370,7 +4370,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 0d20ff0cce203c5cfb0972e69f8727a8e8cc44c3
+      version: 413f844a27281bc02685b600c1756ffecd75a4e8
     status: developed
   rosidl:
     doc:
@@ -4982,7 +4982,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: cd1db4562583475ca585787b01f1df4904e653ea
+      version: 631d36cdcbe7e4b56eda8c87537f849a65c7ad35
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5041,7 +5041,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 73fcd0b7cb46d47e9d4735e25288055fb3a26932
+      version: 612eb3cb6bc8699c48cf49170d136dfedb469ab2
     status: developed
   rviz:
     doc:
@@ -5573,7 +5573,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: 5663bd75282f46cb9940ba2857f47de41960eab8
+      version: 3a433ffda93c1c59d4c8af35f3f324520ed21b79
     status: developed
   tracetools_acceleration:
     doc:
@@ -5873,7 +5873,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: bcdcf9496cf61190e98e6a0fd7f35b5a4d220878
+      version: 72c91fd65bc101c0d9eec0bb182ee5895b885092
     status: developed
   urdf:
     doc:
@@ -6265,12 +6265,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2022.1.0-2
+      version: 2022.1.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 6e5312ee50e27dbfa1a49e4ed01375c32b9e4af6
+      version: 1e395e1f7c976780bb936bb6b19ae02df81a0759
     status: maintained
   xacro:
     doc:
