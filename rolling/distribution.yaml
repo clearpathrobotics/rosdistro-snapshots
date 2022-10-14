@@ -759,7 +759,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: abcfe53757d5100bcb5b4785f5909c760538bc6c
+      version: 25f6176add32c826b05f6b5c808b35d640ff7134
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -2327,7 +2327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: e8c36f29bbe6773f2772781799c02716f98768b9
+      version: 9d853d9018ebc255de42b485faaf049f36ba5f4e
     status: developed
   mrpt_msgs:
     doc:
@@ -2392,7 +2392,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 78f77a5082c30d602be5ec0ceace86b35289a594
+      version: b066aaf9b19897dde7dbddb7863ad298de479330
     status: developed
   nao_button_sim:
     doc:
@@ -2549,7 +2549,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ubuntu-robotics/nodl.git
-      version: f5b010bbf8f7717b6715c3bf16955b8fff76fbf6
+      version: 6beb84dc3198ecc20ebf18c04313ef6f81e29c00
     status: developed
   nodl_to_policy:
     doc:
@@ -3397,7 +3397,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 3aca271ef5d25c1b8c12e67ecf85166856a88000
+      version: b9b1468d15c7ddc697c079e6934d54f183294280
     status: maintained
   rclpy:
     doc:
@@ -3429,7 +3429,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcpputils.git
-      version: 358b62b672094470e61c2edf19ecda51845de8ec
+      version: 1bd32c72b355761b11dd9e35abe4d2cc32b7187a
     status: developed
   rcss3d_agent:
     doc:
@@ -3480,7 +3480,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: c83c4c7b197e72527fc9e0b438f9f1e6225f70af
+      version: 3485f1bdc805ead1e9c26509479dc8c1f94b6951
     status: maintained
   realtime_support:
     doc:
@@ -3600,22 +3600,6 @@ repositories:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
       version: main
-    release:
-      packages:
-      - rmf_demos
-      - rmf_demos_assets
-      - rmf_demos_bridges
-      - rmf_demos_dashboard_resources
-      - rmf_demos_fleet_adapter
-      - rmf_demos_gz
-      - rmf_demos_gz_classic
-      - rmf_demos_maps
-      - rmf_demos_panel
-      - rmf_demos_tasks
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/rmf_demos-release.git
-      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
@@ -4041,7 +4025,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: eecb7f7af8cd750b9b4116947ae31fb5df52dcfd
+      version: eccea9cef5f5dbebe1f5fda68d1af0e371d000d9
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5372,7 +5356,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/ros_system_fingerprint.git
-      version: 733bd4eb5124a28c01efefe14514c55030a0b290
+      version: 2108fa41aa04c8965021533f9a2f7d58ede56595
     status: developed
   system_modes:
     doc:
@@ -5820,7 +5804,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: cd6f4a74c02d033270f1a2c28ca784da433cff12
+      version: 1d9b9750128b31081f57ecf466f8acc7e7538f60
     status: developed
   ur_description:
     doc:
