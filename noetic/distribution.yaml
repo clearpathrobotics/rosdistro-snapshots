@@ -435,7 +435,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 669769469477aa374ae1051b86eff0048908990c
+      version: af590ce9e04eedc8edb98609f581af91f4b57b6f
     status: maintained
   backward_ros:
     doc:
@@ -504,7 +504,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 3.6.1-1
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -814,6 +814,11 @@ repositories:
       type: git
       url: https://github.com/canlab-co/clpe_ros.git
       version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/canlab-co/clpe_ros-ros-release.git
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -825,6 +830,11 @@ repositories:
       type: git
       url: https://github.com/canlab-co/clpe_ros_msgs.git
       version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/canlab-co/clpe_ros_msgs-ros-release.git
+      version: 0.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -836,6 +846,13 @@ repositories:
       type: git
       url: https://github.com/canlab-co/CLPE_G_NVP2650D_SDK.git
       version: noetic
+    release:
+      packages:
+      - clpe
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/canlab-co/CLPE_G_NVP2650D_SDK-ros-release.git
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1496,11 +1513,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.0.3-1
+      version: 2.0.4-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: be7714721715229fc6799894a76d11f901356c47
+      version: 3e9cf2421475537baaead9ff95e57fb4f8bd263e
     status: developed
   create_robot:
     doc:
@@ -3046,7 +3063,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.7.5-1
+      version: 0.7.6-1
     source:
       test_pull_requests: true
       type: git
@@ -3750,7 +3767,7 @@ repositories:
     source:
       type: git
       url: https://github.com/InnopolisAero/inno_vtol_dynamics.git
-      version: 142ce89431fda8a718a9bb19dce92f8c340c9f5e
+      version: 8c3d6c24ddf760b3a5992ad5f982230aab56e45e
     status: maintained
   interactive_marker_twist_server:
     doc:
@@ -4127,7 +4144,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: c4be2499e01a7c67d04fdcf7059964ddc8bb2552
+      version: 62facef973dd8a54e179c90b514ea54c8b0fdd83
     status: developed
   jsk_roseus:
     doc:
@@ -5566,7 +5583,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 1.0.2-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -5585,7 +5602,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 9d853d9018ebc255de42b485faaf049f36ba5f4e
+      version: 152ee3a2b0a6f0712808815fd41073e9d81de8ba
     status: developed
   mrpt_msgs:
     doc:
@@ -5734,11 +5751,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: b066aaf9b19897dde7dbddb7863ad298de479330
+      version: abe0a7160d3ac1909e0f7811cf076ecdff01e579
     status: developed
   nao_meshes:
     release:
@@ -7178,6 +7195,26 @@ repositories:
       url: https://github.com/pr2/pr2_ethercat_drivers.git
       version: 2b6a5d1877cbdea357cf6d4b43a18812e0f436e9
     status: unmaintained
+  pr2_gripper_sensor:
+    doc:
+      type: git
+      url: https://github.com/pr2/pr2_gripper_sensor.git
+      version: hydro-devel
+    release:
+      packages:
+      - pr2_gripper_sensor
+      - pr2_gripper_sensor_action
+      - pr2_gripper_sensor_controller
+      - pr2_gripper_sensor_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_gripper_sensor-release.git
+      version: 1.0.12-1
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_gripper_sensor.git
+      version: 5168a5e831cb7f826db28339ffaab5bb4173f15c
+    status: unmaintained
   pr2_kinematics:
     doc:
       type: git
@@ -7475,7 +7512,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros4hri/pyhri.git
-      version: 052f932abcd8f94e6ae001a56fa6dfcc2e201096
+      version: 40156189824854bd4bfe846a3cd3f68e04467ae9
     status: developed
   pyquaternion:
     doc:
@@ -8098,7 +8135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: d8a513cdcdc6e6a391d7be0cd90b58149fee3978
+      version: ef98a76757f5ad74c7d39598d411badf8b2d7bde
     status: developed
   rm_description:
     doc:
@@ -8179,7 +8216,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 0d3c7cc76461eaee77593c95b390a3a7897e30e2
+      version: bf02bfbe5065071a143ffebf0cdc4fc3c677b1eb
     status: developed
   robot_navigation:
     doc:
@@ -9822,7 +9859,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/rviz_satellite.git
-      version: f311a2113fa504cabe4cdc55ead7333f48652fd3
+      version: 78227f6f4e5d8fd913a00c65858b5f4ec0c9a5a0
     status: maintained
   rviz_visual_tools:
     doc:
@@ -10476,7 +10513,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/MetroRobots/ros_system_fingerprint-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       test_pull_requests: true
       type: git

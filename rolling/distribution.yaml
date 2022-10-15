@@ -359,6 +359,16 @@ repositories:
       url: https://github.com/fkie/async_web_server_cpp.git
       version: a12cd9cec5e1906a6ba8142de73694c860c94ee7
     status: maintained
+  asyncapi_gencpp:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/asyncapi_gencpp.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/hatchbed/asyncapi_gencpp.git
+      version: fe77883cdc9a648ff95bb08a47c9decced393452
+    status: developed
   automotive_autonomy_msgs:
     doc:
       type: git
@@ -1471,6 +1481,16 @@ repositories:
       url: https://github.com/tier4/hash_library_vendor.git
       version: 2cce0d68465e6793d725ef9be73752f5fbcea1c5
     status: maintained
+  hatchbed_common:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/hatchbed_common.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/hatchbed/hatchbed_common.git
+      version: 42fa1bcc12ce564b2f8578d70e3250b36d2b81f8
+    status: developed
   hls_lfcd_lds_driver:
     doc:
       type: git
@@ -1974,7 +1994,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 84817ea795600824f742853b04a9745ef7e3d47f
+      version: 374b6881957590412eee2f9216a0127ec6258403
     status: developed
   libyaml_vendor:
     release:
@@ -2005,6 +2025,16 @@ repositories:
       url: https://github.com/boschglobal/locator_ros_bridge.git
       version: 4b4bdd55ce932ed12fa6b7bb66714aad4a416f55
     status: maintained
+  log_view:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/hatchbed/log_view.git
+      version: 8e9276e8d1855eadd4a83a2be45e253b52cd4f50
+    status: developed
   marti_common:
     doc:
       type: git
@@ -2027,7 +2057,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.4.0-2
+      version: 3.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2260,7 +2290,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 9c6aa94f0628924ea66e271605616285b326a538
+      version: baba9b041225ed5518d5235996afb9aa3c5a61f8
     status: developed
   moveit_msgs:
     doc:
@@ -2327,7 +2357,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 9d853d9018ebc255de42b485faaf049f36ba5f4e
+      version: 152ee3a2b0a6f0712808815fd41073e9d81de8ba
     status: developed
   mrpt_msgs:
     doc:
@@ -2388,11 +2418,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: b066aaf9b19897dde7dbddb7863ad298de479330
+      version: abe0a7160d3ac1909e0f7811cf076ecdff01e579
     status: developed
   nao_button_sim:
     doc:
@@ -2715,6 +2745,26 @@ repositories:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
       version: 1.5.2-2
+  opensw:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/opensw.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/hatchbed/opensw.git
+      version: 0125bc6a6dbbfcc2c37bf498a8a7a88b88567c01
+    status: developed
+  opensw_ros:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/opensw_ros.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/hatchbed/opensw_ros.git
+      version: 4c0fcad1daa180728291451fa97e38cc37492f10
+    status: developed
   orocos_kdl_vendor:
     release:
       packages:
@@ -3480,7 +3530,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 3485f1bdc805ead1e9c26509479dc8c1f94b6951
+      version: 61018b2f88e55ac81edda4a45a02634493c999ed
     status: maintained
   realtime_support:
     doc:
@@ -4331,7 +4381,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
-      version: 35de1527d398c64d1ada3b0896305523f7bbbfb1
+      version: 295ae9bac733bdf7c201f0f837d937b3f7994624
     status: developed
   rosbridge_suite:
     doc:
@@ -5351,7 +5401,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/MetroRobots/ros_system_fingerprint-release.git
-      version: 0.5.0-1
+      version: 0.7.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5557,7 +5607,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: 3a433ffda93c1c59d4c8af35f3f324520ed21b79
+      version: 2816b84d7524f385687163a78b3efc12d3595f02
     status: developed
   tracetools_acceleration:
     doc:
