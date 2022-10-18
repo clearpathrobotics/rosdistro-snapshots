@@ -1789,8 +1789,24 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-tooling/keyboard_handler.git
-      version: 92753df9f9c0d8fa27ea151f02e22a6a0edb2978
+      version: bca61efd6ef1c5100d14689b935363bc3cdca070
     status: developed
+  kobuki_ros_interfaces:
+    doc:
+      type: git
+      url: https://github.com/kobuki-base/kobuki_ros_interfaces.git
+      version: release/1.0.x
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/kobuki_ros_interfaces-release.git
+      version: 1.0.0-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/kobuki-base/kobuki_ros_interfaces.git
+      version: 7228c6864bbc9304126fb0000f68bdbbb9b01904
+    status: maintained
   kobuki_velocity_smoother:
     doc:
       type: git
@@ -2290,7 +2306,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: baba9b041225ed5518d5235996afb9aa3c5a61f8
+      version: a8326ace6bb3e7d17191769533b85ec994a1bdd7
     status: developed
   moveit_msgs:
     doc:
@@ -2422,7 +2438,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 2eadd96aa0a807cd49b0a712e15320a6c6e09e4f
+      version: 61101b55990dc578bf38a67d3c2eabc4e39e03c1
     status: developed
   nao_button_sim:
     doc:
@@ -4404,7 +4420,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 413f844a27281bc02685b600c1756ffecd75a4e8
+      version: df385330dd60d99ff2875eb6c5ac0beda6290627
     status: developed
   rosidl:
     doc:
@@ -6215,7 +6231,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/vrpn/vrpn.git
-      version: 811afcaf2746357e27387ab982ab68834568d202
+      version: e2ebd90aa3bce620ef1f2936534efcaebb14178e
     status: maintained
   vrpn_mocap:
     doc:
