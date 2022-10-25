@@ -480,7 +480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 90c2f47df58bf475ef0b119cd1499873527f2df3
+      version: 0cef2e22408a96d80389238cc7bc8514e6da28a7
     status: developed
   bno055:
     doc:
@@ -1334,7 +1334,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: de08d177d424f0d73efd4ff5951fd1eaabc9638d
+      version: 22ccdfc31f7b10fa18328057f133546407986e15
     status: maintained
   geometry_tutorials:
     doc:
@@ -1519,7 +1519,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 565480a3df68058bd48ae26c00b684d134f28d4b
+      version: 54fae6dc4bee50d38e976e8a28d5f39869997f3a
     status: developed
   iceoryx:
     release:
@@ -1791,6 +1791,40 @@ repositories:
       url: https://github.com/ros-tooling/keyboard_handler.git
       version: 572fd8944008d3e92b1fc0a1fe57f94513ee960b
     status: developed
+  kinematics_interface:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/kinematics_interface.git
+      version: master
+    release:
+      packages:
+      - kinematics_interface
+      - kinematics_interface_kdl
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/kinematics_interface-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/ros-controls/kinematics_interface.git
+      version: 01a2cda40eab6b145c8eb5b7f01698427edd9b1b
+    status: developed
+  kobuki_core:
+    doc:
+      type: git
+      url: https://github.com/kobuki-base/kobuki_core.git
+      version: release/1.4.x
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/kobuki_core-release.git
+      version: 1.4.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/kobuki-base/kobuki_core.git
+      version: e2f0feac0f7a9964d021ac3241b7663f7728d5b9
+    status: maintained
   kobuki_ros_interfaces:
     doc:
       type: git
@@ -2224,7 +2258,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 7bdb7e863d35f328480f3cd5e6b55d35a79cbfd9
+      version: 74ccb93d0e6a6cadf62ee893d15b75013121670c
     status: developed
   mimick_vendor:
     doc:
@@ -2306,7 +2340,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 44821258a71c54a1b2381d8e664dfcdac79c40fa
+      version: 3e25ed94637076ff328894495363c02b351ba445
     status: developed
   moveit_msgs:
     doc:
@@ -2373,7 +2407,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: f8925c13559cfe7cca361e823bee1ab5831da130
+      version: de389f16f2b35b8d68782cbfe8afa342fbccdeea
     status: developed
   mrpt_msgs:
     doc:
@@ -2438,7 +2472,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 2476b25435509ac87f7c50a0237892acc401339a
+      version: efa79ba4cc5d9f580f97d381bab1c20e2157dcf5
     status: developed
   nao_button_sim:
     doc:
@@ -2805,7 +2839,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/osqp_vendor-release.git
-      version: 0.0.4-2
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/tier4/osqp_vendor.git
@@ -2982,7 +3016,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 1127321ea77e99876eb3cb8293847f785f41880d
+      version: 3bad6df5fc7efe332bb1006434423ab9274d52af
     status: developed
   plotjuggler:
     doc:
@@ -3376,7 +3410,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: edd65bfc5fca267c8ec842e8e66c404e5bcb0138
+      version: 0e41255e5522c8636a4691312009eae4920fe114
     status: maintained
   rcl_interfaces:
     doc:
@@ -3463,7 +3497,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: b9b1468d15c7ddc697c079e6934d54f183294280
+      version: 2d32d03ba3fc6780818705a8ab2ca0512b64e1c4
     status: maintained
   rclpy:
     doc:
@@ -4091,7 +4125,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 908b7cc7ed5413d3fbb09203fd5edc4fc24abdd0
+      version: 5c0cb9210b2230347af12bbe2690032f6942435d
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4416,7 +4450,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbridge_suite-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -5923,7 +5957,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 72c91fd65bc101c0d9eec0bb182ee5895b885092
+      version: 01cd1ee47e1913a04557718e23034521caefeaa4
     status: developed
   urdf:
     doc:
@@ -6331,7 +6365,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.7-2
+      version: 2.0.8-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
