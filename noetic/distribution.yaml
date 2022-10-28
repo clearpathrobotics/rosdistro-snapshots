@@ -1783,7 +1783,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: a7c2cdc9ccb3ae733efac9fb471bd9da67dd3f0c
+      version: af3a1ebff8d3ec8eecdece344d1250805294d520
     status: developed
   depthimage_to_laserscan:
     release:
@@ -2266,7 +2266,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ensenso/ros_driver.git
-      version: f573399d6dca6567ebf37a4f19d695aa5bfdfda8
+      version: fef5e9f304a47f0b863c4beb26ecce2d5224677f
     status: developed
   er_public_msgs:
     release:
@@ -2324,11 +2324,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/jsk-ros-pkg/euslime-release.git
-      version: 1.1.3-1
+      version: 1.1.4-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/euslime.git
-      version: 0e902f5bfcc95becc7ca069dbadb858280d7d82e
+      version: ae074d9a302c6ca3a29994d7b9ce0c14a4b69b63
     status: developed
   euslisp:
     doc:
@@ -4100,6 +4100,34 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
       version: 093b57cdb4519cfc75099b4460a9354dc57981e5
     status: developed
+  jsk_control:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_control.git
+      version: master
+    release:
+      packages:
+      - cmd_vel_smoother
+      - contact_states_observer
+      - eus_nlopt
+      - eus_qp
+      - eus_qpoases
+      - joy_mouse
+      - jsk_calibration
+      - jsk_control
+      - jsk_footstep_controller
+      - jsk_footstep_planner
+      - jsk_ik_server
+      - jsk_teleop_joy
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/jsk_control-release.git
+      version: 0.1.16-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_control.git
+      version: 67e83cab30fdbb9641fda3479435a1485b190f73
+    status: developed
   jsk_model_tools:
     doc:
       type: git
@@ -4345,7 +4373,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 0bf4324176474c6e8bfba6d7e91f19e1825610d5
+      version: 315eca650d2de93422048b9846d9a579925b4f66
     status: maintained
   laser_assembler:
     doc:
@@ -8022,7 +8050,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/rgbd_launch.git
-      version: 6da770ce8b25420314ce637c4d67b432f5fb98b4
+      version: 751bb3cb71a13c123f7648c33c56ce2eb1480a7c
     status: maintained
   ridgeback:
     doc:
@@ -9817,7 +9845,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tilk/rtcm_msgs.git
-      version: b4bba1113eb24c9126651f665919d3289ca1085e
+      version: 855dd27003631d932e300b74e055f624f90169a7
     status: maintained
   ruckig:
     release:
@@ -11254,7 +11282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: 37451954a7f73af99428b0712aaa609c11464b53
+      version: 57c088f84e6fa5dc31185c630beeb6a2e963a6e1
     status: unmaintained
   usb_cam_hardware:
     doc:
