@@ -863,6 +863,21 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
       version: c9b5fdaabdf8429462329283e59ed0605919423d
     status: maintained
+  dynamixel_workbench_msgs:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/dynamixel_workbench_msgs-release.git
+      version: 2.0.3-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
+      version: 07c6a66b75ec57c6c60a946859d976d1184ebc5f
+    status: maintained
   ecl_core:
     doc:
       type: git
@@ -1176,7 +1191,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 0dcb4176e9e12a96e90cea497bcfad48b6301155
+      version: b36014a3987ea81cf0184b7abb2d6ab6a3888688
     status: maintained
   fuse:
     doc:
@@ -1264,11 +1279,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/PickNikRobotics/generate_parameter_library-release.git
-      version: 0.2.6-1
+      version: 0.2.7-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 77f7cb0f627efca74fc11ce4a349f337e75f4bf4
+      version: ea928e1788595a376831ee3d22a910ee573a69bf
     status: developed
   geographic_info:
     doc:
@@ -2340,7 +2355,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 97c7dbb742cf4020a6d877da0d6fc540d065ae18
+      version: 749c5ae0777d093fad1be6514bae2bc188fc6926
     status: developed
   moveit_msgs:
     doc:
@@ -3497,7 +3512,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: d119157948720f5888d47898e1c59b56fe1f86c5
+      version: edbfe1404b24d0bc85ff88e8ff1f006670788e46
     status: maintained
   rclpy:
     doc:
@@ -4316,7 +4331,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ignitionrobotics/ros_ign.git
-      version: 68c626e7762babe2daaf3214d115a535b28b81c0
+      version: d0ef0d629ac03302398932f098e319ce54f30bce
     status: developed
   ros_image_to_qimage:
     doc:
@@ -4808,7 +4823,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
-      version: 8dcfb30f6f9c6a83ec3f22fe52705cad47d853ae
+      version: d26865bf5be23fc78b4f5022cf1903f64f865937
     status: developed
   rqt_image_view:
     doc:
@@ -5066,7 +5081,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 87fd3acff16194d2683d3e2ab534ceff6ff454f5
+      version: 8992001cf3fd96882a83c9d4f7588e148807f7ca
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5110,7 +5125,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/nobleo/rtcm_msgs-release.git
-      version: 1.1.0-1
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/tilk/rtcm_msgs.git
@@ -6354,7 +6369,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 43cffc034697405b08874f5343970f6bca36d9d1
+      version: 0b595e4d7a7d19b6c4366bfdd2c4cd8f759e8c40
     status: maintained
   xacro:
     doc:
