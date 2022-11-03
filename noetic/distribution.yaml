@@ -308,11 +308,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/robustify/audibot-release.git
-      version: 0.2.1-1
+      version: 0.2.2-5
     source:
       type: git
       url: https://github.com/robustify/audibot.git
-      version: noetic-devel
+      version: 91b766c86e833286997e79e919e6ffb6921451f9
     status: maintained
   audio_common:
     doc:
@@ -508,7 +508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: b4396fe15faf7536c7052064b77c8638982cf44b
+      version: dab3eef66f326418ef04028936eb81fa28a3182a
     status: developed
   bond_core:
     doc:
@@ -1517,7 +1517,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: f24e9981a0988fce6c10def592c5a89fb07e42f0
+      version: cbcd22804463f6c123cd5c86a0275635a9ce249b
     status: developed
   create_robot:
     doc:
@@ -4049,7 +4049,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-      version: 328668df4de2957097e5701fcc5f82a53aa9601d
+      version: bcbb87b1d4acaafaa4b9d0e09b6b120c04ffc980
     status: developed
   jsk_common:
     doc:
@@ -4172,7 +4172,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: 62facef973dd8a54e179c90b514ea54c8b0fdd83
+      version: 7e6b70416d2629a37a41f1779a52d2d05524fe37
     status: developed
   jsk_roseus:
     doc:
@@ -4373,7 +4373,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 315eca650d2de93422048b9846d9a579925b4f66
+      version: a5ecd4839c64a76e64517704c37154c9a801b29f
     status: maintained
   laser_assembler:
     doc:
@@ -5435,7 +5435,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: f94f958337d4791a13ba48de25bac9c9c60d3ce4
+      version: b6bf6de9ea3ca13d1c25d96d60b2f04cbf6ffc7b
     status: maintained
   moveit_calibration:
     doc:
@@ -5630,7 +5630,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: a3e82a0f32997c7a5d120635bbba00af0627473b
+      version: 7e7eb2a50cb89dd35e38cad281f8ef31e1c9e1ca
     status: developed
   mrpt_msgs:
     doc:
@@ -5783,7 +5783,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 3013bce2e668a6c243b7a3e11494c12cf12ebb5e
+      version: 98de2b107fdd86a00f17d776b5f9d18649ac9b86
     status: developed
   nao_meshes:
     release:
@@ -9845,7 +9845,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tilk/rtcm_msgs.git
-      version: ac54af82cbbd1732f4e23678b2aa76f01b4811a8
+      version: 8d27ab5f4d4a581e1bb9c87d572994c25197f6d4
     status: maintained
   ruckig:
     release:
@@ -10839,7 +10839,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: e894ee22b408c8f63867049f49fec99f3d2e5a9f
+      version: 45615a7791f201fbffdf426cb2361829744446e5
     status: maintained
   turtlebot3:
     doc:
@@ -11282,7 +11282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: 3ba87bcb89ce6fbaf5f1bf62c029bcaecc5aff2a
+      version: 78777aaa2016d74fcc288ee0a7e24daa6575e7a7
     status: unmaintained
   usb_cam_hardware:
     doc:
