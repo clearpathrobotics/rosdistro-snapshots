@@ -480,7 +480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: dab3eef66f326418ef04028936eb81fa28a3182a
+      version: 5f961942d74e2f441a51a126cb6b8eb9298ff445
     status: developed
   bno055:
     doc:
@@ -691,7 +691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 29190b4acab8c62c9e1787310674aa739f6ff93c
+      version: 7f9387ac22ba33254f078982cb66e3b550173994
     status: maintained
   cpp_polyfills:
     release:
@@ -1202,7 +1202,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: fcbc9395678740d7440bc05f986e18848bbd1e09
+      version: 3c488a2bcfa21a6cebcd1615b6a3a8d0f1608d3e
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1279,11 +1279,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/PickNikRobotics/generate_parameter_library-release.git
-      version: 0.2.7-1
+      version: 0.2.8-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: ea928e1788595a376831ee3d22a910ee573a69bf
+      version: 33caa0e83535db8cb7077e021b4d1b128bb41a24
     status: developed
   geographic_info:
     doc:
@@ -2355,7 +2355,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 8c29ad9fa3e8a1fdd8e0c8d232b9273bc5754997
+      version: abbbb9d906d21cb7fe2d3ee7c2a2a31799b9d0aa
     status: developed
   moveit_msgs:
     doc:
@@ -2951,7 +2951,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 3eecd4e37b9a4f1ca73a7cd09c0219332e7a18cb
+      version: 389297dfadb92df6b1efb53958723c40c2a4556d
     status: maintained
   performance_test:
     doc:
@@ -4085,7 +4085,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ros2/ros1_bridge.git
-      version: b9f1739fd84fc877a8ec6e5c416b65aa2d782f89
+      version: 81f8b08671c8d161a0f0482bae4580d4d01e69c9
     status: maintained
   ros2_control:
     doc:
@@ -4438,11 +4438,11 @@ repositories:
       packages:
       - mcap_vendor
       - rosbag2_storage_mcap
-      - rosbag2_storage_mcap_test_fixture_interfaces
+      - rosbag2_storage_mcap_testdata
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
-      version: 0.4.0-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
@@ -5081,7 +5081,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: ff30ea3115b7d36b1616b977ec0e31e27ae97edf
+      version: deec049e1990b90f04964eb2448cb39c8317b832
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5140,7 +5140,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 612eb3cb6bc8699c48cf49170d136dfedb469ab2
+      version: c664b8a28198aef549ae0309cb6ed3cfd63174f8
     status: developed
   rviz:
     doc:
@@ -5596,6 +5596,17 @@ repositories:
       url: https://github.com/ros2/test_interface_files.git
       version: ea7396b2c6d577f4ac9b4f856f3e7ef55e290348
     status: maintained
+  tf2_2d:
+    doc:
+      type: git
+      url: https://github.com/locusrobotics/tf2_2d.git
+      version: rolling
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/locusrobotics/tf2_2d.git
+      version: beb6a7a29fcdba7abb1540d9524e81cb9795b9ac
+    status: maintained
   tf_transformations:
     doc:
       type: git
@@ -5934,7 +5945,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: c4d1724ac32a4f0e3bcfbcfa420f82608b07b17f
+      version: 6a5b5e514976b1be7034283dbde930cf0c25048f
     status: developed
   ur_msgs:
     doc:
@@ -6262,7 +6273,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b30e03a5920b06badf8cd61131a9937c24300fc1
+      version: a0db7e6acd041a6c8b1293fd20feb9f947588336
     status: maintained
   vitis_common:
     doc:
@@ -6379,12 +6390,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2022.1.2-2
+      version: 2022.1.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: c0040a998cb6974a157c27db568d4a0757945878
+      version: 3ffa1de47c73180355a88899e81b0d59af37cd19
     status: maintained
   xacro:
     doc:
@@ -6441,7 +6452,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 6ae7447de589ebaaed0210f30343760df28101a2
+      version: 7ad67076ac341cc1ab9eff758c880d159e24e896
     status: developed
   zmqpp_vendor:
     doc:

@@ -435,7 +435,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 19b7457970d899511f6c43cb618a2b0a8c04bba6
+      version: 55763a6b7ed17c65163cbbd5a23197c44347cb80
     status: maintained
   backward_ros:
     doc:
@@ -508,7 +508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: dab3eef66f326418ef04028936eb81fa28a3182a
+      version: 5f961942d74e2f441a51a126cb6b8eb9298ff445
     status: developed
   bond_core:
     doc:
@@ -1757,12 +1757,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.17.4-1
+      version: 2.19.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-core.git
-      version: 490e3b2842a8b1c6ae6a4b4a1d21ee66fec88d96
+      version: 65cc544d29e876857d69e186b655c9ddd053d674
     status: developed
   depthai-ros:
     doc:
@@ -2573,6 +2573,16 @@ repositories:
       url: https://github.com/UbiquityRobotics/fiducials.git
       version: 6c09104dd183925549e73825d50123ba5339d258
     status: maintained
+  fields2cover_ros:
+    doc:
+      type: git
+      url: https://github.com/Fields2Cover/fields2cover_ros.git
+      version: noetic-devel
+    source:
+      type: git
+      url: https://github.com/Fields2Cover/fields2cover_ros.git
+      version: df48e5b455e56158aefb05cb2826cf45be29143b
+    status: developed
   filters:
     doc:
       type: git
@@ -4049,7 +4059,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-      version: bcbb87b1d4acaafaa4b9d0e09b6b120c04ffc980
+      version: 434d4025ea68abeb55819703e16c93d8ec0e5575
     status: developed
   jsk_common:
     doc:
@@ -5207,7 +5217,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 04417beed21986973f52885cf434938292aff5bb
+      version: 54db739f5f2c1d5005aaf58f3f8fc81f98547c73
     status: developed
   mikrotik_swos_tools:
     doc:
@@ -5435,7 +5445,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: b6bf6de9ea3ca13d1c25d96d60b2f04cbf6ffc7b
+      version: 811328b1ba700f5d2dff69afc9737ac6cab66c9b
     status: maintained
   moveit_calibration:
     doc:
@@ -8393,6 +8403,13 @@ repositories:
       url: https://github.com/robotont/robotont_description.git
       version: 39f6dc3dd452f275c8b49b64d80333336c6db584
     status: maintained
+  robotont_nuc_description:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/robotont-release/robotont_nuc_description-release.git
+      version: 0.0.2-1
+    status: maintained
   robotraconteur:
     release:
       tags:
@@ -9856,7 +9873,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 612eb3cb6bc8699c48cf49170d136dfedb469ab2
+      version: c664b8a28198aef549ae0309cb6ed3cfd63174f8
     status: developed
   rviz:
     doc:
@@ -10572,7 +10589,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: a6c62442d27ff066318d31ca1ffbca04eb3317b1
+      version: 9f8b816e7af8bbb985672997f132369621afabd0
     status: developed
   teb_local_planner:
     doc:
@@ -11476,7 +11493,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b30e03a5920b06badf8cd61131a9937c24300fc1
+      version: a0db7e6acd041a6c8b1293fd20feb9f947588336
     status: maintained
   visp_ros:
     doc:
@@ -11817,6 +11834,16 @@ repositories:
       type: git
       url: https://github.com/clearpathrobotics/wireless.git
       version: 018ed4706d02dab79108db6abc4239fb141cd21d
+    status: maintained
+  witmotion_ros:
+    doc:
+      type: git
+      url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
+      version: d5e246c08766191d72d54d177cb5765958b4887d
     status: maintained
   wu_ros_tools:
     doc:
