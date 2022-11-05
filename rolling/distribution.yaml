@@ -863,6 +863,24 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
       version: c9b5fdaabdf8429462329283e59ed0605919423d
     status: maintained
+  dynamixel_workbench:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
+      version: ros2
+    release:
+      packages:
+      - dynamixel_workbench
+      - dynamixel_workbench_toolbox
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/dynamixel_workbench-release.git
+      version: 2.2.3-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
+      version: 140ddf6566fd01d1fdbbcbd201ccc5bddfc7a907
+    status: maintained
   dynamixel_workbench_msgs:
     doc:
       type: git
@@ -1094,7 +1112,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 0eb12c15a80be4d0bf923fdf2a98ae17410b305c
+      version: 248dcff25d766a99e104a9f5e1a03b125c8cf362
     status: maintained
   filters:
     doc:
@@ -1242,7 +1260,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: 4505d7ba69ce1cbf59553d3c499b6f2447cbbbb8
+      version: aff39264567eb1a861c13bab179974940496ace6
     status: maintained
   gc_spl:
     doc:
@@ -1349,7 +1367,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 4c00e19bee00f3bfba271ab545c4c3032d5e80d5
+      version: 49d4be4e8dd08282fc3bf5238459ce41d6befe6f
     status: maintained
   geometry_tutorials:
     doc:
@@ -2273,7 +2291,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 74ccb93d0e6a6cadf62ee893d15b75013121670c
+      version: f395232bf7fec9cf3af85b42fcf65455b3dcdbf6
     status: developed
   mimick_vendor:
     doc:
@@ -2422,7 +2440,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 7e7eb2a50cb89dd35e38cad281f8ef31e1c9e1ca
+      version: 75f05332e8554cd237a4c68a3bb6db9e5b76d159
     status: developed
   mrpt_msgs:
     doc:
@@ -4025,7 +4043,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: 191ca8d09df2f35acec8c4aa98d4dafb8970a90a
+      version: 11652db13a0af843b4e6cca12659d07959a9dd24
     status: developed
   robot_calibration:
     doc:
@@ -4110,7 +4128,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: fed74a9053ebc5d509629fa15fa54cba40566986
+      version: ec2ba9100feefdfdbe6b1bb4b8ee16e06f63705b
     status: developed
   ros2_controllers:
     doc:
@@ -5165,7 +5183,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: ddfae401972daba7da64a709a128f9d2a50328c1
+      version: 8edb67482dbd96dbdb2919858bdd0dcce4d22bfb
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -5945,7 +5963,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 6a5b5e514976b1be7034283dbde930cf0c25048f
+      version: fc3444a24c873405bc6972766055bc6d9f626bfc
     status: developed
   ur_msgs:
     doc:
