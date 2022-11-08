@@ -687,7 +687,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -727,7 +727,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cyclonedds-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
@@ -805,7 +805,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 7ab0d51bda7df161dfccb78d8229e8432d15d7f8
+      version: a562d19aec0f323cf759c73aea2ee8b1e7f7f368
     status: maintained
   dolly:
     doc:
@@ -1980,7 +1980,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 723e19c5eebb9b5d2901cdb1a618b28861fc38c3
+      version: d15f22da6cfb8be8c5374a3685f3bdc6e63cb3dc
     status: developed
   launch_param_builder:
     doc:
@@ -2073,11 +2073,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libstatistics_collector-release.git
-      version: 1.2.1-1
+      version: 1.4.0-1
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: dd8fd5b3dd4a076cc066413163d433cfed02f9b3
+      version: ee7ff9bb04ca50d305c6cfaae0615b3405e1cf03
     status: developed
   libyaml_vendor:
     release:
@@ -2440,7 +2440,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 75f05332e8554cd237a4c68a3bb6db9e5b76d159
+      version: 77d2b3366475f16a6cbd0b69f651686863c6c519
     status: developed
   mrpt_msgs:
     doc:
@@ -2891,7 +2891,7 @@ repositories:
     source:
       type: git
       url: https://github.com/osrf/osrf_pycommon.git
-      version: 77cf537c71d3b8e30fca38ae47b9bd7bd1c9d552
+      version: 2a629acb4340b1383f839109956a07db6e9c8c12
     status: maintained
   osrf_testing_tools_cpp:
     doc:
@@ -2907,7 +2907,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
-      version: 330849044357701c83ce2222845e045eb3c622bf
+      version: ccfe94a685884155cb619896df1e71b8507c5c70
     status: maintained
   ouxt_common:
     doc:
@@ -3045,7 +3045,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.11-1
+      version: 2.6.12-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -3546,7 +3546,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 1ee5dff998d0e34cfbe0897b66952d5b270ada79
+      version: 67f11c7f8cb995af0a202ef8f3e252a727bcebe4
     status: maintained
   rcpputils:
     doc:
@@ -4027,7 +4027,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
-      version: 7227410139a08f42980b230a137b1257aa3b5805
+      version: 57ca7d6cc9d4c4472352546cd863ef48c1e98537
     status: developed
   rmw_implementation:
     doc:
@@ -4427,7 +4427,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 8ebf406c175fa9137b0e5ef0b48018e47574cecc
+      version: 0c7c352222a08470211232453dab9749ab405201
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -4464,7 +4464,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
-      version: 4b896fbf09a885bebf98464c0d511c4733444b80
+      version: 6b386404061317eb3ed34fc7fa8d95fe140d3159
     status: developed
   rosbridge_suite:
     doc:
@@ -5158,7 +5158,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 33eb4f3cfbf428b73354f577e0eb2bbe3b68c72e
+      version: e38016dfef98481ee53813433263ce898cb6f5a3
     status: developed
   rviz:
     doc:
@@ -5183,7 +5183,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 8edb67482dbd96dbdb2919858bdd0dcce4d22bfb
+      version: 3fccbec2b2c8152f6c942c215babb53e1ef789b8
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6470,7 +6470,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 7ad67076ac341cc1ab9eff758c880d159e24e896
+      version: caa354238e72cb851dc18f3089c645a9dbf5c5ba
     status: developed
   zmqpp_vendor:
     doc:
