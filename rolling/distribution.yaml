@@ -805,7 +805,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: a562d19aec0f323cf759c73aea2ee8b1e7f7f368
+      version: 0d2c532ff888d902e77013e2bacec57f465ba970
     status: maintained
   dolly:
     doc:
@@ -1230,7 +1230,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 3c488a2bcfa21a6cebcd1615b6a3a8d0f1608d3e
+      version: f27a0b4a23f0b3e1bebebf85c80bf9f0e5de98e0
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1377,7 +1377,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 53b782b5e873966369d6b70083fdc3e353a0ad51
+      version: 7719d6232d4bb489e5e081b909fb35ba60103cdc
     status: maintained
   geometry_tutorials:
     doc:
@@ -1721,7 +1721,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: 942199ccc906067ba7ed4ffed19e2fcd6933af0e
+      version: 4f7ce5940d0e89eea4d71f98a531d3b375285f2b
     status: maintained
   imu_tools:
     doc:
@@ -2296,7 +2296,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 2.6.0-1
+      version: 2.7.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2377,13 +2377,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/moveit/moveit2-release.git
-      version: 2.5.3-1
+      version: 2.6.0-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 86602584f8035ea38d059b03962229332b7bf93b
+      version: 19a1b2178ad5053114f9243a34f060a2c323ea71
     status: developed
   moveit_msgs:
     doc:
@@ -2450,7 +2450,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 34c9af261ccf2cfa02b073b5883e884be87d6c83
+      version: 97d17a3d6e23bbe6edc7229e2cc06abf814785ed
     status: developed
   mrpt_msgs:
     doc:
@@ -2994,7 +2994,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 9e2a1dc651af51e86feee219b36c8005baf2c17d
+      version: 9cd9c75a15ba624776c7164ac36eb2ccb27ba829
     status: maintained
   performance_test_fixture:
     release:
@@ -3192,11 +3192,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pybind11_json_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/open-rmf/pybind11_json_vendor.git
-      version: c9e37ada8be891270e23813f175b53ddc4f392a0
+      version: c9dfe2f1362d4d7920942189ec4747b1350a4954
     status: developed
   pybind11_vendor:
     doc:
@@ -3556,7 +3556,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 67f11c7f8cb995af0a202ef8f3e252a727bcebe4
+      version: c3af8a72fa1f81e5dcd384a9d2912ea244950cfb
     status: maintained
   rcpputils:
     doc:
@@ -5109,7 +5109,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: deec049e1990b90f04964eb2448cb39c8317b832
+      version: f474688fa78416d6d383965b7645ea98f1101b28
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5256,7 +5256,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver_ros2-release.git
-      version: 1.2.2-4
+      version: 1.2.3-1
     source:
       test_pull_requests: true
       type: git
@@ -5826,7 +5826,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tvm_vendor-release.git
-      version: 0.9.0-1
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/autowarefoundation/tvm_vendor.git
