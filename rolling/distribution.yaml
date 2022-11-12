@@ -480,7 +480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 5f961942d74e2f441a51a126cb6b8eb9298ff445
+      version: 9c56fd9524e82add4ed3388c87eda38fb7bd5288
     status: developed
   bno055:
     doc:
@@ -769,7 +769,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 77b758987ba3a8a386030e64f8f87c4a33ed287e
+      version: 74db664881f53b30e7531422aa13e62a38c7ea88
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1230,7 +1230,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: f27a0b4a23f0b3e1bebebf85c80bf9f0e5de98e0
+      version: 9f9395e5146e8bf0bbeedd47dc953ec974ab4187
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1311,7 +1311,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 33caa0e83535db8cb7077e021b4d1b128bb41a24
+      version: 93b8955f7595d022a03477a042c0571ea09a6d01
     status: developed
   geographic_info:
     doc:
@@ -2450,7 +2450,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 97d17a3d6e23bbe6edc7229e2cc06abf814785ed
+      version: a69b875f60d4958597000193cea1826a72f75fc4
     status: developed
   mrpt_msgs:
     doc:
@@ -2515,7 +2515,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 34ff3b6423bc2bceb2c9cac2f49668144127e69f
+      version: d6a8163874b8f349e53ef50be8e58f8ea2c7387d
     status: developed
   nao_button_sim:
     doc:
@@ -2611,7 +2611,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
-      version: b3bbc750372cf520a3724c300ea54f11cdc1af01
+      version: 80d8ab5f279425ea6e9df56bd7eae78b7042bb18
     status: developed
   nmea_hardware_interface:
     doc:
@@ -3500,6 +3500,17 @@ repositories:
       url: https://github.com/ros2/rcl_logging.git
       version: 911bbbd62b398c7dd030b5a7bcb69e55c613b119
     status: maintained
+  rcl_logging_rcutils:
+    doc:
+      type: git
+      url: https://github.com/sloretz/rcl_logging_rcutils.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/sloretz/rcl_logging_rcutils.git
+      version: a713b4347a97dd8f505950f962dc79b506b825b3
+    status: maintained
   rclc:
     doc:
       type: git
@@ -3556,7 +3567,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: c3af8a72fa1f81e5dcd384a9d2912ea244950cfb
+      version: 6acbc3f3f13300c11a647b990e18c5ed03c75641
     status: maintained
   rcpputils:
     doc:
