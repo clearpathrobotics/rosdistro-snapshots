@@ -691,7 +691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 65aa33b8d4b5be3558e2de3f9e66a98837dd1e43
+      version: 67417cbb98b09b3a641ebdf3016aeda9e91e527d
     status: maintained
   cpp_polyfills:
     release:
@@ -1311,7 +1311,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 93b8955f7595d022a03477a042c0571ea09a6d01
+      version: 44b5576a6097ec6c6b0f55b83df92e1f7fbb809e
     status: developed
   geographic_info:
     doc:
@@ -1674,7 +1674,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 7e132a3211e5a86d05eb0949b7a3bd8cc544c2cd
+      version: 2edae7c4c8de390ded151a94b094a1746d84b86d
     status: maintained
   image_pipeline:
     doc:
@@ -1990,7 +1990,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 352738cb98bfcc7f92a86155ba5057d83001c67f
+      version: 8869d81a572c654a66bea32a23482ce4b2709ee6
     status: developed
   launch_param_builder:
     doc:
@@ -2383,7 +2383,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 19a1b2178ad5053114f9243a34f060a2c323ea71
+      version: 47180f51e44746370a8055577c877b2652973f16
     status: developed
   moveit_msgs:
     doc:
@@ -2446,7 +2446,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.4-1
+      version: 2.5.6-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -2515,7 +2515,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: d6a8163874b8f349e53ef50be8e58f8ea2c7387d
+      version: 9894a37b5944fc8c51cca0e7342fe3c41de4455c
     status: developed
   nao_button_sim:
     doc:
@@ -2607,7 +2607,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -3059,7 +3059,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: c0e7066c86018516abd08332966bc592fb68b0fb
+      version: ae0525eaf4508e49047216ccc092cadce0dafc91
     status: developed
   plotjuggler:
     doc:
@@ -3567,7 +3567,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: d2901dded38267b59b6d492cb64425c5bcacf650
+      version: e442ad2278687a2d5994e580309fe31a435b6421
     status: maintained
   rcpputils:
     doc:
@@ -3757,7 +3757,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 7c6cef418393db843444d661869a10a096ca9448
+      version: 459919bb8617a8344a7d456c3c054baca6b39b68
     status: developed
   rmf_internal_msgs:
     doc:
@@ -3785,7 +3785,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: 229481160cd7268864478979c6e486610c50c12c
+      version: cd497dc65cfcc91d8f10d788b3df98dcde45b821
     status: developed
   rmf_ros2:
     doc:
@@ -3806,7 +3806,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 6193007acdb9c7290f1fcb587beb84457ccd6c32
+      version: 3dbbed6827db0aaab5f696de9c8302dbccb1a3e1
     status: developed
   rmf_simulation:
     doc:
@@ -3828,7 +3828,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: b6300344756ae3cc667a90f7638f0f693a4bf38b
+      version: bc0cf132e5ea7144374c264590ae735407992958
     status: developed
   rmf_task:
     doc:
@@ -3842,11 +3842,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: 99ec3bf8fff2f6ef287a1ecdddfff157e055136c
+      version: 9dd06f02f4e1222d84796b20867539406b48066f
     status: developed
   rmf_traffic:
     doc:
@@ -3884,7 +3884,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 690ae9571bd6762235892eff2f42669797eb67ce
+      version: 45ce27530dbe661ed456e21a230760707f7acafd
     status: developed
   rmf_utils:
     doc:
@@ -3923,7 +3923,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
-      version: 191d702dde6f25b553ce35a6a5adcfa58933435d
+      version: 776c60c4b31d06472151aeaf20e5d75947a18dfc
     status: developed
   rmf_visualization_msgs:
     doc:
@@ -4697,12 +4697,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rospy_message_converter-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/uos/rospy_message_converter.git
-      version: 29b1c677a72dd66a50d23f75a7170ddab7c67de9
+      version: bcce27e2af48810e33bbb7e3368b65763e49d08b
     status: maintained
   rot_conv_lib:
     release:
@@ -5120,7 +5120,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: f474688fa78416d6d383965b7645ea98f1101b28
+      version: 7a79ba41a740c3d7659cb6a70a851623d2309618
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5164,7 +5164,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/nobleo/rtcm_msgs-release.git
-      version: 1.1.4-1
+      version: 1.1.6-1
     source:
       type: git
       url: https://github.com/tilk/rtcm_msgs.git
@@ -6491,7 +6491,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 40bebbffb553f2a04757432c8ee4b4f9ce3102c9
+      version: 11212d6b5e20947d643ab5547b0c1ef0c09c5323
     status: developed
   zmqpp_vendor:
     doc:
