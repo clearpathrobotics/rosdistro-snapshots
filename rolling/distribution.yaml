@@ -26,7 +26,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robosoft-ai/SMACC2.git
-      version: ac252e4c672df8ceea30aab8fe9cc758551c35ff
+      version: 5c6dea5abba304c03d13b56042067d68a13475ba
     status: developed
   acado_vendor:
     release:
@@ -517,7 +517,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/bond_core.git
-      version: ad4a49c124fb4c6f23c3e0d2ca0264ebfacd3eee
+      version: 3a542ab6b2c181b6a8e177e3bf80d58de7e119a9
     status: maintained
   boost_geometry_util:
     doc:
@@ -844,14 +844,14 @@ repositories:
       url: https://github.com/ros2/domain_bridge.git
       version: 6776de29838db5a9a73763d1590d27db3909225c
     status: developed
-  dynamixel_control:
+  dynamixel_hardware:
     doc:
       type: git
-      url: https://github.com/youtalk/dynamixel_control.git
+      url: https://github.com/dynamixel-community/dynamixel_hardware.git
       version: rolling
     source:
       type: git
-      url: https://github.com/youtalk/dynamixel_control.git
+      url: https://github.com/dynamixel-community/dynamixel_hardware.git
       version: e40b91d48f5f6495ec907a7bb446328116e2e2f3
     status: developed
   dynamixel_sdk:
@@ -1215,11 +1215,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 0dd7300da0aa22e451653ba6da6ba7f360510c9f
+      version: 51bdcaf53daa50113355022efa8026995dc3b16a
     status: maintained
   fuse:
     doc:
@@ -1669,7 +1669,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 4.1.0-1
+      version: 4.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2247,7 +2247,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: e92d36db50514e27c2799c0660ae5f701f308e89
+      version: 0b325d6a502f78069267d18f1f66fa052e262f8b
     status: maintained
   micro_ros_diagnostics:
     doc:
@@ -2383,7 +2383,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: b6fcac8055f54012dd9e698be6e06f70613a5abf
+      version: 99a4a43584da3ece7d7d19cb20ba0f0db9688e00
     status: developed
   moveit_msgs:
     doc:
@@ -2450,7 +2450,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 9aed566921fbc7ba1f1606cfcce1b7b659e0ce2e
+      version: 4973c21f1c2cced0a28061e0e793fa57082ee154
     status: developed
   mrpt_msgs:
     doc:
@@ -2581,7 +2581,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-planning/navigation_msgs.git
-      version: 95f1e5a949a45c5afafe817d1d50524cc518ed28
+      version: 2b92f9ffa2f18d609145964f539c720f83acde80
     status: maintained
   neo_simulation2:
     doc:
@@ -2979,7 +2979,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 389297dfadb92df6b1efb53958723c40c2a4556d
+      version: 7c6a2a5a38709fe9aa31acdb443d7490f78f8cfe
     status: maintained
   performance_test:
     doc:
@@ -3493,12 +3493,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 2.4.2-1
+      version: 2.4.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_logging.git
-      version: 0997e5db650db6c375b1554ba53dbfa0aa423be7
+      version: d76b545f881552a6d9b8563c5fd20d73545ddffa
     status: maintained
   rcl_logging_rcutils:
     doc:
@@ -4064,7 +4064,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: 11652db13a0af843b4e6cca12659d07959a9dd24
+      version: 68faf3708b8dbda4577b8a4805e9e630c3d899ea
     status: developed
   robot_calibration:
     doc:
@@ -4158,6 +4158,7 @@ repositories:
       version: master
     release:
       packages:
+      - admittance_controller
       - diff_drive_controller
       - effort_controllers
       - force_torque_sensor_broadcaster
@@ -4175,7 +4176,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.13.0-1
+      version: 2.14.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -4429,11 +4430,13 @@ repositories:
       - rosbag2_compression
       - rosbag2_compression_zstd
       - rosbag2_cpp
+      - rosbag2_examples_cpp
       - rosbag2_interfaces
       - rosbag2_performance_benchmarking
       - rosbag2_py
       - rosbag2_storage
       - rosbag2_storage_default_plugins
+      - rosbag2_storage_sqlite3
       - rosbag2_test_common
       - rosbag2_tests
       - rosbag2_transport
@@ -4443,7 +4446,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.17.0-2
+      version: 0.18.0-3
     source:
       test_pull_requests: true
       type: git
@@ -4485,7 +4488,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
-      version: 17c8db3d89bf10f2a206cfe2d2be9d9d2338e7e4
+      version: dfc25c55bfa170ce4a71a8c89d453709971cae6d
     status: developed
   rosbridge_suite:
     doc:
@@ -6206,7 +6209,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/variants.git
-      version: 744efb3c828f27253cea4172fbd0a8f4240182c8
+      version: 584545febea0aa5afa0db5c73a936b8a7defbba1
     status: maintained
   velodyne:
     doc:
@@ -6429,12 +6432,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2022.1.3-1
+      version: 2022.1.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 0b62dc3bbcc168890f59fc00478bfda42c6c5a68
+      version: 1cc1c68a31762d6a2628a2be9f1de5dfbf2353cf
     status: maintained
   xacro:
     doc:

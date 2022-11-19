@@ -167,7 +167,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag_ros.git
-      version: 0da016c9ebe5da2ddd2229da691235d52e777dcd
+      version: e4ad5f9c178d1e81cfa97d44299ceb7b5e816034
     status: maintained
   arbotix:
     doc:
@@ -435,7 +435,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 285bfc9cafd5807cf74c220ba5afb15492357bc8
+      version: c101e787e1e551a00c2375e8eed2132d779b96e7
     status: maintained
   backward_ros:
     doc:
@@ -935,7 +935,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_calibration_data-release.git
-      version: 0.6.17-1
+      version: 0.6.18-1
     source:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
@@ -962,7 +962,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.29-1
+      version: 0.6.30-2
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1017,7 +1017,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.19-1
+      version: 0.8.20-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1053,7 +1053,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.7.13-1
+      version: 0.7.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -1223,7 +1223,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.7.7-1
+      version: 0.7.8-1
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1281,7 +1281,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_supported_robots-release.git
-      version: 0.6.16-1
+      version: 0.6.17-1
     source:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
@@ -2763,11 +2763,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_msgs-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 0dd7300da0aa22e451653ba6da6ba7f360510c9f
+      version: 51bdcaf53daa50113355022efa8026995dc3b16a
     status: developed
   frame_editor:
     doc:
@@ -3078,7 +3078,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry2.git
-      version: 382e5ca5ff5395e68cd39b37b3a7527a739b4843
+      version: 2efd59d134d96f8e73f4a4bdb77a2c08a227057e
     status: maintained
   geometry_tutorials:
     doc:
@@ -3930,7 +3930,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.8.4-1
+      version: 0.8.6-1
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -5258,7 +5258,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/dfki-ric/mir_robot.git
-      version: 9f69ea6b7f36d037dbb4b072924e2ec02bbb8c70
+      version: 78c3b90b0b4ec30965de3477a7d08f0ffd4ea816
     status: developed
   mitch_v2_driver:
     doc:
@@ -5474,11 +5474,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.11.3-1
+      version: 0.11.4-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
-      version: 2b9c921f0e519704f898ebaec1663a4dd25b5203
+      version: cfb7ae84119ff0bb9f88e9c8185ab96c05729d88
     status: maintained
   moveit_opw_kinematics_plugin:
     release:
@@ -5640,7 +5640,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 9aed566921fbc7ba1f1606cfcce1b7b659e0ce2e
+      version: 4973c21f1c2cced0a28061e0e793fa57082ee154
     status: developed
   mrpt_msgs:
     doc:
@@ -7702,7 +7702,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: e4a71982d9c708d8cd42d52959bd9f845d5d461b
+      version: 8d30fc9c3c36ac66bf3d027aaad7adff973f628f
     status: developed
   qt_gui_core:
     doc:
@@ -8402,6 +8402,28 @@ repositories:
       type: git
       url: https://github.com/robotont/robotont_description.git
       version: 39f6dc3dd452f275c8b49b64d80333336c6db584
+    status: maintained
+  robotont_gazebo:
+    doc:
+      type: git
+      url: https://github.com/robotont/robotont_gazebo.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/robotont-release/robotont_gazebo-release.git
+      version: 0.0.2-2
+    status: maintained
+  robotont_msgs:
+    doc:
+      type: git
+      url: https://github.com/robotont/robotont_msgs.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/robotont-release/robotont_msgs-release.git
+      version: 0.0.2-2
     status: maintained
   robotont_nuc_description:
     release:
@@ -10276,7 +10298,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robosoft-ai/smacc.git
-      version: 611fde2c422d23f42f798d8aeea9a796bce42eb4
+      version: 5f3b8d0c92fcade36a7ecbafb6d6bc33f7dd36bf
     status: developed
   snmp_ros:
     doc:
@@ -10870,7 +10892,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 45615a7791f201fbffdf426cb2361829744446e5
+      version: c76f113826ac0653efddb673f47b471286865c41
     status: maintained
   turtlebot3:
     doc:
@@ -11518,7 +11540,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/vision_visp.git
-      version: 3a7327b570129da47feb24620690799de5ace41d
+      version: 560e53c735cf71cd5b5db505ac1554480fde5656
     status: maintained
   visp:
     doc:
@@ -11883,7 +11905,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
-      version: 12b88d48620ddcb61485c513bf4c75f79ae281e0
+      version: f65b88054ee5ce191c002a1dae470e62fa7dc9b3
     status: maintained
   wu_ros_tools:
     doc:
