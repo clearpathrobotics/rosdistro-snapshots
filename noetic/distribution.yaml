@@ -508,7 +508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 89769b59b5428bb4fb704bd56c1e33ce4bd61d4f
+      version: e6ed709836b471cb7a163ce8edf6afc0b91192f1
     status: developed
   bond_core:
     doc:
@@ -1856,11 +1856,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo-release.git
-      version: 0.1.10-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo.git
-      version: 1d5daed95a943729c5bf777db5ea36b7e230276a
+      version: 84fca4abd59181704a35a7d6d6569c2ac4453de2
     status: maintained
   dingo_desktop:
     doc:
@@ -1955,7 +1955,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph.git
-      version: 2e7a70d5522d74c40e3f75540ca800564a48119e
+      version: 996881b7dc2b175ee0458f4e38367b335a615c2c
     status: maintained
   dynamic-graph-python:
     doc:
@@ -1971,7 +1971,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph-python.git
-      version: e43b664b8ffce1290fe5803a57709998f40076b7
+      version: df0ae1fa310033e8bdc65cc1bf61f3bfd900793a
     status: maintained
   dynamic-graph-tutorial:
     doc:
@@ -1987,7 +1987,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph-tutorial.git
-      version: 8b7f30d50545098792ad09c9df8a47e851a61205
+      version: a88426162229003d243d9dbfc409781be24527c3
     status: maintained
   dynamic_reconfigure:
     doc:
@@ -2231,7 +2231,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: 104fc9234de1f1be8af3b311f1c39574d4c046ff
+      version: 63f0649ece3d1960f71dbe3af08ba2435c8013d4
     status: maintained
   eml:
     release:
@@ -2737,7 +2737,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
-      version: ed8235c22f04512751ef7e31c2ef200d292722e6
+      version: fd48aff7ce8a0d3463afc69457cbb50aa50a0d46
     status: maintained
   four_wheel_steering_msgs:
     doc:
@@ -2754,6 +2754,20 @@ repositories:
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
       version: 1bcea815f85efbfadfac41518de5f741d2c258d4
     status: maintained
+  foxglove_bridge:
+    doc:
+      type: git
+      url: https://github.com/foxglove/ros-foxglove-bridge.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/foxglove/ros_foxglove_bridge-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/foxglove/ros-foxglove-bridge.git
+      version: 8c32ee7d8c697c2eea7ca9f8af6f81f3486c49c2
   foxglove_msgs:
     doc:
       type: git
@@ -2870,7 +2884,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: 793eddea7a6a43bc4823e5e4bacab1c39e8fd6e7
+      version: 8583aec91f8dafdf5f1607e582398514d4fc0299
     status: maintained
   gazebo_video_monitors:
     doc:
@@ -3078,7 +3092,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry2.git
-      version: 2efd59d134d96f8e73f4a4bdb77a2c08a227057e
+      version: c92cd9a9073c255388599495d2f86799ecafa1bb
     status: maintained
   geometry_tutorials:
     doc:
@@ -3690,11 +3704,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/imu_pipeline-release.git
-      version: 0.3.0-2
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/ros-perception/imu_pipeline.git
-      version: 775b00f38530d929e5d411f1449bfb70449b79f2
+      version: 073f76055ed4eb322aebc07a61315c5306cd737f
     status: maintained
   imu_tools:
     doc:
@@ -4534,11 +4548,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_examples-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_examples.git
-      version: cbf973de619bfca141382193d2ff19818004f88b
+      version: ea3503d03ff13859fd36aca0ccbd11a72c1a675d
     status: maintained
   leo_robot:
     doc:
@@ -4871,7 +4885,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: aa1f2869f4aafab709c4b4d63b2dc8c6591240e0
+      version: 20cac97b53a432af0d4b5cde6962aef83ef6338e
     status: maintained
   mapviz:
     doc:
@@ -5640,7 +5654,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: eb6a86cf109f9cbfc053aa83c351dddfa90f484d
+      version: 64520f8dc590434eb05847385644810bf6a9ec87
     status: developed
   mrpt_msgs:
     doc:
@@ -5983,7 +5997,7 @@ repositories:
     source:
       type: git
       url: https://github.com/neobotix/neo_local_planner.git
-      version: 18b5396c9cead1f1a0ea4f975e956e493c8c4e62
+      version: d7dec8d486773d42b2062881b7271f4c1d4a9fdd
     status: maintained
   neonavigation:
     doc:
@@ -6479,7 +6493,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rpng/open_vins.git
-      version: 38610105652a7bc9843f3fb35c7b93a528725680
+      version: c3259430f0574c2911ff8e6ce888f6a1fcff5928
   opencv_apps:
     doc:
       type: git
@@ -8515,7 +8529,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
-      version: d86360e60fc751557c98fc475425f718df5a9331
+      version: 21a98882c0515b9ef38c22566b90bbd6daa9a2bc
     status: maintained
   ros_comm:
     doc:
@@ -8552,7 +8566,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: dd78ac8af128bb8eb992d6431bb9f994658ea6ab
+      version: 5edee4e37a9a41493885032e345743b6daac27e7
     status: maintained
   ros_comm_msgs:
     doc:
@@ -10298,7 +10312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robosoft-ai/smacc.git
-      version: e564ae29259c5d788b2af5ae9f124d5524bb821e
+      version: 0010de75aa6951919d40bf830e789e7df72fed2a
     status: developed
   snmp_ros:
     doc:
@@ -10389,7 +10403,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/sot-core.git
-      version: ac0fb50e71c50b97c5f5a47733ddfe9b9970eb1c
+      version: 4a034f34e76cff371d6940c6f98eb7ac7abef5f8
     status: maintained
   sot-dynamic-pinocchio:
     doc:
@@ -10404,7 +10418,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-dynamic-pinocchio.git
-      version: 073699c0ba42b13646ff216ae1f9e869d91aa24f
+      version: 4eb3401a4785cbaa65d121d22c7a5ad2ed5c508a
     status: maintained
   sot-tools:
     doc:
@@ -10419,7 +10433,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-tools.git
-      version: f94949f20cfed165c2a03c02d7ceb22666293edb
+      version: 424c1ad0b896b3d9234a1285c666e743971ae781
     status: maintained
   sparse_bundle_adjustment:
     doc:
@@ -10892,7 +10906,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: bb84ff8b09103830144c518ce2ace77dc33c9789
+      version: 1b10dd1113c0c94f63b33f6130bcf86b3dc0dee6
     status: maintained
   turtlebot3:
     doc:
@@ -11361,7 +11375,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: ed7904823eb7a71cff9749087cbc51950d416556
+      version: 1e2b13f43b7b3aae997de6c7ff769f7242f319d9
     status: maintained
   usb_cam_hardware:
     doc:
