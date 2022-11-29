@@ -222,7 +222,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/pal-gbp/aruco_ros-release.git
-      version: 3.1.2-1
+      version: 3.1.3-1
     source:
       type: git
       url: https://github.com/pal-robotics/aruco_ros.git
@@ -504,7 +504,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 3.8.0-1
+      version: 3.8.1-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -1513,7 +1513,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.0.5-1
+      version: 2.0.10-2
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
@@ -1674,7 +1674,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_fca_ros.git
-      version: e812483192c7e6d3b7b40ba15bcf4d1d6d5a86c9
+      version: 6884d232b3df27ebb29eb09637840c75a2c1400b
     status: developed
   dbw_mkz_ros:
     doc:
@@ -1695,7 +1695,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
-      version: 27ca2ed2e1c7d658cbf4a0e72632b752b43ab30f
+      version: bc2c1b884ad75e99042ef154207192436042876b
     status: developed
   dbw_polaris_ros:
     doc:
@@ -1716,7 +1716,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_polaris_ros.git
-      version: e206c9a1691892aa084af422e0726306073ac16e
+      version: 1a9dbcefd557a3ccdce805c671bf1749b54c1282
     status: developed
   ddynamic_reconfigure:
     doc:
@@ -1757,12 +1757,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.19.0-1
+      version: 2.19.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-core.git
-      version: 65cc544d29e876857d69e186b655c9ddd053d674
+      version: 46de84bd0285dc0e1406f7d393dec0c991ab2267
     status: developed
   depthai-ros:
     doc:
@@ -1783,7 +1783,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 907632904da82213fddecdba587d524318459b93
+      version: 1c7875e28ad609cc0fb1bc092410dbe02c620a9b
     status: developed
   depthimage_to_laserscan:
     release:
@@ -2581,7 +2581,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover_ros.git
-      version: 06fab7172823af625fdcea01c7e4919d98cc4fc9
+      version: 9d367d0dec815cc5c6bda15763a25de7469eddd1
     status: developed
   filters:
     doc:
@@ -2767,7 +2767,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 9be5c1441e4b39e4c30f60b839be27b2c48f5889
+      version: ab32066b9b1427fb00490a73ee03b1345a111981
   foxglove_msgs:
     doc:
       type: git
@@ -3182,7 +3182,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
-      version: 5cdab23fbdf2e9339e6fc1a282e8507c27d05042
+      version: 9509b09393d05ff13d9cf9fba1e2b88233821a65
     status: maintained
   graceful_controller:
     doc:
@@ -3479,7 +3479,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: b1bdaa238df289193add7c7c7af48b81d5be0640
+      version: 5ce8b9aae74e6f335ae289d5022773e8341d4524
     status: maintained
   hri_msgs:
     doc:
@@ -3544,7 +3544,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/husky-release.git
-      version: 0.6.4-2
+      version: 0.6.5-1
     source:
       type: git
       url: https://github.com/husky/husky.git
@@ -4885,7 +4885,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 20cac97b53a432af0d4b5cde6962aef83ef6338e
+      version: b625fe721c8ab32e6454cea5856da73fce3708be
     status: maintained
   mapviz:
     doc:
@@ -5650,11 +5650,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.5.6-1
+      version: 2.5.7-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 08e89a3bf3a0c8d80f818d842da3aebeba72d8aa
+      version: c5e5480826c50745f1974e6b565f90176858fed3
     status: developed
   mrpt_msgs:
     doc:
@@ -6841,7 +6841,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PepperlFuchs/pf_lidar_ros_driver.git
-      version: b07c6170d7112aa5923bb9b1e47c09f865e00e4d
+      version: fc9a38b7348f6979800ee33969c6e7cf1365b34a
     status: developed
   phidgets_drivers:
     doc:
@@ -7006,7 +7006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 50994bb00b8eb27cc0ce8302a04b7dabb746d333
+      version: f2c086dbdb748666f28215db11ed39e3332af419
     status: developed
   plotjuggler:
     doc:
@@ -9359,7 +9359,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
-      version: 4ee6473bda6279eb3b04c66a2d6ac8ac50d784d4
+      version: b89e918e660b65cbbcc98b8d6401f711b0dcc6c7
     status: unmaintained
   rqt_console:
     doc:
@@ -10312,7 +10312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robosoft-ai/smacc.git
-      version: 1afa75e6ad3838fdb2a3bf973ea945b6f77e4499
+      version: 277d340a8284f97c5ce30250204805c392c6cab1
     status: developed
   snmp_ros:
     doc:
@@ -11919,7 +11919,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
-      version: fe3d78850eebb4e477fce4448c67c9135fa472ec
+      version: 992c5d879eeb8fe6c38a151e2c465fd612c3902a
     status: maintained
   wu_ros_tools:
     doc:

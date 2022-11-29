@@ -26,7 +26,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robosoft-ai/SMACC2.git
-      version: 5c6dea5abba304c03d13b56042067d68a13475ba
+      version: master
     status: developed
   acado_vendor:
     release:
@@ -187,7 +187,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_index.git
-      version: 23da167ecf3890d52684fa52c8f1effac2ef0108
+      version: 9b3e033059aaea713d9da4d686b217d83293ebcc
     status: maintained
   ament_lint:
     doc:
@@ -262,7 +262,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_package.git
-      version: 122af3e498dc7387639af0a2e745f49f3160f6e2
+      version: ff6bebb0f00add20d0776ad1ef586565ef8b932c
     status: developed
   ament_vitis:
     doc:
@@ -1116,7 +1116,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.8.0-1
+      version: 2.8.1-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -1219,7 +1219,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 9be5c1441e4b39e4c30f60b839be27b2c48f5889
+      version: ab32066b9b1427fb00490a73ee03b1345a111981
     status: developed
   foxglove_msgs:
     doc:
@@ -1577,7 +1577,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: b1bdaa238df289193add7c7c7af48b81d5be0640
+      version: 5ce8b9aae74e6f335ae289d5022773e8341d4524
     status: developed
   iceoryx:
     release:
@@ -1773,7 +1773,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: 993c2b4424c5bf3ef9e829d37c3585fd291b8fd7
+      version: 150012af974b46baa3ad3d3d292621b96921b3cf
     status: maintained
   joint_state_publisher:
     doc:
@@ -2398,7 +2398,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 3bb078d5b67e844f98036cf367a615f1157185a0
+      version: 8dcbe40e1e169225b935f7c9fcc552768d7c86b0
     status: developed
   moveit_msgs:
     doc:
@@ -2461,11 +2461,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.6-1
+      version: 2.5.7-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 08e89a3bf3a0c8d80f818d842da3aebeba72d8aa
+      version: c5e5480826c50745f1974e6b565f90176858fed3
     status: developed
   mrpt_msgs:
     doc:
@@ -2622,7 +2622,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
-      version: 0.2.3-1
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
@@ -3009,7 +3009,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: a9cc7ee42584e92e81caa4fab2aa4c53bb0f31c7
+      version: f32e71ed107d37adf4f2994e5daff0eda7d70181
     status: maintained
   performance_test_fixture:
     release:
@@ -3074,7 +3074,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 50994bb00b8eb27cc0ce8302a04b7dabb746d333
+      version: f2c086dbdb748666f28215db11ed39e3332af419
     status: developed
   plotjuggler:
     doc:
@@ -3258,7 +3258,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: 0fe281cf56b7f1f43966ecd0cc91a9aba23464a6
+      version: db96c09268474bc0142cca94f59ed4e68cb86a5e
     status: maintained
   qpoases_vendor:
     release:
@@ -3468,7 +3468,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: e4f7e1367dfda83d3e309397f9201642ebe38618
+      version: 94f767bac3299ccb51c1026304efc86c771e4f0d
     status: maintained
   rcl_interfaces:
     doc:
@@ -4156,11 +4156,12 @@ repositories:
       - ros2_control
       - ros2_control_test_assets
       - ros2controlcli
+      - rqt_controller_manager
       - transmission_interface
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.3.0-1
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5138,7 +5139,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: c8332f5c126d8b9b718ca831f13e7526d33e3eee
+      version: aaa421111b57d0201d4061e3448e65411cc5e5d5
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5584,7 +5585,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_tools-release.git
-      version: 1.2.1-2
+      version: 1.3.0-2
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
@@ -5987,7 +5988,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f365f5a9a0a5a84c698184d2c6b94a3af7fcba2f
+      version: de414acb3d3bbf8203491f28aad3de44f7361519
     status: developed
   ur_description:
     doc:
@@ -6040,7 +6041,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: d7743035a1c1e0814b288f033d623c89216cc92d
+      version: a28dd99b6d6034ef8e7c7930427a0679ec02baca
     status: developed
   urdf:
     doc:
@@ -6077,7 +6078,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_parser_py.git
-      version: a761315753b6934e596696cb1ccf336ae2153ce7
+      version: 94ff6d224f96dd789f915c37d87b0d72f2b4f6fb
     status: maintained
   urdf_tutorial:
     doc:
