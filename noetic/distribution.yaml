@@ -435,7 +435,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: c101e787e1e551a00c2375e8eed2132d779b96e7
+      version: ce6bf3b0ae3e121b6a32c5941d906fd7794389cf
     status: maintained
   backward_ros:
     doc:
@@ -508,7 +508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 0dd404b29c6a8e545ed60330577c39225ff4b3a4
+      version: dfc1a1eaa2af7efa4bd0b974c1960e89651eb9f9
     status: developed
   bond_core:
     doc:
@@ -1180,7 +1180,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_navigation.git
-      version: e25ea25915435a5cf3a003f3ecdffc2e1d09b67c
+      version: 2a4e4a55f730c72dc1a424f85d821e49c351be2f
     status: maintained
   cob_perception_common:
     doc:
@@ -1649,7 +1649,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dataspeed_ulc_ros-release.git
-      version: 0.0.5-2
+      version: 0.1.0-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dataspeed_ulc_ros.git
@@ -1670,7 +1670,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
-      version: 1.2.1-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_fca_ros.git
@@ -1691,7 +1691,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
-      version: 1.4.1-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
@@ -1712,7 +1712,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_polaris_ros-release.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_polaris_ros.git
@@ -2767,7 +2767,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: a4348ca72e1da387c2b9a4efec432f0e1da0d688
+      version: daf910494a5d2e2c054e03c697633cc8225ea7fd
   foxglove_msgs:
     doc:
       type: git
@@ -2777,7 +2777,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_msgs-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -3177,7 +3177,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/gps_umd-release.git
-      version: 0.3.2-1
+      version: 0.3.3-1
     source:
       test_pull_requests: true
       type: git
@@ -5231,7 +5231,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: d54b754bb4ce450b88dbccba8ab9db5e354d11cd
+      version: 991de7193201b571cb2954d3b8b70dcb342ec380
     status: developed
   mikrotik_swos_tools:
     doc:
@@ -5654,7 +5654,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: c5e5480826c50745f1974e6b565f90176858fed3
+      version: 7ab7c9edcf1da94f219ec9b4a5d4e7d5362ad963
     status: developed
   mrpt_msgs:
     doc:
@@ -6869,12 +6869,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: fda20e7139d522c32736bbb3d9865d6378f0b8ac
+      version: a0d1ac9258eca9fa95c02daa1eb69f0975504597
     status: developed
   picovoice-ros:
     doc:
@@ -7021,7 +7021,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: b48212d9ae597cdee113cf29fb20d0407ccfbebc
+      version: f9e0ba98bf44f4411f4a59d71ab032c64a1a443a
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -8153,10 +8153,11 @@ repositories:
       - rm_gazebo
       - rm_hw
       - rm_msgs
+      - rm_referee
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_control-release.git
-      version: 0.1.15-1
+      version: 0.1.16-1
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
@@ -8187,7 +8188,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: 351e4b7de3cfec491fd145f286239ad9cf0a71d9
+      version: 9c8058bfcd526c70568ef094e92256d6e22a1cec
     status: developed
   rm_description:
     doc:
@@ -9422,6 +9423,20 @@ repositories:
       url: https://github.com/ros-visualization/rqt_graph.git
       version: 60e4fa87e8490e71e3dc4a953b2c28914867aaec
     status: maintained
+  rqt_human_radar:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/rqt_human_radar.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros4hri/rqt_human_radar-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/rqt_human_radar.git
+      version: 17ae98b9f3e0cc75a633f446a4d75da20b0ca2c2
   rqt_image_view:
     doc:
       type: git
@@ -10312,7 +10327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robosoft-ai/smacc.git
-      version: 1d4349c2e44e168817e7ed39a0fca5836323cd1a
+      version: 616ab1c65074e9422a0349b25ba68d8a8203e1ea
     status: developed
   snmp_ros:
     doc:
@@ -11211,16 +11226,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: boost
+      version: master
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library-release.git
-      version: 0.4.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: bbbae030125dd178a6ee3499a3c8c483e560ad7e
+      version: 09adab9aea47c6e660d9bf18db5f69765dd2fa4d
     status: developed
   ur_msgs:
     doc:
@@ -11840,7 +11855,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/cyberbotics/webots_ros-release.git
-      version: 2022.1.0-1
+      version: 2023.0.0-1
     source:
       type: git
       url: https://github.com/cyberbotics/webots_ros.git

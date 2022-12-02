@@ -480,7 +480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 0dd404b29c6a8e545ed60330577c39225ff4b3a4
+      version: dfc1a1eaa2af7efa4bd0b974c1960e89651eb9f9
     status: developed
   bno055:
     doc:
@@ -849,6 +849,11 @@ repositories:
       type: git
       url: https://github.com/dynamixel-community/dynamixel_hardware.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/dynamixel_hardware-release.git
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/dynamixel-community/dynamixel_hardware.git
@@ -1219,7 +1224,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: a4348ca72e1da387c2b9a4efec432f0e1da0d688
+      version: daf910494a5d2e2c054e03c697633cc8225ea7fd
     status: developed
   foxglove_msgs:
     doc:
@@ -1245,7 +1250,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: df291bd5099ae0f2c63ae9e87f40a6102bafdf65
+      version: 046368ce060aa9cbb4b883d6ee31564451d87403
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -2316,7 +2321,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: dffbdb75cb901fa771e031e15ae494594a9ef52d
+      version: ea8433b9d87485f6a7e87184e605061fadafdf74
     status: developed
   mimick_vendor:
     doc:
@@ -2398,7 +2403,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 50b03a1674537613e2b6f26a220e78d8572f0216
+      version: bf0496f09799c26b0b07e9858ebefac7ad5398dc
     status: developed
   moveit_msgs:
     doc:
@@ -2465,7 +2470,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: c5e5480826c50745f1974e6b565f90176858fed3
+      version: 7ab7c9edcf1da94f219ec9b4a5d4e7d5362ad963
     status: developed
   mrpt_msgs:
     doc:
@@ -3089,7 +3094,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: b48212d9ae597cdee113cf29fb20d0407ccfbebc
+      version: f9e0ba98bf44f4411f4a59d71ab032c64a1a443a
     status: developed
   plotjuggler_msgs:
     doc:
@@ -3566,7 +3571,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: a00ef22d6d3a5b3ce67c60459642665e2fdcd914
+      version: 66b19448b0520b15a9e6c28483863b2a4351c2f6
     status: maintained
   rclpy:
     doc:
@@ -3582,7 +3587,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 98ab706e86916bc47c3078f998b72d07a76ed1bb
+      version: fe0d32af3a668c9641af1350075249238216905d
     status: maintained
   rcpputils:
     doc:
@@ -4054,12 +4059,12 @@ repositories:
       version: master
     release:
       packages:
+      - gurumdds_cmake_module
       - rmw_gurumdds_cpp
-      - rmw_gurumdds_shared_cpp
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
-      version: 4.0.0-1
+      version: 4.1.2-1
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
@@ -5967,7 +5972,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.2.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
@@ -6417,7 +6422,6 @@ repositories:
       packages:
       - webots_ros2
       - webots_ros2_control
-      - webots_ros2_core
       - webots_ros2_driver
       - webots_ros2_epuck
       - webots_ros2_importer
@@ -6431,12 +6435,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2022.1.4-1
+      version: 2023.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 564ba94b44f53ba0b688a340dcaf26d6d954250e
+      version: 324046fa7e42064e81066faac4da8bc0fe5f5deb
     status: maintained
   xacro:
     doc:
