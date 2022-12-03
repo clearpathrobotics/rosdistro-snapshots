@@ -1127,7 +1127,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: d3499601517e4723546f9b0980288014ced4e23e
+      version: 6de984284025573ffa8155931178c7f8af8709a5
     status: maintained
   filters:
     doc:
@@ -1220,11 +1220,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.1.0-1
+      version: 0.2.0-2
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: daf910494a5d2e2c054e03c697633cc8225ea7fd
+      version: d646ac025bd0c71aaa0d0a2f71b493dcccee5eba
     status: developed
   foxglove_msgs:
     doc:
@@ -2010,7 +2010,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 6783ca8988b3ee1910e3eb6de7388407c8c0ce0d
+      version: 7694235bbf00f19dafd7251f6954f7f14606ab4c
     status: developed
   launch_param_builder:
     doc:
@@ -2321,7 +2321,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: ea8433b9d87485f6a7e87184e605061fadafdf74
+      version: d160133a07bcbaf73612faef70488003c2be33df
     status: developed
   mimick_vendor:
     doc:
@@ -2403,7 +2403,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: bf0496f09799c26b0b07e9858ebefac7ad5398dc
+      version: f0d3202d637569ccac5fcc357a37e0d12a077c87
     status: developed
   moveit_msgs:
     doc:
@@ -3587,7 +3587,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: fe0d32af3a668c9641af1350075249238216905d
+      version: 40054baf84ca440e4fb94c43e6145dbf2f89e41c
     status: maintained
   rcpputils:
     doc:
@@ -3904,7 +3904,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: a692600b26a8ab9952e1ee3ba5f70c81760ed305
+      version: c2c80ed4e98dc0e504062d26b29d2a17ae4797b7
     status: developed
   rmf_utils:
     doc:
@@ -4170,7 +4170,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: f88e458d5f96a68c9e3c1c864067db0ebb18c13f
+      version: efcdcc4265d8a313b0e71af51feef722df6fade8
     status: developed
   ros2_controllers:
     doc:
@@ -4472,7 +4472,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 1accc180552c69e5f58f1573d5fb98fb8b0e8844
+      version: 3c5bb87aebdaf10335cadef2ad24ef8b1a613ec9
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6249,11 +6249,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/velodyne_simulator-release.git
-      version: 2.0.2-2
+      version: 2.0.3-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
-      version: df4fc397b21dad5ce8c7fc0f4a2aa37f470f70e7
+      version: 1cfa7b3bb562849271b9185f3a636bae714aadda
     status: maintained
   vision_msgs:
     doc:
@@ -6497,7 +6497,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 732b5812c9ec2b25aeef65ee617f42cc8027db0e
+      version: e0bf376d7406e1cc34418e5d244a931856669110
     status: developed
   zmqpp_vendor:
     doc:

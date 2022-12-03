@@ -966,7 +966,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
-      version: f07b1dd220fccaef237840df61cb29cdee9e3b9c
+      version: f017f3df9f4748c2670ea50a57429bf3ccb78e6c
     status: maintained
   cob_common:
     doc:
@@ -2763,11 +2763,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.1.0-1
+      version: 0.2.0-4
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: daf910494a5d2e2c054e03c697633cc8225ea7fd
+      version: d646ac025bd0c71aaa0d0a2f71b493dcccee5eba
+    status: developed
   foxglove_msgs:
     doc:
       type: git
@@ -5231,7 +5232,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 991de7193201b571cb2954d3b8b70dcb342ec380
+      version: 04a1cdbc54a94698296964e8fe501fcb33d00868
     status: developed
   mikrotik_swos_tools:
     doc:
@@ -8956,7 +8957,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.11.16-1
+      version: 0.11.16-2
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -11481,7 +11482,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
-      version: 9ab05d74438b693b8aad3c3c87ca438e68844409
+      version: b98e156c4431210b08de679735e6fe81acc7932f
     status: maintained
   video_stream_opencv:
     doc:
