@@ -480,7 +480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: dfc1a1eaa2af7efa4bd0b974c1960e89651eb9f9
+      version: 6708f63b15ed614deec93313b42d341a50ccca2e
     status: developed
   bno055:
     doc:
@@ -805,7 +805,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 4771c17c1d6f7861e4a3d7bd8283be81cc197007
+      version: 716572cb62bec19714e8a54fca66aca3ec316a8d
     status: maintained
   dolly:
     doc:
@@ -1220,11 +1220,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.2.0-2
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 8fdef727f2f63b3b9fbfd50fff5c790fe7c78567
+      version: be99da48d25e747845e1594df8668f10de285b25
     status: developed
   foxglove_msgs:
     doc:
@@ -1715,7 +1715,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2403,7 +2403,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 86991d15c82ebbbb958eb7bbbd0929b03dde37c4
+      version: 2c70d01cb679029ccbee28e7f58f8d4745c7097b
     status: developed
   moveit_msgs:
     doc:
@@ -3227,12 +3227,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pybind11_vendor-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/pybind11_vendor.git
-      version: e652035c9eac73697bff3f3a172aa80bb97b42e8
+      version: 600998318249498b3311535a2b9834f768596945
     status: maintained
   python_cmake_module:
     doc:
@@ -3468,7 +3468,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 5.5.0-1
+      version: 5.6.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3571,7 +3571,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 66b19448b0520b15a9e6c28483863b2a4351c2f6
+      version: 338eed0c060ab58608fc6e44c6936bde2c4e061e
     status: maintained
   rclpy:
     doc:
@@ -3587,7 +3587,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 40054baf84ca440e4fb94c43e6145dbf2f89e41c
+      version: 8cc7b6eaf3226f4b1fdd5c811ea86f750e194105
     status: maintained
   rcpputils:
     doc:
@@ -3904,7 +3904,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: fa6aca5781a561a5875ec6182c0245011d2232cd
+      version: c5910c1aaca57659db88e9d90a34baebd89c56b7
     status: developed
   rmf_utils:
     doc:
@@ -4166,11 +4166,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.4.0-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 30131b42f082a06032507040840c7ca4c48a6241
+      version: dbb626850d958f9ccde7ee861370a8c2da734818
     status: developed
   ros2_controllers:
     doc:
@@ -4197,11 +4197,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 2.14.0-1
+      version: 2.15.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 4c0d58e459eb2352c14c9eeffad04d4d8a4100e8
+      version: b72d0bbc97ea6cf4a1580c4bb734d7879350d2f2
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4472,7 +4472,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 3c5bb87aebdaf10335cadef2ad24ef8b1a613ec9
+      version: 05d2e43b57445d5e2e2db7bd70399c29e335bd55
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6175,7 +6175,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: ae9b985bf9d60c20ed9e52645eac82a010361457
+      version: 0772f5c11fcc08833abc882fb374da2e6ceaf301
     status: maintained
   v4l2_camera:
     doc:
