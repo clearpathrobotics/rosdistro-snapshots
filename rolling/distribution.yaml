@@ -1038,7 +1038,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.8.0-1
+      version: 2.8.1-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1250,7 +1250,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: b71444558f22d2aa8c2876d413b843218b6df02b
+      version: ad645ee81f2c8999097e66546779446e36980e67
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1582,7 +1582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 5ce8b9aae74e6f335ae289d5022773e8341d4524
+      version: 93fac10a83a7831530a9cc580386860dfc2d494f
     status: developed
   iceoryx:
     release:
@@ -1757,7 +1757,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/imu_tools-release.git
-      version: 2.1.2-1
+      version: 2.1.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1971,7 +1971,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
-      version: 8deee5f936af33fa88ce3172a04702544419393c
+      version: 9247fd190831bf0fdb8529b1f20e07b4377abe59
     status: maintained
   laser_proc:
     doc:
@@ -2045,7 +2045,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: af784b2f70d649c45330dc321e6101d84d328ef7
+      version: 35b2ca9f99f193bab82f02141300c6102e0bdb71
     status: maintained
   lgsvl_msgs:
     release:
@@ -2403,7 +2403,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 2c70d01cb679029ccbee28e7f58f8d4745c7097b
+      version: 8d6dda1e7366a902e47200e76e634e51f74dffa3
     status: developed
   moveit_msgs:
     doc:
@@ -2631,7 +2631,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
-      version: 80d8ab5f279425ea6e9df56bd7eae78b7042bb18
+      version: 96a8616846016070b3a47e013ba7732ee3895204
     status: developed
   nmea_hardware_interface:
     doc:
@@ -3919,7 +3919,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_utils.git
-      version: 6c132def42c756ecf02129d5e28609c627eb4715
+      version: 059bc4b9a36d17b9f70d43760a2db3ec6215713a
     status: developed
   rmf_visualization:
     doc:
@@ -4835,7 +4835,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
-      version: 2f710d1bd188126f7dec4e00f052da9ed2a718ff
+      version: 0c23d4e980adcec1ae6e6c457d3f6399f15bfdbe
     status: maintained
   rqt_graph:
     doc:
@@ -6234,7 +6234,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
-      version: 76cec0a6dc901416c5d4f8f8916f371e3150f74e
+      version: 00d793b5d8c760bd616c32789ead317c544807e5
     status: developed
   velodyne_simulator:
     doc:
@@ -6319,7 +6319,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: a0db7e6acd041a6c8b1293fd20feb9f947588336
+      version: 9f1997ad17688c2d104cf2b29b57382c5d0af960
     status: maintained
   vitis_common:
     doc:
@@ -6440,7 +6440,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 1d65ba63810c1e324fd1a6418532994cf2e3f353
+      version: 577173b29e28f3549c0eb7f60f1ffdf1f1822938
     status: maintained
   xacro:
     doc:
