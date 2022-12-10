@@ -70,12 +70,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.13.2-1
+      version: 1.14.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/actionlib.git
-      version: 3073509690976a8816636d41f04c013633f1c119
+      version: 23acb6e7364dda9380f823e03284536574764c6a
     status: maintained
   agni_tf_tools:
     doc:
@@ -541,7 +541,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
-      version: 4b033614eb6d49f33d1995c2aeb1f3f691576041
+      version: 72d24e8202440fa26b5e349eb4f611ae3aa1316f
     status: developed
   boost_sml:
     doc:
@@ -3392,7 +3392,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
-      version: c689ca5ef8d9d76393562abf91c056dda2872e42
+      version: 882a6af63b1132bc758110813fac0bcbbaa7d502
     status: developed
   hector_slam:
     release:
@@ -4398,7 +4398,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: c08bd5a18b7475623f05af6c07eaff0356d43329
+      version: 3b88d256935604df054e908a6100bc3e3bd190a7
     status: maintained
   laser_assembler:
     doc:
@@ -4886,7 +4886,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: b625fe721c8ab32e6454cea5856da73fce3708be
+      version: e1a68e9dd3d2e9180b04c8aeacd4975db745e6b8
     status: maintained
   mapviz:
     doc:
@@ -7717,7 +7717,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 60d915a99f546cb8b98726458a5d5232e62feeed
+      version: 9f5e06ae1316524a034f9991bc9a2ab4ee957283
     status: developed
   qt_gui_core:
     doc:
@@ -9157,7 +9157,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/xqms/rosmon.git
-      version: dba69094bb0064e73ac67e96313c75b41cb2aaa4
+      version: a8874f938b526430594dcc38c4ae351a0e57dc12
     status: developed
   rosmsg_cpp:
     doc:
@@ -11860,7 +11860,7 @@ repositories:
     source:
       type: git
       url: https://github.com/cyberbotics/webots_ros.git
-      version: 2dbcd328778e619e7891ffcbff2b295c5301ae2a
+      version: 6b49f3b6271423c2adf08f8604103403086a538d
     status: maintained
   wge100_driver:
     doc:
@@ -12012,7 +12012,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/xsens_mti_driver.git
-      version: 58e656666faa678e90bc68333d4527f21b85259a
+      version: 23913c3a968d73e4fe2fa8f8d952efc7f37d19c3
     status: maintained
   xv_11_laser_driver:
     doc:
