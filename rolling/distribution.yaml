@@ -857,7 +857,7 @@ repositories:
     source:
       type: git
       url: https://github.com/dynamixel-community/dynamixel_hardware.git
-      version: e40b91d48f5f6495ec907a7bb446328116e2e2f3
+      version: fa3e22b0c48e72b167dd631bf21d0f2f4a79c839
     status: developed
   dynamixel_sdk:
     doc:
@@ -1110,7 +1110,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 3cc23572351bb08c7027383dab9cf256a5d657f3
+      version: 6184f25f24cbb3a4abac886669d3c966818b1ccb
     status: maintained
   fastrtps:
     doc:
@@ -1198,7 +1198,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eProsima/foonathan_memory_vendor.git
-      version: ad694c09662971b8181c00cd15c556cc9172949d
+      version: 2ef9fc02d9e5483d719d32b06c4670514b25c62a
     status: maintained
   four_wheel_steering_msgs:
     release:
@@ -1224,7 +1224,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: b8ad4d55a88938203cd4fde13fa2fa0bf4d708e1
+      version: 8ab2fc65cf0e48935dc0b1fff1ee5341836130c7
     status: developed
   foxglove_msgs:
     doc:
@@ -1578,11 +1578,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.1.3-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 93fac10a83a7831530a9cc580386860dfc2d494f
+      version: 4e53b89bdea368d64b7c30a7600cf5aa7c2de5b8
     status: developed
   iceoryx:
     release:
@@ -1726,7 +1726,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: ros2
+      version: rolling
     release:
       packages:
       - compressed_depth_image_transport
@@ -1741,7 +1741,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: ros2
+      version: f0f40fbcee376160106f39aee3144736445c21d9
     status: maintained
   imu_tools:
     doc:
@@ -2267,7 +2267,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 0b325d6a502f78069267d18f1f66fa052e262f8b
+      version: b3cad03b578b3ff2ae0354127055e574b6ef8387
     status: maintained
   micro_ros_diagnostics:
     doc:
@@ -2403,7 +2403,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: ddd50ce124a4f2c6ca67ad9c5738d4f16e718168
+      version: e23fb8fd68a308a775a68d26e6df7e88e5b0e53b
     status: developed
   moveit_msgs:
     doc:
@@ -3826,7 +3826,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: e5a8009fe9dcc19ef2b26d8c29285e2900e8a57a
+      version: 3c17991d6cd003a75986676cc7c0134b8212138b
     status: developed
   rmf_simulation:
     doc:
@@ -4050,7 +4050,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: ccea7a356900a16a2872670b67952c99a72ab65d
+      version: b56cd5fe6f42946d69d2e75ec37bf06d9becbe3f
     status: developed
   rmw_gurumdds:
     doc:
@@ -4201,7 +4201,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b72d0bbc97ea6cf4a1580c4bb734d7879350d2f2
+      version: d18a10cd47ea08f3cff626224ad55f6c0c3adc40
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4235,7 +4235,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
-      version: 3962b98f58856606b3ea10605d6dfba87e09345b
+      version: d994b3b3aee065f8472c5f2a2c5defa5e6a1ac4c
     status: developed
   ros2_tracing:
     doc:
@@ -4472,7 +4472,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: b7e6a34babe3ceb455f3119c840b4d3acdef7edd
+      version: c7c7954d4d9944c160d7b3d716d1cb95d34e37e4
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5156,7 +5156,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.20.21-1
+      version: 0.20.22-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -6497,7 +6497,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: d0fd97d9ce840b671d4b2140f40a3a48ab1514b6
+      version: 1556ddee49b9e2c4c6418d14c72f72a309a99703
     status: developed
   zmqpp_vendor:
     doc:
