@@ -344,6 +344,24 @@ repositories:
       url: https://github.com/AprilRobotics/apriltag.git
       version: 4247b1d875dcac7923d61b7e3d0b56393c778b1f
     status: maintained
+  aruco_opencv:
+    doc:
+      type: git
+      url: https://github.com/fictionlab/ros_aruco_opencv.git
+      version: rolling
+    release:
+      packages:
+      - aruco_opencv
+      - aruco_opencv_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/aruco_opencv-release.git
+      version: 4.0.0-1
+    source:
+      type: git
+      url: https://github.com/fictionlab/ros_aruco_opencv.git
+      version: bd474ddb3e722202e43c0081b50572785bf08a09
+    status: maintained
   async_web_server_cpp:
     doc:
       type: git
@@ -1042,7 +1060,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 94f2984ef66d8bb4b76ba8f1d1049bd301170ec2
+      version: 8e024e3f20deb029b019f8b86cbf07ad93f87001
     status: maintained
   example_interfaces:
     doc:
@@ -1220,7 +1238,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -1250,7 +1268,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: ad645ee81f2c8999097e66546779446e36980e67
+      version: 33b7e96ea0ba625dd4221e1baa7a6ba72f4130cc
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -2403,7 +2421,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: e23fb8fd68a308a775a68d26e6df7e88e5b0e53b
+      version: e60bced423551d87bde4048c11bebac2597555fe
     status: developed
   moveit_msgs:
     doc:
@@ -3571,7 +3589,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 338eed0c060ab58608fc6e44c6936bde2c4e061e
+      version: 86335dd4acd91d5dd973c4e4e97014e5e8a916bc
     status: maintained
   rclpy:
     doc:
@@ -4201,7 +4219,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: d18a10cd47ea08f3cff626224ad55f6c0c3adc40
+      version: 42f6c1470508ca2480b954eead58a87e7e827434
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5785,6 +5803,21 @@ repositories:
       url: https://github.com/ros-drivers/transport_drivers.git
       version: d3f510ce1b4be12967064d8251ebcac530921a04
     status: developed
+  turbojpeg_compressed_image_transport:
+    doc:
+      type: git
+      url: https://github.com/wep21/turbojpeg_compressed_image_transport.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/turbojpeg_compressed_image_transport-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/wep21/turbojpeg_compressed_image_transport.git
+      version: d946ac530e1f03dedae35eb32fc530fb1911c30f
+    status: maintained
   turtlebot3_msgs:
     doc:
       type: git
@@ -6440,7 +6473,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 577173b29e28f3549c0eb7f60f1ffdf1f1822938
+      version: 2e377c3567d74b12a082962567c44385109286b3
     status: maintained
   xacro:
     doc:
@@ -6497,7 +6530,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 1556ddee49b9e2c4c6418d14c72f72a309a99703
+      version: 5b4274927afc220f031099f04488ed2f3d858c35
     status: developed
   zmqpp_vendor:
     doc:
