@@ -1145,7 +1145,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 6de984284025573ffa8155931178c7f8af8709a5
+      version: 7e1443022cae0f44837cf51c22464695cd0dfa58
     status: maintained
   filters:
     doc:
@@ -1162,6 +1162,21 @@ repositories:
       type: git
       url: https://github.com/ros/filters.git
       version: 5507bc5175cb74e825ee20b9dc19e67ef6a4a022
+    status: maintained
+  find_object_2d:
+    doc:
+      type: git
+      url: https://github.com/introlab/find-object.git
+      version: rolling-devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/introlab/find_object_2d-release.git
+      version: 0.7.0-2
+    source:
+      type: git
+      url: https://github.com/introlab/find-object.git
+      version: 635efcd6220cabc258b88c54b1ae4279035bbe31
     status: maintained
   fluent_rviz:
     doc:
@@ -1600,7 +1615,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 4e53b89bdea368d64b7c30a7600cf5aa7c2de5b8
+      version: efea86d574a354f159409325c6c3b8468775c451
     status: developed
   iceoryx:
     release:
@@ -1815,7 +1830,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/joint_state_publisher.git
-      version: e76162020740cb118ab1d82fdd486ea25e54d51e
+      version: 424fd9e1955fddf38f1b3e1721baf9f6e9322d6b
     status: maintained
   joystick_drivers:
     doc:
@@ -3589,7 +3604,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 86335dd4acd91d5dd973c4e4e97014e5e8a916bc
+      version: a20a295a3bd78c1b27217de477a6ad17e0ba0df8
     status: maintained
   rclpy:
     doc:
@@ -4324,7 +4339,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 615efe639fd83940c9a44356684f0e5a9c5e09a0
+      version: 70d4991b66aa30d0b3b0ea9b9351e523b00d54ec
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6530,7 +6545,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: dd21f5960f40341f74ef6e1ab6d903587fc4cf3e
+      version: 31383cb9beadfe0f03a2c44104bda140e3266a90
     status: developed
   zmqpp_vendor:
     doc:
