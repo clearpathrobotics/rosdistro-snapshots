@@ -498,7 +498,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 6708f63b15ed614deec93313b42d341a50ccca2e
+      version: e0927b6ae9afc2b9574659ab3270792c8b34d4d2
     status: developed
   bno055:
     doc:
@@ -969,7 +969,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stonier/ecl_core.git
-      version: 8d4c7e8946b7ceaba3735ea1bf8b3639d15db77f
+      version: 9d1c49c882c57668f3c46adb2a1a38c2d0957e59
     status: maintained
   ecl_lite:
     doc:
@@ -2043,7 +2043,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 8cffb1cb2814f82069e67c4b2dde814051c9337b
+      version: b129eb65c9f03980c724b17200236290fa797816
     status: developed
   launch_param_builder:
     doc:
@@ -2436,7 +2436,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 937be8eba7bf0df3a3a59d99a71f68029239ef4e
+      version: ca68be3c45d6d7c0e1bda4e18d901dabc513cd9d
     status: developed
   moveit_msgs:
     doc:
@@ -3604,7 +3604,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 9c1c9896a39047faadec0e784b692c5292d3c1dd
+      version: 3fb012e2e979475f5044ab0e0f9b91d336db5f46
     status: maintained
   rclpy:
     doc:
@@ -4142,12 +4142,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robot_localization-release.git
-      version: 3.3.1-1
+      version: 3.5.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
       version: 47fbe93cb69ceada63e9ed47fce0084a6d97c594
+    status: maintained
   robot_state_publisher:
     doc:
       type: git
@@ -4505,7 +4506,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: c7c7954d4d9944c160d7b3d716d1cb95d34e37e4
+      version: 47dff03e1dd6c10f231351f17e6e7e7e069614fe
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -4565,7 +4566,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: f2f27611ffa4fd55fa4e70662f5722451c2b35cb
+      version: cd1c0c0f28d764829d7f59c45973a31c176c5b18
     status: developed
   rosidl:
     doc:
@@ -4728,7 +4729,7 @@ repositories:
   rospy_message_converter:
     doc:
       type: git
-      url: https://github.com/uos/rospy_message_converter.git
+      url: https://github.com/DFKI-NI/rospy_message_converter.git
       version: rolling
     release:
       packages:
@@ -4741,7 +4742,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/uos/rospy_message_converter.git
+      url: https://github.com/DFKI-NI/rospy_message_converter.git
       version: bcce27e2af48810e33bbb7e3368b65763e49d08b
     status: maintained
   rot_conv_lib:
@@ -6545,7 +6546,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 9b512839e13e1ccb173b52c9e6188ccff98a9edf
+      version: 343c90ff06c652d4edb5a12658c261cceb77c9d5
     status: developed
   zmqpp_vendor:
     doc:
