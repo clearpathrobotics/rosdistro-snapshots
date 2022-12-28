@@ -329,7 +329,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/audio_common-release.git
-      version: 0.3.15-1
+      version: 0.3.16-1
     source:
       type: git
       url: https://github.com/ros-drivers/audio_common.git
@@ -627,7 +627,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/FraunhoferIOSB/camera_aravis-release.git
-      version: 4.0.3-1
+      version: 4.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -1783,7 +1783,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 303716d9438fefc0da4b4cf2abe577ebd599c495
+      version: aa1e4cf7e30492e517dad8e6e9f470c90bdfcae3
     status: developed
   depthimage_to_laserscan:
     release:
@@ -5515,7 +5515,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.4.3-1
+      version: 0.4.4-1
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
@@ -6297,7 +6297,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OctoMap/octomap_mapping.git
-      version: 302a8365618075855e7fb410a3d01e15c4f9efe3
+      version: 6e96c831795c664ba554bdff53844657a7916f83
     status: maintained
   octomap_msgs:
     doc:
@@ -7717,7 +7717,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 9f5e06ae1316524a034f9991bc9a2ab4ee957283
+      version: 97d675cb24e58a4c1c4f4ce3dcf99f20531430ce
     status: developed
   qt_gui_core:
     doc:
@@ -8233,7 +8233,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/robot_calibration-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       test_pull_requests: true
       type: git
@@ -10105,6 +10105,21 @@ repositories:
       url: https://github.com/ipa320/schunk_modular_robotics.git
       version: b2d73bdd333eceda0e91b4f8d4e8881433dc243a
     status: maintained
+  schunk_svh_library:
+    doc:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library-release.git
+      version: 1.0.1-4
+    source:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
+      version: 026f27794620f7427905e10f52065e3549cdd978
+    status: developed
   sciurus17:
     doc:
       type: git
@@ -10775,7 +10790,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 31cb5d7e4c7f45ea1e6fcf43207fb685b5b51483
+      version: 96831d89e5e046ddff6920446e0b4c1f6b369131
     status: developed
   tf2_2d:
     release:
@@ -11585,7 +11600,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: a3b12ebaae3f58620c882d020c1e2f58b292a6bf
+      version: 6a7faddf0a3eef28f8e75e81e3f18d946e2d240f
     status: maintained
   visp_ros:
     doc:
