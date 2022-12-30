@@ -152,7 +152,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aprilrobotics/apriltag.git
-      version: 4247b1d875dcac7923d61b7e3d0b56393c778b1f
+      version: 3e8e974d0d8d6ab318abf56d87506d15d7f2cc35
     status: maintained
   apriltag_ros:
     doc:
@@ -1517,7 +1517,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 5b9fdd127c99fdd84fe9e390f655fbd0806c9d26
+      version: 67070daab1ca071537a0436024edbef1c10694b1
     status: developed
   create_robot:
     doc:
@@ -8154,11 +8154,10 @@ repositories:
       - rm_gazebo
       - rm_hw
       - rm_msgs
-      - rm_referee
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_control-release.git
-      version: 0.1.16-1
+      version: 0.1.15-1
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
@@ -10343,7 +10342,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robosoft-ai/smacc.git
-      version: 616ab1c65074e9422a0349b25ba68d8a8203e1ea
+      version: 2c9e2ffe40fe79153ccfcead513c071190761718
     status: developed
   snmp_ros:
     doc:
@@ -11600,7 +11599,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 6a7faddf0a3eef28f8e75e81e3f18d946e2d240f
+      version: 2eb451284bf9fd01ecba8cfff9295aec0421d8f1
     status: maintained
   visp_ros:
     doc:
