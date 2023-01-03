@@ -508,7 +508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: e147009ab053d96009b2d327838dc17796692906
+      version: bcd112c30fda33a0d163b02f76e9127247fdb8ef
     status: developed
   bond_core:
     doc:
@@ -5799,7 +5799,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: master
+      version: develop
     release:
       tags:
         release: release/noetic/{package}/{version}
@@ -5808,7 +5808,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 936192714debe8c7137cdacf0aaf12f365a0926d
+      version: a67ea6d9dee4978df4ddc17d774b5919ebb6adfb
     status: developed
   nao_meshes:
     release:
@@ -7022,7 +7022,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 6b29e1ffff96fa74d4e9dfeff72fd4ff99924cff
+      version: e90caa9020954533d554ceebbb4f07849f7dd9fc
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -8161,7 +8161,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 29a01e168719007ba465dce4bc8824dff6ea050b
+      version: 6f1f4a74cd1fa5bf53cec953839735b64ffcecef
     status: developed
     status_description: developed
   rm_controllers:
@@ -8188,7 +8188,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: dcf1176567453033022de6d7dec2a17761f9d71b
+      version: f0f1380881a81c8f4cd031c37a8c91c62b315168
     status: developed
   rm_description:
     doc:
@@ -10119,6 +10119,27 @@ repositories:
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
       version: 026f27794620f7427905e10f52065e3549cdd978
     status: developed
+  schunk_svh_ros_driver:
+    doc:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
+      version: main
+    release:
+      packages:
+      - schunk_svh
+      - schunk_svh_description
+      - schunk_svh_driver
+      - schunk_svh_msgs
+      - schunk_svh_simulation
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
+      version: a5b6e10e84596d2db9ca16094f6b04340ceddcbe
+    status: developed
   sciurus17:
     doc:
       type: git
@@ -11713,7 +11734,7 @@ repositories:
     source:
       type: git
       url: https://github.com/vrpn/vrpn.git
-      version: c626d22025f633d54aa4738f87e5c99e2b30cb1c
+      version: 211865b52c1eaf40480810c5268845e4f781085b
     status: maintained
   vrpn_client_ros:
     doc:
