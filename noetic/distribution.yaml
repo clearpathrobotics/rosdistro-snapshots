@@ -508,7 +508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: bcd112c30fda33a0d163b02f76e9127247fdb8ef
+      version: fdee040b89aef4f03a0caa005c886c87510ed729
     status: developed
   bond_core:
     doc:
@@ -658,12 +658,13 @@ repositories:
     release:
       packages:
       - care_o_bot
+      - care_o_bot_desktop
       - care_o_bot_robot
       - care_o_bot_simulation
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/care-o-bot-release.git
-      version: 0.7.9-1
+      version: 0.7.10-1
     source:
       type: git
       url: https://github.com/ipa320/care-o-bot.git
@@ -766,7 +767,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/catkin_virtualenv.git
-      version: 9321144a6496826466b33ff0aa5141f74467486a
+      version: 5d7d391c1e3bd8e8c0a2ec5e17b01cc2de7c887b
     status: maintained
   class_loader:
     doc:
@@ -962,7 +963,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.30-2
+      version: 0.6.31-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1017,7 +1018,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.8.20-1
+      version: 0.8.21-1
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1176,7 +1177,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_navigation-release.git
-      version: 0.6.13-1
+      version: 0.6.14-1
     source:
       type: git
       url: https://github.com/ipa320/cob_navigation.git
@@ -1223,7 +1224,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.7.8-1
+      version: 0.7.9-1
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1245,7 +1246,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_simulation-release.git
-      version: 0.7.6-1
+      version: 0.7.7-1
     source:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
@@ -1695,7 +1696,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
-      version: e5ba035fa9e384c4613d60390092c6e02ae30a03
+      version: df03fb0ec39ccc150cf7c418e138a7863f73a0b5
     status: developed
   dbw_polaris_ros:
     doc:
@@ -2700,11 +2701,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/flir_camera_driver-release.git
-      version: 0.2.3-1
+      version: 0.2.5-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
-      version: 45189ae5d9ef21b514e4d62a53d1259505228227
+      version: d72178beee5b627c6be8ef0fc996b9708c9b430e
     status: maintained
   floam:
     doc:
@@ -2763,11 +2764,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.2.2-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 0240a47df0ae5d5693a9b3a76c33f883e42b0c5a
+      version: 22c25769857cee85b65aeb5c4983ad872f4b13eb
     status: developed
   foxglove_msgs:
     doc:
@@ -2851,7 +2852,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 0461f779f9ac4defca6ecfd102a675add92bb3a9
+      version: d11e00fab6d8b4d06ecfd1836580a74bd7aafbdf
     status: developed
   gazebo_ros_control_select_joints:
     release:
@@ -3549,7 +3550,7 @@ repositories:
     source:
       type: git
       url: https://github.com/husky/husky.git
-      version: c8ab000eeeb54237179bc40ce34046918457deb6
+      version: c203285e6fbe06fdac582ccc178766f3b0f3842b
     status: maintained
   ifm3d:
     release:
@@ -4655,7 +4656,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/libhri-release.git
-      version: 0.5.3-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
@@ -5041,7 +5042,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -5519,7 +5520,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
-      version: 6bfa13615a84dc9cf55e955d997141813083a649
+      version: bc6d4a49a58cf60071f711789e1b7fe1913854e9
     status: maintained
   moveit_resources:
     doc:
@@ -5655,7 +5656,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 7265577774e1f565371b60175d4495cdab811350
+      version: b8bcbacaa82fe3c5b4d7c50850fb21c2bef2387a
     status: developed
   mrpt_msgs:
     doc:
@@ -5808,7 +5809,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: a67ea6d9dee4978df4ddc17d774b5919ebb6adfb
+      version: 034d938ac2f74ea99ad884e745e411d1483cd81c
     status: developed
   nao_meshes:
     release:
@@ -6021,7 +6022,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.7-1
+      version: 0.11.8-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -9924,7 +9925,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 0370dd7254b2a372204b76fdc39b2b0fb6d88c43
+      version: 0e4d89de43ce8c694224411dc4e03b8c4927c6d5
     status: developed
   rviz:
     doc:
@@ -9981,7 +9982,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
-      version: 3.9.2-1
+      version: 3.9.3-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
@@ -10134,7 +10135,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
@@ -10822,7 +10823,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: beb6a7a29fcdba7abb1540d9524e81cb9795b9ac
+      version: 66b4a38f489f07c57f6f4352979980b41846ba55
     status: developed
   tf2_server:
     doc:
@@ -10957,7 +10958,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: f6a59584513c50202921197264ed822d152f0069
+      version: f2a430414d3915bf465ac0d1e37daa20d1e7db96
     status: maintained
   turtlebot3:
     doc:
@@ -11407,7 +11408,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.0.15-1
+      version: 0.0.16-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
