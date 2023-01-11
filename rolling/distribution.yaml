@@ -1253,7 +1253,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.2.2-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -1283,7 +1283,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 5f4c5edfef135dcac0aa208bf39fb51acd2c413f
+      version: 3860ca3de512b318bc49c4eb9b941552630758a6
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1359,7 +1359,7 @@ repositories:
       - parameter_traits
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/PickNikRobotics/generate_parameter_library-release.git
+      url: https://github.com/ros2-gbp/generate_parameter_library-release.git
       version: 0.3.0-1
     source:
       type: git
@@ -2499,11 +2499,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.7-1
+      version: 2.5.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: c774d0521ea20fabeaf5976086d97078b96e036e
+      version: 2927de5d53346a3ffe48372beb01ddcf20530e29
     status: developed
   mrpt_msgs:
     doc:
@@ -2564,7 +2564,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.4.3-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -3093,6 +3093,21 @@ repositories:
       url: https://github.com/ros-drivers/phidgets_drivers.git
       version: fa29c846120eb95355e17a3e9af20ba65fc241d5
     status: maintained
+  pick_ik:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/pick_ik.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/pick_ik-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/pick_ik.git
+      version: d201aaafef2842a9037e902439bcc5d824c7033a
+    status: developed
   picknik_ament_copyright:
     release:
       tags:
@@ -3450,7 +3465,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_genicam_driver_ros2.git
-      version: 5a7ee9653e512c81f3b336bd51d2fb17277587ec
+      version: 3c92ced01793ada6a24a93491f0a4be4b4ecb9a1
     status: developed
   rc_reason_clients:
     doc:
@@ -3721,7 +3736,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: f2e187d05b3c5666b2fbe1c29ebd62f39780acf0
+      version: e25e78051536a78a4d01a080d8487de0ac8e4b54
     status: maintained
   resource_retriever:
     doc:
@@ -4200,11 +4215,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.5.0-1
+      version: 3.5.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 0741a493e553ca693cadcbd129f4e75409475bfd
+      version: c1477829530f0501f95f52d50192be58100a4dba
     status: developed
   ros2_controllers:
     doc:
@@ -4235,7 +4250,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: f6c4769eae0389cad62596291f88ec041558f02c
+      version: e0a373ab09cdf8c268bc3c8d14c4a3c0db59b724
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4426,7 +4441,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ignitionrobotics/ros_ign.git
-      version: 1271a5a59bac5899990a8b0e00b1dcd1582c1582
+      version: d13c5f3dc511ea81b8a3890069354d7986e87501
     status: developed
   ros_image_to_qimage:
     doc:
@@ -5156,7 +5171,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/PickNikRobotics/RSL-release.git
+      url: https://github.com/ros2-gbp/RSL-release.git
       version: 0.2.1-1
     source:
       type: git
@@ -5216,11 +5231,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ruckig-release.git
-      version: 0.6.3-6
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 0e4d89de43ce8c694224411dc4e03b8c4927c6d5
+      version: ac8df4e092cb744617194423d0ff8900387c4190
     status: developed
   rviz:
     doc:
@@ -5274,7 +5289,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz_visual_tools-release.git
-      version: 4.1.3-1
+      version: 4.1.4-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
@@ -6489,7 +6504,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 7b6bdc0f7fb2368ebbc7fe1c31b7fc0111f5ab6a
+      version: 7c978b829e473f9ec24daed0d7ba25de7918d5ad
     status: maintained
   xacro:
     doc:
@@ -6546,7 +6561,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: b0a74ec7a4184b9c7a51b6d5ef8edb532b5ffa2c
+      version: 363c0e96a909fec34b7ea720a4680ff70dfb6b98
     status: developed
   zmqpp_vendor:
     doc:

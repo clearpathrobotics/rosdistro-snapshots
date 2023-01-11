@@ -493,22 +493,20 @@ repositories:
       url: https://github.com/uos/basler_tof.git
       version: b96f5071e3459b8738d6e92b9b923c90eed746ef
     status: developed
-  behaviortree_cpp:
+  behaviortree_cpp_v3:
     doc:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: master
+      version: v3.8
     release:
-      packages:
-      - behaviortree_cpp_v3
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/BehaviorTree/behaviortree_cpp-release.git
-      version: 3.8.1-1
+      url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
+      version: 3.8.2-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: fdee040b89aef4f03a0caa005c886c87510ed729
+      version: 24a04238bafa1b399ccdec1297c831adce49a285
     status: developed
   bond_core:
     doc:
@@ -967,7 +965,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
-      version: 9c639d845d56e23e5cd36d12b5f113dbbd4359a4
+      version: 854658d9ef75854c86d2f8771e5f01de457977be
     status: maintained
   cob_common:
     doc:
@@ -1784,7 +1782,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 0d98318cea58cf5400ca64949fa715db4e38575f
+      version: 9d94c1547401e909415c0a55d164724487517d96
     status: developed
   depthimage_to_laserscan:
     release:
@@ -3466,7 +3464,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/hokuyo3d.git
-      version: 02c636b2d2573b3cc1c80c4be7e1e54ac8f54a63
+      version: 04a24d7635f36565f5cd98fae94385a3ef37f015
     status: developed
   hpp-fcl:
     doc:
@@ -5046,7 +5044,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
-      version: 74932e74053c5a7462e0b1774683be09f672d8e8
+      version: e67708e0f68594157656af99726e19d8be4bdf13
     status: developed
   mcl_3dl_msgs:
     doc:
@@ -5061,7 +5059,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl_msgs.git
-      version: 0a8f7cb18c399b31154e291a22a0d7f5fb7ef372
+      version: abb539e74848ef7b8c51b9c2a94c8da21ab315da
     status: developed
   media_export:
     doc:
@@ -5461,7 +5459,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 8f4d3136f6f11be0218098478b9b421906146d14
+      version: a266089ebe4a054e875aafebd477a140386a285e
     status: maintained
   moveit_calibration:
     doc:
@@ -5652,11 +5650,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.5.7-1
+      version: 2.5.8-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: c774d0521ea20fabeaf5976086d97078b96e036e
+      version: 2927de5d53346a3ffe48372beb01ddcf20530e29
     status: developed
   mrpt_msgs:
     doc:
@@ -5805,7 +5803,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.4.3-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -5904,12 +5902,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.17.2-1
+      version: 1.17.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-planning/navigation.git
-      version: 4122c1b84296b7c49799ef1aee742565090753d9
+      version: f13af47ee2bca6c3bf99db2965e46e55303f6e66
     status: maintained
   navigation_2d:
     doc:
@@ -6026,7 +6024,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
-      version: 3bd863474d8709a85a7d2fab415bc1ea6f08ada6
+      version: 2eefbef4bf5a7cc020f16733dc3bfaa7138310c7
     status: developed
   neonavigation_msgs:
     doc:
@@ -6048,7 +6046,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation_msgs.git
-      version: 22b691e99193c8d7c29dbc577243dcaa754f5a88
+      version: 82b946f1497d30b48b7b854ed1adf79edba62a55
     status: developed
   neonavigation_rviz_plugins:
     doc:
@@ -6067,7 +6065,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation_rviz_plugins.git
-      version: ab18237599406e2bfd30f85fe9b4b010934f9b24
+      version: 5a1e22e7390d4bc4836ece7b65c82f3a4187d5dd
     status: developed
   nerian_stereo:
     doc:
@@ -8162,7 +8160,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 6f1f4a74cd1fa5bf53cec953839735b64ffcecef
+      version: 023b0ed8ef85e396c7de781ba48d851a5e970e49
     status: developed
     status_description: developed
   rm_controllers:
@@ -9925,7 +9923,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 0e4d89de43ce8c694224411dc4e03b8c4927c6d5
+      version: ac8df4e092cb744617194423d0ff8900387c4190
     status: developed
   rviz:
     doc:
@@ -12091,7 +12089,7 @@ repositories:
     source:
       type: git
       url: https://github.com/openspur/ypspur_ros.git
-      version: ecbb0b17ca133939be7685a212e53eaf299d5c05
+      version: 38fba5cbf8caa1ba80d858faa044226eadd5c8ce
     status: developed
   z_laser_projector:
     doc:
