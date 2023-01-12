@@ -1139,13 +1139,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.8.1-1
+      version: 2.9.0-1
     source:
       test_commits: true
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 7e1443022cae0f44837cf51c22464695cd0dfa58
+      version: b38ade0915430473b58e785f85cebeb655e5906f
     status: maintained
   filters:
     doc:
@@ -1257,7 +1257,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 8d623e4687774b9b95f412f799fd2741490fac61
+      version: 069cfa42a3a6b880f0356bd6ae41581a75c0a9a6
     status: developed
   foxglove_msgs:
     doc:
@@ -2349,12 +2349,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 2.7.1-1
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 5b4b9f8cece08ac26e0cc7874b635c8e87150c5e
+      version: db27ec82cf6b3ac937adb7b7966d5595215fb381
     status: developed
   mimick_vendor:
     doc:
@@ -2436,7 +2436,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 9e3f6b3eb578b55722ea84d87a543a2042c6017b
+      version: c6733bd0efe403526b43095c8749b81f8c28689a
     status: developed
   moveit_msgs:
     doc:
@@ -3142,7 +3142,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: e90caa9020954533d554ceebbb4f07849f7dd9fc
+      version: 5df58b0477c1e5cb531636e56d1ce3739aa8a30a
     status: developed
   plotjuggler_msgs:
     doc:
@@ -3172,7 +3172,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
-      version: eda2521f12a5cb55a168d88f3be15e0ccb0aa2c4
+      version: c979194848175c71a05986d8b23a01a48b8baaef
     status: developed
   pluginlib:
     doc:
@@ -3465,7 +3465,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_genicam_driver_ros2.git
-      version: 3c92ced01793ada6a24a93491f0a4be4b4ecb9a1
+      version: 87508062aab639e919cb550f7638e71af80a7692
     status: developed
   rc_reason_clients:
     doc:
@@ -4219,7 +4219,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: c1477829530f0501f95f52d50192be58100a4dba
+      version: 6aae3e1b30c2e3e2d4ed2db2bd9c322dc25d9cd2
     status: developed
   ros2_controllers:
     doc:
@@ -4250,7 +4250,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: e0a373ab09cdf8c268bc3c8d14c4a3c0db59b724
+      version: acaf91837838635fc1cde8da1a23498a14f03c12
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4441,7 +4441,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ignitionrobotics/ros_ign.git
-      version: d13c5f3dc511ea81b8a3890069354d7986e87501
+      version: 6c2e56efbaadf6e3683d7817703b1b626b768726
     status: developed
   ros_image_to_qimage:
     doc:
@@ -5963,7 +5963,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/KumarRobotics/ublox.git
-      version: 71e2f0c7562c5c97c72045a7d6758447535c8a3d
+      version: 88673b780c9862d3944fb105cbfde4ce067fa29d
     status: maintained
   ublox_dgnss:
     doc:
@@ -6416,7 +6416,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/vrpn/vrpn.git
-      version: 211865b52c1eaf40480810c5268845e4f781085b
+      version: 7aeafc052368b227417d9d39b89eb37086c6ac46
     status: maintained
   vrpn_mocap:
     doc:
@@ -6504,7 +6504,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 7c978b829e473f9ec24daed0d7ba25de7918d5ad
+      version: 8787e22ca2ba0cce1b168f5b104def59e53e002c
     status: maintained
   xacro:
     doc:
@@ -6561,7 +6561,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 363c0e96a909fec34b7ea720a4680ff70dfb6b98
+      version: 47a2216b0d78ed944817c43f010df007f177de90
     status: developed
   zmqpp_vendor:
     doc:
