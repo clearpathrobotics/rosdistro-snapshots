@@ -483,22 +483,20 @@ repositories:
       url: https://github.com/wep21/bag2_to_image.git
       version: 1c4b48d5a537967229bbd1fec99c946682f4b4c8
     status: maintained
-  behaviortree_cpp:
+  behaviortree_cpp_v3:
     doc:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: master
+      version: v3.8
     release:
-      packages:
-      - behaviortree_cpp_v3
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp-release.git
-      version: 3.8.0-1
+      version: 3.8.2-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: fdee040b89aef4f03a0caa005c886c87510ed729
+      version: 24a04238bafa1b399ccdec1297c831adce49a285
     status: developed
   bno055:
     doc:
@@ -1257,7 +1255,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 069cfa42a3a6b880f0356bd6ae41581a75c0a9a6
+      version: 08e35d099829735d16ec7d489a9b6ae4a5d0906a
     status: developed
   foxglove_msgs:
     doc:
@@ -2499,7 +2497,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.5.8-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3127,7 +3125,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 483713fff9531c0628ce3de6a5578368865976ac
+      version: 9719bdc0d3dc330df1ef53a080602c675b352a05
     status: developed
   plotjuggler:
     doc:
@@ -3619,7 +3617,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 1bbb03302a0eb36955e7ecc19189b9f6bbadcd6f
+      version: 3db2ece14545ade3ab9cec0146be57c1a3ae83f8
     status: maintained
   rclpy:
     doc:
@@ -3702,7 +3700,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 2f647cc2cdcbdfbecadd00b9a5af8318702960e5
+      version: 725b6f17b71b50e56ebba06386ffa65e85d8ed93
     status: maintained
   realtime_support:
     doc:
@@ -4215,11 +4213,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.5.1-1
+      version: 3.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 7568a7b2680d8d7b4a5f8953b842c160215aed50
+      version: 6a8ef6755ab1b9d13141b3a6d6f773bfa43e11aa
     status: developed
   ros2_controllers:
     doc:
@@ -4250,7 +4248,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: fd6a1d9244d83fac44d1e55724cbb88c565d3147
+      version: f4788c594026bc3ecf0d944e1fa39f3f2d40673b
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4355,7 +4353,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: aadc580fe16925ba18895067468373aa6669e0de
+      version: cf020c0f0f90ded9aca6ebac806c78a387347a25
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -4495,6 +4493,7 @@ repositories:
       version: rolling
     release:
       packages:
+      - mcap_vendor
       - ros2bag
       - rosbag2
       - rosbag2_compression
@@ -4503,9 +4502,12 @@ repositories:
       - rosbag2_examples_cpp
       - rosbag2_interfaces
       - rosbag2_performance_benchmarking
+      - rosbag2_performance_benchmarking_msgs
       - rosbag2_py
       - rosbag2_storage
       - rosbag2_storage_default_plugins
+      - rosbag2_storage_mcap
+      - rosbag2_storage_mcap_testdata
       - rosbag2_storage_sqlite3
       - rosbag2_test_common
       - rosbag2_tests
@@ -4516,12 +4518,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.18.0-3
+      version: 0.19.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 53228ba53d329b63823dd72dceb0549dc18d83a1
+      version: 88bfc1e24d14a5c600a1cb9511f8fd44e405c61f
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -4541,25 +4543,6 @@ repositories:
       url: https://github.com/ros2/rosbag2_bag_v2.git
       version: 676475d26bfac6fe2eee896f903fd2010af6a95a
     status: maintained
-  rosbag2_storage_mcap:
-    doc:
-      type: git
-      url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
-      version: main
-    release:
-      packages:
-      - mcap_vendor
-      - rosbag2_storage_mcap
-      - rosbag2_storage_mcap_testdata
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
-      version: 0.5.0-1
-    source:
-      type: git
-      url: https://github.com/ros-tooling/rosbag2_storage_mcap.git
-      version: c1c2159679921a4f4392f370172c28e7b3b01452
-    status: developed
   rosbridge_suite:
     doc:
       type: git
@@ -5235,7 +5218,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 946a222c549209a70808e3126708a6dcb7a5b1e6
+      version: 7de6b1035e1cad509251b31b3287d10fbcda6baf
     status: developed
   rviz:
     doc:
