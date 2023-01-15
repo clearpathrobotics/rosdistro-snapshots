@@ -502,17 +502,17 @@ repositories:
     doc:
       type: git
       url: https://github.com/flynneva/bno055.git
-      version: develop
+      version: main
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/bno055-release.git
-      version: 0.2.0-3
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/flynneva/bno055.git
-      version: develop
-    status: developed
+      version: 16d24302dd9cc8b160c68e795dc245ac37ceb368
+    status: maintained
   bond_core:
     doc:
       type: git
@@ -707,7 +707,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 2b01337bfebe6fb19529bc98df4f0cc5101e5d1b
+      version: 7220fb0ab7ea194bc18674e7b4f2f65b5e1922da
     status: maintained
   cpp_polyfills:
     release:
@@ -1281,7 +1281,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 3860ca3de512b318bc49c4eb9b941552630758a6
+      version: 5c462655d75fa00435b37c447ecaddbb7c1f101f
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1299,7 +1299,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 6718ae9e60a43befc816968a2a1aa05395fc691b
+      version: d89f7ca5077c5e71b2fbf22bfe27191c8fb0066c
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1653,7 +1653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: c4677fce9abad8b5db955095abdaa694467e956f
+      version: 9087043ec311877d544d22735233f3d015f386bf
     status: maintained
   ign_rviz:
     doc:
@@ -3166,11 +3166,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 1.5.1-2
+      version: 1.7.3-3
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
-      version: c979194848175c71a05986d8b23a01a48b8baaef
+      version: 5ab3a6213400e6e881687266c732d6ccc380fd9c
     status: developed
   pluginlib:
     doc:
@@ -3734,7 +3734,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: e25e78051536a78a4d01a080d8487de0ac8e4b54
+      version: 63be42aa28db6ac318b3fc607f738308a3a1af7d
     status: maintained
   resource_retriever:
     doc:
@@ -4096,7 +4096,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: b56cd5fe6f42946d69d2e75ec37bf06d9becbe3f
+      version: 19d141d6ed0d5f0d92a8ba87d900299de3613173
     status: developed
   rmw_gurumdds:
     doc:
@@ -6218,11 +6218,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/usb_cam-release.git
-      version: 0.4.2-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: 0772f5c11fcc08833abc882fb374da2e6ceaf301
+      version: 5cceb2eb23cb5f57182d5eacf1998a602bd5a836
     status: maintained
   v4l2_camera:
     doc:
