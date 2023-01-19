@@ -344,6 +344,16 @@ repositories:
       url: https://github.com/AprilRobotics/apriltag.git
       version: 3e8e974d0d8d6ab318abf56d87506d15d7f2cc35
     status: maintained
+  apriltag_msgs:
+    source:
+      type: git
+      url: https://github.com/christianrauch/apriltag_msgs.git
+      version: 84bd66c0120f340365437929d564ef390513387d
+  apriltag_ros:
+    source:
+      type: git
+      url: https://github.com/christianrauch/apriltag_ros.git
+      version: 97b06495634a22489524bbf92d5f37d0b36fe68c
   aruco_opencv:
     doc:
       type: git
@@ -1428,7 +1438,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 03b4d16c2d906b853c4713e45c34e96937935dda
+      version: f95dfbef3f7b2b65ecf18c7cc70bdac84a2bb6d4
     status: maintained
   geometry_tutorials:
     doc:
@@ -2298,7 +2308,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: b3cad03b578b3ff2ae0354127055e574b6ef8387
+      version: b662da313ac53e1b491c054f716539476808097b
     status: maintained
   micro_ros_diagnostics:
     doc:
@@ -2434,7 +2444,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 0642ef064df512566ffb171f5a889f4c7886110d
+      version: 0b4ae5a00c82509d904a6d6ef4f307c21d342c76
     status: developed
   moveit_msgs:
     doc:
@@ -3719,7 +3729,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/realtime_support.git
-      version: d68b3967b54c2d0afbe669a1efa6ee08c65d748e
+      version: 4c63440a13da36547b67da45692c73148d65837b
     status: maintained
   realtime_tools:
     doc:
@@ -4023,7 +4033,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: 31c6fd094c8bd01d0a231856df1bd9a476bea26a
+      version: 3046e9f91ac1c45bb0a1433279584849b399c883
     status: maintained
   rmw_connextdds:
     doc:
@@ -4217,7 +4227,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: a4f682e3920ae30f570f02b58d9085c6b50b1479
+      version: 597ba7002544841760be6f5e98b7790971ed4d03
     status: developed
   ros2_controllers:
     doc:
@@ -4353,7 +4363,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: cf020c0f0f90ded9aca6ebac806c78a387347a25
+      version: 1a4766098f917819508ce8b06ca44bdd041f5fc3
     status: maintained
   ros2cli_common_extensions:
     doc:
