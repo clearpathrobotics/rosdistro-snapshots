@@ -435,7 +435,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: f0cbf225dd500a03dd53cbabbc4246b03bd477f8
+      version: d32eedc54eba0a0f9a74d2900c502b755ba5356c
     status: maintained
   backward_ros:
     doc:
@@ -554,7 +554,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/boost_sml.git
-      version: 41799f37d308f2411ac1cd06386cc369b36a376c
+      version: 4c7c90eb9e6c6e476e5de88363eb9182ff4138ce
     status: developed
   bota_driver:
     doc:
@@ -1516,7 +1516,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 9b530dca5be3420643df0dd8433da2098b7a1023
+      version: 131f511fb9eec1236ef8eb6d637141287335c95b
     status: developed
   create_robot:
     doc:
@@ -4196,7 +4196,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: c4df514af7bf299cb9c8cf49dae3019eb1ff60ca
+      version: 38ef7b551b1825f89ab60dd9e042daaeffdea52c
     status: developed
   jsk_roseus:
     doc:
@@ -5459,7 +5459,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 7e02e7683572a8beaa70c0501f6c6929ddecacfa
+      version: e4ede1f2a88a763554ee5e62b39ef0bd70bbc061
     status: maintained
   moveit_calibration:
     doc:
@@ -5807,7 +5807,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 850cd9b5c25f6296f6a755f78680af30ef64d748
+      version: 30774b9339a00f0654a5b1024610d7c1a8ae5d56
     status: developed
   nao_meshes:
     release:
@@ -7002,7 +7002,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/pinocchio-ros-release.git
-      version: 2.6.12-1
+      version: 2.6.14-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -8923,7 +8923,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/rosbag_snapshot.git
-      version: 04b04792f48e67a4a97ed7d28157d736ac3198c4
+      version: 385b5d9586d25e3d7d017dc8e2c5baf2cb439c28
     status: maintained
   rosbash_params:
     doc:
@@ -9882,7 +9882,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.22-1
+      version: 0.20.23-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -9897,7 +9897,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.22-1
+      version: 0.20.23-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -10333,7 +10333,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/SteveMacenski/slam_toolbox.git
-      version: 1b18cacfa6971bd9c3f8fdd965d7baeecffbedf0
+      version: 04ef6ffa3eb47ea42143ab0e091553289d88acca
     status: maintained
   slider_publisher:
     doc:
@@ -11287,6 +11287,25 @@ repositories:
       url: https://github.com/ros-industrial/ur_msgs.git
       version: 8455fa579497599a22e41388618d70aa62995693
     status: maintained
+  ur_robot_driver:
+    doc:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
+      version: master
+    release:
+      packages:
+      - ur_calibration
+      - ur_dashboard_msgs
+      - ur_robot_driver
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver-release.git
+      version: 2.1.2-1
+    source:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
+      version: 395c0541b20d0da2cd480e2ad85b2100410fb043
+    status: developed
   urdf:
     doc:
       type: git
@@ -11733,7 +11752,7 @@ repositories:
     source:
       type: git
       url: https://github.com/vrpn/vrpn.git
-      version: b9d4018c93ac787f4d6cc0a7924b77954e12102c
+      version: cb5be3da2ab9f7ca70c91825a319c11f75fb1184
     status: maintained
   vrpn_client_ros:
     doc:
