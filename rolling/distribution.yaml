@@ -360,11 +360,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_ros-release.git
-      version: 3.1.0-1
+      version: 3.1.0-2
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
-      version: 97b06495634a22489524bbf92d5f37d0b36fe68c
+      version: 14e9ff5c59fc0c89848e8073dc485020635449e6
     status: developed
   aruco_opencv:
     doc:
@@ -1080,7 +1080,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: e9ba801d6563ce7a7aecaf9ca37eea54f5073714
+      version: bdb93a927faf61772e5e7953e45113afec2c4e20
     status: maintained
   example_interfaces:
     doc:
@@ -1165,7 +1165,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: b38ade0915430473b58e785f85cebeb655e5906f
+      version: 3b13489a2df28c798300d97ba876406f8e480f73
     status: maintained
   filters:
     doc:
@@ -1229,7 +1229,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
-      version: a27802159f06b1aa744c174756b7b15183d176a3
+      version: d5a57feba2adc957a81ec4b241858b6bc3c928e4
     status: maintained
   fmilibrary_vendor:
     release:
@@ -1240,7 +1240,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmilibrary_vendor.git
-      version: af18b450b907663e52ac59587e51626bc0fb89ae
+      version: c46debb632a027f086b01a300ca085f549fe981a
     status: maintained
   foonathan_memory_vendor:
     release:
@@ -1251,7 +1251,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eProsima/foonathan_memory_vendor.git
-      version: 2ef9fc02d9e5483d719d32b06c4670514b25c62a
+      version: 34f5f4d1ebaa83ff29ee0a52e044b723f9aec982
     status: maintained
   four_wheel_steering_msgs:
     release:
@@ -1277,7 +1277,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 99f42315e4b23196a7b6f8cca767b88a71252e19
+      version: 5c18b93086f40ca7359d2b67d5bff67d3036df69
     status: developed
   foxglove_msgs:
     doc:
@@ -2338,7 +2338,7 @@ repositories:
     source:
       type: git
       url: https://github.com/micro-ROS/micro_ros_diagnostics.git
-      version: 640f16c8fbe6847a4d0718814065ab70108a5463
+      version: 7d2d4f27864e58914f4f435602ff176bd45c6812
     status: developed
   micro_ros_msgs:
     doc:
@@ -2374,7 +2374,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: db27ec82cf6b3ac937adb7b7966d5595215fb381
+      version: a305e4c205b2cf5d658513dca76b259ddc5a1d8a
     status: developed
   mimick_vendor:
     doc:
@@ -2456,7 +2456,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: c8df8cc2f5ddf13512b677cc795db556a3ec9d3f
+      version: 5eb861c3ac81143112a4b5c2327199230225ff16
     status: developed
   moveit_msgs:
     doc:
@@ -3147,7 +3147,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a4f725b01fb5bb04364dbf6fb5f722f4df3337e3
+      version: d376bc00621ab5e1ebd55ca2ecfb668d3304aded
     status: developed
   plotjuggler:
     doc:
@@ -3265,7 +3265,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/stonier/py_trees_ros_interfaces-release.git
-      version: 2.0.3-1
+      version: 2.0.3-3
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
@@ -4118,7 +4118,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: d109187f9f6bd5f26c8d7c6f002523fdccdaa162
+      version: e12ff1a1be8ded9623ff770a1f4f9e4b51ca8f53
     status: developed
   rmw_gurumdds:
     doc:
@@ -4235,11 +4235,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.6.0-1
+      version: 3.7.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: d01adeb33674cb6b98464c030430db38858979f3
+      version: 9751d75fbdd62c7d11c41302d1c132aa74393118
     status: developed
   ros2_controllers:
     doc:
@@ -4270,7 +4270,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 67e5d4d394921212aa8f00eb09a68e51ef1d581e
+      version: 691e010a95dd3284fff32070d535cb3ae73e14af
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4461,7 +4461,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ignitionrobotics/ros_ign.git
-      version: 6c2e56efbaadf6e3683d7817703b1b626b768726
+      version: 63e85a952668b824d266740606a245c2a1db4d0c
     status: developed
   ros_image_to_qimage:
     doc:
@@ -5360,7 +5360,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.2.1-2
+      version: 1.6.2-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
@@ -6388,7 +6388,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 711ab05df1f2ab4f6630146d6ae74eea00428e11
+      version: 9010360c722d832720226f2db1fba7cad91ea9a6
     status: maintained
   vitis_common:
     doc:
