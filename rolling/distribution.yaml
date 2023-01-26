@@ -360,7 +360,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_ros-release.git
-      version: 3.1.0-2
+      version: 3.1.1-1
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
@@ -518,7 +518,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 24a04238bafa1b399ccdec1297c831adce49a285
+      version: d9c0a402ce16df64e5483e2143bb3ff096f52291
     status: developed
   bno055:
     doc:
@@ -607,6 +607,24 @@ repositories:
       type: git
       url: https://github.com/ros2/cartographer_ros.git
       version: 098e6bf8556070b9228b9fa7d5766238bc141a90
+    status: maintained
+  cascade_lifecycle:
+    doc:
+      type: git
+      url: https://github.com/fmrico/cascade_lifecycle.git
+      version: rolling-devel
+    release:
+      packages:
+      - cascade_lifecycle_msgs
+      - rclcpp_cascade_lifecycle
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/cascade_lifecycle-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/fmrico/cascade_lifecycle.git
+      version: 5f071bf56c6c0082715c4dae0f4cc2841c5be439
     status: maintained
   class_loader:
     doc:
@@ -1165,7 +1183,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 3b13489a2df28c798300d97ba876406f8e480f73
+      version: de60542f1e2471e16c160ba6a1b9a99d6af00223
     status: maintained
   filters:
     doc:
@@ -1635,7 +1653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: d273fa6b510db4f9b1c458c82ed327ff3bd65914
+      version: 0025db1e3c913a1fb6569a0cc7649b73e03ecc73
     status: developed
   iceoryx:
     release:
@@ -1851,6 +1869,16 @@ repositories:
       type: git
       url: https://github.com/ros/joint_state_publisher.git
       version: 424fd9e1955fddf38f1b3e1721baf9f6e9322d6b
+    status: maintained
+  joy_tester:
+    doc:
+      type: git
+      url: https://github.com/joshnewans/joy_tester.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/joshnewans/joy_tester.git
+      version: 465e0458e993d31398ed34e75528d3a59a346793
     status: maintained
   joystick_drivers:
     doc:
@@ -2338,7 +2366,7 @@ repositories:
     source:
       type: git
       url: https://github.com/micro-ROS/micro_ros_diagnostics.git
-      version: 7d2d4f27864e58914f4f435602ff176bd45c6812
+      version: 0e62066e80a8b4da01b8b79c8df35cd4f14f69e9
     status: developed
   micro_ros_msgs:
     doc:
@@ -3934,7 +3962,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: 9dd06f02f4e1222d84796b20867539406b48066f
+      version: 1d021da0a251df3c81f50b141189850a77ae76c6
     status: developed
   rmf_traffic:
     doc:
@@ -4461,7 +4489,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ignitionrobotics/ros_ign.git
-      version: 63e85a952668b824d266740606a245c2a1db4d0c
+      version: 34e01105c564b30ddd09d9f386aba577f6a15f61
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6566,7 +6594,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 8b20829493a610863c4ff4ae4d82e49fc63f2087
+      version: 2ca61e2c87b38e0f44fbeb67e4ad48fde7e73b51
     status: developed
   zmqpp_vendor:
     doc:
