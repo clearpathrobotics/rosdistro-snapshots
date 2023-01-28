@@ -825,7 +825,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: f4ca3cb20512803ec4d4182e5ea754fa358d6ea4
+      version: a3431717bdba3d16885fb36ccb1e43cc770c2f63
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -847,21 +847,23 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: rolling
+      version: ros2
     release:
       packages:
       - diagnostic_aggregator
+      - diagnostic_common_diagnostics
       - diagnostic_updater
+      - diagnostics
       - self_test
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 3.0.0-1
+      version: 3.1.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: b035bee81f745cb58e74aa7dbccee7050683d104
+      version: 5fd92948853c9dbe17001b7058054933e802b4bf
     status: maintained
   dolly:
     doc:
@@ -1098,7 +1100,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: bdb93a927faf61772e5e7953e45113afec2c4e20
+      version: 7945405b210c408b66f8324ee56e0a5e4eaafe69
     status: maintained
   example_interfaces:
     doc:
@@ -1295,7 +1297,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 5c18b93086f40ca7359d2b67d5bff67d3036df69
+      version: d29159c10127ecfac9262ddaa657def371f1aeab
     status: developed
   foxglove_msgs:
     doc:
@@ -1321,7 +1323,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 91e408f3420c44bb66f09c8b54543e57b817d671
+      version: a26314856620743b15e0324f7ff6b2e5d9cd86ea
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1765,7 +1767,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: a567452c39a2f1695e0eb44ecb3b3e96ea6f51e6
+      version: 6ab6eb29285522705211ea3a6f31bbc95793ecba
     status: maintained
   image_pipeline:
     doc:
@@ -1947,11 +1949,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kinematics_interface-release.git
-      version: 0.0.2-1
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 51221b9c16666791d1a5a3c84edb49021f2c8c52
+      version: 3e6657862bf46307e379f9949fb3b59b5c841596
     status: developed
   kobuki_core:
     doc:
@@ -2612,11 +2614,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.5.0-1
+      version: 0.5.1-2
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 2c8ada133d925643db5dd49538223f3af5479295
+      version: d1e8c184389633d653ccf3754665c7e49aef35a1
     status: developed
   nao_button_sim:
     doc:
@@ -3080,7 +3082,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 3b0cfd8529a59fc135418c2a27e40acb926ad06a
+      version: 0c8e7dafce90ff7621267b38f7be543ab3218a19
     status: maintained
   performance_test:
     doc:
@@ -3175,7 +3177,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: d376bc00621ab5e1ebd55ca2ecfb668d3304aded
+      version: 9b6ba8708ece5600f4d0612aa4a174e0aca40e64
     status: developed
   plotjuggler:
     doc:
@@ -3667,7 +3669,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: ab71df3ce1d8993e8424e7d0934b2e205284c682
+      version: 7d660acc05df6fc480d2b05e09d487d8c027d2c1
     status: maintained
   rclpy:
     doc:
@@ -3683,7 +3685,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: fb1058935f25f20a5ba9552994b9b63a3edd36f9
+      version: 9584697c277a01ea17a3bd6e2eea29d71c9d9d0f
     status: maintained
   rcpputils:
     doc:
@@ -3750,7 +3752,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 725b6f17b71b50e56ebba06386ffa65e85d8ed93
+      version: 95707009bc1f1a99929d17456bf271836fc7ccda
     status: maintained
   realtime_support:
     doc:
@@ -4294,7 +4296,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.0.0-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -4854,7 +4856,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: 0d1b9c1242d2911395a0fed7a8531908cc831b88
+      version: d4ab8b115d3372893510ba6f2c2a92113a844ed4
     status: maintained
   rqt_action:
     doc:
@@ -6594,7 +6596,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 2ca61e2c87b38e0f44fbeb67e4ad48fde7e73b51
+      version: 0da4c5ac10b5a780caae06be68ab644cdd1b5c1d
     status: developed
   zmqpp_vendor:
     doc:

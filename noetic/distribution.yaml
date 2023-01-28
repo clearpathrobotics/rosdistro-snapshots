@@ -2766,7 +2766,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 5c18b93086f40ca7359d2b67d5bff67d3036df69
+      version: d29159c10127ecfac9262ddaa657def371f1aeab
     status: developed
   foxglove_msgs:
     doc:
@@ -5272,7 +5272,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/dfki-ric/mir_robot.git
-      version: 0e773be5ba2536463d8ad56a1e4abff5eca0f2c0
+      version: fcf61bba469c415f75e05e77bf79d2b35af7ecdf
     status: developed
   mitch_v2_driver:
     doc:
@@ -5803,11 +5803,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 2c8ada133d925643db5dd49538223f3af5479295
+      version: d1e8c184389633d653ccf3754665c7e49aef35a1
     status: developed
   nao_meshes:
     release:
@@ -6946,7 +6946,8 @@ repositories:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
       version: 27398536c21e50aeca821de1b6992f7a204d1d75
-    status: maintained
+    status: end-of-life
+    status_description: The pilz planner has been integrated into moveit. See https://moveit.ros.org/documentation/planners/
   pilz_robots:
     doc:
       type: git
@@ -6970,7 +6971,7 @@ repositories:
       type: git
       url: https://github.com/PilzDE/pilz_robots.git
       version: 94ac916b39cbf1070fee66e44a9f5556af215caa
-    status: maintained
+    status: end-of-life
   pincher_arm:
     doc:
       type: git
@@ -7006,7 +7007,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: d376bc00621ab5e1ebd55ca2ecfb668d3304aded
+      version: 9b6ba8708ece5600f4d0612aa4a174e0aca40e64
     status: developed
   plotjuggler:
     doc:
@@ -9971,6 +9972,12 @@ repositories:
       url: https://github.com/nobleo/rviz_satellite.git
       version: 78227f6f4e5d8fd913a00c65858b5f4ec0c9a5a0
     status: maintained
+  rviz_tool_cursor:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-industrial-release/rviz_tool_cursor.git
+      version: 1.0.1-1
   rviz_visual_tools:
     doc:
       type: git
@@ -11255,7 +11262,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
-      version: b827b09d3d78ea55590c5a35b74d3071a0a2f05f
+      version: 6507bb6756d0065d49b76230ff55f875f099a827
     status: developed
   ur_client_library:
     doc:
@@ -11285,7 +11292,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git
-      version: 8455fa579497599a22e41388618d70aa62995693
+      version: 7f73065036ea8acbf3a0551f480cc57493341f22
     status: maintained
   ur_robot_driver:
     doc:
