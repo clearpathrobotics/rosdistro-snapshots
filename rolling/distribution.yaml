@@ -620,7 +620,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cascade_lifecycle-release.git
-      version: 1.0.3-1
+      version: 1.0.3-2
     source:
       type: git
       url: https://github.com/fmrico/cascade_lifecycle.git
@@ -747,7 +747,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: d2a405f191744dbe6ffb29deff00be6a5d1c15e3
+      version: 1be2ca39bf55e1a4afd69cb2b69ff7a8ca36acf3
     status: maintained
   cpp_polyfills:
     release:
@@ -863,7 +863,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 5fd92948853c9dbe17001b7058054933e802b4bf
+      version: a09a02a987ddd0e7934d8049e65e631ffb637bdf
     status: maintained
   dolly:
     doc:
@@ -1100,7 +1100,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 7945405b210c408b66f8324ee56e0a5e4eaafe69
+      version: 0f0c43d5b395191cbcb4feb5814706fdfbfc4ce6
     status: maintained
   example_interfaces:
     doc:
@@ -1185,7 +1185,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 66027086c2023dbc46babba29d8ea09d0bac73f4
+      version: 7725a2f622d2a9c8486dd9352ab07d9fcc6b2a5c
     status: maintained
   filters:
     doc:
@@ -1655,7 +1655,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 0025db1e3c913a1fb6569a0cc7649b73e03ecc73
+      version: 216fde153631f5ef48a20651b3efbbae313ec439
     status: developed
   iceoryx:
     release:
@@ -1670,7 +1670,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
-      version: f756b7c99ddf714d05929374492b34c5c69355bb
+      version: 40ef24e9515940564af63987234d51dc7f02f6b3
     status: developed
   ifm3d_core:
     release:
@@ -1877,6 +1877,11 @@ repositories:
       type: git
       url: https://github.com/joshnewans/joy_tester.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/joy_tester-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/joshnewans/joy_tester.git
@@ -2027,7 +2032,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 3b88d256935604df054e908a6100bc3e3bd190a7
+      version: 4d1ed86818d81e6c6bf110dbadd8598182cfe349
     status: maintained
   laser_filters:
     release:
@@ -2128,7 +2133,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 35b2ca9f99f193bab82f02141300c6102e0bdb71
+      version: 954a2110ec271b606f6acaf6d1d72cd2e2ae05ff
     status: maintained
   lgsvl_msgs:
     release:
@@ -2190,7 +2195,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: ee7ff9bb04ca50d305c6cfaae0615b3405e1cf03
+      version: 21be7968f9a9bf9fb57c78d88ea4568911523695
     status: developed
   libyaml_vendor:
     release:
@@ -3082,7 +3087,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 0c8e7dafce90ff7621267b38f7be543ab3218a19
+      version: de09161924ae8c04499610ed7d47fc1e8f7af9cb
     status: maintained
   performance_test:
     doc:
@@ -3109,7 +3114,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/performance_test_fixture.git
-      version: ec8ae54e557c7f7ef3978c0197c289320c5ddf47
+      version: fe9857b35526d499615cabac25c2e14f3221de62
     status: maintained
   phidgets_drivers:
     doc:
@@ -3173,11 +3178,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.14-1
+      version: 2.6.14-2
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 9b6ba8708ece5600f4d0612aa4a174e0aca40e64
+      version: 6f42a91fa7d29d499f891b1990b2eb9703546fb9
     status: developed
   plotjuggler:
     doc:
@@ -3286,6 +3291,37 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
       version: cc9652f16d1cba4a8a41fe0bb862692207400e64
     status: maintained
+  py_trees:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees.git
+      version: devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/py_trees-release.git
+      version: 2.2.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/splintered-reality/py_trees.git
+      version: fe8331133afea1d7dea56f95c59ee040d2ea426b
+    status: developed
+  py_trees_js:
+    doc:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_js.git
+      version: devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/py_trees_js-release.git
+      version: 0.6.3-1
+    source:
+      type: git
+      url: https://github.com/splintered-reality/py_trees_js.git
+      version: b01ee6c014588dc09a5f9e390ac36832109ec1a9
+    status: maintained
   py_trees_ros_interfaces:
     doc:
       type: git
@@ -3294,8 +3330,8 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/stonier/py_trees_ros_interfaces-release.git
-      version: 2.0.3-3
+      url: https://github.com/ros2-gbp/py_trees_ros_interfaces-release.git
+      version: 2.0.3-4
     source:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
@@ -3571,7 +3607,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: d651a5cc77d3b81b1d779e611cae651238960206
+      version: bddbb377cbfbaa80f5a23f7c75bd1f5296d0cadf
     status: maintained
   rcl_interfaces:
     doc:
@@ -3664,12 +3700,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 18.0.0-1
+      version: 19.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 7d660acc05df6fc480d2b05e09d487d8c027d2c1
+      version: be8c5d01c683ea381ffb77f4fc246411d8d31639
     status: maintained
   rclpy:
     doc:
@@ -3782,11 +3818,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 2.4.0-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 19aaf3800dc2d9fc0a59aa32648191a677191afa
+      version: fef95779c9b393594b179f81eb1f57bcdd0dc742
     status: maintained
   resource_retriever:
     doc:
@@ -4075,7 +4111,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: 8995d9faa8ecb39f62cc4e2cb65abb63489ae4c6
+      version: b9e5349d54e24a78ce896f596d253303c2cbc191
     status: maintained
   rmw_connextdds:
     doc:
@@ -4182,7 +4218,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: 68faf3708b8dbda4577b8a4805e9e630c3d899ea
+      version: 5ca69c397ac694598c8f4c3f34aac8256aa0ae17
     status: developed
   robot_calibration:
     doc:
@@ -4269,7 +4305,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 9751d75fbdd62c7d11c41302d1c132aa74393118
+      version: 17d5ca0b29418bd24f4f3063fc8e83a126b867b6
     status: developed
   ros2_controllers:
     doc:
@@ -5548,7 +5584,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
-      version: 91d7db8b28d64008145a7281febd08c2f59a0fe8
+      version: bd09b5a336be2802297d64401f8dd7c49c46e6d0
     status: maintained
   sros2:
     doc:
@@ -5847,7 +5883,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ros-tracing/tracetools_analysis.git
-      version: 9c853b27fc380d763317ce786f0588007db8f33b
+      version: f1e1500862a388568c7f51b312ff37319535042a
     status: developed
   transport_drivers:
     doc:
@@ -6596,7 +6632,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 0da4c5ac10b5a780caae06be68ab644cdd1b5c1d
+      version: e021ff1e7f047afc0a4a0589be05d25c03f2b054
     status: developed
   zmqpp_vendor:
     doc:
