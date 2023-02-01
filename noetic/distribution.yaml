@@ -1756,7 +1756,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.19.1-1
+      version: 2.20.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1773,11 +1773,12 @@ repositories:
       - depthai-ros
       - depthai_bridge
       - depthai_examples
+      - depthai_ros_driver
       - depthai_ros_msgs
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.5.3-1
+      version: 2.6.1-2
     source:
       test_pull_requests: true
       type: git
@@ -1855,7 +1856,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo-release.git
-      version: 0.2.0-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo.git
@@ -2210,11 +2211,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/eigenpy-ros-release.git
-      version: 2.8.1-1
+      version: 2.9.1-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: e9ba801d6563ce7a7aecaf9ca37eea54f5073714
+      version: 074ec7d0e2028dcbc875309bfa2ea95bf1abed81
     status: developed
   eiquadprog:
     doc:
@@ -2265,7 +2266,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ensenso/ros_driver.git
-      version: a878ec9c33bd95c36e3a6fff89a22aa0a93213ea
+      version: ccfb6258342fc2da718bcb6062722a44a129fc55
     status: developed
   er_public_msgs:
     release:
@@ -4385,6 +4386,7 @@ repositories:
       - lanelet2_examples
       - lanelet2_io
       - lanelet2_maps
+      - lanelet2_matching
       - lanelet2_projection
       - lanelet2_python
       - lanelet2_routing
@@ -4393,7 +4395,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2-release.git
-      version: 1.1.1-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
@@ -4778,11 +4780,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/locator_ros_bridge-release.git
-      version: 1.0.7-1
+      version: 1.0.8-1
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: 0e48e08588cda9eab0f2d87177e6cabfbfe41cd1
+      version: 45464eed57045eae1d6c4570e9d1616591a19d65
     status: maintained
   log_view:
     doc:
@@ -4885,7 +4887,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 533c9509ef77d0fedd8be47d16dc6310877e24cf
+      version: 769506a8e65f5b9fce095411559d31e45945c969
     status: maintained
   mapviz:
     doc:
@@ -6020,7 +6022,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.11.8-1
+      version: 0.12.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6042,7 +6044,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation_msgs-release.git
-      version: 0.8.0-1
+      version: 0.12.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation_msgs.git
@@ -6507,7 +6509,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/opencv_apps.git
-      version: 74fad3a6f7d52ee6de61cfc1461fdfaebf12534f
+      version: a6cb1afd82a9a8885f67701d8f1a25bf9288c0f9
     status: maintained
   openhrp3:
     doc:
@@ -6841,7 +6843,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PepperlFuchs/pf_lidar_ros_driver.git
-      version: 4899240310d71f4ee2bea7b188ec17e256b2e9af
+      version: aebe0a190b77e3502db4c15d4533ca39de885a8f
     status: developed
   phidgets_drivers:
     doc:
@@ -7007,7 +7009,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 6f42a91fa7d29d499f891b1990b2eb9703546fb9
+      version: 990212b8021ed03462f8ae5a5aea0ba067f0bc04
     status: developed
   plotjuggler:
     doc:
@@ -8612,7 +8614,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
-      version: 7f3a4064f8022bdcc577c443a595f42270154098
+      version: 62cb5278ac36a2db980c71a831125e33d93c7fa6
     status: maintained
   ros_control_boilerplate:
     doc:
@@ -8653,11 +8655,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_controllers-release.git
-      version: 0.21.0-1
+      version: 0.21.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros_controllers.git
-      version: 8ab76948371c43d18eb21b42ed85bdb6f8595877
+      version: e74a966a33b8d601da5fa3c1fa1db7c5eafcad57
     status: maintained
   ros_controllers_cartesian:
     doc:
@@ -9978,6 +9980,12 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/rviz_tool_cursor.git
       version: 1.0.1-1
+  rviz_tool_path_display:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-industrial-release/rviz_tool_path_display-release.git
+      version: 0.1.1-1
   rviz_visual_tools:
     doc:
       type: git
