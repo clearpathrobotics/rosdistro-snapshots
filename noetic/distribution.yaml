@@ -167,7 +167,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag_ros.git
-      version: fa111375936e01701f0ef9111955af854a75c7a3
+      version: 08b4af96d0db02295fe2082114d5fe84caa4f4ac
     status: maintained
   arbotix:
     doc:
@@ -435,7 +435,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 021212f84f3014709f11314a829e22bc537c11e2
+      version: 23fab17e26553aa8a14c8c648011a1a0c133b1fc
     status: maintained
   backward_ros:
     doc:
@@ -1516,7 +1516,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: e3b693c4a5742eff5ee5ba7742cd89a46b5ab5c6
+      version: b94f8fa5be7cf8b11a56935bd9908924eadc8de2
     status: developed
   create_robot:
     doc:
@@ -1756,7 +1756,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.20.1-1
+      version: 2.20.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2211,7 +2211,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/eigenpy-ros-release.git
-      version: 2.9.1-1
+      version: 2.9.2-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -2266,7 +2266,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ensenso/ros_driver.git
-      version: ccfb6258342fc2da718bcb6062722a44a129fc55
+      version: a0aafbd444f635337faf21c71ef955bf808b5a47
     status: developed
   er_public_msgs:
     release:
@@ -2885,7 +2885,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: 8583aec91f8dafdf5f1607e582398514d4fc0299
+      version: 398cde933cba5d72921055d57d4faa47c4445654
     status: maintained
   gazebo_video_monitors:
     doc:
@@ -3392,7 +3392,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
-      version: f6e3cdb939a595ab0bbb34c1b733376315182318
+      version: d3a0cb0495c673e3429dcea3119d856f38cee341
     status: developed
   hector_slam:
     release:
@@ -3549,7 +3549,7 @@ repositories:
     source:
       type: git
       url: https://github.com/husky/husky.git
-      version: 6f3e399ee2f6fa797ce3046eee60fa61a769e0c8
+      version: 92482f79b10cdef461de894a80d841903c1aa1d8
     status: maintained
   ifm3d:
     release:
@@ -3659,8 +3659,8 @@ repositories:
       - theora_image_transport
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/ros-gbp/image_transport_plugins-release.git
-      version: 1.14.0-1
+      url: https://github.com/ros2-gbp/image_transport_plugins-release.git
+      version: 1.15.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4395,7 +4395,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2-release.git
-      version: 1.2.0-1
+      version: 1.2.0-2
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
@@ -5461,7 +5461,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 8eb1d1010b72a71bdf27aafcaff4a48a806047d6
+      version: b32af6a22a134f8bb150d659ca14b93ab4617adf
     status: maintained
   moveit_calibration:
     doc:
@@ -5563,6 +5563,28 @@ repositories:
       url: https://github.com/PickNikRobotics/moveit_sim_controller.git
       version: adf725ac2e892311e266163bcc4fc8ea017186da
     status: maintained
+  moveit_task_constructor:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_task_constructor.git
+      version: master
+    release:
+      packages:
+      - moveit_task_constructor_capabilities
+      - moveit_task_constructor_core
+      - moveit_task_constructor_demo
+      - moveit_task_constructor_msgs
+      - moveit_task_constructor_visualization
+      - rviz_marker_tools
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_task_constructor-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_task_constructor.git
+      version: 49b3bd0d568409955357fca3b636a097020464e4
+    status: developed
   moveit_visual_tools:
     doc:
       type: git
@@ -5656,7 +5678,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 3b47599479e130652085113c1ac41a362db2ddb5
+      version: 042a013b8d9b3b0db20ae8a4be36ea36fc43e7c3
     status: developed
   mrpt_msgs:
     doc:
@@ -5809,7 +5831,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: ce3b3518f56f571a8ed8070b8cbaf5c195e3136f
+      version: 16485676aa97073a65cb11bf2e0bbb3c7497f021
     status: developed
   nao_meshes:
     release:
@@ -6026,7 +6048,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
-      version: f89f92a8924948c4ce0d930dac679ab89bee0f76
+      version: e3d65162f77d37014beb070541000e1e4a9ee709
     status: developed
   neonavigation_msgs:
     doc:
@@ -7005,11 +7027,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/pinocchio-ros-release.git
-      version: 2.6.14-1
+      version: 2.6.15-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a928f6d8cda0c9993a9aa0617f9c50486a6168ac
+      version: e397f1406b4579acc9b629e54619e00231014db4
     status: developed
   plotjuggler:
     doc:
@@ -8764,7 +8786,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
-      version: 952c3445ddf7dbb1b2d378f2a1444515a79eaf8f
+      version: 4565a5d0223804f56ad3fe4e9d44ccb31c13b309
     status: developed
   ros_inorbit_samples:
     release:
@@ -10824,7 +10846,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: eeea72fd87c46a53bb117013bf9832ad70e377e1
+      version: acde16391e8619d15fe53b445fba84fd3b6baa16
     status: developed
   tf2_2d:
     release:
