@@ -825,7 +825,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 570964e5027bd173db8e982ee1d636fe6fda48e1
+      version: c17d5fa49b62ca4002d376349e6de6356b31ee7c
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -863,7 +863,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: a09a02a987ddd0e7934d8049e65e631ffb637bdf
+      version: 068777f04d9ff860f412c6e11b7af1d92c9f38ea
     status: maintained
   dolly:
     doc:
@@ -1100,7 +1100,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: f35c1e32b8e27481f8a9661a59305885756af3a9
+      version: a7d6cca58c51a06f29d78ea4522e25ac3a4de95d
     status: maintained
   example_interfaces:
     doc:
@@ -1271,7 +1271,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eProsima/foonathan_memory_vendor.git
-      version: 34f5f4d1ebaa83ff29ee0a52e044b723f9aec982
+      version: 1d5d42ca5666bcc4664b3b985b557cf023c79864
     status: maintained
   four_wheel_steering_msgs:
     release:
@@ -1297,7 +1297,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: d29159c10127ecfac9262ddaa657def371f1aeab
+      version: 8e08af0eb2e0bdc20f70494c194516117371bbac
     status: developed
   foxglove_msgs:
     doc:
@@ -1341,7 +1341,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 1b4ecb6f5f05e48467ca0898ca5c2b480a1a9d56
+      version: cea0546bb4cfde13ce5e88a44fb0f42b61f85bf5
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1665,7 +1665,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 216fde153631f5ef48a20651b3efbbae313ec439
+      version: 00982e74f034bbb489e0cef2142bc4b94ab331bd
     status: developed
   iceoryx:
     release:
@@ -1701,11 +1701,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 7954683346f3ac24c07b9bb4e7a47f011c462897
+      version: b1108f5f4939b92d355af8a2e6caed088b21c4a5
     status: maintained
   ign_rviz:
     doc:
@@ -2501,7 +2501,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 9b21a23d3138213a06e1b09b58d70e8de12ea0d8
+      version: fda09eeac3ba681a728ea953d987d813303f20a8
     status: developed
   moveit_msgs:
     doc:
@@ -2568,7 +2568,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 042a013b8d9b3b0db20ae8a4be36ea36fc43e7c3
+      version: 76c4ce99fc8f9d18df0bef2b0a72164f3677bf64
     status: developed
   mrpt_msgs:
     doc:
@@ -2633,7 +2633,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: c50818520512fb53a5c81983773287e0cf4a3d04
+      version: e84f74df06bcf924c144555a55fa4fcc962fa74e
     status: developed
   nao_button_sim:
     doc:
@@ -3192,7 +3192,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: dd59d392cd6977ddfa6e1bc7c3f921a9babbd609
+      version: 306c894ea56e02aa963e1abaa9875d5825a3f214
     status: developed
   plotjuggler:
     doc:
@@ -3233,7 +3233,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 1.7.3-3
+      version: 1.7.3-4
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -3336,17 +3336,18 @@ repositories:
     doc:
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
-      version: release/2.0.x
+      version: devel
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/py_trees_ros_interfaces-release.git
-      version: 2.0.3-4
+      version: 2.1.0-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
-      version: 18637e974ee1b62700898196e008362d980ab005
-    status: maintained
+      version: 7d60906339762f06370cb2d4e1dfbc25190d5cf1
+    status: developed
   pybind11_json_vendor:
     doc:
       type: git
@@ -3694,7 +3695,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclc.git
-      version: 1d31f436592a778158d5b800c1854adcf8ddc798
+      version: e63b644f37bcfb1378afa3b44372b814d936298d
     status: developed
   rclcpp:
     doc:
@@ -4346,7 +4347,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 6594e72b8768b01f07b5bc7518ccf6e55d17dea6
+      version: 762ae2b4b6012292d0f0379b215b3809deee58ae
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -6414,7 +6415,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/vision_msgs.git
-      version: f18874ba0770592feb82e4c35b1aa9517ca73a51
+      version: c2b0ef621c7306b29bf4c7544d23bd11db0e2201
     status: developed
   vision_msgs_layers:
     doc:
@@ -6580,12 +6581,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/webots_ros2-release.git
-      version: 2023.0.1-1
+      version: 2023.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 4078f0df4e2d6102d0091bcc19d70fc31d70b535
+      version: 3c95f6844544cf4113c1692acc405f57bcae295b
     status: maintained
   xacro:
     doc:
