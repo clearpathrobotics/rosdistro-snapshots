@@ -207,7 +207,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fictionlab/aruco_opencv.git
-      version: f6bf47c0cc9763ea17e42902bab9071526d285e7
+      version: 2ad405790bac886198347c9da8d95e950e7c9ac0
     status: developed
   aruco_ros:
     doc:
@@ -1507,16 +1507,18 @@ repositories:
     release:
       packages:
       - cras_cpp_common
+      - cras_docs_common
       - cras_py_common
       - cras_topic_tools
+      - image_transport_codecs
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.0.10-2
+      version: 2.1.1-2
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 4be9fffe75223d5c60aa55cd7210d87ca50fd019
+      version: 41d8bf417584675f3515664eb565c9efe2335dd5
     status: developed
   create_robot:
     doc:
@@ -2784,7 +2786,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 8e08af0eb2e0bdc20f70494c194516117371bbac
+      version: 78cfc8ee1d1d2745551592b8dc8dff6902179f3a
     status: developed
   foxglove_msgs:
     doc:
@@ -5250,7 +5252,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 66f76de7ec766cfb82473fda21f0d5e281c23a6e
+      version: 5379b6c8d5a13fc5488ab38de3554de8b91c28ab
     status: developed
   mikrotik_swos_tools:
     doc:
@@ -5828,7 +5830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carnegierobotics/multisense_ros.git
-      version: b2bf9b55123d8f7491ec3e59ec318d90cba36065
+      version: 9464c37d91a62f9a72f20ca39a16575fc94c886d
     status: maintained
   muse_v2_driver:
     doc:
@@ -5848,7 +5850,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: e84f74df06bcf924c144555a55fa4fcc962fa74e
+      version: 1c39f75dfd67390fb0e78ae9c6ae2f04b7f36a80
     status: developed
   nao_meshes:
     release:
@@ -7063,7 +7065,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 2ab35b144a17f3469b7c53a1107d1115aaf3e3d0
+      version: 721be841590eb7e0a2d0ff76701310bb9d1946a9
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -8202,7 +8204,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: ae4facf4659134b397f6e6f69dfa78933a572148
+      version: 55f0badbc6df2c01e8c34e1dfa29570cdde9deb4
     status: developed
     status_description: developed
   rm_controllers:
@@ -8653,7 +8655,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
-      version: 62cb5278ac36a2db980c71a831125e33d93c7fa6
+      version: 12edce55d89c1ddf68ad903407af7809e712b857
     status: maintained
   ros_control_boilerplate:
     doc:
