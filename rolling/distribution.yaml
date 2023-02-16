@@ -114,7 +114,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 1.5.2-1
+      version: 1.5.3-2
     source:
       test_pull_requests: true
       type: git
@@ -863,7 +863,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: bb705b84194f8e6d8ac9fd64e61fa2c53667e195
+      version: 5a3a92285e6a4a56c347209f6a8b94a610ae1ae2
     status: maintained
   dolly:
     doc:
@@ -1293,11 +1293,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 31805d2e066aa207eadd4816f9962cb26c81aaf0
+      version: 5841521e9b1cf08dac9a4d79aa19e2b49f793c9f
     status: developed
   foxglove_msgs:
     doc:
@@ -1312,7 +1312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 999e4bae3273dcfcd863b3870933f9444316a66c
+      version: 02fcfbb3f6bcf11da44c8286622527f056236610
     status: maintained
   fuse:
     doc:
@@ -1610,7 +1610,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 32c5bb2aad40a58c1c1cf809e6702a2fc66d4eee
+      version: 282c3f4d4508671ee504467f15abb73ffd25a288
     status: developed
   hash_library_vendor:
     doc:
@@ -2502,7 +2502,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 8bfe782d6254997d185644fa3eb358d2b79d69b2
+      version: 694e1f178b71bfe26d0f5d7e5e64301008870d40
     status: developed
   moveit_msgs:
     doc:
@@ -2634,7 +2634,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 90f4b3ff0aeec57f19126521d41d91f03d7c7731
+      version: f1d64e7f67767f94db05c043c04efa5cd16fd87f
     status: developed
   nao_button_sim:
     doc:
@@ -3098,7 +3098,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 1868f51160d0376099e5fcfff0dccc4cebcc1f7f
+      version: 628aaec1dc73ef4adea01e9d28f11eb417b948fd
     status: maintained
   performance_test:
     doc:
@@ -3189,11 +3189,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.16-1
+      version: 2.6.17-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 97f05898a0448f28b590feef83ee968d6945f5db
+      version: 78d62096002ffa3790638e392f0b6e4a5efc3d34
     status: developed
   plotjuggler:
     doc:
@@ -4140,7 +4140,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: 3536f7cd2910713dd8012890a7591585c5281544
+      version: 44ad18714f8e6c156e74609324b1c464a7d84674
     status: maintained
   rmw_connextdds:
     doc:
@@ -4231,7 +4231,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
-      version: 66f185ab3d554aa4b2e0ffe991c0af73005fdcf8
+      version: 38f697e72dab511e09c8a376b1efdddf229672b1
     status: developed
   rmw_implementation:
     doc:
@@ -4597,11 +4597,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_workspace-release.git
-      version: 1.0.2-5
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros2/ros_workspace.git
-      version: 211ebab7aad33954489eb48b98b3207621a480b7
+      version: db49f0ae77098cb631f6a262808b01030ac6f784
     status: maintained
   rosbag2:
     doc:
