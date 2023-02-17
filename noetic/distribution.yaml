@@ -41,7 +41,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/abb_robot_driver_interfaces.git
-      version: f03afc529e40a2b3212cd181ba71db434764a2f4
+      version: 3cd76ebc2066f7e1510ce0ae74fce7b1c2e5b17a
     status: developed
   ackermann_msgs:
     doc:
@@ -1386,18 +1386,18 @@ repositories:
   computer_status_msgs:
     doc:
       type: git
-      url: https://github.com/plusone-robotics/computer_status_msgs.git
+      url: https://github.com/kinu-garage/computer_status_msgs.git
       version: master
     release:
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/130s/computer_status_msgs-release.git
+      url: https://github.com/kinu-garage/computer_status_msgs-release.git
       version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/plusone-robotics/computer_status_msgs.git
-      version: d162fc5a38a42bed76fec3c15838266b954776c9
+      url: https://github.com/kinu-garage/computer_status_msgs.git
+      version: eeba9c31170474ba5e9b45a7379e74e54384a9c8
     status: maintained
   control_box_rst:
     doc:
@@ -1785,7 +1785,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 4917e3b63f7997522971985d336d571f791e027a
+      version: cabc0693bbdb0045703b9ac09a7f2e414991bf37
     status: developed
   depthimage_to_laserscan:
     release:
@@ -4906,7 +4906,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 6527df91d2edddf34d95d9f31519867be8925e1a
+      version: 6542403248d46136031a6ec5e85bc103bfb1a70c
     status: maintained
   mapviz:
     doc:
@@ -5050,7 +5050,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 6e5aa58d78d2293f270a7ca8061b56330939d05c
+      version: 83cbdb7b859fc006b3f8fb1221a6194c48513681
     status: developed
   mcl_3dl:
     doc:
@@ -5850,7 +5850,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: f1d64e7f67767f94db05c043c04efa5cd16fd87f
+      version: 4d38b65d91dc3c2ad9ee5c02bf88a1ecac13a5ad
     status: developed
   nao_meshes:
     release:
@@ -6067,7 +6067,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
-      version: 4e2d61f7118c77cd4ff42083e05b0be8fd444772
+      version: d38b46e2dc7ad10c7eb5a0e25fbfcc691ede22b4
     status: developed
   neonavigation_msgs:
     doc:
@@ -7065,7 +7065,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 721be841590eb7e0a2d0ff76701310bb9d1946a9
+      version: e67ddb44bbabef22700ea5a8810aa82d756654d4
     status: maintained
   plotjuggler_msgs:
     doc:
