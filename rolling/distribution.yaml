@@ -743,11 +743,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 2.1.2-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 1be2ca39bf55e1a4afd69cb2b69ff7a8ca36acf3
+      version: b56c1bad787fa3fd4ed796ba0e7184126991bbc7
     status: maintained
   cpp_polyfills:
     release:
@@ -1293,7 +1293,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -1665,7 +1665,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: eaee999b8f3cbaf59a6a002492a367ab287204bc
+      version: f12fc7c40f07ac821f107c86501d0137c517e4f5
     status: developed
   iceoryx:
     release:
@@ -1676,7 +1676,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/iceoryx-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
@@ -2205,7 +2205,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 33677448ee45f9774a492cc051b6254f685d23f4
+      version: 22a3260ab318e5c133524863467e844e6a925f29
     status: developed
   libyaml_vendor:
     release:
@@ -2502,7 +2502,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 752571e9ff027b3137b9720227681ed6b57e42d6
+      version: cc635471aadfb9446398ece319ae31c6b72bec86
     status: developed
   moveit_msgs:
     doc:
@@ -2569,7 +2569,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: e93407b40c1fdbf054e128d241125a7a320c1bc5
+      version: 9e735edb7114fef07fb67dcaf87ee8250b8d861e
     status: developed
   mrpt_msgs:
     doc:
@@ -2634,7 +2634,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 00426758e0879da6045a183cf2ef716ba23a09a3
+      version: 1adf38179b56e5958e46f911bfb5b1078c79b4d1
     status: developed
   nao_button_sim:
     doc:
@@ -3113,7 +3113,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 113a77bbadeb99a788065200689ea044388892ac
+      version: 35512231fcc61c18016a1c3b86ba8d2b6dd92649
     status: maintained
   performance_test_fixture:
     release:
@@ -3316,7 +3316,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 715cb6a17b0f371ac899a2604a6eebb43a95d9b6
+      version: 311f6deaef1a56ea9351715d75c10c5de4649edc
     status: developed
   py_trees_js:
     doc:
@@ -4334,7 +4334,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 1c058d761d0c5de511daccff99b4d7432bced1cf
+      version: 3a09fb316a0048838f78829b43bfc219400db6f7
     status: developed
   ros2_controllers:
     doc:
@@ -4365,7 +4365,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: abe9efdb03cd6f5e68f788547a87b90ec229b24b
+      version: 5a7aedeae7e4c1fb76a0498112ee22bc2b8e8a1d
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5878,7 +5878,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: d0f09e560db781d9f3f84948be5a65c62e148840
+      version: fdc8df8361fd449c4e6564a4fdb04ecbd6771870
     status: developed
   tracetools_acceleration:
     doc:
