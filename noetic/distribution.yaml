@@ -5480,7 +5480,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: a7684e7891416dc92214023b2a004213e49a3a86
+      version: a4cf3851c3304a0c224df30347d8ad7d3ab9e60c
     status: maintained
   moveit_calibration:
     doc:
@@ -8205,14 +8205,15 @@ repositories:
       - rm_gazebo
       - rm_hw
       - rm_msgs
+      - rm_referee
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_control-release.git
-      version: 0.1.15-1
+      version: 0.1.17-1
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 55f0badbc6df2c01e8c34e1dfa29570cdde9deb4
+      version: 5c8ff6087deef13b4e19e3702a8d53d83b509e67
     status: developed
     status_description: developed
   rm_controllers:
@@ -8239,7 +8240,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: d13d11af8d764e523958308e41b97faec02cad57
+      version: 5d8bbb908e13f7a56781a5ed9b94cab4623d5371
     status: developed
   rm_description:
     doc:
@@ -10021,7 +10022,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/rviz_satellite.git
-      version: 0b16a4d07f93d39aecafe63c702e71f445f4f50a
+      version: 9fc5a82e00a648a437057212ffe982a595b90e34
     status: maintained
   rviz_tool_cursor:
     release:

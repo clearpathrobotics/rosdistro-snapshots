@@ -382,7 +382,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: bd474ddb3e722202e43c0081b50572785bf08a09
+      version: f5fdf40ff4fc9fb427c0e6c340d9c8126c6ef7d5
     status: maintained
   async_web_server_cpp:
     doc:
@@ -747,7 +747,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: b56c1bad787fa3fd4ed796ba0e7184126991bbc7
+      version: 9f69d85df0d4364f4fdcdffe09e8edb2abfe04db
     status: maintained
   cpp_polyfills:
     release:
@@ -1400,7 +1400,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -2235,7 +2235,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: 04637ec5be08b8f81ce9f939f35a17a9645b7569
+      version: 64b1da6cb41495adc30f5520c6f8b681aabecf13
     status: maintained
   log_view:
     doc:
@@ -3098,7 +3098,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 628aaec1dc73ef4adea01e9d28f11eb417b948fd
+      version: b52e7a7ab1e2b4295253ea88153f770f747af4d0
     status: maintained
   performance_test:
     doc:
@@ -3316,7 +3316,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 311f6deaef1a56ea9351715d75c10c5de4649edc
+      version: 6e97964a2c604995b44ce9f1f248db91c693f48f
     status: developed
   py_trees_js:
     doc:
@@ -3872,6 +3872,13 @@ repositories:
       url: https://github.com/ros/resource_retriever.git
       version: 8046f3dc41e9646a035802b53556dd31f13525fe
     status: maintained
+  rig_reconfigure:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/teamspatzenhirn/rig_reconfigure.git
+      version: 0be93229dd1badc349dd920dd9877a4e8ed430cd
+    status: developed
   rmf_api_msgs:
     doc:
       type: git
@@ -4334,7 +4341,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 3a09fb316a0048838f78829b43bfc219400db6f7
+      version: a676d3cd8c0fbb925435a237ee5df5d4811201f2
     status: developed
   ros2_controllers:
     doc:
@@ -4573,6 +4580,12 @@ repositories:
       url: https://github.com/ros-sports/ros_image_to_qimage.git
       version: f9254d2aa7d47428e73f326f4179b8a682d39351
     status: developed
+  ros_industrial_cmake_boilerplate:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
+      version: 0.4.0-1
   ros_testing:
     doc:
       type: git
@@ -6425,10 +6438,13 @@ repositories:
       url: https://github.com/ros-perception/vision_msgs.git
       version: ros2
     release:
+      packages:
+      - vision_msgs
+      - vision_msgs_rviz_plugins
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vision_msgs-release.git
-      version: 4.0.0-1
+      version: 4.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6604,7 +6620,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 039226e2d452f64a181f8aa23ffa10911f1ef966
+      version: 8ccfff9a7d0af2ac46bd9037656f80943976f5e3
     status: maintained
   xacro:
     doc:
