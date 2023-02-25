@@ -3678,8 +3678,8 @@ repositories:
       - theora_image_transport
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 1.15.0-1
+      url: https://github.com/ros-gbp/image_transport_plugins-release.git
+      version: 1.14.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4093,7 +4093,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-      version: 0f5ed414e3d3cd3258b4cc7f875ab53ec9d5a2a5
+      version: a207a7ab6d3115f48c2bd030f74993dd3eb4512b
     status: developed
   jsk_common:
     doc:
@@ -5480,7 +5480,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 3c026a3f203b0ccfb533383f9a10852ab0f0fa08
+      version: 326e9b5fe76bdf856f9c4a2be56ce7e136651ff2
     status: maintained
   moveit_calibration:
     doc:
@@ -6067,7 +6067,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
-      version: d38b46e2dc7ad10c7eb5a0e25fbfcc691ede22b4
+      version: 2564c725df2cfc0f53bedb1db3644448bcc84d9d
     status: developed
   neonavigation_msgs:
     doc:
@@ -8240,7 +8240,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: 5d8bbb908e13f7a56781a5ed9b94cab4623d5371
+      version: 6f4a6cefbdbc7844017aaf0d13d2ed019fd7f23c
     status: developed
   rm_description:
     doc:
@@ -10754,7 +10754,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: afd377d9caaa54c0091317e93028bf9d06150647
+      version: a0b98e4ede5335719c36663e823aa9fed67ee8c0
     status: developed
   teb_local_planner:
     doc:
