@@ -747,7 +747,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 32da29c2c31a53fb987fe611350d3484b25f52c4
+      version: 19f0465bea6db359688e0270137288bb47405962
     status: maintained
   cpp_polyfills:
     release:
@@ -825,7 +825,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 647b702acbce32ecb8184368f0005a59ce0e7098
+      version: f235d21f01609c522c6c93f4685aad821f3ee348
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1100,7 +1100,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 04e3c68ad38f5676c8bbcc7e2b1c3888036a91e0
+      version: 79ced4de7ee496d23a543ea07052cdab9a8fba72
     status: maintained
   example_interfaces:
     doc:
@@ -1155,7 +1155,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: 22d02162fe398604d2fdd2d6679abe92e23320ff
+      version: ac1e6ae0b8dc50d9c10111764ef9c21de52ba7d2
     status: maintained
   fastcdr:
     release:
@@ -1297,7 +1297,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: f4b2f68cde3cc87ad65cb95a36cd7690da34b3a5
+      version: 9e3d0607cf719bc18a8190a320f63a4a2e213da3
     status: developed
   foxglove_msgs:
     doc:
@@ -1312,7 +1312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 17dd39a07b1b24b115102411e3a7350e08c63208
+      version: 0fa7a4dd9c1a6d096c649267b8e5b52884e10c4d
     status: maintained
   fuse:
     doc:
@@ -2687,7 +2687,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: 0fd9c77f787ecf9a5fa3e1ba3278fa596d419105
+      version: 66cee494b932e028a01a28096933b528a8e0e16c
     status: developed
   navigation_msgs:
     doc:
@@ -2962,6 +2962,12 @@ repositories:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
       version: 1.5.2-2
+  openni2_camera:
+    source:
+      type: git
+      url: https://github.com/ros-drivers/openni2_camera.git
+      version: d576000a69896ff2683a92e1c16e9459b06211aa
+    status: maintained
   opensw:
     doc:
       type: git
@@ -3198,7 +3204,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: f29bd6422d4b47a6eac9ebf99ac52cc965e3045b
+      version: 2e33e8624568d04149707fe3db6ac5d998f5a89a
     status: developed
   plotjuggler:
     doc:
@@ -3641,7 +3647,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 60d80648c2a7cdbadcc7f22bdbc3c358c04dff7c
+      version: 894bbd12b9cfa08c353def77d4ae71d658c76175
     status: maintained
   rcl_interfaces:
     doc:
@@ -3740,7 +3746,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 3062dec77e4695dc0dc8a2efe764dd18c2ad47da
+      version: 72c05ecee023b73f8bd687349c879d1d86df9f9e
     status: maintained
   rclpy:
     doc:
@@ -3756,7 +3762,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 30e766fd6034a3d105c55576c674005d2e5fcda6
+      version: 8c5cbbf01f126d63d39c84f57cdbfe48463178ae
     status: maintained
   rcpputils:
     doc:
@@ -3792,7 +3798,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_agent.git
-      version: 8c424d7bbc07c0802237a56bcade253733c07b63
+      version: b09a180ac24f1ff5faf76ec003925190232dc455
     status: developed
   rcss3d_nao:
     doc:
@@ -3807,7 +3813,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_nao.git
-      version: 0be69eb18ff61b9460214a31e2b086076bcfd94c
+      version: 99cf0a896d9fcbbf19981c5bc585626affc4ffd8
     status: developed
   rcutils:
     doc:
@@ -4348,11 +4354,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.8.0-1
+      version: 3.9.0-2
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: deaf26e5d4e7e840d90bad69159c400b38004431
+      version: cfccdeae9984b8e4f8b48229d71e7b62730187ee
     status: developed
   ros2_controllers:
     doc:
@@ -4440,7 +4446,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 80961966934357384e98ebea6a61150032d27a40
+      version: faf6c278faa23ab2f66ecd6e8fcc674138193a20
     status: developed
   ros2acceleration:
     doc:
@@ -4589,7 +4595,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/ros_image_to_qimage.git
-      version: f9254d2aa7d47428e73f326f4179b8a682d39351
+      version: 273c5e7ad08caed00d1a6fea875c00dfa86d57c9
     status: developed
   ros_industrial_cmake_boilerplate:
     release:
@@ -4664,7 +4670,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 260e20e2c79143b04627032962b37c2028722c19
+      version: 6160bb35a31593b324bdcd67e3f44d7dbf24e23c
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5042,7 +5048,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
-      version: d26865bf5be23fc78b4f5022cf1903f64f865937
+      version: ff5310650c79ac4ef2d6b0e88107dc93f7ba608c
     status: developed
   rqt_image_view:
     doc:
@@ -5384,7 +5390,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 83743dc7a9514d7671d8f7e1613b4c2660163234
+      version: 1961b81ecc1210441d523fe5638045998d9f812c
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -5533,7 +5539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/soccer_interfaces.git
-      version: 623f4bf49f5cd887850bdef206f0f36a2e9214b2
+      version: 3d6b89e9ad8f6e20b047d3a31640f9255bdbd794
     status: developed
   soccer_object_msgs:
     doc:
@@ -5563,7 +5569,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/soccer_vision_3d_rviz_markers.git
-      version: 70706fe2ff8bb584253e5c7624b5a4315e4bfa97
+      version: bc475de43328e2fdfe4f6fea9d47c9ebb085d5f4
     status: developed
   soccer_visualization:
     doc:
@@ -5658,6 +5664,21 @@ repositories:
       url: https://github.com/ros2/sros2.git
       version: face973164e4fb71e36cca8321de4ebc3f1b7af9
     status: developed
+  stomp:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/stomp.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/stomp-release.git
+      version: 0.1.2-1
+    source:
+      type: git
+      url: https://github.com/ros-industrial/stomp.git
+      version: d6d2ed866d34f173017d775e523d9b289d80f843
+    status: maintained
   stubborn_buddies:
     doc:
       type: git
@@ -6490,7 +6511,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/vision_msgs_layers.git
-      version: d437fb3e0bd7394346db73f18c05d98610042366
+      version: b7ad6859801b8e3fe655f4855016acd050bb35ed
     status: developed
   vision_opencv:
     doc:
@@ -6657,7 +6678,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.8-1
+      version: 2.0.9-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
@@ -6703,7 +6724,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: b86edeb7e6dbe733648704aa684d6fc0c31e623c
+      version: 308aa945a132b671b847aab47d9e7d6bf8ff5441
     status: developed
   zmqpp_vendor:
     doc:
