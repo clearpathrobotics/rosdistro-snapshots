@@ -514,7 +514,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp-release.git
-      version: 3.8.2-1
+      version: 3.8.3-2
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -820,7 +820,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.24.1-1
+      version: 0.25.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1297,7 +1297,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: a2c9eff059523f591d2be899b1b0c18f3251c9db
+      version: faeb39323d7266b67c6f8421e3f9b88e56356845
     status: developed
   foxglove_msgs:
     doc:
@@ -1312,7 +1312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 0fa7a4dd9c1a6d096c649267b8e5b52884e10c4d
+      version: 766aefbb81f9a903d39f8a3773f42dafa4c89bf9
     status: maintained
   fuse:
     doc:
@@ -2148,7 +2148,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 6daacbce4bade7ed40f86f16a30a08b4d7ee9272
+      version: c08ee600441b4f8688a604472f960af103e6a9fa
     status: maintained
   lgsvl_msgs:
     release:
@@ -2340,7 +2340,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: ea5553973692f6e1184b3baa280e172daf2717cc
+      version: 7228a31b99eda496368f3acd67215655236fee8a
     status: developed
   menge_vendor:
     doc:
@@ -2963,10 +2963,19 @@ repositories:
       url: https://github.com/ros2-gbp/ompl-release.git
       version: 1.5.2-2
   openni2_camera:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/openni2_camera.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/openni2_camera-release.git
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: 7bfa8f01bd5cc73fbadced28b109fa7e61df7eef
+      version: 43aa1add7165f7c0f06705445bd928a07c3891dd
     status: maintained
   opensw:
     doc:
@@ -3343,7 +3352,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_js.git
-      version: f29b71f71c9c2cadc265295673013a164895347c
+      version: 2db86a5b1459dabc9a75f6df3c117c167b050f41
     status: maintained
   py_trees_ros:
     doc:
@@ -3359,7 +3368,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_ros.git
-      version: 1f67361d4b8f6e5a22ef6f36bb34ba80d438e659
+      version: e38be29da58ee079dbe0b8fbd8bec446032fbc97
     status: developed
   py_trees_ros_interfaces:
     doc:
@@ -3437,7 +3446,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: d8fc6179f0dbb87f464aa18f69588da4b58f1daf
+      version: 1e2994c122572912793004de65ab14711c827099
     status: maintained
   qpoases_vendor:
     release:
@@ -3505,7 +3514,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/r2r_spl.git
-      version: d2f224cd1077b6567c02111ee231ca809c8904b5
+      version: 905b832b82097570422d1c04dc63d2c928180042
     status: developed
   radar_msgs:
     release:
@@ -3642,12 +3651,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 5.8.0-1
+      version: 5.9.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: bc979c6f22d6af54ad473cd65cd81708a4da8a93
+      version: 12e32fefdfc628224087cfd250760a2d3d57981e
     status: maintained
   rcl_interfaces:
     doc:
@@ -3673,7 +3682,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_interfaces.git
-      version: 0aa89223ab92fc028173047a2ba3d987b0f01f71
+      version: 18d891afec8002e00c5ca3b392cf05d035e6efa4
     status: maintained
   rcl_logging:
     doc:
@@ -3741,12 +3750,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 19.2.0-1
+      version: 19.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: e7890b7c621717fe53207a181fb5cc034cb304a4
+      version: 399f4df7396d67b42ccaea651bbd87d66b0d62b3
     status: maintained
   rclpy:
     doc:
@@ -3757,12 +3766,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 3.9.0-1
+      version: 3.10.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: bb2209e1c10e7f175927ab68c746854ed8d50a02
+      version: 7b41b767d8f9e2ff7e06dc1ca067b3997366f39d
     status: maintained
   rcpputils:
     doc:
@@ -3829,7 +3838,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 591166b7e573c08e3c6cfdbb8a407e029cf2c507
+      version: 16e6bfdb7e531a16e64ef69f3e4ac11ef2fc795f
     status: maintained
   realtime_support:
     doc:
@@ -4358,7 +4367,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 2fea64fdab90fe911f001f389467cd5ac0b75fb3
+      version: 0f8c549d8541c0b030a613b522adde28d5dde2b4
     status: developed
   ros2_controllers:
     doc:
@@ -4389,7 +4398,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 1bdc4a49f25db7188fe02f20edd473a670e7cf02
+      version: 2f01639ebed824ceebe76ae76778ad7f61dcfe58
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4423,7 +4432,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
-      version: d994b3b3aee065f8472c5f2a2c5defa5e6a1ac4c
+      version: cce58635300aee185f1062a7ea176af4b77e3270
     status: developed
   ros2_tracing:
     doc:
@@ -4441,12 +4450,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_tracing-release.git
-      version: 5.0.0-1
+      version: 5.1.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: faf6c278faa23ab2f66ecd6e8fcc674138193a20
+      version: f707d80dae481b34718778509ef362b55c7dbd30
     status: developed
   ros2acceleration:
     doc:
@@ -4489,12 +4498,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.22.0-1
+      version: 0.23.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 14e640c6060fcb191eee266c55bbf4bed6ac97db
+      version: 0c6f197fea9ade174b58883eded768b5c57c4eb5
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6546,7 +6555,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 176a1b2e845e5e499efeabafd5ff3ad50781a13e
+      version: 1888eca6634fccda0d8d0924527cfbfd347257ab
     status: maintained
   vitis_common:
     doc:
@@ -6667,7 +6676,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: a73e4db38d7dd6059f33bc5069766eb1b0be4a15
+      version: f35554ba57b02a167c72ef3240e2108ff4c0e9ad
     status: maintained
   xacro:
     doc:
