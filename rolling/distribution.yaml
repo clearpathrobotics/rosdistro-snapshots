@@ -1312,7 +1312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 766aefbb81f9a903d39f8a3773f42dafa4c89bf9
+      version: 4de1193afa797f0cd39b74eb336561a9a9fea25e
     status: maintained
   fuse:
     doc:
@@ -1323,7 +1323,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: b67b14666907e4a65e350ab24e79a9e3a16c06a9
+      version: 7497e4ee60ddb9aadca42b257d39a32471383c0c
     status: maintained
   gazebo_ros2_control:
     doc:
@@ -1363,7 +1363,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: f1e0f35cf97c85d8f21488766ca42da754a78748
+      version: 21e28c14d47035bc77ebd81aba5dfe04666b6809
     status: maintained
   gc_spl:
     doc:
@@ -1615,7 +1615,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 7fff398b4d0115587b8e994f030d3820dcdb78b7
+      version: 147eb0d453ab77c216b1a5fe97c2a17eae325ab6
     status: developed
   hash_library_vendor:
     doc:
@@ -2058,7 +2058,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: 0ff9bf38ca44412d06e1be3af8763a48e494657f
+      version: 6097b7f4bc82baeca3d5f74bba32369064d78bbc
     status: maintained
   laser_geometry:
     doc:
@@ -2113,7 +2113,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: a9a9bcf071e34b67f18233912b0997cee133fa7a
+      version: 06dc66b437f9908798a5da81dcec1b1646e94ee0
     status: developed
   launch_param_builder:
     doc:
@@ -2425,7 +2425,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: a9050fdd03648271fbcd3205b9bb765043019430
+      version: e82d856b103a6e3abdf9d5ad6354d716916ef72d
     status: developed
   mimick_vendor:
     doc:
@@ -2507,7 +2507,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: c27cb30c2fee79443c2cef1310692230db05eccd
+      version: 56f200fd34e64c4304ad8d550318de7d327e3644
     status: developed
   moveit_msgs:
     doc:
@@ -2522,7 +2522,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
-      version: 8ec83bfbcc6dc410a088232b19100936ab22fe9e
+      version: a511441601ae844678bdfcdde4c03f72877053d6
     status: developed
   moveit_resources:
     doc:
@@ -2574,7 +2574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 86dcea1d389521f2e8642246e3196609cb508df2
+      version: d40743c8916163ea3aad11e38a508fbe70769a0c
     status: developed
   mrpt_msgs:
     doc:
@@ -2639,7 +2639,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 7d705173c20a4b6c8acbd57734c9bfeaeb223e70
+      version: 981a92a05d143e4e203d7b7c6783de8d25894b82
     status: developed
   nao_button_sim:
     doc:
@@ -3177,7 +3177,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: cf06384b17100e067d206c4a1dcd34696ad7df70
+      version: 6974eafd1315a7c958f1970ca44b26a622bdd14c
     status: maintained
   pick_ik:
     doc:
@@ -3446,7 +3446,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: 1e2994c122572912793004de65ab14711c827099
+      version: ade88c56e27bcb74732e8bd8475fbda00d722355
     status: maintained
   qpoases_vendor:
     release:
@@ -3771,7 +3771,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 7b41b767d8f9e2ff7e06dc1ca067b3997366f39d
+      version: 49642e3d7210301230f30534cd4ad3f2806b86c3
     status: maintained
   rcpputils:
     doc:
@@ -4367,7 +4367,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 0f8c549d8541c0b030a613b522adde28d5dde2b4
+      version: 1b278b944004de851c7545d0e759c4809a14fd42
     status: developed
   ros2_controllers:
     doc:
@@ -4432,7 +4432,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
-      version: cce58635300aee185f1062a7ea176af4b77e3270
+      version: 8996cdbbb32b01894f7bf046e994a8e0f55d36ce
     status: developed
   ros2_tracing:
     doc:
@@ -5865,11 +5865,16 @@ repositories:
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/tf2_2d-release.git
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: 369dc840837c5ed1e990f63efa2738976cf331ee
+      version: 2df85062505e1020b8a233b0208d8d810e524757
     status: maintained
   tf_transformations:
     doc:
@@ -6262,7 +6267,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: a3c9a1e9d6f785ace6948749ea332f4d193b42b4
+      version: 535827330ccf397ed0dd28aeb5c2abaa10a369db
     status: developed
   urdf:
     doc:
@@ -6555,7 +6560,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1888eca6634fccda0d8d0924527cfbfd347257ab
+      version: 0904787de1b727881c3eb813abc50c053b3e6181
     status: maintained
   vitis_common:
     doc:
