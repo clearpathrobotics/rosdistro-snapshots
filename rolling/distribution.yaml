@@ -235,7 +235,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: ecaf9ab8d03ebedb2cdfcb45ce89b5416a26c4bd
+      version: a1b6c57be91b05ffa11d5eb6ff8700a478f1a890
     status: developed
   ament_nodl:
     release:
@@ -1615,7 +1615,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: eda4a08b4bdaa5448676911d5fc56c680ddb099c
+      version: 6debd8bfeb53c28baa15765856587b7553c6daa3
     status: developed
   hash_library_vendor:
     doc:
@@ -2113,7 +2113,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 06dc66b437f9908798a5da81dcec1b1646e94ee0
+      version: c92d2ea9635fe56006750a12013f5e36f12d3d80
     status: developed
   launch_param_builder:
     doc:
@@ -2148,7 +2148,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: c08ee600441b4f8688a604472f960af103e6a9fa
+      version: eb1e5fa155050592e60c4834c86ef09188668b6b
     status: maintained
   lgsvl_msgs:
     release:
@@ -2570,11 +2570,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.6.0-1
+      version: 2.7.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: d40743c8916163ea3aad11e38a508fbe70769a0c
+      version: 47123d23715890ba53ab4d69811d001697d9af50
     status: developed
   mrpt_msgs:
     doc:
@@ -2635,11 +2635,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 23e2586112766b4478a6467655a6a7730b5e8739
+      version: b16518ab8986430a2ac4dc6391c41ee684674c2f
     status: developed
   nao_button_sim:
     doc:
@@ -2956,6 +2956,21 @@ repositories:
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
       version: 1891a49cc1a6cbcd36ac082571d91798a9cc8c65
     status: maintained
+  odom_to_tf_ros2:
+    doc:
+      type: git
+      url: https://github.com/gstavrinos/odom_to_tf_ros2.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/gstavrinos/odom_to_tf_ros2-release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/gstavrinos/odom_to_tf_ros2.git
+      version: bd9a8be9b819fdc59d8f3e7926901d0dba63fe5b
+    status: maintained
   ompl:
     release:
       tags:
@@ -2971,7 +2986,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/openni2_camera-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
@@ -3157,6 +3172,7 @@ repositories:
       - libphidget22
       - phidgets_accelerometer
       - phidgets_analog_inputs
+      - phidgets_analog_outputs
       - phidgets_api
       - phidgets_digital_inputs
       - phidgets_digital_outputs
@@ -3172,7 +3188,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/phidgets_drivers-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3656,7 +3672,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 12e32fefdfc628224087cfd250760a2d3d57981e
+      version: eb88a6de43021c0ed4f5fb4d45d376b3da4231fc
     status: maintained
   rcl_interfaces:
     doc:
@@ -3755,7 +3771,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 1a9b117d5357f4d37ecd457843ee27e8ba56b65c
+      version: dbe555a3c3470b051c5854881d464965a1d6c8a7
     status: maintained
   rclpy:
     doc:
@@ -4264,7 +4280,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
-      version: 38f697e72dab511e09c8a376b1efdddf229672b1
+      version: 39f5d0e781d119f20f7c02cfbfda33e0d1e4cd78
     status: developed
   rmw_implementation:
     doc:
@@ -5892,6 +5908,16 @@ repositories:
       url: https://github.com/DLu/tf_transformations.git
       version: 1bfcda9a13312ebadb4d37d4589ae58406410e7f
     status: maintained
+  tinyspline_vendor:
+    doc:
+      type: git
+      url: https://github.com/wep21/tinyspline_vendor.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/wep21/tinyspline_vendor.git
+      version: 741d1a729059b4879b3223752da170865b88daf6
+    status: maintained
   tinyxml2_vendor:
     doc:
       type: git
@@ -6006,7 +6032,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/transport_drivers.git
-      version: 48f1c7bae57076533a1d50852e2e4c8cdfb14a66
+      version: 983873d83d640dbfb4bff7cf3c08c49a543df910
     status: developed
   turbojpeg_compressed_image_transport:
     doc:
@@ -6263,7 +6289,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.2.4-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
@@ -6560,7 +6586,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: bf75f6d58bc37ada52c474e252ae6e3d1e476dca
+      version: a2b85f1d373668e071722d9a0c56219b79b5faf6
     status: maintained
   vitis_common:
     doc:
@@ -6681,7 +6707,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: f35554ba57b02a167c72ef3240e2108ff4c0e9ad
+      version: d739aad9f4a852a46f8923f131dcbcfbba37ac4d
     status: maintained
   xacro:
     doc:
@@ -6738,7 +6764,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 308aa945a132b671b847aab47d9e7d6bf8ff5441
+      version: 55d6145e27569b0ec7772431bbffad65af8baddb
     status: developed
   zmqpp_vendor:
     doc:

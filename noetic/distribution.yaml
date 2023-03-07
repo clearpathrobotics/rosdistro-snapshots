@@ -201,7 +201,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/aruco_opencv-release.git
-      version: 0.2.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/fictionlab/aruco_opencv.git
@@ -500,7 +500,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.8.2-1
+      version: 3.8.3-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -1756,7 +1756,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.20.2-1
+      version: 2.20.2-2
     source:
       test_pull_requests: true
       type: git
@@ -1778,7 +1778,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.6.1-2
+      version: 2.6.4-1
     source:
       test_pull_requests: true
       type: git
@@ -2378,7 +2378,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/jbohren/executive_smach_visualization-release.git
-      version: 4.0.1-1
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/ros-visualization/executive_smach_visualization.git
@@ -2649,7 +2649,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
-      version: 629c1fb4be9f67eedc4b258a845bce5e12d5a0cc
+      version: 656b01dc2544e1e2f8a5a388a17e8405722b1911
     status: maintained
   fkie_potree_rviz_plugin:
     release:
@@ -3214,11 +3214,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mikeferguson/graceful_controller-gbp.git
-      version: 0.4.6-1
+      version: 0.4.7-1
     source:
       type: git
       url: https://github.com/mikeferguson/graceful_controller.git
-      version: cec0ae9ecd209c737bbaf6a36780882def06c8fe
+      version: 8f0f52a6feedc3f435b4a8f2ea82c002e0a98b74
     status: developed
   graft:
     doc:
@@ -3967,6 +3967,24 @@ repositories:
       type: git
       url: https://github.com/jackal/jackal.git
       version: 31fdf4efc366d4d7ad9e1ff4f308138bd9b5c6fe
+    status: maintained
+  jackal_desktop:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal_desktop.git
+      version: melodic-devel
+    release:
+      packages:
+      - jackal_desktop
+      - jackal_viz
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/jackal_desktop-release.git
+      version: 0.4.1-2
+    source:
+      type: git
+      url: https://github.com/jackal/jackal_desktop.git
+      version: 5dbf81c6266c3810d37b3d966a22ec149fd28e99
     status: maintained
   jackal_simulator:
     doc:
@@ -5596,11 +5614,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_task_constructor-release.git
-      version: 0.1.1-1
+      version: 0.1.3-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_task_constructor.git
-      version: 61bb2fdc58e3d7e550c57617937a3d5286e421ef
+      version: 4781ed563657cb7ecfcca857649bdf9f1c8d95b9
     status: developed
   moveit_visual_tools:
     doc:
@@ -5691,11 +5709,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.6.0-1
+      version: 2.7.0-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: d40743c8916163ea3aad11e38a508fbe70769a0c
+      version: 47123d23715890ba53ab4d69811d001697d9af50
     status: developed
   mrpt_msgs:
     doc:
@@ -5844,11 +5862,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.5.2-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 23e2586112766b4478a6467655a6a7730b5e8739
+      version: b16518ab8986430a2ac4dc6391c41ee684674c2f
     status: developed
   nao_meshes:
     release:
@@ -6061,7 +6079,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.12.0-1
+      version: 0.12.2-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6910,7 +6928,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
-      version: 1.0.6-1
+      version: 1.0.7-1
     source:
       test_pull_requests: true
       type: git
@@ -7242,7 +7260,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pr2/pr2_common_actions.git
-      version: 8cff14eaa5e8fe406c20e5c840ce0e3630ca5b46
+      version: 526fa72e76b67702ec1079ad8b36f71278dab9d8
     status: unmaintained
   pr2_controllers:
     doc:
@@ -7409,7 +7427,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pr2/pr2_power_drivers.git
-      version: 55e29f5a09a02de0f5500ff2f2f67c3e8c8ec756
+      version: c7f225dfc0d524965b07a653bb08df3bb0de4f9f
     status: unmaintained
   pr2_robot:
     doc:
@@ -7433,7 +7451,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pr2/pr2_robot.git
-      version: 5d511e1eb60762fd8f2bcbcc1f3e2927976a64e8
+      version: 6363d533b190ddca76a4be9c12daf38a937859a8
     status: unmaintained
   pr2_self_test:
     doc:
@@ -7766,7 +7784,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 7e63919c08c839c77d877b14e8c6a46fd41192b7
+      version: e84b4a8146d2ff8ed1914ed6d43af747016249c3
     status: developed
   qt_gui_core:
     doc:
@@ -8211,7 +8229,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: f52c08d078dceca504a865f8b0830027e4e6b887
+      version: 7c256602075ba316e441ecaf1e7d68151913c252
     status: developed
     status_description: developed
   rm_controllers:
@@ -8238,7 +8256,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: bf9a9de3b2326d94a34e84ec88a5a26fe1692645
+      version: 964b711ac6465bf62321aac880e03710b9830ffd
     status: developed
   rm_description:
     doc:
@@ -8812,7 +8830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
-      version: 2efc8c1d2e45a1a4f465476dc96e2a0b4f9e6a3f
+      version: 6f8140f09b661de2785066fc4f5278596b7cb42b
     status: developed
   ros_inorbit_samples:
     release:
@@ -9631,7 +9649,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pr2/rqt_pr2_dashboard.git
-      version: 86b29df50f84a6f99f24bdb5ef8d214487bcc01e
+      version: 430e869ce4cae10aaa523d608f6b098f3559f346
     status: maintained
   rqt_publisher:
     doc:
@@ -10868,7 +10886,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/tesseract-release.git
-      version: 0.13.1-1
+      version: 0.15.0-2
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
@@ -11701,7 +11719,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: bf75f6d58bc37ada52c474e252ae6e3d1e476dca
+      version: a2b85f1d373668e071722d9a0c56219b79b5faf6
     status: maintained
   visp_ros:
     doc:
@@ -12053,6 +12071,24 @@ repositories:
       url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
       version: 966f7aa3571da9451e6db42e0eb58259ccbe6b8e
     status: maintained
+  witmotion_ros-release:
+    doc:
+      type: git
+      url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
+      version: main
+    release:
+      packages:
+      - witmotion_ros
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/twdragon/witmotion_ros-release.git
+      version: 1.2.27-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
+      version: 966f7aa3571da9451e6db42e0eb58259ccbe6b8e
+    status: maintained
   wu_ros_tools:
     doc:
       type: git
@@ -12084,7 +12120,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 1.14.14-1
+      version: 1.14.15-1
     source:
       test_pull_requests: true
       type: git
