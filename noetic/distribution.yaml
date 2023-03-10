@@ -2780,11 +2780,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 3b3a2f303b752035eb8b112b823f1a037c7fae92
+      version: 40521a9dc61de20b73742c0f19d2721b593a0f20
     status: developed
   foxglove_msgs:
     doc:
@@ -2799,7 +2799,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 11234951fe4130f0d579ca86082927a3c5c0207a
+      version: 350138c54d08d9164f89ff7e2b4a97c3ab2d51d7
     status: developed
   frame_editor:
     doc:
@@ -3566,7 +3566,7 @@ repositories:
     source:
       type: git
       url: https://github.com/husky/husky.git
-      version: 92482f79b10cdef461de894a80d841903c1aa1d8
+      version: 561ee3830cc3e05c9f2f53a84f7e8895fa003d20
     status: maintained
   ifm3d:
     release:
@@ -5866,7 +5866,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: b16518ab8986430a2ac4dc6391c41ee684674c2f
+      version: 669ee6ed9739ab20401f20475c1d5f8e217a6c6d
     status: developed
   nao_meshes:
     release:
@@ -10275,7 +10275,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: 55ed1482d1c9641eaf015fb76a0da95231fc3a9d
+      version: 05c0c138fd29eddb1db832783252f36df47f2d7d
     status: maintained
   serial:
     doc:
@@ -10762,11 +10762,15 @@ repositories:
       version: 666dc36be05213b13376f984075e374676b56e47
     status: developed
   taskflow:
+    doc:
+      type: git
+      url: https://github.com/taskflow/taskflow.git
+      version: v3.5.0
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/taskflow-release.git
-      version: 3.0.0-3
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
