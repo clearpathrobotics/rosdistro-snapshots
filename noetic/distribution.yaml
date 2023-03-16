@@ -1018,7 +1018,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
-      version: 4e2ff6ad97b9519868ba350a8bc0d4ff8cfa8d5c
+      version: 9cc36cea61eaa7ca5ecede4dc2b978636d439782
     status: maintained
   cob_driver:
     doc:
@@ -2475,7 +2475,7 @@ repositories:
     source:
       type: git
       url: https://github.com/flexible-collision-library/fcl.git
-      version: beffa1bb54da6686e8167843e051a3f9a2bad6f7
+      version: b6d1a78b87df474b760af8c86ace9b34ab40612b
     status: maintained
   fcl_catkin:
     release:
@@ -3026,7 +3026,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/genpy.git
-      version: d3296724aa6970d940f5b5cf083706df5abaf96f
+      version: f70658f2200dfb7c98e99e9cf15be61cfaa1a432
     status: maintained
   geographic_info:
     doc:
@@ -4109,7 +4109,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-      version: a360d6df672214accac49b020ffaa8e6005f0974
+      version: 1c3502c5ea7ed6270dbc6c4e9ce7cb308825c604
     status: developed
   jsk_common:
     doc:
@@ -7066,7 +7066,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 59bf5c31aa8080241c5fb5704b2f97f2da94d8e0
+      version: 73986edc1b595ad0aaba6ba49e82038c08eaaa68
     status: developed
   plotjuggler:
     doc:
@@ -10890,11 +10890,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/tesseract-release.git
-      version: 0.15.0-2
+      version: 0.15.1-1
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: b88aa7dda23e435429d7277704748f54c11105cc
+      version: 08fce350f73da9c75a064fcece1f911305c5e03c
     status: developed
   tf2_2d:
     release:
@@ -12070,19 +12070,7 @@ repositories:
       type: git
       url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
       version: main
-    source:
-      type: git
-      url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
-      version: e7f25f18cba75acff3a22954a7e6affde80f3e52
-    status: maintained
-  witmotion_ros-release:
-    doc:
-      type: git
-      url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
-      version: main
     release:
-      packages:
-      - witmotion_ros
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/twdragon/witmotion_ros-release.git
