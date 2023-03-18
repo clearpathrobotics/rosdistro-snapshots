@@ -858,7 +858,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 3.1.0-2
+      version: 3.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -1168,7 +1168,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: a794ed021054e231409062275e23514e50575a5a
+      version: 9de1a08fc3a4c607c45fb2b5a092aad4b6906a47
     status: maintained
   fastrtps:
     doc:
@@ -1293,7 +1293,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.4.1-1
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -1666,11 +1666,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 893d57c6e08434fd482a656977c5376cb360e6b4
+      version: e126bda70aa38ea2a6cf0776d01aec9dcb933683
     status: developed
   iceoryx:
     release:
@@ -1868,6 +1868,17 @@ repositories:
       url: https://github.com/ros-visualization/interactive_markers.git
       version: ae67485ee39c77c17946c0708af4bb77a39b96b3
     status: maintained
+  irobot_create_msgs:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/irobot_create_msgs-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/iRobotEducation/irobot_create_msgs.git
+      version: a4b94407977d5efb16e97fee52e031a7f1f39209
+    status: developed
   joint_state_publisher:
     doc:
       type: git
@@ -2195,7 +2206,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ethz-asl/libpointmatcher.git
-      version: e45710b421f757d7eadbf03cd93cb12e698098f8
+      version: 7dc58e50bd1f9cb08eccbedf87e7b5fdd85f4130
     status: maintained
   libstatistics_collector:
     doc:
@@ -2436,7 +2447,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mimick_vendor-release.git
-      version: 0.3.2-1
+      version: 0.3.2-2
     source:
       type: git
       url: https://github.com/ros2/mimick_vendor.git
@@ -2501,13 +2512,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/moveit/moveit2-release.git
-      version: 2.6.0-1
+      version: 2.7.0-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 4c8fef597d1b73f09afd62a57ef5c2be178dd692
+      version: 9f45e6c2fce97ed0a38cc61445f0b2fe4506aca8
     status: developed
   moveit_msgs:
     doc:
@@ -3061,7 +3072,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
-      version: master
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -3338,6 +3349,21 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
       version: cc9652f16d1cba4a8a41fe0bb862692207400e64
     status: maintained
+  proxsuite:
+    doc:
+      type: git
+      url: https://github.com/Simple-Robotics/proxsuite.git
+      version: devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/proxsuite-release.git
+      version: 0.3.5-1
+    source:
+      type: git
+      url: https://github.com/Simple-Robotics/proxsuite.git
+      version: 5359bb3b75ee186c4520b494cf38e1831b7d7875
+    status: developed
   py_trees:
     doc:
       type: git
@@ -3595,7 +3621,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_genicam_api-release.git
-      version: 2.5.12-2
+      version: 2.6.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3611,7 +3637,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_genicam_driver_ros2-release.git
-      version: 0.2.1-2
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3646,7 +3672,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcdiscover-release.git
-      version: 1.1.4-2
+      version: 1.1.6-1
     source:
       test_pull_requests: true
       type: git
@@ -3771,7 +3797,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: cbd48c0eb481cdf5d17b2ca056d4596df8b0af1c
+      version: 1a796b5515cde3d8b6a64f8c53c7f49d8a742d32
     status: maintained
   rclpy:
     doc:
@@ -4379,7 +4405,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.9.0-2
+      version: 3.10.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4410,7 +4436,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.2.0-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -5913,6 +5939,11 @@ repositories:
       type: git
       url: https://github.com/wep21/tinyspline_vendor.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/tinyspline_vendor-release.git
+      version: 0.6.0-2
     source:
       type: git
       url: https://github.com/wep21/tinyspline_vendor.git
@@ -6163,7 +6194,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/KumarRobotics/ublox.git
-      version: 751c06455d3f9203287790e4333fbd84ffce2dc9
+      version: 9466188b40ea6f84a0224a2f4cf6351ca84037d5
     status: maintained
   ublox_dgnss:
     doc:
@@ -6289,7 +6320,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
@@ -6409,7 +6440,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/urg_node.git
-      version: cbd8c4e3ab1b739e38808ba598e16f935c3e9450
+      version: 7f8c24eca7c59b512ba0da47202cfcf0a54c6892
     status: maintained
   urg_node_msgs:
     doc:
@@ -6586,7 +6617,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: dc49e66aa29436b33c6b6a1b26fc3b58492e2e3d
+      version: 38b9a182bdc4dfa792f5384fce444d2b3dc05a04
     status: maintained
   vitis_common:
     doc:
