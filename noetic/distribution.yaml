@@ -820,7 +820,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/canlab-co/clpe_ros.git
-      version: b430eef93f00b27562a95e93e0f806d1c03692ea
+      version: 188494ed3c9793c731b65b094163cfebae7f9d60
     status: maintained
   clpe_ros_msgs:
     doc:
@@ -3497,7 +3497,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: e126bda70aa38ea2a6cf0776d01aec9dcb933683
+      version: 99df056dfd95e241a3d69c0ddae3eeccd4f02424
     status: maintained
   hri_msgs:
     doc:
@@ -5288,7 +5288,7 @@ repositories:
   mir_robot:
     doc:
       type: git
-      url: https://github.com/dfki-ric/mir_robot.git
+      url: https://github.com/DFKI-NI/mir_robot.git
       version: noetic
     release:
       packages:
@@ -5308,8 +5308,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/dfki-ric/mir_robot.git
-      version: fcf61bba469c415f75e05e77bf79d2b35af7ecdf
+      url: https://github.com/DFKI-NI/mir_robot.git
+      version: a93898559c8b5a320223c2d908e52c812747f0fc
     status: developed
   mitch_v2_driver:
     doc:
@@ -7066,7 +7066,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 73986edc1b595ad0aaba6ba49e82038c08eaaa68
+      version: 549e57d8c6aa531fd7ce492f105547efb9110601
     status: developed
   plotjuggler:
     doc:
@@ -9992,7 +9992,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: ddf0882d9ddf0d300063cf925bb0d80bee4e5dca
+      version: a5e3eb3b5c09be4983e56e6e45f6673c38edd658
     status: developed
   rviz:
     doc:
@@ -10008,7 +10008,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rviz.git
-      version: d122ab111213c3ad4ac50756e4fd933d01982263
+      version: 15e148d0e4af0522c0494e83eb9f440f37c02b82
     status: maintained
   rviz_animated_view_controller:
     doc:
@@ -10625,7 +10625,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
-      version: f009ddca770faadc211d18aca83fc8c7d2b95480
+      version: aebc031309ed7781084bbc80c4c6d40b4809e901
     status: maintained
   stag_ros:
     release:
@@ -10894,7 +10894,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 08fce350f73da9c75a064fcece1f911305c5e03c
+      version: dd348a9c6f5e99fafd0556a47706b39f9d15b156
     status: developed
   tf2_2d:
     release:
@@ -11561,6 +11561,16 @@ repositories:
       url: https://github.com/anybotics/variant-release.git
       version: 0.1.6-1
     status: maintained
+  vda5050_connector:
+    doc:
+      type: git
+      url: https://github.com/tum-fml/ros_vda5050_connector.git
+      version: current_ros_noetic
+    source:
+      type: git
+      url: https://github.com/tum-fml/ros_vda5050_connector.git
+      version: 53f28c3cd2c372167991fa757ddb5623f01387b4
+    status: maintained
   velo2cam_calibration:
     doc:
       type: git
@@ -11723,7 +11733,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 28772f84e23f114d6c29421883ae1dd5efecd2c7
+      version: 3ff3ca47a6d6dfb9af75ab96055b8300ff49c8bf
     status: maintained
   visp_ros:
     doc:
