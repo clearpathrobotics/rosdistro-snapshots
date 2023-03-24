@@ -5496,7 +5496,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 3f56727c20f8c8e1c77d4f79b3606c0bb8b06aff
+      version: 0819713fb67e61ee6e4f3949a01f7922ae42aade
     status: maintained
   moveit_calibration:
     doc:
@@ -7752,7 +7752,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbmove-ros.git
-      version: 1a2e60a0b529d60be952d016d4261bbc255f0716
+      version: 7f0103136b058f83b1fede1681c471850b9c9983
     status: developed
   qpoases_vendor:
     doc:
@@ -8229,7 +8229,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 7ea69821f9487fd486d35239b9318c4a1dbc7d60
+      version: 25bfb90e714e040dd7e2feb55ed44cc0f744f2ec
     status: developed
     status_description: developed
   rm_controllers:
@@ -10187,22 +10187,22 @@ repositories:
   schunk_svh_library:
     doc:
       type: git
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_library.git
       version: main
     release:
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library-release.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_library-release.git
       version: 1.0.1-4
     source:
       type: git
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
-      version: 026f27794620f7427905e10f52065e3549cdd978
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_library.git
+      version: 88627db9e231f16d2723e3af425bced7ad894484
     status: developed
   schunk_svh_ros_driver:
     doc:
       type: git
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_ros_driver.git
       version: main
     release:
       packages:
@@ -10213,12 +10213,12 @@ repositories:
       - schunk_svh_simulation
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver-release.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_ros_driver-release.git
       version: 0.1.2-1
     source:
       type: git
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
-      version: a01fc6c4a637f3073a656705c04e5556e6c24fbc
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_ros_driver.git
+      version: 63b12a9cb7593ef86529e8d8a071a5d426b7e1fb
     status: developed
   sciurus17:
     doc:
@@ -10363,6 +10363,15 @@ repositories:
       url: https://github.com/mikeferguson/simple_grasping.git
       version: 069e2e1bdc28e9d544407fe2770b67a87f2f95ec
     status: maintained
+  skyway:
+    doc:
+      type: git
+      url: https://github.com/ntt-t3/skyway_for_ros.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/ntt-t3/skyway_for_ros.git
+      version: 29f728f2cf11c30c974acbad514b15478a26d327
   slam_gmapping:
     doc:
       type: git
@@ -10774,7 +10783,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 68c110ef25c635d1ea3cb923b99d2902fffd4080
+      version: 78da7a8a112846993a5fee5a8f9ab2ac05d942ac
     status: developed
   teb_local_planner:
     doc:
@@ -12084,7 +12093,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/twdragon/witmotion_ros-release.git
-      version: 1.2.27-1
+      version: 1.2.28-1
     source:
       test_pull_requests: true
       type: git
@@ -12166,7 +12175,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/xsens_mti_driver.git
-      version: 23913c3a968d73e4fe2fa8f8d952efc7f37d19c3
+      version: 189df663971cb6df6b57986a377a3c6e0a7fb949
     status: maintained
   xv_11_laser_driver:
     doc:
