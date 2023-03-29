@@ -119,7 +119,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: d1a7b87f135e3ded05ee8e014af4f86508e03ddd
+      version: 5d3d6e97c8f706861f88ac36a1a730f6487dfec0
     status: developed
   ament_cmake_catch2:
     doc:
@@ -1096,11 +1096,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.9.2-3
+      version: 2.9.2-4
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 79ced4de7ee496d23a543ea07052cdab9a8fba72
+      version: bb2cd0c51a1be2507042bd6f88ea38024833a59a
     status: maintained
   example_interfaces:
     doc:
@@ -1670,7 +1670,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: a5ca6d55968cb54d8a3c93060c8691809cb03cc3
+      version: 0342344f67e023b4d38126e9cacad76037b9ab4d
     status: developed
   iceoryx:
     release:
@@ -1710,7 +1710,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: ab33f76d158e533c21537bc408f636831819e875
+      version: 55dd7680ff7234c825efa1dd0c104e5629448972
     status: maintained
   ign_rviz:
     doc:
@@ -2554,7 +2554,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: 72e9789e43519f32d8dcc2fba5bb1d110610de10
+      version: d0b92e1792c17f8072e83863a0c4de1e82a75c20
     status: developed
   moveit_visual_tools:
     doc:
@@ -3218,7 +3218,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/pick_ik.git
-      version: 8f71f4e3c44323cce7712ab882a8bba94ca3caed
+      version: 5a838a1660a135ae4a1061fb7f5433bedeabec0a
     status: developed
   picknik_ament_copyright:
     release:
@@ -3235,7 +3235,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.17-3
+      version: 2.6.17-4
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -3361,7 +3361,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 5359bb3b75ee186c4520b494cf38e1831b7d7875
+      version: b88960dfa0cd38d4e5ded3335af3bbb89dbf53f1
     status: developed
   py_trees:
     doc:
@@ -3482,7 +3482,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/python_qt_binding-release.git
-      version: 1.2.2-4
+      version: 1.2.2-5
     source:
       test_pull_requests: true
       type: git
@@ -3812,7 +3812,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: f6d652fa2d5d3a8164cc69fb543ae0693e958262
+      version: 8a2d25797537cf1f111d3880432bef4d88a42370
     status: maintained
   rcpputils:
     doc:
@@ -3879,7 +3879,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 47f41a55021cc38438ac7290f8fecfb51b5cc101
+      version: 5bd1230eb10595cec30168667adf03f48879b96c
     status: maintained
   realtime_support:
     doc:
@@ -4351,7 +4351,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 47fbe93cb69ceada63e9ed47fce0084a6d97c594
+      version: 284c2eccf029e680cd05688a400b582b2c9594bc
     status: maintained
   robot_state_publisher:
     doc:
@@ -4408,7 +4408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: c8cfa053de8a2d69d6f10e770fefbd4ff051d58a
+      version: fea2d8a398c317cd49b103ed4f716440536db5d6
     status: developed
   ros2_controllers:
     doc:
@@ -4439,7 +4439,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 82a4e2434c8f766c22c23fc11ffb38d54404c212
+      version: 03dfb84a258f63484b5cd986547982404317a7ea
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4899,7 +4899,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: 96c7e96b35b98ce0291bc994b65dd41f148aa1f1
+      version: efa5f0f1536870385aa9d28e2f2017e11699911f
     status: maintained
   rosidl_typesupport_fastrtps:
     doc:
@@ -5356,7 +5356,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 864485471084c6f9e3a29e9750bd905b61799ed4
+      version: b00c65a37dce88154e5a3375908d5b5803662da5
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5473,7 +5473,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
-      version: 4fe77353efc33868fda6741127a1b3fba98064cf
+      version: b8de76261edd374ae7fd8a7568cd2d947125b7e7
     status: maintained
   sdformat_urdf:
     doc:
@@ -6616,7 +6616,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: be3ef604ee06f600e5b6d57bddd53993f86f89eb
+      version: e02bff34a3f038fd7a3ccfa94b04a4663fa44378
     status: maintained
   vitis_common:
     doc:
@@ -6737,7 +6737,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 117009100c4647e6ce1fce7deef5bfbe3c33ed2d
+      version: 0d3e16ccdb58962dec50adb1854ee0caf955dcbf
     status: maintained
   xacro:
     doc:

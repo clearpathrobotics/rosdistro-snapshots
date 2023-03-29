@@ -433,7 +433,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: a92ee04d399e824ff8fa89c4838bf5eeb15cba0c
+      version: a8edc1b92736ca70fd4e1d5bc330076227b2c65a
     status: maintained
   backward_ros:
     doc:
@@ -1955,7 +1955,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph.git
-      version: 01665b5d253bad0408516320b4fd89eb31fc6cba
+      version: f935078fa456082a1984aa4ab60929d05af2f6ab
     status: maintained
   dynamic-graph-python:
     doc:
@@ -1971,7 +1971,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph-python.git
-      version: 0eea83ce75816ebf45a99aca647d5d6ae66467e0
+      version: 94723495f4290355c0542dbaa99fe979ad6d2980
     status: maintained
   dynamic-graph-tutorial:
     doc:
@@ -1987,7 +1987,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph-tutorial.git
-      version: 6ccab1e1f2c6d9ed23649a45aab912cbe153728b
+      version: 74178bc883b736245b2406c89e791064d3a93eae
     status: maintained
   dynamic_reconfigure:
     doc:
@@ -2231,7 +2231,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: 5a62181cc3c5e0f8f01829b1252c46c119aa83fd
+      version: b0ad645fce0f8c584167731ecdc593c8cb6670de
     status: maintained
   eml:
     release:
@@ -3497,7 +3497,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: a5ca6d55968cb54d8a3c93060c8691809cb03cc3
+      version: 0342344f67e023b4d38126e9cacad76037b9ab4d
     status: maintained
   hri_msgs:
     doc:
@@ -5748,11 +5748,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 0ae9b57e287fbfdff29684b000387eff08841e8f
+      version: 95b067ef64ceef3fd57f0513edab96bbad0f3f6b
     status: developed
   mrpt_sensors:
     doc:
@@ -8229,7 +8229,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 8b3590e6189fd1bc0fa6c47f6bffde6bdd51ec7e
+      version: 5a5d73e52dc7cedcf0157b865a9bcc870c46e0e7
     status: developed
     status_description: developed
   rm_controllers:
@@ -9199,11 +9199,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.14-1
+      version: 0.2.15-1
     source:
       type: git
       url: https://github.com/ros/roslisp_common.git
-      version: 0a866b2f984aa2820352bf4732256a783868ffaa
+      version: 94c5a2aca4cd5dbee2ca7b23dc56c82b91121bef
     status: maintained
   rosmon:
     doc:
@@ -10543,7 +10543,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/sot-core.git
-      version: c064dda3487b6fc850d083ec2e67c0221f09b23b
+      version: 0bfcbc014f8cd3a8686aee85b93954b9d7081e8f
     status: maintained
   sot-dynamic-pinocchio:
     doc:
@@ -10558,7 +10558,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-dynamic-pinocchio.git
-      version: 9490378fb600d0a6a0721812ba90f2aa7b6cf3df
+      version: 29faebc924e76e3e8d85da2e0dce53a714740c13
     status: maintained
   sot-tools:
     doc:
@@ -10573,7 +10573,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-tools.git
-      version: 9b9f576cec492f9f227e8ac19e31ae1d9e16aa23
+      version: 94d24e81fdcebd5a89c1ffc3bc2abffe6d1f5b6f
     status: maintained
   sparse_bundle_adjustment:
     doc:
@@ -11050,7 +11050,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 9d012c64060fb934cb37f960d73b9d98fe14738d
+      version: a420eb9adf3998b2441362ddef829e6192606fc0
     status: maintained
   turtlebot3:
     doc:
@@ -11742,7 +11742,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: be3ef604ee06f600e5b6d57bddd53993f86f89eb
+      version: e02bff34a3f038fd7a3ccfa94b04a4663fa44378
     status: maintained
   visp_ros:
     doc:
