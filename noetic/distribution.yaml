@@ -2382,7 +2382,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/executive_smach_visualization.git
-      version: 52ac9ecddeb7308c5dbd6c035276542affa25715
+      version: cba6ced628c1e4aedde3880d0b5458f99dda424d
     status: unmaintained
   exotica:
     doc:
@@ -2784,7 +2784,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 0bf51bcd703be595396ed7685f8c61643c87cec6
+      version: c4ccee324c7fabb53a8b15d50241ac911c459e1c
     status: developed
   foxglove_msgs:
     doc:
@@ -3110,7 +3110,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry2.git
-      version: c92cd9a9073c255388599495d2f86799ecafa1bb
+      version: bfcd60628a75519b9f59864c12e742f0e24184d6
     status: maintained
   geometry_tutorials:
     doc:
@@ -3324,7 +3324,7 @@ repositories:
     source:
       type: git
       url: https://github.com/davidfischinger/haf_grasping.git
-      version: 56bab86dcd431aa046abae7ff51ebc761012ca1e
+      version: c88da7ccb3cf3cf945f982949958dd42443c1959
     status: maintained
   handeye:
     doc:
@@ -4289,7 +4289,7 @@ repositories:
     source:
       type: git
       url: https://github.com/euslisp/jskeus.git
-      version: caa563b133431b2cd4b64718376cc215f2a0228d
+      version: 73e929fd1d11a38170c4938b62e21e62b69a1d9f
     status: developed
   kdl_parser:
     doc:
@@ -4434,7 +4434,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 4d1ed86818d81e6c6bf110dbadd8598182cfe349
+      version: 973e70a8dce9584dd9ccb3fcb757ac5f1a67c24c
     status: maintained
   laser_assembler:
     doc:
@@ -4922,7 +4922,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 73e91dc28c2993aef62702a8d949c0fb02e2231c
+      version: 95c71dab42acb62bf5d4a781e8f29982f7f3046e
     status: maintained
   mapviz:
     doc:
@@ -8229,7 +8229,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 5a5d73e52dc7cedcf0157b865a9bcc870c46e0e7
+      version: 061ffe5ca464aaab41d7546a6e75b4542f63d1f7
     status: developed
     status_description: developed
   rm_controllers:
@@ -10368,10 +10368,16 @@ repositories:
       type: git
       url: https://github.com/ntt-t3/skyway_for_ros.git
       version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ntt-t3/skyway_for_ros-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/ntt-t3/skyway_for_ros.git
-      version: 29f728f2cf11c30c974acbad514b15478a26d327
+      version: fa7bc6666a9a44561a1233377d0f8148a3d654e6
+    status: developed
   slam_gmapping:
     doc:
       type: git
