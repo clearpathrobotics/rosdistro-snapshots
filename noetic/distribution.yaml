@@ -1497,6 +1497,21 @@ repositories:
       url: https://github.com/rt-net/crane_x7_ros.git
       version: master
     status: maintained
+  cras_msgs:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/cras_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/cras_msgs
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/cras_msgs.git
+      version: 13abd1e59ea5abe17c4cf0eda78ec3fa2b36bbdb
+    status: developed
   cras_ros_utils:
     doc:
       type: git
@@ -2649,7 +2664,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
-      version: 656b01dc2544e1e2f8a5a388a17e8405722b1911
+      version: 143f8e44055d3543d9bc1c2ebfe34487b32ebcc5
     status: maintained
   fkie_potree_rviz_plugin:
     release:
@@ -2780,7 +2795,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -3273,11 +3288,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/suurjaak/grepros-release.git
-      version: 0.5.0-1
+      version: 0.6.0-2
     source:
       type: git
       url: https://github.com/suurjaak/grepros.git
-      version: 022a1541ebcaf5ef1007d47e653c0c57cadd127d
+      version: 6f6495acb917485dc6550c3519ae442ca7c3ae32
     status: developed
   grid_map:
     release:
@@ -4483,7 +4498,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: 2294462198054b08ac67ccb6aeb8f0f1ece985bc
+      version: df2b333d676b33c01be61708142b0eee3a9f3529
     status: maintained
   laser_geometry:
     doc:
@@ -5496,7 +5511,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 2dd90913fad182486eb78e66743247f2d6e4d00b
+      version: c7d8a191e3013a6cef9c69670107ebf82a46189b
     status: maintained
   moveit_calibration:
     doc:
@@ -5713,7 +5728,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 68bbd8a27ebbb354dfc4ac790979146c666ea803
+      version: 1440e97b7695084373163da82ad1bd5b156e4721
     status: developed
   mrpt_msgs:
     doc:
@@ -10003,12 +10018,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.14.19-1
+      version: 1.14.20-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rviz.git
-      version: 15e148d0e4af0522c0494e83eb9f440f37c02b82
+      version: fd566b96d54f6f2f003291dd99563396ee5809e4
     status: maintained
   rviz_animated_view_controller:
     doc:
@@ -10789,7 +10804,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: cc2f9fba8ad07d345347ade9df6f51e0ab08a66f
+      version: 8ebe776c84ebd12c570c71769ce9f7eaedfee555
     status: developed
   teb_local_planner:
     doc:
@@ -10909,7 +10924,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 6c4ca10cf1a1bce0e1188a5b95e4ddbf23bcdce4
+      version: ab63ba2991d903e786fa039bff532232e06e781a
     status: developed
   tf2_2d:
     release:
@@ -11748,7 +11763,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: e02bff34a3f038fd7a3ccfa94b04a4663fa44378
+      version: 288376a93c5a1e4c55ec1c5b89d0bdf8cdb2aad3
     status: maintained
   visp_ros:
     doc:
