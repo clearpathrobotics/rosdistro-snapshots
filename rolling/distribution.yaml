@@ -744,7 +744,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 4.2.0-2
+      version: 4.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -763,7 +763,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: edeff2f5071140decc42a9409e929c6145755211
+      version: f08760cd677b0622216ecac8bc94b0c6992a0fa7
     status: maintained
   cpp_polyfills:
     release:
@@ -1116,7 +1116,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 3d194ac6516735f7c51369e4d8637f56c7202f82
+      version: 8c2523896e3a54877132e92fab663a4d510b977e
     status: maintained
   example_interfaces:
     doc:
@@ -1195,7 +1195,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.9.1-4
+      version: 2.10.1-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -1309,7 +1309,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.5.2-1
+      version: 0.5.3-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -1780,7 +1780,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ignition-release/ignition_cmake2_vendor.git
-      version: b5912fcbb111a5262f26cbaf92aeb5599f0a872a
+      version: 80cfd96a4273fed79749038e63aa608f38e71f71
     status: maintained
   ignition_math6_vendor:
     doc:
@@ -1796,7 +1796,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ignition-release/ignition_math6_vendor.git
-      version: f964dd98dde22d4271c9c4d6c1104bde0130b593
+      version: 2c7b4536a6236d8601feaeb43db02653b1def3c7
     status: maintained
   image_common:
     doc:
@@ -2553,7 +2553,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 06e5a0b29107432c8a42e1986d356193383347b8
+      version: a622feefe4c2221299132538b55160efec245a3b
     status: developed
   moveit_msgs:
     doc:
@@ -3378,7 +3378,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.8-2
+      version: 0.3.9-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -3397,7 +3397,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: ea95c069b6e3a86708d8578ae1b512ba197b9e95
+      version: 802eea7bf068e29fecbf534a5ec6995baa03c07f
     status: developed
   py_trees:
     doc:
@@ -4250,7 +4250,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: bb044d59df89fac9fed8706aa58a8d7092fa31a2
+      version: a0e9788df53204a6a0d409b073ef7b8e1ff37ae2
     status: maintained
   rmw_connextdds:
     doc:
@@ -4440,7 +4440,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.11.0-2
+      version: 3.12.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4471,11 +4471,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.3.0-2
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: ccc4ab333dd0e0ffcc05d51ea71b771b175f8162
+      version: 8029a2f11aca838cabdd7a8bbe028dd75c334316
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5070,7 +5070,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: 6daa60035dc5f2f27886c35e9cbab9ff0ec75389
+      version: cf8b8d3da3d0ee68ddcb33df7dd1f5fdc3509736
     status: maintained
   rqt_common_plugins:
     doc:
@@ -5195,7 +5195,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: 726c375389ed2b91313742008a5cf04bd0e155b7
+      version: 7693fbb4299d3a2644b6a6567a71b4c684852f33
     status: maintained
   rqt_publisher:
     doc:
@@ -5210,7 +5210,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: 65805511661c086df7282bcc9e37f79f58ec3068
+      version: c1a6edc9b3e4b9b176606467f4259af68a254eb5
     status: maintained
   rqt_py_console:
     doc:
@@ -5796,7 +5796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
-      version: 35a03597606e722eada8fb8e930132a851e2bf92
+      version: 93c0b13ec1ce1fd8abd5c137d9aaaaf11172f086
     status: developed
   system_fingerprint:
     doc:
@@ -5840,7 +5840,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: 010c34ba963b071e88a5208d01dafc7dd9532bf7
+      version: 6313065486c6db146356b63e63c52b0c1e844f13
     status: developed
   tango_icons_vendor:
     release:
@@ -6516,7 +6516,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/usb_cam-release.git
-      version: 0.5.0-2
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
@@ -6788,7 +6788,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 155602f63813dc6c41390f97ae55198ee5df1da9
+      version: 72b486762cb4f8eb5bd8af176a300a9a7b9c00a7
     status: maintained
   xacro:
     doc:
