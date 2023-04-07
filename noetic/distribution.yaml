@@ -433,7 +433,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 97ea97c290efd0fb9d94587515577f35189f68c3
+      version: 6ed509fce6960c0015b09ba8876dd307b73029b6
     status: maintained
   backward_ros:
     doc:
@@ -1771,7 +1771,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.21.0-1
+      version: 2.21.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2799,7 +2799,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 83cc83457707a1c4c3654177cf2a0fa8d46a2c74
+      version: cf0a97738bca44936a849327551024f5441091bd
     status: developed
   foxglove_msgs:
     doc:
@@ -4124,7 +4124,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-      version: 9a9890c83bc3894578b0f4238ba412c78bd972c0
+      version: c7382929131762793b0d3c3a5ba6b4ffdcb1ed93
     status: developed
   jsk_common:
     doc:
@@ -4151,7 +4151,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
-      version: 8d6ff5884ed74df76074998b3dc88597c5d8050e
+      version: 2989ddb97afa28da76e7bd56253ecfcab2ef13af
     status: developed
   jsk_common_msgs:
     doc:
@@ -4247,7 +4247,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: 24adb76217edfa7a6b840f83ed0446a75844efa6
+      version: 88b39cc7ec294e72c07abc445ba2faad334895fd
     status: developed
   jsk_roseus:
     doc:
@@ -5511,7 +5511,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 9fd645d76d0a4fbdbf55f8aecb09fd5a31a63e1a
+      version: 1eb3252aa0b71a10a4385ee08c6a4302d32545f2
     status: maintained
   moveit_calibration:
     doc:
@@ -5728,7 +5728,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 8ead2b9b5ec1d1996b67aab71270f735f23b4a67
+      version: 3763affebdec96334ba4a074e22974345145e17f
     status: developed
   mrpt_msgs:
     doc:
@@ -8271,7 +8271,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: 0c49382d5a8ecc0a4da03ffaeb965b091bcd0591
+      version: db606fb8bc969f06a54eedac52bdc3cd533e1331
     status: developed
   rm_description:
     doc:
@@ -8301,7 +8301,7 @@ repositories:
     source:
       type: git
       url: https://github.com/peci1/robot_body_filter.git
-      version: 2c13fc8b0aa5ae7ad71a336a3916f53171c8d9f5
+      version: 313be75a1ca2d17f5d7c7779f4187fd722fbc442
     status: maintained
   robot_calibration:
     doc:
@@ -10007,7 +10007,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: a5e3eb3b5c09be4983e56e6e45f6673c38edd658
+      version: 00fd36da9b43b521d3b4dfee5cae4f602faa191c
     status: developed
   rviz:
     doc:
@@ -10387,11 +10387,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ntt-t3/skyway_for_ros-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/ntt-t3/skyway_for_ros.git
-      version: 8e7eb84072cc3dc23ff329907002a45158b1395b
+      version: 8c78eca2b76424a0667ad15e91fde17a8b108f87
     status: developed
   slam_gmapping:
     doc:
@@ -10749,7 +10749,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/swri_console-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -10804,7 +10804,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: dec3023546a75399b371c9acb9c3fbfffcaf8c6c
+      version: fb54f03ebff9247cfbe084c18cdcf1e7a63fdfdf
     status: developed
   teb_local_planner:
     doc:
@@ -10924,7 +10924,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: f82056902cd64cb34ca136a1d4901cea9df37923
+      version: 2f4fb156ccec9d1a376532e3fb0b30fba678296d
     status: developed
   tf2_2d:
     release:
