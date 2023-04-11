@@ -331,7 +331,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/audio_common.git
-      version: c0a6bd3dba08307b3c5ff82eed1498879849b718
+      version: 19bcc23c2f96cfa55fc68dc7aad77a4bbcbe7e11
     status: maintained
   automotive_autonomy_msgs:
     doc:
@@ -1527,7 +1527,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.1.2-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
@@ -3010,7 +3010,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rospypi/genmypy-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/rospypi/genmypy.git
@@ -4151,7 +4151,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
-      version: 2989ddb97afa28da76e7bd56253ecfcab2ef13af
+      version: 60acb83ef0ba7fbf6869893ea2288237d4d77c17
     status: developed
   jsk_common_msgs:
     doc:
@@ -5724,7 +5724,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.7.0-1
+      version: 2.8.0-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -5881,7 +5881,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: b376da7d83cfce969880fc6c985fdc9c220a37f7
+      version: 22949dd5ecdbd519601e9d6ef03af16d1931649e
     status: developed
   nao_meshes:
     release:
@@ -7190,7 +7190,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
-      version: 0.3.9-1
+      version: 0.3.10-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -8244,7 +8244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 944cc8eca05860fc196179face1cc94ccbe0eadf
+      version: 2e38353007dae0cda9a54ccea36c1f5e75efb535
     status: developed
     status_description: developed
   rm_controllers:
@@ -9966,7 +9966,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.20.23-1
+      version: 0.21.1-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -9978,10 +9978,26 @@ repositories:
       url: https://github.com/introlab/rtabmap_ros.git
       version: noetic-devel
     release:
+      packages:
+      - rtabmap_conversions
+      - rtabmap_costmap_plugins
+      - rtabmap_demos
+      - rtabmap_examples
+      - rtabmap_launch
+      - rtabmap_legacy
+      - rtabmap_msgs
+      - rtabmap_odom
+      - rtabmap_python
+      - rtabmap_ros
+      - rtabmap_rviz_plugins
+      - rtabmap_slam
+      - rtabmap_sync
+      - rtabmap_util
+      - rtabmap_viz
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.20.23-1
+      version: 0.21.1-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -10924,7 +10940,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 547db25ddaf25fd466b30f30696f8bf48ce022a8
+      version: ebed80b74ad1bd31a18656645be9ae29c9653662
     status: developed
   tf2_2d:
     release:
