@@ -51,6 +51,15 @@ repositories:
       version: f61ddd8978bc1604b8beab958bb057ed344225d0
     status: maintained
   actuator_msgs:
+    doc:
+      type: git
+      url: https://github.com/rudislabs/actuator_msgs.git
+      version: 0.0.1
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/actuator_msgs-release.git
+      version: 0.0.1-2
     source:
       type: git
       url: https://github.com/rudislabs/actuator_msgs.git
@@ -576,7 +585,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/boost_geometry_util.git
-      version: a679501d781d1c7ebfea2c9a91fd696f75b7d144
+      version: e922e7d103dca37c90fab387c8d74b697d9c8f9e
     status: developed
   cartographer:
     doc:
@@ -1122,7 +1131,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 5e2e7b78f8f59b2e56339ae691d110d17af578b2
+      version: 14fb2b3acd8c04abe9b71ea60c9e4b69108e79c8
     status: maintained
   example_interfaces:
     doc:
@@ -1207,7 +1216,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 3a168ed6f758ca16e07f3ce726a458ae7869cdf9
+      version: 40411d968f8e620a80c6f08ebe492c7a14a04bd7
     status: maintained
   filters:
     doc:
@@ -1319,7 +1328,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: aaf557fb1e9ee9eff07a85f5be9623ab96d717b4
+      version: f02099d9196fabac8fc31e369f2dbce5e7a31623
     status: developed
   foxglove_msgs:
     doc:
@@ -1441,7 +1450,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.2-1
+      version: 0.3.3-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -2424,6 +2433,21 @@ repositories:
       url: https://github.com/ros2/message_filters.git
       version: c81a914f16e5852ea3b2fe4bd99d06b4269bd385
     status: maintained
+  message_tf_frame_transformer:
+    doc:
+      type: git
+      url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer-release.git
+      version: 1.0.0-2
+    source:
+      type: git
+      url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
+      version: 58fd78d44a7a939679718b2f283449c18a976c84
+    status: maintained
   micro_ros_diagnostics:
     doc:
       type: git
@@ -2559,7 +2583,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: cbd18dfe57a919fec023964d357dd745e13e219f
+      version: 88809146566f273131bababa173a6bf9b4c2c9d5
     status: developed
   moveit_msgs:
     doc:
@@ -2626,7 +2650,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 3f8d1b6f705f280efec035a173e34023fe376020
+      version: 088db0967b80eed4a497e1e2094827462e696c9b
     status: developed
   mrpt_msgs:
     doc:
@@ -2691,7 +2715,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 39c68adfff365bbd449beb702c68f59a9efe67bc
+      version: 0e8118d1516b65466355a696a8abe4348f19900e
     status: developed
   nao_button_sim:
     doc:
@@ -2772,7 +2796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/neobotix/neo_simulation2.git
-      version: 8be2bf21f0bc6bcbd4a2c572fa15affd064f5750
+      version: 406d98465eeaee4a735b1c660c240508c3efe88f
     status: maintained
   nlohmann_json_schema_validator_vendor:
     doc:
@@ -2802,7 +2826,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/nmea_hardware_interface.git
-      version: 5e7f0906444334d40703974a8280b3231f28f8a2
+      version: a1dd1a006aa7a4e102437a1a080a8af9ac3ae806
     status: developed
   nmea_msgs:
     doc:
@@ -3860,7 +3884,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: fd7a0dc21961227c2ef09d0b0bf46436ba68ea34
+      version: e3d9d819af09d3aced7f887b5c9add75f5eaa514
     status: maintained
   rclpy:
     doc:
@@ -3876,7 +3900,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: aa5b02337a69ab14ccc82ea376edef18def0d2ba
+      version: 3e449355fbafa5089360c8a6645c45824b34a5c1
     status: maintained
   rcpputils:
     doc:
@@ -4008,7 +4032,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/teamspatzenhirn/rig_reconfigure.git
-      version: d591b0496f8c581920f588ed31e02821e4f939da
+      version: 489ff0156b9915b2faa34d16d39558e49533fde2
     status: developed
   rmf_api_msgs:
     doc:
@@ -4167,7 +4191,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: 1d021da0a251df3c81f50b141189850a77ae76c6
+      version: c1a8141a7a73fb74533ac88a9a8f2dcc7f14517d
     status: developed
   rmf_traffic:
     doc:
@@ -4468,11 +4492,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.12.0-1
+      version: 3.12.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: e7366d00e4e7ca522c6c695c36a65503c837fea6
+      version: 2484c7bc3c187984b5461a64ad9734fd5e936ffa
     status: developed
   ros2_controllers:
     doc:
@@ -4499,11 +4523,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.4.0-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: fa7499f0eb28ccca11408e703b8d5fce4f4deb30
+      version: 48cc202108d4c91af2556176cae0c796f31d40fa
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4560,7 +4584,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 88be07daa1625110a75a5a2b9128219fe9aec851
+      version: 67d3579529628741f4f4a7926c1ce2415531fc2d
     status: developed
   ros2acceleration:
     doc:
@@ -4608,7 +4632,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 345693d2e0e2e9ab0bda3b8e6e2ed3cb6851b0df
+      version: 8c99d15115b0410fbf19e519db3df3b6dc6b7ddd
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -4785,7 +4809,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 7b5cd7d4921f61b439ffea61043ee8da0637846b
+      version: e1a99d41836e9aea6d3530f9efeb53b4a231a16a
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6306,7 +6330,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/KumarRobotics/ublox.git
-      version: 9466188b40ea6f84a0224a2f4cf6351ca84037d5
+      version: be4fb7bc81daec759944b72d0d8bea665f33cecb
     status: maintained
   ublox_dgnss:
     doc:
