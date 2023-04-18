@@ -3512,7 +3512,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 3bc5c8d371c742815efe414a99ad0251a60e8e60
+      version: a43aa75147a18557fa28b8f2462f623306453a02
     status: maintained
   hri_msgs:
     doc:
@@ -4221,7 +4221,25 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
-      version: f327d154a022f1b9f2654b0a44169a190b169c8b
+      version: c44989a17a281313741b02cb9e877705e6418fd7
+    status: developed
+  jsk_pr2eus:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+      version: master
+    release:
+      packages:
+      - jsk_pr2eus
+      - pr2eus
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/jsk_pr2eus-release.git
+      version: 0.3.15-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+      version: e1449f57f79298f0c1e68f7d2f18ce3cf8638b09
     status: developed
   jsk_recognition:
     doc:
@@ -4424,6 +4442,22 @@ repositories:
       url: https://github.com/MITRE/kvh_geo_fog_3d.git
       version: 52f2c4d644207610867e5490f9c216885f705f91
     status: maintained
+  l3cam_ros:
+    doc:
+      type: git
+      url: https://github.com/beamaginelidar/l3cam_ros.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/beamaginelidar/l3cam_ros-release.git
+      version: 0.0.3-2
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/beamaginelidar/l3cam_ros.git
+      version: 057fa84543aba565c4b9be9562f89e2edfbfce21
+    status: developed
   lanelet2:
     doc:
       type: git
@@ -4706,7 +4740,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/libhri-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
@@ -5208,6 +5242,21 @@ repositories:
       url: https://github.com/ros/message_runtime.git
       version: ebd0e5fc1b66f69c8301dfef55b31ceed83c1e15
     status: maintained
+  message_tf_frame_transformer:
+    doc:
+      type: git
+      url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer-release.git
+      version: 1.0.0-4
+    source:
+      type: git
+      url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
+      version: 58fd78d44a7a939679718b2f283449c18a976c84
+    status: maintained
   metapackages:
     doc:
       type: git
@@ -5294,7 +5343,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/peci1/mikrotik_swos_tools-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/peci1/mikrotik_swos_tools.git
@@ -5724,11 +5773,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.8.0-1
+      version: 2.8.1-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 5979a506ef9a9603e281b92805e967973a0a88ee
+      version: 4867e734180691cc2d989def6ae2e1909c027641
     status: developed
   mrpt_msgs:
     doc:
@@ -5881,7 +5930,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 34abde5f4bc25715400d7098ab3a91b3af6d9abd
+      version: 16209e46082df55993827a3aa8ec785aeaebcb4f
     status: developed
   nao_meshes:
     release:
@@ -7081,7 +7130,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a926213fc4c7ef8ce71c246277e56e0c1fdfa1a8
+      version: daf6b3f710fba276cf01cdfdb0da049ceb498171
     status: developed
   plotjuggler:
     doc:
@@ -7643,7 +7692,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/pyhri-release.git
-      version: 0.3.2-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/ros4hri/pyhri.git
@@ -8244,7 +8293,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: a3c8169081c66e2c2f0915b96afba90929789736
+      version: d6bb9061f41c602de5b0de06d537b469e93db84d
     status: developed
     status_description: developed
   rm_controllers:
@@ -10485,11 +10534,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/robosoft-ai/smacc-release.git
-      version: 0.9.7-1
+      version: 1.4.6-1
     source:
       type: git
       url: https://github.com/robosoft-ai/smacc.git
-      version: 909ce996a09cce5e87c2984bd53f3f130a7a2c1e
+      version: faaca3ad240410b2dca825b01ed633df6c448e2c
     status: developed
   snmp_ros:
     doc:
