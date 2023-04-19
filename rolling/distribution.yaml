@@ -585,7 +585,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/boost_geometry_util.git
-      version: 083cd7c7fdddfa3881402f2b127b08506c4e30d0
+      version: cb3a03ace25c92b17306b34335d977d0309ea6cf
     status: developed
   cartographer:
     doc:
@@ -1131,7 +1131,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 14fb2b3acd8c04abe9b71ea60c9e4b69108e79c8
+      version: 2dbad070d7d96757d4c932027030e759498628d5
     status: maintained
   example_interfaces:
     doc:
@@ -1216,7 +1216,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 14de049c32482df74ea9164f2a61159fdd0e7bc6
+      version: 8d33409258e0af00ba8771eae4fe0881265ba602
     status: maintained
   filters:
     doc:
@@ -1343,7 +1343,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: a5bf4703de22b7fee5460c0cd4ac14eb902e4301
+      version: 2bde7ce37e321f99170f4bdfa5c42ec8e7df314e
     status: maintained
   fuse:
     doc:
@@ -1874,7 +1874,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 2.6.0-2
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2577,13 +2577,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.7.1-1
+      version: 2.7.2-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: c5d1ec9faff2b3ef9bc1774f08893dd1d28368cb
+      version: d343ed5b793c4bdb207b9df02200d60c9c4ccc68
     status: developed
   moveit_msgs:
     doc:
@@ -2620,7 +2620,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: d0b92e1792c17f8072e83863a0c4de1e82a75c20
+      version: b292ca0f805b6026483e5f1c2a256ad63e71e374
     status: developed
   moveit_visual_tools:
     doc:
@@ -2826,7 +2826,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/nmea_hardware_interface.git
-      version: 42b348aa4f6a7bcc5793f378832eae710976721c
+      version: 22698d63f060f24cc1cb540dcae682acf771428e
     status: developed
   nmea_msgs:
     doc:
@@ -3165,7 +3165,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/ouxt_common.git
-      version: 6c8559ffb0398950efb3eba7674e89e2feca1b97
+      version: 95b4438b6a134cc8104ee8fdb2f68bb50f0ba968
     status: developed
   pcl_msgs:
     release:
@@ -3448,7 +3448,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 802eea7bf068e29fecbf534a5ec6995baa03c07f
+      version: bec2558c15a8c350cebecbcdc0a2097cb60855d7
     status: developed
   py_trees:
     doc:
@@ -3623,7 +3623,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/quaternion_operation.git
-      version: 852651e05a20ecef6b0c8b2ce22e57fb42825a4a
+      version: 4db060e7b3a09d05c7e38125e84e350e37f341c6
     status: maintained
   r2r_spl:
     doc:
@@ -3779,12 +3779,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 6.0.0-1
+      version: 6.0.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: a1ba9160051e76db67f5542dab0ef02032891c29
+      version: f705d75b2af4bead6cc58dab9e79aad4291d51fe
     status: maintained
   rcl_interfaces:
     doc:
@@ -3806,12 +3806,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-      version: 1.5.0-1
+      version: 1.6.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_interfaces.git
-      version: fda88650a426484cd56e5bb765847e83d06f8a17
+      version: 6d28b16a6f74485af03a2c4f043dd568e576c25e
     status: maintained
   rcl_logging:
     doc:
@@ -3879,12 +3879,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 20.0.0-1
+      version: 21.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: a7048e115d9316b54161180fa3bddab29bce7cc3
+      version: a431256383743551f8d58565bfb2dc31eb18d8e8
     status: maintained
   rclpy:
     doc:
@@ -3895,12 +3895,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 4.0.0-1
+      version: 4.1.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 3e449355fbafa5089360c8a6645c45824b34a5c1
+      version: 36705efd4ced13a9c62582fa071c528ed12245af
     status: maintained
   rcpputils:
     doc:
@@ -4579,12 +4579,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_tracing-release.git
-      version: 6.1.0-1
+      version: 6.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 4521aa66328d349af224c83e7699a02752fa38d4
+      version: 0dec1f4f6741d527639978adf658b7c9834765bf
     status: developed
   ros2acceleration:
     doc:
@@ -4627,12 +4627,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.24.1-1
+      version: 0.25.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 8c99d15115b0410fbf19e519db3df3b6dc6b7ddd
+      version: ff8aed407d7a2edd42517afea525173d58030db7
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -4804,12 +4804,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.21.0-2
+      version: 0.22.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 705949410aa352e2ddf99fcf710407fdcde81823
+      version: 18216763ac13d942ee582c4b658962e49179ba3d
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5557,12 +5557,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 12.3.2-1
+      version: 12.4.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 2c2a4611fb4c59e40612e6eb576c332672419210
+      version: 1ac419472ed06cdd52842a8f964f953a75395245
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -5773,7 +5773,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/sol_vendor.git
-      version: a3a3053adf1b79d13a63cb2f4226d0a4c3a9e557
+      version: 3239871d23a5143674a247333cf10d560c4006e7
     status: developed
   sophus:
     doc:
@@ -6422,7 +6422,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 00b1a0fad6aaeaac7b13256a4de07182aca30ec9
+      version: 53cfc4eb171474b82cb05ad824735183a8049f21
     status: developed
   ur_msgs:
     doc:
@@ -6874,7 +6874,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 7d7ba294e9253845dc95fd29c6e66752870b9d78
+      version: fd4ae90d53be1428eeb8beeff07e558712d344b4
     status: maintained
   xacro:
     doc:
@@ -6931,7 +6931,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: bd2c2ac02707dba114069978cfeeae79b76e435e
+      version: 2676585d98d433b3890d9dbce434e206b2823600
     status: developed
   zmqpp_vendor:
     doc:
