@@ -1506,11 +1506,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/cras_msgs
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ctu-vras/cras_msgs.git
-      version: 2cfdd40258cb3416fa8fa772119482e969294082
+      version: 9c1f090916b0cf83a2487eec6f35e5cb471c0b0b
     status: developed
   cras_ros_utils:
     doc:
@@ -1873,7 +1873,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo-release.git
-      version: 0.3.1-1
+      version: 0.3.1-2
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo.git
@@ -3979,7 +3979,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.8.7-1
+      version: 0.8.7-3
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -5562,7 +5562,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 51cff827c92709f3d0b2b6142e42c678dfbbd88a
+      version: a6955b483ca6b6a7d1dae32dc3f8a010cfbc7b83
     status: maintained
   moveit_calibration:
     doc:
@@ -5779,7 +5779,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 76a2ff611f1195e334faf2b5f9ad5e64f8be2c76
+      version: 22e97ccca0dfc88943a2f53d2bb5ecaef13a67b4
     status: developed
   mrpt_msgs:
     doc:
@@ -7132,7 +7132,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a8ba226fc99213b66c98bcbe425827a633cde41d
+      version: 522475c1b016a452ecbb61e5eba5610b62c95f70
     status: developed
   plotjuggler:
     doc:
@@ -8224,7 +8224,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/ridgeback-release.git
-      version: 0.3.3-1
+      version: 0.3.3-2
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
@@ -8295,7 +8295,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 11823150cf08449a5a83ed09caf583ba829f95cd
+      version: 6231c42d45ead580f295fea7888fe0c74e139657
     status: developed
     status_description: developed
   rm_controllers:
@@ -10871,7 +10871,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: fb54f03ebff9247cfbe084c18cdcf1e7a63fdfdf
+      version: 538a4f13f29170a07923ed22c475fd84a4d96bed
     status: developed
   teb_local_planner:
     doc:
