@@ -150,7 +150,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aprilrobotics/apriltag.git
-      version: 3e8e974d0d8d6ab318abf56d87506d15d7f2cc35
+      version: 48b448b649357fefbb1fad04155f7b4ea92ed74a
     status: maintained
   apriltag_ros:
     doc:
@@ -433,7 +433,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 46c1e351adc51a687c64b727398b115a1fa5feee
+      version: b6c8b64319c1c90b06328f39b9fa455889a4ed38
     status: maintained
   backward_ros:
     doc:
@@ -2797,11 +2797,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.5.3-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: f208f96ee13859e257041f750c0334a79e5c33eb
+      version: 5ac9b6dd7beb21dedd9d9b296c923ac775a29277
     status: developed
   foxglove_msgs:
     doc:
@@ -3583,7 +3583,7 @@ repositories:
     source:
       type: git
       url: https://github.com/husky/husky.git
-      version: 0c6b37e40d8c609e79d7467fcef4b65b30efeec9
+      version: bbcdd36b3802fed096e8650a7a3f9f39d61e0073
     status: maintained
   ifm3d:
     release:
@@ -4065,7 +4065,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/joint_state_publisher.git
-      version: c3e2ad2c8504cfd428732feb20c3abe64127dff9
+      version: 7cb7069d2d78ebe4b8b80adc6bd859df0c8ccfc9
     status: maintained
   joystick_drivers:
     doc:
@@ -5562,7 +5562,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: a6955b483ca6b6a7d1dae32dc3f8a010cfbc7b83
+      version: 8635f82e4823b970479f360216bbe8292f79e8e4
     status: maintained
   moveit_calibration:
     doc:
@@ -5684,7 +5684,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_task_constructor.git
-      version: 4781ed563657cb7ecfcca857649bdf9f1c8d95b9
+      version: d1a6916206067980aa154def8f2d45a30f70225e
     status: developed
   moveit_visual_tools:
     doc:
@@ -8550,7 +8550,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robotont/robotont_description.git
-      version: 39f6dc3dd452f275c8b49b64d80333336c6db584
+      version: 9a5645652afe8bc80db3251b4c8fc5ae43965856
     status: maintained
   robotont_gazebo:
     doc:
@@ -9214,7 +9214,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/xqms/rosfmt.git
-      version: 27c4bb5abfd15595b3626a49d9a22660909ae481
+      version: 6b4dfba4cba49432cd42b748ec117fca6f354a9d
     status: maintained
   roslint:
     doc:
@@ -9290,7 +9290,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/xqms/rosmon.git
-      version: 4f9b10ebffacef009d63a535ff2d28703321d35b
+      version: 1002370aa24591df04802b3a216c7fbb947326aa
     status: developed
   rosmsg_cpp:
     doc:
@@ -10908,7 +10908,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: kinetic-devel
+      version: noetic-devel
     release:
       packages:
       - joy_teleop
@@ -10919,11 +10919,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.4.0-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: 12ca6680cdba19df6b3403fd2915729514647bf6
+      version: e6f08e889352b223edde0c4213fb55db0aaffa9d
     status: maintained
   teleop_twist_joy:
     doc:
@@ -10991,7 +10991,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 4e5eb12b68cd41c72acfc744740738bd650acdbe
+      version: 45f552c9565815995c297d04ed50feedf3184990
     status: developed
   tf2_2d:
     release:
@@ -11452,7 +11452,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 2e69bc165da0ad22fe9a1a3417e7eaa4b082ebac
+      version: 01b1fee5626fe780ce816704026bb8cb81ccccaa
     status: developed
   ur_msgs:
     doc:
