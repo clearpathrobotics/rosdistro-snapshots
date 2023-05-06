@@ -433,7 +433,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: b6c8b64319c1c90b06328f39b9fa455889a4ed38
+      version: 66ef10a64080c76ce3a3e5e9d61e20518d61078e
     status: maintained
   backward_ros:
     doc:
@@ -2797,11 +2797,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 5ac9b6dd7beb21dedd9d9b296c923ac775a29277
+      version: 8166ab61a8fa6306b6a79c6f7e44af6c2bfe9b6c
     status: developed
   foxglove_msgs:
     doc:
@@ -3579,7 +3579,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/husky-release.git
-      version: 0.6.7-1
+      version: 0.6.8-1
     source:
       type: git
       url: https://github.com/husky/husky.git
@@ -5095,7 +5095,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 03f809c9c3026870463fdb2e01c82d682d328184
+      version: b962a4292f657a2c89b2ebaf57fc1f795873af31
     status: maintained
   mavros:
     doc:
@@ -5112,12 +5112,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.15.0-1
+      version: 1.16.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 83cbdb7b859fc006b3f8fb1221a6194c48513681
+      version: 5c5663d67746ca93b7f7bead176f20ff946ed6cb
     status: developed
   mcl_3dl:
     doc:
@@ -10871,7 +10871,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 538a4f13f29170a07923ed22c475fd84a4d96bed
+      version: 1402947f19420b6b48bbfe73f7dee6018d42657d
     status: developed
   teb_local_planner:
     doc:
