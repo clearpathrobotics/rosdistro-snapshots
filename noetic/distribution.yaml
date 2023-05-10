@@ -1491,6 +1491,21 @@ repositories:
       url: https://github.com/rst-tu-dortmund/costmap_converter.git
       version: e8c1d2c8c8d5e34b1980062e28e4a4dc1817bade
     status: maintained
+  cpr_onav_description:
+    doc:
+      type: git
+      url: https://github.com/cpr-application/cpr_onav_description.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/cpr_onav_description-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/cpr-application/cpr_onav_description.git
+      version: c29094b637e02d1315d27cf30c0c83cad84b3149
+    status: maintained
   crane_x7:
     doc:
       type: git
@@ -1538,10 +1553,21 @@ repositories:
       type: git
       url: https://github.com/AutonomyLab/create_robot.git
       version: melodic
+    release:
+      packages:
+      - create_bringup
+      - create_description
+      - create_driver
+      - create_msgs
+      - create_robot
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/autonomylab/create_autonomy-release.git
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/AutonomyLab/create_robot.git
-      version: e132478ffed6c8c8a8eeca783eb4d580bb7823f7
+      version: 09a3a0ff8f8f18f6a67db61f5ab16860f05d98f6
     status: developed
   criutils:
     doc:
@@ -1972,7 +1998,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph.git
-      version: 5b731606c75073d0e42b6971f2bfb34cc242f0f7
+      version: 66162cb6530ee9b0cc952fd2c01fee6b4549bda8
     status: maintained
   dynamic-graph-python:
     doc:
@@ -1988,7 +2014,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph-python.git
-      version: 658a1da79fc0af101325eaa45652d4a460e9d734
+      version: 60b2ffef9890d69724dd3a14712c393505698c41
     status: maintained
   dynamic-graph-tutorial:
     doc:
@@ -2004,7 +2030,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/dynamic-graph-tutorial.git
-      version: ae1fc01a19487a75fa1ff892ba00f599a9abde2a
+      version: 3c34f6ce79a43b3324d813dfa4d50075f0818dcc
     status: maintained
   dynamic_reconfigure:
     doc:
@@ -2248,7 +2274,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: b993067746812020b14fc331c55037a65ff4803b
+      version: 397f2b831008576ff60cb7d48d946a36eddcedc3
     status: maintained
   eml:
     release:
@@ -4485,7 +4511,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 14a7ea8c1c79b7fd1c516126ce9852b137934da8
+      version: 0c3a81b2f3fe9182f88c2fb8ac979def9f994a6f
     status: maintained
   laser_assembler:
     doc:
@@ -4706,7 +4732,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AutonomyLab/libcreate.git
-      version: d75d41c63843581cfd113fd8ceac976d65bc06b4
+      version: ca6e477d25de6ef553c8b5372b479b440440d941
     status: maintained
   libfranka:
     doc:
@@ -5779,7 +5805,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 22e97ccca0dfc88943a2f53d2bb5ecaef13a67b4
+      version: 56423aa6c9b72ca774aeb7ea87aa1dcec4d277b6
     status: developed
   mrpt_msgs:
     doc:
@@ -7850,7 +7876,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 0ed1f8f429d3dce0620a9eb6530a9bfdbba0a5f8
+      version: f9b5ef8d895a2f3649bdbb1a70629a9b52143082
     status: developed
   qt_gui_core:
     doc:
@@ -8322,7 +8348,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: f949fa5e18cc911a30f91ab76a499aace86df523
+      version: dc609bc62114c38f4028ffa930f54aea688a065a
     status: developed
   rm_description:
     doc:
@@ -9184,6 +9210,16 @@ repositories:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
       version: 3628412ad55570effd3488f88fce5d03a0851c20
+    status: maintained
+  rose2:
+    doc:
+      type: git
+      url: https://github.com/aislabunimi/ROSE2.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/aislabunimi/ROSE2.git
+      version: a70ec244a63d737d26518a873fb802f5753763a2
     status: maintained
   rosee_msg:
     doc:
@@ -10631,7 +10667,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/sot-core.git
-      version: 33fd24225b64d52f58d04f6c0f25fa62d912f401
+      version: b4c45dffb05ee937d0a362e435444a75a4c254f2
     status: maintained
   sot-dynamic-pinocchio:
     doc:
@@ -10646,7 +10682,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-dynamic-pinocchio.git
-      version: cdc32546a6b4a34e9c1d1ae9ff4c9440ad07c9a0
+      version: f0be53fe504ebf07e5692c52b59236ddef967ba7
     status: maintained
   sot-tools:
     doc:
@@ -10661,7 +10697,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/sot-tools.git
-      version: 1dfb6f89fb982c49bb6d0ae61deecfd76c9b0d17
+      version: 03cf4c3afd0a0869bc9fb5b514f22bc8f1cd36ac
     status: maintained
   sparse_bundle_adjustment:
     doc:
@@ -10871,7 +10907,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 12f8bd4e970ab27fd3dee3bffa24b5b48b54ba39
+      version: ce8ba07c57108b594c495fa8512d23ee36739e85
     status: developed
   teb_local_planner:
     doc:
@@ -11138,7 +11174,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 1119a14a5c0c5af8437a2e8780a8e1102211bd4b
+      version: 22c9f62dad3609e9a2ff6ef66408bbcb464b434d
     status: maintained
   turtlebot3:
     doc:
