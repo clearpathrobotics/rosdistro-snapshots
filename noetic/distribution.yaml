@@ -433,7 +433,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 10d6d712c40439e238846f1c29c89947d25df095
+      version: 8f89ebee5118d83a83336a1abda8a73def60bdd5
     status: maintained
   backward_ros:
     doc:
@@ -504,7 +504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: d25e5b91b9c035808460c1b006aebf61f88fe107
+      version: dfa7abcc7fd0b0253f265ab85f896365b437eac2
     status: developed
   bond_core:
     doc:
@@ -763,7 +763,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/catkin_virtualenv.git
-      version: 6a6a96eb042faf33f69b7ffb2c0d00baf67ff977
+      version: 680adffc000d3d2603dd8abe36cb4fbe4a97b9d6
     status: maintained
   class_loader:
     doc:
@@ -963,7 +963,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
-      version: 032eb7ace10f35f20c93b3f0c33436cd4de8f756
+      version: dde04009226dbd01694b3049163ae54c30d7666d
     status: maintained
   cob_common:
     doc:
@@ -2827,7 +2827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 8166ab61a8fa6306b6a79c6f7e44af6c2bfe9b6c
+      version: f665cd4a905a5b750da7d1a0e474ad4b77539a48
     status: developed
   foxglove_msgs:
     doc:
@@ -2842,7 +2842,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 2bde7ce37e321f99170f4bdfa5c42ec8e7df314e
+      version: f8d19d032541f8241b5e1576dd833fa09545bf40
     status: developed
   frame_editor:
     doc:
@@ -3357,7 +3357,7 @@ repositories:
     source:
       type: git
       url: https://github.com/CogRob/catkin_grpc.git
-      version: 40c3a270232bf64a519181cad0385bfa8ef5d98b
+      version: a5ec067902a2639eb973387d7ce7bcac3372f8db
     status: maintained
   haf_grasping:
     doc:
@@ -3540,7 +3540,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 035d29a3067df968791993569c87ab6b59eb70fb
+      version: 3cb0a53b4f18c62071c7b53bf04b3b98ad7f0e8b
     status: maintained
   hri_msgs:
     doc:
@@ -3883,7 +3883,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: e95f9fe87f0f1a12682d292c972535d637d1c434
+      version: f5b3cd10a70935439c1ef4c68177a8f59562847e
     status: maintained
   iotbot:
     doc:
@@ -4390,6 +4390,8 @@ repositories:
       - khi_rs007l_moveit_config
       - khi_rs007n_moveit_config
       - khi_rs013n_moveit_config
+      - khi_rs020n_moveit_config
+      - khi_rs025n_moveit_config
       - khi_rs080n_moveit_config
       - khi_rs_description
       - khi_rs_gazebo
@@ -4397,7 +4399,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/Kawasaki-Robotics/khi_robot-release.git
-      version: 1.3.0-2
+      version: 1.4.0-2
     source:
       type: git
       url: https://github.com/Kawasaki-Robotics/khi_robot.git
@@ -4507,7 +4509,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2-release.git
-      version: 1.2.0-2
+      version: 1.2.1-2
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
@@ -5283,7 +5285,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
-      version: 58fd78d44a7a939679718b2f283449c18a976c84
+      version: a316ddf70fb9c956a93862d532ef50ebd086719b
     status: maintained
   metapackages:
     doc:
@@ -5805,7 +5807,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 56423aa6c9b72ca774aeb7ea87aa1dcec4d277b6
+      version: 6acb37283e78b0bca56f44d7cc9401cc87869257
     status: developed
   mrpt_msgs:
     doc:
@@ -7158,7 +7160,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: dc8333cb38e63a37e87f9b26c3ad7330b85b56d1
+      version: 602ec46816c7b1c263d4113db9448b32281ac24d
     status: developed
   plotjuggler:
     doc:
@@ -8321,7 +8323,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 6231c42d45ead580f295fea7888fe0c74e139657
+      version: 0ba035a68a02f23f6184f2723c4f4d78452540e4
     status: developed
     status_description: developed
   rm_controllers:
@@ -10110,7 +10112,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 782fa8c712edc4dd6191a98187945aec27871e8a
+      version: 01e4f9ceb5520b711cf2d62d17a32c4ad145f770
     status: developed
   rviz:
     doc:
@@ -10907,7 +10909,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: ce8ba07c57108b594c495fa8512d23ee36739e85
+      version: 9e4a095602a0af2d4de473214d3da9f17e17ed26
     status: developed
   teb_local_planner:
     doc:
@@ -11096,48 +11098,6 @@ repositories:
       type: git
       url: https://github.com/ThundeRatz/thunder_line_follower_pmr3100.git
       version: 63d83afa9cc0688f4e03a399cd8e9996e38caa1d
-    status: developed
-  toposens:
-    doc:
-      type: git
-      url: https://gitlab.com/toposens/public/ros-packages.git
-      version: master
-    release:
-      packages:
-      - toposens
-      - toposens_bringup
-      - toposens_description
-      - toposens_driver
-      - toposens_echo_driver
-      - toposens_markers
-      - toposens_msgs
-      - toposens_pointcloud
-      - toposens_sync
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://gitlab.com/toposens/public/toposens-release.git
-      version: 2.3.2-2
-    source:
-      type: git
-      url: https://gitlab.com/toposens/public/ros-packages.git
-      version: master
-    status: developed
-  toposens-library:
-    doc:
-      type: git
-      url: https://gitlab.com/toposens/public/toposens-library.git
-      version: master
-    release:
-      packages:
-      - toposens-sensor-library
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://gitlab.com/toposens/public/toposens-library-release.git
-      version: 1.2.4-4
-    source:
-      type: git
-      url: https://gitlab.com/toposens/public/toposens-library.git
-      version: master
     status: developed
   trac_ik:
     doc:
