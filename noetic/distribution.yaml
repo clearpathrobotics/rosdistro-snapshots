@@ -1821,12 +1821,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.7.1-1
+      version: 2.7.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 7596da634a2793a7aff80db9b1f075caddbfba7c
+      version: 54d7a51181989afad46a3b74d5e6f29bdb3f6004
     status: developed
   depthimage_to_laserscan:
     release:
@@ -2823,7 +2823,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.6.1-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -2911,7 +2911,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: f6c4c2fd440e6ca41b3a5728326c062c11288134
+      version: 31e8310c5b85ba6c6ce92b172ed1b23cc4846d6c
     status: developed
   gazebo_ros_control_select_joints:
     release:
@@ -3353,7 +3353,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/CogRobRelease/catkin_grpc-release.git
-      version: 0.0.11-1
+      version: 0.0.12-2
     source:
       type: git
       url: https://github.com/CogRob/catkin_grpc.git
@@ -3540,7 +3540,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 3cb0a53b4f18c62071c7b53bf04b3b98ad7f0e8b
+      version: f765272d420c21eb1239e195b618325a9fb5dce3
     status: maintained
   hri_msgs:
     doc:
@@ -4293,7 +4293,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: 62afb919a40279b16f240a15c1820d818566d024
+      version: d541785e54c3e3cd6fab05b908762e83e333de86
     status: developed
   jsk_roseus:
     doc:
@@ -4335,7 +4335,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
-      version: 9f4c58b1fa49e03c45b62f3651dc8ca04d940ba7
+      version: 22659131078b7f2477eb77e33ec029a267412000
     status: developed
   jskeus:
     doc:
@@ -5001,7 +5001,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 48054f64abcfc83f58d9aa2efbbd21604f93aca4
+      version: 8111a0d17d4a2126a1feab7f3fe892e492c20340
     status: maintained
   mapviz:
     doc:
@@ -5590,7 +5590,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 4aeccc712293577e64918c0bb185ef8c38eeed84
+      version: 6b6de9e8aea197d80124ba44360a714bcb106249
     status: maintained
   moveit_calibration:
     doc:
@@ -7160,7 +7160,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 602ec46816c7b1c263d4113db9448b32281ac24d
+      version: 4b28322642096f2e7521e978ba535e94de0667b0
     status: developed
   plotjuggler:
     doc:
@@ -7878,7 +7878,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: f9b5ef8d895a2f3649bdbb1a70629a9b52143082
+      version: 0301e345b41e1c2b8e38efa803034b1b6c16c907
     status: developed
   qt_gui_core:
     doc:
@@ -10813,7 +10813,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tradr-project/static_transform_mux.git
-      version: 05ecfbdfcc005469a0e1d985424ba717573603bc
+      version: 3c4c4f9d8da2b39943484bccbcf1806e0638eb15
     status: maintained
   std_msgs:
     doc:
@@ -11029,7 +11029,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 45f552c9565815995c297d04ed50feedf3184990
+      version: 978f2418c82d18db651416e89cc0e8ac95d80893
     status: developed
   tf2_2d:
     release:
@@ -11826,7 +11826,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 627a859df231d6127476260e03555fd18fdfc54b
+      version: fd693a1ae3dfe30b49555c71aa8f3b1b2663263c
     status: maintained
   visp_ros:
     doc:

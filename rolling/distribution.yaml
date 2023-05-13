@@ -272,12 +272,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_package-release.git
-      version: 0.16.1-1
+      version: 0.16.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_package.git
-      version: 9d828bab61f878c1d11a9c395b5e735f201342bb
+      version: 4e575b1b08659249ceb0a838b9a251f8b1477b04
     status: developed
   ament_vitis:
     doc:
@@ -1216,7 +1216,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: add29f42591fe3d785df727aea128f250040834f
+      version: b5a952bdbdb0f94f02a7ddb2eb69f9b8163434bc
     status: maintained
   filters:
     doc:
@@ -1324,7 +1324,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.6.1-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -1720,7 +1720,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 3cb0a53b4f18c62071c7b53bf04b3b98ad7f0e8b
+      version: f765272d420c21eb1239e195b618325a9fb5dce3
     status: developed
   iceoryx:
     release:
@@ -1760,7 +1760,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 55dd7680ff7234c825efa1dd0c104e5629448972
+      version: f68ec185e2e21cffe7051e03200a6381da6564fc
     status: maintained
   ign_rviz:
     doc:
@@ -2583,7 +2583,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: f80773345b2631f2e089de25dead1be5a41f4367
+      version: 226f81c6ee6ec30826d562450eb8b6d5f1af0084
     status: developed
   moveit_msgs:
     doc:
@@ -2594,11 +2594,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_msgs-release.git
-      version: 2.2.1-2
+      version: 2.2.2-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
-      version: 4632986b7b3da9dbb9d2d943e0d43574f826fa50
+      version: 1ffa6a86b04b44ee2663479d28b1f0c63c81e8eb
     status: developed
   moveit_resources:
     doc:
@@ -3305,7 +3305,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 602ec46816c7b1c263d4113db9448b32281ac24d
+      version: 4b28322642096f2e7521e978ba535e94de0667b0
     status: developed
   plotjuggler:
     doc:
@@ -3784,7 +3784,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 627d7c66fb024b2ac46fb8cacf7b12db06fb3738
+      version: c0bf9235deef15e97b3e0e7b97406d54ec0a79b7
     status: maintained
   rcl_interfaces:
     doc:
@@ -4815,7 +4815,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 65c889e1fa55dd85a148b27b8c27dadc73238e67
+      version: af4ca0cadc5cb9ccdbb5ae42096753fab94b6c2e
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6466,7 +6466,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: d4197ffbac57229281ed33595674446c47a005cf
+      version: d8b296468d246e63dbceed4afed750a6a87995d0
     status: developed
   urdf:
     doc:
@@ -6759,7 +6759,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 627a859df231d6127476260e03555fd18fdfc54b
+      version: fd693a1ae3dfe30b49555c71aa8f3b1b2663263c
     status: maintained
   vitis_common:
     doc:
