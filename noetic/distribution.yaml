@@ -1542,11 +1542,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.2.0-1
+      version: 2.2.2-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: db114177d3a7a6a8aecfaffb0f758953458ac94f
+      version: 55ad247c9fc4469ce31ae34706dd766c59221662
     status: developed
   create_robot:
     doc:
@@ -5584,7 +5584,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.11-1
+      version: 1.1.12-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -10112,7 +10112,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 01e4f9ceb5520b711cf2d62d17a32c4ad145f770
+      version: eb749af10fe10554bea795182209242a9c57433a
     status: developed
   rviz:
     doc:
@@ -10756,7 +10756,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/srdfdom-release.git
-      version: 0.6.3-1
+      version: 0.6.4-1
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -10809,7 +10809,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/peci1/static_transform_mux-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/tradr-project/static_transform_mux.git

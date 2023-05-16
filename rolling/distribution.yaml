@@ -856,7 +856,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: cb771882568ac64443ab229af651d81de557949b
+      version: fbec2a921a98cfc3e6d4ae5d9f2bb18277b70f13
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1131,7 +1131,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: d971a8490e7eb23d820539cedf9164c9ce3a207d
+      version: 257e0afe07327650d15ef7239f98bd8a38a0aa15
     status: maintained
   example_interfaces:
     doc:
@@ -1454,7 +1454,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: a15a257564647495c7f08230830d3d1883dac553
+      version: a5165c2aee91527b0575dc0fcf56e2f1d0eeffed
     status: developed
   geographic_info:
     doc:
@@ -1692,6 +1692,11 @@ repositories:
       url: https://github.com/hatchbed/hatchbed_common.git
       version: 42fa1bcc12ce564b2f8578d70e3250b36d2b81f8
     status: developed
+  heaphook:
+    source:
+      type: git
+      url: https://github.com/tier4/heaphook.git
+      version: 54835f22e9be2e02b718497fdc16c30321ce3b39
   hls_lfcd_lds_driver:
     doc:
       type: git
@@ -1760,7 +1765,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: f68ec185e2e21cffe7051e03200a6381da6564fc
+      version: 6a3173538edc346de194a2bd45c24e19a11ebd8e
     status: maintained
   ign_rviz:
     doc:
@@ -2583,7 +2588,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 226f81c6ee6ec30826d562450eb8b6d5f1af0084
+      version: 79a2fa5c71763f1379aa2b0db436ea599b7fa12a
     status: developed
   moveit_msgs:
     doc:
@@ -2620,7 +2625,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: d4807d8742a4273ec945e905607ff7ef4676cb7a
+      version: 7de52e06088347c830d3f15d8218e3e77b411bf2
     status: developed
   moveit_visual_tools:
     doc:
@@ -3884,7 +3889,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 58bcd3b8228413aff34a35210f4549ddb06a8d10
+      version: d7fdb6184c7f5c2f3a1e7c2a0ddcfd8ba5044452
     status: maintained
   rclpy:
     doc:
@@ -4523,7 +4528,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.7.0-1
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -4886,7 +4891,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: a5cc3ec0291a1a763212e35786fe9b1661eedc1d
+      version: e3b71ece1a5c351f4656e4ce6cbe421910936bc7
     status: maintained
   rosidl_core:
     doc:
@@ -5027,7 +5032,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: da0e300ed640e88565daec031f8ad75c02c9dcf5
+      version: 9062d91c09a79c3b9902a8f06bca4e994121cc52
     status: maintained
   rosidl_typesupport_fastrtps:
     doc:
@@ -5543,7 +5548,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 01e4f9ceb5520b711cf2d62d17a32c4ad145f770
+      version: eb749af10fe10554bea795182209242a9c57433a
     status: developed
   rviz:
     doc:
@@ -5568,7 +5573,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 4293a12e94643205441fd2ec7f86622cbc900b33
+      version: bc93b3488e9b204b1e0e9df2455e1c66c552cb41
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -5840,7 +5845,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 0e0a21b0823dea70e090c32777caa1b5f7694bf4
+      version: 352b9278cc21aa10b0ee6776e15cc703784074c7
     status: developed
   stomp:
     doc:
@@ -6190,7 +6195,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/transport_drivers.git
-      version: 983873d83d640dbfb4bff7cf3c08c49a543df910
+      version: 87a4299d6721de5d7e133e851403bfa6c1213934
     status: developed
   turbojpeg_compressed_image_transport:
     doc:
@@ -6270,7 +6275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_geometry.git
-      version: 4db20e51b1eb28679e39f8730b6ff4b86e9808b7
+      version: 53ea666e35a5153ea373f674d14dce575757bc16
     status: maintained
   tvm_vendor:
     doc:
@@ -6466,7 +6471,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: d8b296468d246e63dbceed4afed750a6a87995d0
+      version: 71d5beb98c48ec66dd2baefa9213f8620dec9970
     status: developed
   urdf:
     doc:
