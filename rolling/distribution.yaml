@@ -393,11 +393,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/aruco_opencv-release.git
-      version: 4.1.0-3
+      version: 4.1.1-1
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: f974e52351e6a9fcd6149e4096c489287f50f559
+      version: 9be95767a61dbe9e157a7159a1d31e165175a77b
     status: maintained
   astuff_sensor_msgs:
     doc:
@@ -880,7 +880,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: f48bbd64d31512bedcbf4189f0734289872e5800
+      version: fae18af7c158f9bab5af6a476971dd22f0ea29a0
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -2612,7 +2612,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: cc1ef618d9c02728bfc58723f15b29ed1efc6aa2
+      version: 9952bdd56a5cde3151941bbf74a93fc450548ce1
     status: developed
   moveit_msgs:
     doc:
@@ -2649,7 +2649,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: 7de52e06088347c830d3f15d8218e3e77b411bf2
+      version: 8873fdc422ccd6a8a0d7e230e0c62ec3006b0746
     status: developed
   moveit_visual_tools:
     doc:
@@ -2664,7 +2664,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_visual_tools.git
-      version: 40dd5b44d462f1204fa404977087839841da797b
+      version: 85784336be6661b199a78a095c59019561e01530
     status: maintained
   mrpt2:
     doc:
@@ -2679,7 +2679,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 0d506d71041875ff01d20203e03ecf1dd2d838a5
+      version: 0fa0934506e4996f84f8f8f6e769a0702a8e9328
     status: developed
   mrpt_msgs:
     doc:
@@ -2996,7 +2996,7 @@ repositories:
     source:
       type: git
       url: https://github.com/octomap/octomap.git
-      version: 92a9f14cafa5f567c47b58cbe91137c9a6ba1b0c
+      version: 09f3b4b85332d30ccac174d9b45aebf35c2190c0
     status: maintained
   octomap_mapping:
     doc:
@@ -3913,7 +3913,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: d7fdb6184c7f5c2f3a1e7c2a0ddcfd8ba5044452
+      version: c4f57a79984acfacec8759d60ba968138845c187
     status: maintained
   rclpy:
     doc:
@@ -4521,7 +4521,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.12.2-1
+      version: 3.13.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4844,7 +4844,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: af4ca0cadc5cb9ccdbb5ae42096753fab94b6c2e
+      version: 422e754582400e77507b43077b0f40ce18da979e
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5513,7 +5513,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 1a045c71dfd2e9a865bca56bc501792ca00a4d5f
+      version: 73ca8e1a8e50b6102e26ccda371cd9e5c506d3b4
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -5611,11 +5611,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz_2d_overlay_plugins-release.git
-      version: 1.2.1-2
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
-      version: a7d7bf082d09de7674c4dc6edb79ae8e853aa250
+      version: 2baf4bc73bb2aa68c426d2a384e7f6dc866e3c87
     status: maintained
   rviz_visual_tools:
     doc:
@@ -5869,7 +5869,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 352b9278cc21aa10b0ee6776e15cc703784074c7
+      version: 0f1bc39c6d1f5b07f39f469e4b0a4075a380f92a
     status: developed
   stomp:
     doc:
@@ -6165,7 +6165,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: 8dac8f13c1a816aefd642367e38828ea7b2dad36
+      version: 66b7d126aaa6cdd87860744a3459f6a28292b4a0
     status: developed
   tracetools_acceleration:
     doc:
@@ -6788,7 +6788,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: fd693a1ae3dfe30b49555c71aa8f3b1b2663263c
+      version: 5b7cca4a93df3979cb15f8574a1276901a302049
     status: maintained
   vitis_common:
     doc:
