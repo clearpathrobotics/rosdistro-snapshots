@@ -1478,7 +1478,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: b5d4640af8db8c2d8169342bf0990740f748ae9c
+      version: 800769a1237ca7c3a211b972554f1aa4f7b95207
     status: developed
   geographic_info:
     doc:
@@ -2575,6 +2575,7 @@ repositories:
       - moveit_planners
       - moveit_planners_chomp
       - moveit_planners_ompl
+      - moveit_planners_stomp
       - moveit_plugins
       - moveit_py
       - moveit_resources_prbt_ikfast_manipulator_plugin
@@ -2606,13 +2607,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.7.3-1
+      version: 2.7.4-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 9952bdd56a5cde3151941bbf74a93fc450548ce1
+      version: 243b0b2ccac156a75bcd158eefa86c8acf409110
     status: developed
   moveit_msgs:
     doc:
@@ -2636,6 +2637,7 @@ repositories:
       version: ros2
     release:
       packages:
+      - dual_arm_panda_moveit_config
       - moveit_resources
       - moveit_resources_fanuc_description
       - moveit_resources_fanuc_moveit_config
@@ -2645,7 +2647,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_resources-release.git
-      version: 2.0.6-2
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -2679,7 +2681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 0fa0934506e4996f84f8f8f6e769a0702a8e9328
+      version: 2b5d37d89f17de8e8736a6477c42bb9ccbb22d84
     status: developed
   mrpt_msgs:
     doc:
@@ -2694,7 +2696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
-      version: e90b7a98435a8586c7fd0825663de53ada81482d
+      version: a1daba47d426aa47409f4e762be1de4866866486
     status: maintained
   mrpt_navigation:
     doc:
@@ -2792,7 +2794,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: 7a9881a3493e19c027190f61fdf7fa67608653eb
+      version: e3e1322f5c36e4f21be30c0d861ec5fcdea0d9dd
     status: developed
   navigation_msgs:
     doc:
@@ -3345,11 +3347,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.5.1-2
+      version: 3.7.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 638feb9b2863adb1b88f00cf0a91c9e2a7fd5739
+      version: 4eec75bd18d9dbd07b99b77b2273cb6cf3d5c8ae
     status: developed
   plotjuggler_msgs:
     doc:
@@ -3913,7 +3915,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: c4f57a79984acfacec8759d60ba968138845c187
+      version: fce021b14967f691340a6e90b15bdaa37a2008bd
     status: maintained
   rclpy:
     doc:
@@ -4176,7 +4178,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.1.2-2
+      version: 2.1.4-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -4525,7 +4527,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 8d47dcc0b0a35802e706252a558738bee5d967ef
+      version: 7c074302269254e3ade2639c698473351877a595
     status: developed
   ros2_controllers:
     doc:
@@ -4661,7 +4663,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 1e7df98d9e5677f554869fb349b552bbc96235ec
+      version: 4b2b2fd1ed3bc06463bdf30a38dae55f5200acb8
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -5191,7 +5193,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: e52bcb9e74bde7c976dbd059dce3d11103a470e4
+      version: f98f3d033e378452b811aee6bd4b2cf8b5712540
     status: maintained
   rqt_common_plugins:
     doc:
@@ -5864,7 +5866,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sros2-release.git
-      version: 0.12.0-1
+      version: 0.12.1-1
     source:
       test_pull_requests: true
       type: git
