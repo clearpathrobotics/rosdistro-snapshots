@@ -134,7 +134,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 154f1989578a30afe0b3613369681073470d16d9
+      version: 77c1dd758dc65f80bd6644ec80261c0f3bfa6f7f
     status: developed
   ament_cmake_catch2:
     doc:
@@ -710,7 +710,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/color_util.git
-      version: d54dc7fbc3b940bb5083559408e7e0e4d0da3aec
+      version: 5cd2fd2dec8d35eb9c4bceae5b601ce5c0d9e855
     status: developed
   common_interfaces:
     doc:
@@ -1799,7 +1799,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: e82d30b3f1a0e0e13711aa58d23fea8301e4eb74
+      version: 13936b7ac741afcf459e9efcaeaa5ef15e1c1b9c
     status: maintained
   ign_rviz:
     doc:
@@ -1897,7 +1897,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 93dd06251dea56363aafe6ce964196d3da19291e
+      version: 491545e7e7eb3b30d7667afa5ffafd6597b03885
     status: maintained
   image_transport_plugins:
     doc:
@@ -2623,7 +2623,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 052c217826ed0f5b93fd8624a3387a9d672bfe0f
+      version: 4ed043fcfbf127a479448d82b4543729dca63160
     status: developed
   moveit_msgs:
     doc:
@@ -3346,7 +3346,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 4b28322642096f2e7521e978ba535e94de0667b0
+      version: 84bf77251037227a779542944678a6af0eee3d4b
     status: developed
   plotjuggler:
     doc:
@@ -3459,7 +3459,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/polygon_ros.git
-      version: 1ce7c7446eab87c5b0eb35eda1c25c9c8e57d98e
+      version: 56e61bd81af6311f3e75135c1bb96a35832cf154
     status: developed
   pose_cov_ops:
     doc:
@@ -4475,12 +4475,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robot_localization-release.git
-      version: 3.5.0-2
+      version: 3.6.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 284c2eccf029e680cd05688a400b582b2c9594bc
+      version: 3521ef6ded934a4c05c69512bfb3995e5b804be9
     status: maintained
   robot_state_publisher:
     doc:
@@ -5896,7 +5896,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/stomp.git
-      version: d6d2ed866d34f173017d775e523d9b289d80f843
+      version: f9e9d78f741f0779b65333d4f54d68ade740520b
     status: maintained
   stubborn_buddies:
     doc:
@@ -6386,18 +6386,20 @@ repositories:
       version: main
     release:
       packages:
+      - ntrip_client_node
       - ublox_dgnss
       - ublox_dgnss_node
+      - ublox_nav_sat_fix_hp_node
       - ublox_ubx_interfaces
       - ublox_ubx_msgs
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ublox_dgnss-release.git
-      version: 0.3.5-4
+      version: 0.4.4-1
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 2a0eca3eea209c464a40efbe7b5bdaa277669465
+      version: 8e72b574aec3d38aa2a1bb73b1927035538979ff
     status: maintained
   udp_msgs:
     doc:
@@ -6469,7 +6471,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 147c602b0236fb6c1674ee63da1c72388b9dfd1f
+      version: 46c1b1ef20d09140caf42a508fab25ca95cc41e7
     status: developed
   ur_msgs:
     doc:
@@ -6507,7 +6509,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 4734c7617efc362b836051239edaeee264d7ca2c
+      version: 643eada22fea3f31b5318160c57ad58bf4c90a94
     status: developed
   urdf:
     doc:
