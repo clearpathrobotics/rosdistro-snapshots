@@ -574,7 +574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 00b3c75141b72e1b817bb7ebe6634ecfae9f7242
+      version: acbc7076845b84ea4f8c6b879cf04282793f9a5f
     status: developed
   bno055:
     doc:
@@ -779,7 +779,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/console_bridge_vendor.git
-      version: afa0c3183285e0052e2cbeb166e683754166c588
+      version: da4e56f3c3297d7765b9bcc7857cb32b0fbfb6f9
     status: maintained
   control_box_rst:
     doc:
@@ -1567,7 +1567,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: dfb7eb528ed7bdc900258bd0cd3be6279f812443
+      version: edad1bcc0e8d0a5988ceaad0dc9e76a658ba1f43
     status: maintained
   geometry_tutorials:
     doc:
@@ -1712,7 +1712,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: a307fcb4bc2ea90532f05ee698ba4e8227a9cff3
+      version: e444ee1ec4e945e6c68293f56d94ba2aef8cd3b5
     status: developed
   hash_library_vendor:
     doc:
@@ -1852,12 +1852,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ignition_cmake2_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ignition-release/ignition_cmake2_vendor.git
-      version: c1108b046b446cc1054140be50ab31e182052564
+      version: aa0d75372d990ff99ba20c9e0b6bee2df1cb6fa4
     status: maintained
   ignition_math6_vendor:
     doc:
@@ -1868,12 +1868,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ignition_math6_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ignition-release/ignition_math6_vendor.git
-      version: 22aa70fa55a26d983122e6cc42c3eb4f17b85208
+      version: ea8cf7b340a7242207502b1ef8b17bd65d98d18a
     status: maintained
   image_common:
     doc:
@@ -2271,7 +2271,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 13d6e1eb7c361f20706b709596496c16e0b5d1b1
+      version: 2d125a5105bbfc1d34de17dd70c29905e3ce9732
     status: maintained
   lgsvl_msgs:
     release:
@@ -2387,7 +2387,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 288cb71861fbd6473036dfc3bfcd90c2346a12ee
+      version: e1ea11a93d0bdf6aae415124ded6126220fa4f28
     status: maintained
   marti_common:
     doc:
@@ -2753,11 +2753,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.9.2-1
+      version: 2.9.3-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 44be93f619d43bf12028b0916cc3ba09c98fce48
+      version: 43da9be7c9af3d19e7ab9c9477e201e5f0fd71bc
     status: developed
   mrpt_msgs:
     doc:
@@ -4000,7 +4000,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 005f6aefe96b7857fd08c99c04a751c5e2f93528
+      version: fe2e0e4c646545625ad9f82e929be651b3a5fd95
     status: maintained
   rclpy:
     doc:
@@ -4454,7 +4454,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: d4330cc18f19b7db3bfa1d1bbf04f490f925268d
+      version: f167c5bbccc330ae10da778fe50190dd3ad43cfb
     status: developed
   rmw_cyclonedds:
     doc:
@@ -4628,11 +4628,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.2.2-1
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: fdf843ff5dae6ac337cdd3188892f02b73ca4162
+      version: b5e81d66a8429ef99e4e0f36408285d9d72e3a0c
     status: developed
   ros2_control:
     doc:
@@ -4693,7 +4693,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 21e3f2268da78f6157deec88107e394845942049
+      version: c619aac5f67cd323129eec6889d814ab1c160c87
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4893,7 +4893,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: bdfe874cbd6729063e0dd1b92b9aa1334d91a073
+      version: a587cfa8bc918e9d5340849ec492da78ea0f8651
     status: developed
   ros_image_to_qimage:
     doc:
@@ -5755,7 +5755,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 0cd63d0d19ef765e48a7cf53dbae675246859da6
+      version: 4e06de1cf277b5cf5eb777c084e23a92545a0889
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6329,7 +6329,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: 66b7d126aaa6cdd87860744a3459f6a28292b4a0
+      version: a026e1b86d93d16de6e989eba91b0f519a2ee489
     status: developed
   tracetools_acceleration:
     doc:
@@ -6383,7 +6383,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/transport_drivers.git
-      version: 87a4299d6721de5d7e133e851403bfa6c1213934
+      version: 9fff59f66e4e0f9296501b3f671adc6543509996
     status: developed
   turbojpeg_compressed_image_transport:
     doc:
@@ -6937,7 +6937,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 80f1ba78bc39a3112379005a4bd593545214d772
+      version: 4d32af9f2d6d9754a7a0df57d9725850e43f4b74
     status: maintained
   vitis_common:
     doc:
