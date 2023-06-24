@@ -782,6 +782,16 @@ repositories:
       url: https://github.com/locusrobotics/catkin_virtualenv.git
       version: 4af99703e6c7faf12c5d328dbab346250fd085f7
     status: maintained
+  cedri_node_monitoring:
+    doc:
+      type: git
+      url: https://github.com/alf767443/node_monitoring.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/alf767443/node_monitoring.git
+      version: aa970aef72de1ce0f24cb8a7e6c105ccdbd3e159
+    status: developed
   class_loader:
     doc:
       type: git
@@ -3616,6 +3626,16 @@ repositories:
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
       version: b334110d716e044f58445b915add76516b496a4a
     status: maintained
+  hri_actions_msgs:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros4hri/hri_actions_msgs-release.git
+      version: 0.4.2-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_actions_msgs.git
+      version: a73a45b225b85e5e79ecdf948292a60ca8d36c82
   hri_msgs:
     doc:
       type: git
@@ -4237,7 +4257,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-      version: ef416810d8e4ea97914a01f7ad6819cba96c97bb
+      version: 97cc745eead4a46f2cdde5e2798a9d9daa1adea9
     status: developed
   jsk_common:
     doc:
@@ -5088,7 +5108,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.9.2-1
+      version: 0.9.3-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -8046,7 +8066,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 27edfe63ee5bba5264953fcf5784f18033fe9a58
+      version: 34cc91a9af1bcbfc76110bd22291c834348b8dc4
     status: developed
   qt_gui_core:
     doc:
@@ -9376,7 +9396,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
-      version: 3628412ad55570effd3488f88fce5d03a0851c20
+      version: 299a7c508ba4aeeb56d348a32d04433a30ade54b
     status: maintained
   rose2:
     doc:
@@ -10310,6 +10330,21 @@ repositories:
       url: https://github.com/ros-visualization/rviz_animated_view_controller.git
       version: c6c97b6334e86543a8f945751f6ac19f066602ee
     status: maintained
+  rviz_robot_description_topic:
+    doc:
+      type: git
+      url: https://github.com/nobleo/rviz_robot_description_topic.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/nobleo/rviz_robot_description_topic-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/nobleo/rviz_robot_description_topic.git
+      version: e71f75d49162a06398575cff35e004723f6ae9f0
+    status: maintained
   rviz_satellite:
     doc:
       type: git
@@ -11194,7 +11229,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 64fb794571e29d21608417602fecf2690ce1b303
+      version: 4b30d19d5a6730f83069361087883d617464bb95
     status: developed
   tf2_2d:
     release:
@@ -11623,7 +11658,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 01b1fee5626fe780ce816704026bb8cb81ccccaa
+      version: 8dbe2a13f8a81848d1565b1d23c2a3b08bcee962
     status: developed
   ur_msgs:
     doc:

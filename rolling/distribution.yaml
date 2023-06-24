@@ -682,6 +682,16 @@ repositories:
       url: https://github.com/fmrico/cascade_lifecycle.git
       version: 5f071bf56c6c0082715c4dae0f4cc2841c5be439
     status: maintained
+  catch_ros2:
+    doc:
+      type: git
+      url: https://github.com/ngmor/catch_ros2.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/ngmor/catch_ros2.git
+      version: e76268592df0cf9b26543d0e857ccb03bdefb601
+    status: maintained
   class_loader:
     doc:
       type: git
@@ -1438,7 +1448,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 419d16a7f41f78546a903da2735e81b2fa0e8081
+      version: c15af63cb036cd1f36cffbc56e5e5bdb5224c7e2
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -2383,7 +2393,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.9.2-1
+      version: 0.9.3-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -2508,7 +2518,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: c9fb4b263cfa7fd4d1516fe40f6d309413caecc0
+      version: 360fd3b868479f7878baab4afc766e2f4f4dd6a6
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -2721,6 +2731,11 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mp2p_icp-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -2789,10 +2804,16 @@ repositories:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
       version: develop
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt_path_planning-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
       version: ffaa68fd65c3b5fdb1f68bcbaa238cd6a25a3b43
+    status: developed
   mrpt_sensors:
     doc:
       type: git
@@ -3247,7 +3268,7 @@ repositories:
     source:
       type: git
       url: https://github.com/osrf/osrf_pycommon.git
-      version: 944277347f91843d4684bc310d42f6f14fab3c83
+      version: 1a6a6ef63a263a901d44ef10bef181e53bc2392e
     status: maintained
   osrf_testing_tools_cpp:
     doc:
@@ -3340,7 +3361,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 59586014d3aa49b40a2cb95ae492befe025ccfee
+      version: 14aec228b55ce073bf73e3611045c3c5ac4cfc7e
     status: maintained
   performance_test_fixture:
     release:
@@ -4628,11 +4649,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.2.4-1
+      version: 0.2.5-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: b5e81d66a8429ef99e4e0f36408285d9d72e3a0c
+      version: c25b748c3da40a77c4b5d8d21dc28b3a6b1d85f8
     status: developed
   ros2_control:
     doc:
@@ -4658,7 +4679,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: db34dfaf2d79fc8afcd460d9ae16f02c43265a2a
+      version: cc1667b4f4ccbf6152d435c7f2bb04998b8b3b74
     status: developed
   ros2_controllers:
     doc:
@@ -6592,7 +6613,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 01b1fee5626fe780ce816704026bb8cb81ccccaa
+      version: 8dbe2a13f8a81848d1565b1d23c2a3b08bcee962
     status: developed
   ur_description:
     doc:
@@ -7058,7 +7079,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 2ce3fb2fca040d72346ded64ff68fc05e13bb284
+      version: 76dfdf21669d219e820ff8182c3d80c7d94d964b
     status: maintained
   xacro:
     doc:
