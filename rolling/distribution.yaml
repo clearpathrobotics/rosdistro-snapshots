@@ -357,7 +357,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: e2fd02fdd133e905444136d1a7a4a1ca2ede985f
+      version: 874669e2e1f738ded8ea3e48533135068732d452
     status: maintained
   apriltag_msgs:
     release:
@@ -626,7 +626,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/boost_geometry_util.git
-      version: 084bcbbd933bdd6eb202d90965cd3bbf78180982
+      version: 2cdbf1d9fd26dbec0369c5d4a5896d62e0d12ed9
     status: developed
   cartographer:
     doc:
@@ -2963,7 +2963,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/nmea_hardware_interface.git
-      version: 05a0a4562176541f4360cb5f9ff662e61a9b0721
+      version: f362580aaf93f01c9ee8dcf9b10e2e45bfa78321
     status: developed
   nmea_msgs:
     doc:
@@ -3302,7 +3302,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/ouxt_common.git
-      version: 681b1773dfb0ca6215c16adacd0b16ad03948e1d
+      version: 831eb4280762c27089bfa2ad54ccc6675706d1c6
     status: developed
   pcl_msgs:
     release:
@@ -3421,7 +3421,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/pick_ik.git
-      version: 3b5cc04a3e99d6a5323c2bdcd2a9835046adad4f
+      version: c9e050aec1a701d6edeedc6a2abf4f80e5c08de0
     status: developed
   picknik_ament_copyright:
     release:
@@ -3429,6 +3429,12 @@ repositories:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/picknik_ament_copyright-release.git
       version: 0.0.2-3
+  picknik_controllers:
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/picknik_controllers.git
+      version: e9be94c70409ae0599399aa415f5d164882853e2
+    status: developed
   pinocchio:
     doc:
       type: git
@@ -4653,7 +4659,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: c25b748c3da40a77c4b5d8d21dc28b3a6b1d85f8
+      version: 35fbdcb09f8c023a692c7c2016380335d885c71f
     status: developed
   ros2_control:
     doc:
@@ -4714,7 +4720,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: c619aac5f67cd323129eec6889d814ab1c160c87
+      version: cd40ec0e9410b303d94709405be7c4d0e97c3b3b
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5987,7 +5993,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OUXT-Polaris/sol_vendor.git
-      version: be9e664b696a94bf90077d1f1b39497058f64bd7
+      version: 1d0ceaf8fc950835ca7d02a23c3fccd967427357
     status: developed
   sophus:
     doc:
