@@ -687,6 +687,11 @@ repositories:
       type: git
       url: https://github.com/ngmor/catch_ros2.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/catch_ros2-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ngmor/catch_ros2.git
@@ -913,7 +918,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 9ebea79312bac44b906cbca3d6142ce9c6e44377
+      version: d855ec7cd27bae44f64cc8828cc6d189861cf4fe
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -2281,7 +2286,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 2d125a5105bbfc1d34de17dd70c29905e3ce9732
+      version: e572760d25c626fc10b15e1cd83f4ea821810464
     status: maintained
   lgsvl_msgs:
     release:
@@ -2671,7 +2676,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 636b98849127ef6dd29b104e1ab421b278b93ee2
+      version: c9a9e407b0a27858c8eea838ccbbd389d7109f9e
     status: developed
   moveit_msgs:
     doc:
@@ -2772,7 +2777,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: c2063fd39a2f5a8b4c02758b0bcf0ca34a966735
+      version: 8d7958d8d2f7b668603e22456f6e792f10080128
     status: developed
   mrpt_msgs:
     doc:
@@ -3268,7 +3273,7 @@ repositories:
     source:
       type: git
       url: https://github.com/osrf/osrf_pycommon.git
-      version: 1a6a6ef63a263a901d44ef10bef181e53bc2392e
+      version: 00ee0a4ec73476d37e8bf5bf729d40e12a99cc45
     status: maintained
   osrf_testing_tools_cpp:
     doc:
@@ -3421,7 +3426,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/pick_ik.git
-      version: c9e050aec1a701d6edeedc6a2abf4f80e5c08de0
+      version: 9904c89d9bcf9e857952db12040399c201779e97
     status: developed
   picknik_ament_copyright:
     release:
@@ -4027,7 +4032,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: fe2e0e4c646545625ad9f82e929be651b3a5fd95
+      version: 2e355e48498d7610534e590992c4dcff55a57f22
     status: maintained
   rclpy:
     doc:
@@ -4655,11 +4660,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.2.5-1
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 35fbdcb09f8c023a692c7c2016380335d885c71f
+      version: 5f085f65c44aa089c377ebad8169d2a05cb8e422
     status: developed
   ros2_control:
     doc:
@@ -4681,7 +4686,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.14.0-1
+      version: 3.15.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4716,11 +4721,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.10.1-1
+      version: 3.11.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: cd40ec0e9410b303d94709405be7c4d0e97c3b3b
+      version: 9ce288b9cd9caabb1d29df6fb4e1baefa52781cb
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -6619,7 +6624,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 8dbe2a13f8a81848d1565b1d23c2a3b08bcee962
+      version: f170fcfdf3a44c2bece6a4704d9f8819e4a05e27
     status: developed
   ur_description:
     doc:
@@ -6671,7 +6676,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 39b61b51d88d6fed8902369f8c83fd466c77d85a
+      version: 6391258a7a6cd41d39530f4cd16f1e55263152b5
     status: developed
   urdf:
     doc:
@@ -7085,7 +7090,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 76dfdf21669d219e820ff8182c3d80c7d94d964b
+      version: ff0d63ad016390fd56224025da322759ab8ce298
     status: maintained
   xacro:
     doc:
