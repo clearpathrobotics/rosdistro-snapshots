@@ -553,11 +553,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp-release.git
-      version: 3.8.3-4
+      version: 3.8.4-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 96843d18481e10e0b09e37b86bb1b93121f7d84c
+      version: 8c204c5163ff0989b302aee5bc22ed7322a11ea4
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -574,7 +574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 208259cea75a937df0c274c1228e9f07dccb9de9
+      version: b9906d1be0ffbaaaf37a9d59ee674170aeba58f0
     status: developed
   bno055:
     doc:
@@ -1261,7 +1261,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: d9bce9cf1d1b362a20c480c0c9c667d8dc1aa555
+      version: 2f655844f80b6c038e81d3a1d055265469eef00d
     status: maintained
   fastrtps:
     doc:
@@ -1405,7 +1405,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: a4fe2a8af0d837e7d413be6a325e47b8f0b81a0b
+      version: ccb80c3bb8a9010e777eca126a98475f6851a261
     status: maintained
   fuse:
     doc:
@@ -1727,7 +1727,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: e444ee1ec4e945e6c68293f56d94ba2aef8cd3b5
+      version: eb5604d0374e1b2cdbbb3fe203ad517aa05a97b3
     status: developed
   hash_library_vendor:
     doc:
@@ -2402,7 +2402,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: e1ea11a93d0bdf6aae415124ded6126220fa4f28
+      version: 4904822db8770d04444add00a9e155568d3e8bd1
     status: maintained
   marti_common:
     doc:
@@ -2777,7 +2777,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 8d7958d8d2f7b668603e22456f6e792f10080128
+      version: 840c538749891e5b6126a30673ce0dbc1b2ebc89
     status: developed
   mrpt_msgs:
     doc:
@@ -5787,7 +5787,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 4e06de1cf277b5cf5eb777c084e23a92545a0889
+      version: cecbc40d39c5a715a69272d67ff113fd5a6cce06
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7090,7 +7090,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: ff0d63ad016390fd56224025da322759ab8ce298
+      version: 5bdb813fbb916a4761a5cc8d66352939e59912f7
     status: maintained
   xacro:
     doc:
