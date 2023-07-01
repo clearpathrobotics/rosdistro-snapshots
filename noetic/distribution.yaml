@@ -790,7 +790,17 @@ repositories:
     source:
       type: git
       url: https://github.com/alf767443/node_monitoring.git
-      version: 29dd4801741682620b486baca108ae2e2d3726fe
+      version: d7815f6e48e048e37351b75c7357338e5295563f
+    status: developed
+  cedri_ros_monitoring:
+    doc:
+      type: git
+      url: https://github.com/alf767443/ros_monitoring.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/alf767443/ros_monitoring.git
+      version: b6146109c8054ffe3af084648b5bbc499a98d9e9
     status: developed
   class_loader:
     doc:
@@ -2340,6 +2350,24 @@ repositories:
       url: https://github.com/stack-of-tasks/eiquadprog.git
       version: a3423fdacbe938f64c97dd2513d650eda42b9e09
     status: maintained
+  electronic-io:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/electronic-io.git
+      version: master
+    release:
+      packages:
+      - electronic_io
+      - electronic_io_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/electronic-io.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/electronic-io.git
+      version: d5baae59930e589eff9b3fd8cd122b6b1c2c0cda
+    status: developed
   eml:
     release:
       tags:
@@ -2901,7 +2929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 29ac3989383dc9f2e1d6862c73738422a87d8736
+      version: 6281aec272c92d863bc3a9df4aa784680326aa71
     status: developed
   foxglove_msgs:
     doc:
@@ -3446,7 +3474,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: eb5604d0374e1b2cdbbb3fe203ad517aa05a97b3
+      version: 4c0cd2275b16ed86d934b61d867836f45b09a0da
     status: developed
   haf_grasping:
     doc:
@@ -5935,7 +5963,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 4e4de3693060da95a4f8a1064a9ba9e0e990299a
+      version: 21284527ac9027a3b2d30eceadc316d3d62fdc21
     status: developed
   mrpt_msgs:
     doc:
@@ -6104,7 +6132,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 9db6a0291dce24288b44004a1e35848807f6f11e
+      version: e1e66894b1eda9d2b21686ffb0f5a9a87883787a
     status: developed
   nao_meshes:
     release:
@@ -6141,7 +6169,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_driver.git
-      version: b4aad981edaebaefefcca80d5e114d375fb6dcce
+      version: e41b3c2d9638165d47d88dfe174bd288e4488f82
     status: maintained
   naoqi_libqi:
     doc:
@@ -8066,7 +8094,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 09e4e6fa5a5e5a7cf122ac09ed8a82f56614685b
+      version: 957afe3a07ab16c32df87e5db412f8031a36c9e5
     status: developed
   qt_gui_core:
     doc:
@@ -8803,7 +8831,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur.git
-      version: 30419ea86d0d2ac54228a0d89e504e6eee7fdaac
+      version: 40a6810e4643039af432efbcebcb8adb1ab05a66
     status: maintained
   ros:
     doc:
@@ -10297,7 +10325,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: f49b262d167a78d3443b617d341fc35e4c464622
+      version: 52591320452805bc7d4b0f28dcec54f47f3ddad9
     status: developed
   rviz:
     doc:
@@ -11229,7 +11257,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: de932b42a4dec47e5511386ed7a9198a866d2332
+      version: 346bd295fa66999cdfe0255cdc19a700626b4611
     status: developed
   tf2_2d:
     release:
@@ -11658,7 +11686,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f170fcfdf3a44c2bece6a4704d9f8819e4a05e27
+      version: 628833a069a5db9c978a70d841d47f4fb62278a7
     status: developed
   ur_msgs:
     doc:
@@ -12036,7 +12064,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: bc23271b13fc40b80fff2df4195f72c9fdf220b6
+      version: e2a0196ebaf42032083d7dff068ede8a37eb1af4
     status: maintained
   visp_ros:
     doc:

@@ -1390,7 +1390,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 29ac3989383dc9f2e1d6862c73738422a87d8736
+      version: 6281aec272c92d863bc3a9df4aa784680326aa71
     status: developed
   foxglove_msgs:
     doc:
@@ -1727,7 +1727,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: eb5604d0374e1b2cdbbb3fe203ad517aa05a97b3
+      version: 4c0cd2275b16ed86d934b61d867836f45b09a0da
     status: developed
   hash_library_vendor:
     doc:
@@ -2196,7 +2196,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: a76d1a68338f3dedc1c72ddf6df2810c377332c4
+      version: a7e34ed79b6a7989dd4330d27ee521675157650e
     status: maintained
   laser_geometry:
     doc:
@@ -2492,7 +2492,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: d7a6f0c3eacc7cb7ade858ececee523a4945ecb5
+      version: 3e1adc7ec10c8b7dd819b90e259d5cd521c46228
     status: developed
   menge_vendor:
     doc:
@@ -2777,7 +2777,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 4e4de3693060da95a4f8a1064a9ba9e0e990299a
+      version: 21284527ac9027a3b2d30eceadc316d3d62fdc21
     status: developed
   mrpt_msgs:
     doc:
@@ -2857,7 +2857,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 9db6a0291dce24288b44004a1e35848807f6f11e
+      version: e1e66894b1eda9d2b21686ffb0f5a9a87883787a
     status: developed
   nao_button_sim:
     doc:
@@ -3596,7 +3596,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 1c2215d12074cacab5df0c823e86e459126e595e
+      version: 97cb913b64755af6ab1e41f1ac0c2c7e57dbdf86
     status: developed
   py_trees:
     doc:
@@ -4191,7 +4191,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_api_msgs-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_api_msgs.git
@@ -4317,7 +4317,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_simulation-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
@@ -4335,7 +4335,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
@@ -4660,11 +4660,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.2.6-1
+      version: 0.2.7-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 2dbbc6b8a388658733a9b53a6505c8ad664c5351
+      version: faca7297438bef5d7a986122959988d16a567246
     status: developed
   ros2_control:
     doc:
@@ -5762,7 +5762,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: f49b262d167a78d3443b617d341fc35e4c464622
+      version: 52591320452805bc7d4b0f28dcec54f47f3ddad9
     status: developed
   rviz:
     doc:
@@ -5787,7 +5787,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: cecbc40d39c5a715a69272d67ff113fd5a6cce06
+      version: 90a78045fa6e84890e2a204a5d2e2a34f50417be
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -5902,6 +5902,27 @@ repositories:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git
       version: d417293ff252704f1fb594e5d8cd996245d855a2
+    status: maintained
+  smach:
+    doc:
+      type: git
+      url: https://github.com/ros/executive_smach.git
+      version: ros2
+    release:
+      packages:
+      - executive_smach
+      - smach
+      - smach_msgs
+      - smach_ros
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/executive_smach-release.git
+      version: 3.0.2-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/executive_smach.git
+      version: d03ff2409d529400f83c54afdb4d83b5da58a462
     status: maintained
   snowbot_operating_system:
     doc:
@@ -6624,7 +6645,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f170fcfdf3a44c2bece6a4704d9f8819e4a05e27
+      version: 628833a069a5db9c978a70d841d47f4fb62278a7
     status: developed
   ur_description:
     doc:
@@ -6969,7 +6990,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: bc23271b13fc40b80fff2df4195f72c9fdf220b6
+      version: e2a0196ebaf42032083d7dff068ede8a37eb1af4
     status: maintained
   vitis_common:
     doc:
