@@ -570,11 +570,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.3.1-1
+      version: 4.3.3-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 43075b50fbd6169e0bfb10edc7e0299225218f74
+      version: 00c798977d3a22cdf27e3da8a7329c95c88aeddc
     status: developed
   bno055:
     doc:
@@ -1390,7 +1390,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 6281aec272c92d863bc3a9df4aa784680326aa71
+      version: 5f96e84d5f1261e7759d70d6a5979e5a7019091c
     status: developed
   foxglove_msgs:
     doc:
@@ -1993,7 +1993,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: 7bec3e8577fea812bdd7f7c43f01a35d4da927be
+      version: b4a0a614c2531c564319b1eec1e545f9f02c278b
     status: maintained
   irobot_create_msgs:
     release:
@@ -2251,7 +2251,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 8cfa72314d8a9d8e830c6818c2b39087f8fdf196
+      version: f70f90111451b2f4d866bf3a3092afd36f8dc26f
     status: developed
   launch_param_builder:
     doc:
@@ -2333,7 +2333,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ethz-asl/libpointmatcher.git
-      version: 64f4da6ba9f1e6ee4882fa36d16ab283ab088d14
+      version: f56fdde8dbdb9b2daca8dce556b0a97ecd389dd3
     status: maintained
   libstatistics_collector:
     doc:
@@ -2773,11 +2773,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.9.3-1
+      version: 2.9.4-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: b095eafb460ab4ee36fd0e7d6e067150b1c20f37
+      version: c8d5907179a56ea03ba9daaa5bdd889a0eac1f0c
     status: developed
   mrpt_msgs:
     doc:
@@ -4032,7 +4032,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 2e355e48498d7610534e590992c4dcff55a57f22
+      version: 588dba7a70d5953b4133894cbb1316b0e1c21b65
     status: maintained
   rclpy:
     doc:
@@ -4048,7 +4048,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 739e05bf386166445dc81f0b55ef9d1af2ea6592
+      version: 542259d0bb60e8a9033ee1a7a79a2408e8eb2294
     status: maintained
   rcpputils:
     doc:
@@ -4690,7 +4690,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: d39ddcdb2a6cf423530f93587646f2ce502b85d4
+      version: ca33bcc57d3f7138f7263011315c826da30c8a49
     status: developed
   ros2_controllers:
     doc:
@@ -4745,6 +4745,12 @@ repositories:
       type: git
       url: https://github.com/SteveMacenski/ros2_ouster_drivers.git
       version: 2a2a7db5aebe17ea05b6ad6e04047ad5cfc0f0ad
+    status: maintained
+  ros2_robotiq_gripper:
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
+      version: 96e959471669a79611aefea78eaae63b1b662262
     status: maintained
   ros2_socketcan:
     doc:
@@ -5787,7 +5793,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 733350fd12a3b6a7a6a5b3be42c56a6135081611
+      version: 439c683fefb128731146307a5b538d8d356ddcb3
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6532,6 +6538,21 @@ repositories:
       url: https://github.com/ros-teleop/twist_mux.git
       version: c6d4926b7bcf80a66d5118445bce33c84d431180
     status: maintained
+  twist_mux_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/twist_mux_msgs-release.git
+      version: 3.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-teleop/twist_mux_msgs.git
+      version: 947db06f79dd6ea2447f5edea3b618bbae1953dd
+    status: maintained
   twist_stamper:
     doc:
       type: git
@@ -6990,7 +7011,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: e2a0196ebaf42032083d7dff068ede8a37eb1af4
+      version: 5da32ea8b84d1d505328bbeedc1eb58046325457
     status: maintained
   vitis_common:
     doc:

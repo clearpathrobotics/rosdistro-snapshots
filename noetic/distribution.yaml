@@ -521,7 +521,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 43075b50fbd6169e0bfb10edc7e0299225218f74
+      version: 00c798977d3a22cdf27e3da8a7329c95c88aeddc
     status: developed
   bond_core:
     doc:
@@ -2362,7 +2362,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/electronic-io.git
-      version: 1.0.1-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ctu-vras/electronic-io.git
@@ -2791,11 +2791,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fkie-release/potree_rviz_plugin-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/fkie/potree_rviz_plugin.git
-      version: 69d80c31cf1c6d11b39c923d08af3a0f0309e219
+      version: 58dba536eeaccce80ad6957e658fa2e77115c21a
     status: maintained
   flatland:
     release:
@@ -2817,8 +2817,8 @@ repositories:
   flexbe:
     doc:
       type: git
-      url: https://github.com/team-vigir/flexbe_behavior_engine.git
-      version: master
+      url: https://github.com/flexbe/flexbe_behavior_engine.git
+      version: noetic
     release:
       packages:
       - flexbe_behavior_engine
@@ -2832,23 +2832,23 @@ repositories:
       - flexbe_widget
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/FlexBE/flexbe_behavior_engine-release.git
+      url: https://github.com/flexbe/flexbe_behavior_engine-release.git
       version: 1.4.0-2
     source:
       type: git
-      url: https://github.com/team-vigir/flexbe_behavior_engine.git
-      version: 8e2ca45fbdb68818599944d2d155f9367b607c5c
+      url: https://github.com/flexbe/flexbe_behavior_engine.git
+      version: bb9fd93456f18d549b03cbfc6e0a8369abd4d1c7
     status: developed
   flexbe_app:
     release:
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/FlexBE/flexbe_app-release.git
+      url: https://github.com/flexbe/flexbe_app-release.git
       version: 2.4.1-1
     source:
       type: git
-      url: https://github.com/FlexBE/flexbe_app.git
-      version: 2ef95e2314e296ac838f757f3ed65bf85cabb196
+      url: https://github.com/flexbe/flexbe_app.git
+      version: c56aa5402212e4550d15fda31690d77d4233b1e2
   flir_camera_driver:
     doc:
       type: git
@@ -2929,7 +2929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 6281aec272c92d863bc3a9df4aa784680326aa71
+      version: 5f96e84d5f1261e7759d70d6a5979e5a7019091c
     status: developed
   foxglove_msgs:
     doc:
@@ -3688,11 +3688,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/hri_rviz-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros4hri/hri_rviz.git
-      version: 961dbb32d5426d24bae263a89b4d0fa5b75a7f63
+      version: 6e2094f9671752192f6c7980abfd21f07550c0a2
     status: developed
   human_description:
     doc:
@@ -4899,11 +4899,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/libhri-release.git
-      version: 0.6.1-1
+      version: 0.6.4-1
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
-      version: c506a25c24cba653fb20ef7f35c2b6f6180b2053
+      version: 3ff30aa3263abe2c6e7d2500165889e3bf0a5c36
     status: maintained
   libnabo:
     doc:
@@ -4933,7 +4933,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ethz-asl/libpointmatcher.git
-      version: 64f4da6ba9f1e6ee4882fa36d16ab283ab088d14
+      version: f56fdde8dbdb9b2daca8dce556b0a97ecd389dd3
     status: maintained
   librealsense2:
     doc:
@@ -5577,7 +5577,7 @@ repositories:
     source:
       type: git
       url: https://github.com/NOKOV-MOCAP/mocap_nokov.git
-      version: bee8d114871656493b34ba88e7ce9cab4e808957
+      version: c83a9b328e9781ad8b835c0769e000b7f0a25c31
     status: developed
   mocap_optitrack:
     doc:
@@ -5959,11 +5959,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.9.3-1
+      version: 2.9.4-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: b095eafb460ab4ee36fd0e7d6e067150b1c20f37
+      version: c8d5907179a56ea03ba9daaa5bdd889a0eac1f0c
     status: developed
   mrpt_msgs:
     doc:
@@ -6165,7 +6165,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_driver-release.git
-      version: 0.5.13-0
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_driver.git
@@ -7942,11 +7942,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/pyhri-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros4hri/pyhri.git
-      version: bd154f910471380783e94a8b2bbf27fadc37d6b5
+      version: 8126f5d77aec38893ebc6ca38438b72f5987d6ad
     status: developed
   pyquaternion:
     doc:
@@ -9151,6 +9151,12 @@ repositories:
       type: git
       url: https://github.com/inorbit-ai/ros_inorbit_samples.git
       version: de505478dce45d860c24342d0ae3323a9736f23c
+    status: maintained
+  ros_kortex:
+    source:
+      type: git
+      url: https://github.com/Kinovarobotics/ros_kortex.git
+      version: aab509cf53f57a35da792e918781a8035128c90e
     status: maintained
   ros_led:
     doc:
@@ -11253,7 +11259,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/tesseract-release.git
-      version: 0.18.0-1
+      version: 0.18.1-1
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
@@ -12064,7 +12070,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: e2a0196ebaf42032083d7dff068ede8a37eb1af4
+      version: 5da32ea8b84d1d505328bbeedc1eb58046325457
     status: maintained
   visp_ros:
     doc:
