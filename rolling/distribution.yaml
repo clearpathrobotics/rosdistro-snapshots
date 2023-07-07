@@ -1272,13 +1272,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.10.1-1
+      version: 2.11.0-1
     source:
       test_commits: true
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 2f09f011445b7127ac067b0507b49a25a40c0b6a
+      version: c2b2d4de0c18354e9ea85a5122a74bfbce1e3a2f
     status: maintained
   filters:
     doc:
@@ -1386,11 +1386,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.6.3-1
+      version: 0.6.4-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 5f96e84d5f1261e7759d70d6a5979e5a7019091c
+      version: e336bbc327ec62e18d666f2db248207979c06f57
     status: developed
   foxglove_msgs:
     doc:
@@ -1405,7 +1405,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: ccb80c3bb8a9010e777eca126a98475f6851a261
+      version: d874a82960226bfeab77fa5ea5e78800aa813825
     status: maintained
   fuse:
     doc:
@@ -1727,7 +1727,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 7703b7dca2afd43a5f919494939e4a4a5cfc9c25
+      version: 5dfaf4d0a4106d64a6ae7e9b4ba0adb843a6dfaa
     status: developed
   hash_library_vendor:
     doc:
@@ -3438,7 +3438,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/picknik_controllers.git
-      version: fd0c84238ae7914cb97a31925510c26daf91b921
+      version: 6f90ec37e55bf8756a458448e97f2bbac101cebd
     status: developed
   pinocchio:
     doc:
@@ -3932,7 +3932,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 43f8163b9d3421912c85b9a7d367996ff406a44e
+      version: a4633b83fa45eead06a43e83c7bce34224c70faf
     status: maintained
   rcl_interfaces:
     doc:
@@ -4750,7 +4750,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-      version: 96e959471669a79611aefea78eaae63b1b662262
+      version: bba8578cc33f1287d01a535bafc72ce2dd8d4a24
     status: maintained
   ros2_socketcan:
     doc:
@@ -4839,7 +4839,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 960962a142323c7a13c4ddef3a7e661d77905f93
+      version: ef5d8116a4899b069b0cb444b1fdf8e3b1b7b6d4
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -5040,7 +5040,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: b6f5b43feb43a6481f4f203ee14ad10f02c7a55d
+      version: 561eacd9f54fd21e47c67a1231510014d19ce95d
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6388,7 +6388,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: a026e1b86d93d16de6e989eba91b0f519a2ee489
+      version: 484970fbf68ba449106a5a50f6787148852460be
     status: developed
   tracetools_acceleration:
     doc:
@@ -7011,7 +7011,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 5da32ea8b84d1d505328bbeedc1eb58046325457
+      version: 3268ee0cced7d0e1f6a814beb9e4bcc64c36dbb8
     status: maintained
   vitis_common:
     doc:
@@ -7132,7 +7132,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 3f15289a404fba9700f61eb39a6d3123a6b53833
+      version: fdf31116c19835cd4ebe93910de04ed7aaa54497
     status: maintained
   xacro:
     doc:
