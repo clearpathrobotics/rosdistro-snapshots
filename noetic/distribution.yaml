@@ -433,7 +433,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 62321f2c4069c09fdb31b495dd13d04b42721931
+      version: 96c1c4c852c4d3c43aafb659cfc88fcde050a5fd
     status: maintained
   backward_ros:
     doc:
@@ -1608,7 +1608,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 490b459662e5954d019ede7e8868abecdb47a0ef
+      version: baa6b006ba274e6434b03ef26d8fb2e99a5d1905
     status: developed
   create_robot:
     doc:
@@ -2929,7 +2929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: a2b3a1410903d83eb4435095a0db58ecffb91fed
+      version: 0d712f927b75e60e38fb997615340830d2426897
     status: developed
   foxglove_msgs:
     doc:
@@ -3013,7 +3013,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: bb25c35b6cb40dbde157f99d81ddc4e5caaf5333
+      version: ed21f991e752d3ac3f08fc081795ff2eed09069b
     status: developed
   gazebo_ros_control_select_joints:
     release:
@@ -5959,7 +5959,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.9.4-1
+      version: 2.10.0-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -7333,7 +7333,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: b5d877786ee33da86f157e09a437aafb56179429
+      version: fc105531fda0f0e34bae7641e1560aadb4ad4f4e
     status: developed
   plotjuggler:
     doc:
@@ -8062,7 +8062,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbmove-ros.git
-      version: b3822a7228351c99fa2fc6b532c1b04ca2853ce7
+      version: ec6340d1174887bf62806253724be76953748851
     status: developed
   qpoases_vendor:
     doc:
@@ -8539,7 +8539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 51866890a938cf8f5081ab054ec8b1f79009d0fe
+      version: 9532d2a91b98ae226c1afbce9b02b9108f30f24e
     status: developed
     status_description: developed
   rm_controllers:
@@ -9270,6 +9270,25 @@ repositories:
       url: https://github.com/gt-rail-release/rosauth-release.git
       version: 1.0.1-1
     status: maintained
+  rosbag_fancy:
+    doc:
+      type: git
+      url: https://github.com/xqms/rosbag_fancy.git
+      version: master
+    release:
+      packages:
+      - rosbag_fancy
+      - rosbag_fancy_msgs
+      - rqt_rosbag_fancy
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/xqms/rosbag_fancy-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/xqms/rosbag_fancy.git
+      version: 2e28c0b6ffdfc026845f54ec8a1972a8f631e31f
+    status: developed
   rosbag_migration_rule:
     release:
       tags:
@@ -9466,12 +9485,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/xqms/rosfmt-release.git
-      version: 7.0.0-1
+      version: 8.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/xqms/rosfmt.git
-      version: b6597c2b294663419a5934cce2b8d0c19a2cf542
+      version: d39d897b47ed8c071f29186a529f55a83c9720ff
     status: maintained
   roslint:
     doc:
@@ -9542,12 +9561,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 2.4.0-1
+      version: 2.5.0-2
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/xqms/rosmon.git
-      version: 5e612638684f64a89783020791fe21c8a7c9134d
+      version: 0e349faedb8a1dd626a6205729076ca5e017b51a
     status: developed
   rosmsg_cpp:
     doc:
@@ -12070,7 +12089,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 3268ee0cced7d0e1f6a814beb9e4bcc64c36dbb8
+      version: 2e4f1a9b69229ac78c13ae8ab163611d38d40374
     status: maintained
   visp_ros:
     doc:

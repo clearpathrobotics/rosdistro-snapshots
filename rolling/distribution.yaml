@@ -250,7 +250,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: f10eecd28cdc05746c1f8c0f45984db6052cfd40
+      version: ab1fcc4d679ae8dcb2a3a6e1f8b73f3e1bf0025d
     status: developed
   ament_nodl:
     release:
@@ -1278,7 +1278,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: c2b2d4de0c18354e9ea85a5122a74bfbce1e3a2f
+      version: 7c1c611f2f70ec238fbde30a9ed044d99191e4fb
     status: maintained
   filters:
     doc:
@@ -1390,7 +1390,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: a2b3a1410903d83eb4435095a0db58ecffb91fed
+      version: 0d712f927b75e60e38fb997615340830d2426897
     status: developed
   foxglove_msgs:
     doc:
@@ -2773,7 +2773,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.9.4-1
+      version: 2.10.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3438,7 +3438,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/picknik_controllers.git
-      version: 6f90ec37e55bf8756a458448e97f2bbac101cebd
+      version: 2fd8a78e38f64a49dcb9be8ab623628ce036f652
     status: developed
   pinocchio:
     doc:
@@ -3453,7 +3453,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: b5d877786ee33da86f157e09a437aafb56179429
+      version: fc105531fda0f0e34bae7641e1560aadb4ad4f4e
     status: developed
   plotjuggler:
     doc:
@@ -3596,7 +3596,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 266cd6708f52a51222160304534d0fd3bd31258e
+      version: c9586f8c5d4bd3368e29138b869521943705d3db
     status: developed
   py_trees:
     doc:
@@ -4032,7 +4032,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: deebbc3ad693bb66a77da8bf4c3c8e9c7784c13c
+      version: 945d254e321381ecb618c680015ba2b38ce898eb
     status: maintained
   rclpy:
     doc:
@@ -4686,7 +4686,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.15.0-1
+      version: 3.16.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -4726,6 +4726,16 @@ repositories:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
       version: 76b1ce7da5e7a102ef3a1c8c4f1b0de90ed0d137
+    status: developed
+  ros2_kortex:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      version: 22572c7668d2afe602aacf102cec1d55fec8a0aa
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -4791,7 +4801,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 4f545019b5db0c452033f64d56035f73b64cd692
+      version: 0d9883c183244d4ac8f35e0e759b0642f5f91014
     status: developed
   ros2acceleration:
     doc:
@@ -5040,7 +5050,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 561eacd9f54fd21e47c67a1231510014d19ce95d
+      version: d788e518b3a93acb61226d993e3d3095913f16b1
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5183,7 +5193,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport.git
-      version: d3a9bfddc7f9d98588e0e470225f5080436aa3dc
+      version: 0ab482732076ca9418e2cd9c0bca7b650d395c37
     status: maintained
   rosidl_dynamic_typesupport_fastrtps:
     doc:
@@ -5793,7 +5803,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 439c683fefb128731146307a5b538d8d356ddcb3
+      version: 5af8896a30311e4b8171864391d3bc2d8b81b611
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6587,7 +6597,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/KumarRobotics/ublox.git
-      version: be4fb7bc81daec759944b72d0d8bea665f33cecb
+      version: 6fe76fd514d0e54987e6ab7bef1092a61abd7389
     status: maintained
   ublox_dgnss:
     doc:
@@ -7011,7 +7021,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 3268ee0cced7d0e1f6a814beb9e4bcc64c36dbb8
+      version: 2e4f1a9b69229ac78c13ae8ab163611d38d40374
     status: maintained
   vitis_common:
     doc:
@@ -7189,7 +7199,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 5a7811d10cf1ba3758c99a74c7ffec33ad255b52
+      version: d965724d540b017e4c1eb029519f33227f36d36f
     status: developed
   zmqpp_vendor:
     doc:
