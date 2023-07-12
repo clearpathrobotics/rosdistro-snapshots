@@ -1608,7 +1608,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: baa6b006ba274e6434b03ef26d8fb2e99a5d1905
+      version: 0b78891faffeb37a2b7a8367ef8ed693ffc43613
     status: developed
   create_robot:
     doc:
@@ -2929,7 +2929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 0d712f927b75e60e38fb997615340830d2426897
+      version: c3236d525c4ec9aa421a80c97b1ca8c2bc9146ab
     status: developed
   foxglove_msgs:
     doc:
@@ -3652,7 +3652,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: b334110d716e044f58445b915add76516b496a4a
+      version: 2f06ed03cd0c5730204ceddc94e567ea95fe54a6
     status: maintained
   hri_actions_msgs:
     release:
@@ -5963,7 +5963,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 1ea114bb5800b2b80d956e4d6e8f32dd1fe27338
+      version: d36b431b189d1981c8411de3f76f099ebd718280
     status: developed
   mrpt_msgs:
     doc:
@@ -8374,6 +8374,16 @@ repositories:
       url: https://github.com/roboception/rcdiscover.git
       version: 02e8f27f057ee03d430a65ca91489daedfe97656
     status: developed
+  reach:
+    source:
+      type: git
+      url: https://github.com/ros-industrial/reach.git
+      version: 4caa1ae1bb000ff6a9a775c7b1927195476650fe
+  reach_ros:
+    source:
+      type: git
+      url: https://github.com/ros-industrial/reach_ros.git
+      version: 246b2b003b56484426bf3ad3c74e2a697e088d40
   realsense2_camera:
     doc:
       type: git
@@ -8563,7 +8573,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: cd40d3d7f26a27ece2034c96318ff107d549426c
+      version: 52ecee75fccb416e84152cfac249e0dd398bb195
     status: developed
   rm_description:
     doc:
@@ -9283,11 +9293,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/xqms/rosbag_fancy-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/xqms/rosbag_fancy.git
-      version: 2e28c0b6ffdfc026845f54ec8a1972a8f631e31f
+      version: 4c7130f1a38d2098bcb21d7f706474f98301f4cb
     status: developed
   rosbag_migration_rule:
     release:
@@ -11282,7 +11292,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 346bd295fa66999cdfe0255cdc19a700626b4611
+      version: d4ccde38b9eb0cf81c5b678154e9da7f745f9885
     status: developed
   tf2_2d:
     release:
@@ -12089,7 +12099,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 2e4f1a9b69229ac78c13ae8ab163611d38d40374
+      version: fd9d88b63053eb983e30aaed59b6633433fff5c4
     status: maintained
   visp_ros:
     doc:
@@ -12152,7 +12162,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MoffKalast/vizanti.git
-      version: ad691dfc8725ee51dc35ed8d6ecf9af19b16989e
+      version: 79b2860535a490d10e6ae4a3a61ca22d55c7b66e
     status: maintained
   vl53l1x_ros:
     doc:
