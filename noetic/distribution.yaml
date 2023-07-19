@@ -1413,6 +1413,24 @@ repositories:
       url: https://github.com/ros/common_tutorials.git
       version: b3a86ff8a60efd678f942deab47efcadd52a5336
     status: maintained
+  compass:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/compass.git
+      version: master
+    release:
+      packages:
+      - compass_msgs
+      - magnetometer_compass
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/compass.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/compass.git
+      version: 90982923f7ff5370f4146acd4a978f8172864263
+    status: maintained
   computer_status_msgs:
     doc:
       type: git
@@ -1994,7 +2012,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo_simulator-release.git
-      version: 0.1.2-1
+      version: 0.1.2-2
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo_simulator.git
@@ -3474,7 +3492,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 016f77ba5534a40daaec045c83911d172f55a74b
+      version: b0a41d6b322d1b7229d7c32731ad5397af1a74d7
     status: developed
   haf_grasping:
     doc:
@@ -5963,7 +5981,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 3c8dc3864456642d46d37ad975b8bf8173c4d795
+      version: 40887477794d2998f4b63084d8b1f5ac06916811
     status: developed
   mrpt_msgs:
     doc:
@@ -9710,7 +9728,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Slamtec/rplidar_ros.git
-      version: 537ba8ada60695df7b18f35347edc4579debc43a
+      version: 0d9faf6f0eb885a648c9bfe18be8359d952a4c1f
     status: maintained
   rqt:
     doc:
@@ -10360,7 +10378,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 52591320452805bc7d4b0f28dcec54f47f3ddad9
+      version: 1c8327b9697e8241183236a9a32dd6b25a58453c
     status: developed
   rviz:
     doc:
@@ -12099,7 +12117,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 61019eed554f838d2eedbe4be3f57c0bfb9eb566
+      version: 77804bad7a58e755acafd214c6e753ca4062bb5b
     status: maintained
   visp_ros:
     doc:
