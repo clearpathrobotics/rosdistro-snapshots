@@ -433,7 +433,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 8882913cc31d7855a5953c560ad085bb4d02ac81
+      version: 5ce08e60ea295d600908da9190a895232ef11390
     status: maintained
   backward_ros:
     doc:
@@ -2855,18 +2855,13 @@ repositories:
     source:
       type: git
       url: https://github.com/flexbe/flexbe_behavior_engine.git
-      version: bb9fd93456f18d549b03cbfc6e0a8369abd4d1c7
+      version: e1eab6d00e3f739b12f8ef773478a00c9e8d5348
     status: developed
   flexbe_app:
-    release:
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/flexbe/flexbe_app-release.git
-      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/flexbe/flexbe_app.git
-      version: c56aa5402212e4550d15fda31690d77d4233b1e2
+      version: 0cc05c4d5bf7968799a88770a41b26c4106ed2d0
   flir_camera_driver:
     doc:
       type: git
@@ -3492,7 +3487,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: b0a41d6b322d1b7229d7c32731ad5397af1a74d7
+      version: 0f7bc5cf2d3dd81de7c34b9876c4df564134104f
     status: developed
   haf_grasping:
     doc:
@@ -4269,7 +4264,6 @@ repositories:
       - ff
       - ffha
       - gdrive_ros
-      - google_chat_ros
       - google_cloud_texttospeech
       - influxdb_store
       - jsk_3rdparty
@@ -4279,12 +4273,10 @@ repositories:
       - libsiftfast
       - lpg_planner
       - mini_maxwell
-      - nfc_ros
       - opt_camera
       - osqp
       - pgm_learner
       - respeaker_ros
-      - ros_google_cloud_language
       - ros_speech_recognition
       - rospatlite
       - rosping
@@ -4295,7 +4287,6 @@ repositories:
       - voice_text
       - webrtcvad_ros
       - zdepth
-      - zdepth_image_transport
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
@@ -4834,7 +4825,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot.git
-      version: 67bb186f7484a217242cd673441679fc027bc558
+      version: fb06fceaf7d011a0c9462aae73b0feb6bfb49c2d
     status: maintained
   leo_simulator:
     doc:
@@ -5754,13 +5745,6 @@ repositories:
       type: git
       url: https://github.com/ros-planning/moveit_calibration.git
       version: master
-    release:
-      packages:
-      - moveit_calibration_gui
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/JStech/moveit_calibration-release.git
-      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_calibration.git
@@ -9161,7 +9145,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/ros_industrial_cmake_boilerplate-release.git
-      version: 0.4.7-1
+      version: 0.4.8-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
@@ -9179,12 +9163,6 @@ repositories:
       type: git
       url: https://github.com/inorbit-ai/ros_inorbit_samples.git
       version: de505478dce45d860c24342d0ae3323a9736f23c
-    status: maintained
-  ros_kortex:
-    source:
-      type: git
-      url: https://github.com/Kinovarobotics/ros_kortex.git
-      version: 085b694280a77eb7be14ff2af86958ba18b633cf
     status: maintained
   ros_led:
     doc:
@@ -10378,7 +10356,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 1c8327b9697e8241183236a9a32dd6b25a58453c
+      version: 2737109c1cff60dbd7f01f84b174af0cc51db271
     status: developed
   rviz:
     doc:
@@ -12117,7 +12095,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 77804bad7a58e755acafd214c6e753ca4062bb5b
+      version: 190330393223f3efd92d823a41773be4f8476caf
     status: maintained
   visp_ros:
     doc:
