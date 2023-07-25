@@ -995,7 +995,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
-      version: daaa2c31d996171c3587ae1ec2f3c0299891e53d
+      version: e2afe8482ad2957c5965c61dcbeb7eeac4edbe42
     status: maintained
   cob_common:
     doc:
@@ -1086,7 +1086,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
-      version: 0901eb0a6f3c5dba6b82e1cc793bed8d6ad25eb0
+      version: 536b400c58cad212722c1d8f36e97f65faf288e5
     status: maintained
   cob_environments:
     doc:
@@ -3665,7 +3665,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 2f06ed03cd0c5730204ceddc94e567ea95fe54a6
+      version: a8e5f3377a5d4bf6f3ad3c3d187e329deb463c65
     status: maintained
   hri_actions_msgs:
     release:
@@ -4294,11 +4294,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.27-1
+      version: 2.1.28-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-      version: a48762085f40e8ed6d7a44cd5eba14419a87a389
+      version: 77c1dfb7d294bb402afa89be4c13e26d8f8fec78
     status: developed
   jsk_common:
     doc:
@@ -7421,6 +7421,21 @@ repositories:
       url: https://github.com/ros/pluginlib.git
       version: 5fb0f10d2d354aad5d245c806d61dfa8d3863e64
     status: maintained
+  point_cloud2_filters:
+    doc:
+      type: git
+      url: https://github.com/ADVRHumanoids/point_cloud2_filters.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ADVRHumanoids/point_cloud2_filters-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ADVRHumanoids/point_cloud2_filters.git
+      version: a97b8a9391728baa64516ca5b03b07d5014583c5
+    status: maintained
   point_cloud_color:
     doc:
       type: git
@@ -8679,7 +8694,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: bf02bfbe5065071a143ffebf0cdc4fc3c677b1eb
+      version: 9e89c0629b7c1f75a88d70afd3e92c799d25786d
     status: developed
   robot_navigation:
     doc:

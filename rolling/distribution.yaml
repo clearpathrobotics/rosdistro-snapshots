@@ -1195,6 +1195,16 @@ repositories:
       url: https://github.com/stack-of-tasks/eigenpy.git
       version: ce5465ca568672404d33722630b425b693896197
     status: maintained
+  event_camera_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_msgs.git
+      version: e5ae21b7308c4b771e3e218398f27f4f48c93a10
+    status: developed
   example_interfaces:
     doc:
       type: git
@@ -1508,15 +1518,16 @@ repositories:
       - generate_parameter_library
       - generate_parameter_library_example
       - generate_parameter_library_py
+      - generate_parameter_module_example
       - parameter_traits
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.3-1
+      version: 0.3.4-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 95cac43c24ace6df20af974a8609b9dc21c2b176
+      version: a8c15b091822f878df4df654f3c036a96c603397
     status: developed
   geographic_info:
     doc:
@@ -1738,7 +1749,6 @@ repositories:
       packages:
       - gz_ros2_control
       - gz_ros2_control_demos
-      - gz_ros2_control_tests
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
@@ -1816,7 +1826,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 2f06ed03cd0c5730204ceddc94e567ea95fe54a6
+      version: a8e5f3377a5d4bf6f3ad3c3d187e329deb463c65
     status: developed
   iceoryx:
     release:
@@ -2112,7 +2122,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 2cbfb6d8bd612d370e4d4a3c3b8251ead35f03ea
+      version: 1408f86938b03bcfb8b99cfd3e70cc2220d2e1a7
     status: developed
   kobuki_core:
     doc:
@@ -2541,6 +2551,16 @@ repositories:
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
       version: a639a5ae4ba67cc387c1db87349651d480dd9c52
     status: maintained
+  metavision_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/metavision_driver.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/metavision_driver.git
+      version: 2de1fb3533c8bf2ac0d31b77ceab400e7d50ad9d
+    status: developed
   micro_ros_diagnostics:
     doc:
       type: git
@@ -2677,7 +2697,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: b0f0f680c3f86b8074d208a1e78c92cfa75cf5ca
+      version: 6eebe6c47d8a1951efe6b5973d3b8017e47b652a
     status: developed
   moveit_msgs:
     doc:
@@ -3469,7 +3489,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/picknik_controllers.git
-      version: 6e44992b086c5d924e0df0e954b6bd8d8fec7967
+      version: 72e2f2c649e2e0c40b8185717607554fbf560aca
     status: developed
   pinocchio:
     doc:
@@ -4190,7 +4210,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: d339016c8b3770046e1f78029ec0cfacb5d8ec24
+      version: 1c05246e633c70a87eae018f9b0ed78cea1ad41e
     status: maintained
   resource_retriever:
     doc:
@@ -4545,7 +4565,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_cyclonedds.git
-      version: 34eee4d2a804a3716417c3e3673d006d39d5bf44
+      version: 6e09583e3ecd92a5be5af31913a931cf043dd670
     status: developed
   rmw_dds_common:
     doc:
@@ -4731,7 +4751,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 6cd8191550b59fcf940227583168dab9674adb13
+      version: 757ccd45b7a70d226e902e2dcbba0ff96f31ace2
     status: developed
   ros2_controllers:
     doc:
@@ -4766,13 +4786,25 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 6a4fb70283118ed3ca4818cae1591e15c7a7ced6
+      version: d63b47b3cb8dc7b5220a6c318682d0ac2ceab1a3
     status: developed
   ros2_kortex:
     doc:
       type: git
       url: https://github.com/PickNikRobotics/ros2_kortex.git
       version: main
+    release:
+      packages:
+      - kinova_gen3_6dof_robotiq_2f_85_moveit_config
+      - kinova_gen3_7dof_robotiq_2f_85_moveit_config
+      - kortex_api
+      - kortex_bringup
+      - kortex_description
+      - kortex_driver
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_kortex-release.git
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_kortex.git
@@ -5856,7 +5888,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 9599dd488d543671121c40df9aec5533064e86fb
+      version: 071adba7fca13da7f6ba77c26e2d9cf989308ca2
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6026,7 +6058,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/soccer_interfaces.git
-      version: d2512e1b3f7ce5cf243b26e558ca1c7693c871ee
+      version: 8c1ee2888e004fe095436b96b448142c2b4db837
     status: developed
   soccer_object_msgs:
     doc:
@@ -6781,7 +6813,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 79bfddc7ac4cd3a69594da26ce6ae8b8024eae73
+      version: d7e0d6d95788298a9d59a5f3b287c946c0edefde
     status: developed
   urdf:
     doc:
