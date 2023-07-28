@@ -956,7 +956,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: c8941bb72bef2309dee04a63c55f5b4437329632
+      version: f67c4b2a2f295575cf4d7350f46024bb391dec9a
     status: maintained
   dolly:
     doc:
@@ -1288,7 +1288,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: d96451aeaca760d872c859f636a0e63d039b08f9
+      version: c3b4de31ab7ef0a76c7460493bb6571c645e26a9
     status: maintained
   filters:
     doc:
@@ -1738,7 +1738,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: ba42f4eef1d3f239d3fc30c4d1a32eae87c13e1d
+      version: 19c3939766bb2fa43338ebfd4b24b89ff16d87af
     status: developed
   gz_ros2_control:
     doc:
@@ -1915,7 +1915,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 4.3.0-1
+      version: 4.3.0-2
     source:
       test_pull_requests: true
       type: git
@@ -2034,7 +2034,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/joint_state_publisher.git
-      version: 424fd9e1955fddf38f1b3e1721baf9f6e9322d6b
+      version: 47a47d6894727f56af36e62612db7680dab3d726
     status: maintained
   joy_tester:
     doc:
@@ -2608,7 +2608,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 3.0.1-2
+      version: 3.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2697,7 +2697,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: cdf7a98689b1400c343417a7f7d35089287a0dfd
+      version: 830ceda79b8f67c2224eb9ea8eb37f4aa0fe2596
     status: developed
   moveit_msgs:
     doc:
@@ -2712,7 +2712,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
-      version: 1b3f4fd49a6847621bc1d7d81c1adfa5cdce4c90
+      version: 313bd6a6447cb03cb47594cee55e0292c69c58f0
     status: developed
   moveit_resources:
     doc:
@@ -2878,7 +2878,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 221820ca14d31583f08b3b91e6a603e6eb83f8f1
+      version: 13a2dac6cc7afde424b38cfcd7a1445e765f4536
     status: developed
   nao_button_sim:
     doc:
@@ -3229,7 +3229,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: c990db17e97d5d3ef08710f28456dc4835201c8f
+      version: e07df4ea928515a5bb16a3bad169e093a5bf54f0
     status: maintained
   opensw:
     doc:
@@ -4360,7 +4360,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: dc740df43cf34ac46730369eb528f38172798cb4
+      version: 4a85f27f412bfcf203fa21ca7b332d798e1d63a5
     status: developed
   rmf_simulation:
     doc:
@@ -4786,7 +4786,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: a572381bb4364beca50136c9a5b7c5639b2d396f
+      version: 76c22ffce19c7b2535bc465e21c8fa0620b0f0a6
     status: developed
   ros2_kortex:
     doc:
@@ -4804,7 +4804,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_kortex-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_kortex.git
@@ -5888,7 +5888,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 092e3efef2f907549976ffd101e5ad8100cbea3f
+      version: 657b9ea9f405b90e8cfc0a4f55727207c8433622
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -5987,7 +5987,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 762e2a668c35c4f1fbb70253dbf8cde1a94e64e1
+      version: c99372e7e23af79f382772f83db7e731f3b3d914
     status: maintained
   slider_publisher:
     doc:
@@ -6776,7 +6776,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: aedef36301d9da446d0e255a2c2d6dc9c743378f
+      version: 54039d40d3384f8334dffd6c8baa8e9c2e3e160f
     status: developed
   ur_msgs:
     doc:
@@ -6813,7 +6813,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: d7e0d6d95788298a9d59a5f3b287c946c0edefde
+      version: 81da8e78c7a199e673c8c96ee329e8ce5bc34890
     status: developed
   urdf:
     doc:
@@ -7106,7 +7106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 5f0f40ac40f81a164cfc96d06d01f58ef7ecceb8
+      version: 67946984126d35b2d27e0f7275f9ceacfb3b1d90
     status: maintained
   vitis_common:
     doc:
