@@ -1200,6 +1200,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_msgs-release.git
+      version: 1.1.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
@@ -1288,7 +1293,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 7cf43a62cabc3124721258f02c9257f451dd1971
+      version: 9ae27f174c1a33bf539c589ce2f1d6630052d1b0
     status: maintained
   filters:
     doc:
@@ -1321,6 +1326,16 @@ repositories:
       url: https://github.com/introlab/find-object.git
       version: 635efcd6220cabc258b88c54b1ae4279035bbe31
     status: maintained
+  flexbe_behavior_engine:
+    doc:
+      type: git
+      url: https://github.com/flexbe/flexbe_behavior_engine.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/flexbe/flexbe_behavior_engine.git
+      version: e5c8977cdf25e9adecf00aad5c2cf6f057a098d3
+    status: developed
   fluent_rviz:
     doc:
       type: git
@@ -1523,7 +1538,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.4-1
+      version: 0.3.6-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -1738,7 +1753,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 621ef2e7c560e6fb06b463769d9cf7bc6f626308
+      version: eb0460a5dca68f6b035b274a12523f538ca01fea
     status: developed
   gz_ros2_control:
     doc:
@@ -2203,7 +2218,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.0.6-3
+      version: 2.0.7-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -2559,7 +2574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: 16462f4daf1876a94f6934584e17b698baa543a9
+      version: ee7f5a6896e07c75e54fb8a11abf4bc7000436a2
     status: developed
   micro_ros_diagnostics:
     doc:
@@ -2628,7 +2643,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/mimick_vendor.git
-      version: 6fcd465251c1e62b1dddabf6607712da8a141a2c
+      version: 24f0be689e525dbcf18cce910ac12bae26c07e3c
     status: maintained
   mir_robot:
     doc:
@@ -2911,7 +2926,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ijnek/nao_interfaces.git
-      version: 5324a93ed89ef04f0450d6f3cc388071fef86fae
+      version: a8e4d293b732eeaa14d124c2fc772535815481c6
     status: developed
   nao_lola:
     doc:
@@ -2926,7 +2941,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: cd40bf37019a3081c05d026ce8fa652d9b28f301
+      version: 0d5adac99c08217e8c0959061d321e9d45c92bfc
     status: developed
   navigation_msgs:
     doc:
@@ -4099,7 +4114,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 913afa019b0d60e7255bd84247dbeab4735d96ea
+      version: 5367703c9812680a563fb904b8c9d187da310bd3
     status: maintained
   rcpputils:
     doc:
@@ -4547,7 +4562,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: 1206113b6eff6d2a6557911866548ff4415c6852
+      version: b57d032cad10a68f0cb0d349a715b9e3c4475cf4
     status: developed
   rmw_cyclonedds:
     doc:
@@ -4786,12 +4801,12 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: cc4c221a680294ffefc7fb061a1d25341823226a
+      version: 5c0327d4e72b164aaa4a365a40d7a3fa913c0f97
     status: developed
   ros2_kortex:
     doc:
       type: git
-      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      url: https://github.com/Kinovarobotics/ros2_kortex.git
       version: main
     release:
       packages:
@@ -4807,7 +4822,7 @@ repositories:
       version: 0.2.1-1
     source:
       type: git
-      url: https://github.com/PickNikRobotics/ros2_kortex.git
+      url: https://github.com/Kinovarobotics/ros2_kortex.git
       version: 97d94d032dfbffa979b38bd1486394dfe7dad2bf
     status: developed
   ros2_ouster_drivers:
@@ -5135,7 +5150,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: ba199d05954d6e51975c47acd3725cac6267778f
+      version: fda5aea264b4183d94352a7c7caf266ae104aa52
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -7284,7 +7299,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 88d6fb53f0c53454bee631dd53108746d14ed49f
+      version: c9ab6e1ab7706e813a0f0d4c1d1c3b56cc680866
     status: developed
   zmqpp_vendor:
     doc:

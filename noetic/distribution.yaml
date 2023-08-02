@@ -1994,7 +1994,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/dingo_desktop-release.git
-      version: 0.1.2-1
+      version: 0.1.2-2
     source:
       type: git
       url: https://github.com/dingo-cpr/dingo_desktop.git
@@ -3487,7 +3487,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 621ef2e7c560e6fb06b463769d9cf7bc6f626308
+      version: eb0460a5dca68f6b035b274a12523f538ca01fea
     status: developed
   haf_grasping:
     doc:
@@ -5736,7 +5736,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.13-1
+      version: 1.1.13-2
     source:
       test_commits: false
       test_pull_requests: false
@@ -6061,11 +6061,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_slam-release.git
-      version: 0.1.14-1
+      version: 0.1.15-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
-      version: 0486f2341e930985698673c24ce8a9b7679717f3
+      version: af8f28c865db0207d5b08408af43da20446d220a
     status: developed
   mrt_cmake_modules:
     doc:
@@ -6351,7 +6351,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.14.1-1
+      version: 0.14.2-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -12198,7 +12198,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MoffKalast/vizanti.git
-      version: a1cf51f874b84677e327204899bf47f51692d84c
+      version: 7fb84d9a126250abff22c99cda19c85a1f06c9d1
     status: maintained
   vl53l1x_ros:
     doc:
