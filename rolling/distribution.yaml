@@ -1208,7 +1208,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: 8bbcd33577a67d6dd30a433521a67919297a033f
+      version: 4a181e2090c59c124b33f71faed903885f7e16d6
     status: developed
   example_interfaces:
     doc:
@@ -1293,7 +1293,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 9ae27f174c1a33bf539c589ce2f1d6630052d1b0
+      version: 25631e635c8db0fde429d5a624839b1773096b67
     status: maintained
   filters:
     doc:
@@ -1753,7 +1753,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: eb0460a5dca68f6b035b274a12523f538ca01fea
+      version: e36590aa456f968ae5314765eacadadb5d267d87
     status: developed
   gz_ros2_control:
     doc:
@@ -2574,7 +2574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: ee7f5a6896e07c75e54fb8a11abf4bc7000436a2
+      version: 128c2ab0a2fd15c2e6ea1bf6815fb694b82e8f36
     status: developed
   micro_ros_diagnostics:
     doc:
@@ -2712,7 +2712,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 83892d6a7cb2f84485ebd96d41adb3acd8c44bee
+      version: f9f180471de5f49cb533eb0c685867e692749797
     status: developed
   moveit_msgs:
     doc:
@@ -2908,7 +2908,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ijnek/nao_button_sim.git
-      version: a9ec47ad043e9e118e23ef8d52fb19d11e1ecc61
+      version: 4b756cdce19259fc8d386400c2c92fc7fb8acded
     status: developed
   nao_interfaces:
     doc:
@@ -2922,7 +2922,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nao_interfaces-release.git
-      version: 0.0.4-3
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ijnek/nao_interfaces.git
@@ -2934,14 +2934,20 @@ repositories:
       url: https://github.com/ros-sports/nao_lola.git
       version: rolling
     release:
+      packages:
+      - nao_lola
+      - nao_lola_client
+      - nao_lola_command_msgs
+      - nao_lola_conversion
+      - nao_lola_sensor_msgs
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nao_lola-release.git
-      version: 0.3.1-1
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: 0d5adac99c08217e8c0959061d321e9d45c92bfc
+      version: 76a6181b1e1e4c62fbc391ac7e6a437702ffa82b
     status: developed
   navigation_msgs:
     doc:
@@ -3662,7 +3668,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: a4ee49429a25774a1200b3c63d6b019541c8acac
+      version: 24e9b4c7b346248cc8d0126545c5a4b724306d80
     status: developed
   py_trees:
     doc:
@@ -4098,7 +4104,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 22a954e1b00ea2ba810666baa92a3c66fe1a8654
+      version: 5d6e5fa766b9ec1237a698b1eefa2733bcdeb506
     status: maintained
   rclpy:
     doc:
@@ -4165,7 +4171,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_nao.git
-      version: e69ec4c49d917edafc258c2d5fbdd7b11fb34430
+      version: a0913ac1f7c44f08f6f183ca5879b1ba081ff2bb
     status: developed
   rcutils:
     doc:
@@ -4766,7 +4772,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 757ccd45b7a70d226e902e2dcbba0ff96f31ace2
+      version: a53b2e064d0c76e4b8384603e8228f8f5dd9c950
     status: developed
   ros2_controllers:
     doc:
@@ -4801,7 +4807,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 5c0327d4e72b164aaa4a365a40d7a3fa913c0f97
+      version: c37dfe63ec2f8929a14e185784c8e39417df5284
     status: developed
   ros2_kortex:
     doc:
@@ -4823,7 +4829,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 97d94d032dfbffa979b38bd1486394dfe7dad2bf
+      version: 62a602f3b9a67b1e79a2d83830c8db109739c8e7
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -6352,7 +6358,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/teleop_twist_keyboard.git
-      version: 17ef2898f2c9fc7456058065f9e5517d4796536d
+      version: 56a72ff47aa8e3a88fb19ff6f2464807e986a9a1
     status: maintained
   tensorrt_cmake_module:
     doc:
@@ -6446,7 +6452,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/tinyxml2_vendor.git
-      version: e27f5a8f172ad9debed4b8c9956d0bb77b779de5
+      version: f12be91de54481ba1a4c0a253cc9a53e1f0ecf35
     status: maintained
   tinyxml_vendor:
     release:
@@ -6791,7 +6797,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: d647cf0013c405917aa46ec700fa3758e153cfbd
+      version: 09824b268770e6b48006a5654f286675acfddd37
     status: developed
   ur_msgs:
     doc:
