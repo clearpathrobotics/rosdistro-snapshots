@@ -134,7 +134,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: b11f8312796a0437328c7566dd4112ea6bbb6de2
+      version: c0bd2912c50d743fdda9e37ce3b481fc1efa8ca0
     status: developed
   ament_cmake_catch2:
     doc:
@@ -717,7 +717,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MetroRobots/classic_bags.git
-      version: 5cdfc3fb2134fdcf82397b33386aa8854e5e900f
+      version: 2870637acf30dac05abc3be04a2aaefa6462b6f1
     status: developed
   color_names:
     doc:
@@ -1204,11 +1204,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_msgs-release.git
-      version: 1.1.2-1
+      version: 1.1.4-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: 4a181e2090c59c124b33f71faed903885f7e16d6
+      version: d6c5b701e2ca113afeef342d35919cf01a77c496
     status: developed
   example_interfaces:
     doc:
@@ -1293,7 +1293,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 25631e635c8db0fde429d5a624839b1773096b67
+      version: f7d77cfb29bf79ad08022e67d5eb4cb58a1d71dd
     status: maintained
   filters:
     doc:
@@ -1430,7 +1430,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: bded79a16092f0e1e7d015e897fc77f74765991d
+      version: e243feefe6a65ec14f0caaa396eeea9299add253
     status: maintained
   fuse:
     doc:
@@ -2277,7 +2277,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 55ce4d8f543335c845fb1d638763f8bfcc169413
+      version: 3bc47a5a6c99490a3a0ba5cbdf1342eb77f0ec39
     status: developed
   launch_param_builder:
     doc:
@@ -2312,7 +2312,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: cacfc473baa94798feeef85bc35ed9baf7adffea
+      version: fc543f4cbaf3f25800478606984819ef7a84c979
     status: maintained
   lgsvl_msgs:
     release:
@@ -2571,10 +2571,15 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/metavision_driver-release.git
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: 128c2ab0a2fd15c2e6ea1bf6815fb694b82e8f36
+      version: df5cf0b6c7447436b1ab0cd232ad2b41681a2bc1
     status: developed
   micro_ros_diagnostics:
     doc:
@@ -2712,7 +2717,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: f9f180471de5f49cb533eb0c685867e692749797
+      version: 548f5fe3e2f3f83b6de97a7a0abba23ffbca0438
     status: developed
   moveit_msgs:
     doc:
@@ -2904,7 +2909,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nao_button_sim-release.git
-      version: 0.1.1-4
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ijnek/nao_button_sim.git
@@ -2943,7 +2948,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nao_lola-release.git
-      version: 1.0.0-1
+      version: 1.1.0-2
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
@@ -4004,7 +4009,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 960bb4ad353a43abfde5ecb831bd87823454bfc0
+      version: d7a51b59928138235f262abf8c1fc007ef0a983a
     status: maintained
   rcl_interfaces:
     doc:
@@ -4104,7 +4109,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 5d6e5fa766b9ec1237a698b1eefa2733bcdeb506
+      version: ea29c142af320bff06f957ec9172caf3a4aff41a
     status: maintained
   rclpy:
     doc:
@@ -4120,7 +4125,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 5367703c9812680a563fb904b8c9d187da310bd3
+      version: 540b809b1b4d6fc064cfd392834123f713593be4
     status: maintained
   rcpputils:
     doc:
@@ -4167,7 +4172,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcss3d_nao-release.git
-      version: 0.1.1-2
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rcss3d_nao.git
@@ -4568,7 +4573,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: b57d032cad10a68f0cb0d349a715b9e3c4475cf4
+      version: 721dd882b996ec0aa24f34f772011f3ff332546e
     status: developed
   rmw_cyclonedds:
     doc:
@@ -4955,7 +4960,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 5dc0dda39f046acc693a33e2f5a8a26781caaa01
+      version: 351ef3c7442f49013d84084dea23fe399517690f
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6797,7 +6802,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 09824b268770e6b48006a5654f286675acfddd37
+      version: d795748fdcc88377acd49e2eb761a9ff23de4786
     status: developed
   ur_msgs:
     doc:
