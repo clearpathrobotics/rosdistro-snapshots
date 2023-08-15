@@ -500,11 +500,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.8.4-1
+      version: 3.8.5-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 8c204c5163ff0989b302aee5bc22ed7322a11ea4
+      version: 2fb11758ea4b1ab1f9501fe1032e7c28684fe3f6
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -517,11 +517,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.2.1-1
+      version: 4.3.5-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 790fea0560dc3ff6c754339bbbdfdabb9db968a1
+      version: 78bdb97b122d685d0b3b8c89bffa402f97998748
     status: developed
   bond_core:
     doc:
@@ -2942,7 +2942,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: d78de15b5f1248513dee2ff3566e81e6eac943d0
+      version: 52699808103339155214f0c948b5044629d1e56e
     status: developed
   foxglove_msgs:
     doc:
@@ -5153,7 +5153,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 4904822db8770d04444add00a9e155568d3e8bd1
+      version: 40e12d62295baabe3410bf55528fd5ca1ee987cf
     status: maintained
   mapviz:
     doc:
@@ -6134,11 +6134,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: d21c80dc586b209efcf4e20465a7f3d919dba926
+      version: b279ce07db3ee5d6bf8eee261458faba381f7380
     status: developed
   nao_meshes:
     release:
@@ -11051,7 +11051,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer.git
-      version: 1482651a06b912f08c403ef5699fdb0d1943bec0
+      version: 5e06daf8983f3b0363cddec4a103d320da3b9d9a
     status: maintained
   sr_hand_detector:
     doc:
