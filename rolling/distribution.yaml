@@ -904,7 +904,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: fe899f265dfa42d6303ef81487e4dfe8b9e203c1
+      version: 1be07de395e4ddf969db2b90328cdf4fb73e9a64
     status: maintained
   demos:
     doc:
@@ -942,7 +942,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 02dcd2b623b3a9faf88a5bad8dbc11f11d81b149
+      version: 7a10670493bbd0df92b07d0602ee07bb29f80aa7
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1087,6 +1087,15 @@ repositories:
       version: 07c6a66b75ec57c6c60a946859d976d1184ebc5f
     status: maintained
   ecal:
+    doc:
+      type: git
+      url: https://github.com/eclipse-ecal/ecal.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ecal-release.git
+      version: 5.12.0-1
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
@@ -1225,6 +1234,16 @@ repositories:
       url: https://github.com/stack-of-tasks/eigenpy.git
       version: df207c6db9c597bc37dd467f9642199cc81df93c
     status: maintained
+  event_camera_codecs:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_codecs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_codecs.git
+      version: afd44ed93d30b9adab2473385dbcb5dfbd3bc0f5
+    status: developed
   event_camera_msgs:
     doc:
       type: git
@@ -1239,6 +1258,26 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
       version: 9f5f93d4d6e47e53491f2bd3fe373bc4fc966d27
+    status: developed
+  event_camera_py:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_py.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_py.git
+      version: db4a6078fb2f34086442d20c9a88485ec4a766d7
+    status: developed
+  event_camera_renderer:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_renderer.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_renderer.git
+      version: 7f9691f965097622445863e70a4b375017bbf60c
     status: developed
   example_interfaces:
     doc:
@@ -1460,7 +1499,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: e243feefe6a65ec14f0caaa396eeea9299add253
+      version: 63f59f595ff96c0524209febd2401dde5b35ec42
     status: maintained
   fuse:
     doc:
@@ -1965,7 +2004,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 17711d443cc0e38cf42555d01aae79258aa569b7
+      version: 0d46b4708df18b8e305fadb4ff7d22f44beca31e
     status: maintained
   image_pipeline:
     doc:
@@ -2343,7 +2382,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: c7d46f15ad8e73fe97091d21baac7f6f802d6b85
+      version: 760e2193288af5c4e5948725bf0def1e18fe8b80
     status: maintained
   lgsvl_msgs:
     release:
@@ -2461,6 +2500,27 @@ repositories:
       url: https://github.com/Neargye/magic_enum.git
       version: 745bf36a64962aa113bd04fb9d2d377e7878d2ef
     status: maintained
+  mapviz:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: ros2-devel
+    release:
+      packages:
+      - mapviz
+      - mapviz_interfaces
+      - mapviz_plugins
+      - multires_image
+      - tile_map
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mapviz-release.git
+      version: 2.3.0-1
+    source:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: 12ad1eb7e58f33d7f0b8e99824e35793ae7f1d5c
+    status: developed
   marti_common:
     doc:
       type: git
@@ -2698,10 +2758,19 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola.git
       version: develop
+    release:
+      packages:
+      - mola_common
+      - mola_yaml
+      - mp2p_icp
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mola-release.git
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: bd390751d8b91398ee5d7551cf4b089a205aae76
+      version: 5c2405b7b001ca8124ff83911903b5ee73f863e9
     status: developed
   moveit:
     doc:
@@ -2925,7 +2994,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 641b0546ada1b9e65c8ea90084066d379bc4667d
+      version: bfd75f9093c03d90f8ac4c53748b67aeb007783a
     status: developed
   nao_button_sim:
     doc:
@@ -3557,7 +3626,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 6a8a40c1f54003dafb1cbe2fd0b430a2d5115e2b
+      version: b9097292c7aa1701243b73a87a8093033920d2a3
     status: developed
   plotjuggler:
     doc:
@@ -4036,7 +4105,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 7fb6da39f0d332e3ab0c20ed86c996301d7c4a92
+      version: 41b83c8ebfe8344a80c0093083b7abdfded79337
     status: maintained
   rcl_interfaces:
     doc:
@@ -4136,7 +4205,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: e7f06398dbcc5ef59362f416535f9e7acb0899ff
+      version: fd58bddb05ee430f7124f5feff0add683db6f86f
     status: maintained
   rclpy:
     doc:
@@ -4152,7 +4221,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 93fd1075e061fee469b3be62f752c7e02081f87a
+      version: 159ced49bb904511154d9f6e595b64e1f5c0d8c0
     status: maintained
   rcpputils:
     doc:
@@ -4364,7 +4433,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 3a6fc906a11774d0809175929102ddc54c445f8f
+      version: 184a0172e27142b27173f4ad60c6a28530b837d8
     status: developed
   rmf_internal_msgs:
     doc:
@@ -4409,11 +4478,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.3.1-1
+      version: 2.3.2-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 5332812b48e1e93d77a8cf883b331b81d31e9137
+      version: 18985da899f0273180af8a17f8406a53d5b4a6da
     status: developed
   rmf_simulation:
     doc:
@@ -4543,11 +4612,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
-      version: 4ef9549472a2dfef0eed6581644700d3aa859e4a
+      version: eb7d8f385038006bec1da72a0e6da40b4e1cc6a5
     status: developed
   rmf_visualization_msgs:
     doc:
@@ -5137,7 +5206,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: 4d4dc6aa869d1a2c892ad5c514f20c5d64bed96d
+      version: fd5386a0468590931cd6a3629778c2095c3fa5b7
     status: maintained
   ros_workspace:
     release:
@@ -5188,7 +5257,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 6753ef3e4d97bb18603e898a758e2880c896e2ac
+      version: a48001a33cf87bb812e9cc246e2a5da5283f0ed5
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5331,7 +5400,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport.git
-      version: 78256691ef87d7f62f9bb34b706cea164be95865
+      version: 88e2d7dd2e357283ffbaf3184786281bbca4af4b
     status: maintained
   rosidl_dynamic_typesupport_fastrtps:
     doc:
@@ -5706,7 +5775,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_reconfigure.git
-      version: b0db3fd1e680ce06a18ef731d242ef64f03f2bbc
+      version: 0d8fd9a77ea6dd3a2fb73eceec9df6b513075e1d
     status: maintained
   rqt_robot_dashboard:
     doc:
@@ -6814,7 +6883,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 5b06798f1f741c095d5b11b22acc324aa771f07f
+      version: f328157d681886d304c5213d2c69ca401a0a3372
     status: developed
   ur_description:
     doc:
@@ -6825,11 +6894,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.1.0-2
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: d088205df5a52d391afbd902398a374d06ef3391
+      version: 379beee39e9d7a370be8097402cdaeeb022db02e
     status: developed
   ur_msgs:
     doc:
@@ -6862,11 +6931,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.3.2-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: e2b22b15ca627cfb375c3d58e585e1d3dee5f484
+      version: b287d95686b230631f5078dfa5fa3a6036c5cbc5
     status: developed
   urdf:
     doc:
@@ -6951,7 +7020,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: b5fffec979cabb9563f6f0ad3aebd92bdc978bae
+      version: 6d3c5de088359523857befbe730dbdd5543e35ba
     status: maintained
   urdfdom_headers:
     doc:
