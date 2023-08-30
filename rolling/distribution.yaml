@@ -643,6 +643,11 @@ repositories:
       url: https://github.com/OUXT-Polaris/boost_geometry_util.git
       version: 2cdbf1d9fd26dbec0369c5d4a5896d62e0d12ed9
     status: developed
+  boost_plugin_loader:
+    source:
+      type: git
+      url: https://github.com/tesseract-robotics/boost_plugin_loader.git
+      version: d009f2bdbae2dd94c1ae32116ee1dbf1e98fb1a6
   cartographer:
     doc:
       type: git
@@ -1242,7 +1247,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: afd44ed93d30b9adab2473385dbcb5dfbd3bc0f5
+      version: 035ea5dbc59ab6728649f2205c27cb5ca2caa09b
     status: developed
   event_camera_msgs:
     doc:
@@ -2382,7 +2387,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 760e2193288af5c4e5948725bf0def1e18fe8b80
+      version: 75952a88ed9f719cee51500d3c64846ba1519588
     status: maintained
   lgsvl_msgs:
     release:
@@ -2610,7 +2615,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 3e1adc7ec10c8b7dd819b90e259d5cd521c46228
+      version: ed2d6e0418cc7e6530648fc538d67ae261080ca8
     status: developed
   menge_vendor:
     doc:
@@ -2994,7 +2999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: bfd75f9093c03d90f8ac4c53748b67aeb007783a
+      version: 02a6112a4a262265ad2b2c61b70733475daa0b4f
     status: developed
   nao_button_sim:
     doc:
@@ -3641,7 +3646,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 078d2e8a8e0236749c89bfe75422f5417630b7cb
+      version: bf027a75e0c48f7c7d8fecad16a0f507528cb122
     status: developed
   plotjuggler_msgs:
     doc:
@@ -4205,7 +4210,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: fd58bddb05ee430f7124f5feff0add683db6f86f
+      version: 43cf0be15c9c284fc0b434a111e8237523b3d397
     status: maintained
   rclpy:
     doc:
@@ -4221,7 +4226,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 159ced49bb904511154d9f6e595b64e1f5c0d8c0
+      version: 251305efd8b3987548bc7a2b4d21f75a23a68f99
     status: maintained
   rcpputils:
     doc:
@@ -4288,7 +4293,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 025f78fa7c03666b5fa1057af00a32ed8bbd64a0
+      version: ae82f7ea5f8797b145683a61e6142a02a63b53a4
     status: maintained
   reach:
     source:
@@ -4363,7 +4368,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/teamspatzenhirn/rig_reconfigure.git
-      version: 3479cded0fd3dfb7dcd78f51927b021486748b3b
+      version: 4d310a4c8475d32cc93ea7201317d486c06ee63b
     status: developed
   rmf_api_msgs:
     doc:
@@ -5400,7 +5405,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport.git
-      version: 88e2d7dd2e357283ffbaf3184786281bbca4af4b
+      version: 917e7646e4ff22f9c61d220f4fbc43bfe7bb2322
     status: maintained
   rosidl_dynamic_typesupport_fastrtps:
     doc:
@@ -6883,7 +6888,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f328157d681886d304c5213d2c69ca401a0a3372
+      version: 647676d83ccf283d6702b8b0f78608aec4be0b3d
     status: developed
   ur_description:
     doc:
@@ -7004,7 +7009,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_tutorial.git
-      version: d19800467bd64aecce668fc293fda654a5b898d5
+      version: 9d2907d2f0390b81c56bb799b1b826ecacabac4c
     status: maintained
   urdfdom:
     doc:
