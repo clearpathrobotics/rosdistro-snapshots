@@ -517,11 +517,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.3.5-1
+      version: 4.3.6-2
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: a0b24abb32ba003ad297c3e1597780881ada2ea3
+      version: 069554637be400ac6d8126f976a74f78d3b1f2d0
     status: developed
   bond_core:
     doc:
@@ -1606,6 +1606,21 @@ repositories:
       type: git
       url: https://github.com/ctu-vras/cras_msgs.git
       version: 1488f5340e519fb2cd02d4158e3d103e43ce3772
+    status: developed
+  cras_relative_positional_controller:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/cras_relative_positional_controller.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/cras_relative_positional_controller.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/cras_relative_positional_controller.git
+      version: 0dd6d7abc6ea428ceb043b157bc2fd5088a0aa1b
     status: developed
   cras_ros_utils:
     doc:
@@ -3028,6 +3043,21 @@ repositories:
       url: https://github.com/locusrobotics/fuse.git
       version: 602d436ddb4a99cdc20a29d8c50d234c8cef6adf
     status: developed
+  gazebo_custom_sensor_preloader:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/gazebo_custom_sensor_preloader.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/gazebo_custom_sensor_preloader
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/gazebo_custom_sensor_preloader.git
+      version: c80331e16b863ea9f9463fcf4a519c5073b073cc
+    status: maintained
   gazebo_ros_control_select_joints:
     release:
       tags:
@@ -3487,7 +3517,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: f7a6312345b2c712e12a7e55f35b68b6814346a6
+      version: 98d1ceedc64eec97e2e6eabd8e100a56adfa2c28
     status: developed
   haf_grasping:
     doc:
@@ -6134,11 +6164,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 8a7a3a39bc3f563f84c11952582acb106478a753
+      version: 32f143a412eba51df962df508fa37df6c788334d
     status: developed
   nao_meshes:
     release:
@@ -6351,7 +6381,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.14.2-1
+      version: 0.15.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -6934,7 +6964,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/lp-research/openzen_sensor-release.git
-      version: 1.2.0-1
+      version: 1.3.2-1
     source:
       type: git
       url: https://bitbucket.org/lpresearch/openzenros.git
@@ -9211,7 +9241,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
-      version: a65c6e0c4e08f959902b505e6ad0597c2bfdbe78
+      version: d44aeed6529c2ff9fbd27b6f3e26242eadda2da9
     status: developed
   ros_inorbit_samples:
     release:
@@ -11779,7 +11809,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: cb9c7f323bc31385235393e303bd1f71386aa9e2
+      version: cd0d4268ca0d9f5d75dcc18124936bbc44ec2d77
     status: developed
   ur_msgs:
     doc:
@@ -12157,7 +12187,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 138939fb5db0aac3de9d1ade1e72aa4eab982cd7
+      version: 3f74e10c85478ecc33cb3b184d4488a066055aa8
     status: maintained
   visp_ros:
     doc:
@@ -12600,7 +12630,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/xsens_mti_driver.git
-      version: 189df663971cb6df6b57986a377a3c6e0a7fb949
+      version: 701d82432780b5d7f1f0209463c62eb65c3da4ce
     status: maintained
   xv_11_laser_driver:
     doc:

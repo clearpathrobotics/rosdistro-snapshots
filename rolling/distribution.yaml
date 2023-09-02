@@ -134,7 +134,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 92afd90c3c97ce67e4608f387c07327a986edc22
+      version: 65b1754af10bb1f8d23f33d68ef6f41c0bce5376
     status: developed
   ament_cmake_catch2:
     doc:
@@ -585,11 +585,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.3.3-1
+      version: 4.3.6-2
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: a0b24abb32ba003ad297c3e1597780881ada2ea3
+      version: 069554637be400ac6d8126f976a74f78d3b1f2d0
     status: developed
   bno055:
     doc:
@@ -1827,7 +1827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: f7a6312345b2c712e12a7e55f35b68b6814346a6
+      version: 98d1ceedc64eec97e2e6eabd8e100a56adfa2c28
     status: developed
   gz_ros2_control:
     doc:
@@ -2944,7 +2944,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 4902b2bc607a33104aa4cc2c2e7de2172341f696
+      version: db49dc96b511b5c490e9d4ef23de5cbaa41566bf
     status: developed
   mrpt_path_planning:
     doc:
@@ -2999,7 +2999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 8a7a3a39bc3f563f84c11952582acb106478a753
+      version: 32f143a412eba51df962df508fa37df6c788334d
     status: developed
   nao_button_sim:
     doc:
@@ -3134,11 +3134,15 @@ repositories:
       version: 974332da5fe4c19058083c3cceb46ab89fe686b6
     status: maintained
   nmea_navsat_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_navsat_driver.git
+      version: 2.0.1
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nmea_navsat_driver-release.git
-      version: 2.0.0-2
+      version: 2.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4210,7 +4214,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: bc435776a257fcf76c5b0124bec26f6824342e34
+      version: fa732b9ee8000714831568e14486099f2714003d
     status: maintained
   rclpy:
     doc:
@@ -4226,7 +4230,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 251305efd8b3987548bc7a2b4d21f75a23a68f99
+      version: 03bcc32d7d530d8523f134c48fb35a96e02daa0d
     status: maintained
   rcpputils:
     doc:
@@ -4363,12 +4367,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rig_reconfigure-release.git
-      version: 1.3.0-1
+      version: 1.3.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/teamspatzenhirn/rig_reconfigure.git
-      version: 5ed0450078248fce7f564a7be2c82106d1460224
+      version: b32e08fe02e74e68c9f0504b96678bfb89518c87
     status: developed
   rmf_api_msgs:
     doc:
@@ -6888,7 +6892,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: cb9c7f323bc31385235393e303bd1f71386aa9e2
+      version: cd0d4268ca0d9f5d75dcc18124936bbc44ec2d77
     status: developed
   ur_description:
     doc:
@@ -7098,7 +7102,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/usb_cam-release.git
-      version: 0.6.0-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
@@ -7249,7 +7253,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 138939fb5db0aac3de9d1ade1e72aa4eab982cd7
+      version: 3f74e10c85478ecc33cb3b184d4488a066055aa8
     status: maintained
   vitis_common:
     doc:
@@ -7427,7 +7431,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 7b066c68794c8675a446bf34c729a6de2eb3b9a4
+      version: a95a9c97813b3a3a68b73a030c2f0101e32cb762
     status: developed
   zmqpp_vendor:
     doc:
