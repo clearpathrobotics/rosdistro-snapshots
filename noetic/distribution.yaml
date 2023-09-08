@@ -1915,12 +1915,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.7.5-1
+      version: 2.8.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 1454cb694019ba36e430784d32515aa2b8d96d39
+      version: b8d5779c2642ac5066f03eb2651057850de99974
     status: developed
   depthimage_to_laserscan:
     release:
@@ -5931,7 +5931,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 6322e7fcd71d6d5c4414c1c994b162f639c3127f
+      version: 507196f4b8ba8fce36d594861419e6562f83e501
     status: developed
   mpc_local_planner:
     doc:
@@ -6168,7 +6168,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: cdf200ee56a085290bfa91bd77b3c0936d2ee669
+      version: c21a0ec1c91f4f076cea44ca2fedca61be4bccb4
     status: developed
   nao_meshes:
     release:
@@ -8143,20 +8143,23 @@ repositories:
       version: production-noetic
     release:
       packages:
+      - qb_softhand_industry
       - qb_softhand_industry_bringup
+      - qb_softhand_industry_control
       - qb_softhand_industry_description
       - qb_softhand_industry_driver
+      - qb_softhand_industry_hardware_interface
       - qb_softhand_industry_msgs
       - qb_softhand_industry_srvs
       - qb_softhand_industry_utils
       tags:
         release: release/noetic/{package}/{version}
       url: https://bitbucket.org/qbrobotics/qbshin-ros-release.git
-      version: 1.0.8-3
+      version: 1.0.9-1
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbshin-ros.git
-      version: bbdfc7b8623b727afbf0f798de0cb25a314ab875
+      version: 9b454f82869154a93bcc1eee502055fe1804c461
     status: developed
   qpoases_vendor:
     doc:
@@ -8469,15 +8472,21 @@ repositories:
       version: 02e8f27f057ee03d430a65ca91489daedfe97656
     status: developed
   reach:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros2-gbp/reach-release.git
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: ec6e21b0bb37b0a86e5297576221f71d54a23588
+      version: 594aaa598bbd370fed3d3a95379f849f6c57ced2
+    status: developed
   reach_ros:
     source:
       type: git
       url: https://github.com/ros-industrial/reach_ros.git
-      version: 246b2b003b56484426bf3ad3c74e2a697e088d40
+      version: 914b0c4b661fd1821c8e3229475747df02aa120d
   realsense2_camera:
     doc:
       type: git
@@ -9547,7 +9556,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
-      version: 299a7c508ba4aeeb56d348a32d04433a30ade54b
+      version: 3ce4dc4d602581da87c1cfcf14b8bfc11fe89d7d
     status: maintained
   rose2:
     doc:
@@ -11652,7 +11661,7 @@ repositories:
     source:
       type: git
       url: https://github.com/InnopolisAero/uavcan_communicator.git
-      version: 67c33ae8633ddfe4e5def81124a4269ed6f8f294
+      version: d75043129dadda4eb48db5d070b23200afeaacad
     status: maintained
   ubiquity_motor:
     doc:
@@ -11805,7 +11814,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library-release.git
-      version: 1.3.2-1
+      version: 1.3.3-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
@@ -12187,7 +12196,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 8f39d870a30204a7a54a136d310be6f1c6d30ba4
+      version: a32e92dd85be170b7103cb04a796c4f547fa3b72
     status: maintained
   visp_ros:
     doc:
