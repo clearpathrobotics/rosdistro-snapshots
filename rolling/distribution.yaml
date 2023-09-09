@@ -1350,7 +1350,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 2886524ef652c63c436b77618e21235dae4e635f
+      version: 8c784382d7c7d65847a2a66362c02d821effb23e
     status: maintained
   fastrtps:
     doc:
@@ -1827,7 +1827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 9cdf9cee11fdd435fc2e3ebd65196d212df886bc
+      version: f4bec21fbec58f32e8d8ca32384c6d81aa4f30af
     status: developed
   gz_ros2_control:
     doc:
@@ -2347,12 +2347,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 3.0.1-1
+      version: 3.1.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 5fcdcfc68995dd4e43d9e7db6528bf4447ddff60
+      version: 3e73d2f0311a634ea73e4f0134c0cfbeec4e3aba
     status: developed
   launch_param_builder:
     doc:
@@ -2766,19 +2766,26 @@ repositories:
     release:
       packages:
       - mola_common
+      - mola_demos
+      - mola_imu_preintegration
       - mola_input_euroc_dataset
       - mola_input_kitti_dataset
+      - mola_input_rawlog
+      - mola_input_ros2
       - mola_kernel
+      - mola_launcher
+      - mola_test_datasets
+      - mola_viz
       - mola_yaml
       - mp2p_icp
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: a1b334e02e698cca7a8404ee5b07742814ef435c
+      version: ec8cc16172063327e0cd696dbf02ae1b9c2c1af9
     status: developed
   moveit:
     doc:
@@ -2998,7 +3005,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.8.0-1
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -4212,12 +4219,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 22.2.0-1
+      version: 23.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: e103b8d37ed14216b495b75c72dda82cb7f98c6f
+      version: ea31f94eb453acf3f34b37b85e38284abc514d57
     status: maintained
   rclpy:
     doc:
@@ -4228,12 +4235,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 5.1.0-1
+      version: 5.2.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: a82e20641822d62c792455d6049709dc7b301ac4
+      version: 0574ad96cd4be40426d6b4c8e6ba519f8487ad76
     status: maintained
   rcpputils:
     doc:
@@ -4920,7 +4927,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 4d0b999540177f4237550184caae0f2960d5b72b
+      version: fb46a77df7a6179a7724c7ac0145b0be4740cbfa
     status: developed
   ros2_kortex:
     doc:
@@ -6895,7 +6902,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: e2bebd62695767bc30e65d507409142378176c34
+      version: 479a197865b68a7eff95a32090ebb3819e627232
     status: developed
   ur_description:
     doc:
@@ -6910,7 +6917,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 8745ab408ce3894c3378ea294570ece9766febe9
+      version: 9712b2e8d34030c320c2d6844a7fcf9bccd16970
     status: developed
   ur_msgs:
     doc:
@@ -7434,7 +7441,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: a95a9c97813b3a3a68b73a030c2f0101e32cb762
+      version: 8eecb862c263719c0e5b8c3d91410456a870e68c
     status: developed
   zmqpp_vendor:
     doc:
