@@ -854,7 +854,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: b4354a10acef592bd0cabf6092f95b843b7df50e
+      version: fc15da0778b27b2b2f20679f02a8d2362e22622f
     status: maintained
   control_toolbox:
     doc:
@@ -1367,7 +1367,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 3bc5bfb0d0acdde2b8ade78585bc7f9e3eed0bab
+      version: a8a4f4237939a27454795699207e61dfda1df8a5
     status: maintained
   filters:
     doc:
@@ -1489,7 +1489,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 58b6712ab37486e435650927805d00bc7a78bbbf
+      version: b4f0a42f9d4302a5c2a185baf1d5d661e047e328
     status: developed
   foxglove_msgs:
     doc:
@@ -1552,7 +1552,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 934621ee236dc9b32350b113c6b42a894bfbf092
+      version: 3db53a2770ddbe75f09ac32c0ec1ce65aa015e34
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1616,7 +1616,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 1131e9c9b015779ee9cdef83d3e0aa5dbacb018f
+      version: f884398bf8089b90377646608a04d7bb608853bd
     status: developed
   geographic_info:
     doc:
@@ -1845,7 +1845,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 223174515a64008b2ffef5b730c4c61cc78ff8bc
+      version: 1e80f42ed8604db39656c2c734ab3dc4e318a6e1
     status: maintained
   hash_library_vendor:
     doc:
@@ -2093,7 +2093,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: c762acbd5e575626b1cab3675199bc55072c7a8c
+      version: 99792781ad0516b936e02b9fdbc7ce320d0109f8
     status: maintained
   irobot_create_msgs:
     release:
@@ -2530,7 +2530,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: dashing-devel
+      version: ros2-devel
     release:
       packages:
       - swri_cli_tools
@@ -2549,18 +2549,18 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.6.0-1
+      version: 3.6.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 4b494e16bc1b8816f134387b20e414c730ca737e
+      version: 1bc7676ec3290f8546b0134c4803a4346e32a483
     status: developed
   marti_messages:
     doc:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: dashing-devel
+      version: ros2-devel
     release:
       packages:
       - marti_can_msgs
@@ -2575,12 +2575,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_messages-release.git
-      version: 1.5.0-1
+      version: 1.5.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: 4c0db28db7a360ee4591c9f2c11d3789cc4518fa
+      version: e666d70b39458449b5120b8c48f0d07b16515a9f
     status: developed
   mavlink:
     doc:
@@ -2591,7 +2591,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2023.6.6-1
+      version: 2023.9.9-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -2611,7 +2611,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.4.0-2
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -2837,7 +2837,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.7.4-1
+      version: 2.8.0-2
     source:
       test_commits: false
       test_pull_requests: false
@@ -2854,7 +2854,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_msgs-release.git
-      version: 2.2.2-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -2929,7 +2929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: ee3f2fb6638e568d03d4ee651637ac130abf96f7
+      version: 8a160109dfe2ac6e39b10ec28ab3ff28ae50f74b
     status: developed
   mrpt_msgs:
     doc:
@@ -2954,7 +2954,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: e089fe5b1e7eeabfdc4c007a231460744b63d1ce
+      version: 9db674c4371f33daface953662fccc74f124f9ed
     status: developed
   mrpt_path_planning:
     doc:
@@ -3645,7 +3645,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: da755c6299c0ead08c050faacaf34d06dd6db878
+      version: 73e1b38718cf739a4aac28947fdec9d0f6b00aec
     status: developed
   plotjuggler:
     doc:
@@ -3723,6 +3723,24 @@ repositories:
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
       version: 5eabe4cc125f550133ab69a5a08d7f40b84a035c
     status: developed
+  point_cloud_transport:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/point_cloud_transport.git
+      version: 45fb501335b79b3870a0eae839e937016d5c14b6
+  point_cloud_transport_plugins:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/point_cloud_transport_plugins.git
+      version: 411e2beef10137cfba87d31b866c0b05b4cbf924
+  point_cloud_transport_tutorial:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
+      version: e88295b62df063dd58d88c4d760c31910d5be11c
   pointcloud_to_laserscan:
     doc:
       type: git
@@ -4124,7 +4142,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 020ed0ebef70448cb268f9c68ef4b50e53ba50fd
+      version: feb775a49a3c32eb2c619baaff5651c0aa2d099a
     status: maintained
   rcl_interfaces:
     doc:
@@ -4892,7 +4910,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: c122455ddc9db6b83aa7c69c797a7b5c6b3c00ef
+      version: 3c5ad102e0aba34a8714b56f798b1161d32172aa
     status: developed
   ros2_controllers:
     doc:
@@ -4927,7 +4945,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: fb46a77df7a6179a7724c7ac0145b0be4740cbfa
+      version: 923767fcf8df2ef82c313a5cfadb1e0fbe46cab2
     status: developed
   ros2_kortex:
     doc:
@@ -5276,7 +5294,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: dcd239ceea842752c344f0048572deb5f502feb8
+      version: 777612fecfece71ce784648c00f9500288c97de5
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6414,7 +6432,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: 433783e1a4e483871a5bb8d8536e3ff64bd41ae4
+      version: 378269b61da8c9a42389abea7f317d9ee582ef39
     status: developed
   tango_icons_vendor:
     release:
@@ -6913,11 +6931,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 9712b2e8d34030c320c2d6844a7fcf9bccd16970
+      version: 581995112e71bcf435ed4f44d8497f77a2852ad1
     status: developed
   ur_msgs:
     doc:
@@ -6954,7 +6972,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: b287d95686b230631f5078dfa5fa3a6036c5cbc5
+      version: 11f2d5172a98e7a5fa9c6e7ede46393835008098
     status: developed
   urdf:
     doc:
@@ -7441,7 +7459,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 8eecb862c263719c0e5b8c3d91410456a870e68c
+      version: 1b657b87bc6ae07fb7351cf25454ac9da9db70ca
     status: developed
   zmqpp_vendor:
     doc:

@@ -1550,7 +1550,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/cpr_onav_description-release.git
-      version: 0.1.6-1
+      version: 0.1.7-1
     source:
       type: git
       url: https://github.com/cpr-application/cpr_onav_description.git
@@ -1808,7 +1808,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_fca_ros.git
-      version: 130a640b858afb9c6da649ce1ce50de39ec20559
+      version: 508df90944c625bcb210d42b9fab6acdc7d51124
     status: developed
   dbw_mkz_ros:
     doc:
@@ -1829,7 +1829,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
-      version: b526b608b1b3299a832d68a58c040d5081ca831e
+      version: 1668cf2a64151c3bd0b95b581d44c88250d1fa1f
     status: developed
   dbw_polaris_ros:
     doc:
@@ -1850,7 +1850,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_polaris_ros.git
-      version: 1888a51571e84ad8205d1cd00a83f4e67a5a1131
+      version: fa03ff4feb7fbbbe12e994d34698703fa13cdccc
     status: developed
   ddynamic_reconfigure:
     doc:
@@ -1920,7 +1920,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: b8d5779c2642ac5066f03eb2651057850de99974
+      version: 5dea05c0f56f028f0fd6489d365dbcec4777bd9d
     status: developed
   depthimage_to_laserscan:
     release:
@@ -2957,7 +2957,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 58b6712ab37486e435650927805d00bc7a78bbbf
+      version: b4f0a42f9d4302a5c2a185baf1d5d661e047e328
     status: developed
   foxglove_msgs:
     doc:
@@ -5301,7 +5301,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2023.6.6-1
+      version: 2023.9.9-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5322,7 +5322,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.16.0-1
+      version: 1.17.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5999,7 +5999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: ee3f2fb6638e568d03d4ee651637ac130abf96f7
+      version: 8a160109dfe2ac6e39b10ec28ab3ff28ae50f74b
     status: developed
   mrpt_msgs:
     doc:
@@ -6164,7 +6164,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.8.0-1
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -7388,7 +7388,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: da755c6299c0ead08c050faacaf34d06dd6db878
+      version: 73e1b38718cf739a4aac28947fdec9d0f6b00aec
     status: developed
   plotjuggler:
     doc:
@@ -8191,7 +8191,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 2178b52621ed16f9846d6f80ecb59706b9d31921
+      version: 3c941a2312aaa5095ba5971f7f764bc83fc48abf
     status: developed
   qt_gui_core:
     doc:
@@ -8476,17 +8476,23 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/reach-release.git
-      version: 1.5.1-1
+      version: 1.5.2-1
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
       version: 594aaa598bbd370fed3d3a95379f849f6c57ced2
     status: developed
   reach_ros:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-industrial-release/reach_ros-release.git
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ros-industrial/reach_ros.git
       version: 914b0c4b661fd1821c8e3229475747df02aa120d
+    status: developed
   realsense2_camera:
     doc:
       type: git
@@ -9263,7 +9269,7 @@ repositories:
     source:
       type: git
       url: https://github.com/inorbit-ai/ros_inorbit_samples.git
-      version: de505478dce45d860c24342d0ae3323a9736f23c
+      version: 49281f9fca9f4048467943e939ad413b295a5455
     status: maintained
   ros_led:
     doc:
@@ -9426,7 +9432,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rosbag_snapshot-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       test_pull_requests: true
       type: git
@@ -9552,7 +9558,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rosdoc_lite-release.git
-      version: 0.2.10-1
+      version: 0.2.11-1
     source:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
