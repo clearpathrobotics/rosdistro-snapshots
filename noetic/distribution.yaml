@@ -1804,7 +1804,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_fca_ros-release.git
-      version: 1.3.0-1
+      version: 1.3.2-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_fca_ros.git
@@ -1825,7 +1825,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_mkz_ros-release.git
-      version: 1.6.0-1
+      version: 1.6.4-1
     source:
       type: git
       url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros.git
@@ -1846,7 +1846,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/dbw_polaris_ros-release.git
-      version: 1.1.0-1
+      version: 1.1.2-1
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/dbw_polaris_ros.git
@@ -2953,7 +2953,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -3804,7 +3804,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ethz-adrl/ifopt.git
-      version: 3f302dd7874ebebc95d9c1b2a3114eba87be5f37
+      version: abcf7fc46aebf22941c56f2c285b6748764cb5de
     status: maintained
   ign_ros_control:
     doc:
@@ -5183,7 +5183,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: d705e50884d9647ddff3fc1b08d96c9cd4ce530a
+      version: 33e4bb86404760b533d8e4d54387ea40b6ac8a9b
     status: maintained
   mapviz:
     doc:
@@ -5592,6 +5592,22 @@ repositories:
       type: git
       url: https://github.com/221eROS/mitch_v2_driver.git
       version: main
+  mlx90640_thermal_camera:
+    doc:
+      type: git
+      url: https://github.com/vakshit/mlx90640_thermal_camera.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/vakshit/mlx90640_thermal_camera-release.git
+      version: 1.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/vakshit/mlx90640_thermal_camera.git
+      version: 4e41810eb3a40b17147f112e233802f05bd84885
+    status: maintained
   mobile_robot_simulator:
     doc:
       type: git
@@ -5999,7 +6015,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 0165ac55785f3643b63a087416205c57ca733cec
+      version: 91f841ead6eef84e526221f8050020187a21ce60
     status: developed
   mrpt_msgs:
     doc:
@@ -6381,7 +6397,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.15.0-1
+      version: 0.16.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -11979,7 +11995,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.0.16-1
+      version: 0.0.17-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
@@ -12202,7 +12218,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: fed5b91a92c84c10ff4f46d38be7c5285296cace
+      version: cb394fede667bdf490bdd1de9dd0cc4b708fadc1
     status: maintained
   visp_ros:
     doc:

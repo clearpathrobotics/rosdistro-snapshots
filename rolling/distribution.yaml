@@ -1100,7 +1100,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ecal-release.git
-      version: 5.12.0-1
+      version: 5.12.0-3
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
@@ -1367,7 +1367,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: a575bbbca5c0d265d5f1d995d297a3629c64a8aa
+      version: 7617080b9bc3797352cd27739597ee11e060c49f
     status: maintained
   filters:
     doc:
@@ -2503,7 +2503,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: d705e50884d9647ddff3fc1b08d96c9cd4ce530a
+      version: 33e4bb86404760b533d8e4d54387ea40b6ac8a9b
     status: maintained
   mapviz:
     doc:
@@ -2785,7 +2785,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 5934b10e5e3660f827a701a04ba8febd6fd31028
+      version: 0a23d595ad8b34cbfd3b3e8955808b636f777e5d
     status: developed
   moveit:
     doc:
@@ -2843,7 +2843,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 648235032ac689fb7823b1fbbdbb56f599e83618
+      version: 459b810ab8d4bbc9a60181c5a62e03926923234d
     status: developed
   moveit_msgs:
     doc:
@@ -2929,7 +2929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 0165ac55785f3643b63a087416205c57ca733cec
+      version: 91f841ead6eef84e526221f8050020187a21ce60
     status: developed
   mrpt_msgs:
     doc:
@@ -4325,7 +4325,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 629d55497e3b75aee73c6fc6702aacd9378041e7
+      version: f078c8c94885c94809d5d185822cf8ae8d4b795f
     status: maintained
   reach:
     source:
@@ -4706,7 +4706,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: fde3d9770fa684ed545db38d2cb0f2c49829894e
+      version: d2002e1cb28b42410860d6cdb04575ae8626950c
     status: developed
   rmw_cyclonedds:
     doc:
@@ -5295,7 +5295,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: bf4038d204cb9808ce9f0e5c15342b1a0f7dfd14
+      version: 64e29724cbea3058bfa4c1688867dc9f2f85bdbd
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -7282,7 +7282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: fed5b91a92c84c10ff4f46d38be7c5285296cace
+      version: cb394fede667bdf490bdd1de9dd0cc4b708fadc1
     status: maintained
   vitis_common:
     doc:
