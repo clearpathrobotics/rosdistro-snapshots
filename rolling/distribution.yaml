@@ -1237,13 +1237,18 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 3c3b22c4dd8ebc3bb83012bc1b4a0beb1e12534b
+      version: df8604fd2eb3ff8cd181d2b0817120645060f779
     status: maintained
   event_camera_codecs:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_codecs-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
@@ -1367,7 +1372,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 7617080b9bc3797352cd27739597ee11e060c49f
+      version: 14689a07c1863fa77a29dd86889b5d58f19f2e36
     status: maintained
   filters:
     doc:
@@ -2161,7 +2166,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/joystick_drivers.git
-      version: e3c3388a4def1be5b4b42e32a98f6b0fb1cbdc55
+      version: b0bc9d7faace869767f1121174838fea831b2ab7
     status: maintained
   kdl_parser:
     doc:
@@ -2910,11 +2915,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 2.0.1-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: 463e501099f9bc49e43efcf64307863dba72395a
+      version: 207a618a75e6f56bff2922fc279cd9c71b8eacfb
     status: maintained
   mrpt2:
     doc:
@@ -3645,7 +3650,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 73e1b38718cf739a4aac28947fdec9d0f6b00aec
+      version: e88d3cf715122936c8f1067ee47f4b039c6498bc
     status: developed
   plotjuggler:
     doc:
@@ -3724,17 +3729,30 @@ repositories:
       version: 5eabe4cc125f550133ab69a5a08d7f40b84a035c
     status: developed
   point_cloud_transport:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
+      version: rolling
+    release:
+      packages:
+      - point_cloud_transport
+      - point_cloud_transport_py
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/point_cloud_transport-release.git
+      version: 2.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 45fb501335b79b3870a0eae839e937016d5c14b6
+      version: 025cfd7f8eda374a117979483c0d9e8e76872c1c
+    status: maintained
   point_cloud_transport_plugins:
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: c7b46c442317db84a876cfcafa2dd4b91696d236
+      version: 915e1aff5a32576804850e06c2345b506e233e70
   point_cloud_transport_tutorial:
     source:
       test_pull_requests: true
@@ -3787,11 +3805,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.10-1
+      version: 0.3.11-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
-      version: 9f5f1828c2c81f695c5a05b2def075268bf3935c
+      version: 236317d1815b5967fa77ba716add2dc5c3313035
     status: maintained
   proxsuite:
     doc:
@@ -4242,7 +4260,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: ea31f94eb453acf3f34b37b85e38284abc514d57
+      version: c42745c5baea249ec6159f1100a9a0d745510872
     status: maintained
   rclpy:
     doc:
@@ -4910,7 +4928,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: af1052537558450f57f0e647448be21399d283af
+      version: 14e9e4f696f14209febf28316de8cbdd68659605
     status: developed
   ros2_controllers:
     doc:
@@ -6132,7 +6150,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/simple_actions.git
-      version: cb1ba6872545972f0832e4e55220abef9875f727
+      version: 14de986c80bbe4e9ad246b4bf2b395ee1de4ea0c
     status: developed
   simple_launch:
     doc:
@@ -6433,7 +6451,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: 378269b61da8c9a42389abea7f317d9ee582ef39
+      version: 6b8923625ad5179110ef939f9ef4eb0402509676
     status: developed
   tango_icons_vendor:
     release:
@@ -6787,7 +6805,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/twist_mux-release.git
-      version: 4.1.0-3
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/ros-teleop/twist_mux.git
@@ -6973,7 +6991,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 11f2d5172a98e7a5fa9c6e7ede46393835008098
+      version: dd83244e3b8bbd9ed13db00afeec21fa809ea1b9
     status: developed
   urdf:
     doc:
@@ -7282,7 +7300,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: cb394fede667bdf490bdd1de9dd0cc4b708fadc1
+      version: bd8598eb531dff9f56aaabfd4a5757f6040923a9
     status: maintained
   vitis_common:
     doc:
@@ -7460,7 +7478,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 1b657b87bc6ae07fb7351cf25454ac9da9db70ca
+      version: 41698a385f0b586e33543b69060ef8075d528ea7
     status: developed
   zmqpp_vendor:
     doc:

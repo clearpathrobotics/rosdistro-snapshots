@@ -1550,11 +1550,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/cpr_onav_description-release.git
-      version: 0.1.7-1
+      version: 0.1.8-1
     source:
       type: git
       url: https://github.com/cpr-application/cpr_onav_description.git
-      version: aa00350186617eb09e0645fdd7b516e0eb485ea8
+      version: 23cddcca55fae7159f86ab2e584c1f01b3a37834
     status: maintained
   crane_x7:
     doc:
@@ -4275,7 +4275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/joystick_drivers.git
-      version: d9cb57b9104855250dd7e5d58bd69ad973301b74
+      version: 99782ac99bbc5c8c87874546c177f838e8a4704e
     status: maintained
   jsk_3rdparty:
     doc:
@@ -5788,7 +5788,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 7ea7f807d4fb48d04a7c071f8fe388545032c2f5
+      version: 867c53c47e1eb65600225da9dffb079896fa94ec
     status: maintained
   moveit_calibration:
     doc:
@@ -5902,7 +5902,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_task_constructor.git
-      version: c605a0059a3030bd1095202d0662c6f8e43e345e
+      version: f847d765ceebfa6178076c0bed73d4f28d65a1f1
     status: developed
   moveit_visual_tools:
     doc:
@@ -5996,11 +5996,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 2.0.1-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: 463e501099f9bc49e43efcf64307863dba72395a
+      version: 207a618a75e6f56bff2922fc279cd9c71b8eacfb
     status: maintained
   mrpt2:
     doc:
@@ -7404,7 +7404,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 73e1b38718cf739a4aac28947fdec9d0f6b00aec
+      version: e88d3cf715122936c8f1067ee47f4b039c6498bc
     status: developed
   plotjuggler:
     doc:
@@ -7576,11 +7576,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
-      version: 0.3.10-1
+      version: 0.3.11-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
-      version: 9f5f1828c2c81f695c5a05b2def075268bf3935c
+      version: 236317d1815b5967fa77ba716add2dc5c3313035
     status: maintained
   power_msgs:
     doc:
@@ -8175,7 +8175,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbshin-ros.git
-      version: 9b454f82869154a93bcc1eee502055fe1804c461
+      version: 37a0e07a35cc9cacd4617c4f7182594200acaabd
     status: developed
   qpoases_vendor:
     doc:
@@ -12218,7 +12218,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: cb394fede667bdf490bdd1de9dd0cc4b708fadc1
+      version: bd8598eb531dff9f56aaabfd4a5757f6040923a9
     status: maintained
   visp_ros:
     doc:
