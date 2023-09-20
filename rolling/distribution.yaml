@@ -357,7 +357,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 6fd978cf03b98d6a058e22e5253cc617c7eccd06
+      version: b7bd75ca45d62ac431f10b78b69ea86198cbad14
     status: maintained
   apriltag_msgs:
     release:
@@ -1104,7 +1104,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 86613050d0c298a894db5d885b70c397bba13006
+      version: df204c89c8f0284e87cb9a62ea8238b0037b64b7
     status: developed
   ecl_core:
     doc:
@@ -1252,7 +1252,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: 035ea5dbc59ab6728649f2205c27cb5ca2caa09b
+      version: d68e94b3303f61713787428976a3a28ab87a87d9
     status: developed
   event_camera_msgs:
     doc:
@@ -1274,16 +1274,26 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_py-release.git
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
-      version: db4a6078fb2f34086442d20c9a88485ec4a766d7
+      version: ac742c19ec96cfba70974c13e0fadff3e0bfb725
     status: developed
   event_camera_renderer:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_renderer-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
@@ -1372,7 +1382,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 14689a07c1863fa77a29dd86889b5d58f19f2e36
+      version: 61a3239247a9688b1cfdf1f12731abc5628b6286
     status: maintained
   filters:
     doc:
@@ -1687,7 +1697,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 8706e818d4b258dc620d85e3009387e6c420b810
+      version: 2311918f7f3de7c83a1e23c2fc3db442b3f0cc39
     status: maintained
   geometry_tutorials:
     doc:
@@ -2934,7 +2944,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 6281bdab340ded4c340684da20d2854ab327a67b
+      version: 7790c05e0982fe7830ae09e8d551e233e8d98b01
     status: developed
   mrpt_msgs:
     doc:
@@ -3731,7 +3741,7 @@ repositories:
   point_cloud_transport:
     doc:
       type: git
-      url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
+      url: https://github.com/ros-perception/point_cloud_transport.git
       version: rolling
     release:
       packages:
@@ -4418,7 +4428,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/teamspatzenhirn/rig_reconfigure.git
-      version: ab03aebcd5175cbadf5d025c0209746b2d314ae1
+      version: 8a6260d252488b58654bd4bf68d4eb52868cd4cb
     status: developed
   rmf_api_msgs:
     doc:
@@ -4928,7 +4938,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 14e9e4f696f14209febf28316de8cbdd68659605
+      version: a6a86d44c202652f8bda70b8b0ec385a96b14e81
     status: developed
   ros2_controllers:
     doc:
@@ -6145,7 +6155,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_actions-release.git
-      version: 0.2.2-1
+      version: 0.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6991,7 +7001,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: dd83244e3b8bbd9ed13db00afeec21fa809ea1b9
+      version: ec7f5e76603f6391189a59f5f6ce9f53ea19ff7c
     status: developed
   urdf:
     doc:
@@ -7060,7 +7070,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_tutorial.git
-      version: 54d5e66c1651c71d248422a226e3f3f8fca059ec
+      version: a7949cd412ee8de9749ecf4078de560cb2180a1b
     status: maintained
   urdfdom:
     doc:
