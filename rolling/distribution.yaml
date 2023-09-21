@@ -1248,7 +1248,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_codecs-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
@@ -1382,7 +1382,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 61a3239247a9688b1cfdf1f12731abc5628b6286
+      version: 47fe5d7636769706fcf71bf7d183c34c64837e37
     status: maintained
   filters:
     doc:
@@ -2518,7 +2518,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 33e4bb86404760b533d8e4d54387ea40b6ac8a9b
+      version: b291b0ce5a76e808e05fc0141154e963407372da
     status: maintained
   mapviz:
     doc:
@@ -2569,7 +2569,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 1bc7676ec3290f8546b0134c4803a4346e32a483
+      version: 094b689870587087dec36b589029a67367d06452
     status: developed
   marti_messages:
     doc:
@@ -3675,7 +3675,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 670d10c57de9137263e655e25453bbdbc60e2ea4
+      version: ab869569fe5600355f853c2fa260c8933c3ced67
     status: developed
   plotjuggler_msgs:
     doc:
@@ -3750,19 +3750,35 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 2.0.0-1
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 025cfd7f8eda374a117979483c0d9e8e76872c1c
+      version: 990138729dc4e6f2e8cda172b3aaf29dbfb5649c
     status: maintained
   point_cloud_transport_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/point_cloud_transport_plugins.git
+      version: rolling
+    release:
+      packages:
+      - draco_point_cloud_transport
+      - point_cloud_interfaces
+      - point_cloud_transport_plugins
+      - zlib_point_cloud_transport
+      - zstd_point_cloud_transport
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/point_cloud_transport_plugins-release.git
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: 915e1aff5a32576804850e06c2345b506e233e70
+      version: 69744e4f89b0572694e228423346226a70769d41
+    status: maintained
   point_cloud_transport_tutorial:
     source:
       test_pull_requests: true
@@ -3834,7 +3850,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: faa4f79b530630c3c3e2bfa931fe8e66c886858a
+      version: 7781093966270a49fce9ef0dc6bc871c5bc00d19
     status: developed
   py_trees:
     doc:
@@ -4170,7 +4186,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: feb775a49a3c32eb2c619baaff5651c0aa2d099a
+      version: 7b9c1ecd2d728382bce035d0eaad9d927ed7d651
     status: maintained
   rcl_interfaces:
     doc:
@@ -4970,11 +4986,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.15.0-1
+      version: 3.16.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 84d988c78646a9cf34a6f06532504416f29a3873
+      version: 79c6d1cb37be84deeb9103448b5cf93b9c3b8327
     status: developed
   ros2_kortex:
     doc:
@@ -5323,7 +5339,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 64e29724cbea3058bfa4c1688867dc9f2f85bdbd
+      version: 96c11b073c9bf56fb35586205b941e14f8f15b6a
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6413,11 +6429,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/swri_console-release.git
-      version: 2.0.3-2
+      version: 2.0.4-1
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
-      version: 93c0b13ec1ce1fd8abd5c137d9aaaaf11172f086
+      version: 0e7ac455ddc9889f0a5ac9930bac3d4e42fc24df
     status: developed
   system_fingerprint:
     doc:
@@ -7001,7 +7017,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: ec7f5e76603f6391189a59f5f6ce9f53ea19ff7c
+      version: 43e40b404f8a617d67542d1e0814dfa4e23b328f
     status: developed
   urdf:
     doc:
@@ -7310,7 +7326,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: bd8598eb531dff9f56aaabfd4a5757f6040923a9
+      version: 1940916b116f7b7d37331ce35ab4bb10770d04cc
     status: maintained
   vitis_common:
     doc:
