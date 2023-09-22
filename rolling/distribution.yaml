@@ -54,7 +54,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/rudislabs/actuator_msgs.git
-      version: 0.0.1
+      version: main
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -589,7 +589,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: d8c5436dbc4052008a228464799f749e9ea4baf0
+      version: d5ea17b5184feacac3f3763de0730713384bafc9
     status: developed
   bno055:
     doc:
@@ -1282,7 +1282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
-      version: ac742c19ec96cfba70974c13e0fadff3e0bfb725
+      version: 4da1199725836f91208d0f5fb0eccacc71353806
     status: developed
   event_camera_renderer:
     doc:
@@ -1293,11 +1293,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_renderer-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
-      version: 7f9691f965097622445863e70a4b375017bbf60c
+      version: a27b39351f73be4af8f9bd130af823a766effc75
     status: developed
   example_interfaces:
     doc:
@@ -1365,7 +1365,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 8c784382d7c7d65847a2a66362c02d821effb23e
+      version: 5df69f23d0c757c0fadcfc0016046bd8cd06a4f0
     status: maintained
   fastrtps:
     doc:
@@ -1382,7 +1382,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 47fe5d7636769706fcf71bf7d183c34c64837e37
+      version: 8b50a00c6a326791da876b2119bd158f9155c615
     status: maintained
   filters:
     doc:
@@ -2539,7 +2539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 93dbe419734554f888af18a5dcc3043ee0d59413
+      version: 68e166dea84f3d480f0aa5ab90ec2f5bae25a39d
     status: developed
   marti_common:
     doc:
@@ -2569,7 +2569,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 094b689870587087dec36b589029a67367d06452
+      version: ca94bb54e9eb7d059034fdafaa01a9da7b654943
     status: developed
   marti_messages:
     doc:
@@ -2595,7 +2595,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: e666d70b39458449b5120b8c48f0d07b16515a9f
+      version: be9a25c56237dd3eff85a7d4e44015c5ab6f9360
     status: developed
   mavlink:
     doc:
@@ -2858,7 +2858,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 459b810ab8d4bbc9a60181c5a62e03926923234d
+      version: 94fea793bbc3609beaaa07f0f3b72056699ac058
     status: developed
   moveit_msgs:
     doc:
@@ -2911,7 +2911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_visual_tools.git
-      version: 85784336be6661b199a78a095c59019561e01530
+      version: cecb7cb57789345cf1cbde56fcda93633ed5ce50
     status: maintained
   mqtt_client:
     doc:
@@ -4186,7 +4186,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 7b9c1ecd2d728382bce035d0eaad9d927ed7d651
+      version: 1260197bb53353ce91a129a47ba0271eea2033a2
     status: maintained
   rcl_interfaces:
     doc:
@@ -4286,7 +4286,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: c42745c5baea249ec6159f1100a9a0d745510872
+      version: 9284d7cefa9e37ce3b6926a44e6177d6e4a4b62a
     status: maintained
   rclpy:
     doc:
@@ -4302,7 +4302,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 0a0239598a635f59d934851e2af3479fabc1c5da
+      version: 827d59729f266d9449d8fcb9752707bbd052527d
     status: maintained
   rcpputils:
     doc:
@@ -4954,7 +4954,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: a6a86d44c202652f8bda70b8b0ec385a96b14e81
+      version: d77f6f101d3e0c9063d467628e6744c1a644c41b
     status: developed
   ros2_controllers:
     doc:
@@ -5230,7 +5230,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 151d3d88693fbae8e906cf2e4dc083b7cab80f10
+      version: 058542931819a56db9b9e62d0a13f3c057f6646b
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7013,11 +7013,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 43e40b404f8a617d67542d1e0814dfa4e23b328f
+      version: b398eba44a634e5782b5a520a8d6bbffa590c1d8
     status: developed
   urdf:
     doc:
@@ -7326,7 +7326,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1940916b116f7b7d37331ce35ab4bb10770d04cc
+      version: 993533b2b1ea6201f56e3b59c85828f5475188b0
     status: maintained
   vitis_common:
     doc:
