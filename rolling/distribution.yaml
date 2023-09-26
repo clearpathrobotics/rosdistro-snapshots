@@ -523,11 +523,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/aws_sdk_cpp_vendor-release.git
-      version: 0.1.1-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/wep21/aws_sdk_cpp_vendor.git
-      version: 913f9d4dc47c86eeaf3d7e5e3139ec2da49220e8
+      version: 03206c0530abf0c197a6efbc6f76a27bd3f164c3
     status: maintained
   backward_ros:
     doc:
@@ -1382,7 +1382,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 8b50a00c6a326791da876b2119bd158f9155c615
+      version: b913df0a62ec7f401142cd66863fe31d7c98e17c
     status: maintained
   filters:
     doc:
@@ -1567,7 +1567,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 3db53a2770ddbe75f09ac32c0ec1ce65aa015e34
+      version: 12dad6355f0a1239a0abdfe3011bde31740f56ca
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1930,7 +1930,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 88f376c9c7adeab88b1e3e2b27dd61d53d9e79ca
+      version: ed205a7652b339f71a458aff44b7c4fa38fd5244
     status: developed
   iceoryx:
     release:
@@ -2858,7 +2858,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 94fea793bbc3609beaaa07f0f3b72056699ac058
+      version: cc7514331167aa2a456d881f7590273064116759
     status: developed
   moveit_msgs:
     doc:
@@ -2873,7 +2873,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
-      version: 5951d77b81451b46bf28e6bb70da905365f7f1b2
+      version: 1fe008278d0e3eaea6368db1541a0c3691e4fce4
     status: developed
   moveit_resources:
     doc:
@@ -4380,7 +4380,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach_ros2.git
-      version: 9242a0637c575705e9cb575a841a607e53cab3a0
+      version: 319c0fc3480c95f6c3036ef061390a72cce00b8e
   realtime_support:
     doc:
       type: git
@@ -6961,11 +6961,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.3.3-1
+      version: 1.3.4-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 9161d6b87bdb6533111a8e8761b13c98931da8ac
+      version: d150af4e3873e5fa0f9d2dc28c5292b51f937d7e
     status: developed
   ur_description:
     doc:
@@ -6980,7 +6980,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 581995112e71bcf435ed4f44d8497f77a2852ad1
+      version: 588f9dda7bb34fd391b0fcf3a412a1095cfb82ed
     status: developed
   ur_msgs:
     doc:
@@ -7017,7 +7017,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: b398eba44a634e5782b5a520a8d6bbffa590c1d8
+      version: 06399434ba1324b97bbfa2539688f2cdacb3b40e
     status: developed
   urdf:
     doc:
