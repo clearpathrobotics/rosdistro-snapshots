@@ -523,7 +523,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/aws_sdk_cpp_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/wep21/aws_sdk_cpp_vendor.git
@@ -1365,13 +1365,13 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 5df69f23d0c757c0fadcfc0016046bd8cd06a4f0
+      version: 992e71200f63ec77c4d56ad7f4cafa99bbcfffa6
     status: maintained
   fastrtps:
     doc:
       type: git
       url: https://github.com/eProsima/Fast-RTPS.git
-      version: master
+      version: 2.11.x
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1382,7 +1382,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 5974eb5b2e5a080a75f003af190e2bd1ef3fc4ee
+      version: 514cdf82457e5a622f93e95786ca1856a010604f
     status: maintained
   filters:
     doc:
@@ -1519,7 +1519,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 03f91d4c61bd91d8b23e4effa5e4f04850df789b
+      version: dcc3b66c69506258baf46baf08e99791340e33bb
     status: maintained
   fuse:
     doc:
@@ -2569,7 +2569,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 8929b99b2775239d896cb64aac3ac8050c083edf
+      version: db2506bdac480b0ede2c45d76b79f3175edf533d
     status: developed
   marti_messages:
     doc:
@@ -3561,7 +3561,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: c78e395f9dd2ff58442147ca06c3364b9b1e5aa2
+      version: e1fd3ae97c3698f8c490991b8539e5663300b762
     status: maintained
   performance_test_fixture:
     release:
@@ -4954,7 +4954,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 8141212696037eb32bf144f66e2d85e1357b18d1
+      version: ef5661940d9d3b1ea2e2dadf6809fa6fdc524ec3
     status: developed
   ros2_controllers:
     doc:
@@ -5376,7 +5376,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbridge_suite-release.git
-      version: 1.3.1-2
+      version: 1.3.2-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -6187,11 +6187,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.7.0-2
+      version: 1.7.2-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: c99372e7e23af79f382772f83db7e731f3b3d914
+      version: 7422924325484f7494927d670ec077abb27f0ce4
     status: maintained
   slider_publisher:
     doc:
@@ -7052,7 +7052,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_launch.git
-      version: 92444428ad3cfaaeace409bf765083a113f0156f
+      version: 7ec5fd5fede48380155f74c46d18539a12095aed
     status: developed
   urdf_parser_py:
     doc:
@@ -7081,7 +7081,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/urdf_tutorial-release.git
-      version: 1.0.0-3
+      version: 1.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7326,7 +7326,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: c4494245d459ff0b830a353d8544aae5324a98e3
+      version: a108a15cd8e993e4d92a5c5150aa8f6bb46b1601
     status: maintained
   vitis_common:
     doc:
@@ -7447,7 +7447,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 78c4b841909a8020835332d40d40063e76bde177
+      version: b0361c09c13e070be76d85aa89d9d0794b6d2a0b
     status: maintained
   xacro:
     doc:
