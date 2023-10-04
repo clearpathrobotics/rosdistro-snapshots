@@ -5902,7 +5902,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_task_constructor.git
-      version: f847d765ceebfa6178076c0bed73d4f28d65a1f1
+      version: 64fd3df56322e18a10b778608bce500041d4e5f4
     status: developed
   moveit_visual_tools:
     doc:
@@ -6015,7 +6015,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: e0f4ccdf695e788c2539027d5bce18d5239d7b18
+      version: 7afb3408e6a8cf34a5e45452d4d0b05ab98f53ca
     status: developed
   mrpt_msgs:
     doc:
@@ -10470,6 +10470,21 @@ repositories:
       url: https://github.com/tilk/rtcm_msgs.git
       version: 8d27ab5f4d4a581e1bb9c87d572994c25197f6d4
     status: maintained
+  rtsprofile:
+    doc:
+      type: git
+      url: https://github.com/gbiggs/rtsprofile.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/rtsprofile-release.git
+      version: 2.0.0-3
+    source:
+      type: git
+      url: https://github.com/gbiggs/rtsprofile.git
+      version: fded6eddcb0b25fe9808b1b12336a4413ea00905
+    status: maintained
   ruckig:
     release:
       tags:
@@ -11276,7 +11291,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/ros_system_fingerprint.git
-      version: 3c65b4700d31f0e7aad6ddbcc7d93209be299457
+      version: 218384656248f3185d8498d8d681c3f956d1d677
     status: developed
   taskflow:
     doc:
