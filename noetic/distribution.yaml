@@ -4017,7 +4017,7 @@ repositories:
     source:
       type: git
       url: https://github.com/InnopolisAero/inno_vtol_dynamics.git
-      version: 8e2e9b5b5f70205c8b39f4fac27712745f6580de
+      version: 07744a7bc45ebb174ba8456405348faf8a3a9488
     status: maintained
   interactive_marker_twist_server:
     doc:
@@ -4976,7 +4976,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ethz-asl/libpointmatcher.git
-      version: 3ace94a6959137d8d6a9a7278bf2644ffdcf73d3
+      version: 2e7a92d39573ccde8ef216dcfbd368dd520a7763
     status: maintained
   librealsense2:
     doc:
@@ -5183,7 +5183,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: b291b0ce5a76e808e05fc0141154e963407372da
+      version: d67973d1181ff986ba63c756b47cc854f4d51d32
     status: maintained
   mapviz:
     doc:
@@ -5788,7 +5788,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 9a769bdb8adf0cbc1867dafe92eed8b291b89b8f
+      version: 77ec90c4f0ca85e412f0470138cb8d75f5def742
     status: maintained
   moveit_calibration:
     doc:
@@ -6000,7 +6000,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: 207a618a75e6f56bff2922fc279cd9c71b8eacfb
+      version: c000bf789db37e839fa20520d4f85ed9c888433a
     status: maintained
   mrpt2:
     doc:
@@ -6015,7 +6015,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 7afb3408e6a8cf34a5e45452d4d0b05ab98f53ca
+      version: 013a92ddfaf7b5009cbd469173b2b5b413f082a7
     status: developed
   mrpt_msgs:
     doc:
@@ -8492,11 +8492,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/reach-release.git
-      version: 1.5.2-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: 57a97ea4132ebeb3cfb56cee7d24cc0c7284e8a7
+      version: 5a3e4ca6108a68340403f3756eb1e6090a0fef10
     status: developed
   reach_ros:
     release:
@@ -9929,7 +9929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_dep.git
-      version: 3b1edd7eeff9da68aa070038d26d592eaebdaaf1
+      version: ebf0f6ea572d772f8c4d1bbc78b56d48cea699d1
     status: maintained
   rqt_ez_publisher:
     doc:
@@ -10135,7 +10135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: 94fe2e66ce791c265204b437e7990bb68f5ae343
+      version: 3f32ffe1e56a56a5e0610aa1dc4e5c37a2b2a88b
     status: maintained
   rqt_py_console:
     doc:
@@ -10243,7 +10243,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_steering.git
-      version: 1fe18c677e6b2f09915c0054f773da2e2c8e509d
+      version: 3076940ee892730923159f37e0b24e2b6d8ff6c3
     status: maintained
   rqt_runtime_monitor:
     doc:
@@ -10470,6 +10470,21 @@ repositories:
       url: https://github.com/tilk/rtcm_msgs.git
       version: 8d27ab5f4d4a581e1bb9c87d572994c25197f6d4
     status: maintained
+  rtctree:
+    doc:
+      type: git
+      url: https://github.com/tork-a/rtctree-release.git
+      version: release/hydro/rtctree
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/rtctree-release.git
+      version: 3.0.1-3
+    source:
+      type: git
+      url: https://github.com/gbiggs/rtctree.git
+      version: bd725a47ac87c259c8bce06156ccc9ab71111c26
+    status: maintained
   rtsprofile:
     doc:
       type: git
@@ -10494,7 +10509,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: adb4c0969b496b5d3f95e5eccde720f35d0c9618
+      version: faa8b63521fedb436a8fa79fd273e0dc7c35472e
     status: developed
   rviz:
     doc:
@@ -12233,7 +12248,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: a108a15cd8e993e4d92a5c5150aa8f6bb46b1601
+      version: 22234d8b3d584099cbd78591291790ea741fd61e
     status: maintained
   visp_ros:
     doc:
@@ -12296,7 +12311,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MoffKalast/vizanti.git
-      version: 47d005febc5d2069bba6f0edfe48fa2412343e68
+      version: ccae2a21154d1435c9cfde1e417aaa6c5f2d831d
     status: maintained
   vl53l1x_ros:
     doc:
