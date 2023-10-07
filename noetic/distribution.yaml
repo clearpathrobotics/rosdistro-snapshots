@@ -1637,11 +1637,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.3.1-1
+      version: 2.3.2-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 7b22fdf15e1a3a54adbe056a7821c1e3d4d43e84
+      version: 201d09df3a981a291b3083ac26573a8e1a982342
     status: developed
   create_robot:
     doc:
@@ -1920,7 +1920,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 6e88d5c84d470355bc37c9f08d17434e851c3c09
+      version: 9b40c9edef64050ac19058dcb9361f83ad992573
     status: developed
   depthimage_to_laserscan:
     release:
@@ -3517,7 +3517,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 73d716365578b8db5e61b2b919bd3427f89a65d5
+      version: 98da0f6834bc2b429ac3f96d4d06a36036ca39e0
     status: developed
   haf_grasping:
     doc:
@@ -6015,7 +6015,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 6aa9fd55aca6ec18093ba46d788fc3d9aacdea6b
+      version: ce2df7d783cb998a636eb42281a3931a06e058e7
     status: developed
   mrpt_msgs:
     doc:
@@ -6164,7 +6164,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carnegierobotics/multisense_ros.git
-      version: fe4e5019e52f5cae3bb85be4e8be604174c40f0b
+      version: 1dca1a7a3d1c1aee261ad25b560d77525630360d
     status: maintained
   muse_v2_driver:
     doc:
@@ -6184,7 +6184,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 8c7d943f9126ffd065dd5a98dd6a68273a6d5080
+      version: c51c9c716a4c4890baf49b47ef871248621c7c55
     status: developed
   nao_meshes:
     release:
@@ -8394,7 +8394,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_genicam_api.git
-      version: 4af5d7636415878364ac0e3722c1588e8434c930
+      version: 5247dfc5479a850986b68adca026b9c19b3af165
     status: developed
   rc_genicam_camera:
     doc:
@@ -10509,7 +10509,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 144e254f15021cea3700edb5e3cd979df7f29ccd
+      version: a41ce343d56f74f0e1fe41702d7206f02b21f16c
     status: developed
   rviz:
     doc:
@@ -11441,7 +11441,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 783a6dde0df4026b4642c419c15257af7c945db1
+      version: bb547ceca737b96d186b8197c1ab2d58e855abff
     status: developed
   tf2_2d:
     release:
