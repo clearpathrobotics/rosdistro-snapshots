@@ -134,7 +134,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 53d31f363941e1ef1aa85714d840ee5ca59ff5fd
+      version: 72b4246deae15b2dedab2c47940b66c5fc0cf382
     status: developed
   ament_cmake_catch2:
     doc:
@@ -585,11 +585,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.3.8-1
+      version: 4.4.0-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 1389ae658f85c3517b9fb4d57c18e5d863273924
+      version: d7457d22796a123f86372d555dec92de0ba60e62
     status: developed
   bno055:
     doc:
@@ -1104,7 +1104,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 5ca0c8a413d8dfa8b27383c7f69645367e155c46
+      version: b0b7655d9e1ca6d3c532fbfdbd14ddcd2db92e89
     status: developed
   ecl_core:
     doc:
@@ -1237,7 +1237,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 70ea569829a90700b08990411fd17d6dd3ba79b1
+      version: 5bbaa59f60dca53f0d04b6f12b5642cedad99e11
     status: maintained
   event_camera_codecs:
     doc:
@@ -2464,7 +2464,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: c1c10d8365322706396cc2e4ee04fb8eb67cc27a
+      version: 41257d3bd9304337f8ddc9f4bfc3d172438591e6
     status: developed
   libyaml_vendor:
     release:
@@ -2630,7 +2630,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: e0be266e675db5b3d615404d910c164430d46da9
+      version: 1b6c0723573beba568d275125f2bd409474d02d7
     status: developed
   menge_vendor:
     doc:
@@ -2691,7 +2691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: 0fb90fa6b73292cb27d4440743792ad3f7a41f0d
+      version: 11e8db87e9e340b3cacbeafe69a4332b03bdbf10
     status: developed
   micro_ros_diagnostics:
     doc:
@@ -3780,11 +3780,21 @@ repositories:
       version: 9e013576886218b8337097a7f80244c8d2dfc4e1
     status: maintained
   point_cloud_transport_tutorial:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/point_cloud_transport_tutorial-release.git
+      version: 0.0.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
       version: 2337aa34357a53c52046812c5c73e5a56a7ae698
+    status: maintained
   pointcloud_to_laserscan:
     doc:
       type: git
@@ -4286,7 +4296,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 7f7ffcf6ed1143b4d4a9e0cf248e190731b2e5f8
+      version: 5ffc963e1aef97928a6cc895db18d40673c655f1
     status: maintained
   rclpy:
     doc:
@@ -4375,7 +4385,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: 5a3e4ca6108a68340403f3756eb1e6090a0fef10
+      version: 0d1d8543d86d24bec219ebfecf77a135d8720325
   reach_ros:
     source:
       type: git
@@ -4954,7 +4964,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 19c8ff8651433727e05154f13a0531dd705b2278
+      version: bd6911d663abb687dc956bf19a104d03648f8985
     status: developed
   ros2_controllers:
     doc:
@@ -4990,7 +5000,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: f62fc3ac5f480b5a74765e642cd33d17600f7f5a
+      version: 22356e0e9d39c726926f3f3a0ddb7afd51333295
     status: developed
   ros2_kortex:
     doc:
@@ -5138,7 +5148,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 41b5073db20d3cbe9efa754d26e6ab5b2e3c10e2
+      version: 6724a58deaf3f653406c2ad64ac65d50c1c6628a
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -5380,7 +5390,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 51fadc5457eadf1a55fe0ef8677cd88dde66da5b
+      version: 9225d226f4a6c314ea1395ef51d0427f6ac7667f
     status: developed
   rosidl:
     doc:
@@ -6092,7 +6102,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 59c1485398238551645cf047e93e888995171309
+      version: d02d94fc776921479a9a5bc7d627f997b1559955
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
