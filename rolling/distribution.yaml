@@ -1382,7 +1382,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 38820e9fcf6256d3d121cd3273ecfe309cec0328
+      version: 6ffa92b47b9ab83759c531954e4fc22e4fa33442
     status: maintained
   filters:
     doc:
@@ -1842,7 +1842,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 5ffa7f2e35447a23b59cd90fc182566d4aa89b8a
+      version: b5d19fb446c1bb7e04b06a1a1d5e73d9ea8a525c
     status: developed
   gz_ros2_control:
     doc:
@@ -2093,6 +2093,21 @@ repositories:
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
       version: 5ffa9646a65caec15e6b920090dd60437ab8f5f2
+    status: maintained
+  interactive_marker_twist_server:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/interactive_marker_twist_server.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros-gbp/interactive_marker_twist_server-release.git
+      version: 2.1.0-1
+    source:
+      type: git
+      url: https://github.com/ros-visualization/interactive_marker_twist_server.git
+      version: a92816d11cc9e47dc2906efd26e4485976e15732
     status: maintained
   interactive_markers:
     doc:
@@ -2460,7 +2475,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libstatistics_collector-release.git
-      version: 1.6.2-1
+      version: 1.6.3-1
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
@@ -2518,7 +2533,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: a7926c63d4a3203531e9aaa9f044c602b9a20d72
+      version: 49bb72da8eb6b7abea4cf6b7c7a9165635363f42
     status: maintained
   mapviz:
     doc:
@@ -2858,7 +2873,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: c0c6baf1e0fd274a160467306006260d7adef9e4
+      version: 9249e44330d241559ed868dbc293fc2a3d1e1907
     status: developed
   moveit_msgs:
     doc:
@@ -2944,7 +2959,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: ce2df7d783cb998a636eb42281a3931a06e058e7
+      version: 84f7e727e2e13fefe42d1fc2330b46ce22fe279b
     status: developed
   mrpt_msgs:
     doc:
@@ -7514,7 +7529,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: aba4d07aa480f64021f2e5dfbdc0c76ecf934ead
+      version: 07ea4516f94930ec72ed53b07c33b96dba5545ad
     status: developed
   zmqpp_vendor:
     doc:

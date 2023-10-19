@@ -523,6 +523,15 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: d7457d22796a123f86372d555dec92de0ba60e62
     status: developed
+  boeing_gazebo_model_attachment_plugin:
+    doc:
+      type: git
+      url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
+      version: dfb81a874044b3bfc105e6881edc7d8298d0ef5e
   bond_core:
     doc:
       type: git
@@ -3517,7 +3526,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 5ffa7f2e35447a23b59cd90fc182566d4aa89b8a
+      version: b5d19fb446c1bb7e04b06a1a1d5e73d9ea8a525c
     status: developed
   haf_grasping:
     doc:
@@ -3731,11 +3740,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/hri_rviz-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/ros4hri/hri_rviz.git
-      version: 6e2094f9671752192f6c7980abfd21f07550c0a2
+      version: dc091d9d44e4fc8dfbb52a837fad6a4dca008ed8
     status: developed
   human_description:
     doc:
@@ -4580,7 +4589,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kawasaki-Robotics/khi_robot.git
-      version: 98aae1db863d299348ba08fac7216f225541ce03
+      version: 9a8cd97e87751ca89f3e48a35415bbf817fb4b09
     status: developed
   knowledge_representation:
     release:
@@ -5183,7 +5192,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: a7926c63d4a3203531e9aaa9f044c602b9a20d72
+      version: 49bb72da8eb6b7abea4cf6b7c7a9165635363f42
     status: maintained
   mapviz:
     doc:
@@ -6015,7 +6024,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: ce2df7d783cb998a636eb42281a3931a06e058e7
+      version: 84f7e727e2e13fefe42d1fc2330b46ce22fe279b
     status: developed
   mrpt_msgs:
     doc:
@@ -6969,7 +6978,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/openslam_gmapping.git
-      version: 96e52322e51b86a2bac6363a578d7e75a0f17a08
+      version: 5105476edb125bd3e05df3583b5817c486238dec
     status: unmaintained
   openzen_sensor:
     doc:
@@ -7073,7 +7082,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/eclipse/paho.mqtt.c.git
-      version: 07a875788d8cc6f5833b12581d6e3e349b34d719
+      version: 1fa37e14e650e356611aa440657f7bdf8f62b7ef
     status: maintained
   paho-mqtt-cpp:
     release:
@@ -10849,6 +10858,24 @@ repositories:
       url: https://github.com/SICKAG/sick_safetyscanners.git
       version: 6b7c1db252cb29193499535338497c5a33d8ea69
     status: developed
+  sick_safevisionary_ros1:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_ros1.git
+      version: main
+    release:
+      packages:
+      - sick_safevisionary_driver
+      - sick_safevisionary_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SICKAG/sick_safevisionary_ros1-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_ros1.git
+      version: e8c4faab779b97a475f6b3f81e2d1cddf3b750bd
+    status: developed
   sick_scan:
     doc:
       type: git
@@ -10864,6 +10891,11 @@ repositories:
       url: https://github.com/SICKAG/sick_scan.git
       version: b44cd27a3d385e04bc098725d441fb6c42067eb9
     status: developed
+  sick_scan_xd:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_scan_xd.git
+      version: master
   sick_tim:
     doc:
       type: git
