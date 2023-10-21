@@ -521,7 +521,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: d7457d22796a123f86372d555dec92de0ba60e62
+      version: a28df0f77ddcea7915693f276b27147b75d2c07f
     status: developed
   boeing_gazebo_model_attachment_plugin:
     doc:
@@ -826,6 +826,32 @@ repositories:
       type: git
       url: https://github.com/ros/class_loader.git
       version: b1954d413aac64cfd65ba8cf2768da62455cb4cd
+    status: maintained
+  clearpath_msgs:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_msgs.git
+      version: noetic-devel
+    release:
+      packages:
+      - clearpath_configuration_msgs
+      - clearpath_control_msgs
+      - clearpath_dock_msgs
+      - clearpath_localization_msgs
+      - clearpath_mission_manager_msgs
+      - clearpath_mission_scheduler_msgs
+      - clearpath_msgs
+      - clearpath_navigation_msgs
+      - clearpath_platform_msgs
+      - clearpath_safety_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_msgs-release.git
+      version: 0.9.4-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_msgs.git
+      version: 71409720c6e1bad3010dfece44adeb067bdfdcec
     status: maintained
   clober:
     doc:
@@ -3050,7 +3076,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: c8ab2f6e971a21ecf74e9debeef0d74d1c24655d
+      version: a0f039b8c59beabdc739ea96fc7c5ad2c0bdc822
     status: developed
   gazebo_custom_sensor_preloader:
     doc:
@@ -3359,6 +3385,21 @@ repositories:
       url: https://github.com/adler-1994/gmcl.git
       version: 5c0326bf6b0e0d6e3ae6f223e58f7997f0a42b76
     status: developed
+  gnsstk:
+    doc:
+      type: git
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/gnsstk-release.git
+      version: release/noetic/gnsstk
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/gnsstk-release.git
+      version: 14.0.0-7
+    source:
+      type: git
+      url: https://github.com/SGL-UT/gnsstk.git
+      version: c4b1b21124a093a1ee8f19c09b9d258d4a6d12aa
+    status: maintained
   gpp:
     doc:
       type: git
@@ -3725,11 +3766,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros4hri/hri_msgs-release.git
-      version: 0.8.0-1
+      version: 0.9.0-1
     source:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
-      version: 656369a06488fee4917a6590f90d2c0549659668
+      version: af932969047b47c802c2c4d4d20a38716e134af1
     status: developed
   hri_rviz:
     doc:
@@ -5085,11 +5126,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/locator_ros_bridge-release.git
-      version: 1.0.9-3
+      version: 1.0.10-1
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: 55b3db08f97d6a93c4d269db35058282370a7ac6
+      version: d2fcd63accb8e6e274fbd9c558d62de53376a47b
     status: maintained
   log_view:
     doc:
@@ -6020,7 +6061,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.10.2-1
+      version: 2.11.0-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -7077,7 +7118,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nobleo/paho.mqtt.c-release.git
-      version: 1.3.12-1
+      version: 1.3.13-1
     source:
       test_commits: false
       type: git
@@ -10858,6 +10899,21 @@ repositories:
       url: https://github.com/SICKAG/sick_safetyscanners.git
       version: 6b7c1db252cb29193499535338497c5a33d8ea69
     status: developed
+  sick_safevisionary_base:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_base.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SICKAG/sick_safevisionary_base-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_base.git
+      version: 241f524654b09c73cf3c3d5983170c0daf951c3f
+    status: developed
   sick_safevisionary_ros1:
     doc:
       type: git
@@ -11485,7 +11541,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: 871316c464b7d44520303a4e54e3d3be4502dbb4
+      version: 5c3cfeae30d149b48ce4a11d5cb6e22f5949fd29
     status: developed
   tf2_client:
     doc:
@@ -12280,7 +12336,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: c75b063d6be00580dfb589f70d22f1f4bfb921c0
+      version: 8b0ad17880de6a57c5338e2d88f9b0b0d4d4a880
     status: maintained
   visp_ros:
     doc:

@@ -311,21 +311,6 @@ repositories:
       url: https://github.com/ros/angles.git
       version: 54ad72b0ce473a2e1d98da447898bf2fcd36519f
     status: maintained
-  apex_containers:
-    doc:
-      type: git
-      url: https://gitlab.com/ApexAI/apex_containers.git
-      version: rolling
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/apex_containers-release.git
-      version: 0.0.4-4
-    source:
-      type: git
-      url: https://gitlab.com/ApexAI/apex_containers.git
-      version: 977af427eabb27c3a18e17c604c1f8a29170457d
-    status: developed
   apex_test_tools:
     doc:
       type: git
@@ -589,7 +574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: d7457d22796a123f86372d555dec92de0ba60e62
+      version: a28df0f77ddcea7915693f276b27147b75d2c07f
     status: developed
   bno055:
     doc:
@@ -711,11 +696,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/catch_ros2-release.git
-      version: 0.1.0-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/ngmor/catch_ros2.git
-      version: 42e1a8cdd1776d4fd0b3e48623435a8f8efcff5d
+      version: 83469c091b6cb0f8a7b37184036b09ae82c82928
     status: maintained
   class_loader:
     doc:
@@ -2955,7 +2940,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.10.2-1
+      version: 2.11.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3517,7 +3502,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
-      version: 0c96b783a3900b5d0c2042518edce10fe6c95e2e
+      version: 0db93611f15d05206484ab1fe5600e74a10cce56
     status: maintained
   pcl_msgs:
     release:
@@ -7351,7 +7336,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: c75b063d6be00580dfb589f70d22f1f4bfb921c0
+      version: 8b0ad17880de6a57c5338e2d88f9b0b0d4d4a880
     status: maintained
   vitis_common:
     doc:
