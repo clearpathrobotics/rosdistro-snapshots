@@ -342,7 +342,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: cc655ad6e3dadb19658276f7476dad5e92f05144
+      version: b5e6e567284bce818b60815cd5643782f2bd9710
     status: maintained
   apriltag_msgs:
     release:
@@ -574,7 +574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: a28df0f77ddcea7915693f276b27147b75d2c07f
+      version: f3dbcc53ef0c08181720fbab34d489eca07a5863
     status: developed
   bno055:
     doc:
@@ -1485,7 +1485,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -2171,12 +2171,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/joystick_drivers-release.git
-      version: 3.2.0-1
+      version: 3.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/joystick_drivers.git
-      version: a5adee5e1e997269e38feebef7ca888b23d69a73
+      version: 038a12722bac3983d7fee462ad074a8f18c7bd5f
     status: maintained
   kdl_parser:
     doc:
@@ -2493,7 +2493,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: 8bf9a5833447cd8f910a9325be7a12b0956b6644
+      version: 868b5bd0d8c7131f9535ac1182187062342b1e00
     status: maintained
   log_view:
     doc:
@@ -2858,7 +2858,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 73f4551d68f9e5d7109974743929efc0a940b315
+      version: 87e3f9169ac9e179bd9b95014c13d319e25e853b
     status: developed
   moveit_msgs:
     doc:
@@ -2940,7 +2940,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.1-1
+      version: 2.11.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -4196,7 +4196,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 45fc9520216013007c2d4f3bd69d778af9051aa3
+      version: 1b79535fa07fcc77c873adf5261308dac7a821ce
     status: maintained
   rcl_interfaces:
     doc:
@@ -4296,7 +4296,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: fcbe64cff4bea3109531254ceb2955dc4b1bb320
+      version: 2204e44305636a3603a4c4b41ed625d7a90193a1
     status: maintained
   rclpy:
     doc:
@@ -4312,7 +4312,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: df92d9e27c3d62bb764ab512ff7e1c53d93c9af1
+      version: fe8f4a19f0daf264e3f2becc1c5de0959c1560f5
     status: maintained
   rcpputils:
     doc:
@@ -4524,7 +4524,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 184a0172e27142b27173f4ad60c6a28530b837d8
+      version: fc2c137ef53f3dbb00e006b61d4471ca9b178cb5
     status: developed
   rmf_internal_msgs:
     doc:
@@ -4707,7 +4707,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
-      version: eb7d8f385038006bec1da72a0e6da40b4e1cc6a5
+      version: bd08feb8505bf5a9845330fd0abf3e7c7401d990
     status: developed
   rmf_visualization_msgs:
     doc:
@@ -4964,7 +4964,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: bd6911d663abb687dc956bf19a104d03648f8985
+      version: 4e78813e4d0db96639f3480876c2b01fb3d22c50
     status: developed
   ros2_controllers:
     doc:
@@ -6551,7 +6551,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/teleop_twist_keyboard.git
-      version: 56a72ff47aa8e3a88fb19ff6f2464807e986a9a1
+      version: 5b482196752b5ae15a5036d113ba109e84830494
     status: maintained
   tensorrt_cmake_module:
     doc:
@@ -7027,7 +7027,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: c4d8d6138e09d3be3737f9b047a459c259075da2
+      version: b28a8700ffe3994f5c0ddb165762db88a8957bb3
     status: developed
   urdf:
     doc:

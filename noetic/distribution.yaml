@@ -150,7 +150,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aprilrobotics/apriltag.git
-      version: cc655ad6e3dadb19658276f7476dad5e92f05144
+      version: b5e6e567284bce818b60815cd5643782f2bd9710
     status: maintained
   apriltag_ros:
     doc:
@@ -521,7 +521,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: a28df0f77ddcea7915693f276b27147b75d2c07f
+      version: f3dbcc53ef0c08181720fbab34d489eca07a5863
     status: developed
   boeing_gazebo_model_attachment_plugin:
     doc:
@@ -853,6 +853,25 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_msgs.git
       version: d89271056403b230152211a3b2aba245903ccca4
     status: maintained
+  clearpath_onav_examples:
+    doc:
+      type: git
+      url: https://github.com/cpr-application/clearpath_onav_examples.git
+      version: main
+    release:
+      packages:
+      - clearpath_onav_api_examples
+      - clearpath_onav_api_examples_lib
+      - clearpath_onav_examples
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_onav_examples-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/cpr-application/clearpath_onav_examples.git
+      version: e0efc6ad487d20074e769f77d19c68372f026253
+    status: maintained
   clober:
     doc:
       type: git
@@ -1052,7 +1071,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
-      version: af9c1554fabf820d350672a3fffcc48d6bfb59ed
+      version: 31c1cc10ce52b43da2644b88a92889a08d5d7b5a
     status: maintained
   cob_control:
     doc:
@@ -1672,7 +1691,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.3.3-1
+      version: 2.3.4-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
@@ -2988,7 +3007,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.7.2-1
+      version: 0.7.3-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -4520,7 +4539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: 077fe950f438f9de1756dc114c735d6bfecf9cb0
+      version: 03052c7d3221603c70cae3fd54d44afedca92afb
     status: developed
   jsk_roseus:
     doc:
@@ -4846,12 +4865,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/leo_common-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/LeoRover/leo_common.git
-      version: 5ab5cd12b55a4876fa4d17702e9807fd6a976b18
+      version: 12923d9bfea6c60b3a848345caad5d4fa03bd7b2
     status: maintained
   leo_desktop:
     doc:
@@ -4870,7 +4889,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LeoRover/leo_desktop.git
-      version: 6d92077d10e6b4259b97f41514785b9eb8cd6cf6
+      version: bffa1d96424f6869482470fcfbe85fd99274268f
     status: maintained
   leo_examples:
     doc:
@@ -4909,7 +4928,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot.git
-      version: 6111162fd7b5ae88b646944279d75860fe6f0034
+      version: cefe69da600c63707b2f68441e1947f8bc71afef
     status: maintained
   leo_simulator:
     doc:
@@ -5997,7 +6016,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: bc24d06c2f4e811d95e922f3100f3813d8e35bbd
+      version: de136e77bfacf2e8c90ac58eaba68ca73f2d313f
     status: developed
   mpc_local_planner:
     doc:
@@ -6061,7 +6080,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.11.1-1
+      version: 2.11.2-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
@@ -6451,7 +6470,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
-      version: 26b99ff728b9b49bd433826e873a877b37be2e3c
+      version: e632876e4f06b1dfe5e8eedbfac41c6b04d991c2
     status: developed
   neonavigation_msgs:
     doc:
@@ -6964,7 +6983,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 1.6.0-1
+      version: 1.6.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
@@ -8916,7 +8935,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/robot_state_publisher.git
-      version: bd2a7c6528b4850e3d1cfd4ec55f5798e87d6388
+      version: 9afecc81119decb3535bb461d234193e796e68ff
     status: maintained
   robot_upstart:
     doc:
@@ -9168,7 +9187,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_control-release.git
-      version: 0.19.6-1
+      version: 0.20.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
