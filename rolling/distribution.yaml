@@ -342,7 +342,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: b5e6e567284bce818b60815cd5643782f2bd9710
+      version: 13df0412034f51d23121243c5b8b11e0b27fd445
     status: maintained
   apriltag_msgs:
     release:
@@ -1504,7 +1504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 7131103b4e31208bb541ddab0378da2dc37f004e
+      version: 60dc8bd09023c3dc4ab13f06d88fd657c9c2a168
     status: maintained
   fuse:
     doc:
@@ -1827,7 +1827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: b5d19fb446c1bb7e04b06a1a1d5e73d9ea8a525c
+      version: ba23e45722c0fa4ca81e66fe71bf670d7493bfbf
     status: developed
   gz_ros2_control:
     doc:
@@ -1915,7 +1915,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: a6ad0ae7007f740fc92d55f92a5b0bca753b5309
+      version: 6a77ff63d99b888bf6a074467ae298a79ef45150
     status: developed
   iceoryx:
     release:
@@ -2493,7 +2493,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: 868b5bd0d8c7131f9535ac1182187062342b1e00
+      version: 04dea249eff075004b49969f9cc94957a475a68d
     status: maintained
   log_view:
     doc:
@@ -2858,7 +2858,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 87e3f9169ac9e179bd9b95014c13d319e25e853b
+      version: 09019d277993a4d2b9a2d48ea99110c27b8e70a6
     status: developed
   moveit_msgs:
     doc:
@@ -3366,6 +3366,17 @@ repositories:
       url: https://github.com/gstavrinos/odom_to_tf_ros2.git
       version: bd9a8be9b819fdc59d8f3e7926901d0dba63fe5b
     status: maintained
+  odri_master_board_sdk:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
+      version: master
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
+      version: e8276b888ee6fa698869f77fad949c2d7eea82d2
+    status: developed
   ompl:
     release:
       tags:
@@ -4296,7 +4307,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 2204e44305636a3603a4c4b41ed625d7a90193a1
+      version: fff009a75100f2afd8ef1c3863620bf5ebe67708
     status: maintained
   rclpy:
     doc:
@@ -4964,7 +4975,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 4e78813e4d0db96639f3480876c2b01fb3d22c50
+      version: 082a66f839b762d170042a4583048dafa2d9c3a9
     status: developed
   ros2_controllers:
     doc:
@@ -5000,7 +5011,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b65314d6fcb0d57b3c86e7bf3b05baa4ccdb984f
+      version: 6e4605316ab63c8407f58f40884bebc90ca0b2be
     status: developed
   ros2_kortex:
     doc:
@@ -5059,7 +5070,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-      version: 8e4025879957a7568afd870c1063010464bd3249
+      version: 29ce3986c9ff66d597e78a2f8d699fcd5446dd79
     status: maintained
   ros2_socketcan:
     doc:
@@ -6102,7 +6113,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: bd95f1fdf17136d987cf8621dcf7646e00cb28ff
+      version: 01df29780a7d90917b9d927bf09a931d1e57f223
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7127,7 +7138,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/urdfdom_headers.git
-      version: 1fd21b64ed78493508a174f98af982605d1e4607
+      version: aedc2f08310e74d00c5eadefd07461fa52890fbb
     status: maintained
   urg_c:
     doc:
@@ -7336,7 +7347,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: fa84fee5a826d05993ee93ae658335ee083422fd
+      version: a2ddf0ca76c593529fbb038ededd27bc7e79a5df
     status: maintained
   vitis_common:
     doc:
@@ -7472,7 +7483,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/xacro.git
-      version: e242db8c3d2c4493bb92cca50e561f41b68a1b69
+      version: ce628cc078ed853647dd76cda1f928bfc167dbb7
     status: maintained
   yaml_cpp_vendor:
     release:
