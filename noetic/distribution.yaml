@@ -3121,7 +3121,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/gazebo_ros_control_select_joints.git
-      version: b8daf2807476245c5c02a7c869b8c0487a3d4602
+      version: 8b7f521564cfdb72dde3e125d3afa113426f98c0
     status: maintained
   gazebo_ros_pkgs:
     doc:
@@ -6085,7 +6085,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: c421202ba01bbc7a4ec5ec7747f2af82b3a083dd
+      version: 1651dcb104e8be394b6717b15bb72fbf6c4f81b4
     status: developed
   mrpt_msgs:
     doc:
@@ -6471,7 +6471,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
-      version: 44a5f47bc58c5a28b3e70b16665dcf4ce64f9a0f
+      version: 1658de5162af65a32e6d7d45ebd4634c8de8cd25
     status: developed
   neonavigation_msgs:
     doc:
@@ -8515,7 +8515,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_reason_clients_ros.git
-      version: a1f7993aa2712abe350d65e52564725a72ffd974
+      version: 140c1f871c9692f4534493c9c7f4ff3699ca56d5
     status: developed
   rc_visard:
     doc:
@@ -10972,6 +10972,16 @@ repositories:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git
       version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SICKAG/sick_scan_xd-release.git
+      version: 3.0.3-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_scan_xd.git
+      version: 7b6fe8423a1a97783904c6e7e291cbc4c56b8bed
+    status: developed
   sick_tim:
     doc:
       type: git
