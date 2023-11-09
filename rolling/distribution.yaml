@@ -588,7 +588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: c3e78eeb8aecd9c4699d49bcac694b9bf0bc83e7
+      version: 79cdc9076c579e630dd02a1a2e637b4f4ece0d9f
     status: developed
   bno055:
     doc:
@@ -946,7 +946,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 2827ae6833687bb5d6ac7e491e1cbc777f5a8f85
+      version: cad665e70f55a8cd32ac03a65a23979cfaff37f0
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1103,7 +1103,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: dca98c431cfa971f36363fef129f826371e17f68
+      version: 4b65d2f2c115514da5dddeea3128a187c29605c3
     status: developed
   ecl_core:
     doc:
@@ -1236,7 +1236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: bbf50e68e3c08e8f96c5b1b9cad47f234bd8e982
+      version: e7bd407983b6bce5f5d6bc5176761abac4fb8a8a
     status: maintained
   event_camera_codecs:
     doc:
@@ -1266,7 +1266,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: 9f5f93d4d6e47e53491f2bd3fe373bc4fc966d27
+      version: cadd0f65627c2e4b281205e3a331f2700065fca8
     status: developed
   event_camera_py:
     doc:
@@ -2418,6 +2418,26 @@ repositories:
       url: https://github.com/ros2/launch_ros.git
       version: bc609787102ae1c0b8ad2ee9dbecf0165a9108a2
     status: maintained
+  leo_common:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_common-ros2.git
+      version: rolling
+    release:
+      packages:
+      - leo
+      - leo_description
+      - leo_msgs
+      - leo_teleop
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/leo_common-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_common-ros2.git
+      version: 956fb740b848a176cab49eb891bf8fb049ae0a83
+    status: maintained
   lgsvl_msgs:
     release:
       tags:
@@ -2428,6 +2448,16 @@ repositories:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: 0e5e7bd3660dcd25fefef44bef093cd034875769
+  libcaer_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_driver.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_driver.git
+      version: c7a4fe3bd83bbe5f9ebf1376e36e5d1cedc29a31
+    status: developed
   libg2o:
     release:
       tags:
@@ -2507,7 +2537,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: 04dea249eff075004b49969f9cc94957a475a68d
+      version: main
     status: maintained
   log_view:
     doc:
@@ -2958,7 +2988,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 02dd54047f92e0b6eb4221c5b80eb4b2d3d29869
+      version: aebf74be971c11b8d8c1cc1edcbda82de0d0e984
     status: developed
   mrpt_msgs:
     doc:
@@ -4268,7 +4298,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_logging.git
-      version: 014239dd80ab3de2a847af80f23d24da6438ecb7
+      version: 1af4e495f6faceafcd72e9c0b80e373fb901d26b
     status: maintained
   rcl_logging_rcutils:
     doc:
@@ -4404,7 +4434,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 3b5344a7e15ec9257fbc1a7f7c859db478fc31d9
+      version: 645cc02577bf12932e335e7103fea292444fccb1
     status: maintained
   reach:
     source:
@@ -4921,6 +4951,11 @@ repositories:
       url: https://github.com/ros/robot_state_publisher.git
       version: f96c09bd4269597ed55206d45b8efab0d7df2673
     status: maintained
+  robotont_msgs:
+    doc:
+      type: git
+      url: https://github.com/robotont/robotont_msgs.git
+      version: ros2-rolling-devel
   ros1_bridge:
     doc:
       type: git
@@ -6127,7 +6162,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 6245af471095939c5ed0b1450349c42665b516db
+      version: a83d8195a16cdcdbd417938cb8d3a30b4c826b12
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
