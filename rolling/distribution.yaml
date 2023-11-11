@@ -1262,7 +1262,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_msgs-release.git
-      version: 1.1.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
@@ -2438,6 +2438,24 @@ repositories:
       url: https://github.com/LeoRover/leo_common-ros2.git
       version: 956fb740b848a176cab49eb891bf8fb049ae0a83
     status: maintained
+  leo_desktop:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_desktop-ros2.git
+      version: rolling
+    release:
+      packages:
+      - leo_desktop
+      - leo_viz
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/leo_desktop-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_desktop-ros2.git
+      version: 1224f52775b90a8cabf470e85dc1344bfcded920
+    status: maintained
   lgsvl_msgs:
     release:
       tags:
@@ -2902,7 +2920,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 51dfbcc73751947341de11c16ef643df9ef33171
+      version: 76a488b54df4215500b3ef9f73b0b225e7802742
     status: developed
   moveit_msgs:
     doc:
@@ -2988,7 +3006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: aebf74be971c11b8d8c1cc1edcbda82de0d0e984
+      version: 8f76bb3df664c558624d9fb72599879006dac729
     status: developed
   mrpt_msgs:
     doc:
@@ -3915,7 +3933,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: a5d11aab3658a40b480354ada1916826ec0f6453
+      version: a974571ce552c14b25c042c9a1e8ad21d8eb4e45
     status: developed
   py_trees:
     doc:
@@ -5409,7 +5427,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: aa8cc02ecad3d6d19271a9dd303bb169741e9c72
+      version: abdc4081c1743bfa966274edbd66b7eade3e9659
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5450,7 +5468,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 910163bd2d55f5693279487a4338a40e193aab02
+      version: 692f41a8a2eebff5b3d1c72c1846577ad7949bcc
     status: developed
   rosidl:
     doc:
@@ -6078,7 +6096,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 5c0d774be5024abbb859e8707e52aaf274e80b17
+      version: 5f277449c025725b4e06c0f1f51900044da123af
     status: developed
   rt_manipulators_cpp:
     doc:
