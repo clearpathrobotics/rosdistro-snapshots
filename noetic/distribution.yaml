@@ -150,7 +150,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aprilrobotics/apriltag.git
-      version: 35f4e83f0ec8d383e12631717c5736542e48bf88
+      version: ebdb2017e04b8e36f7d8a12ce60060416a905e12
     status: maintained
   apriltag_ros:
     doc:
@@ -433,7 +433,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 3931d41771643a1240e5571b23075df10ac4ed4a
+      version: 0e2a63b0a4e5430c745dbe5eaccccc0b519979d5
     status: maintained
   backward_ros:
     doc:
@@ -517,7 +517,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.3.6-2
+      version: 4.4.1-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
@@ -866,7 +866,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_onav_examples-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/cpr-application/clearpath_onav_examples.git
@@ -1045,7 +1045,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.32-1
+      version: 0.6.33-1
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1067,7 +1067,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_common-release.git
-      version: 0.7.8-1
+      version: 0.7.9-1
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
@@ -1136,7 +1136,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.7.14-1
+      version: 0.7.15-1
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -1945,12 +1945,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.22.0-1
+      version: 2.23.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-core.git
-      version: 22db6498f9812e9e875ecff1405802d7b5ce46c5
+      version: 49199477905521f46e2d501b4c865b74a187f1f8
     status: developed
   depthai-ros:
     doc:
@@ -2435,7 +2435,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: a3423fdacbe938f64c97dd2513d650eda42b9e09
+      version: c3ed9c8c59a399fe511d7dec41074ce86db68274
     status: maintained
   electronic-io:
     doc:
@@ -3095,7 +3095,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: a0f039b8c59beabdc739ea96fc7c5ad2c0bdc822
+      version: 6bb62336ce4630608e382a6f1ec1adec07ee3396
     status: developed
   gazebo_custom_sensor_preloader:
     doc:
@@ -3160,7 +3160,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nlamprian/gazebo_video_monitors-release.git
-      version: 0.7.0-1
+      version: 0.7.1-2
     source:
       type: git
       url: https://github.com/nlamprian/gazebo_video_monitors.git
@@ -3764,7 +3764,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 7b128e4d8d08bcadb2290ad839213c15371396f1
+      version: 3374066fd2ad16a91e8a84b26188b77e1583e16d
     status: maintained
   hri_actions_msgs:
     release:
@@ -4510,7 +4510,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.15-3
+      version: 0.3.15-4
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
@@ -4533,10 +4533,11 @@ repositories:
       - jsk_recognition_msgs
       - jsk_recognition_utils
       - resized_image_transport
+      - sound_classification
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 1.2.15-1
+      version: 1.2.17-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -5062,7 +5063,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
-      version: 61ff6cdb3244865fe735f992b96985e538bb7883
+      version: b59b13671658910fc453a4a6bbd61f13ba6e83cc
     status: developed
   libsick_ldmrs:
     doc:
@@ -5249,11 +5250,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.9.3-1
+      version: 0.9.4-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 3437129f30c926e740ae5943cef27cd0b836c4be
+      version: 677636ec430912e75f07554259de6331660d8fc7
     status: maintained
   mapviz:
     doc:
@@ -5274,7 +5275,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 73f27e29d82c9f46a14108be82e03193d07ccee3
+      version: d6fe4b8e97f83f9334ba324920ca7d2ac253d06d
     status: developed
   marker_msgs:
     doc:
@@ -5408,7 +5409,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.6.1-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
@@ -5858,7 +5859,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 8d914a56bdbdd798cef6227757dbc8b44ae301dc
+      version: 172e377e08e80a924c06805b6f9f2827c4eb9e97
     status: maintained
   moveit_calibration:
     doc:
@@ -5919,6 +5920,7 @@ repositories:
     release:
       packages:
       - moveit_resources
+      - moveit_resources_dual_panda_moveit_config
       - moveit_resources_fanuc_description
       - moveit_resources_fanuc_moveit_config
       - moveit_resources_panda_description
@@ -5931,7 +5933,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
@@ -6467,7 +6469,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.16.0-1
+      version: 0.17.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
@@ -7154,7 +7156,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse/paho.mqtt.cpp.git
-      version: 94efd557b423be65e3a3cfe2fb4dc2d0a2c07d06
+      version: e9db86fa794aaff151cced229135fe0854588995
     status: maintained
   pal_statistics:
     doc:
@@ -7485,7 +7487,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.7.1-1
+      version: 3.7.1-2
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -9048,6 +9050,15 @@ repositories:
       url: https://github.com/robotraconteur/robotraconteur.git
       version: e9754dc8e39574d5774f612fc759970a07f08cb4
     status: maintained
+  rocky_tf_monitor:
+    doc:
+      type: git
+      url: https://github.com/rkoyama1623/rocky_tf_monitor.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/rkoyama1623/rocky_tf_monitor.git
+      version: c388057593d2c1ebc1189d94cd80799b873883ca
   ros:
     doc:
       type: git
@@ -10605,7 +10616,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rviz.git
-      version: d4fbc3cb3ad23814d9d003ebabb2a3d78885a049
+      version: b466cb9d21a78170d9031cbbc7cc5ecc9886af52
     status: maintained
   rviz_animated_view_controller:
     doc:
@@ -12376,7 +12387,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: a2ddf0ca76c593529fbb038ededd27bc7e79a5df
+      version: c44db1aa9e120b1083855cc405c4accaddf37886
     status: maintained
   visp_ros:
     doc:
@@ -12439,7 +12450,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MoffKalast/vizanti.git
-      version: 3685c6a6b66421dd1deafb9231888385313ba540
+      version: ebdec464e49f79f879c81612c1230aa905921869
     status: maintained
   vl53l1x_ros:
     doc:
