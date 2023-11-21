@@ -1929,7 +1929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: b6d148f1043b243835808712f16026735ba6ea2e
+      version: 529fd187285f5bca536fc5d0f9f5bc0c5f1dae33
     status: developed
   iceoryx:
     release:
@@ -2206,7 +2206,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/kdl_parser.git
-      version: 33600eddf316e4d42034160f9491eca76c4194ff
+      version: 68f4715c678867b4c0a52ea2ec41e53b1f188e7a
     status: maintained
   keyboard_handler:
     doc:
@@ -2222,7 +2222,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-tooling/keyboard_handler.git
-      version: 70705d48fe7c7766b36687fd655abc69b00420b5
+      version: 9139839d4ad40eb3e0ce9dcddc2937cec35cd2a2
     status: developed
   kinematics_interface:
     doc:
@@ -2236,7 +2236,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kinematics_interface-release.git
-      version: 0.1.0-2
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
@@ -2456,6 +2456,25 @@ repositories:
       url: https://github.com/LeoRover/leo_desktop-ros2.git
       version: 1224f52775b90a8cabf470e85dc1344bfcded920
     status: maintained
+  leo_robot:
+    doc:
+      type: git
+      url: https://github.com/LeoRover/leo_robot-ros2.git
+      version: rolling
+    release:
+      packages:
+      - leo_bringup
+      - leo_fw
+      - leo_robot
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/leo_robot-release.git
+      version: 1.4.0-1
+    source:
+      type: git
+      url: https://github.com/LeoRover/leo_robot-ros2.git
+      version: 16af7d583f84653d509afdd8293fe6b563cc41e0
+    status: maintained
   lgsvl_msgs:
     release:
       tags:
@@ -2576,7 +2595,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/nobleo/magic_enum-release.git
-      version: 0.9.4-1
+      version: 0.9.5-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -2920,7 +2939,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: e064a8497a72b7e417f911fa2b4cb87d7c809a59
+      version: 83ff55a4adb5ab1c4b0813e1220e4b3242190c88
     status: developed
   moveit_msgs:
     doc:
@@ -3006,7 +3025,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 5416b69a1a09dc51c3979cddcf09c38295d7faa5
+      version: 9a3e0b12840b1e1669406c321815e3ac5df83dcd
     status: developed
   mrpt_msgs:
     doc:
@@ -3794,7 +3813,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
-      version: 0b3b709a9a8638fd6ba9eb9b0dd76b658ffbee3c
+      version: a4dddb9ded81237738bd1f8f82cd3ee99346318e
     status: maintained
   point_cloud_msg_wrapper:
     doc:
@@ -4197,7 +4216,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_genicam_api.git
-      version: 3262e47d0f878ff32cae0bcb6ee095130b576774
+      version: 96763c3d12615541e77801df9b3a94ea4636eb7e
     status: developed
   rc_genicam_driver:
     doc:
@@ -5042,7 +5061,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: cf405bc3d3ad6c999a35a98faccf871a9b00c008
+      version: 2056d6c2152db3d03cb8af8daf739ca194302f11
     status: developed
   ros2_controllers:
     doc:
@@ -5078,7 +5097,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: d9a6bb43e312d8d74e52eddfb700e5249c18f4f5
+      version: 6d4fb2d9c5dc44751a19b277054ffb570406eebc
     status: developed
   ros2_kortex:
     doc:
@@ -5659,7 +5678,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
-      version: 3262fb3c2440102efcd2e506cc186dd05edd9fc3
+      version: d8b858e140a27b9e478fd08d6ca4ecc8a5811ddb
     status: developed
   rospy_message_converter:
     doc:
@@ -6243,7 +6262,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.3.1-2
+      version: 1.3.2-1
     source:
       test_pull_requests: true
       type: git
@@ -6275,11 +6294,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.7.2-1
+      version: 1.8.0-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: c7456e18bb32745ec90deca537506bf3cdbec32a
+      version: 533f401c84f0a5bba2c0d6a3929d0022d3d817d9
     status: maintained
   slider_publisher:
     doc:
@@ -7064,7 +7083,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 2.2.1-1
+      version: 2.2.2-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
@@ -7535,7 +7554,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: b0361c09c13e070be76d85aa89d9d0794b6d2a0b
+      version: b65c5aea7fc203b25125b96c918f7624aa2002c4
     status: maintained
   xacro:
     doc:
