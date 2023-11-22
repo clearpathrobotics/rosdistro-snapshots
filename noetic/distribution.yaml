@@ -521,7 +521,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 11e9d1a4d5099be011aa89a95feb1a6bfd88fced
+      version: 3d1b117f1c20ed9d6004f8cd046bb8068c1efc9b
     status: developed
   boeing_gazebo_model_attachment_plugin:
     doc:
@@ -1631,6 +1631,21 @@ repositories:
       url: https://github.com/ctu-vras/cras_imu_tools.git
       version: 5b534ffcdbb1fa07e2e015432452a0801f2091fe
     status: maintained
+  cras_joy_tools:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/cras_joy_tools.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/cras_joy_tools.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/cras_joy_tools.git
+      version: 808f6ed9a3a47b02154142c7a39755c9bf999f8a
+    status: maintained
   cras_laser_geometry:
     doc:
       type: git
@@ -1691,11 +1706,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.3.4-1
+      version: 2.3.5-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 770e4b26df2e5120e0f72f5295e0298c9941d450
+      version: f1ffc0691a1f6747c2eea2cfebc692b676e70b55
     status: developed
   create_robot:
     doc:
@@ -2795,6 +2810,13 @@ repositories:
       url: https://github.com/UbiquityRobotics/fiducials.git
       version: 6c09104dd183925549e73825d50123ba5339d258
     status: maintained
+  fields2cover:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/Fields2Cover/fields2cover-release.git
+      version: 1.2.1-1
+    status: developed
   fields2cover_ros:
     doc:
       type: git
@@ -3403,6 +3425,25 @@ repositories:
       type: git
       url: https://github.com/adler-1994/gmcl.git
       version: 5c0326bf6b0e0d6e3ae6f223e58f7997f0a42b76
+    status: developed
+  gnss-info:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/gnss-info.git
+      version: master
+    release:
+      packages:
+      - gnss_info
+      - gnss_info_msgs
+      - gnsstk_ros
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/gnss-info.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/gnss-info.git
+      version: a711ace5aad298adc9c2dbeaf120092f6a473b90
     status: developed
   gnsstk:
     doc:
@@ -5859,7 +5900,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 172e377e08e80a924c06805b6f9f2827c4eb9e97
+      version: d8e0a72e9a69202521aad251a9fa8e2696d8934e
     status: maintained
   moveit_calibration:
     doc:
@@ -6019,7 +6060,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 2bb60436d85baa613a6fb0b7961d4109872cf0a7
+      version: a15c4755bfb7b4e079ab6bf1e18327d12d554a54
     status: developed
   mpc_local_planner:
     doc:
@@ -6087,7 +6128,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 9a3e0b12840b1e1669406c321815e3ac5df83dcd
+      version: 9fe58d91147220698a6fa0578249d05bafcc9477
     status: developed
   mrpt_msgs:
     doc:
@@ -7439,7 +7480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PilzDE/pilz_robots.git
-      version: 94ac916b39cbf1070fee66e44a9f5556af215caa
+      version: 52884e5c58fe4d35832e9012dbfcbc625a5169e4
     status: end-of-life
   pincher_arm:
     doc:
@@ -9168,7 +9209,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: 030e132884d613e49a576d4339f0b8ec6f75d2d8
+      version: 845f74602c7464e08ef5ac6fd9e26c97d0fe42c9
     status: maintained
   ros_comm_msgs:
     doc:
@@ -10600,7 +10641,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: e9ce6a74adf8247d6a519750f6bade5c920ebdd4
+      version: 3269c322687ab53571078db02970a999f6738989
     status: developed
   rviz:
     doc:
@@ -11001,7 +11042,7 @@ repositories:
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git
-      version: 7b6fe8423a1a97783904c6e7e291cbc4c56b8bed
+      version: e5f72060256a61a0aaf7d1f17a78529a6e951c34
     status: developed
   sick_tim:
     doc:

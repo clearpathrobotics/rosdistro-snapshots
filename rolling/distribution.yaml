@@ -588,7 +588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 11e9d1a4d5099be011aa89a95feb1a6bfd88fced
+      version: 3d1b117f1c20ed9d6004f8cd046bb8068c1efc9b
     status: developed
   bno055:
     doc:
@@ -730,7 +730,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/class_loader.git
-      version: 7a6f3212d91b74bd62548b7a164d6a1d58054ce4
+      version: baab370515c2dc9c338668dc45a3fe4fbba4e56a
     status: maintained
   classic_bags:
     doc:
@@ -1103,7 +1103,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 0f41b3acc9705c642fb4f79dec01d30c2b7b5a4f
+      version: e406c3b9728ed53f3853733b835de15f6dac5270
     status: developed
   ecl_core:
     doc:
@@ -1383,6 +1383,13 @@ repositories:
       url: https://github.com/eProsima/Fast-DDS.git
       version: 12bb5b3662229490f8bc6c934c766efb92124023
     status: maintained
+  fields2cover:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/Fields2Cover/Fields2Cover-release.git
+      version: 1.2.1-1
+    status: developed
   filters:
     doc:
       type: git
@@ -2416,7 +2423,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: bc609787102ae1c0b8ad2ee9dbecf0165a9108a2
+      version: b84db65eae1a543e9512c96c99a59de4e3666ea0
     status: maintained
   leo_common:
     doc:
@@ -2493,7 +2500,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
-      version: fdf0ec032e7f1e6f217e820631e8d93cab96e8de
+      version: b31a07d82949eddbf7e7a9b2088dc6540a1182b0
     status: developed
   libg2o:
     release:
@@ -2939,7 +2946,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 83ff55a4adb5ab1c4b0813e1220e4b3242190c88
+      version: beec33dd05adfd0bfd8a58ebec49a90eea89f0ef
     status: developed
   moveit_msgs:
     doc:
@@ -2977,7 +2984,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: 3d6a737f95fb7e5f3cfdc306d12b0bb6cbdadfb2
+      version: 7162dcd1b93178bac166081425863413c27ed9ed
     status: developed
   moveit_visual_tools:
     doc:
@@ -3025,7 +3032,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 9a3e0b12840b1e1669406c321815e3ac5df83dcd
+      version: 9fe58d91147220698a6fa0578249d05bafcc9477
     status: developed
   mrpt_msgs:
     doc:
@@ -4705,7 +4712,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: 86a2c5a507d98f39bb96f349e66c433cc5d594e0
+      version: 8a4dbce784e35de3b7873ea78ff094c9068f1860
     status: developed
   rmf_traffic:
     doc:
@@ -5057,11 +5064,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 3.21.0-1
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 2056d6c2152db3d03cb8af8daf739ca194302f11
+      version: 99d2f61b53c3be1181c36557edd8b28b309bf86f
     status: developed
   ros2_controllers:
     doc:
@@ -5093,11 +5100,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 3.17.0-1
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 6d4fb2d9c5dc44751a19b277054ffb570406eebc
+      version: 0d3fc520831d10d4c1d16784e7378c2a0bf7b10f
     status: developed
   ros2_kortex:
     doc:
@@ -5119,7 +5126,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: a2f018ab8c39e97fe91f57c27b8e59852b029da4
+      version: 740d21b5650a74104fb8c5afb56f7b6f055cdb83
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -6174,7 +6181,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: e9ce6a74adf8247d6a519750f6bade5c920ebdd4
+      version: 3269c322687ab53571078db02970a999f6738989
     status: developed
   rviz:
     doc:
@@ -6269,6 +6276,21 @@ repositories:
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
       version: 99c49ae67da6712ecbb9b83c9bbee5c16b0e38a3
     status: maintained
+  sick_safevisionary_base:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_base.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safevisionary_base-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_base.git
+      version: 241f524654b09c73cf3c3d5983170c0daf951c3f
+    status: developed
   simple_actions:
     doc:
       type: git
@@ -7124,7 +7146,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 202a70c5f8f67c9e3ee2723084c0170a5a1050ae
+      version: d77db8355ce1e2c5ecacb94a9616777789d26e38
     status: developed
   urdf:
     doc:
