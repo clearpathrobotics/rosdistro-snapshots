@@ -2921,7 +2921,7 @@ repositories:
     source:
       type: git
       url: https://github.com/avidbots/flatland.git
-      version: 69f5a1abff6e726f4e5f5cbe1744a28052e9ea42
+      version: 432bad13667b79715641cca91a78f7807feb4bc5
     status: maintained
   flexbe:
     doc:
@@ -3166,7 +3166,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: 398cde933cba5d72921055d57d4faa47c4445654
+      version: f9e1a4607842afa5888ef01de31cd64a1e3e297f
     status: maintained
   gazebo_video_monitors:
     doc:
@@ -3805,7 +3805,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 529fd187285f5bca536fc5d0f9f5bc0c5f1dae33
+      version: 28dfce0013c52b1fb302601c0983499793975083
     status: maintained
   hri_actions_msgs:
     release:
@@ -6060,7 +6060,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: a15c4755bfb7b4e079ab6bf1e18327d12d554a54
+      version: 836d196d2c61161164a971358786065ce1e3967d
     status: developed
   mpc_local_planner:
     doc:
@@ -7197,7 +7197,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse/paho.mqtt.cpp.git
-      version: 9635a5157ca9016b402eeaf21f5879c47fb1c0c8
+      version: 4ef3cdb165c65a9bf895b98ffe681967262e4546
     status: maintained
   pal_statistics:
     doc:
@@ -7437,7 +7437,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PilzDE/pilz_common.git
-      version: c4d6f2a413179ac5ca529da0e95887d58e9678f0
+      version: 9f36ed4cdb987f887044171b4e55ac82bb4a460a
     status: developed
   pilz_industrial_motion:
     doc:
@@ -7455,7 +7455,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PilzDE/pilz_industrial_motion.git
-      version: 27398536c21e50aeca821de1b6992f7a204d1d75
+      version: becf6615ebdecd256a77aadd47bae6efa304e2dd
     status: end-of-life
     status_description: The pilz planner has been integrated into moveit. See https://moveit.ros.org/documentation/planners/
   pilz_robots:
@@ -7480,7 +7480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PilzDE/pilz_robots.git
-      version: 52884e5c58fe4d35832e9012dbfcbc625a5169e4
+      version: c8c310c497df9f658787a6633d736dfabfbba4f3
     status: end-of-life
   pincher_arm:
     doc:
@@ -7528,11 +7528,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.7.1-2
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: ee678b0198fdf400ba65d3a8673b2cc0725f32a9
+      version: a5246dc88ca9b59d009cc9e4550ae2fac53a222d
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -8024,7 +8024,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PilzDE/prbt_grippers.git
-      version: 0e24b015c41f590d7745d9682deef65374b78404
+      version: f23462f83e32458618d9ea66d0927afcc55e054c
     status: maintained
   prosilica_driver:
     doc:
@@ -8069,7 +8069,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
-      version: 68b7b3063cf0c44afc510b5259b083a4f761ee17
+      version: fd597a7d1577ac7d2f840ca657de64d4cc65ea10
     status: developed
   py_trees:
     doc:
@@ -9956,8 +9956,8 @@ repositories:
     release:
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/nobleo/rplidar_ros-release.git
-      version: 2.0.0-1
+      url: https://github.com/Slamtec/rplidar_ros-release.git
+      version: 2.1.5-1
     source:
       type: git
       url: https://github.com/Slamtec/rplidar_ros.git

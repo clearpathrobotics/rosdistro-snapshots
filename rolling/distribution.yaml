@@ -1103,7 +1103,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: e406c3b9728ed53f3853733b835de15f6dac5270
+      version: 833157a5be53a2753df591120b250a275ed94b91
     status: developed
   ecl_core:
     doc:
@@ -1236,7 +1236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: bb3a42b74451c26f2065019c6d8415a18f142bea
+      version: 3153dcfc613740f2a3c09b46dd35ff82f89f4702
     status: maintained
   event_camera_codecs:
     doc:
@@ -1936,7 +1936,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 529fd187285f5bca536fc5d0f9f5bc0c5f1dae33
+      version: 28dfce0013c52b1fb302601c0983499793975083
     status: developed
   iceoryx:
     release:
@@ -2552,7 +2552,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 16149bedc30827af33e86d35832163ab8e9aee63
+      version: 85e7956ccf02b6eebb79891cfc5db568ac070f68
     status: developed
   libyaml_vendor:
     release:
@@ -2749,7 +2749,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 9c4934e6cf761dd6a92e6fa44adbb47bfa180285
+      version: 431bd99f5193ea5d18f84ae143088dea6a43b8ec
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -2946,7 +2946,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: beec33dd05adfd0bfd8a58ebec49a90eea89f0ef
+      version: 468130d9b348f3bd7627e9d802b69e1ab5917ec6
     status: developed
   moveit_msgs:
     doc:
@@ -3774,7 +3774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: ee678b0198fdf400ba65d3a8673b2cc0725f32a9
+      version: a5246dc88ca9b59d009cc9e4550ae2fac53a222d
     status: developed
   plotjuggler_msgs:
     doc:
@@ -3959,7 +3959,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 15cde910722fd74e08ce7aafadd9a1e7755cc148
+      version: c87a28ffce9d84bc6b14513037ed3c170c5949a0
     status: developed
   py_trees:
     doc:
@@ -4541,7 +4541,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: 3a7ddd288d18bcb3e44ef0e5e892b199dfbe8bb1
+      version: 97615ea61a44d749c7b1362add5171f48a5c943c
     status: maintained
   rig_reconfigure:
     release:
@@ -5042,7 +5042,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 90cd582f11ecafa5184781e049f406a32715d7a3
+      version: 7687f3276107d81f52e1f961566942508eb07d85
     status: developed
   ros2_control:
     doc:
@@ -5126,7 +5126,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 740d21b5650a74104fb8c5afb56f7b6f055cdb83
+      version: eac70d1588e1324e0ec86e9ba328b73e4d53857d
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5163,7 +5163,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-      version: 29ce3986c9ff66d597e78a2f8d699fcd5446dd79
+      version: 1ec8f2a9c692d714f5a255795105c63ea127c543
     status: maintained
   ros2_socketcan:
     doc:
@@ -5402,7 +5402,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: fd1321ccef28c9054740e3015910b7b9ee5bb0e3
+      version: 1cf517803d9ada30624ffca48aff06efedea3755
     status: maintained
   ros_workspace:
     release:
@@ -6206,7 +6206,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 90505712fc904ccd85eb00e94d938a48a532ee5e
+      version: 8691d3b0a4342c93cc99227999d6b86af549a4e1
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6274,7 +6274,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: 99c49ae67da6712ecbb9b83c9bbee5c16b0e38a3
+      version: 9bf12569be820492f35a178cf80f6222c7b0e236
     status: maintained
   sick_safevisionary_base:
     doc:
@@ -6290,6 +6290,25 @@ repositories:
       type: git
       url: https://github.com/SICKAG/sick_safevisionary_base.git
       version: 241f524654b09c73cf3c3d5983170c0daf951c3f
+    status: developed
+  sick_safevisionary_ros2:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_ros2.git
+      version: main
+    release:
+      packages:
+      - sick_safevisionary_driver
+      - sick_safevisionary_interfaces
+      - sick_safevisionary_tests
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safevisionary_ros2-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safevisionary_ros2.git
+      version: a35077d812d9f06651959af045a3bfb25c4e8a26
     status: developed
   simple_actions:
     doc:
@@ -6320,7 +6339,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 533f401c84f0a5bba2c0d6a3929d0022d3d817d9
+      version: 75457e3d5da4d9f128684f8a6a57c220f990ae10
     status: maintained
   slider_publisher:
     doc:
@@ -6804,7 +6823,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: main
+      version: rolling
     release:
       packages:
       - topic_tools
