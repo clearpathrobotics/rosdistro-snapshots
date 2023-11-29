@@ -584,11 +584,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.4.1-1
+      version: 4.4.2-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 3d1b117f1c20ed9d6004f8cd046bb8068c1efc9b
+      version: 557dbc06dc0ec2ab9c1695c9225ff402e6b9d83a
     status: developed
   bno055:
     doc:
@@ -1103,7 +1103,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 743384ce687940d3343418f495b21d0eb0f13070
+      version: 6e77c5b2b54037834d4ea0fc5186258a830ea83f
     status: developed
   ecl_core:
     doc:
@@ -1595,7 +1595,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: 87c8dd8ca74bbb9a79c1ce2d5966fb706210324e
+      version: 79fd94c6da76781a91499bc0f54b70560b90a9d2
     status: maintained
   gc_spl:
     doc:
@@ -1848,7 +1848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 1121ece0eb16324c8e1da5247f5abc62a611252e
+      version: 5d563b5ea5658a4e463535edc38443031556c0d3
     status: developed
   gz_ros2_control:
     doc:
@@ -1936,7 +1936,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: ce5e23aebbb021a369e8a2c1274eb0ecd056a3a0
+      version: 17c6864efa9277b13491b7964d1bd7c771429fac
     status: developed
   iceoryx:
     release:
@@ -1951,7 +1951,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
-      version: b225f3ab6922b141719d5e22dad48679386b6be0
+      version: 8e271ddee0b3b304abf128196266bd3e12c70636
     status: developed
   ifm3d_core:
     release:
@@ -2492,6 +2492,16 @@ repositories:
       type: git
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: 0e5e7bd3660dcd25fefef44bef093cd034875769
+  libcaer:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer.git
+      version: ros_event_camera
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer.git
+      version: afc8349d180fa61682b154a5bdda453589b77528
+    status: developed
   libcaer_driver:
     doc:
       type: git
@@ -2946,7 +2956,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: f5d8afdf5d6b500c6ceb53270db0f2a1f928f51c
+      version: 7e83fe642fc60af037bf43e7c0dfa7cbfd16c036
     status: developed
   moveit_msgs:
     doc:
@@ -3032,7 +3042,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 71493583de9d8d8741154f2d2334273f43376f32
+      version: a63489da4d88d6ccf00e63281b8da5294bae4f94
     status: developed
   mrpt_msgs:
     doc:
@@ -3759,7 +3769,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 97a00a983e66fc0a58667f9671e2d806ba9b730b
+      version: 0c12ba505ae015b26394183ac86a632150126f80
     status: developed
   plotjuggler:
     doc:
@@ -3770,11 +3780,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.7.1-2
+      version: 3.8.2-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 07be60ca96342ddb19a5cf39280bcac2e741777e
+      version: 289b1fcefc3794826ceb5499e29aea5ab2c866dd
     status: developed
   plotjuggler_msgs:
     doc:
@@ -3804,7 +3814,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
-      version: 5ab3a6213400e6e881687266c732d6ccc380fd9c
+      version: e629cd6a1244b4c14402272ea1c04977a9a1b136
     status: developed
   pluginlib:
     doc:
@@ -4694,7 +4704,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: 4bc0797080826befc5f8e49662151499a73ebe14
+      version: 53dcf3fc9c02cf26207047eb0949a6e3874b1b2f
     status: developed
   rmf_task:
     doc:
@@ -5126,7 +5136,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 4c35d2c2c0b7d0905755f44eeebee2bfe2b3a570
+      version: 2f3f0564b630bece2c221d323bb1c5a41373cef2
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5204,7 +5214,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 0041e07e034538f7fa99cdcbe7c2d2c83dc1d272
+      version: b82e6bd286fbe34f861da763c497e98c8ad9fac6
     status: developed
   ros2acceleration:
     doc:
@@ -5453,7 +5463,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 9855072566f8fb46a2bdd20cc217d1a0c2b03e82
+      version: 542bda34358d03acf3c15228a60859e62f5b69ba
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6831,11 +6841,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/topic_tools-release.git
-      version: 1.0.0-2
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: f73df4aed3e6c472b378f644e7cee9ba8f7d0048
+      version: 03984ac7349e4ce55539de8b18be7927f572b04e
     status: developed
   tracetools_acceleration:
     doc:
@@ -7652,7 +7662,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 351f5020cd9140309f81c5cfb3c535efbd697a51
+      version: 55a13855ab0d698b0e7cd078588950d867de9d99
     status: developed
   zmqpp_vendor:
     doc:
