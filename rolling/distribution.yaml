@@ -1375,13 +1375,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.11.2-1
+      version: 2.12.1-1
     source:
       test_commits: true
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 12bb5b3662229490f8bc6c934c766efb92124023
+      version: d9942336fa211092077e05a5c79824816f84ec65
     status: maintained
   fields2cover:
     release:
@@ -1848,7 +1848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 5d563b5ea5658a4e463535edc38443031556c0d3
+      version: 6f89bd8ddfb7b9f0686b99b9a8f653db28851b0d
     status: developed
   gz_ros2_control:
     doc:
@@ -2956,7 +2956,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 81094a63898ace7829687d2d6aa3ccb3cdd81b58
+      version: bddab3f19b7c5fe7292b7313b84b8348fdf3dcdb
     status: developed
   moveit_msgs:
     doc:
@@ -4305,7 +4305,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 13c0cbb7b0e8ad2f1572ac5e21181e565f76545a
+      version: 246fd1de5c073e60573abb014a787f012a241419
     status: maintained
   rcl_interfaces:
     doc:
@@ -5078,7 +5078,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 65353ffecccec18186a45cc2d9615b53d5a375bc
+      version: 587dffbb67eec710478de238a9ad4a4cbf7c87f1
     status: developed
   ros2_controllers:
     doc:
@@ -5114,7 +5114,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b6841ead459f6efb76153e8474a3f5443d48d2b2
+      version: fcc0847958c17a942e2b233d3bea1ab2d2ac05dc
     status: developed
   ros2_kortex:
     doc:
@@ -5136,7 +5136,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 2f3f0564b630bece2c221d323bb1c5a41373cef2
+      version: 0923cbf3d4409b5bf5f97ee74ec43661c3743633
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5214,7 +5214,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: b82e6bd286fbe34f861da763c497e98c8ad9fac6
+      version: 2081c064efdbfc04f94654b9ca261d93fe2b0423
     status: developed
   ros2acceleration:
     doc:
@@ -5463,7 +5463,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 1a52da8c06ec65838db6b90e3c85624197106f90
+      version: 0f3ebfe61783b35348fa642cc50b30e2a6c5163f
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6635,7 +6635,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: c200dd3074643ba3681ed27c422e7581054fa5eb
+      version: 8e2c7efabc122f4ca9af4d283e326715cad48277
     status: developed
   tango_icons_vendor:
     release:
@@ -7066,7 +7066,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 6915d3d00573bb04756237cf740d6a85558a8d01
+      version: 76f1e6a8cda7aeb3b92a655eb1c8bb66049dc4a7
     status: maintained
   udp_msgs:
     doc:
@@ -7123,7 +7123,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 3e25ffc6f2a9cf05768dd2e2dc5e01c2d7fedc93
+      version: 914e68cd82661b304284b4751fb3b1c5763db761
     status: developed
   ur_description:
     doc:

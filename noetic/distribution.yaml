@@ -201,11 +201,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/aruco_opencv-release.git
-      version: 0.3.1-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/fictionlab/aruco_opencv.git
-      version: c24d451c642e62bb3328b7cd9fe20ce995619229
+      version: 481a07068d411e6635cbb3a8fc115eab9c155955
     status: developed
   aruco_ros:
     doc:
@@ -3627,7 +3627,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 5d563b5ea5658a4e463535edc38443031556c0d3
+      version: 6f89bd8ddfb7b9f0686b99b9a8f653db28851b0d
     status: developed
   haf_grasping:
     doc:
@@ -4532,11 +4532,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.4.4-2
+      version: 0.4.5-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
-      version: c44989a17a281313741b02cb9e877705e6418fd7
+      version: cfaab19d1b3422fc15efe9d663ed585ea4838d2a
     status: developed
   jsk_pr2eus:
     doc:
@@ -5900,7 +5900,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 47aa486c0522feb91f93478da77f20bdd5e59983
+      version: 4d1a1645b32efc3b129b786397b1a981277a2872
     status: maintained
   moveit_calibration:
     doc:
@@ -12054,7 +12054,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 3e25ffc6f2a9cf05768dd2e2dc5e01c2d7fedc93
+      version: 914e68cd82661b304284b4751fb3b1c5763db761
     status: developed
   ur_msgs:
     doc:
