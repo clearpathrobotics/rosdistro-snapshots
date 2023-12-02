@@ -3023,11 +3023,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: 3dbcedbe61c312026aab4cf74afccaa4db690cd7
+      version: e3ddc380be2dbe6aa9a4950bf794f6f7d8d577c3
     status: maintained
   mrpt2:
     doc:
@@ -3176,7 +3176,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: b40e9866fd00685692ff114d18fc3474663bacf5
+      version: c693159dda0a5dcd3585dc1692559220dc2102d6
     status: developed
   navigation_msgs:
     doc:
@@ -3577,6 +3577,25 @@ repositories:
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
       version: ef5db238daaf89fe25b18bf9c67b3ec74a4fbc3e
     status: maintained
+  ouster-ros:
+    doc:
+      type: git
+      url: https://github.com/ouster-lidar/ouster-ros.git
+      version: rolling-devel
+    release:
+      packages:
+      - ouster_ros
+      - ouster_sensor_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ouster-ros-release.git
+      version: 0.11.1-4
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ouster-lidar/ouster-ros.git
+      version: 81387dbb4c93dd0819e0f214b9461efa01b57c75
+    status: developed
   ouxt_common:
     doc:
       type: git
@@ -4405,7 +4424,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 26f6efa840cbac047a93dc21d055cfe9cde7270f
+      version: a19ad2134b17d4f00dc600aed4d897bb7b32b77f
     status: maintained
   rclpy:
     doc:
@@ -5074,7 +5093,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.0.0-1
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -5110,11 +5129,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.0.0-1
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: fcc0847958c17a942e2b233d3bea1ab2d2ac05dc
+      version: 23f944f26e7e21764be3acdb6610cd59866c9bfc
     status: developed
   ros2_kortex:
     doc:
@@ -7228,7 +7247,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_parser_py.git
-      version: 9c8ab87a9c7457bd9e9851ff86c78ada161c9e7e
+      version: 7ca2810717eca40426b126296c06aaae5604fd7f
     status: maintained
   urdf_tutorial:
     doc:
@@ -7484,7 +7503,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: e49493a3b6126588690e9734645ec1007b22949c
+      version: e4338fe9147cf14a9173c9922aa4c5bf11c75756
     status: maintained
   vitis_common:
     doc:
@@ -7662,7 +7681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 55a13855ab0d698b0e7cd078588950d867de9d99
+      version: ef24059a7abc46f5662530bc87fb01f007a34b50
     status: developed
   zmqpp_vendor:
     doc:
