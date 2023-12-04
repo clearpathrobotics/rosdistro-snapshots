@@ -1383,6 +1383,26 @@ repositories:
       url: https://github.com/eProsima/Fast-DDS.git
       version: d9942336fa211092077e05a5c79824816f84ec65
     status: maintained
+  ffmpeg_image_transport:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
+      version: 74c7b9bc5c26f51a255e3731d3d546dcf4bf6394
+    status: developed
+  ffmpeg_image_transport_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
+      version: 0874cf7effa49a2f6ceefe660f527bcb6e7e4715
+    status: developed
   fields2cover:
     release:
       tags:
@@ -3042,7 +3062,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 9ac18fb142b7547469088796d1bc875d241b83e7
+      version: 750c093be4e745434c88fcac86fabce3c8c71e61
     status: developed
   mrpt_msgs:
     doc:
@@ -3067,7 +3087,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: e1da862cc90bc6556d24ee1292675ce9193b9e4d
+      version: 46ad63ecf6b6777ce62d79f44859f259327e4c85
     status: developed
   mrpt_path_planning:
     doc:
@@ -5097,7 +5117,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 587dffbb67eec710478de238a9ad4a4cbf7c87f1
+      version: d68cc22f47e336abd178ba31be559fb03d7b599a
     status: developed
   ros2_controllers:
     doc:
