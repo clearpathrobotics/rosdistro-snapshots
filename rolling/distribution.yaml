@@ -1232,11 +1232,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 2.9.2-4
+      version: 3.1.4-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 4981f02f657c84a6c7f2039331be4713778ff7fe
+      version: 07186033acd2d6c84b7a438be6a2c48040d239d9
     status: maintained
   event_camera_codecs:
     doc:
@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: d9942336fa211092077e05a5c79824816f84ec65
+      version: e8464b6f903fc295fdf71f10626aba4ef453f997
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1391,7 +1391,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
-      version: 74c7b9bc5c26f51a255e3731d3d546dcf4bf6394
+      version: 13fb635381d8a9c494e6923f74dcb39946e232d6
     status: developed
   ffmpeg_image_transport_msgs:
     doc:
@@ -1401,7 +1401,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
-      version: 0874cf7effa49a2f6ceefe660f527bcb6e7e4715
+      version: bb006af21ebcbb76a6ed3a880e6be9591e8ae12a
     status: developed
   fields2cover:
     release:
@@ -1868,7 +1868,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 6f89bd8ddfb7b9f0686b99b9a8f653db28851b0d
+      version: 2b545499c2b40c05f6bbae82df9aa92b5cef5432
     status: developed
   gz_ros2_control:
     doc:
@@ -1952,7 +1952,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.3.0-4
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -1963,15 +1963,16 @@ repositories:
       packages:
       - iceoryx_binding_c
       - iceoryx_hoofs
+      - iceoryx_introspection
       - iceoryx_posh
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/iceoryx-release.git
-      version: 2.0.3-3
+      version: 2.0.5-3
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
-      version: 8e271ddee0b3b304abf128196266bd3e12c70636
+      version: e274957ac619cd9881687e688e3f8d1c28ff115c
     status: developed
   ifm3d_core:
     release:
@@ -2636,7 +2637,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: e55b9b54d5cf61f8e117cafb17846d7d742dd3b4
+      version: 48415f9ed0295aaed2057f4c09dc8007fbdae08e
     status: maintained
   mapviz:
     doc:
@@ -2976,7 +2977,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: bddab3f19b7c5fe7292b7313b84b8348fdf3dcdb
+      version: 7ab329dc3e6dfd7db4d08745d6214017237cf718
     status: developed
   moveit_msgs:
     doc:
@@ -3062,7 +3063,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 750c093be4e745434c88fcac86fabce3c8c71e61
+      version: f2b39bd77ec104253c910abdc9d7b41781ce4811
     status: developed
   mrpt_msgs:
     doc:
@@ -3142,7 +3143,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: e450a4d964eed1348ca6bde7daef409df97fcea1
+      version: ac26e4b6da17c0704fec33097e6c5ea2aa9a7d8d
     status: developed
   nao_button_sim:
     doc:
@@ -3804,11 +3805,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 2.6.17-4
+      version: 2.6.21-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 7809577be8076482bce91696fc55e0942a42449e
+      version: 9c2e38cb47125dbd1696f2ca530405ce5882e5fa
     status: developed
   plotjuggler:
     doc:
@@ -4288,7 +4289,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_genicam_driver_ros2.git
-      version: 40fa5991d7a46c8441915fbe36b68a73266bb36b
+      version: 5e7d5ca0bff28695ec06adb65e89492b513fba83
     status: developed
   rc_reason_clients:
     doc:
@@ -5117,7 +5118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: d68cc22f47e336abd178ba31be559fb03d7b599a
+      version: b8ba5c0d0e13c322ad49d99c3d29367ed87714fe
     status: developed
   ros2_controllers:
     doc:
@@ -5153,7 +5154,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 23f944f26e7e21764be3acdb6610cd59866c9bfc
+      version: 71b06d01c1374914b93f202c80182210b385fb5f
     status: developed
   ros2_kortex:
     doc:
@@ -5253,7 +5254,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 2081c064efdbfc04f94654b9ca261d93fe2b0423
+      version: 408c54bf8cecf59369e72887b17f028f10a40b06
     status: developed
   ros2acceleration:
     doc:
@@ -6171,7 +6172,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 5f277449c025725b4e06c0f1f51900044da123af
+      version: c1102028bfe710895b02f3f5cdc940d2f3aaca2b
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -6255,7 +6256,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: d7b56b84285a4510cdc7569a5f609a621ab0b698
+      version: 5b22898f81551f1c36533f56012a4d96d2388ea5
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7376,7 +7377,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: c052be03fe0bc067fdf0941394a62dcc81925ae8
+      version: 208b8492afc4bb526d7562b1cb3913ac354245ea
     status: maintained
   v4l2_camera:
     doc:
@@ -7523,7 +7524,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: e4338fe9147cf14a9173c9922aa4c5bf11c75756
+      version: 270d95e70ae5db8e0eca6fca32ae7e34d3865cca
     status: maintained
   vitis_common:
     doc:
