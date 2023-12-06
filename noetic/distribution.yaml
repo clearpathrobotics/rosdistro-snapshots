@@ -75,6 +75,16 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: 3558eb3c6c3e22d5dc93effa7c8adda8a4b284fa
     status: maintained
+  adi_tmcl:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/tmcl_ros.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/tmcl_ros.git
+      version: 5b5e9a6bf3e5256dc412343e7bad5a1b97a8b956
+    status: maintained
   agni_tf_tools:
     doc:
       type: git
@@ -433,7 +443,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: fcac541ed7367ce4da58b58a94dbe23baafa34f6
+      version: 4b530fb70701ad65408d9d84aec4ed0c09ab1cf8
     status: maintained
   backward_ros:
     doc:
@@ -2526,6 +2536,21 @@ repositories:
       url: https://github.com/bostoncleek/ergodic_exploration.git
       version: 4986ad4ff109a51c971b55d007f71f5de1eacf81
     status: developed
+  ess_imu_driver:
+    doc:
+      type: git
+      url: https://github.com/cubicleguy/ess_imu_driver.git
+      version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/cubicleguy/ess_imu_driver-release.git
+      version: 1.0.1-3
+    source:
+      type: git
+      url: https://github.com/cubicleguy/ess_imu_driver.git
+      version: d77685a840bdc0f39cbd19bfd86a84ab15fb12d8
+    status: maintained
   ess_imu_ros1_uart_driver:
     doc:
       type: git
@@ -3117,7 +3142,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 6bb62336ce4630608e382a6f1ec1adec07ee3396
+      version: 75ea820017b840c15790b32c3714363b3f80c148
     status: developed
   gazebo_custom_sensor_preloader:
     doc:
@@ -3805,7 +3830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 17c6864efa9277b13491b7964d1bd7c771429fac
+      version: 2a24da65a819c15b2b713961e799719d07113ae8
     status: maintained
   hri_actions_msgs:
     release:
@@ -4537,6 +4562,27 @@ repositories:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
       version: cfaab19d1b3422fc15efe9d663ed585ea4838d2a
+    status: developed
+  jsk_planning:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: master
+    release:
+      packages:
+      - jsk_planning
+      - pddl_msgs
+      - pddl_planner
+      - pddl_planner_viewer
+      - task_compiler
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/jsk_planning-release.git
+      version: 0.1.14-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: d4e8fee726da3d2aa68b6ae71e82c97ac036c799
     status: developed
   jsk_pr2eus:
     doc:
@@ -6128,7 +6174,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: f2b39bd77ec104253c910abdc9d7b41781ce4811
+      version: 23ed5e49d90b4ce1c8198a9e7db457775c879d50
     status: developed
   mrpt_msgs:
     doc:
@@ -6293,11 +6339,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.8.2-1
+      version: 0.8.3-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: ac26e4b6da17c0704fec33097e6c5ea2aa9a7d8d
+      version: 08c5f716ab774042e3577d0fad4492a28a16560f
     status: developed
   nao_meshes:
     release:
@@ -8324,7 +8370,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: ec018a4c7063b3f9d7a24f32d73b1428c450851e
+      version: a7a97e6978e3fb30c38082b0f1c7c779ae802fe5
     status: developed
   qt_gui_core:
     doc:
@@ -9571,6 +9617,12 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/eurogroep/rosbag_pandas-release.git
       version: 0.5.4-1
+    status: maintained
+  rosbag_rviz_panel:
+    source:
+      type: git
+      url: https://github.com/fada-catec/rosbag_rviz_panel.git
+      version: 7317d45b960d2d627d0f86272f04baaa99206cc0
     status: maintained
   rosbag_snapshot:
     doc:
@@ -11063,6 +11115,21 @@ repositories:
       type: git
       url: https://github.com/uos/sick_tim.git
       version: 557503908918a759c6e9508a92b14a1721ac062f
+    status: developed
+  sick_visionary_ros:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_visionary_ros.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/SICKAG/sick_visionary_ros-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_visionary_ros.git
+      version: 28962833fce1a3e24a179f6421a9d3a1aef0a8b8
     status: developed
   simple_grasping:
     doc:
