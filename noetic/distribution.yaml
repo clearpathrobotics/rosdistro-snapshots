@@ -531,7 +531,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: ae95e680ab3c58f1e773f05d6372c10f41b546e8
+      version: 17e5967bbea6914ecaca2b3635fcbb88da51a5fa
     status: developed
   boeing_gazebo_model_attachment_plugin:
     doc:
@@ -2513,7 +2513,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ensenso/ros_driver.git
-      version: 91e4d2b071f570196298df2e6cb329d8d65ec2bc
+      version: b3adb0a7d7ca62b1e37070ab8442ee376343c112
     status: developed
   er_public_msgs:
     release:
@@ -3652,7 +3652,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 2b545499c2b40c05f6bbae82df9aa92b5cef5432
+      version: 36f773670a06bea1f65e10ee221c34f10fe14c92
     status: developed
   haf_grasping:
     doc:
@@ -4843,7 +4843,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 33e797a5f4c3ac4cf4f63316fcd6965c9cf0cf57
+      version: a41d75b4332eb74920ffd9b5a4c49b7160ff413c
     status: maintained
   laser_assembler:
     doc:
@@ -5341,7 +5341,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 48415f9ed0295aaed2057f4c09dc8007fbdae08e
+      version: 804738ba8a33b7f5b14d1f4ea873c80e6588dcd9
     status: maintained
   mapviz:
     doc:
@@ -6106,7 +6106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 4cb121268f73465e6a2b11d8d9040172b2b3e6bb
+      version: 8f54a8d5928268b4d0b1c07438f0a2b56fd66813
     status: developed
   mpc_local_planner:
     doc:
@@ -6174,7 +6174,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 23ed5e49d90b4ce1c8198a9e7db457775c879d50
+      version: 5eb2e89fbcbfd3fa919ea4fca1ae39cf2e005032
     status: developed
   mrpt_msgs:
     doc:
@@ -7429,7 +7429,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
-      version: 1.0.7-1
+      version: 1.0.8-2
     source:
       test_pull_requests: true
       type: git
@@ -8370,7 +8370,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: a7a97e6978e3fb30c38082b0f1c7c779ae802fe5
+      version: c34d479d5ca812b8436498ebd190b5f13c77b5fa
     status: developed
   qt_gui_core:
     doc:
@@ -12030,6 +12030,17 @@ repositories:
       type: git
       url: https://github.com/continental/udp_com.git
       version: fe08f440726e5853391fcd90524336edb5dc34d9
+    status: maintained
+  udp_msgs:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/flynneva/udp_msgs-release.git
+      version: 0.0.4-1
+    source:
+      type: git
+      url: https://github.com/flynneva/udp_msgs.git
+      version: 122f9a1b4a18280c9859fe0d2c85c80cd68d0f35
     status: maintained
   ueye_cam:
     doc:
