@@ -588,7 +588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 17e5967bbea6914ecaca2b3635fcbb88da51a5fa
+      version: 49e8f304de5a866edfeb019279971f86734a5d44
     status: developed
   bno055:
     doc:
@@ -853,7 +853,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 3f77cba266ad27fd97273715389002165e46cfd9
+      version: 9cfbaa1711c169bf16801258dde2a4d29214477c
     status: maintained
   control_toolbox:
     doc:
@@ -868,7 +868,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 6efef0bfb5c1f7d1bff3ac4ab0226611a2a14dae
+      version: f6695573176c97202592f5fa1bcfe306756091f2
     status: maintained
   cpp_polyfills:
     release:
@@ -1236,7 +1236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: e0d784c95a592c87046aa237e50683182bd1442e
+      version: 0d63d8ce562b61039ccf162e1087ba5746fd4f61
     status: maintained
   event_camera_codecs:
     doc:
@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: de8d4044d163ae3282a70f0defe46199bb08c470
+      version: c8fc05d9bde24cd3fdb864188ad6971f90986605
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1593,7 +1593,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: f991075a672a26d42c49504e07f8dbb46dfcbb4a
+      version: 3c8f5bb4a4cc5eb01240afdbda9094f3ea3263ec
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1886,7 +1886,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: f87306e86a617beef2b72684ad0a0c741eed69df
+      version: 97afc20f20efa9c5b5623b7a940b18b24b658752
     status: maintained
   hash_library_vendor:
     doc:
@@ -1956,7 +1956,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: ecc79be97035c19987f53616e45111363351b020
+      version: 86d97039b3b49bd7256bce0a353c71d1286f5bf7
     status: developed
   iceoryx:
     release:
@@ -3188,16 +3188,15 @@ repositories:
       - nao_lola
       - nao_lola_client
       - nao_lola_command_msgs
-      - nao_lola_conversion
       - nao_lola_sensor_msgs
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nao_lola-release.git
-      version: 1.1.1-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: 233d0e0a168e5da47a1a830be6bca06239ee0705
+      version: fe48290f1b33a11aa260bcb7f22e15ffe587cdf9
     status: developed
   navigation_msgs:
     doc:
@@ -3710,7 +3709,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: e1fd3ae97c3698f8c490991b8539e5663300b762
+      version: 68cf856054263601947657be0f0100cb6f1f6197
     status: maintained
   performance_test_fixture:
     release:
@@ -3809,7 +3808,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 9c2e38cb47125dbd1696f2ca530405ce5882e5fa
+      version: e39b4cf769b36a4733418d8b212b620dbfb6f473
     status: developed
   plotjuggler:
     doc:
@@ -3824,7 +3823,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 289b1fcefc3794826ceb5499e29aea5ab2c866dd
+      version: 1b273fb70a9763e0714f3ce98e3c9323210ba329
     status: developed
   plotjuggler_msgs:
     doc:
@@ -4203,7 +4202,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/r2r_spl.git
-      version: 905b832b82097570422d1c04dc63d2c928180042
+      version: b2829bc0aed8642dbe0b59131b566d0ad4e51b1f
     status: developed
   radar_msgs:
     release:
@@ -4445,7 +4444,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: a19ad2134b17d4f00dc600aed4d897bb7b32b77f
+      version: d9b2744057b8fd230f2c71c739fcdf7e27219d85
     status: maintained
   rclpy:
     doc:
@@ -4572,7 +4571,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 443507dae09c9cc85309d1314ad87a61167f8320
+      version: 5209a125a4054032a5acc9864bb5da4520699a40
     status: maintained
   resource_retriever:
     doc:
@@ -5118,7 +5117,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: b8ba5c0d0e13c322ad49d99c3d29367ed87714fe
+      version: 562f36ddb615a70b54c71365393a8dc69508f52f
     status: developed
   ros2_controllers:
     doc:
@@ -5154,7 +5153,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 999eae5491a79f9734f8d5e4e18ffea3e7a04e2c
+      version: 0a96cbb513282880d2d64adfb8c3c8c0ffc84b5b
     status: developed
   ros2_kortex:
     doc:
@@ -5503,7 +5502,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 0f3ebfe61783b35348fa642cc50b30e2a6c5163f
+      version: 0fcc839d4363855fe4a5c8693b5e16dfd64b9b34
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6172,7 +6171,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 4dc8804e1b9aaebf272b9d7ef49ada35c087d88c
+      version: 608dd6eac63e77c19d89e20910bdb1f650967cc2
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -7702,7 +7701,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: 1c1c713e4476e7b4dc0fe8e6a0ee6624a51b729b
+      version: c7f91f6af1049ade8ddb635ff754b65b69f4cd27
     status: developed
   zmqpp_vendor:
     doc:
