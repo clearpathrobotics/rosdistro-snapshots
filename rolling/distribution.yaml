@@ -864,11 +864,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 3.1.0-1
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: f6695573176c97202592f5fa1bcfe306756091f2
+      version: ae7102b7ce0c03c510adaa2d86767cf91756665e
     status: maintained
   cpp_polyfills:
     release:
@@ -984,7 +984,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 0cc6cc6e4d797967a223395081256e43f6280d8b
+      version: b169c12768fd39fedda65bb34e0db057ccb0d13f
     status: maintained
   dolly:
     doc:
@@ -1236,7 +1236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 0d63d8ce562b61039ccf162e1087ba5746fd4f61
+      version: 1abad0c1a7c0e324f0b91abf0f2c1f4861cff31b
     status: maintained
   event_camera_codecs:
     doc:
@@ -1251,7 +1251,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: e04ff80616fd391a4fc62a746773e8727621dc8d
+      version: b43ef790e7ae0275be9fe6090e3511968feed025
     status: developed
   event_camera_msgs:
     doc:
@@ -1281,7 +1281,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
-      version: 441b31f5ee4cfd1e2eab3fbf0eb2a4d4423140fa
+      version: 2a3d5096b7de298e49ba1895ef701b1ddbdf3334
     status: developed
   event_camera_renderer:
     doc:
@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: c8fc05d9bde24cd3fdb864188ad6971f90986605
+      version: 36bc69d413e863af92c7562e56923461ab84bd15
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1530,7 +1530,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: d6bbb50f4d25bfe3fa1cf89f877a0256e7007042
+      version: efa1f0edcabed025c146ddb199544160390a4d85
     status: developed
   foxglove_msgs:
     doc:
@@ -2919,7 +2919,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 051ad7e415e1cefbd7db92eed669a5003369ede5
+      version: b9b2abe624904483a52b6e70a29b22224da32e4c
     status: developed
   moveit:
     doc:
@@ -2977,7 +2977,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 7e8431a855a11f90c245db9ac9ce36d907b81888
+      version: a7879726818667fd3e2c3e9036856aff0048103a
     status: developed
   moveit_msgs:
     doc:
@@ -3063,7 +3063,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 9b437e3547a9f983211dc659ef96dca02d750286
+      version: 9a0e167fcfc87f5ce6ecca3866ee0f0b28a97a9c
     status: developed
   mrpt_msgs:
     doc:
@@ -3088,7 +3088,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 46ad63ecf6b6777ce62d79f44859f259327e4c85
+      version: 6f5040885bb6ad6183977578a97a15cf9502445b
     status: developed
   mrpt_path_planning:
     doc:
@@ -3898,12 +3898,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: cf6f0dc43172181d2a0094c560389e146c18cac9
+      version: dd55394db3f69725ed9b661814a9abbcfc6b73eb
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -3920,12 +3920,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport_plugins-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: 9e013576886218b8337097a7f80244c8d2dfc4e1
+      version: fb77f5285120d8fe2745c850e69e51882371375f
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -4700,7 +4700,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: 4faeac1f6d271c0472a00ff049644739b2c02b36
+      version: 64cfc835cee0fb4792d3dfb9830a7e3be9dc3ef0
     status: developed
   rmf_ros2:
     doc:
@@ -4761,7 +4761,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: 8a4dbce784e35de3b7873ea78ff094c9068f1860
+      version: 8d91b71648c3bab04af7146730f9feb58f5d1d49
     status: developed
   rmf_traffic:
     doc:
@@ -4779,7 +4779,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: 68f2f9e6565d03d1a66e13aeae3337ca992e8b33
+      version: 1f4ddb5a1377f138c75b345b15e41ed27269671b
     status: developed
   rmf_traffic_editor:
     doc:
@@ -4799,7 +4799,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 90455dc3bb04a94ee9ee0c169f1257416e50da2d
+      version: 678b405efd80ec6e63d68992fa009c32a3792160
     status: developed
   rmf_utils:
     doc:
@@ -5113,11 +5113,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.1.0-1
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 562f36ddb615a70b54c71365393a8dc69508f52f
+      version: 331379665eea1b0538eb116f927421f441c3dc00
     status: developed
   ros2_controllers:
     doc:
@@ -5137,6 +5137,7 @@ repositories:
       - imu_sensor_broadcaster
       - joint_state_broadcaster
       - joint_trajectory_controller
+      - pid_controller
       - position_controllers
       - range_sensor_broadcaster
       - ros2_controllers
@@ -5149,11 +5150,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.1.0-1
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 0a96cbb513282880d2d64adfb8c3c8c0ffc84b5b
+      version: 2bcff2f87505bbc32fdfaa8a2938cecddcadc3f8
     status: developed
   ros2_kortex:
     doc:
@@ -5393,7 +5394,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 514d53c041e5b95c5e9a58275d12cd3a5ba9222a
+      version: 4b3ee9e7b5d57ab468f9e9a967ed50a19f7da0cc
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6255,7 +6256,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: ae8c885ada6a6497ea59c9a18fb4adb36746439e
+      version: de5e84f46527d1135e80979807adcd3f9de652c2
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6307,7 +6308,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/sdformat_urdf.git
-      version: 9f8898550e7406862493c78893c58b08bc4944cd
+      version: 89dd6a334544a7c20440b52a264abc0f80694020
     status: maintained
   septentrio_gnss_driver:
     doc:
@@ -6388,7 +6389,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 76c2ac0777630ccf69eb942f003dbb02e9373baf
+      version: fea8499c714325cd5c9f01deb0a0f4547816e1a0
     status: maintained
   slider_publisher:
     doc:

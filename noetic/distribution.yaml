@@ -542,6 +542,15 @@ repositories:
       type: git
       url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
       version: 7195b16f7d0469946d85714d7563f28a6425402b
+  boeing_gazebo_set_joint_positions_plugin:
+    doc:
+      type: git
+      url: https://github.com/Boeing/gazebo_set_joint_positions_plugin.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/Boeing/gazebo_set_joint_positions_plugin.git
+      version: 1f126b410815529d76fadee18ae0e8ff4c85e64b
   bond_core:
     doc:
       type: git
@@ -2444,7 +2453,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 4981f02f657c84a6c7f2039331be4713778ff7fe
+      version: 1abad0c1a7c0e324f0b91abf0f2c1f4861cff31b
     status: developed
   eiquadprog:
     doc:
@@ -3058,7 +3067,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: d6bbb50f4d25bfe3fa1cf89f877a0256e7007042
+      version: efa1f0edcabed025c146ddb199544160390a4d85
     status: developed
   foxglove_msgs:
     doc:
@@ -3069,7 +3078,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_msgs-release.git
-      version: 2.1.1-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
@@ -4816,7 +4825,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/beamaginelidar/l3cam_ros.git
-      version: 18af1d9b6636d93fbe6befd1e9882d64a9fa5ef8
+      version: bf89434a6ce8305e5a5fdb9cd2e218c9201f9389
     status: developed
   lanelet2:
     doc:
@@ -6106,7 +6115,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 0b12071a966a387aa92b084c78f9cb876971abe8
+      version: 6fa3331c1873d062e6d22d56bb604821986389e5
     status: developed
   mpc_local_planner:
     doc:
@@ -6174,7 +6183,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 9b437e3547a9f983211dc659ef96dca02d750286
+      version: 9a0e167fcfc87f5ce6ecca3866ee0f0b28a97a9c
     status: developed
   mrpt_msgs:
     doc:
@@ -8370,7 +8379,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 44ff9e99566c57fe1509b00bee68367af9aed66f
+      version: 6c2c9888be5d579b5dc0a345973577e3a6d0048e
     status: developed
   qt_gui_core:
     doc:
@@ -8947,12 +8956,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 2.7.4-1
+      version: 2.7.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 040dd17034d2fae55f99cc6d93598aeeb8b97b47
+      version: aeaf4eb3cbb06ad9da57fbe769939656760922fd
     status: developed
   robot_navigation:
     doc:
@@ -9619,6 +9628,11 @@ repositories:
       version: 0.5.4-1
     status: maintained
   rosbag_rviz_panel:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/fada-catec/rosbag_rviz_panel-release.git
+      version: 0.1.9-2
     source:
       type: git
       url: https://github.com/fada-catec/rosbag_rviz_panel.git
