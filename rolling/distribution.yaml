@@ -588,7 +588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 49e8f304de5a866edfeb019279971f86734a5d44
+      version: 1b16e254bf865c24d0545b223944cd4e7a7dc282
     status: developed
   bno055:
     doc:
@@ -2977,7 +2977,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: a7879726818667fd3e2c3e9036856aff0048103a
+      version: 8d2eb900d222f6609ee2588f6f5ebb97986635bd
     status: developed
   moveit_msgs:
     doc:
@@ -3063,7 +3063,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 9a0e167fcfc87f5ce6ecca3866ee0f0b28a97a9c
+      version: 8b5b45c4cb45ca157c5d68b54bea88ffaaaa25d2
     status: developed
   mrpt_msgs:
     doc:
@@ -3650,8 +3650,13 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
-      version: fe2a16711cad4346c16140a9bed3f7580277af19
+      version: 84313a64ee41d4a9f67dcbc226e4b41239dd9aaa
     status: maintained
+  pangolin:
+    source:
+      type: git
+      url: https://github.com/stevenlovegrove/Pangolin.git
+      version: d484494645cb7361374ac0ef6b27e9ee6feffbd7
   pcl_msgs:
     release:
       tags:
@@ -3769,7 +3774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/pick_ik.git
-      version: 3cf3437909e470462414efe48e984c1ca649f0e6
+      version: 87b4c60563b9d87c5de5c0336da32b3f99836bfa
     status: developed
   picknik_ament_copyright:
     release:
@@ -5117,7 +5122,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 331379665eea1b0538eb116f927421f441c3dc00
+      version: 836354681b242dd222b34a0c450c1167766a356b
     status: developed
   ros2_controllers:
     doc:
@@ -5154,7 +5159,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2bcff2f87505bbc32fdfaa8a2938cecddcadc3f8
+      version: 13a43c32b5b4d0040c96d4e192db4f1ed6d4f046
     status: developed
   ros2_kortex:
     doc:
@@ -5213,7 +5218,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-      version: 1ec8f2a9c692d714f5a255795105c63ea127c543
+      version: 61d6f67fdb0016f78ae15ccbe221e555719e5d0b
     status: maintained
   ros2_socketcan:
     doc:
@@ -5394,7 +5399,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 4b3ee9e7b5d57ab468f9e9a967ed50a19f7da0cc
+      version: 78d3398d5817c06d2bc0ecdaee77f3ab6735e4bf
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6289,7 +6294,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
-      version: b8de76261edd374ae7fd8a7568cd2d947125b7e7
+      version: 8c2c919d5ffee77c2c2ff10ac7dbb0e6bcc3e152
     status: maintained
   sdformat_urdf:
     doc:
