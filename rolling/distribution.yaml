@@ -556,7 +556,7 @@ repositories:
     source:
       type: git
       url: https://github.com/wep21/bag2_to_image.git
-      version: 1738c769cbb6a4bb58cc47bbc972cca31e8492de
+      version: c7e63a71fb4998afdcae9c73ea2fa89df9618d66
     status: maintained
   behaviortree_cpp_v3:
     doc:
@@ -1103,7 +1103,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 210d2367c9ec9adfac344a2a1acd39b16b38b87d
+      version: 28ef1a150bf7e27d0748c124d42a7381f72c4862
     status: developed
   ecl_core:
     doc:
@@ -2250,7 +2250,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-tooling/keyboard_handler.git
-      version: 9139839d4ad40eb3e0ce9dcddc2937cec35cd2a2
+      version: 16786c13f3221973d7648b341a84e28fd5347f80
     status: developed
   kinematics_interface:
     doc:
@@ -2583,7 +2583,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 85e7956ccf02b6eebb79891cfc5db568ac070f68
+      version: f2eba66cec175bb30eb1bd793a687cfcb669ee91
     status: developed
   libyaml_vendor:
     release:
@@ -2919,7 +2919,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: b9b2abe624904483a52b6e70a29b22224da32e4c
+      version: d37a9c95bca1d07f108ff60cebcd09a40b2d775a
     status: developed
   moveit:
     doc:
@@ -2977,7 +2977,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 8d2eb900d222f6609ee2588f6f5ebb97986635bd
+      version: 87d594540308d682b4b20ff4c0e967db5e7b7739
     status: developed
   moveit_msgs:
     doc:
@@ -3032,6 +3032,16 @@ repositories:
       url: https://github.com/ros-planning/moveit_visual_tools.git
       version: cecb7cb57789345cf1cbde56fcda93633ed5ce50
     status: maintained
+  mp2p_icp:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mp2p_icp.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mp2p_icp.git
+      version: 6efd9e680c38252fe2cbbfd380418c2bdb701d6d
+    status: developed
   mqtt_client:
     doc:
       type: git
@@ -3063,7 +3073,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 8b5b45c4cb45ca157c5d68b54bea88ffaaaa25d2
+      version: 5aa971cdc7c0cf83afe603a70ad89993d41aded7
     status: developed
   mrpt_msgs:
     doc:
@@ -3143,7 +3153,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 08c5f716ab774042e3577d0fad4492a28a16560f
+      version: 332e2692fbe45c329c830b33e2b668fd440c926c
     status: developed
   nao_button_sim:
     doc:
@@ -3813,7 +3823,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: e39b4cf769b36a4733418d8b212b620dbfb6f473
+      version: 2a15772bbacf2a17681a7e9fe276998c5adceadd
     status: developed
   plotjuggler:
     doc:
@@ -3824,11 +3834,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.8.2-1
+      version: 3.8.3-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 1b273fb70a9763e0714f3ce98e3c9323210ba329
+      version: 25dea896e4126baae69b362c8dc7cdb5af31097c
     status: developed
   plotjuggler_msgs:
     doc:
@@ -3854,7 +3864,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 1.7.3-5
+      version: 2.0.0-2
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -4428,7 +4438,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclc.git
-      version: d263be2057e39f1f702f014548c60f06b5a51333
+      version: f401871f40234613235655445861e6181032a34e
     status: developed
   rclcpp:
     doc:
@@ -4726,7 +4736,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: fb23496c3400eb6766de305a4c37b15f1c60e469
+      version: c1480c99a2c35dd30b4cbf2b8eec4e51fa7b00e4
     status: developed
   rmf_simulation:
     doc:
@@ -4804,7 +4814,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 678b405efd80ec6e63d68992fa009c32a3792160
+      version: 500a868335c060e8212bdea36188277ea69da755
     status: developed
   rmf_utils:
     doc:
@@ -5122,7 +5132,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 836354681b242dd222b34a0c450c1167766a356b
+      version: 9055b5b7dbe609eb3b8e351fa8e24bd399c4a7cc
     status: developed
   ros2_controllers:
     doc:
@@ -5549,7 +5559,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 692f41a8a2eebff5b3d1c72c1846577ad7949bcc
+      version: 412edaa617698ceae9aa27c018538e277fcb9274
     status: developed
   rosidl:
     doc:
@@ -7529,7 +7539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: dcfe00a5a67d145244b1d1d5ae1bfbf7eab7de37
+      version: b68f53afc8208238ed1660267176788fcf728a42
     status: maintained
   vitis_common:
     doc:
