@@ -3850,7 +3850,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros4hri/hri_actions_msgs.git
-      version: a73a45b225b85e5e79ecdf948292a60ca8d36c82
+      version: 85fef0f9edbc916aaaa0110468d151fb5635f1a2
   hri_msgs:
     doc:
       type: git
@@ -3864,7 +3864,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
-      version: af932969047b47c802c2c4d4d20a38716e134af1
+      version: dd03e79c0670ad8efa989012614b8b76df73102e
     status: developed
   hri_rviz:
     doc:
@@ -5955,7 +5955,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: d8e75620a81087418ffd285f0b00c1e3ed6c60d5
+      version: af2e9a35a460d092ef53a1b8f8400d7458952d8e
     status: maintained
   moveit_calibration:
     doc:
@@ -6115,7 +6115,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 66149a5a4cfd2a45a528b7e917d8410a98cbbafe
+      version: 3873ec116cee2b809b9be5f11386601467014a22
     status: developed
   mpc_local_planner:
     doc:
@@ -6183,7 +6183,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: d98721cba226c85e1d6a67d5767e8c105a9689d1
+      version: f720f8f0e60079aec75c80e4bd0213d7840f94dd
     status: developed
   mrpt_msgs:
     doc:
@@ -8347,7 +8347,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/qbrobotics/qbshin-ros.git
-      version: fffbb2fc51c2feb77888ca4ccf836546d34ad865
+      version: b11e910d61665779d58590c1067733f6566c5cd9
     status: developed
   qpoases_vendor:
     doc:
@@ -8754,7 +8754,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: 82a70328b83e915711ffc213f90f6f8d2836fd8b
+      version: 8a83c6bbfb04b87abccd64c05e05134adde15ab5
     status: maintained
   rgbd_launch:
     doc:
@@ -11586,7 +11586,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 01f4f8c3f9af83e91b6829dc53c84ab704febf79
+      version: 0ad3d2f31c4bd4feee6bfd0164775016f024f588
     status: developed
   teb_local_planner:
     doc:
@@ -12111,13 +12111,14 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
-      version: melodic
+      version: noetic
     release:
       packages:
       - universal_robots
       - ur10_moveit_config
       - ur10e_moveit_config
       - ur16e_moveit_config
+      - ur20_moveit_config
       - ur3_moveit_config
       - ur3e_moveit_config
       - ur5_moveit_config
@@ -12127,11 +12128,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/universal_robot-release.git
-      version: 1.3.1-1
+      version: 1.3.2-1
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
-      version: 6507bb6756d0065d49b76230ff55f875f099a827
+      version: 1c719dd15b79ae83a5bd6c1be46d712cbbf129ec
     status: developed
   ur_client_library:
     doc:
@@ -12176,11 +12177,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver-release.git
-      version: 2.1.2-1
+      version: 2.1.3-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
-      version: d1093927715116bff69bf0e8e7839c4dd9104301
+      version: ba05c02827ab014a69166806f0121e1510d4579e
     status: developed
   urdf:
     doc:
