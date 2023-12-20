@@ -567,11 +567,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp-release.git
-      version: 3.8.4-1
+      version: 3.8.6-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 61c55ed720e0630f211686b3830942ae27e90501
+      version: 04a514eecc0e02e38f8c104084f43a85f57fabd2
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -584,11 +584,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.4.2-1
+      version: 4.4.3-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 1b16e254bf865c24d0545b223944cd4e7a7dc282
+      version: db5789eaabc49c0c12692437bb50e5b3cc26153b
     status: developed
   bno055:
     doc:
@@ -1251,7 +1251,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: 7bd85206d1cab8357dd61dbae6a8f79e54c5c8b3
+      version: 2b1738e45a1f6321a9ede640e052842e7beac43a
     status: developed
   event_camera_msgs:
     doc:
@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: ca55d465862534fd0f83e935e6138bf677e96bb4
+      version: eae72fd3166406829bc34d14279eea2bf4ab2904
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1692,7 +1692,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
-      version: ec17adfe670f606e6381fca33048b029b55c8359
+      version: 256c46c9089bf606a0f21a96929782964820251b
     status: maintained
   geometry2:
     doc:
@@ -1956,7 +1956,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 86d97039b3b49bd7256bce0a353c71d1286f5bf7
+      version: c0dce16cb14fbbceea83f90b1f117a057636e77b
     status: developed
   iceoryx:
     release:
@@ -2977,7 +2977,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 0807cb254d01abdc4f60247d2c322e1aead71d35
+      version: 0e1e3768b05c370202ec697dfbc8d3718094311a
     status: developed
   moveit_msgs:
     doc:
@@ -3040,7 +3040,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 3873ec116cee2b809b9be5f11386601467014a22
+      version: 69d4655388abe583cfe01943eac28e934f978299
     status: developed
   mqtt_client:
     doc:
@@ -3073,7 +3073,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: f720f8f0e60079aec75c80e4bd0213d7840f94dd
+      version: 05292fedb05cf672b407b0e35a8fb8326bdd4064
     status: developed
   mrpt_msgs:
     doc:
@@ -3660,7 +3660,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
-      version: 84313a64ee41d4a9f67dcbc226e4b41239dd9aaa
+      version: 1b0436abb14292ca434e62bddfbed57e185cccfb
     status: maintained
   pangolin:
     source:
@@ -3724,7 +3724,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 68cf856054263601947657be0f0100cb6f1f6197
+      version: 3abea0800a4947682aa7b19b1f3540a867f6d030
     status: maintained
   performance_test_fixture:
     release:
@@ -4459,7 +4459,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: d9b2744057b8fd230f2c71c739fcdf7e27219d85
+      version: 2bb1dc2c716ae12a24145891724f8436aa4e52bd
     status: maintained
   rclpy:
     doc:
@@ -4711,7 +4711,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
-      version: 3.2.0-1
+      version: 3.2.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
@@ -4724,6 +4724,7 @@ repositories:
       version: main
     release:
       packages:
+      - rmf_charging_schedule
       - rmf_fleet_adapter
       - rmf_fleet_adapter_python
       - rmf_task_ros2
@@ -4732,7 +4733,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.3.2-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -4772,7 +4773,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.3.2-1
+      version: 2.3.3-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
@@ -7539,7 +7540,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b68f53afc8208238ed1660267176788fcf728a42
+      version: 8ef760d0e37c8bfb31a13d0f8384384106c90201
     status: maintained
   vitis_common:
     doc:

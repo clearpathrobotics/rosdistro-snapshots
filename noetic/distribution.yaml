@@ -510,11 +510,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/BehaviorTree/behaviortree_cpp_v3-release.git
-      version: 3.8.5-1
+      version: 3.8.6-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 61c55ed720e0630f211686b3830942ae27e90501
+      version: 04a514eecc0e02e38f8c104084f43a85f57fabd2
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -527,11 +527,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.4.2-1
+      version: 4.4.3-2
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 1b16e254bf865c24d0545b223944cd4e7a7dc282
+      version: db5789eaabc49c0c12692437bb50e5b3cc26153b
     status: developed
   boeing_gazebo_model_attachment_plugin:
     doc:
@@ -3839,7 +3839,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 86d97039b3b49bd7256bce0a353c71d1286f5bf7
+      version: c0dce16cb14fbbceea83f90b1f117a057636e77b
     status: maintained
   hri_actions_msgs:
     release:
@@ -5955,7 +5955,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: af2e9a35a460d092ef53a1b8f8400d7458952d8e
+      version: 286f6b3bb4d89475e5300b4260946e631d212237
     status: maintained
   moveit_calibration:
     doc:
@@ -6115,7 +6115,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 3873ec116cee2b809b9be5f11386601467014a22
+      version: 69d4655388abe583cfe01943eac28e934f978299
     status: developed
   mpc_local_planner:
     doc:
@@ -6183,7 +6183,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: f720f8f0e60079aec75c80e4bd0213d7840f94dd
+      version: 05292fedb05cf672b407b0e35a8fb8326bdd4064
     status: developed
   mrpt_msgs:
     doc:
@@ -12525,7 +12525,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b68f53afc8208238ed1660267176788fcf728a42
+      version: 8ef760d0e37c8bfb31a13d0f8384384106c90201
     status: maintained
   visp_ros:
     doc:
