@@ -538,10 +538,18 @@ repositories:
       type: git
       url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
       version: noetic
+    release:
+      packages:
+      - gazebo_model_attachment_plugin
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros2-gbp/boeing_gazebo_model_attachement_plugin-release.git
+      version: 1.0.2-5
     source:
       type: git
       url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
       version: ffe6a0fcfbf7c243962390b8b3074b74c5209cc6
+    status: maintained
   boeing_gazebo_set_joint_positions_plugin:
     doc:
       type: git
@@ -1068,7 +1076,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
-      version: 3784ddf701f28339de1db08bbbb023b65b726a05
+      version: d56b499107d6bb82a3f5fd4a211905d2a9fc8636
     status: maintained
   cob_common:
     doc:
@@ -4099,7 +4107,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
-      version: 77aaa91247fbc8ee08e9d9431490a138e52821d1
+      version: 13ff13aceb6a4e827b5e952887a097a8fd72a897
     status: developed
   industrial_core:
     doc:
@@ -5247,7 +5255,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: bdf9f7a86e1d045f4028a41f0d0ac1cf570b5249
+      version: 1a46d74f0185cab54490386f48d7b0f5d4874cd6
     status: maintained
   log_view:
     doc:
@@ -5350,7 +5358,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: e26b05e0a04529ed2ac2571919f9755ba0afee18
+      version: f41e4cdc927311783a68125835f3349bf9d2cdf3
     status: maintained
   mapviz:
     doc:
@@ -7591,7 +7599,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 25dea896e4126baae69b362c8dc7cdb5af31097c
+      version: 54bd6836ca571bfadb68acaece19b94603e03f99
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -8961,7 +8969,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: aeaf4eb3cbb06ad9da57fbe769939656760922fd
+      version: fc6d1ae63603c62bc9db1a37681e1f07f27e6a87
     status: developed
   robot_navigation:
     doc:
@@ -9636,7 +9644,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fada-catec/rosbag_rviz_panel.git
-      version: 7317d45b960d2d627d0f86272f04baaa99206cc0
+      version: 3eaeed85066befc7138eef08907c343f64666a6e
     status: maintained
   rosbag_snapshot:
     doc:
