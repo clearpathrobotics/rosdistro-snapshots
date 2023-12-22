@@ -1103,7 +1103,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 5e3d6b6e7600fc6801dea25ffc2b96de20c3251f
+      version: 41bd969ad3b01f96287f6e1ddb6888035c32e8db
     status: developed
   ecl_core:
     doc:
@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: eae72fd3166406829bc34d14279eea2bf4ab2904
+      version: 5fd927ffa9c0b31735840cb3ef20af3f1a76b7a8
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -2859,12 +2859,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 3.1.0-1
+      version: 3.2.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 39b5c5f8d000f4a2505c9c49e20075fa2475f173
+      version: 82861ef9875555d55e18aafcdee6375c131e3951
     status: developed
   mimick_vendor:
     doc:
@@ -2892,35 +2892,6 @@ repositories:
       url: https://github.com/DFKI-NI/mir_robot.git
       version: 7d9c72942d512b191f2b326ca89c066710db4e34
     status: developed
-  mola:
-    doc:
-      type: git
-      url: https://github.com/MOLAorg/mola.git
-      version: develop
-    release:
-      packages:
-      - mola_common
-      - mola_demos
-      - mola_imu_preintegration
-      - mola_input_euroc_dataset
-      - mola_input_kitti_dataset
-      - mola_input_rawlog
-      - mola_input_ros2
-      - mola_kernel
-      - mola_launcher
-      - mola_test_datasets
-      - mola_viz
-      - mola_yaml
-      - mp2p_icp
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/mola-release.git
-      version: 0.2.2-1
-    source:
-      type: git
-      url: https://github.com/MOLAorg/mola.git
-      version: 7f4e6d373287ee8fd84dc37f382f26bd8a5669b7
-    status: developed
   mola_common:
     doc:
       type: git
@@ -2929,7 +2900,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: e3f272606c8cdd646f75f9ddd7c2940e1b3317f8
+      version: 1345f7370ca7a54772133fd0bd8b9fde40b13696
     status: developed
   moveit:
     doc:
@@ -3050,7 +3021,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 69d4655388abe583cfe01943eac28e934f978299
+      version: 268e426b03544d04b84e7cf26638777a78c5ed31
     status: developed
   mqtt_client:
     doc:
@@ -3079,11 +3050,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.4-1
+      version: 2.11.5-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 05292fedb05cf672b407b0e35a8fb8326bdd4064
+      version: af9fa8268ec709ad1f0f2d62d6b19712740df6e3
     status: developed
   mrpt_msgs:
     doc:
@@ -3676,7 +3647,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: d484494645cb7361374ac0ef6b27e9ee6feffbd7
+      version: 57d842493d5c3b1472837e4ec639f0c137b06e39
   pcl_msgs:
     release:
       tags:
@@ -3844,7 +3815,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.8.3-1
+      version: 3.8.4-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4369,7 +4340,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 246fd1de5c073e60573abb014a787f012a241419
+      version: 7bcc2939233dca1a04a3702807aac1f6a05014fc
     status: maintained
   rcl_interfaces:
     doc:
@@ -4747,7 +4718,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: c1480c99a2c35dd30b4cbf2b8eec4e51fa7b00e4
+      version: 840372f7ee5db74b8fc59d7d5e5e34685422eafb
     status: developed
   rmf_simulation:
     doc:
@@ -4787,7 +4758,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: 8d91b71648c3bab04af7146730f9feb58f5d1d49
+      version: a925af348ae6ef0279844a9d827357b1fcec9ed1
     status: developed
   rmf_traffic:
     doc:
@@ -4805,7 +4776,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: 1f4ddb5a1377f138c75b345b15e41ed27269671b
+      version: 61b4a4d4474d442d347d4476c4e112ea398fe694
     status: developed
   rmf_traffic_editor:
     doc:
@@ -5180,7 +5151,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 13a43c32b5b4d0040c96d4e192db4f1ed6d4f046
+      version: 4c6d7236245c527f275b1e03a7e5242b658dc782
     status: developed
   ros2_kortex:
     doc:
@@ -5328,7 +5299,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 419afea1282ae4daa43ea446a2c0bcc7394f856c
+      version: d32d820b5cfbfb6eba5a02910f2dd68430a6ba12
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -5529,7 +5500,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: cea3fb027e52b9445266adde9d7629b9957a3c35
+      version: 3286736d364b2794051020ae8f2b0893521da16f
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6194,11 +6165,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/RSL-release.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 3b73cfdd6f72d8538318fcf13f7f31b49cce1e1b
+      version: c582b49de1d0c9691128125269c3c2cb0ead452e
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -7204,7 +7175,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: ed53f9ba2dc128a990194417e6176b3ff6f03308
+      version: 5f32dfd888aea45d762650973a103dc31b666eca
     status: developed
   ur_msgs:
     doc:
