@@ -501,6 +501,21 @@ repositories:
       url: https://github.com/uos/basler_tof.git
       version: b96f5071e3459b8738d6e92b9b923c90eed746ef
     status: developed
+  bcr_bot:
+    doc:
+      type: git
+      url: https://github.com/blackcoffeerobotics/bcr_bot.git
+      version: ros1
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/blackcoffeerobotics/bcr_bot-release.git
+      version: 0.0.1-4
+    source:
+      type: git
+      url: https://github.com/blackcoffeerobotics/bcr_bot.git
+      version: 981b97719c58c0bee7f76977b6a94cdd8dbae862
+    status: developed
   behaviortree_cpp_v3:
     doc:
       type: git
