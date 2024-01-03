@@ -946,7 +946,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 9918a149f8c1dc65238697619e5feca65db5533e
+      version: 85c0f3aca27b89eb75d1b2863842e44c410711b5
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1103,7 +1103,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: cd67b476ada8d2cc9e0b2ed215808c8d1f6285ce
+      version: c3c87b1461d6efa054932f57f752dbf18bf46431
     status: developed
   ecl_core:
     doc:
@@ -1593,7 +1593,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: b39074a4a1adf8a9319a6d4378ac26e2aa9e298a
+      version: 6bf5f06ce402fbef4e823557f015e1b119dc83d0
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1778,7 +1778,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
-      version: dashing-devel
+      version: ros2-devel
     release:
       packages:
       - gps_msgs
@@ -1793,7 +1793,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
-      version: dashing-devel
+      version: 113782d63abdd051396d9593fc3a0512a5f060c4
     status: developed
   graph_msgs:
     doc:
@@ -1829,7 +1829,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
-      version: devel
+      version: main
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1838,7 +1838,7 @@ repositories:
     source:
       type: git
       url: https://github.com/flynneva/grbl_ros.git
-      version: devel
+      version: 5ec4eb82823d8e63d9fec2523d98d7583c7bf763
     status: maintained
   gscam:
     doc:
@@ -1868,7 +1868,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 5c87f97546c4075ff6ef3976c70cf6d2b09d77ad
+      version: c79543b625e3d8fd34d1f14b37248c050bdb048c
     status: developed
   gz_ros2_control:
     doc:
@@ -1886,7 +1886,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 5412da52dcf83d410e95df5ae0e6ba248a2d79e9
+      version: 3a44b0bf0127f2b333588b14546d91f7e4c559b2
     status: maintained
   hash_library_vendor:
     doc:
@@ -2900,7 +2900,17 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 1345f7370ca7a54772133fd0bd8b9fde40b13696
+      version: 8d16b94217a42ad8dbbffde001db0229dc187833
+    status: developed
+  motion_capture_tracking:
+    doc:
+      type: git
+      url: https://github.com/IMRCLab/motion_capture_tracking.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/IMRCLab/motion_capture_tracking.git
+      version: f074fc8d3dc632e397a168a651222743f8c6e0ae
     status: developed
   moveit:
     doc:
@@ -3021,7 +3031,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: acfc5d55a7bbb556af605737f30bc7c71ff6452a
+      version: a32363ac4742b3c3538df758f5b7f41ad40e7d4f
     status: developed
   mqtt_client:
     doc:
@@ -3079,7 +3089,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: d565257b37ceabc02b98ac668c68222550849644
+      version: 68ec68af06985fdb88217ebbba74d9517a6a6ce6
     status: developed
   mrpt_path_planning:
     doc:
@@ -3322,7 +3332,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
-      version: dashing-devel
+      version: ros2-devel
     release:
       packages:
       - novatel_gps_driver
@@ -3334,7 +3344,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
-      version: dashing-devel
+      version: 2b3f9b0b02c0fa2ead3c2e392978d5a81afd94c4
     status: developed
   ntpd_driver:
     doc:
@@ -4340,7 +4350,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 133de0ee3d36cb8f6c252601b4f65c05c33216b0
+      version: f8af11f00595452065f928aaacd71754596656b1
     status: maintained
   rcl_interfaces:
     doc:
@@ -4387,7 +4397,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_logging.git
-      version: 4481fa62142e7fc561b24178fda3f0bbff51b54a
+      version: fd629cf7e1f155313d697e8bdd7a854ad5ce1b9b
     status: maintained
   rcl_logging_rcutils:
     doc:
@@ -5151,7 +5161,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: d915497394710481a98cbaf7b6db8ef9a368aa3e
+      version: f14396cc14d023a8b9d6bc9a38331e4af59f181e
     status: developed
   ros2_kortex:
     doc:
@@ -5500,7 +5510,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: a16704b6f9c32ac49deba70c231da06579ec3be3
+      version: 4adc7123a8cff579036ae2910db8d02853e9338f
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5571,7 +5581,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: b5158ec57e5c8725a98d5b5f7514548e10e9eddf
+      version: 5ea1c94f0c0ce564a0b6a6a35396d315249ccb7e
     status: maintained
   rosidl_core:
     doc:
@@ -6228,7 +6238,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: master
+      version: 64905e970debdcbda9b577035f3f970a3c4e55de
     status: developed
   rviz:
     doc:
