@@ -745,7 +745,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MetroRobots/classic_bags.git
-      version: a75251a732d4d4f1c7537e7f6b0641c404806057
+      version: 7f72d2a321585255ce2ac9e252e4e564aca65bca
     status: developed
   color_names:
     doc:
@@ -776,7 +776,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/color_util.git
-      version: 43ce7c3a48dc6a363cfd078bc4c558f50267cbc3
+      version: ce5023684fe0edfe6deca1e05c76fa3ce58a696c
     status: developed
   common_interfaces:
     doc:
@@ -1589,11 +1589,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.6.2-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 6bf5f06ce402fbef4e823557f015e1b119dc83d0
+      version: 074617a61db57e06c33cb4a3a92a75864bb67a39
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1868,7 +1868,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: c79543b625e3d8fd34d1f14b37248c050bdb048c
+      version: 6b098c70d5c5cb163d2d04c6e9c3aa959820bf20
     status: developed
   gz_ros2_control:
     doc:
@@ -1882,11 +1882,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 1.1.2-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 790d1053bbd2054def41162cc8aae797f7d6f2e9
+      version: 4a2170c6668cb00f09913f7168ed23fc1fa2bce5
     status: maintained
   hash_library_vendor:
     doc:
@@ -1956,7 +1956,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 948a826f990a47d65f00d3e9508de797a63c0c68
+      version: 6d776baa420b887013f5682faf8b94ffe5e24e6a
     status: developed
   iceoryx:
     release:
@@ -2100,6 +2100,11 @@ repositories:
       url: https://github.com/ros-perception/image_transport_plugins.git
       version: 71d6df75fe14ce52e1af23469835789002c7e702
     status: maintained
+  imu_pipeline:
+    source:
+      type: git
+      url: https://github.com/ros-perception/imu_pipeline.git
+      version: fe7c159cde27cefeb0fbd23ede046aa2efc3a055
   imu_tools:
     doc:
       type: git
@@ -3031,7 +3036,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 7927e89c4028be3977e8d968ccae5348f617ca28
+      version: feda7c6aff026449595aa792169504ade9a64b9b
     status: developed
   mqtt_client:
     doc:
@@ -3089,7 +3094,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 97fad7b24a4e1b2cdbf3af7603f9bd53c3c10234
+      version: e0d06a312008e563d48b903bae0b7b02207a25a8
     status: developed
   mrpt_path_planning:
     doc:
@@ -3829,7 +3834,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 8fee65930389a2e016689e64f8765f33d86ec83d
+      version: 730172e045289337e1b2cc348e5af293fb013ee0
     status: developed
   plotjuggler_msgs:
     doc:
@@ -4014,7 +4019,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 6ff0a76636fe436b1ca3fe39ef4f3ef2435fbe33
+      version: 958085ff638fd998aec8ef1b9397126495344c9a
     status: developed
   py_trees:
     doc:
@@ -5049,7 +5054,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/robot_state_publisher.git
-      version: f96c09bd4269597ed55206d45b8efab0d7df2673
+      version: e72adfc35be14a43d1688d08a0960608c5dc648a
     status: maintained
   robotont_msgs:
     doc:
@@ -5124,7 +5129,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: e149646d3f2595f269cfa4e1cd0681abde89ee69
+      version: 64c9e2ab9636c98e0383e6dba4fb431f8e0948d5
     status: developed
   ros2_controllers:
     doc:
@@ -5161,7 +5166,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: f14396cc14d023a8b9d6bc9a38331e4af59f181e
+      version: 2b52f0b54168341b2afe94f0aeef92c5fd41381a
     status: developed
   ros2_kortex:
     doc:
@@ -5401,7 +5406,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: bdf138eeec5c2afb90a0ad667e1ccdeec1ecbab6
+      version: 84d5d27e6f730db506e6b229c40ef3fdc7042cf6
     status: developed
   ros_image_to_qimage:
     doc:
@@ -5510,7 +5515,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 4adc7123a8cff579036ae2910db8d02853e9338f
+      version: 195e406194a0bd1901261b8fef180245b70f1a9d
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -7257,7 +7262,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_launch.git
-      version: a3e6069888b8c2e45b6cb7fa974a97ee69d7f320
+      version: 53d63e08a38fd47bb71220b2a9f25a88f065db92
     status: developed
   urdf_parser_py:
     doc:
@@ -7291,7 +7296,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_tutorial.git
-      version: 7e1f59a22a0a2f0c1f5f79bab49dae2cee1640f6
+      version: ac6c14fc00aa6f785e33b7cf6eaefed9c83816be
     status: maintained
   urdfdom:
     doc:
