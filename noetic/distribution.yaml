@@ -2613,6 +2613,31 @@ repositories:
       url: https://github.com/shadow-robot/ethercat_grant.git
       version: 8f1d26c9285b05e5af672d47933bfee1a31c1c97
     status: maintained
+  etsi_its_messages:
+    release:
+      packages:
+      - etsi_its_cam_coding
+      - etsi_its_cam_conversion
+      - etsi_its_cam_msgs
+      - etsi_its_coding
+      - etsi_its_conversion
+      - etsi_its_denm_coding
+      - etsi_its_denm_conversion
+      - etsi_its_denm_msgs
+      - etsi_its_messages
+      - etsi_its_msgs
+      - etsi_its_msgs_utils
+      - etsi_its_primitives_conversion
+      - etsi_its_rviz_plugins
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
+      version: db8eef49432505af3be0792a6c2efa9542e43ee0
+    status: developed
   euslime:
     release:
       tags:
@@ -4652,7 +4677,6 @@ repositories:
       - jsk_recognition_msgs
       - jsk_recognition_utils
       - resized_image_transport
-      - sound_classification
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
@@ -6138,7 +6162,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: feda7c6aff026449595aa792169504ade9a64b9b
+      version: 08677cf1c8b511c0332f1fef544ee4b77190306b
     status: developed
   mpc_local_planner:
     doc:
@@ -6191,7 +6215,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: e3ddc380be2dbe6aa9a4950bf794f6f7d8d577c3
+      version: 44cf727ea4947db2ce03f025fb53150871986f96
     status: maintained
   mrpt2:
     doc:
@@ -6206,7 +6230,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 181dc5ac399d91554860d203500cd9c22a8e9064
+      version: 4167fd58d19e9ba70779e9ade09c1094f682f560
     status: developed
   mrpt_msgs:
     doc:
@@ -10700,11 +10724,6 @@ repositories:
       type: git
       url: https://github.com/tork-a/rtctree-release.git
       version: release/hydro/rtctree
-    release:
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/tork-a/rtctree-release.git
-      version: 3.0.1-3
     source:
       type: git
       url: https://github.com/gbiggs/rtctree.git
@@ -10715,11 +10734,6 @@ repositories:
       type: git
       url: https://github.com/gbiggs/rtsprofile.git
       version: master
-    release:
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/tork-a/rtsprofile-release.git
-      version: 2.0.0-3
     source:
       type: git
       url: https://github.com/gbiggs/rtsprofile.git
@@ -12548,7 +12562,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: cc36909f4d3a56f408f44fd3c407f0f0890ad966
+      version: 0d2fb23644d7a87311be68a7b94bdae521061444
     status: maintained
   visp_ros:
     doc:

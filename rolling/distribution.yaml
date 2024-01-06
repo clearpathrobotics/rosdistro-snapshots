@@ -1236,7 +1236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: dea3e1fbfa1d9b2a83980b33bf158fc2e05abcd6
+      version: d1c3e6c0dc240da99caad319cd958cf717379181
     status: maintained
   event_camera_codecs:
     doc:
@@ -2101,10 +2101,24 @@ repositories:
       version: 71d6df75fe14ce52e1af23469835789002c7e702
     status: maintained
   imu_pipeline:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/imu_pipeline.git
+      version: ros2
+    release:
+      packages:
+      - imu_pipeline
+      - imu_processors
+      - imu_transformer
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/imu_pipeline-release.git
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros-perception/imu_pipeline.git
-      version: fe7c159cde27cefeb0fbd23ede046aa2efc3a055
+      version: ee2e3de0d321c7bd102e5d0f61986e4799f6e87a
+    status: maintained
   imu_tools:
     doc:
       type: git
@@ -2606,7 +2620,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: main
+      version: humble
     release:
       packages:
       - bosch_locator_bridge
@@ -2617,7 +2631,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
-      version: main
+      version: a156ed4c8e3f1d1f1e53fb019252c5c53d043f79
     status: maintained
   log_view:
     doc:
@@ -3036,7 +3050,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: feda7c6aff026449595aa792169504ade9a64b9b
+      version: 08677cf1c8b511c0332f1fef544ee4b77190306b
     status: developed
   mqtt_client:
     doc:
@@ -3054,7 +3068,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: e3ddc380be2dbe6aa9a4950bf794f6f7d8d577c3
+      version: 44cf727ea4947db2ce03f025fb53150871986f96
     status: maintained
   mrpt2:
     doc:
@@ -3069,7 +3083,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 181dc5ac399d91554860d203500cd9c22a8e9064
+      version: 4167fd58d19e9ba70779e9ade09c1094f682f560
     status: developed
   mrpt_msgs:
     doc:
@@ -7536,7 +7550,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: cc36909f4d3a56f408f44fd3c407f0f0890ad966
+      version: 0d2fb23644d7a87311be68a7b94bdae521061444
     status: maintained
   vitis_common:
     doc:
