@@ -1296,7 +1296,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
-      version: 02eb031ed2fdba2e9adae50a8d4b0978fd860677
+      version: 82815d861f74fc5f59acf217579c25ce2138d07e
     status: developed
   example_interfaces:
     doc:
@@ -1398,6 +1398,11 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ffmpeg_image_transport_msgs-release.git
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
@@ -1868,7 +1873,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 6b098c70d5c5cb163d2d04c6e9c3aa959820bf20
+      version: 7cd46f8bea9db20027846f91720d047bc18e6a5d
     status: developed
   gz_ros2_control:
     doc:
@@ -2537,6 +2542,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/libcaer.git
       version: ros_event_camera
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/libcaer-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer.git
@@ -2916,10 +2926,15 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
       version: develop
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mola_common-release.git
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 1a78aef8b2e800af85c07233227fcf3c4248f39a
+      version: cee1d84ed5b42140d480320ba3f01100e7471315
     status: developed
   motion_capture_tracking:
     doc:
@@ -3676,7 +3691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 57d842493d5c3b1472837e4ec639f0c137b06e39
+      version: c1d3a6858321b858fd6ab94324460d2c30acb201
   pcl_msgs:
     release:
       tags:
@@ -4159,7 +4174,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: 150477ff8f71b7090a174ad831e29dbdcef45f0f
+      version: 01070af2d4cd47a1e90e91d4e162ea7b761ee905
     status: maintained
   qpoases_vendor:
     release:
@@ -5180,7 +5195,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2b52f0b54168341b2afe94f0aeef92c5fd41381a
+      version: 30eb4b07d630f4b4b5be6080a6ae9469bdab2f18
     status: developed
   ros2_kortex:
     doc:
@@ -7598,7 +7613,7 @@ repositories:
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
-      version: 88cc69454e305fcd2fb2bb1ed80d0d60f56db24d
+      version: cffc499211f26aa4db679ee6cc1adf8a9cd54bf4
     status: developed
   warehouse_ros:
     doc:
