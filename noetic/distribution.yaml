@@ -80,6 +80,11 @@ repositories:
       type: git
       url: https://github.com/analogdevicesinc/tmcl_ros.git
       version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros2-gbp/adi_tmcl-release.git
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/analogdevicesinc/tmcl_ros.git
@@ -2874,7 +2879,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_tools.git
-      version: 230d5e8cec4cc8d99e75c42001230e346172be2f
+      version: d0c73abb3a997f868d56429f4c21bd1c0ca121e4
     status: maintained
   fiducials:
     release:
@@ -3456,7 +3461,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry2.git
-      version: 70ceab7d0ed47dd1656166a28726c91c2c703557
+      version: 99bebd1437fb8354b6fc7452fff68ed3ad689d14
     status: maintained
   geometry_tutorials:
     doc:
@@ -3887,7 +3892,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 6d776baa420b887013f5682faf8b94ffe5e24e6a
+      version: 51f101c9260dd03e9c2fca8e4b6d56922f2e0451
     status: maintained
   hri_actions_msgs:
     release:
@@ -4677,10 +4682,11 @@ repositories:
       - jsk_recognition_msgs
       - jsk_recognition_utils
       - resized_image_transport
+      - sound_classification
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 1.2.17-1
+      version: 1.2.17-2
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -4872,7 +4878,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/beamaginelidar/l3cam_ros.git
-      version: bf89434a6ce8305e5a5fdb9cd2e218c9201f9389
+      version: 34f74cb9d9cba5581b6c47464499b556ec461511
     status: developed
   lanelet2:
     doc:
@@ -5206,7 +5212,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
-      version: ea975f8641a83a38a3f2ef3baa4cc42e94a75219
+      version: 4673a37d981164af8eeb8e296e430fc1427e008d
     status: developed
   libsick_ldmrs:
     doc:
@@ -7214,7 +7220,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Jmeyer1292/opw_kinematics.git
-      version: 0faf74269d1b8c3358f65356ea45feb2046a993e
+      version: 80ed38d940cd797e9f253e0304a4f4eb308fa410
     status: developed
   osqp_vendor:
     doc:
@@ -10724,6 +10730,11 @@ repositories:
       type: git
       url: https://github.com/tork-a/rtctree-release.git
       version: release/hydro/rtctree
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/rtctree-release.git
+      version: 3.0.1-4
     source:
       type: git
       url: https://github.com/gbiggs/rtctree.git
@@ -10734,6 +10745,11 @@ repositories:
       type: git
       url: https://github.com/gbiggs/rtsprofile.git
       version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/rtsprofile-release.git
+      version: 2.0.0-4
     source:
       type: git
       url: https://github.com/gbiggs/rtsprofile.git
@@ -12562,7 +12578,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: d8e831c97e7acffaa7704fe7bcbd04884579b874
+      version: 8f3c298519e14e6188660f4bcfdb3fc3618b3534
     status: maintained
   visp_ros:
     doc:
