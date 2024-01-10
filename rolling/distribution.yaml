@@ -1236,7 +1236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: d1c3e6c0dc240da99caad319cd958cf717379181
+      version: f01464e1333ad2de8accdeadbd29ceb66921e675
     status: maintained
   event_camera_codecs:
     doc:
@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 5fd927ffa9c0b31735840cb3ef20af3f1a76b7a8
+      version: b28171b0223996888f3773d20c51aed94a561d32
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1891,7 +1891,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 4a2170c6668cb00f09913f7168ed23fc1fa2bce5
+      version: ef7deefa7aa6e54a24dd99eaa88da2b6f89dd885
     status: maintained
   hash_library_vendor:
     doc:
@@ -2612,7 +2612,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: c44548d4c840d7237eb37f8fb7b8ec325f3f1668
+      version: 57a1c19ee6316f3cd19092e99a4a60bc08cdf25a
     status: developed
   libyaml_vendor:
     release:
@@ -3065,7 +3065,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 08677cf1c8b511c0332f1fef544ee4b77190306b
+      version: f8ac068917d64e7b5a1ada54366f84d2857aaa14
     status: developed
   mqtt_client:
     doc:
@@ -3098,7 +3098,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 4167fd58d19e9ba70779e9ade09c1094f682f560
+      version: 0c350711dee13da118d19cbb37a3ac766b8773b3
     status: developed
   mrpt_msgs:
     doc:
@@ -3123,7 +3123,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: e0d06a312008e563d48b903bae0b7b02207a25a8
+      version: 104aeb16098de8e1931c8b9244c7a90df9de0fd3
     status: developed
   mrpt_path_planning:
     doc:
@@ -3863,7 +3863,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 730172e045289337e1b2cc348e5af293fb013ee0
+      version: 153a9c938ab17e700066297a4a840ffd8e951933
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5158,7 +5158,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: bdad0091946097542cb0397fbdf8130bfac42b3a
+      version: 71506d5f12e1e8529be4951ccf45f7144969f841
     status: developed
   ros2_controllers:
     doc:
@@ -5922,6 +5922,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
       version: 1ef2bf5648c63d58ed8a7e67fba000b5c163a861
+    status: maintained
+  rqt_gauges:
+    doc:
+      type: git
+      url: https://github.com/ToyotaResearchInstitute/gauges2.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rqt_gauges-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/ToyotaResearchInstitute/gauges2.git
+      version: 5af64072d81bd02dd330f44d54ef20cf2105b4de
     status: maintained
   rqt_graph:
     doc:
@@ -6843,7 +6858,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/tf_transformations.git
-      version: e717f2a284363858a0d6497a2c8fa29cf5514154
+      version: c4db0dd32ef27ab4e320937668337ac0673059b5
     status: maintained
   tinyspline_vendor:
     doc:
@@ -6926,7 +6941,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: e5bb554ed4a664211df131a70abf03abdbde3caa
+      version: a1a0e7ebcbbd543dae172f5c4b18d031570119f4
     status: developed
   tracetools_acceleration:
     doc:
@@ -7565,7 +7580,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 8f3c298519e14e6188660f4bcfdb3fc3618b3534
+      version: 02e8cb3a9e321b86a1310954ae74371a92e0aac1
     status: maintained
   vitis_common:
     doc:
@@ -7613,7 +7628,7 @@ repositories:
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
-      version: cffc499211f26aa4db679ee6cc1adf8a9cd54bf4
+      version: 5f7f8ed488ab95371065065603165ce151dce92c
     status: developed
   warehouse_ros:
     doc:
