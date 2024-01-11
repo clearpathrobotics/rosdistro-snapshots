@@ -584,11 +584,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.4.3-1
+      version: 4.5.0-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: db5789eaabc49c0c12692437bb50e5b3cc26153b
+      version: b8ab730cf09334c0dc0285df0fe2df9227ed55fa
     status: developed
   bno055:
     doc:
@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: b28171b0223996888f3773d20c51aed94a561d32
+      version: f937405d168f05f1642e6e1fce3a44421846caa3
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1413,7 +1413,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/Fields2Cover/Fields2Cover-release.git
-      version: 1.2.1-1
+      version: 1.2.1-2
     status: developed
   filters:
     doc:
@@ -1598,7 +1598,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 074617a61db57e06c33cb4a3a92a75864bb67a39
+      version: 60e4b75f4a786c9563d7dd97c6d08a31ca69c5b1
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1728,7 +1728,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: ce72ad50615016cd40f3a6493e46f8dd2e9e06f4
+      version: 1621942bc2ad1270ee0bfc1f6b7a44a5849a7b5e
     status: maintained
   geometry_tutorials:
     doc:
@@ -1747,7 +1747,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/geometry_tutorials.git
-      version: 0baa8f04133b196d0759dce324cfe5793c668fb8
+      version: 6481e8fa9b5cef611f3d6d3aea2ea338701c481a
     status: developed
   google_benchmark_vendor:
     doc:
@@ -1961,7 +1961,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 51f101c9260dd03e9c2fca8e4b6d56922f2e0451
+      version: 8bdad1488c1b43d2da27ae2051ab2b1850f2820c
     status: developed
   iceoryx:
     release:
@@ -2955,7 +2955,6 @@ repositories:
       packages:
       - chomp_motion_planner
       - moveit
-      - moveit_chomp_optimizer_adapter
       - moveit_common
       - moveit_configs_utils
       - moveit_core
@@ -2996,13 +2995,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.8.0-2
+      version: 2.9.0-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 4bcbac7fe8d183ce0b5351e440cceb80ad09b092
+      version: 1fb4041e690c64b847d2df1e844c8de148796c86
     status: developed
   moveit_msgs:
     doc:
@@ -3098,7 +3097,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 0c350711dee13da118d19cbb37a3ac766b8773b3
+      version: 14b327b2a83abac2efc07d99c23a77763b9947a9
     status: developed
   mrpt_msgs:
     doc:
@@ -3123,7 +3122,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 104aeb16098de8e1931c8b9244c7a90df9de0fd3
+      version: 6db38d28a27c8ea2d4db34c8ce08900a5c18883e
     status: developed
   mrpt_path_planning:
     doc:
@@ -5295,7 +5294,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 408c54bf8cecf59369e72887b17f028f10a40b06
+      version: ed6f43509b85459b1393a7344aa67b154e2030fa
     status: developed
   ros2acceleration:
     doc:
@@ -6312,7 +6311,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 68d9167758b651d2e4c01f4aeb74a9613110e751
+      version: 30b471adec88db247238cdb036ea00e0a17e6f46
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
