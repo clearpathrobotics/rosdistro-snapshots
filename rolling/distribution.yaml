@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: f937405d168f05f1642e6e1fce3a44421846caa3
+      version: d2ac4892216a1fb4a8326838710c6358d0441caa
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -3012,11 +3012,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_msgs-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
-      version: 2cbb6fd7c7e656732aa6ef9a3597668b12abb368
+      version: 2ec1aa24c7160db3d893ee1b016cb311bd6a14ce
     status: developed
   moveit_resources:
     doc:
@@ -3064,7 +3064,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: f8ac068917d64e7b5a1ada54366f84d2857aaa14
+      version: 2b28150275ead68360284512fa553615b6844d15
     status: developed
   mqtt_client:
     doc:
@@ -3097,7 +3097,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 14b327b2a83abac2efc07d99c23a77763b9947a9
+      version: 37d404a159e7a53073e145d575bfd69892420462
     status: developed
   mrpt_msgs:
     doc:
@@ -3122,7 +3122,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 6db38d28a27c8ea2d4db34c8ce08900a5c18883e
+      version: b71a7ce50e6b4f0b6a8efa71f26bc972d29e3444
     status: developed
   mrpt_path_planning:
     doc:
@@ -3177,7 +3177,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 10cb01df443ff4cea391c145556d45cd599c36e5
+      version: 9b9241068ed94fe6f10b21939c3fb87b26a6b86d
     status: developed
   nao_button_sim:
     doc:
@@ -3942,7 +3942,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: dd55394db3f69725ed9b661814a9abbcfc6b73eb
+      version: a989891717dd75d83342102b8c02dc24e4319572
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -3964,7 +3964,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: fb77f5285120d8fe2745c850e69e51882371375f
+      version: 8ac31dc4e331d2589243d79aa8b5cabcaee6dd8e
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -5002,7 +5002,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: 4d0be32e6c455edbf708003dffb67b11d512c5a6
+      version: 952ffb996debe49cba88be1336f5a6e2d1439464
     status: developed
   rmw_gurumdds:
     doc:
@@ -5190,11 +5190,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.3.0-1
+      version: 4.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: bdb7ad5bdcdfec0cd0b17bb05aaf3cac8229e7b5
+      version: 6623cdd2b1078cf6b99ea6827e4c6b68dd39a903
     status: developed
   ros2_kortex:
     doc:
@@ -5543,7 +5543,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 195e406194a0bd1901261b8fef180245b70f1a9d
+      version: 73b077284d83aa54cf4e7cb054b8a6b0fbfab762
     status: developed
   rosbag2_bag_v2:
     doc:
