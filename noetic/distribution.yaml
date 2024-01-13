@@ -551,7 +551,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: b8ab730cf09334c0dc0285df0fe2df9227ed55fa
+      version: 574a34f503eb80293cc3289b799811890fc1cc80
     status: developed
   boeing_gazebo_model_attachment_plugin:
     doc:
@@ -1151,7 +1151,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
-      version: cadb97b783ea303950c40004167a2dc75a718a5c
+      version: 9f7a34b03fd9705bcfa3b27ec43ec5f393816c5a
     status: maintained
   cob_driver:
     doc:
@@ -1687,11 +1687,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/cras_joy_tools.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/ctu-vras/cras_joy_tools.git
-      version: 808f6ed9a3a47b02154142c7a39755c9bf999f8a
+      version: d9605e1bbae731762bc7d1be724fe2b630668c5c
     status: maintained
   cras_laser_geometry:
     doc:
@@ -1753,11 +1753,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.3.7-1
+      version: 2.3.8-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: ea78beba5cb519f4941b9c66a0e3531be7c43dda
+      version: 181182faf509798a2f9dd3defb49e87187448f39
     status: developed
   create_robot:
     doc:
@@ -2173,7 +2173,7 @@ repositories:
     source:
       type: git
       url: https://github.com/google/draco.git
-      version: 9f856abaafb4b39f1f013763ff061522e0261c6f
+      version: a6fddf5e249cfaa1361746534bc20c7732fb6d20
     status: maintained
   driver_common:
     doc:
@@ -3135,7 +3135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 4474e3b0618592d7b28e6a8ccd23117c33fb5b0e
+      version: b46d17806d23cb11d28cc2bd0fc36bebc5bb620d
     status: developed
   frame_editor:
     doc:
@@ -3714,7 +3714,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 7cd46f8bea9db20027846f91720d047bc18e6a5d
+      version: 3f32b0a50f6ae453e9d865d5c79fcff402307df7
     status: developed
   haf_grasping:
     doc:
@@ -4147,12 +4147,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.2.5-1
+      version: 1.2.6-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
-      version: 13ff13aceb6a4e827b5e952887a097a8fd72a897
+      version: 4b8d5db999c5aaa17b620d14fdf30b3d571ef30f
     status: developed
   industrial_core:
     doc:
@@ -5403,7 +5403,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 414fb654d36620f7b899f782f2743e43122325f6
+      version: d3f466bf0c5651ac41780be07f30eda4fbfe697f
     status: maintained
   mapviz:
     doc:
@@ -7629,7 +7629,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a803a37995b4cf935d4ebb59b7c303f11a1a330d
+      version: 81745db7f4248cce9c10631ea8a439159fd24804
     status: developed
   plotjuggler:
     doc:
@@ -8933,7 +8933,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: c5636c9bef63050b038219d2cf496bbefeca40b8
+      version: 89d24b61bd7aef50e774f8999b7e5315aae379b3
     status: developed
   rm_description:
     doc:
@@ -11079,6 +11079,16 @@ repositories:
       url: https://github.com/wjwwood/serial.git
       version: 69e0372cf0d3796e84ce9a09aff1d74496f68720
     status: maintained
+  serl_franka_controllers:
+    doc:
+      type: git
+      url: https://github.com/rail-berkeley/serl_franka_controllers.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/rail-berkeley/serl_franka_controllers.git
+      version: e04982b0dd34296d1f4875781713557908f511ba
+    status: maintained
   sick_ldmrs_laser:
     doc:
       type: git
@@ -11639,7 +11649,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 0ad3d2f31c4bd4feee6bfd0164775016f024f588
+      version: b91df2c365c20fa4cb43951192f6939fbe876abf
     status: developed
   teb_local_planner:
     doc:
@@ -12578,7 +12588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 02e8cb3a9e321b86a1310954ae74371a92e0aac1
+      version: edcf9ce2743e052f82e09a9db5776297b24d6479
     status: maintained
   visp_ros:
     doc:
@@ -12946,6 +12956,21 @@ repositories:
       url: https://github.com/ElettraSciComp/witmotion_IMU_ros.git
       version: 60978ed96e6c01f45e8085e46992ca04fc9b7d16
     status: maintained
+  wrapyfi_ros_interfaces:
+    doc:
+      type: git
+      url: https://github.com/modular-ml/wrapyfi_ros_interfaces.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/modular-ml/wrapyfi_ros_interfaces-release.git
+      version: 0.4.30-1
+    source:
+      type: git
+      url: https://github.com/modular-ml/wrapyfi_ros_interfaces.git
+      version: 7909202e5e9d1953130628ee11fc6b7a516ad237
+    status: developed
   wu_ros_tools:
     doc:
       type: git

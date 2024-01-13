@@ -588,7 +588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: b8ab730cf09334c0dc0285df0fe2df9227ed55fa
+      version: 574a34f503eb80293cc3289b799811890fc1cc80
     status: developed
   bno055:
     doc:
@@ -1388,10 +1388,15 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ffmpeg_image_transport-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
-      version: 9926914ba5588ffd1fb4d39cef19c2985db6aca0
+      version: 5cf934debf132da35a9133cce8ecde2754434ddc
     status: developed
   ffmpeg_image_transport_msgs:
     doc:
@@ -1550,7 +1555,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 4474e3b0618592d7b28e6a8ccd23117c33fb5b0e
+      version: b46d17806d23cb11d28cc2bd0fc36bebc5bb620d
     status: maintained
   fuse:
     doc:
@@ -1650,6 +1655,7 @@ repositories:
       version: main
     release:
       packages:
+      - cmake_generate_parameter_module_example
       - generate_parameter_library
       - generate_parameter_library_example
       - generate_parameter_library_py
@@ -1658,11 +1664,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.6-1
+      version: 0.3.7-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 360be2807a09b8e93c18e5768f450ba6c8366247
+      version: f0d9819b0e6875d3e6e6dd66846b76aa72159d50
     status: developed
   geographic_info:
     doc:
@@ -1873,7 +1879,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 7cd46f8bea9db20027846f91720d047bc18e6a5d
+      version: 3f32b0a50f6ae453e9d865d5c79fcff402307df7
     status: developed
   gz_ros2_control:
     doc:
@@ -2666,7 +2672,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 414fb654d36620f7b899f782f2743e43122325f6
+      version: d3f466bf0c5651ac41780be07f30eda4fbfe697f
     status: maintained
   mapviz:
     doc:
@@ -3001,7 +3007,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 1fb4041e690c64b847d2df1e844c8de148796c86
+      version: 627e95ac347ce7b58145d522b2f60a8c6b876097
     status: developed
   moveit_msgs:
     doc:
@@ -3122,7 +3128,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: b71a7ce50e6b4f0b6a8efa71f26bc972d29e3444
+      version: 9e81211c197b33dc086c04b214055dfda15fc403
     status: developed
   mrpt_path_planning:
     doc:
@@ -3847,7 +3853,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a803a37995b4cf935d4ebb59b7c303f11a1a330d
+      version: 81745db7f4248cce9c10631ea8a439159fd24804
     status: developed
   plotjuggler:
     doc:
@@ -5157,7 +5163,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 71506d5f12e1e8529be4951ccf45f7144969f841
+      version: 8c34ab6b383ea53c53c05fe460f9c7c743a96fa1
     status: developed
   ros2_controllers:
     doc:
@@ -5294,7 +5300,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: ed6f43509b85459b1393a7344aa67b154e2030fa
+      version: db5ef98f98ec86685f472305a2e27aa827ef4668
     status: developed
   ros2acceleration:
     doc:
@@ -5342,7 +5348,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: e8bcf46c8a226ec35f8127fa22226ba0f73da47c
+      version: 426d6e9c6a3b6d3ec7dac5f1b222e389be5d4318
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -5543,7 +5549,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 73b077284d83aa54cf4e7cb054b8a6b0fbfab762
+      version: f3d62dfb76c20846b7e8756d27387ba784eb213d
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5584,7 +5590,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 412edaa617698ceae9aa27c018538e277fcb9274
+      version: 5f87bee2c2c5d736871be8fab7501cdc88c23378
     status: developed
   rosidl:
     doc:
@@ -5935,7 +5941,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ToyotaResearchInstitute/gauges2.git
-      version: 5af64072d81bd02dd330f44d54ef20cf2105b4de
+      version: 85101c13de1789cfd3bb3bd326fbbd37564cf377
     status: maintained
   rqt_graph:
     doc:
@@ -6311,7 +6317,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 30b471adec88db247238cdb036ea00e0a17e6f46
+      version: dffc11df2a639d509a9bc9798fe2c3660efeae5a
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7579,7 +7585,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 02e8cb3a9e321b86a1310954ae74371a92e0aac1
+      version: edcf9ce2743e052f82e09a9db5776297b24d6479
     status: maintained
   vitis_common:
     doc:
@@ -7627,7 +7633,7 @@ repositories:
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
-      version: 5f7f8ed488ab95371065065603165ce151dce92c
+      version: 636947ef920ec80509dd29c564b4c3bc8cc4edb2
     status: developed
   warehouse_ros:
     doc:
@@ -7757,7 +7763,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-zenoh/zenoh-plugin-dds.git
-      version: ed264cc7a448439edf3b11e55b2e4aa827757a1e
+      version: 548ad6626a5d4aca613437ad2569991477c35a76
     status: developed
   zmqpp_vendor:
     doc:
