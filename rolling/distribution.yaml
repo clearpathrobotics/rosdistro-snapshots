@@ -1655,11 +1655,8 @@ repositories:
       version: main
     release:
       packages:
-      - cmake_generate_parameter_module_example
       - generate_parameter_library
-      - generate_parameter_library_example
       - generate_parameter_library_py
-      - generate_parameter_module_example
       - parameter_traits
       tags:
         release: release/rolling/{package}/{version}
@@ -3103,7 +3100,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 37d404a159e7a53073e145d575bfd69892420462
+      version: 6417020ec28b3e0f3ce103201e0b6b9e9488eba8
     status: developed
   mrpt_msgs:
     doc:
@@ -3696,7 +3693,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: c1d3a6858321b858fd6ab94324460d2c30acb201
+      version: a353b41ba0e4cbed6ad9ca7f10a8345d92633aa5
   pcl_msgs:
     release:
       tags:
@@ -7585,7 +7582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: edcf9ce2743e052f82e09a9db5776297b24d6479
+      version: d70f9cdd08b6b7560535c5fa327c7878193964a7
     status: maintained
   vitis_common:
     doc:
