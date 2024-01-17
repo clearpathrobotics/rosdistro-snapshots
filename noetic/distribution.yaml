@@ -553,32 +553,6 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: 574a34f503eb80293cc3289b799811890fc1cc80
     status: developed
-  boeing_gazebo_model_attachment_plugin:
-    doc:
-      type: git
-      url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
-      version: noetic
-    release:
-      packages:
-      - gazebo_model_attachment_plugin
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/ros2-gbp/boeing_gazebo_model_attachement_plugin-release.git
-      version: 1.0.2-5
-    source:
-      type: git
-      url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
-      version: efe1de7de7aa83c5c475adf3f494f8146a580d07
-    status: maintained
-  boeing_gazebo_set_joint_positions_plugin:
-    doc:
-      type: git
-      url: https://github.com/Boeing/boeing_gazebo_set_joint_positions_plugin.git
-      version: noetic
-    source:
-      type: git
-      url: https://github.com/Boeing/boeing_gazebo_set_joint_positions_plugin.git
-      version: 1b58eda14f22665d21aa939edd1c330d3e9b3094
   bond_core:
     doc:
       type: git
@@ -606,11 +580,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tesseract-robotics-release/boost_plugin_loader-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
-      version: d009f2bdbae2dd94c1ae32116ee1dbf1e98fb1a6
+      version: ad31775a40fdd0786e6c5b46616dd6c5bb22208f
     status: developed
   boost_sml:
     doc:
@@ -701,7 +675,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/FraunhoferIOSB/camera_aravis.git
-      version: 22cffd58e22454aeae8f3a239b545edca69c5a67
+      version: 299dca1be6ab430cd2aafae52314295e1cbdc02d
     status: maintained
   capabilities:
     doc:
@@ -3221,6 +3195,21 @@ repositories:
       url: https://github.com/ctu-vras/gazebo_custom_sensor_preloader.git
       version: c80331e16b863ea9f9463fcf4a519c5073b073cc
     status: maintained
+  gazebo_model_attachment_plugin:
+    doc:
+      type: git
+      url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
+      version: noetic
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros2-gbp/boeing_gazebo_model_attachement_plugin-release.git
+      version: 1.0.2-5
+    source:
+      type: git
+      url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
+      version: efe1de7de7aa83c5c475adf3f494f8146a580d07
+    status: maintained
   gazebo_ros_control_select_joints:
     release:
       tags:
@@ -3255,6 +3244,15 @@ repositories:
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
       version: f9e1a4607842afa5888ef01de31cd64a1e3e297f
     status: maintained
+  gazebo_set_joint_positions_plugin:
+    doc:
+      type: git
+      url: https://github.com/Boeing/gazebo_set_joint_positions_plugin.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/Boeing/gazebo_set_joint_positions_plugin.git
+      version: 1b58eda14f22665d21aa939edd1c330d3e9b3094
   gazebo_video_monitors:
     doc:
       type: git
@@ -3714,7 +3712,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 2bc7be20f4c452e2eea85e551f793d1217f1379c
+      version: 2dfd15e16ce072931ee58e33866383919b38d8c0
     status: developed
   haf_grasping:
     doc:
@@ -3892,7 +3890,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 8bdad1488c1b43d2da27ae2051ab2b1850f2820c
+      version: a93bd79f83db0ec38558b3a4af73ed1de72c34fd
     status: maintained
   hri_actions_msgs:
     release:
@@ -4732,7 +4730,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
-      version: 851ad170290eac8b357ad3aedf8e48a7dc1602b4
+      version: 29fac6cba36b0460789910b158c0005c1114d1aa
     status: developed
   jskeus:
     doc:
@@ -5424,7 +5422,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: d6fe4b8e97f83f9334ba324920ca7d2ac253d06d
+      version: cd509669fd7932f3bb30a6838fe55f7bd541f7fc
     status: developed
   marker_msgs:
     doc:
@@ -6236,7 +6234,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 00ce464ed5d8494b0694b7029b8683177e1f43bf
+      version: 21eedffc9b5623ef84982c7693a544a21bbe07b3
     status: developed
   mrpt_msgs:
     doc:
@@ -7629,7 +7627,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 81745db7f4248cce9c10631ea8a439159fd24804
+      version: 835edd407062851e00a879a1b77bac94360d5c8a
     status: developed
   plotjuggler:
     doc:
@@ -7640,11 +7638,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 3.8.6-2
+      version: 3.8.7-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 7385862f930bb808684518a47953cba709f2430d
+      version: f7718921a3790298ef7c87ae04c088782435e1c0
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -8432,7 +8430,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 8fd691968cc73920720a1ed591af3567e660ee0d
+      version: 1a543e946d80b52c454cdc0225205327b5623869
     status: developed
   qt_gui_core:
     doc:
@@ -9014,7 +9012,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: fc6d1ae63603c62bc9db1a37681e1f07f27e6a87
+      version: 7bebbed62c440b2643964e26d69668d3b18509c6
     status: developed
   robot_navigation:
     doc:
@@ -11769,7 +11767,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 4c930c52c78359e63d664f0ef7a922f3f595f5a7
+      version: 4b4b9e13e89e227d9abd1b454723e92d2c4aef37
     status: developed
   tf2_2d:
     release:
