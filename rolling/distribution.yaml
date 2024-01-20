@@ -105,11 +105,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_black-release.git
-      version: 0.2.3-1
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/botsandus/ament_black.git
-      version: 6a311c3427206198c0c32e01f3c978c6629c39d4
+      version: 0790620546a713431f4875a274cf20368fa26235
     status: maintained
   ament_cmake:
     doc:
@@ -1103,7 +1103,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: c70d5fd033527b9eb54e24e8b7b0185e72199755
+      version: 0d371ef76cf01813573cdc0a81145982cb4bcb39
     status: developed
   ecl_core:
     doc:
@@ -1381,7 +1381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 5e4583d47df4888726860d8217753f7160b95af9
+      version: 4d10bd5af1dd6e040b180dd5f4de4fdf0452ebde
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1555,7 +1555,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: b46d17806d23cb11d28cc2bd0fc36bebc5bb620d
+      version: 8d1469352bf695c734719a0a34f534e2e9cb150a
     status: maintained
   fuse:
     doc:
@@ -1665,7 +1665,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: f0d9819b0e6875d3e6e6dd66846b76aa72159d50
+      version: 42c8f8a0591a2cc5993e8bac554b6594dd1425dd
     status: developed
   geographic_info:
     doc:
@@ -1964,7 +1964,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: a93bd79f83db0ec38558b3a4af73ed1de72c34fd
+      version: 7b45320cca7d1c02d389642b05009601cdfe3b3f
     status: developed
   iceoryx:
     release:
@@ -2059,7 +2059,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: c86efc37c0d0ba640bb5a4787f23319ebc15513d
+      version: 27dd6e0c7835daebd1ce7af8b338b20dc2b9bdcf
     status: maintained
   image_pipeline:
     doc:
@@ -2085,7 +2085,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: ca363d91c3aabbe4f01202f6db265ae42fe99c88
+      version: 3dbd2b4782f4b15296b559f2a7a9c41fd566dd2a
     status: maintained
   image_transport_plugins:
     doc:
@@ -2952,7 +2952,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: 504b249c566b134ecea28d22e778bf285f75cd20
+      version: c2fbc2ea6683f07eda06a9351806a4ff731e27f7
     status: developed
   motion_capture_tracking:
     doc:
@@ -3019,7 +3019,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: e1782bc0561e73f7de4d90b9444141d2b0a91820
+      version: cba873a899e6057c48e4ee07c49c4327b24c7a7d
     status: developed
   moveit_msgs:
     doc:
@@ -3082,7 +3082,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 2b28150275ead68360284512fa553615b6844d15
+      version: 7432b3c9b6b979d71061b122648b46677789428a
     status: developed
   mqtt_client:
     doc:
@@ -3115,7 +3115,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 21eedffc9b5623ef84982c7693a544a21bbe07b3
+      version: 59c210eb32504d4753e84a6e8aa5fe2633c16919
     status: developed
   mrpt_msgs:
     doc:
@@ -4065,7 +4065,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 671e9b60ac34c588859cae629837226c952135e4
+      version: dde7c0fa813e3a0db97121bb4e4edcbff0c0d109
     status: developed
   py_trees:
     doc:
@@ -5149,7 +5149,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 7687f3276107d81f52e1f961566942508eb07d85
+      version: 0b44103c5297c603395993169464a66529d7ff1e
     status: developed
   ros2_control:
     doc:
@@ -5561,7 +5561,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 317286c98472205593d5b0a791d06fea42613ba3
+      version: 931bf541a3547dd7d1bcec119d68cb95d7409a72
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -6304,7 +6304,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 9612aa49708e68e0bd9b38ac8bbc60b7b391641b
+      version: bef286c033b18fc66f8db15d6e5065cc8c05b1c4
     status: developed
   rviz:
     doc:
@@ -6329,7 +6329,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: dffc11df2a639d509a9bc9798fe2c3660efeae5a
+      version: fc281947ac2368a2a324cb1c76338908d4c81d2b
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7718,7 +7718,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 6038a45a353c42e1bd76bccf65d7a4aaf033e3e5
+      version: 399a0eb74cdff12509fb19c21004c40beae4559d
     status: maintained
   xacro:
     doc:
