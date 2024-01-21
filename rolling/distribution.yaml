@@ -356,7 +356,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 4a689cc13cfe1f3b31f7ea6f07575364e65b2c90
+      version: 5c2753ed910b60dca66204082744a1cf2e8950d4
     status: maintained
   apriltag_msgs:
     release:
@@ -1646,7 +1646,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/gc_spl.git
-      version: 6e2adb37aff76eaf44ec65f63301c28d4f154e80
+      version: 82b82a1b94690be06dfb1b2ac88205e7032f3822
     status: developed
   generate_parameter_library:
     doc:
@@ -2949,6 +2949,11 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
       version: develop
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mola_test_datasets-release.git
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
@@ -2962,7 +2967,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
-      version: 0b15f02f23f2a51b023611f0a49ef72ce00eb9b3
+      version: 2b66e18dfe85ec52b6fe447b07d68f24d5b83e36
     status: developed
   moveit:
     doc:
@@ -3079,6 +3084,11 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mp2p_icp-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -4220,7 +4230,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 2.7.1-1
+      version: 2.7.1-2
     source:
       test_pull_requests: true
       type: git
@@ -4259,7 +4269,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/r2r_spl.git
-      version: 8c5e24de24dfecfee975149b60ba7a7b8fd19fa8
+      version: 65a4f1cddadb15726a9e7bb495874555f61e8445
     status: developed
   radar_msgs:
     release:
@@ -5171,11 +5181,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.2.0-1
+      version: 4.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: abceece0bc5b41a882719989ffd7f381c73df405
+      version: 9bbbbb1bbc699adc4fd4e26bda5d9f45c863bb0e
     status: developed
   ros2_controllers:
     doc:
@@ -6324,7 +6334,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 13.3.0-1
+      version: 13.3.0-2
     source:
       test_pull_requests: true
       type: git
@@ -7450,7 +7460,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: f5d3e5be625ccae17019d85a27a9c1304819d00a
+      version: e2b11abfd5b337311fa6c5fc79ed6f6768b78649
     status: maintained
   v4l2_camera:
     doc:
