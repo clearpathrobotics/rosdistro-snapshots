@@ -868,7 +868,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: ae7102b7ce0c03c510adaa2d86767cf91756665e
+      version: 32c5983e1051526bc6b8f04b8619577fc8b247f6
     status: maintained
   cpp_polyfills:
     release:
@@ -904,12 +904,31 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cyclonedds-release.git
-      version: 0.10.3-1
+      version: 0.10.4-1
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
       version: 1be07de395e4ddf969db2b90328cdf4fb73e9a64
     status: maintained
+  data_tamer:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/data_tamer.git
+      version: main
+    release:
+      packages:
+      - data_tamer_cpp
+      - data_tamer_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/data_tamer-release.git
+      version: 0.9.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/PickNikRobotics/data_tamer.git
+      version: 83eb9bdba531e0749a8733f9bbb5904ea7dffd64
+    status: developed
   demos:
     doc:
       type: git
@@ -984,7 +1003,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 183b7de119dcc9632410404950cfc64beb7de297
+      version: 1401f487c272d72a96a194a8371ce282a6fb599a
     status: maintained
   dolly:
     doc:
@@ -1735,7 +1754,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 135fc5a1733635628506bf0471fe28dfdee4baf5
+      version: eb6f48e8daf0870f326a27fdb45df092530bc44c
     status: maintained
   geometry_tutorials:
     doc:
@@ -2299,7 +2318,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 43a1df4af76afa4d66a614634e3379e88c381a6b
+      version: cdced81667b49b82068f2ae1c7c5184c09655d0a
     status: developed
   kobuki_core:
     doc:
@@ -2440,7 +2459,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 2dc7f9336efb46a9c659ad2508681251bb6f49ef
+      version: 57f3d3b34efa855eeeee9cab9109c2981dfbded8
     status: developed
   launch_param_builder:
     doc:
@@ -2939,7 +2958,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: cee1d84ed5b42140d480320ba3f01100e7471315
+      version: 4d726d836bddc2baee48fe4422e48ed516029861
     status: developed
   mola_test_datasets:
     doc:
@@ -3029,7 +3048,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 4c024bc49ef20369f01d363c5884556932bf86da
+      version: 4e58ff1235af406f8d9dd7a3e52ab69584ec9774
     status: developed
   moveit_msgs:
     doc:
@@ -3097,7 +3116,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 617779ce673831c65bd952eb3c4694d99aa698f3
+      version: 7d6f87a3de420b87a451f586efc716a128d45091
     status: developed
   mqtt_client:
     doc:
@@ -3130,7 +3149,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 006733b6a377f92d98dbb032fbcf7b135f24b10a
+      version: 60a0ee031a638dd2d69fd5420d6279aaa38ad769
     status: developed
   mrpt_msgs:
     doc:
@@ -3901,7 +3920,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 96f3ff5d5fcc6506f32f171348fe3ee7282c7f4f
+      version: 3be95bbb0318f7944456870cf148b965532abef1
     status: developed
   plotjuggler_msgs:
     doc:
@@ -4605,7 +4624,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 3b5345599e5c212163729ffeb7fb45ed03f2f83b
+      version: fb465d7b63c0120e7f70bc218f5718b68dc8a286
     status: maintained
   reach:
     source:
@@ -5196,7 +5215,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 207f4961fe2df99d000909211a7135bca434407e
+      version: 0bdcd414c7ab8091f3e1b8d9b73a91c778388e82
     status: developed
   ros2_controllers:
     doc:
@@ -5233,7 +5252,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 3ab375942e2c0086d086d1d83a470449ae25351f
+      version: 9f7e9e916ce8ae1403f0f0f5d108c80ea0242a9d
     status: developed
   ros2_kortex:
     doc:
@@ -5292,7 +5311,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-      version: 61d6f67fdb0016f78ae15ccbe221e555719e5d0b
+      version: 36a87611413b522d11b702e18d2abd0414c01379
     status: maintained
   ros2_socketcan:
     doc:
@@ -5583,7 +5602,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 931bf541a3547dd7d1bcec119d68cb95d7409a72
+      version: 23cd98e58927afe36011b52f2149a03bc694fbc4
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -7751,7 +7770,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.9-2
+      version: 2.0.10-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
