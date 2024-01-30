@@ -588,7 +588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 2c2efefde9df821fe0e30ac9b5b6a7f5e9c5b799
+      version: d4d6514966d416996efc624e567a45c0cc0bdeab
     status: developed
   bno055:
     doc:
@@ -868,7 +868,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 32c5983e1051526bc6b8f04b8619577fc8b247f6
+      version: 58b2bfe20ff2d0f6716499ac9d2d21a6f43cc47b
     status: maintained
   cpp_polyfills:
     release:
@@ -927,7 +927,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: 83eb9bdba531e0749a8733f9bbb5904ea7dffd64
+      version: 981048d2c8a1e96f68219489872d3e027b7b0327
     status: developed
   demos:
     doc:
@@ -1255,7 +1255,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 2b550cbc5009620ae242e368a79e7b291dff535c
+      version: e55c56850e31ff84f1c5c78f1cf7d736667963ab
     status: maintained
   event_camera_codecs:
     doc:
@@ -1754,7 +1754,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 542e8d4740a50e342dd149f120371de581766fcc
+      version: bd73f768b1c54d9991080e61de55fab89ecddc8c
     status: maintained
   geometry_tutorials:
     doc:
@@ -2393,7 +2393,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: a41d75b4332eb74920ffd9b5a4c49b7160ff413c
+      version: 4311fa7f79a626543bb75bb91365918cc479a2a9
     status: maintained
   laser_filters:
     release:
@@ -2459,7 +2459,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 94e159d6955e8c183e3d18f7537a99450000a87c
+      version: ec3ae49ce3e65af3c18257b48fb143c7f159f66b
     status: developed
   launch_param_builder:
     doc:
@@ -2662,10 +2662,15 @@ repositories:
       type: git
       url: https://github.com/adityapande-1995/linux_isolate_process.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/linux_isolate_process-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/adityapande-1995/linux_isolate_process.git
-      version: d1905db6785453e2a710296b2c83bc7e3e077b3e
+      version: a051e1aa27c630647662fd4e004897c247876032
     status: maintained
   log_view:
     doc:
@@ -2912,7 +2917,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 3.2.0-1
+      version: 3.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2987,11 +2992,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/motion_capture_tracking-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
-      version: d6ec56b2211e814a03af39381006ef50d178e802
+      version: 50f7d08fd61808c29b24571ddc65845ddd8413c2
     status: developed
   moveit:
     doc:
@@ -3112,7 +3117,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.0.0-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3145,7 +3150,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.6-1
+      version: 2.11.7-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3920,7 +3925,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 2e2bed4bd8f3458c651e8854865de732f6391ba4
+      version: 81e0e920f9323bb9b2753fd67c36b71636b3c6ab
     status: developed
   plotjuggler_msgs:
     doc:
@@ -4265,7 +4270,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: 01782e8059c205940f26cb528b0d8d2342865e82
+      version: 6ab873c63f7b6d22062c96ce05000049e3080823
     status: maintained
   quaternion_operation:
     doc:
@@ -4668,7 +4673,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 83a13b09f96da86360beea79c4458c645123c8aa
+      version: d20e2e8c8cd9b79d103a236852cb910a483ecf1e
     status: maintained
   resource_retriever:
     doc:
@@ -4769,7 +4774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 9f230054bb3c37155424d401a8184e5ddc6eb2f6
+      version: 5f0c6c189e463d97cffbd55c36f1026f6f5259d2
     status: developed
   rmf_internal_msgs:
     doc:
@@ -5185,7 +5190,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.2.7-1
+      version: 0.2.8-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
@@ -5215,7 +5220,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 0bdcd414c7ab8091f3e1b8d9b73a91c778388e82
+      version: 48e1a8bcc093cda907a072f2bc1e19434c53988b
     status: developed
   ros2_controllers:
     doc:
@@ -5252,7 +5257,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 9f7e9e916ce8ae1403f0f0f5d108c80ea0242a9d
+      version: 8d732f1a3bc2879f89162e7d0ddae275180451c9
     status: developed
   ros2_kortex:
     doc:
@@ -7638,7 +7643,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1b34914cfe36c7a172447f350a9b7aa4bdfd0a64
+      version: 1d7a8096b755e8ae905457897012c7ac6a88d2a7
     status: maintained
   vitis_common:
     doc:
@@ -7759,7 +7764,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 399a0eb74cdff12509fb19c21004c40beae4559d
+      version: 1812230265f654b87296993c37894ff21eb2530a
     status: maintained
   xacro:
     doc:
