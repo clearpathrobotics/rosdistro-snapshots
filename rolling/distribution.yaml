@@ -264,7 +264,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: cd37886f31cf2c8a7243455a7e25cb0cd5d76438
+      version: bf3c609e71a2a9b0a4eee4e80f3e88bef0c675e5
     status: developed
   ament_nodl:
     release:
@@ -356,8 +356,18 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 9b586baf79a5a44d00961e1b3e02146dfb959503
+      version: 7a47a11c9e5db9860163a2afb1f90edb895f31ad
     status: maintained
+  apriltag_detector:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/apriltag_detector.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/apriltag_detector.git
+      version: 5ce53cbe8513d6db4cd941284f921e639265cb32
+    status: developed
   apriltag_msgs:
     release:
       tags:
@@ -927,7 +937,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: 981048d2c8a1e96f68219489872d3e027b7b0327
+      version: 8262a9cf77ecee867417c08dcbf427b12a744908
     status: developed
   demos:
     doc:
@@ -1255,7 +1265,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: e55c56850e31ff84f1c5c78f1cf7d736667963ab
+      version: 61859c261b7aa178163999ac1299eea551c36538
     status: maintained
   event_camera_codecs:
     doc:
@@ -3053,7 +3063,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: a8cc2794370d53de579bea1212d341fe6e5541af
+      version: 3d16b4a0d0adaad7d5b8e054a37664b8f19c064b
     status: developed
   moveit_msgs:
     doc:
@@ -3154,7 +3164,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 9ebe161696da142146d692414b3a2b01e790a422
+      version: 88b41cded54c781a014ed2ad6f86ebb1d33498eb
     status: developed
   mrpt_msgs:
     doc:
@@ -3910,7 +3920,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 33efb7e4bbfc99f660de2271ce1980e472d6469b
+      version: d0daeaa5aeb09f1492cbe0afc9821135f0404dfa
     status: developed
   plotjuggler:
     doc:
@@ -4546,7 +4556,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 265f5ec297a6a3711007ec62e4aa21b0b26516fc
+      version: 99f0fc938b2d0c441787113a3920c16d3614a197
     status: maintained
   rclpy:
     doc:
@@ -5257,7 +5267,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 8d732f1a3bc2879f89162e7d0ddae275180451c9
+      version: 99fadceed82918975e3471d615e897b3facd536e
     status: developed
   ros2_kortex:
     doc:
@@ -5984,7 +5994,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
-      version: 1ef2bf5648c63d58ed8a7e67fba000b5c163a861
+      version: 01e341e8f4169d3084a88d40f3e1f5fc6f33b2d9
     status: maintained
   rqt_gauges:
     doc:
@@ -6140,7 +6150,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_reconfigure.git
-      version: 055db41079e6aa907fcb8b6daf01846b69494071
+      version: eea332e0c648302fa075c2d0fb9673b576920846
     status: maintained
   rqt_robot_dashboard:
     doc:
@@ -7466,7 +7476,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/urg_node.git
-      version: 462b2b8d7cd3df2c7d58a3e0016990ce283953d1
+      version: 369ee4d8dc80b8440402f0b1488a7e9b4248d65f
     status: maintained
   urg_node_msgs:
     doc:
@@ -7643,7 +7653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1d7a8096b755e8ae905457897012c7ac6a88d2a7
+      version: 4b51e2ccbe27682414130132e6e0a8e695076c59
     status: maintained
   vitis_common:
     doc:
