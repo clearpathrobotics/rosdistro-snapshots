@@ -598,7 +598,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: d4d6514966d416996efc624e567a45c0cc0bdeab
+      version: c4ad3cd1d2b811fce2f2e17c0547065d189d902b
     status: developed
   bno055:
     doc:
@@ -937,7 +937,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: 8262a9cf77ecee867417c08dcbf427b12a744908
+      version: 0bb242564d26cf2c5c37b0136268b13c34ab96fb
     status: developed
   demos:
     doc:
@@ -1410,7 +1410,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 0c6da983caa47560cd5eefe0a079549ceaa495ce
+      version: b3c6e4e4643d14e1f8f583130b1aa2c36071bba6
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -2118,7 +2118,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 9b2468d25edee97d04d7f8570365713b439f8f59
+      version: cdb7eb4300be4227f2747a2352b835612d67211e
     status: maintained
   image_transport_plugins:
     doc:
@@ -2653,7 +2653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 2f2dcb25ad59c40c1bd2fa42f5f388636c8af3ef
+      version: 4a1e57eb5f27098c62bf898b62305aa3cb937c8e
     status: developed
   libyaml_vendor:
     release:
@@ -2705,7 +2705,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 40ecd7dfb428546f5091b1a039d1483ba4938905
+      version: b4ada55c8cea21f3c73c5a58cebd368a227465a1
     status: maintained
   mapviz:
     doc:
@@ -2911,7 +2911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/micro-ROS/micro_ros_msgs.git
-      version: 3ac819a3ba54e3d981f35558b6f878dbe32d4b41
+      version: cefbf4883654083d195671971d3bf9a290e7917c
     status: maintained
   microstrain_inertial:
     doc:
@@ -3006,7 +3006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
-      version: 50f7d08fd61808c29b24571ddc65845ddd8413c2
+      version: ae389ee9e90a1f71cf6c30c75936df9b50c0983b
     status: developed
   moveit:
     doc:
@@ -3063,7 +3063,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: c19b1eb182f65aea02869333fd93d1dd57b4dea6
+      version: d96250177a0f4e2e125d510e8631b9334d984bc4
     status: developed
   moveit_msgs:
     doc:
@@ -3164,7 +3164,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 88b41cded54c781a014ed2ad6f86ebb1d33498eb
+      version: cacb810c222496e5d967bbe76b956a81d2b8a1a8
     status: developed
   mrpt_msgs:
     doc:
@@ -3189,7 +3189,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: be5b920a2f91bd7024b045d406bb14047bd463e4
+      version: b3d8220c35e6612d8678993679e05179c1d99631
     status: developed
   mrpt_path_planning:
     doc:
@@ -3244,7 +3244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 9b9241068ed94fe6f10b21939c3fb87b26a6b86d
+      version: 6b495b28ec550d88446249379ffc797cf53477fa
     status: developed
   nao_button_sim:
     doc:
@@ -3585,6 +3585,15 @@ repositories:
       url: https://github.com/gstavrinos/odom_to_tf_ros2.git
       version: bd9a8be9b819fdc59d8f3e7926901d0dba63fe5b
     status: maintained
+  odri_master_board:
+    release:
+      packages:
+      - odri_master_board_sdk
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/odri_master_board_sdk-release.git
+      version: 1.0.6-3
+    status: maintained
   odri_master_board_sdk:
     doc:
       type: git
@@ -3615,7 +3624,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: 512d8cdf3c2a1cc4df1ddfc1d674a20b7b391fe4
+      version: 01f3ddbe40180b57219be5e68df62cf638821e36
     status: maintained
   opensw:
     doc:
@@ -4556,7 +4565,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 99f0fc938b2d0c441787113a3920c16d3614a197
+      version: c10764f4329f8c1494b68ff60ce55a3c74c8de9e
     status: maintained
   rclpy:
     doc:
@@ -4639,7 +4648,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 0f80ab1d71318b2aa653d4186b2e079d2ab60e00
+      version: b6ba6a1f1ef243bcb8a418ddfa7aaf09b92564d1
     status: maintained
   reach:
     source:
@@ -4834,7 +4843,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 1c7e46bcc4009e55e1b351335406dd4adf82c512
+      version: 935cb63e50470b0bf1584a470add8bb7ff1bb4d8
     status: developed
   rmf_simulation:
     doc:
@@ -5217,6 +5226,7 @@ repositories:
       - controller_manager
       - controller_manager_msgs
       - hardware_interface
+      - hardware_interface_testing
       - joint_limits
       - ros2_control
       - ros2_control_test_assets
@@ -5226,11 +5236,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.3.0-1
+      version: 4.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: db110770c165b0a499ed2a3bace9237f6c457fbf
+      version: cac7272b360c79e56b298b299ba32a33b458dce0
     status: developed
   ros2_controllers:
     doc:
@@ -5263,11 +5273,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.4.0-1
+      version: 4.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: fd8b91f74e9d6436b618f7b0daa252db55e90c73
+      version: 2817f2779673e43d1c63ee0d8b35c8ed6f85410d
     status: developed
   ros2_kortex:
     doc:
@@ -5508,7 +5518,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 6af4c0a4f90bd50a95cc314d6d4290e5701fd2f8
+      version: b5dffdeb9ce8d99fdb502f3b1c73e20325d04c3f
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6301,7 +6311,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: c582b49de1d0c9691128125269c3c2cb0ead452e
+      version: cebc67ce175740fab6ec8b1fc69e4d72a299c3a6
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -6712,7 +6722,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 0f1bc39c6d1f5b07f39f469e4b0a4075a380f92a
+      version: 73f1b0d7071bd8ab57a92b52df1a4e403cd36add
     status: developed
   stomp:
     doc:
@@ -7653,7 +7663,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 4b51e2ccbe27682414130132e6e0a8e695076c59
+      version: 628daab495a03d82b56245ab184423d3b7dde954
     status: maintained
   vitis_common:
     doc:
