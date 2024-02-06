@@ -356,7 +356,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: f8ce18516c25e04574c63eda0053ebe1c2342c6c
+      version: 51466ec524d9a5d7b759f42663e5da9810ff5261
     status: maintained
   apriltag_detector:
     doc:
@@ -1132,7 +1132,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 753f67faf1ef4def6530aba225dfe073a3b2afdb
+      version: 3f103b03f64c1eb83cc68f4144c26e69a22686f5
     status: developed
   ecl_core:
     doc:
@@ -1265,7 +1265,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: fd0896e93cae19e6630b3ef85517a43be1a290df
+      version: 5ea4023621c53a25b958aac4157e1385795a9b0c
     status: maintained
   event_camera_codecs:
     doc:
@@ -1276,7 +1276,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_codecs-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
@@ -1306,7 +1306,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_py-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
@@ -1321,7 +1321,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_renderer-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
@@ -1997,7 +1997,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 45e60ca7ba81e5394605f8c1097c016245d221c2
+      version: 65fb435b44a1bbd5059347d7a311cc7c7aa1349e
     status: developed
   iceoryx:
     release:
@@ -2118,7 +2118,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: af7f1540ab04d8162e0d95789e4658f644689e3c
+      version: 506bed21afa2f0ac333c27e9be16856277029689
     status: maintained
   image_transport_plugins:
     doc:
@@ -2310,7 +2310,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-tooling/keyboard_handler.git
-      version: 90aacaf88d918aee5d376a4d163ab504a7106bbc
+      version: 1a64e1f86b0230fd6da3eb73a2b0790149b0fc19
     status: developed
   kinematics_interface:
     doc:
@@ -2328,7 +2328,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: cdced81667b49b82068f2ae1c7c5184c09655d0a
+      version: 04a451760bbd2e10bd64907bdb03589d9d9b0702
     status: developed
   kobuki_core:
     doc:
@@ -2653,7 +2653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 65c37bf8353aded5ac7d6823cd100c0c62f463d9
+      version: 21b9a73d5e04ca66c6aba4619f9a544baee19532
     status: developed
   libyaml_vendor:
     release:
@@ -2960,6 +2960,16 @@ repositories:
       url: https://github.com/DFKI-NI/mir_robot.git
       version: 7d9c72942d512b191f2b326ca89c066710db4e34
     status: developed
+  mola:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mola.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mola.git
+      version: b0e8df279a81a2b39ff7f3c4cce50f914408efcf
+    status: developed
   mola_common:
     doc:
       type: git
@@ -3164,7 +3174,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 20a43c6c02028b3e0edcbc1d60483fa131a17dc2
+      version: 4c9da0fb51e50148d28c46964bd698688c727f47
     status: developed
   mrpt_msgs:
     doc:
@@ -3940,11 +3950,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.8.4-1
+      version: 3.9.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: ee098a4b065e1c9d453d97e1088fa499abebc0e8
+      version: fbb9d1c39d051ce0b5380e39c4f55a0c4782ab81
     status: developed
   plotjuggler_msgs:
     doc:
@@ -3970,7 +3980,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 2.0.0-2
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -4024,7 +4034,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: a989891717dd75d83342102b8c02dc24e4319572
+      version: 2583b84245dc695519d94fc722d8fad24c1af40a
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4597,7 +4607,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcpputils.git
-      version: e23f4c4cec7859d3e9e4360f6d19cf5cdea94c10
+      version: 2a5bfd57bc16f69016ee4df1f6a517cde53e7a13
     status: developed
   rcss3d_agent:
     doc:
@@ -4648,7 +4658,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: b6ba6a1f1ef243bcb8a418ddfa7aaf09b92564d1
+      version: 3cc0d0c5e6f913bae579ca7b3d4037e3cea1ad2d
     status: maintained
   reach:
     source:
@@ -4692,7 +4702,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: d20e2e8c8cd9b79d103a236852cb910a483ecf1e
+      version: 79c5dd98f3be0777336547f036970e9f8a11a9c8
     status: maintained
   resource_retriever:
     doc:
@@ -5240,7 +5250,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 786d5b5eceb7733eceb2a6720d00b200cec46357
+      version: a1b03771eb89425af2dcb06ed57e16de7e3809c4
     status: developed
   ros2_controllers:
     doc:
@@ -5277,7 +5287,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2817f2779673e43d1c63ee0d8b35c8ed6f85410d
+      version: c786604f10516379d9c5460eb5356920d923ae03
     status: developed
   ros2_kortex:
     doc:
@@ -5627,7 +5637,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 90d1da835d23965891f7d3e6bbdf24e23fe0602b
+      version: 1564687de2d10d5bce32dcb9b38ec5c9239416a4
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5668,7 +5678,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 48a1c62be54895aee746d742e4cfdc396b7105b5
+      version: 4e49c3f79667c6da537dea2e0bc43dcf6ade73bf
     status: developed
   rosidl:
     doc:
@@ -7024,7 +7034,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: a1a0e7ebcbbd543dae172f5c4b18d031570119f4
+      version: 820a85bab1e7939c8b2f18617b48a2b7346ce74a
     status: developed
   tracetools_acceleration:
     doc:
@@ -7350,11 +7360,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.4.2-1
+      version: 2.4.3-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: e5ba31cd38c34076f95b25a047daaa16f7c3466c
+      version: b112efa6bde372c22d3afc422e821f9d8c89a5e1
     status: developed
   urdf:
     doc:
@@ -7711,7 +7721,7 @@ repositories:
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
-      version: 636947ef920ec80509dd29c564b4c3bc8cc4edb2
+      version: 88d77e1c07f5fed276a6397e97be6bb1c89230e8
     status: developed
   warehouse_ros:
     doc:
