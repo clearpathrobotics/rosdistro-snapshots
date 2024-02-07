@@ -3,8 +3,6 @@
 # see REP 143: http://ros.org/reps/rep-0143.html
 ---
 release_platforms:
-  debian:
-  - bullseye
   rhel:
   - '9'
   ubuntu:
@@ -264,7 +262,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: bf3c609e71a2a9b0a4eee4e80f3e88bef0c675e5
+      version: 903c28344c5fbe787c5882d4ba255bf220277cd9
     status: developed
   ament_nodl:
     release:
@@ -2118,7 +2116,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 506bed21afa2f0ac333c27e9be16856277029689
+      version: a7ff7d645375b2bd3b79199e66963cfb78dee433
     status: maintained
   image_transport_plugins:
     doc:
@@ -3141,7 +3139,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 9ece54c896d286810e7ce077ba3d2c82e3be3af7
+      version: 0941761520e1f1a8ab489f17f8b2867f1b3e37d8
     status: developed
   mqtt_client:
     doc:
@@ -3174,7 +3172,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 4c9da0fb51e50148d28c46964bd698688c727f47
+      version: 923026f80f295343b05acfb4f521991563796697
     status: developed
   mrpt_msgs:
     doc:
@@ -3199,7 +3197,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: f72c02f25b9c45af55103cec943625f67242aeb7
+      version: 3de1462c3bb261e6f31a2d63de0667d81c804d7b
     status: developed
   mrpt_path_planning:
     doc:
@@ -3715,7 +3713,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
-      version: ef5db238daaf89fe25b18bf9c67b3ec74a4fbc3e
+      version: 1a9b928f64b00ff8d609af3c912002107d392571
     status: maintained
   ouster-ros:
     doc:
@@ -3984,7 +3982,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
-      version: e629cd6a1244b4c14402272ea1c04977a9a1b136
+      version: rolling
     status: developed
   pluginlib:
     doc:
@@ -5146,7 +5144,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
-      version: 370e9d7bb60f837578e342c4809f475ad7d365f4
+      version: 89d9f40f4ca840c2b8f6d8dcf89dc2257a07c9cf
     status: developed
   robot_localization:
     release:
@@ -5250,7 +5248,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: a1b03771eb89425af2dcb06ed57e16de7e3809c4
+      version: b8c5418aff40ae1762c3811a6958ce4e5c1621ba
     status: developed
   ros2_controllers:
     doc:
@@ -5287,7 +5285,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: c786604f10516379d9c5460eb5356920d923ae03
+      version: 89109a0809fe00e2fbb7fd420bbc4c288ebb3852
     status: developed
   ros2_kortex:
     doc:
@@ -5984,7 +5982,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: ec6c14ad2fad64c054a05c5d7d638f29a0121f88
+      version: f0a47cff483b2d776b672c7b5ebb5a1f2c67bde9
     status: maintained
   rqt_common_plugins:
     doc:
@@ -6045,7 +6043,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_graph.git
-      version: 41b2c10910f673813aa8033586f45e93616eac78
+      version: b8db63735d19fb7270d095bb50b1d0d8417595b0
     status: maintained
   rqt_image_overlay:
     doc:
@@ -6109,7 +6107,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_msg.git
-      version: 1e88a64c2abc293de10c19094111f74398061752
+      version: 3c694f68ba060f4e701a2b50ef978b64ba501338
     status: maintained
   rqt_plot:
     doc:
@@ -6124,7 +6122,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: 027fac59148dd7e70c621d5e181eb17e7cd75711
+      version: 6b54799914644a251c5e19868e51dcabc8de7d81
     status: maintained
   rqt_publisher:
     doc:
@@ -6139,7 +6137,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: 5ed972a812359a5cc6e1115897b14c70aa38be05
+      version: fdca864283f1354c862b5b5a2f3f9db3e3615a89
     status: maintained
   rqt_py_console:
     doc:
@@ -6154,7 +6152,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_py_console.git
-      version: 819f73c634f931fa588e618e6a893419093d08e4
+      version: 5bdfe549f6d341bfa2b5a45366d722c3a78c92ae
     status: maintained
   rqt_reconfigure:
     doc:
@@ -6245,7 +6243,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_service_caller.git
-      version: 22c4eabccdc0dfdce4d9d2d448ec6d298ac86df7
+      version: 33b3e8a8015dd1c58c7b880f89cadd393b6916f6
     status: maintained
   rqt_shell:
     doc:
@@ -6260,7 +6258,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_shell.git
-      version: 58f4bbc889850cdc80154b733dcd0704556c9202
+      version: 9f678968bf7d67a969c9e218c2ba70c4b9265320
     status: maintained
   rqt_srv:
     doc:
@@ -6275,7 +6273,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_srv.git
-      version: 5aef9061298ad6b95e094330344fa521e9513b20
+      version: 75edbc47a0caf9273821210e5fda114ac09e0de8
     status: maintained
   rqt_tf_tree:
     doc:
@@ -6306,7 +6304,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_topic.git
-      version: 28d889004da646a4c00c96a3ec09bd688f82aaaf
+      version: c388d45bb9c3c1835455832ad3bbf2f373b86454
     status: maintained
   rsl:
     doc:
@@ -6732,7 +6730,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 73f1b0d7071bd8ab57a92b52df1a4e403cd36add
+      version: 760cfda0b1468d502700793c124955130b13af83
     status: developed
   stomp:
     doc:
@@ -7706,7 +7704,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/vrpn/vrpn.git
-      version: 168d3d2540b6044f2d0229a49d14a8b31337e1c7
+      version: c8c9e44affff1477857c8ffaf90267922ab4f538
     status: maintained
   vrpn_mocap:
     doc:
