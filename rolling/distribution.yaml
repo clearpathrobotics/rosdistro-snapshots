@@ -364,7 +364,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
-      version: b9d68e658f3b0f7b3506c2cd81da108c8619d7ed
+      version: f807e8a400cc20f7c5d2b2cc32739128fc7a0a65
     status: developed
   apriltag_msgs:
     release:
@@ -596,7 +596,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 789ce6ea0ad3627923bd2389b8fb9199ffab6d84
+      version: 58326a8a08d9c51e2ed8674aef3710bb6209867b
     status: developed
   bno055:
     doc:
@@ -633,7 +633,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/bond_core.git
-      version: 330a2a719ecdb2b5fe03cebc643e756d8c352f57
+      version: e6d0fc2cf132584778f7bc33a7a4c5c307964d94
     status: maintained
   boost_geometry_util:
     doc:
@@ -876,7 +876,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: bf19ce048956498b63a35a23fb6e27b1e7f565bb
+      version: 21dc7a507ea67acd67516166bb18068fe67e69d5
     status: maintained
   cpp_polyfills:
     release:
@@ -973,7 +973,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 5b81fcc9bdcbb6ef535780393e01d1e7b8aa8c6e
+      version: 93030b5f72896567df14bd151f992390b444cc43
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1811,7 +1811,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/googletest.git
-      version: ad343ef3c63b949cef97b0294d5ff352c499881b
+      version: 449327bfc17e58db5ce53955b8e250427909a1c8
     status: maintained
   gps_umd:
     doc:
@@ -1907,7 +1907,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 448132af2746ff7164db88ac2cadd93cedbd0813
+      version: f724f303889cbde32b097289d64cc771a9ee4369
     status: developed
   gz_ros2_control:
     doc:
@@ -1995,7 +1995,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 40a636b40e6ca3caf27b3d580de0697044c406af
+      version: 646231888111ca27eea34b90b4b16f617ae845f3
     status: developed
   iceoryx:
     release:
@@ -2116,7 +2116,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: f13ccd9640b07ff1f53094ef05d181baf1167c3c
+      version: 81802aefb9ba0d612e5f3643648151ab38f98fe1
     status: maintained
   image_transport_plugins:
     doc:
@@ -2152,7 +2152,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/imu_pipeline-release.git
-      version: 0.4.1-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ros-perception/imu_pipeline.git
@@ -2815,7 +2815,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 2e20c1cbe62fe2bdec51ae6f63bdd740dee39cb7
+      version: 227bb05c34a75188f1d6fccff6f767d0cc9129b0
     status: developed
   menge_vendor:
     doc:
@@ -2966,7 +2966,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: f136aadcc8aa70e7bf5f15fbb976ced78550663a
+      version: 2a1c56ddd5a94ec4fe9e57e937ef9cd350675f87
     status: developed
   mola_common:
     doc:
@@ -3071,7 +3071,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 78d6e1fd460e6ec1d4d6b734b2dd1a4039b680c6
+      version: ce40e0860c1cd1982ff3620682517fe283fee078
     status: developed
   moveit_msgs:
     doc:
@@ -4032,7 +4032,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 2583b84245dc695519d94fc722d8fad24c1af40a
+      version: 92ad35c1d685c79e778dc29e56a435276b9ca760
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4232,7 +4232,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/pybind11_vendor.git
-      version: c6a4bd36f4d8934f7d5832f5716c1e85e1fbd0af
+      version: 9435c4d72b14fc6378a6cb5599f31d34eccec052
     status: maintained
   python_cmake_module:
     doc:
@@ -4589,7 +4589,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 9655aa49ba2c3b74b3ee1ee986946b0c2be7febd
+      version: 220d714b2b6da81a4abd6a804e3ed4ee8cfd7c3f
     status: maintained
   rcpputils:
     doc:
@@ -4731,7 +4731,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/teamspatzenhirn/rig_reconfigure.git
-      version: 8c3e5b10c985bda61082c0e925e48b2854e65e42
+      version: 1583ff54b555e7f4f6d3de3656ef4403a2d205de
     status: developed
   rmf_api_msgs:
     doc:
@@ -5248,7 +5248,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 3252a27c4f73678b6b4e215f83d04c4aac442945
+      version: b3912f95663f187566278c4a360ac80af4af3ddf
     status: developed
   ros2_controllers:
     doc:
@@ -5285,7 +5285,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 89109a0809fe00e2fbb7fd420bbc4c288ebb3852
+      version: 1266941cefcf02e2a409303a4e5f975e87e4d358
     status: developed
   ros2_kortex:
     doc:
@@ -5434,7 +5434,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 27449f77842aad632c9bb5747eb613e0737970bf
+      version: d3cfbd7612b5d2707b16da1b900dc772dd88a61c
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7715,7 +7715,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vrpn_mocap-release.git
-      version: 1.0.4-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
