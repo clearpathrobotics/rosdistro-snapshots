@@ -361,6 +361,11 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
       version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/apriltag_detector-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
@@ -1130,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 3f103b03f64c1eb83cc68f4144c26e69a22686f5
+      version: ec1e34460401c08a39b8f1943cd9c91a35cbcd0c
     status: developed
   ecl_core:
     doc:
@@ -1630,7 +1635,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: ef4caaac3335ee1d7bd51087d062f6a8c5989dc2
+      version: cdae6b8a8f638d87146482e99bf76cf36530e5a6
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1925,7 +1930,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: d9857888571add6a6ac8e2fb6b424b7d39656555
+      version: d999a460202751d765559b328809aade314443a0
     status: maintained
   hash_library_vendor:
     doc:
@@ -2116,7 +2121,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: a6e9060a4955cee19cdec3d0a0247334600f0473
+      version: 14f604a8c04c079339e43b2a5a1e3ec6dec94b29
     status: maintained
   image_transport_plugins:
     doc:
@@ -2966,7 +2971,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: c9b8c537292a3107e0c107487b02961a606eb595
+      version: 2ba7391c71e0b1e4d0a68b0e034b3e916ef282c8
     status: developed
   mola_common:
     doc:
@@ -3071,7 +3076,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: ce40e0860c1cd1982ff3620682517fe283fee078
+      version: ab48a492f6cbee5aa7415192f7bf815f8b5ada36
     status: developed
   moveit_msgs:
     doc:
@@ -3139,7 +3144,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 81dd42f8a74ee365bea3cecee3cc340552e922ea
+      version: 41527e97978f8110dc24018e952d8a736b764643
     status: developed
   mqtt_client:
     doc:
@@ -3168,7 +3173,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.8-1
+      version: 2.11.9-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3197,7 +3202,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: f1aa8e405683f17d25768b2cf57d1f6f78637bbd
+      version: 35a14c3274f4fe8785e64c51c18ede5416b78f86
     status: developed
   mrpt_path_planning:
     doc:
@@ -5156,7 +5161,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 5140f979eb1a1d2fa8433f57b2d0a37c5360e50a
+      version: d37b824b7ff6e08183801c4d8b58bd41c08f94f0
     status: maintained
   robot_state_publisher:
     doc:
@@ -5244,11 +5249,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.4.0-1
+      version: 4.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: b3912f95663f187566278c4a360ac80af4af3ddf
+      version: 3e0a02351e3a1f5134821e6bb68c64b66575b291
     status: developed
   ros2_controllers:
     doc:
@@ -5281,11 +5286,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.5.0-1
+      version: 4.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 9ab848a5a0f07a68b1cbf53c407fc162d0896a27
+      version: 088b69c91b5ddd1d5dce4734d3486e335548d9ff
     status: developed
   ros2_kortex:
     doc:
@@ -5386,7 +5391,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: dadd0e9a1a9f4b8e224a0dbfd78b7f96e48bc6af
+      version: 734d867e670ae5a54b9ba35972cf431421a44a5c
     status: developed
   ros2acceleration:
     doc:
@@ -5676,7 +5681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 77d48c0876dd22d65bd1fab2b440d9d28350d5cc
+      version: 7d78af16d30d0ffe232abcc65d0928ce90bd61f7
     status: developed
   rosidl:
     doc:
@@ -5982,7 +5987,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: 8e1f38a8f329795b8ed2336053e5cf293ebdec4e
+      version: 15901026b34e1c91c1d10dec4fe28062ce8b6f67
     status: maintained
   rqt_common_plugins:
     doc:
@@ -6122,7 +6127,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: cf4bd0f36fc7d593a59e099e35de82d857f907ff
+      version: e658b1c431894486c63feafa1247b1b32bbbf278
     status: maintained
   rqt_publisher:
     doc:
@@ -7362,7 +7367,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: b112efa6bde372c22d3afc422e821f9d8c89a5e1
+      version: 31993abdd5a22284adde08378668457c484e86eb
     status: developed
   urdf:
     doc:
