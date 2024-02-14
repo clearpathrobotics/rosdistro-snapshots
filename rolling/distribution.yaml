@@ -584,7 +584,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 04a514eecc0e02e38f8c104084f43a85f57fabd2
+      version: 95210b01f12f30fc25946c03db0fed0b826be1fd
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -601,7 +601,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 58326a8a08d9c51e2ed8674aef3710bb6209867b
+      version: 21ab495156b6b15d224370803f5cb2cc016a0aa2
     status: developed
   bno055:
     doc:
@@ -881,7 +881,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 21dc7a507ea67acd67516166bb18068fe67e69d5
+      version: 3898fbe440f57130fa2dbb3b1ee2585d4e8853c6
     status: maintained
   cpp_polyfills:
     release:
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: ec1e34460401c08a39b8f1943cd9c91a35cbcd0c
+      version: e88a6a3dceff0ad03ec9838a0ed740ab7dcedfc2
     status: developed
   ecl_core:
     doc:
@@ -1268,7 +1268,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: a9f6a4f8a162c242ff3b3772e4c19b361ad6b701
+      version: 6a0ebc5d4a1f738c310c5baf259ff9de17572c31
     status: maintained
   event_camera_codecs:
     doc:
@@ -1635,7 +1635,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: cdae6b8a8f638d87146482e99bf76cf36530e5a6
+      version: 5230b1e657f7326f28413e04630c6964f54544fb
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1930,7 +1930,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: d999a460202751d765559b328809aade314443a0
+      version: a3beadb014f62e0808033de2c5ad84e2428c36e9
     status: maintained
   hash_library_vendor:
     doc:
@@ -2000,7 +2000,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 646231888111ca27eea34b90b4b16f617ae845f3
+      version: 00671604b39f33c93b8842ccfa113f02807d1ca3
     status: developed
   iceoryx:
     release:
@@ -2472,7 +2472,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 092bea3e2b17f60852761dc939c073d05005b201
+      version: d9ffd805e3d9ca42fe4dd0019ae095e9eb0d4d72
     status: developed
   launch_param_builder:
     doc:
@@ -2523,11 +2523,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/leo_common-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
-      version: ec35c46b1bb5d3a0586c11865e980753830e06bb
+      version: f7638a7f1624be76696fe81799807296132887e5
     status: maintained
   leo_desktop:
     doc:
@@ -2971,7 +2971,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 2ba7391c71e0b1e4d0a68b0e034b3e916ef282c8
+      version: b9ebb3b240fc6b2dc83d4cbd46fb26cc416acca2
     status: developed
   mola_common:
     doc:
@@ -3076,7 +3076,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: ab48a492f6cbee5aa7415192f7bf815f8b5ada36
+      version: e9b214ccb7a1f99732a5489d4d031980cf4c09ff
     status: developed
   moveit_msgs:
     doc:
@@ -3144,7 +3144,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 41527e97978f8110dc24018e952d8a736b764643
+      version: a0bc35ee7f12f0f09743dc9fdd0174da96f83702
     status: developed
   mqtt_client:
     doc:
@@ -3942,7 +3942,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 6b5bc2483a03413bd755b2597d8af360b3ece913
+      version: 07e8b005fa87aea9ec31dbf1bd5610315bfc2654
     status: developed
   plotjuggler:
     doc:
@@ -4032,12 +4032,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 3.0.2-1
+      version: 3.0.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 92ad35c1d685c79e778dc29e56a435276b9ca760
+      version: 995df56dee9ea9292b1ea9e2c30cd9ed56ffb5bc
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4142,7 +4142,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 80ab83d94c641abe91c44b1e1873172063f781d3
+      version: 86c7eeadc2067e732c5d21b7dd8ebc5fc1908296
     status: developed
   py_trees:
     doc:
@@ -4578,7 +4578,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: c500695e21dd186981533bb6fb84624e4c4f752c
+      version: 091f29fcd38461046520e3f5cabd396777df88f6
     status: maintained
   rclpy:
     doc:
@@ -4661,7 +4661,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 477b24d74ca162b56f72102c436f4d25f807b3c9
+      version: 7f3800fd18f97fa43897e149d06627b0f401894b
     status: maintained
   reach:
     source:
@@ -5043,7 +5043,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: a91bc8f34f43f76d882bcd468809a67f2e3c50af
+      version: d2bd90826e19097a429ba150b12e67d3822c1ccc
     status: developed
   rmw_cyclonedds:
     doc:
@@ -6408,7 +6408,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 02cff124e8d7489e9494988e820be605030ae03a
+      version: b30838530c1aee8f6ddcbd11db258fbd24e57935
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6541,7 +6541,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: fea8499c714325cd5c9f01deb0a0f4547816e1a0
+      version: c60b65890ad43e7821eeb2c92f87e38fcc2786f8
     status: maintained
   slider_publisher:
     doc:
@@ -6875,7 +6875,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/teleop_twist_joy.git
-      version: 1bf2dd4c5f518d27466a610fb454a1843fb5a9d7
+      version: a9e2f3432f3b79fbdd9b1ac5f927618ab9eca92f
     status: maintained
   teleop_twist_keyboard:
     doc:
@@ -7824,7 +7824,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/yaml_cpp_vendor.git
-      version: 4f17f410b1251b24142b3d1af809e6a65a33168d
+      version: 7693ad25f84725f7a0b34e7065525c9338cc9663
     status: maintained
   zbar_ros:
     doc:
