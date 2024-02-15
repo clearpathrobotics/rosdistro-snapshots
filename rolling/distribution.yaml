@@ -601,7 +601,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 21ab495156b6b15d224370803f5cb2cc016a0aa2
+      version: 6c9929c99e0546fcb51d9a0e2dc1febe5c7a624b
     status: developed
   bno055:
     doc:
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: e88a6a3dceff0ad03ec9838a0ed740ab7dcedfc2
+      version: f2bf41c8f90417a6a29c2e51751fd19104626c39
     status: developed
   ecl_core:
     doc:
@@ -1396,7 +1396,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 992e71200f63ec77c4d56ad7f4cafa99bbcfffa6
+      version: bdceab51521232d66dc11b0e9dbc79cb2762fd4e
     status: maintained
   fastrtps:
     doc:
@@ -1413,7 +1413,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: b3c6e4e4643d14e1f8f583130b1aa2c36071bba6
+      version: 0e32d5b21fcdc2c1f0bfd344c965162a378b2e30
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1572,7 +1572,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 9aeb404df84fc9593cd162382ae78449a6668910
+      version: 89239eb5bbb8549fec08ade82254fabcf773cc37
     status: developed
   foxglove_msgs:
     doc:
@@ -1635,7 +1635,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 5230b1e657f7326f28413e04630c6964f54544fb
+      version: 5e1f9a52bcd1bf4164186dbb3c8b5cf070ed156e
     status: developed
   gazebo_ros_pkgs:
     doc:
@@ -1930,7 +1930,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: a3beadb014f62e0808033de2c5ad84e2428c36e9
+      version: 0bdf13e6986c613c99a595889a587da1db6d7f69
     status: maintained
   hash_library_vendor:
     doc:
@@ -2331,7 +2331,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 111c633b9f75bf1d2f55b8c5a48142b53aa8aa81
+      version: 2d89eb6cf1d9eccc34931709d05bee33685f4747
     status: developed
   kobuki_core:
     doc:
@@ -2507,7 +2507,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 3546016ed55c77e47ccd69bc80d22642b8a5a6fb
+      version: b3ab7292be066f15113ef9f509ec47e9e3a2c58d
     status: maintained
   leo_common:
     doc:
@@ -3144,7 +3144,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: a0bc35ee7f12f0f09743dc9fdd0174da96f83702
+      version: d241b2d62cff31d2f8b13aeddb44d721ba9f43dc
     status: developed
   mqtt_client:
     doc:
@@ -3633,11 +3633,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/openni2_camera-release.git
-      version: 2.0.2-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
-      version: 01f3ddbe40180b57219be5e68df62cf638821e36
+      version: dab527b086ac2a5611064a4467e20268e74e765c
     status: maintained
   opensw:
     doc:
@@ -3957,7 +3957,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 8a297ad689d385524f9ef221aec82b177691fdf9
+      version: 2376fdf75b4e01da5d964eb9ed2260f3ad025dca
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5253,7 +5253,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 3e0a02351e3a1f5134821e6bb68c64b66575b291
+      version: 976433f7739afe09f6061c972e2923d4ba7e5dfe
     status: developed
   ros2_controllers:
     doc:
@@ -5312,7 +5312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 915df14e83fbc295a985f393afcc9175bdfcd72b
+      version: cbfb28efb8c3007485aa80f86d692cd56e0e9109
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -5349,7 +5349,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-      version: 36a87611413b522d11b702e18d2abd0414c01379
+      version: d73938272fe9dc26c11ebcfa79955fbf9ef5ef3c
     status: maintained
   ros2_socketcan:
     doc:
@@ -5954,7 +5954,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: edaf31a5281454ccd1f2e9ed1eab21401f89d2b7
+      version: 51aed01e4b83ac58c2684346a3945d1d56f6a8f1
     status: maintained
   rqt_action:
     doc:
@@ -7544,7 +7544,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
-      version: caac2be15b8febcd1bcf97498d3f296268d52220
+      version: 644bf336abe3e3a9e08cf739475a1caf2900b4c8
     status: developed
   variants:
     doc:
