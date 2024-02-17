@@ -146,7 +146,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 6b310f5e3078fe4473904bac8415aa3622f8868a
+      version: dc3df2f692f75b0b4d096da68bc81da5bd73aaeb
     status: developed
   ament_cmake_catch2:
     doc:
@@ -262,7 +262,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: ccf6cdd76dce6d777c5bcfe861673c74f08df624
+      version: 4bd8e5bc0ae0ed891400a20b7e2fbd0835ca05b8
     status: developed
   ament_nodl:
     release:
@@ -935,7 +935,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/data_tamer-release.git
-      version: 0.9.1-1
+      version: 0.9.4-2
     source:
       test_pull_requests: true
       type: git
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: ef71829f82c78cbfdaf1a82e7beec9b568380d5e
+      version: 33a984b44586af68770641272a310c04750d5de4
     status: developed
   ecl_core:
     doc:
@@ -1313,7 +1313,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
-      version: 4f8d10e9189cf0effa153e3a93d3e0fb9011b331
+      version: ac51383d0bb87a1247a5493da588d9de9046d67f
     status: developed
   event_camera_renderer:
     doc:
@@ -1402,18 +1402,18 @@ repositories:
     doc:
       type: git
       url: https://github.com/eProsima/Fast-RTPS.git
-      version: 2.11.x
+      version: 2.13.x
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastrtps-release.git
-      version: 2.11.2-1
+      version: 2.13.2-1
     source:
       test_commits: true
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 3375558e066b6fd2acf231e268c7a63afc3d4fa6
+      version: d48969f61c722af8b25b1309521ca4a41f0025e5
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -2971,7 +2971,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: b9ebb3b240fc6b2dc83d4cbd46fb26cc416acca2
+      version: 6f2db1909b86274bdccc8833fd8720f7d95b62dc
     status: developed
   mola_common:
     doc:
@@ -3140,11 +3140,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.1.1-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 3b9d42596f5e85bad8cd3e6f7aa844d63a69d48b
+      version: 64272e408076a5762f07560b2ec591f9ab628ecc
     status: developed
   mqtt_client:
     doc:
@@ -3177,7 +3177,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 80d109060dbf7125d8988d2e28c4e9f369ae0f9c
+      version: f86dc1a86ea4b1b6eb9cb0f49dbf0c9d1fba264b
     status: developed
   mrpt_msgs:
     doc:
@@ -4037,7 +4037,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 995df56dee9ea9292b1ea9e2c30cd9ed56ffb5bc
+      version: 048efc5194f833531068ce723779b8e62212da61
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4059,7 +4059,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: 8ac31dc4e331d2589243d79aa8b5cabcaee6dd8e
+      version: db7c70340e0b179a27d11c3c8a74b51190363dfb
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -4086,12 +4086,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pointcloud_to_laserscan-release.git
-      version: 2.0.1-3
+      version: 2.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/pointcloud_to_laserscan.git
-      version: 272ca4df83ae5faef5df9d4fe6bd90a872360c16
+      version: d71ed2ea7405249bc5f0b2e15b89434e3291b1ce
     status: maintained
   polygon_ros:
     doc:
@@ -4478,7 +4478,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 92c16fca2e3023f0c6792d4404328b01dd5fbd64
+      version: 8baed5728998960d9be9a5a194b57bf6288da5b8
     status: maintained
   rcl_interfaces:
     doc:
@@ -4578,7 +4578,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 091f29fcd38461046520e3f5cabd396777df88f6
+      version: 10252e9f66ac87f3903f301b64320d32457f0658
     status: maintained
   rclpy:
     doc:
@@ -4661,7 +4661,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 49d5794bcdd1da3efbf4b421f17dd87d9a9edbc6
+      version: 24431bab8cedb0e47433b1cef3c7aa0139e0d362
     status: maintained
   reach:
     source:
@@ -5253,7 +5253,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 5f9be40267e8feaf8bbf1634169a09e54e54ddb1
+      version: b050c952713d57c84ec34338db2314bef089cb00
     status: developed
   ros2_controllers:
     doc:
@@ -7676,7 +7676,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 3d969f9c20a08c06a5a6e449f77e1b6872b7887d
+      version: bab020d942af1e438c216ba20a15f6b2a34eb56b
     status: maintained
   vitis_common:
     doc:
