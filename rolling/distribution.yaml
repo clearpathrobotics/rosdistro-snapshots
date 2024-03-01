@@ -783,7 +783,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/MetroRobots-release/color_util-release.git
+      url: https://github.com/ros2-gbp/color_util-release.git
       version: 1.0.0-2
     source:
       test_pull_requests: true
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 0bc41abdf2348e7045de97228bf895ec4590559c
+      version: ac314fac6696d09de5c101024313128bcc3bd667
     status: developed
   ecl_core:
     doc:
@@ -1268,7 +1268,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: efed704512b26bb5ba0321608f82c784bedfdc62
+      version: 247c60acc68e16fbc379677924950444b8e2cfaa
     status: maintained
   event_camera_codecs:
     doc:
@@ -1413,7 +1413,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: dff33b47f693cc434fc9c463c65fa8e3e07dc3c1
+      version: 29c70ed93ac49501c01013caa2420bf3f3acebe5
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1449,7 +1449,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/Fields2Cover/Fields2Cover-release.git
+      url: https://github.com/ros2-gbp/fields2cover-release.git
       version: 1.2.1-2
     status: developed
   filters:
@@ -1493,6 +1493,16 @@ repositories:
       url: https://github.com/flexbe/flexbe_behavior_engine.git
       version: de06e21fc7fbe42933bcfe55f24d64892de1fe9f
     status: developed
+  flir_camera_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/flir_camera_driver.git
+      version: rolling-release
+    source:
+      type: git
+      url: https://github.com/ros-drivers/flir_camera_driver.git
+      version: 2865bb13e6e74662228274f5b39a8cddda92c0f6
+    status: maintained
   fluent_rviz:
     doc:
       type: git
@@ -2000,7 +2010,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 1862b54b18e751d8a905b3b5837707ae1bad8258
+      version: 692ac142bf49e31960f31943ed07c3e4aed4f982
     status: developed
   iceoryx:
     release:
@@ -2121,7 +2131,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 432f134ce928c4952d10d51638c568fac1e6e74e
+      version: 862c844061035fe27b70fea01249aa2e971250f6
     status: maintained
   image_transport_plugins:
     doc:
@@ -2703,7 +2713,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/nobleo/magic_enum-release.git
+      url: https://github.com/ros2-gbp/magic_enum-release.git
       version: 0.9.5-1
     source:
       type: git
@@ -2861,7 +2871,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer-release.git
+      url: https://github.com/ros2-gbp/message_tf_frame_transformer-release.git
       version: 1.1.0-1
     source:
       type: git
@@ -3157,7 +3167,7 @@ repositories:
       - mqtt_client_interfaces
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
+      url: https://github.com/ros2-gbp/mqtt_client-release.git
       version: 2.2.0-1
     source:
       type: git
@@ -3177,7 +3187,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 824d1310a98d76edb6d1994f647f3be28fe9a726
+      version: 793c4e65ae51a6649037c4216b49b57d1435357e
     status: developed
   mrpt_msgs:
     doc:
@@ -3768,7 +3778,7 @@ repositories:
       - pal_statistics_msgs
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/pal-gbp/pal_statistics-release.git
+      url: https://github.com/ros2-gbp/pal_statistics-release.git
       version: 2.1.5-1
     source:
       type: git
@@ -4106,7 +4116,7 @@ repositories:
       - polygon_utils
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/MetroRobots-release/polygon_ros-release.git
+      url: https://github.com/ros2-gbp/polygon_ros-release.git
       version: 1.0.2-1
     source:
       test_pull_requests: true
@@ -4478,7 +4488,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: b98e22e9ce94f42e93839bf3d710a88161b92185
+      version: 061f54669e7e48b91426b51d4db8382d069c2bb4
     status: maintained
   rcl_interfaces:
     doc:
@@ -4525,7 +4535,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_logging.git
-      version: 658972a26248e2cfc5c0db4d3e6ab341d6cbc6b6
+      version: c45683f028a9220a6cd57999574d77f0a529a53b
     status: maintained
   rcl_logging_rcutils:
     doc:
@@ -4578,7 +4588,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: e10728cde937e621799997141d5d70bf1e1f497a
+      version: b007204fd83828c11f80bf4712d237bfb2431f6e
     status: maintained
   rclpy:
     doc:
@@ -4896,7 +4906,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: 66525a5927c1178611993fc280d06e472a986f34
+      version: f7c55595a7b7b419613fbbd24486a17292af8626
     status: developed
   rmf_traffic:
     doc:
@@ -5061,7 +5071,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_cyclonedds.git
-      version: f3d802e3c7ae3331e88868cda010bf9c17dd0655
+      version: d8973e818db1546975478dc59699f78417b9051b
     status: developed
   rmw_dds_common:
     doc:
@@ -5097,7 +5107,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: 1301b8da8bea088ef1cca9025cd5529978800081
+      version: c48406a5f87fd7ebe5a576fbf627b6c9efcc786e
     status: developed
   rmw_gurumdds:
     doc:
@@ -5253,7 +5263,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 69e5e2731e26470dc84b7873797d70e93f65b7ca
+      version: 0711cd6274eace78dde90f56b7994e60edba7697
     status: developed
   ros2_controllers:
     doc:
@@ -5640,7 +5650,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 1564687de2d10d5bce32dcb9b38ec5c9239416a4
+      version: 86fc3e4b8fdf76dd1fa89179a436c9191414c460
     status: developed
   rosbag2_bag_v2:
     doc:
@@ -5711,7 +5721,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 0425e869022b36fa7c5ce30696093546edad488f
+      version: 0775e1059638dc24e7d87c0b6b51bd2c8809d678
     status: maintained
   rosidl_core:
     doc:
@@ -5852,7 +5862,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: 34314ee5b11f1b63eb9d7b6c95525cc29670fe0a
+      version: b93beec27b9d2d4b12e04da122bc693422866650
     status: maintained
   rosidl_typesupport_fastrtps:
     doc:
@@ -7019,7 +7029,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/PickNikRobotics/topic_based_ros2_control-release.git
+      url: https://github.com/ros2-gbp/topic_based_ros2_control-release.git
       version: 0.2.0-1
   topic_tools:
     doc:
@@ -7038,6 +7048,16 @@ repositories:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
       version: 820a85bab1e7939c8b2f18617b48a2b7346ce74a
+    status: developed
+  trac_ik:
+    doc:
+      type: git
+      url: https://bitbucket.org/traclabs/trac_ik.git
+      version: rolling-devel
+    source:
+      type: git
+      url: https://bitbucket.org/traclabs/trac_ik.git
+      version: 8ba3fc70e4ce3d6e1db45b4974adc37c7c7ac450
     status: developed
   tracetools_acceleration:
     doc:
@@ -7150,7 +7170,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/tuw-robotics/tuw_geometry-release.git
+      url: https://github.com/ros2-gbp/tuw_geometry-release.git
       version: 0.0.7-2
     source:
       type: git
