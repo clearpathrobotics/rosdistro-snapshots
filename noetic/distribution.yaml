@@ -308,6 +308,22 @@ repositories:
       url: https://github.com/fkie/async_web_server_cpp.git
       version: 5fd37c0ec0910a7d7ac287f9bbabb0b988af8b75
     status: maintained
+  atf:
+    release:
+      packages:
+      - atf
+      - atf_core
+      - atf_metrics
+      - atf_msgs
+      - atf_plotter
+      - atf_recorder_plugins
+      - atf_test
+      - atf_test_tools
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/floweisshardt/atf-release.git
+      version: 0.1.1-1
+    status: maintained
   audibot:
     doc:
       type: git
@@ -448,7 +464,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: e2cc0b4de238071f2a185030e32c6c4089e619d3
+      version: 518d426ac2a7b9afa3c03210a437d8c78f98a753
     status: maintained
   backward_ros:
     doc:
@@ -2614,7 +2630,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: 9c841efd58c9641c75270f34bb58352f9168f3bd
+      version: 243b1544ac568da8e52b9fb32915cbcf6f1cc896
     status: developed
   euslime:
     release:
@@ -3889,7 +3905,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 1285057cbaf6f6fae7abc3282eeb23742e19dcfe
+      version: 16f250120375e50ed232ac873c9b87d9570e7614
     status: maintained
   hri_actions_msgs:
     release:
@@ -5400,7 +5416,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: a7f35612ab42505b309e87ddcf964b84a3439525
+      version: d63a9d63717640705c6c9654d68fa6575d39bab8
     status: maintained
   mapviz:
     doc:
@@ -5536,7 +5552,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2023.9.9-1
+      version: 2024.3.3-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5557,7 +5573,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.17.0-1
+      version: 1.18.0-1
     source:
       test_pull_requests: true
       type: git
@@ -8948,7 +8964,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: 89d24b61bd7aef50e774f8999b7e5315aae379b3
+      version: 6b89a285f1dbe5c7af1e9ea0f6c77565c8c16001
     status: developed
   rm_description:
     doc:
@@ -11784,7 +11800,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 7a971fb0e522156ae819058df15c8365e8a79764
+      version: 3ef3b93067f857a4f8d0135ead54b912996edfb3
     status: developed
   tf2_2d:
     release:
