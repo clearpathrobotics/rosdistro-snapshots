@@ -165,7 +165,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aprilrobotics/apriltag.git
-      version: 51466ec524d9a5d7b759f42663e5da9810ff5261
+      version: e6cd3c7afdc23814f38a6b537904a41c393fc305
     status: maintained
   apriltag_ros:
     doc:
@@ -464,7 +464,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 518d426ac2a7b9afa3c03210a437d8c78f98a753
+      version: 75c6035e0d5007148fc4998849e47471c2b2ef9b
     status: maintained
   backward_ros:
     doc:
@@ -888,7 +888,7 @@ repositories:
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_msgs.git
-      version: ed901ae2994cfb0b84b5246d7c55da6b4466d180
+      version: 8f4f0fb09187f152b29ece2ea97e4faeca74a07d
     status: maintained
   clearpath_onav_examples:
     doc:
@@ -2025,7 +2025,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 9c138e56d37952281515fe16b56e38db2fef9ab1
+      version: ac07ef2e448657e09c8f1f51b03e3d6f1b5243e3
     status: developed
   depthimage_to_laserscan:
     release:
@@ -3727,7 +3727,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 952ce5e66c0807efbaa566441eb1c22fd062315f
+      version: eeb092ec41f4a35ffc11198b89cee9101de8c009
     status: developed
   haf_grasping:
     doc:
@@ -6199,7 +6199,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 8916886fde4cf39876938da66bc950aedebaf352
+      version: 6b4e3ab24cfa2d9826b7545e304b6d7d7b71817b
     status: developed
   mpc_local_planner:
     doc:
@@ -6263,11 +6263,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
-      version: 2.11.9-1
+      version: 2.11.11-1
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: a30f4abd213ae14714a42410d3028f29410ce576
+      version: 89eee67ec42e1225a395d12d1c2c1212b19d2f0b
     status: developed
   mrpt_msgs:
     doc:
@@ -6341,7 +6341,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 4ecca373e922db143a3cdd8177c1e071371b3c1e
+      version: 8063a39a77b45d91a0a6f4e46e36b849765baaaa
     status: developed
   mrpt_slam:
     doc:
@@ -6432,11 +6432,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.8.3-1
+      version: 0.9.1-2
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 4607aa47066ccdbbc6e53485110344068981f8b5
+      version: 7678311b0d2aa3bc62fdfda0cf80d5ebbbdf798e
     status: developed
   nao_meshes:
     release:
@@ -8214,6 +8214,17 @@ repositories:
       url: https://github.com/PilzDE/psen_scan_v2.git
       version: fd597a7d1577ac7d2f840ca657de64d4cc65ea10
     status: developed
+  py_binding_tools:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/py_binding_tools-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-planning/py_binding_tools.git
+      version: 867293f66747bea041238502ee08439c7f2a28c0
+    status: maintained
   py_trees:
     doc:
       type: git
