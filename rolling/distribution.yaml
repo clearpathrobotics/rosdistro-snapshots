@@ -601,7 +601,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: ec2e6965732f4840697685ca4672ed754fde395a
+      version: 11aebe789d84c4bc56dec6a60cef953589865aa3
     status: developed
   bno055:
     doc:
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 17d1c2a76696eb01de47d12c410c662589bf9c75
+      version: ae88e4ff2595e2c99dd03a6778a4b183ee1f5932
     status: developed
   ecl_core:
     doc:
@@ -1383,7 +1383,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: c370d7e7eb6570705794f4f166cec626ba4870b2
+      version: 7e07d228c6f6c46fa30c4ca930a57f3c6ccec5ff
     status: maintained
   fastcdr:
     release:
@@ -1710,7 +1710,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 4b50b985447ac2b20e6b54eb695ea11725a19d89
+      version: 9f1fc8fd8c08d01433262f862099a29521d0cf0b
     status: developed
   geographic_info:
     doc:
@@ -2645,6 +2645,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libpointmatcher-release.git
+      version: 1.3.1-5
     source:
       type: git
       url: https://github.com/ethz-asl/libpointmatcher.git
@@ -2738,6 +2739,16 @@ repositories:
       url: https://github.com/swri-robotics/mapviz.git
       version: 2e0452e5cab50267e3ad965572b5c3a77fff8d18
     status: developed
+  marine_msgs:
+    doc:
+      type: git
+      url: https://github.com/apl-ocean-engineering/marine_msgs.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/apl-ocean-engineering/marine_msgs.git
+      version: 59de95d3f2179bdb2a62aa581b487b9b412f3ca9
+    status: maintained
   marti_common:
     doc:
       type: git
@@ -2978,7 +2989,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 9ad4be1e52bd8ab1961d836898299f6107f4b4df
+      version: a6a03f792a3b43c14f6e6b5f9b4b48e6c147fc7c
     status: developed
   mola_common:
     doc:
@@ -3183,7 +3194,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: c936b8ad7b2b9fee289682c081034ad98ce7ba68
+      version: f965fed7a9899fcc902556f70e5e29f66dfbe28c
     status: developed
   mrpt_msgs:
     doc:
@@ -3208,7 +3219,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 863773196c0517b09ff244f412c91a4f96c1da53
+      version: ec9ea20a5b18aafc90686fb3ed7f7a5228bd971d
     status: developed
   mrpt_path_planning:
     doc:
@@ -3263,7 +3274,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 7678311b0d2aa3bc62fdfda0cf80d5ebbbdf798e
+      version: ae29ad703435b520acf9c3eae59d95a032a76980
     status: developed
   nao_button_sim:
     doc:
@@ -3963,7 +3974,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: d16637fa9d47208c30e448d64c7a15ee2f85d83f
+      version: 15dce41f598daed841bf2093aa10ebdf2aa1052f
     status: developed
   plotjuggler_msgs:
     doc:
@@ -4148,7 +4159,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 57de2574bebb60081648b2cb5a240e180ddc05bf
+      version: 308ce2a7d211efda86fdd7baef70dd9a617fb8f8
     status: developed
   py_trees:
     doc:
@@ -4599,7 +4610,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: eaee1d2b75d39072ea532517d39c6fa5e53452b1
+      version: 6f2507f9325054cd38a33424ed7ce55de327004b
     status: maintained
   rcpputils:
     doc:
@@ -5039,6 +5050,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_connextdds-release.git
+      version: 0.20.0-2
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
@@ -5437,7 +5449,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: b16fb02d1815e7aa75f4339acaa333593dc7b3a9
+      version: 64d216cb8fafef83d046b79ee6294afb06b7c595
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6822,7 +6834,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: 3f6fd661567728b6ffdded69ce084bd57c2a937f
+      version: 243e4913dc552eb8c6a4e67dd3648ea4ddecee2e
     status: developed
   tango_icons_vendor:
     release:
