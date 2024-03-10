@@ -601,7 +601,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 11aebe789d84c4bc56dec6a60cef953589865aa3
+      version: 0a3393cabc2e5a7dec86186c3b6779127922c0cd
     status: developed
   bno055:
     doc:
@@ -2020,7 +2020,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/iceoryx-release.git
-      version: 2.0.5-4
+      version: 2.0.5-5
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
@@ -2989,7 +2989,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: a6a03f792a3b43c14f6e6b5f9b4b48e6c147fc7c
+      version: f57a0dea1e6cc039113d020fc8edb3ccb93710ff
     status: developed
   mola_common:
     doc:
@@ -3037,7 +3037,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
-      version: 7bee02babf3087426a8b6c1ebeaa92ad60616c9e
+      version: 30964b35948bca603faba0828a6ac26112f64a7a
     status: developed
   moveit:
     doc:
@@ -3194,7 +3194,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: f965fed7a9899fcc902556f70e5e29f66dfbe28c
+      version: 43f453c2f33dfa3e82ee8f0866e046cc15252bcf
     status: developed
   mrpt_msgs:
     doc:
@@ -3244,7 +3244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 166da566a38c3e35d0f00d868bd673edc3af8eb6
+      version: 569f4e99add4362a6935d0386112a4f90c898911
     status: developed
   mrt_cmake_modules:
     doc:
@@ -3274,7 +3274,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: ae29ad703435b520acf9c3eae59d95a032a76980
+      version: 4f432a340fdd8e776cadcf5d2d98cb1f02c8b93d
     status: developed
   nao_button_sim:
     doc:
@@ -4763,6 +4763,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_api_msgs-release.git
+      version: 0.2.1-2
     source:
       type: git
       url: https://github.com/open-rmf/rmf_api_msgs.git
@@ -4867,6 +4868,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
+      version: 2.5.0-2
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -4905,6 +4907,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
+      version: 2.4.0-2
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
@@ -5050,11 +5053,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_connextdds-release.git
-      version: 0.20.0-2
+      version: 0.20.1-1
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: d2bd90826e19097a429ba150b12e67d3822c1ccc
+      version: eebc271fa1420d1b9135a56f4507fe134460f39d
     status: developed
   rmw_cyclonedds:
     doc:
@@ -5195,20 +5198,13 @@ repositories:
       url: https://github.com/robotont/robotont_msgs.git
       version: ros2-rolling-devel
   ros1_bridge:
-    doc:
-      type: git
-      url: https://github.com/ros2/ros1_bridge.git
-      version: master
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ros1_bridge-release.git
     source:
       test_commits: false
       type: git
       url: https://github.com/ros2/ros1_bridge.git
       version: 3d5328dc21564d2130b4ded30afe5cd1c41cf033
-    status: maintained
+    status_description: Maintained in source form only since no ROS 1 packages available
+      in Rolling
   ros2_canopen:
     doc:
       type: git
@@ -5652,23 +5648,13 @@ repositories:
       version: a2283ab47eaa6d931af9e1b3117e0689acd5a40e
     status: developed
   rosbag2_bag_v2:
-    doc:
-      type: git
-      url: https://github.com/ros2/rosbag2_bag_v2.git
-      version: master
-    release:
-      packages:
-      - ros1_rosbag_storage_vendor
-      - rosbag2_bag_v2_plugins
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/rosbag2_bag_v2-release.git
     source:
       test_commits: false
       type: git
       url: https://github.com/ros2/rosbag2_bag_v2.git
       version: 676475d26bfac6fe2eee896f903fd2010af6a95a
-    status: maintained
+    status_description: Maintained in source form only since no ROS 1 packages available
+      in Rolling
   rosbridge_suite:
     doc:
       type: git
@@ -5909,7 +5895,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rot_conv_lib-release.git
-      version: 1.1.0-2
+      version: 1.1.0-3
     source:
       type: git
       url: https://github.com/AIS-Bonn/rot_conv_lib.git
@@ -6412,12 +6398,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 13.3.1-2
+      version: 13.4.0-2
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: a76cf91b1b5a4d21c5b6e2405fae99799318f363
+      version: f2fa3e764335583380ae8fb1c7412b493c175ff9
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
