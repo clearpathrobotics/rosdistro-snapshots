@@ -866,7 +866,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: aa48304f5c12a6c0b3299b7ad7f6f9f7e992b078
+      version: 7c90617377ee385eb51e0585d1461fef851e2f2f
     status: maintained
   control_toolbox:
     doc:
@@ -881,7 +881,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 741e0fade697eb22c7016ca9ccb5551b4eacdabe
+      version: 30ca99712e1671769739798be28700bf1925310f
     status: maintained
   cpp_polyfills:
     release:
@@ -921,7 +921,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: 1be07de395e4ddf969db2b90328cdf4fb73e9a64
+      version: 84b8713f57e54780a93883b647074b41fdfe1ced
     status: maintained
   data_tamer:
     doc:
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: ae88e4ff2595e2c99dd03a6778a4b183ee1f5932
+      version: 84fae8f77ad405c825f2cb3e1ca427f18dfc79b6
     status: developed
   ecl_core:
     doc:
@@ -1428,7 +1428,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
-      version: 5cf934debf132da35a9133cce8ecde2754434ddc
+      version: 0a84c99f4dad94bd59924d00ee23aafae098812a
     status: developed
   ffmpeg_image_transport_msgs:
     doc:
@@ -1776,7 +1776,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: b81000d18c92e4841fcc46bfc7b541da44723c0d
+      version: 3c509320fbed3b2962c24daee170d3b89d5d61e8
     status: maintained
   geometry_tutorials:
     doc:
@@ -2339,7 +2339,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: f252dcb8661f6f175446a2418b7805e308b3684d
+      version: c91b631a266d3c916dd161c8c9eaaf0a3d4606ca
     status: developed
   kobuki_core:
     doc:
@@ -2639,7 +2639,7 @@ repositories:
   libpointmatcher:
     doc:
       type: git
-      url: https://github.com/ethz-asl/libpointmatcher.git
+      url: https://github.com/norlab-ulaval/libpointmatcher.git
       version: master
     release:
       tags:
@@ -2648,7 +2648,7 @@ repositories:
       version: 1.3.1-5
     source:
       type: git
-      url: https://github.com/ethz-asl/libpointmatcher.git
+      url: https://github.com/norlab-ulaval/libpointmatcher.git
       version: 1a3a4b34be9557bc401cdf90842eb4c889a22b3e
     status: maintained
   libstatistics_collector:
@@ -3004,7 +3004,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 4d726d836bddc2baee48fe4422e48ed516029861
+      version: 5cc3c54fdd0eea646a06fadc7d85a1ad8c61a51d
     status: developed
   mola_test_datasets:
     doc:
@@ -3132,7 +3132,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: dad863321cd2ded86a80c8013a821dabf2f72260
+      version: 55d3ce0b8b95ddd224c3892ce49c37c0dc9c9361
     status: developed
   moveit_visual_tools:
     doc:
@@ -3244,7 +3244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 569f4e99add4362a6935d0386112a4f90c898911
+      version: e9cf291e01cd23014e5efab5e030b69ebd7a5b18
     status: developed
   mrt_cmake_modules:
     doc:
@@ -3905,7 +3905,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: 1f5b7dc03cdf6e7b7361e62509c7abf2eae1ada0
+      version: 6a6b81ea9ab46a751f05ab70205035c36b969274
     status: maintained
   pick_ik:
     doc:
@@ -4610,7 +4610,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 6f2507f9325054cd38a33424ed7ce55de327004b
+      version: f1873bfb1e3261e617cb0a4c9cfb6ddcf57b6747
     status: maintained
   rcpputils:
     doc:
@@ -4721,7 +4721,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 8995b494d4a0f3b0655f1aa9bffb92d43a988c46
+      version: b388d7e40a51dd0535a71ca122d88e47f0b480ba
     status: maintained
   resource_retriever:
     doc:
@@ -5232,7 +5232,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 0b44103c5297c603395993169464a66529d7ff1e
+      version: 9df35adbdb42320efe9349a3249a7212fa98a4ca
     status: developed
   ros2_control:
     doc:
@@ -5259,7 +5259,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 35bb5f7c2eff9ec82175db1e8e5fcb8a60b094e2
+      version: 591b06cdd2c949bc0ce82680d9025261634762fb
     status: developed
   ros2_controllers:
     doc:
@@ -5296,7 +5296,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 0b432919aca596fd66ae413a864500e94f64d5e3
+      version: 28cb552903a9d17264594efeb148f8b04bda3039
     status: developed
   ros2_kortex:
     doc:
@@ -5536,7 +5536,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: a6f58b69005654e759174ef549b4d7c37e8f0e13
+      version: 13e5592c3c05cd160903b52c23fd45c10ecaccd7
     status: developed
   ros_image_to_qimage:
     doc:
@@ -5640,7 +5640,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.24.0-2
+      version: 0.24.0-3
     source:
       test_pull_requests: true
       type: git
@@ -6534,7 +6534,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 107f292bc4ac5b0750280f94f95e008a70b5aeb1
+      version: 8458e9db38686f5cf4054cf2c09e57110b3f1957
     status: maintained
   slider_publisher:
     doc:
@@ -7679,7 +7679,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 6462b34a1f0eb4ca94e5b5245d4032212e88831f
+      version: f04bb21590f384098993f2465466a33b348b14c3
     status: maintained
   vitis_common:
     doc:
