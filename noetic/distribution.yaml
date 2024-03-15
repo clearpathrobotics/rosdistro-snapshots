@@ -888,7 +888,7 @@ repositories:
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_msgs.git
-      version: b7dc93219c1f0485be3885aaf62856bc46f7fb5c
+      version: d1361f85b4826fc22f0e9dc9c130452bd05fda44
     status: maintained
   clearpath_onav_examples:
     doc:
@@ -3905,7 +3905,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 5435673f9f911941a864520284daf7e7ff7760d9
+      version: 1bf0c9072f98f540ab34631bbb69b8a90cbfd08a
     status: maintained
   hri_actions_msgs:
     release:
@@ -6267,7 +6267,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 524471d6f364c2160ac10e57ee0b96eadbacc621
+      version: 273a983c50db5cbef11d63c26b5320c297b6390a
     status: developed
   mrpt_msgs:
     doc:
@@ -6321,7 +6321,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 841b8691cc3bf23885848849596096784e2f3a18
+      version: 1ea9164d8695e3bfe6ece3d4218335f3dabe7218
     status: developed
   mrpt_sensors:
     doc:
@@ -7513,6 +7513,7 @@ repositories:
       - phidgets_drivers
       - phidgets_gyroscope
       - phidgets_high_speed_encoder
+      - phidgets_humidity
       - phidgets_ik
       - phidgets_magnetometer
       - phidgets_motors
@@ -7522,7 +7523,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
-      version: 1.0.8-2
+      version: 1.0.9-1
     source:
       test_pull_requests: true
       type: git
@@ -7660,7 +7661,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 30a52cd5b83fe7f90c0a0ac02e0e3803cf910aae
+      version: 55b4037938454e93789fad742de60cc6eb2fcb10
     status: developed
   plotjuggler:
     doc:
@@ -8655,7 +8656,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_dynamics_api.git
-      version: d1903147929955df4209bce4da098aee436d30aa
+      version: 1f0707b4d7e55af6cd533b3e4cecc447b78675a2
     status: developed
   rc_genicam_api:
     doc:
@@ -8666,7 +8667,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 2.6.1-1
+      version: 2.6.5-1
     source:
       test_pull_requests: true
       type: git
@@ -9243,7 +9244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur.git
-      version: e50c4517e64f32296577d705bac2bbaf7d695273
+      version: 5289037d20edf78ec3c98cdbe7545474e7b3633a
     status: maintained
   rocky_tf_monitor:
     doc:
@@ -11213,7 +11214,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan_xd-release.git
-      version: 3.1.5-1
+      version: 3.2.6-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git
@@ -12630,7 +12631,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 7328caa4360f8952d4d3d831343d7e52d51576ec
+      version: ac958c9ab01e84aaf188135678c8c40db2971b69
     status: maintained
   visp_ros:
     doc:
