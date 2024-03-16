@@ -669,12 +669,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cartographer-release.git
-      version: 2.0.9002-5
+      version: 2.0.9003-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/cartographer.git
-      version: 2ce33a65bd4e41e3bf5af92c9275354ce7921c70
+      version: ddfd4414ef2907b6c46a195f1d4e380beedce05d
     status: maintained
   cartographer_ros:
     doc:
@@ -689,12 +689,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cartographer_ros-release.git
-      version: 2.0.9001-2
+      version: 2.0.9002-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/cartographer_ros.git
-      version: baa0005fc7e085f59d9157b1d4f53bb4983b1755
+      version: 43cd92bc8c4bf1a90f50eddbbbd724a899ceebe1
     status: maintained
   cascade_lifecycle:
     doc:
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 3f5cb2a4f8da72a1c0f85304d4a6df946af60611
+      version: 4baac721e5b309010764b24b658e16e5d417c1ea
     status: developed
   ecl_core:
     doc:
@@ -1941,7 +1941,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: c5b0b9049ce75410e75d1828242c1dfd5b19bb80
+      version: 94745e6f5f051214ac9862051f9a918685f2c6b9
     status: maintained
   hash_library_vendor:
     doc:
@@ -2011,7 +2011,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 1bf0c9072f98f540ab34631bbb69b8a90cbfd08a
+      version: d676755cafd5ea8d9066279b6c4618e998cda587
     status: developed
   iceoryx:
     release:
@@ -2747,11 +2747,19 @@ repositories:
       type: git
       url: https://github.com/apl-ocean-engineering/marine_msgs.git
       version: ros2
+    release:
+      packages:
+      - marine_acoustic_msgs
+      - marine_sensor_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/marine_msgs-release.git
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/apl-ocean-engineering/marine_msgs.git
-      version: 59de95d3f2179bdb2a62aa581b487b9b412f3ca9
-    status: maintained
+      version: 14bddb417a51767600e3feada3bc7fc378d0e6f9
+    status: developed
   marti_common:
     doc:
       type: git
@@ -2780,7 +2788,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: db2506bdac480b0ede2c45d76b79f3175edf533d
+      version: 982c9f6fa90dc24168659ec8e12dad8f276eac18
     status: developed
   marti_messages:
     doc:
@@ -2992,7 +3000,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 6ff2c3e4195162d6f3328bdb6836aba8de847d57
+      version: 0a6a43ecbe51dce4e377c9025ed28b76f695f21b
     status: developed
   mola_common:
     doc:
@@ -3097,7 +3105,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: e65491e115ab3d701dc4fdc686066fe74ec1e16b
+      version: f06f38be08451c6bdeaa56c9606765f78f94f65d
     status: developed
   moveit_msgs:
     doc:
@@ -3161,7 +3169,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.2.0-2
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3193,7 +3201,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.11.11-1
+      version: 2.11.12-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3273,7 +3281,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.8.3-2
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -3653,7 +3661,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/openni2_camera-release.git
-      version: 2.1.0-2
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
@@ -4052,12 +4060,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 3.0.4-2
+      version: 3.0.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 3c1be174cd8d04a73fa3b4e48e2a63d6254b0bc7
+      version: 1abcb5e81f1e03acf65d6614cff413d699b0911c
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4681,7 +4689,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: d1f292f352ffedd8c1d04319e1a65b9969e62c9d
+      version: 961c4c8d7afed2800fbd4299335385dbc2375d0b
     status: maintained
   reach:
     source:
@@ -5178,7 +5186,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 73e902bbb05dc9e8672e1c09adb83180f2b63a82
+      version: 1cb953379378d13b3e0935ed73d0c7407bd80543
     status: maintained
   robot_state_publisher:
     doc:
@@ -5236,7 +5244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 9df35adbdb42320efe9349a3249a7212fa98a4ca
+      version: e6b6ea904bde3402bdcbb49f58e5fca2d46104ce
     status: developed
   ros2_control:
     doc:
@@ -6407,7 +6415,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: f2fa3e764335583380ae8fb1c7412b493c175ff9
+      version: cdf1c21f4619431bef927630490b004dd831c9e2
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6538,7 +6546,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 469ea0e0c53a0dd71fe002d229fc4de42e5561eb
+      version: 1eb3174ab2da0c8f912ff1791bae5dbbbe267f41
     status: maintained
   slider_publisher:
     doc:
