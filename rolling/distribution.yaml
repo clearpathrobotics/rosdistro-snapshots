@@ -601,7 +601,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: ca8d32a807ab8ca41520aa1c20ab96b4aa6f0d01
+      version: 55a7b70b7ab6c1f2be811009e67f6e6630839947
     status: developed
   bno055:
     doc:
@@ -1268,7 +1268,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: f85cc8c56bbf68a557c62a4686d8259af2228745
+      version: 8b9d3353cbd4bc6b18f96035e0505d87d13dc233
     status: maintained
   event_camera_codecs:
     doc:
@@ -1713,7 +1713,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 9f1fc8fd8c08d01433262f862099a29521d0cf0b
+      version: 8733d7af9a18fd5ba4fd3f8e0a614e5517842bba
     status: developed
   geographic_info:
     doc:
@@ -1941,7 +1941,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 94745e6f5f051214ac9862051f9a918685f2c6b9
+      version: a98cb2a8b72827b7c1669987d6a12d3f0b30a41e
     status: maintained
   hash_library_vendor:
     doc:
@@ -2011,7 +2011,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 50d633b856cb1c3eb28f3d0e1835c46697ba3d19
+      version: 0d162a5513e5dc9b364aa2cc8fbe5167f7cf69c2
     status: developed
   iceoryx:
     release:
@@ -2413,7 +2413,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/lanelet2-release.git
-      version: 1.2.1-5
+      version: 1.2.1-6
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
@@ -2891,7 +2891,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/message_tf_frame_transformer-release.git
-      version: 1.1.0-2
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
@@ -3000,7 +3000,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: c9cddcb22ebc87819e56ed092b2464c27840eaa4
+      version: 5733d15c469dc1eb0779db5abd9214ff93d03230
     status: developed
   mola_common:
     doc:
@@ -3105,7 +3105,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: f06f38be08451c6bdeaa56c9606765f78f94f65d
+      version: cdb20aeaeb299e86fec0f44fde0b9f235a737ee4
     status: developed
   moveit_msgs:
     doc:
@@ -3187,6 +3187,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mqtt_client-release.git
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -3245,7 +3246,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 1ea9164d8695e3bfe6ece3d4218335f3dabe7218
+      version: 101963201703ad3ec4ef70f8eeb13bf506d3997b
     status: developed
   mrpt_sensors:
     doc:
@@ -3546,7 +3547,7 @@ repositories:
     source:
       type: git
       url: https://github.com/octomap/octomap.git
-      version: e5227fdb75074616d8c326706b729c9316b33360
+      version: 863e069489ef619d7179e3b21480dffb41b2af66
     status: maintained
   octomap_mapping:
     doc:
@@ -3867,11 +3868,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 1.2.1-4
+      version: 2.0.0-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: ec406e7240eeb48e7edfa51fce5a716cc0b95115
+      version: 93b658cdfd13bc1d09c5c85cc16c53a878219c66
     status: maintained
   performance_test_fixture:
     release:
@@ -4098,12 +4099,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport_tutorial-release.git
-      version: 0.0.1-2
+      version: 0.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
-      version: 2337aa34357a53c52046812c5c73e5a56a7ae698
+      version: f376655bd78b0d90a48a81aafd960b8d230da762
     status: maintained
   pointcloud_to_laserscan:
     doc:
@@ -4170,7 +4171,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 0398b24dfc39029b64af467146c2f5be2cc2e1f4
+      version: 31a66e955250564e9d4e6289b7804f5d57ce82e9
     status: developed
   py_trees:
     doc:
@@ -4884,7 +4885,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 1c26611e80bb1c18f47327899d7d9814ce109b8b
+      version: b50fe7fb26d0ab6d7928eda303082d1fa5c9ea4c
     status: developed
   rmf_simulation:
     doc:
@@ -5181,7 +5182,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robot_localization-release.git
-      version: 3.6.0-2
+      version: 3.6.0-3
     source:
       test_pull_requests: true
       type: git
@@ -5409,7 +5410,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: f1c66eb2d4463e74d1e632816600f63721c20875
+      version: 975bf6ad8c36df1257ef4442a9245d9e8f58c3c8
     status: developed
   ros2acceleration:
     doc:
@@ -5657,7 +5658,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: e5d56d72558d62de31e60b8271c6d59a61420ec2
+      version: 0c5374e4a99aa1c1693b322aa9ea070a09be09b2
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6546,7 +6547,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 298ead8f558339c509bbe302bc7119c0e682e730
+      version: f6a35e492974b887d4c28351e5701b98a6dcd83b
     status: maintained
   slider_publisher:
     doc:
@@ -6685,16 +6686,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/clalancette/sophus.git
-      version: release/1.3.x
+      version: release/1.22.x
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sophus-release.git
-      version: 1.3.1-3
+      version: 1.22.9100-1
     source:
       type: git
       url: https://github.com/clalancette/sophus.git
-      version: a308e55f37d161b882b3e87ba27fbd0dbc5b7893
+      version: 4b900f1c3cf13e645f492d68fcb4947c1420c53d
     status: maintained
   spdlog_vendor:
     release:
@@ -7691,7 +7692,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: ac958c9ab01e84aaf188135678c8c40db2971b69
+      version: 35884e7152cc681d8059a313b9112015faf31f89
     status: maintained
   vitis_common:
     doc:

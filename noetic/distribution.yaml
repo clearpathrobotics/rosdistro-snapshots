@@ -567,7 +567,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: ca8d32a807ab8ca41520aa1c20ab96b4aa6f0d01
+      version: 55a7b70b7ab6c1f2be811009e67f6e6630839947
     status: developed
   bond_core:
     doc:
@@ -888,7 +888,7 @@ repositories:
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_msgs.git
-      version: ea6456e441b83550464428042dae4f7a6719b3fe
+      version: 6218d90615fea27bc630360a161b1bf3884f037e
     status: maintained
   clearpath_onav_examples:
     doc:
@@ -1217,6 +1217,21 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_extern.git
       version: 3e6f30aa477bed89b7c0d1cd0a3e996f50f6039d
+    status: maintained
+  cob_fiducials:
+    doc:
+      type: git
+      url: https://github.com/4am-robotics/cob_fiducials.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/4am-robotics/cob_fiducials-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/4am-robotics/cob_fiducials.git
+      version: dcc3d6e3fdd0788f0f301df61d04695d6ef27b7a
     status: maintained
   cob_gazebo_plugins:
     doc:
@@ -2539,7 +2554,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ensenso/ros_driver.git
-      version: efc0d19118202afe2163de95b8452bc9c3d9d721
+      version: 421d1190680be256d566113d8d8184f9ad33d431
     status: developed
   er_public_msgs:
     release:
@@ -3905,7 +3920,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 50d633b856cb1c3eb28f3d0e1835c46697ba3d19
+      version: 0d162a5513e5dc9b364aa2cc8fbe5167f7cf69c2
     status: maintained
   hri_actions_msgs:
     release:
@@ -5714,7 +5729,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
@@ -6248,7 +6263,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/mqtt_client-release.git
-      version: 2.2.0-2
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -6302,11 +6317,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: d72ea5e98a568234dc1c3091c4de958314ef937b
+      version: 72cf6fa30f7c5ed415746b7c1fe6a97f56674858
     status: developed
   mrpt_path_planning:
     doc:
@@ -6317,11 +6332,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_path_planning-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 1ea9164d8695e3bfe6ece3d4218335f3dabe7218
+      version: 101963201703ad3ec4ef70f8eeb13bf506d3997b
     status: developed
   mrpt_sensors:
     doc:
@@ -6337,11 +6352,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_sensors-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 8063a39a77b45d91a0a6f4e46e36b849765baaaa
+      version: 7d00f1991b68e120de8114237b635fd4a94aaaff
     status: developed
   mrpt_slam:
     doc:
@@ -6908,7 +6923,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OctoMap/octomap.git
-      version: e5227fdb75074616d8c326706b729c9316b33360
+      version: 863e069489ef619d7179e3b21480dffb41b2af66
     status: maintained
   octomap_mapping:
     doc:
@@ -9699,11 +9714,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/xqms/rosbag_fancy-release.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/xqms/rosbag_fancy.git
-      version: 5216a839d562132f346b24a53b4201ddd1655193
+      version: 1f5ec4d172418a44ee206749182d0bec7cc553f0
     status: developed
   rosbag_migration_rule:
     release:
@@ -12631,7 +12646,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: ac958c9ab01e84aaf188135678c8c40db2971b69
+      version: 35884e7152cc681d8059a313b9112015faf31f89
     status: maintained
   visp_ros:
     doc:
