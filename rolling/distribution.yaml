@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 4baac721e5b309010764b24b658e16e5d417c1ea
+      version: 61e0e92f19a4ce6f8e166a27c98d9363f25c373b
     status: developed
   ecl_core:
     doc:
@@ -1952,7 +1952,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hash_library_vendor-release.git
-      version: 0.1.1-5
+      version: 0.1.1-6
     source:
       type: git
       url: https://github.com/tier4/hash_library_vendor.git
@@ -2011,7 +2011,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 0d162a5513e5dc9b364aa2cc8fbe5167f7cf69c2
+      version: 310bc83ff817eda52b67e8bbb659a90f0e7f2480
     status: developed
   iceoryx:
     release:
@@ -2997,10 +2997,36 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola.git
       version: develop
+    release:
+      packages:
+      - kitti_metrics_eval
+      - mola
+      - mola_bridge_ros2
+      - mola_demos
+      - mola_imu_preintegration
+      - mola_input_euroc_dataset
+      - mola_input_kitti360_dataset
+      - mola_input_kitti_dataset
+      - mola_input_mulran_dataset
+      - mola_input_paris_luco_dataset
+      - mola_input_rawlog
+      - mola_input_rosbag2
+      - mola_kernel
+      - mola_launcher
+      - mola_metric_maps
+      - mola_navstate_fuse
+      - mola_pose_list
+      - mola_traj_tools
+      - mola_viz
+      - mola_yaml
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mola-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 5733d15c469dc1eb0779db5abd9214ff93d03230
+      version: 0869ac515bc92c894340e03b30968eaddb164ff5
     status: developed
   mola_common:
     doc:
@@ -3206,7 +3232,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 77e5a3f537f5e660ba252bed8cacb48a30975780
+      version: c72bc6518d736fa8fe1a16d6d7041b5b1db3cbe0
     status: developed
   mrpt_msgs:
     doc:
@@ -3231,7 +3257,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 645305fd0d7d16bbe73d3d60a72b312226253e6f
+      version: 4baf19e859f2f74fc2d570d0be12fc34da5c7e42
     status: developed
   mrpt_path_planning:
     doc:
@@ -3256,7 +3282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 9f5393f53916531a7902e606255c59fe96593ae9
+      version: 0aad96b1eda12ba34ecef948f856ee53c3c9c89a
     status: developed
   mrt_cmake_modules:
     doc:
@@ -3543,7 +3569,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/octomap-release.git
-      version: 1.9.8-3
+      version: 1.10.0-3
     source:
       type: git
       url: https://github.com/octomap/octomap.git
@@ -4607,7 +4633,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 1c350d0d7fb9c7158e0a39057112486ddbd38e9a
+      version: 3e470d5ac2b8d5e77d3c0c26402087f5cffa2db1
     status: maintained
   rclpy:
     doc:
@@ -4760,7 +4786,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rig_reconfigure-release.git
-      version: 1.4.0-2
+      version: 1.4.0-3
     source:
       test_pull_requests: true
       type: git
@@ -4885,7 +4911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: b50fe7fb26d0ab6d7928eda303082d1fa5c9ea4c
+      version: 67f69db94e08e88dcad7ecf34faa260078e0317b
     status: developed
   rmf_simulation:
     doc:
@@ -5410,7 +5436,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 975bf6ad8c36df1257ef4442a9245d9e8f58c3c8
+      version: 115034b9ec00b9667bc8d98b48472d73c2b9f8b6
     status: developed
   ros2acceleration:
     doc:
@@ -5549,7 +5575,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 13e5592c3c05cd160903b52c23fd45c10ecaccd7
+      version: 0b7c5e942e2b341be0bc50936e1b4fb4d0855cee
     status: developed
   ros_image_to_qimage:
     doc:
@@ -5658,7 +5684,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 0c5374e4a99aa1c1693b322aa9ea070a09be09b2
+      version: 66af3999f145a8910b567a6ab48993c83410754e
     status: developed
   rosbag2_bag_v2:
     source:
@@ -5880,7 +5906,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
-      version: 0d4b6d669dad84473031f3d2a6e7f29efb6bbb71
+      version: b4f63c02453b8a8afb5e996229d309cb6d1c41f5
     status: developed
   rospy_message_converter:
     doc:
@@ -6416,7 +6442,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 175110b407524c25257c8696c5ad61ccdb476a41
+      version: 2273179562a451fe5382839d50a46afa5e1af076
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -6758,24 +6784,6 @@ repositories:
       url: https://github.com/ros-industrial/stomp.git
       version: f9e9d78f741f0779b65333d4f54d68ade740520b
     status: maintained
-  stubborn_buddies:
-    doc:
-      type: git
-      url: https://github.com/open-rmf/stubborn_buddies.git
-      version: main
-    release:
-      packages:
-      - stubborn_buddies
-      - stubborn_buddies_msgs
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/stubborn_buddies-release.git
-      version: 1.0.0-6
-    source:
-      type: git
-      url: https://github.com/open-rmf/stubborn_buddies.git
-      version: a18c5e2cbfe707589aef90e948285cbd4c963b8c
-    status: developed
   swri_console:
     doc:
       type: git
@@ -6971,7 +6979,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tinyspline_vendor-release.git
-      version: 0.6.0-4
+      version: 0.6.0-5
     source:
       type: git
       url: https://github.com/wep21/tinyspline_vendor.git
@@ -7331,7 +7339,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 49971155c4fdedf9086b9a0fc83c1ea1ae77ca56
+      version: d21a4029edb917d319dad12ddcebf71f8d5b3fae
     status: developed
   ur_description:
     doc:
@@ -7346,7 +7354,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 385b18b1004572a1855b017ee6edee172271c5d3
+      version: e176f1d8d7994c9d559ef266113124a1ef66670d
     status: developed
   ur_msgs:
     doc:
@@ -7692,7 +7700,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 35884e7152cc681d8059a313b9112015faf31f89
+      version: 358d855f771f81d6dff09134749a62b64a0799b4
     status: maintained
   vitis_common:
     doc:
