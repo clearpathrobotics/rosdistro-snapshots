@@ -351,7 +351,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.4.0-1
+      version: 3.2.0-6
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -866,7 +866,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: da8dfb6b86b83fe98f2f3bbc105cc20d31b7e6fd
+      version: ffddb62030229a1c702f0da341b82f9db016b5fa
     status: maintained
   control_toolbox:
     doc:
@@ -1016,7 +1016,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: b1c8dd16694869b9bc8d778ef0386b9f5dba7437
+      version: 194753aa87ef2998bd1d65927e5a9ebf46534c21
     status: maintained
   dolly:
     doc:
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 61e0e92f19a4ce6f8e166a27c98d9363f25c373b
+      version: c2b0c3649cd697e37a15d466a9d2d5836a2d3070
     status: developed
   ecl_core:
     doc:
@@ -1413,7 +1413,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: d3a969c3044d7583ec93b32c15d68373f2d7b903
+      version: 11e1e3ee315cd60a62fa6cd1018a93600712a5df
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1666,7 +1666,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: 79fd94c6da76781a91499bc0f54b70560b90a9d2
+      version: d52f7c471d1d2fd9425bf8621290bc4831be8dea
     status: maintained
   gc_spl:
     doc:
@@ -1700,20 +1700,17 @@ repositories:
       version: main
     release:
       packages:
-      - cmake_generate_parameter_module_example
       - generate_parameter_library
-      - generate_parameter_library_example
       - generate_parameter_library_py
-      - generate_parameter_module_example
       - parameter_traits
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.8-1
+      version: 0.3.7-3
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 8733d7af9a18fd5ba4fd3f8e0a614e5517842bba
+      version: edfeb82ffcbb958785ee4f2d7b6eea38ee79dc78
     status: developed
   geographic_info:
     doc:
@@ -1779,7 +1776,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 5eabd34b3cc7a1be9e413e7b87093f63f3a2c020
+      version: 8752526562dac12e9fc87ba1e7a675ef6ec07c35
     status: maintained
   geometry_tutorials:
     doc:
@@ -1924,7 +1921,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: acf457e32f4132513fdad936118ced6dfd2f0e70
+      version: 11409b03ab9b5cca450176c478ddc1190cd8f93a
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2161,7 +2158,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.4.0-2
+      version: 2.4.4-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -2637,7 +2634,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 07f43328054c03067b470d1c9bd707cb1e52d691
+      version: 6531219c1d33719eb81cc59f47a197701a0cde1e
     status: developed
   launch_param_builder:
     doc:
@@ -2787,7 +2784,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libnabo-release.git
-      version: 1.0.7-4
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ethz-asl/libnabo.git
@@ -2802,7 +2799,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libpointmatcher-release.git
-      version: 1.3.1-5
+      version: 1.4.1-1
     source:
       type: git
       url: https://github.com/norlab-ulaval/libpointmatcher.git
@@ -3285,7 +3282,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: cdb20aeaeb299e86fec0f44fde0b9f235a737ee4
+      version: d7178cfdc65f0298cef0bedae195dc229aa54c75
     status: developed
   moveit_msgs:
     doc:
@@ -3401,7 +3398,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
-      version: 85d603ef8707b7160833e26fc38f3d442d7e89bc
+      version: 55ba56363d0f8da84a588b149b3459704f08b0e1
     status: maintained
   mrpt_navigation:
     doc:
@@ -3436,7 +3433,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 0aad96b1eda12ba34ecef948f856ee53c3c9c89a
+      version: 36e48c7d9e572580b03c4062bad7bb85b4e6872e
     status: developed
   mrt_cmake_modules:
     doc:
@@ -4246,7 +4243,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 1abcb5e81f1e03acf65d6614cff413d699b0911c
+      version: bcd2cd95fbd26db9eec7924c546523f87af4077d
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4787,7 +4784,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 198c82ca1509b3cde7ce43b1afc94bb1b0257f8e
+      version: b50f9ab41840dfec121b7d12118da6e6593d21ae
     status: maintained
   rclpy:
     doc:
@@ -5448,11 +5445,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.6.0-1
+      version: 4.7.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 20e01d867fd14c1a3a0b8ea999d41d9d27dcf3bb
+      version: 8061600644dc2981dff4a196410261378ea06ef4
     status: developed
   ros2_controllers:
     doc:
@@ -5485,11 +5482,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.6.0-2
+      version: 4.7.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 0c2c458abc8c8e9d547f88661871e036b8eb2437
+      version: d77a0011f200da524e1a19a2f4b3a4c0ff688809
     status: developed
   ros2_kortex:
     doc:
@@ -5838,7 +5835,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 66af3999f145a8910b567a6ab48993c83410754e
+      version: 30328006f872de4e1c82fef4ecca8ca815b2d4dc
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7441,11 +7438,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ublox_dgnss-release.git
-      version: 0.5.2-2
+      version: 0.5.3-1
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 76f1e6a8cda7aeb3b92a655eb1c8bb66049dc4a7
+      version: 5cfdde178a136ac5ce8698abc66746d04297d2bf
     status: maintained
   udp_msgs:
     doc:
