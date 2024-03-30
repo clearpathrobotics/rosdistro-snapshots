@@ -147,7 +147,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 5c9805aac11fe6a39ca56a8bc6f041c9ab9ed045
+      version: 833d2b309e79b9f39c89aed3fd2c529afcc35e41
     status: developed
   ament_cmake_catch2:
     doc:
@@ -1396,7 +1396,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: f44cbf67c10dc3438e9dd96ded8d1b28c9abc075
+      version: 75b2be7d6ee208e635a3451c46dc075e5d1c97e3
     status: maintained
   fastrtps:
     doc:
@@ -1950,11 +1950,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.0.3-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: d6d69a80a0d2576513166622bffb6bec089726aa
+      version: abc3b0742c8258f3782f8fdebd0118036bf61034
     status: maintained
   gz_common_vendor:
     doc:
@@ -2010,11 +2010,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_math_vendor-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_math_vendor.git
-      version: 2c4425b4d940fdec67183d3d12dbd34bf3e50683
+      version: d5bb65840450b350c2f64d99034b48ace56196a9
     status: maintained
   gz_msgs_vendor:
     doc:
@@ -2102,10 +2102,16 @@ repositories:
       type: git
       url: https://github.com/gazebo-release/gz_tools_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gz_tools_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_tools_vendor.git
       version: ac54ff7f0d8be852a0ee58b99a9641dbfc4037bd
+    status: maintained
   gz_transport_vendor:
     doc:
       type: git
@@ -2670,7 +2676,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 72ffcb57bc94504c61c5df5208365cc4d5870bd7
+      version: 939085219b7d95c84ba3e79d296be52daed65baf
     status: developed
   launch_param_builder:
     doc:
@@ -3466,6 +3472,17 @@ repositories:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
       version: ros2
+    release:
+      packages:
+      - mrpt_generic_sensor
+      - mrpt_sensor_bumblebee_stereo
+      - mrpt_sensor_gnns_nmea
+      - mrpt_sensorlib
+      - mrpt_sensors
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt_sensors-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
@@ -4026,7 +4043,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 52e84ae29b76929d69cff818d05ec5516270d8ca
+      version: 775f0c0d512a6042fae4aacf3cfdb77ae021db31
     status: maintained
   pcl_msgs:
     release:
@@ -4274,12 +4291,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 3.0.5-1
+      version: 4.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 37d4b68dd2a00c51ac30c08d148fc4d40037dbd1
+      version: fd4d2e9d91b2b0b9123c8a602c624c3a64e3e1a2
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4720,7 +4737,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 5766d5e629c1f6ad8965b07e65968873e1f796b7
+      version: 1c4250958ab5cc77016ba7938ab27d538db12c74
     status: maintained
   rcl_interfaces:
     doc:
@@ -4820,7 +4837,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 5632a09af212c624c24c3820c765ac4bab5a8ddc
+      version: c5bc4b65284c71a86fc1758cc7eeb22204aa2bdd
     status: maintained
   rclpy:
     doc:
@@ -6697,10 +6714,16 @@ repositories:
       type: git
       url: https://github.com/gazebo-release/sdformat_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/sdformat_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/sdformat_vendor.git
-      version: 4f3b897bd2c2dbb31d7ee6e3d9c8b949c80f060d
+      version: 0b60460430ada7fc5f30bc95935e1d835f2b6534
+    status: maintained
   septentrio_gnss_driver:
     doc:
       type: git
@@ -7264,10 +7287,19 @@ repositories:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
       version: rolling-devel
+    release:
+      packages:
+      - trac_ik
+      - trac_ik_kinematics_plugin
+      - trac_ik_lib
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/trac_ik-release.git
+      version: 2.0.0-1
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: 8ba3fc70e4ce3d6e1db45b4974adc37c7c7ac450
+      version: 0e29ef8eb3d2812d3a646a98b62700f5e1f1a7b6
     status: developed
   tracetools_acceleration:
     doc:
@@ -7385,7 +7417,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_geometry.git
-      version: d84a2abb1c96f3864d0c093494d981927bc281a9
+      version: 13b3d393cef45f73a989052f340c353ad34d14a3
     status: maintained
   tvm_vendor:
     doc:
@@ -7797,7 +7829,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/variants.git
-      version: 584545febea0aa5afa0db5c73a936b8a7defbba1
+      version: 4fe359a39ce6bf7975a4227b7e635ba8820fa10a
     status: maintained
   velodyne:
     doc:
@@ -7906,7 +7938,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b5cb6bb6788a3cf793ee862ea28c72cef26cbf7c
+      version: b91ae442e57e99f7b9959f5f7d417db27478bf45
     status: maintained
   vitis_common:
     doc:

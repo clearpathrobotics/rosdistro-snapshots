@@ -2095,7 +2095,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-mobile-robots/diffbot.git
-      version: c6f602c1dc6ac444dcbfa31ea259941c34fd4f01
+      version: 0aca6933f81c8ef82129cffbd1bc74c17be155c4
     status: developed
   dingo:
     doc:
@@ -2902,11 +2902,19 @@ repositories:
       version: 6c09104dd183925549e73825d50123ba5339d258
     status: maintained
   fields2cover:
+    doc:
+      type: git
+      url: https://github.com/Fields2Cover/fields2cover.git
+      version: main
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/Fields2Cover/fields2cover-release.git
-      version: 1.2.1-2
+      version: 1.2.1-3
+    source:
+      type: git
+      url: https://github.com/Fields2Cover/fields2cover.git
+      version: 29aa8eac023726b6770049b04e0cf9b804d41986
     status: developed
   fields2cover_ros:
     doc:
@@ -12646,7 +12654,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b5cb6bb6788a3cf793ee862ea28c72cef26cbf7c
+      version: b91ae442e57e99f7b9959f5f7d417db27478bf45
     status: maintained
   visp_ros:
     doc:
