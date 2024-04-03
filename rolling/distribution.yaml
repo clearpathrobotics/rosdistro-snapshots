@@ -601,7 +601,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 56c6ffc47bbb05322915e745cde8323f08bd2062
+      version: 26ea2def0c3b85c831db91784080c0618971a449
     status: developed
   bno055:
     doc:
@@ -819,7 +819,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: 91fef14fd0649ddc9859674f05557073ea664bd8
+      version: d407bd0d0cfc172f960fd4e199a7e8018994e250
     status: maintained
   console_bridge_vendor:
     doc:
@@ -866,7 +866,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: d42a01d4b531a6c486cb2232a8e48764de9bd2e4
+      version: 7f48743615c458fd19d9378391fe237a406415ee
     status: maintained
   control_toolbox:
     doc:
@@ -921,7 +921,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: b47d42fd976e96cf0833b5cbb2371d82970bebaf
+      version: f2ec5247bd7a56e70f07c9b74950f3dbb159fd6d
     status: maintained
   data_tamer:
     doc:
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 188bc78856de73f0780d2ff50adeffecc2f3daff
+      version: 18679ac217107434e04ded0fc807eedafafb4344
     status: developed
   ecl_core:
     doc:
@@ -1413,7 +1413,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: a0bd3313f3e477c57d6ef9bc52b43cd161f0259f
+      version: 65236f93e9c4ea3ff9a49fba4dfd9e43eb94037b
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1973,7 +1973,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_dartsim_vendor.git
-      version: dc902a64d44af9f483f445730505ee9af9549923
+      version: 4cc0a91408703d5265be7ed0c47d6a06a9591e0e
   gz_fuel_tools_vendor:
     doc:
       type: git
@@ -2077,7 +2077,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: c382a53da4b9053367d0e458c7293f6457002931
+      version: 9853c080b0e8ed924a65a8a8b8af8ba29d428393
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2204,7 +2204,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: aa3c40a994b44c1d9ea1f007ff07999a016fe61c
+      version: 3b7ab18da8db0566aea929d87002785183db43b8
     status: developed
   iceoryx:
     release:
@@ -2535,7 +2535,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 05a3ec280b33e5b697f0ff61e2bc50cd2e86ba8b
+      version: dfbdea656708bc4b77b8147cd55bf3a56325a543
     status: developed
   kobuki_core:
     doc:
@@ -2912,7 +2912,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: d63a9d63717640705c6c9654d68fa6575d39bab8
+      version: f34f967c4e70ec60d1c561fbd2fcabaeedce5957
     status: maintained
   mapviz:
     doc:
@@ -2981,7 +2981,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 9fe3f6c7340bd5de27f8bfbf93dae150bb4d0fa8
+      version: 31e3525cb67cd67148d2aef62ac253b328ef2bed
     status: developed
   marti_messages:
     doc:
@@ -3145,6 +3145,7 @@ repositories:
       version: ros2
     release:
       packages:
+      - microstrain_inertial_description
       - microstrain_inertial_driver
       - microstrain_inertial_examples
       - microstrain_inertial_msgs
@@ -3152,12 +3153,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 3.2.1-2
+      version: 4.1.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: caaabaaba380a5eabf483359ca0577809a56eda1
+      version: 1e7755f0603f13c3d297b76cb08e6f840ea16444
     status: developed
   mimick_vendor:
     doc:
@@ -3219,7 +3220,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 360cde1f7022365e136c6a2e807e94825fd29a56
+      version: ba2f31f5646b1cae76f6304bd4edc13389dfa946
     status: developed
   mola_common:
     doc:
@@ -3245,11 +3246,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_test_datasets-release.git
-      version: 0.3.0-2
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: 13a2ed141116bc654e14ffca1d88fb740b3d1253
+      version: 9782e247a3b84546a70b00ae632b4245d812ec37
     status: developed
   motion_capture_tracking:
     doc:
@@ -3324,7 +3325,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: c1efceeac7ab66a3c9ddefd27e340bdb194e93f2
+      version: 17145274ca9c7f7fc84d439735ef6ad6cef0d6a3
     status: developed
   moveit_msgs:
     doc:
@@ -3425,7 +3426,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 96079c643c900a30bd1874083bbcd43cb39083b8
+      version: c0ca035339b00ada64f4f89213b05cadfc2c2959
     status: developed
   mrpt_msgs:
     doc:
@@ -4764,7 +4765,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_interfaces.git
-      version: fbd32f8b8ef90fb9cefdc90d8d2f5b992fd843bb
+      version: 66ba4f12eb21a9a28d5227df2bbb2f236560a63a
     status: maintained
   rcl_logging:
     doc:
@@ -4837,7 +4838,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: f510db152957fa284685b6a468fa38f7575a61a1
+      version: f9c4894f96ea083fc5acfcea4f1ea83850759e63
     status: maintained
   rclpy:
     doc:
@@ -4853,7 +4854,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: d2fd8fee137cfd7ab7fc4ad20113c0e2138fef61
+      version: 32e4eae63cc3450309e7bf1f9dacf3b725a18d88
     status: maintained
   rcpputils:
     doc:
@@ -5475,7 +5476,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: e6b6ea904bde3402bdcbb49f58e5fca2d46104ce
+      version: c6e2ab3d604d6599237eace3b1f52bfe00160bea
     status: developed
   ros2_control:
     doc:
@@ -5779,7 +5780,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 0b7c5e942e2b341be0bc50936e1b4fb4d0855cee
+      version: c9a5a736bde407f9911822097972fc0a8a0e9ad4
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6656,7 +6657,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: ebca223c627ec50afee68339b55efb8e69835cdf
+      version: 094419253dfaa6f085db5d89d99e9fa47e1e506a
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8056,11 +8057,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.10-2
+      version: 2.0.11-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
-      version: 9d05b0ea7a878511a8615137cd49ade4b0633305
+      version: 5aa788e1ce7341b51f2b1073dbd791edd9acdf1a
     status: maintained
   yaml_cpp_vendor:
     release:
