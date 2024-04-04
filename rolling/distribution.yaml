@@ -819,7 +819,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: d407bd0d0cfc172f960fd4e199a7e8018994e250
+      version: 5b8223134c79642e86057d7444e65a2c3cd54b70
     status: maintained
   console_bridge_vendor:
     doc:
@@ -940,7 +940,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: 6435fb7506cefb0a09784d43640e744901ac3be9
+      version: a0771d268e9638cd2c01c0739068276528b3b800
     status: developed
   demos:
     doc:
@@ -1268,7 +1268,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 8f435d1380463dd60a4f29d44ef1997e9f4a84aa
+      version: f1613f137af5ff6048894194e1805320954675cd
     status: maintained
   event_camera_codecs:
     doc:
@@ -1413,7 +1413,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 65236f93e9c4ea3ff9a49fba4dfd9e43eb94037b
+      version: 3d159dc8c0e50902c24cbdc51a649d1f4de58e6a
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1458,7 +1458,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 29aa8eac023726b6770049b04e0cf9b804d41986
+      version: 45dc2aab04d0dd915d223219128aeadaa84fa210
     status: developed
   filters:
     doc:
@@ -1970,10 +1970,16 @@ repositories:
       type: git
       url: https://github.com/gazebo-release/gz_dartsim_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gz_dartsim_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_dartsim_vendor.git
       version: 4cc0a91408703d5265be7ed0c47d6a06a9591e0e
+    status: maintained
   gz_fuel_tools_vendor:
     doc:
       type: git
@@ -2204,7 +2210,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 3b7ab18da8db0566aea929d87002785183db43b8
+      version: f639699aaec3c4731e7ff84f04671b0082da2778
     status: developed
   iceoryx:
     release:
@@ -3220,7 +3226,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: ba2f31f5646b1cae76f6304bd4edc13389dfa946
+      version: 7175eab3b91944909afd0cafde36e4ec6bfcd438
     status: developed
   mola_common:
     doc:
@@ -3451,7 +3457,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 76da0d2b754354bc0a5bde80e782836cd56c812f
+      version: 027898911906c1a007a606b7e4ba08897b48de2c
     status: developed
   mrpt_path_planning:
     doc:
@@ -4738,7 +4744,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: b7ed9ab378fe135984dc37bb747c97f5d7a27bee
+      version: db366ac9c59021f14d776f7eb78cf8c772294563
     status: maintained
   rcl_interfaces:
     doc:
@@ -5301,7 +5307,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: b8c410c34b385042b3ab3807ba5bfd5dd457f218
+      version: 7c95abbfc4559b293ebf5e94e20250bdd99d3ac6
     status: developed
   rmw_cyclonedds:
     doc:
@@ -5476,7 +5482,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: c6e2ab3d604d6599237eace3b1f52bfe00160bea
+      version: ecbb5401fe38793ff684bef229acb158d95141df
     status: developed
   ros2_control:
     doc:
@@ -5503,7 +5509,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: a902e27968fa5983aab86d607aa83baa34531d01
+      version: b989f701e8a1c596fb24691183781325bf65c5e7
     status: developed
   ros2_controllers:
     doc:
@@ -7119,7 +7125,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/teleop_twist_joy.git
-      version: a9e2f3432f3b79fbdd9b1ac5f927618ab9eca92f
+      version: 76cd6508a8c4e35d9fe3a6a8968abbe7159ffc08
     status: maintained
   teleop_twist_keyboard:
     doc:
@@ -7418,7 +7424,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_geometry.git
-      version: 13b3d393cef45f73a989052f340c353ad34d14a3
+      version: e1bd15769e81c140dd1d6390d6ca848652510a53
     status: maintained
   tvm_vendor:
     doc:
