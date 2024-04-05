@@ -531,7 +531,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/blackcoffeerobotics/bcr_bot-release.git
-      version: 0.0.1-4
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/blackcoffeerobotics/bcr_bot.git
@@ -948,7 +948,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/canlab-co/clpe_ros.git
-      version: cea0bb49218714b428a3ef9c958e15739f7e90cd
+      version: affe0149cf35bdb14369eafae24aafbbbc7d1039
     status: maintained
   clpe_ros_msgs:
     doc:
@@ -2645,7 +2645,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: 8c17697421a3507cc72ffcf6733548fbca95253a
+      version: 5bb8dbae0daf80bfd34230f3150506dee9c1c54c
     status: developed
   euslime:
     release:
@@ -2914,7 +2914,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 45dc2aab04d0dd915d223219128aeadaa84fa210
+      version: 9e570c4704badfa12ff1c6e20f5e3128e3ce292e
     status: developed
   fields2cover_ros:
     doc:
@@ -3750,7 +3750,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 11409b03ab9b5cca450176c478ddc1190cd8f93a
+      version: 4abef9248edc4c49943d8fd8a84c028deb486f4c
     status: developed
   haf_grasping:
     doc:
@@ -4588,7 +4588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
-      version: 97199e33997796862cfc47cbdc1b744460244339
+      version: b17d38b049126e1fdc608d001d1454aad5f0279e
     status: developed
   jsk_common_msgs:
     doc:
@@ -5819,7 +5819,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 2b75ef93c13888de82acbce5dad301a83798009f
+      version: a4d0f5f43f2413851a7f60c041cdd86f1d1e4f51
     status: developed
   mikrotik_swos_tools:
     doc:
@@ -6291,7 +6291,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: c0ca035339b00ada64f4f89213b05cadfc2c2959
+      version: 1b178c8f96138231633c25b3a9e08483891b4438
     status: developed
   mrpt_msgs:
     doc:
@@ -7232,6 +7232,17 @@ repositories:
       url: https://github.com/tork-a/openrtm_aist-release.git
       version: acdb4feb245a4956256843b2eb3e6b8e9f58d223
     status: maintained
+  openrtm_aist_python:
+    doc:
+      type: git
+      url: https://github.com/tork-a/openrtm_aist_python-release.git
+      version: release/noetic/openrtm_aist_python
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/openrtm_aist_python-release.git
+      version: 1.1.0-5
+    status: maintained
   openslam_gmapping:
     doc:
       type: git
@@ -7861,7 +7872,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
-      version: 236317d1815b5967fa77ba716add2dc5c3313035
+      version: 4b7fedfb7664bafcb1f7b9c6e98bb0b87d5f2770
     status: maintained
   power_msgs:
     doc:
@@ -8976,7 +8987,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: c7d686663edaeb9e65ffd77441886ede4965de4e
+      version: 66654d4531638eb754e463fc3b0929591f706253
     status: developed
     status_description: developed
   rm_controllers:
@@ -11620,7 +11631,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tradr-project/static_transform_mux.git
-      version: 3c4c4f9d8da2b39943484bccbcf1806e0638eb15
+      version: 77727f69992dd2bf546d2efa81438c1eee053039
     status: maintained
   std_msgs:
     doc:
