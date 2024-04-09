@@ -2554,7 +2554,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ensenso/ros_driver.git
-      version: 05e3ade5051cc5c1eb0d8d015e17ef3219231365
+      version: 6539cc33fcba78d6b4df5af8dbe8330389c05ae8
     status: developed
   er_public_msgs:
     release:
@@ -2914,7 +2914,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 75ab663da4dc67966632f73908dc771567426a56
+      version: 57835f48513588eb993560099f3b279629934de9
     status: developed
   fields2cover_ros:
     doc:
@@ -6276,7 +6276,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: 4380c8ee29c4c397ad271585001eb8cf249dfc08
+      version: 8ac97d0ea7add2fb80535055d155bb9495dce0a3
     status: maintained
   mrpt2:
     doc:
@@ -7696,7 +7696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: b71da0e094b0135fd584722d81e927c2e6569324
+      version: 2e1e0689f938cf94ed3b9e0977e8b9f568cf0357
     status: developed
   plotjuggler:
     doc:
@@ -8510,7 +8510,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 65781b7cac619cf239e5ef16405757ecbb47d9f4
+      version: 6e63418798f4f27783322393bc724077452a985f
     status: developed
   qt_gui_core:
     doc:
@@ -12260,6 +12260,7 @@ repositories:
       - ur10e_moveit_config
       - ur16e_moveit_config
       - ur20_moveit_config
+      - ur30_moveit_config
       - ur3_moveit_config
       - ur3e_moveit_config
       - ur5_moveit_config
@@ -12269,11 +12270,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/universal_robot-release.git
-      version: 1.3.2-1
+      version: 1.3.3-1
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
-      version: a7a2c5459b9702ba8b07ebf35f0134159e50e680
+      version: 4f3c776b3661e5b6e3f25a961382084873e2d3cc
     status: developed
   ur_client_library:
     doc:
@@ -12284,11 +12285,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library-release.git
-      version: 1.3.5-1
+      version: 1.3.6-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: d21a4029edb917d319dad12ddcebf71f8d5b3fae
+      version: 80aee077fe1b49879513e88e1d531df8372b7441
     status: developed
   ur_msgs:
     doc:
@@ -12318,11 +12319,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver-release.git
-      version: 2.1.3-1
+      version: 2.1.4-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
-      version: 219462d995a28b0c9205306500c163f077cb88e8
+      version: 4479de911ac8f76d150cab531f84d69ccaf0a2f5
     status: developed
   urdf:
     doc:
