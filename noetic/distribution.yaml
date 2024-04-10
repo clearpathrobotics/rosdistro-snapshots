@@ -757,7 +757,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_cartesian_control_msgs.git
-      version: efd9900092aaa2ce030790138ee870a8b5d6a85a
+      version: fb68cf948e2997bfa2b7312f5e02af56e3db505e
     status: developed
   cartesian_msgs:
     doc:
@@ -2914,7 +2914,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 57835f48513588eb993560099f3b279629934de9
+      version: 075933bc3f56c6e5fb73426b18e2aceb57bc4108
     status: developed
   fields2cover_ros:
     doc:
@@ -3928,7 +3928,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: f639699aaec3c4731e7ff84f04671b0082da2778
+      version: 6760ea3240965aa04fa462393142f876f7c36c45
     status: maintained
   hri_actions_msgs:
     release:
@@ -5860,7 +5860,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DFKI-NI/mir_robot.git
-      version: a82951afcf1f884cdbd5963cc18d597f5d9be39a
+      version: d1e233d2b80b87536a0e7a6f6fdd67697500b171
     status: developed
   mitch_v2_driver:
     doc:
@@ -7226,7 +7226,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.2-4
+      version: 1.1.2-5
     source:
       type: git
       url: https://github.com/tork-a/openrtm_aist-release.git
@@ -7696,7 +7696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 2e1e0689f938cf94ed3b9e0977e8b9f568cf0357
+      version: 1e46442fd60632bb8f8a9c2f6935b4aaadd54dee
     status: developed
   plotjuggler:
     doc:
@@ -7711,7 +7711,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 15dce41f598daed841bf2093aa10ebdf2aa1052f
+      version: e4f678ba0c4c9f8bf56843f4fed8cade4a79efaa
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -10818,6 +10818,21 @@ repositories:
       url: https://github.com/gbiggs/rtctree.git
       version: bd725a47ac87c259c8bce06156ccc9ab71111c26
     status: maintained
+  rtshell:
+    doc:
+      type: git
+      url: https://github.com/gbiggs/rtshell.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/tork-a/rtshell-release.git
+      version: 3.0.1-2
+    source:
+      type: git
+      url: https://github.com/gbiggs/rtshell.git
+      version: 0e9ce96f24987793d6c4459ef903797432182cf7
+    status: maintained
   rtsprofile:
     doc:
       type: git
@@ -11727,7 +11742,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 1b6cf17bb37741103a67cb3698066b6b80def2e0
+      version: 7f59941aa0d188d33704665ba6432882f6c96084
     status: developed
   teb_local_planner:
     doc:
