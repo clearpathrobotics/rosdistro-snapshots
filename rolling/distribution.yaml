@@ -263,7 +263,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 1f7e2b44b17bd35702143f70c4c098721912f2ee
+      version: 8f603679fd73d8aff654dadfb4538766c9a70ee0
     status: developed
   ament_nodl:
     release:
@@ -819,7 +819,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: 5b8223134c79642e86057d7444e65a2c3cd54b70
+      version: d7168edb382ede81412d50a5117fc351e8ac1af9
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1135,7 +1135,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: cb154699beecd63726695b8f294747e877f9412c
+      version: 75ca067e0b5cb43bf08d03e7988bb4871e6f56e0
     status: developed
   ecl_core:
     doc:
@@ -1413,7 +1413,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 4595ea883686f56e24081b434922b79d471d2c45
+      version: 421bdb27c88c02dd390fa59f1a6b7f0fe113dc36
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1807,7 +1807,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: f63c7ae2f3cc78a76e4c86cbd8b5609579973cf0
+      version: c42ad86519853d81ad630e48111ae82afcbf61ec
     status: maintained
   geometry_tutorials:
     doc:
@@ -1967,7 +1967,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: 65dfc710e5c8adca977616ca865ded90d04f8371
+      version: 4836ab3212af63e82152d22e170033523bc46c1a
     status: maintained
   gz_common_vendor:
     doc:
@@ -1982,7 +1982,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_common_vendor.git
-      version: 9f6c7c0bd8ca384851c451f398532ee26ae17a1b
+      version: e9ae417776fdf4cac2007877e67b49f68be622f8
     status: maintained
   gz_dartsim_vendor:
     doc:
@@ -2004,10 +2004,16 @@ repositories:
       type: git
       url: https://github.com/gazebo-release/gz_fuel_tools_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gz_fuel_tools_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_fuel_tools_vendor.git
       version: be571aa486ffd764bd11907a00b476c3ff59e4b8
+    status: maintained
   gz_gui_vendor:
     doc:
       type: git
@@ -2039,7 +2045,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_math_vendor.git
-      version: d5bb65840450b350c2f64d99034b48ace56196a9
+      version: 330fb39b0a848637b237faea2e6c4925e2aca959
     status: maintained
   gz_msgs_vendor:
     doc:
@@ -2079,7 +2085,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_physics_vendor.git
-      version: 5618c24e2150071254cd6d0c31fb4a4eecb0ab83
+      version: 9c80b11b5839563ffd4b99cc12d8b3b1e574fea0
   gz_plugin_vendor:
     doc:
       type: git
@@ -2093,7 +2099,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_plugin_vendor.git
-      version: f8759b299db6d64fcf31c86866c57cfda1ecf515
+      version: 19104456f6c5ed38ba0249ef4787cb04e3d224b2
     status: maintained
   gz_rendering_vendor:
     doc:
@@ -2103,7 +2109,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_rendering_vendor.git
-      version: 551fd5a7947cf282a4709aceca0dcdcf9ba8c215
+      version: 899842384be9cdddf587951d20e3997ce51fa13b
   gz_ros2_control:
     doc:
       type: git
@@ -2153,17 +2159,23 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_tools_vendor.git
-      version: ac54ff7f0d8be852a0ee58b99a9641dbfc4037bd
+      version: 9972503cac9c138258e2197d2e83f8c5f626978a
     status: maintained
   gz_transport_vendor:
     doc:
       type: git
       url: https://github.com/gazebo-release/gz_transport_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gz_transport_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_transport_vendor.git
       version: de8f49edec3a4a84223860d1c438a2502469c8e2
+    status: maintained
   gz_utils_vendor:
     doc:
       type: git
@@ -2177,7 +2189,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_utils_vendor.git
-      version: 65e901e0a569c9c1e323112913d419010a4169a6
+      version: d582bd4c4a1e4db3541a3b7dc1aa9e75953b4341
     status: maintained
   hash_library_vendor:
     doc:
@@ -2903,7 +2915,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 8c42d271f66c365387ec527ae423bbd93db028c6
+      version: 0b5e2afccc19217bd8422478ab4eeba82e191486
     status: developed
   libyaml_vendor:
     release:
@@ -3369,7 +3381,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 17145274ca9c7f7fc84d439735ef6ad6cef0d6a3
+      version: 6dab90b16d0aa4462d5afb0343549ab04a9ba3ac
     status: developed
   moveit_msgs:
     doc:
@@ -3531,7 +3543,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 82746f13300dc406c4c05716c258d058a0fadfe4
+      version: 6591b2ac92b51e1850bb5d9c0540c0853de9c122
     status: developed
   mrt_cmake_modules:
     doc:
@@ -3614,7 +3626,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/nao_lola.git
-      version: fe48290f1b33a11aa260bcb7f22e15ffe587cdf9
+      version: a794d01f78b57fdd0325adc355f2d092a2ef30a8
     status: developed
   navigation_msgs:
     doc:
@@ -4898,7 +4910,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: c8d3481c11c5252bbfcf40a8b16040cbfeeb5c09
+      version: 763921540cab8ceb09b342f1bc8cc50d30c40da0
     status: maintained
   rcpputils:
     doc:
@@ -5374,12 +5386,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_dds_common-release.git
-      version: 3.0.0-2
+      version: 3.1.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_dds_common.git
-      version: d82d23acd0035d5e543b0b4623fd8cb2fa912a52
+      version: 973ad5c8b60140dbdafe80eb8a192f1d913f94f6
     status: maintained
   rmw_fastrtps:
     doc:
@@ -5547,7 +5559,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: b989f701e8a1c596fb24691183781325bf65c5e7
+      version: 47a72456eae7d12a277c5e5204dcc777ad55abb3
     status: developed
   ros2_controllers:
     doc:
@@ -5685,7 +5697,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 54bd482f23581abd44eac7f3e35017b64ce47257
+      version: 327df43cf2110f184a4f0e04441834605dbe760f
     status: developed
   ros2acceleration:
     doc:
@@ -5933,7 +5945,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: cba14da389269f8d8d78c358a4845325f7a51937
+      version: 32bd5c3a9b5e4ff690682f04621d42f3151ba467
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7115,7 +7127,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: c90f086b7019ad59642dcc10e6f67549462954d9
+      version: b18cfda53bf7511ec489d2e21e22d41ecf1fdcbd
     status: developed
   tango_icons_vendor:
     release:
