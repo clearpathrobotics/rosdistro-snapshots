@@ -263,7 +263,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 8f603679fd73d8aff654dadfb4538766c9a70ee0
+      version: f40df10269604656fe179e211dac4cca18308801
     status: developed
   ament_nodl:
     release:
@@ -1383,7 +1383,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: b94c739f552557b6e4d3ae9b3484e5bc9f5a13cb
+      version: 2e22a55e2c7bb59df8062341495607da044d093a
     status: maintained
   fastcdr:
     release:
@@ -1468,7 +1468,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 075933bc3f56c6e5fb73426b18e2aceb57bc4108
+      version: 0c45c7925f57f8b4c757c404e4ddc70534f8266f
     status: developed
   filters:
     doc:
@@ -2019,19 +2019,31 @@ repositories:
       type: git
       url: https://github.com/gazebo-release/gz_gui_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gz_gui_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_gui_vendor.git
       version: ef8963b00fbd209b39e23a9e3802f49c96ccd15f
+    status: maintained
   gz_launch_vendor:
     doc:
       type: git
       url: https://github.com/gazebo-release/gz_launch_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gz_launch_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_launch_vendor.git
-      version: 6beda64ccc5ed67b00f1b1e9cdb08b26b8c2fef7
+      version: 180118bae8d7603a5b4acd0dc5692283744be9f6
+    status: maintained
   gz_math_vendor:
     doc:
       type: git
@@ -2145,19 +2157,31 @@ repositories:
       type: git
       url: https://github.com/gazebo-release/gz_sensors_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gz_sensors_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_sensors_vendor.git
       version: cd19d2bb99eedc560d2d57f7828899cbb01e2d0f
+    status: maintained
   gz_sim_vendor:
     doc:
       type: git
       url: https://github.com/gazebo-release/gz_sim_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gz_sim_vendor-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_sim_vendor.git
-      version: 57222717245995978c912e3fa33599de767989fa
+      version: 65727ac8176a47a35c78bee3236992fb2e97546d
+    status: maintained
   gz_tools_vendor:
     doc:
       type: git
@@ -2182,11 +2206,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_transport_vendor-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_transport_vendor.git
-      version: de8f49edec3a4a84223860d1c438a2502469c8e2
+      version: 796355bbe4751cd3d3ae432fa606a2cdb5a19f14
     status: maintained
   gz_utils_vendor:
     doc:
@@ -2927,7 +2951,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 0b5e2afccc19217bd8422478ab4eeba82e191486
+      version: 092b0528ebe37db9e938df69130b993bb6005cd9
     status: developed
   libyaml_vendor:
     release:
@@ -3494,7 +3518,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: e32875a53c2963787e537ca68f97a91a83b0d9b9
+      version: b774a522735a67b35fc4431197300524223ca237
     status: developed
   mrpt_msgs:
     doc:
@@ -4906,7 +4930,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: ddc8a9c847a169bc9d436cc909e9a6618e63ba0f
+      version: 90e451154cc23c4c231ca55dc103358f38cfd999
     status: maintained
   rclpy:
     doc:
@@ -5052,7 +5076,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: c87c432214be98cf98c161e241262ed94d745e03
+      version: 33fafda1c91c0e3df9937b243881801c2507c499
     status: maintained
   rig_reconfigure:
     release:
@@ -6124,7 +6148,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: 0497ce85b9df224085dd578eb0454aa56d1713b2
+      version: 75c10dfe45a6ee8450e715aa87f424c9a489833c
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -7364,11 +7388,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/trac_ik-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: 0e29ef8eb3d2812d3a646a98b62700f5e1f1a7b6
+      version: 210f767d1d4e89ab30aa0a951aaa62716b4ec7a7
     status: developed
   tracetools_acceleration:
     doc:
@@ -8007,7 +8031,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b22a95ea099b40d47636f85982b4398614d3f53d
+      version: c56e898bc49e9fffe0fda7154731645bdc787536
     status: maintained
   vitis_common:
     doc:
