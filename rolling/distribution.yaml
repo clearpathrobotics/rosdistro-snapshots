@@ -699,12 +699,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cartographer_ros-release.git
-      version: 2.0.9002-1
+      version: 2.0.9003-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/cartographer_ros.git
-      version: 43cd92bc8c4bf1a90f50eddbbbd724a899ceebe1
+      version: 1bbf9af3d250ba7d17f9b2340e7fe01ac22cf7a7
     status: maintained
   cascade_lifecycle:
     doc:
@@ -1145,7 +1145,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 8d4d4f67b10244421d210d02430956f70e31664d
+      version: 09f56b32b32370c2809b7c6921a85fa8b7c7a400
     status: developed
   ecl_core:
     doc:
@@ -1423,7 +1423,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: fb841b9a1a2c9ea967b3d71adb30cfc59914822a
+      version: ea5af48d0d6f4c4e71e4ca3ad421b3b78fc1fffe
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1434,11 +1434,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_image_transport-release.git
-      version: 1.0.0-2
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
-      version: 961e40f14280db65fb81c0bcfdb443d729a63d50
+      version: 9bc66efe997ac0075ffe9f5d7f3da7417435836c
     status: developed
   ffmpeg_image_transport_msgs:
     doc:
@@ -1468,7 +1468,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_tools.git
-      version: 45c2e1d3d7cd7920fd248ad7ba532be5a26543e6
+      version: 65d6eeba4d8d0e4747375c9c2407373212f3f18d
     status: developed
   fields2cover:
     doc:
@@ -1479,11 +1479,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-1
+      version: 2.0.0-3
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: c293724c5fb3a78588a719da2a6bdf19decf2c7d
+      version: 643460777109ab291194bfedd810f98004ac98d7
     status: developed
   filters:
     doc:
@@ -1494,12 +1494,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/filters-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/filters.git
-      version: b2dff10530f7ce339f0fe09ed45e2312ce258c5f
+      version: 38a41429a5bc0fe47fb0e9577c88004cd6ec7e29
     status: maintained
   find_object_2d:
     doc:
@@ -2326,7 +2326,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
-      version: 1983be82e730902a420f28690e234c97bea8d566
+      version: 54f5447cdc7cd5980ef28796ed055bd1dfa29d00
     status: developed
   ifm3d_core:
     release:
@@ -3328,7 +3328,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 23646afbe30131a0b95e650ce8e9b5a0105b5397
+      version: c8415824732b76c2862f88b9e10d106ef9523aef
     status: developed
   mola_common:
     doc:
@@ -3501,7 +3501,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: e03a060b8952daee3833702f479445fb4127cbce
+      version: 4cd44f0666a09424f4550319426fc8c7b41819af
     status: developed
   mqtt_client:
     doc:
@@ -3534,7 +3534,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: b33e8a4ebde3ef31b3af1cc86d13582193edb98e
+      version: 3ebf6ef6fbe468d18c8e7b76815e95b9789315a5
     status: developed
   mrpt_msgs:
     doc:
@@ -3904,7 +3904,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OctoMap/octomap_mapping.git
-      version: 72141b93abd8616e1283440c18ccd03f131a6f61
+      version: 127a8722e6030da84a4ff207097df147f6fa7445
     status: maintained
   octomap_msgs:
     doc:
@@ -4047,7 +4047,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ortools_vendor-release.git
-      version: 9.9.0-3
+      version: 9.9.0-4
   osqp_vendor:
     doc:
       type: git
@@ -4217,7 +4217,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 07a19120090be739df1720ade7b442df4ff042d3
+      version: 25cbe3716008cfc703b72e6e01fed0365496cad8
     status: maintained
   performance_test_fixture:
     release:
@@ -4516,7 +4516,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 4c1d22d9a42c1e5c8faf81309aad2ce76c1422c3
+      version: 6efbff25cf17227e7ee977d353ee80734a3934c8
     status: developed
   py_trees:
     doc:
@@ -5079,7 +5079,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 99b6153b3cb224f59b1dde3c3a8302a2c24cd223
+      version: 9f0db26a62d35a4d385ba68551f52f0cbd56e69d
     status: maintained
   resource_retriever:
     doc:
@@ -5230,7 +5230,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: b3113fd2468991a91501ae9710cd9cfe77caaef5
+      version: 6dfafa0dfad1ae197ba1c5e5344bc5c14a3a600e
     status: developed
   rmf_simulation:
     doc:
@@ -5586,7 +5586,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.2.8-2
+      version: 0.2.9-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
@@ -5999,12 +5999,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.26.0-1
+      version: 0.26.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 53570fac998f5c8b01c7d7ff4cceb337e2deeef4
+      version: 0b6a8dacef1a7de0117a48502c987209830f5e96
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6441,12 +6441,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_view-release.git
-      version: 1.2.0-3
+      version: 1.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_image_view.git
-      version: da64a24c283f415e9e17875373f95a90768ddb7b
+      version: 340d5df45100ab676b8f98caab76393bc91a3719
     status: maintained
   rqt_moveit:
     doc:
@@ -8083,7 +8083,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vrpn-release.git
-      version: 7.35.0-14
+      version: 7.35.0-15
     source:
       test_commits: false
       test_pull_requests: false
@@ -8100,7 +8100,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vrpn_mocap-release.git
-      version: 1.1.0-2
+      version: 1.1.0-3
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
@@ -8201,11 +8201,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/zbar_ros-release.git
-      version: 0.4.0-3
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/zbar_ros.git
-      version: 69d42d9a4cfb82c8e3749984a45923ba807c1c43
+      version: bfb27f449042f1de37f45bf5331d36740532e73f
     status: maintained
   zenoh_bridge_dds:
     doc:
