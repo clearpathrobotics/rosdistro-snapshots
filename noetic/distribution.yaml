@@ -567,7 +567,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: e066971798aaefc034a2f9f3137de701b327f241
+      version: 696a27be417ab2046abb39b6c375274cf619a5d1
     status: developed
   bond_core:
     doc:
@@ -5366,7 +5366,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AutonicsLiDAR/lsc_ros_driver.git
-      version: b26e717d5a396521dd80515e3af4f013e128a994
+      version: 9080e5d06d3342af66bfbe4d961c7f63bf4f3230
     status: maintained
   lsm_localization:
     doc:
@@ -6223,7 +6223,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 4cd44f0666a09424f4550319426fc8c7b41819af
+      version: 1f9866f063bc229a3f836b11d14a8ff7ce4a07af
     status: developed
   mpc_local_planner:
     doc:
@@ -6291,7 +6291,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 47db3c2c7618d13cecc3f0baabe2d3b9c606920f
+      version: be421109f4388947cf5c393764c4f4de838036c5
     status: developed
   mrpt_msgs:
     doc:
@@ -7288,6 +7288,20 @@ repositories:
       url: https://github.com/Jmeyer1292/opw_kinematics.git
       version: 80ed38d940cd797e9f253e0304a4f4eb308fa410
     status: developed
+  ortools_vendor:
+    doc:
+      type: git
+      url: https://github.com/Fields2Cover/ortools_vendor.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros2-gbp/ortools_vendor-release.git
+      version: 9.9.0-5
+    source:
+      type: git
+      url: https://github.com/Fields2Cover/ortools_vendor.git
+      version: 71c814888f305ae95980e870da0dd059eaa7709b
   osqp_vendor:
     doc:
       type: git
@@ -7711,7 +7725,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: e4f678ba0c4c9f8bf56843f4fed8cade4a79efaa
+      version: e659ad0deb264135fd2117aa39c8df227237bbf0
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -8809,7 +8823,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: 0d1d8543d86d24bec219ebfecf77a135d8720325
+      version: 650fdf56bc41da8e65305dcf733056c1c0e3dc79
     status: developed
   reach_ros:
     release:
@@ -10827,7 +10841,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/rtshell-release.git
-      version: 3.0.1-3
+      version: 3.0.1-5
     source:
       type: git
       url: https://github.com/gbiggs/rtshell.git
@@ -12682,7 +12696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: d0aab601239299dbc4f9a473bfbdcf7975ade528
+      version: 5affb0325cf42e96160a5954bc69e1d0942c2b88
     status: maintained
   visp_ros:
     doc:
@@ -13164,11 +13178,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/openspur/yp-spur-release.git
-      version: 1.22.2-1
+      version: 1.22.4-1
     source:
       type: git
       url: https://github.com/openspur/yp-spur.git
-      version: 8c29b1dba6b6950c0c8922d83219b43146b1b2fb
+      version: 15787f3fe506ac288ba28397936f5dc591e2d05d
     status: developed
   ypspur_ros:
     doc:

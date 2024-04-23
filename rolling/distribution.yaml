@@ -611,7 +611,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: e066971798aaefc034a2f9f3137de701b327f241
+      version: 696a27be417ab2046abb39b6c375274cf619a5d1
     status: developed
   bno055:
     doc:
@@ -1078,7 +1078,7 @@ repositories:
     source:
       type: git
       url: https://github.com/dynamixel-community/dynamixel_hardware.git
-      version: d84511db57094e3aeb5c09181517649e40172a67
+      version: cf3f4e0a8c256291c9aab8e6e0075197a024cc37
     status: developed
   dynamixel_sdk:
     doc:
@@ -1145,7 +1145,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 5ecb809107a27788f4e51b60da5aef6eef24400b
+      version: 0ad937931c10bc1e1d391c8d2d224d9540e5eeeb
     status: developed
   ecl_core:
     doc:
@@ -1690,27 +1690,6 @@ repositories:
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
       version: 105c0ba5b786a43e1e9266399ab027a12011c643
     status: developed
-  gazebo_ros_pkgs:
-    doc:
-      type: git
-      url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: ros2
-    release:
-      packages:
-      - gazebo_dev
-      - gazebo_msgs
-      - gazebo_plugins
-      - gazebo_ros
-      - gazebo_ros_pkgs
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/gazebo_ros_pkgs-release.git
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: d52f7c471d1d2fd9425bf8621290bc4831be8dea
-    status: maintained
   gc_spl:
     doc:
       type: git
@@ -2102,7 +2081,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_ogre_next_vendor.git
-      version: 5af4673702c465a67fd48a00fc6aa4eca385f8a0
+      version: 11c724f2b738b9c989c2527de9eb826a9359accc
     status: maintained
   gz_physics_vendor:
     doc:
@@ -2354,38 +2333,6 @@ repositories:
       url: https://github.com/ignitionrobotics/ign-rviz.git
       version: f5d72f3e07cedc8dcf6882646de511a7c8896fd1
     status: developed
-  ignition_cmake2_vendor:
-    doc:
-      type: git
-      url: https://github.com/ignition-release/ignition_cmake2_vendor.git
-      version: rolling
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ignition_cmake2_vendor-release.git
-      version: 0.3.0-1
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ignition-release/ignition_cmake2_vendor.git
-      version: 5482c3db3941a3ae335e94e4b44afcf6da7f79e2
-    status: maintained
-  ignition_math6_vendor:
-    doc:
-      type: git
-      url: https://github.com/ignition-release/ignition_math6_vendor.git
-      version: rolling
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ignition_math6_vendor-release.git
-      version: 0.3.0-1
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ignition-release/ignition_math6_vendor.git
-      version: 4a94d0b472a02094215d05ca1236fbb676a5c797
-    status: maintained
   image_common:
     doc:
       type: git
@@ -3328,7 +3275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: eae90136ecadc0652838e7b01fba1001c557de7c
+      version: d7055a9d21d7baead7fceefd2d5df7f8fa3fe6ec
     status: developed
   mola_common:
     doc:
@@ -3343,7 +3290,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 5cc3c54fdd0eea646a06fadc7d85a1ad8c61a51d
+      version: 4beb5464bf54bcea2b395619b9eb01eece713baf
     status: developed
   mola_test_datasets:
     doc:
@@ -3501,7 +3448,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 4cd44f0666a09424f4550319426fc8c7b41819af
+      version: 1f9866f063bc229a3f836b11d14a8ff7ce4a07af
     status: developed
   mqtt_client:
     doc:
@@ -3534,7 +3481,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 47db3c2c7618d13cecc3f0baabe2d3b9c606920f
+      version: be421109f4388947cf5c393764c4f4de838036c5
     status: developed
   mrpt_msgs:
     doc:
@@ -4331,7 +4278,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: e4f678ba0c4c9f8bf56843f4fed8cade4a79efaa
+      version: e659ad0deb264135fd2117aa39c8df227237bbf0
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5041,7 +4988,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: 0d1d8543d86d24bec219ebfecf77a135d8720325
+      version: 650fdf56bc41da8e65305dcf733056c1c0e3dc79
   reach_ros:
     source:
       type: git
@@ -5230,7 +5177,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 6dfafa0dfad1ae197ba1c5e5344bc5c14a3a600e
+      version: 69d778ff970a3c8830633b68d8e8a705ee71c8f6
     status: developed
   rmf_simulation:
     doc:
@@ -5585,7 +5532,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 893079d507be28183e038441b67b5b8978f9b138
+      version: cd3837f4cb1941207db4a8379208fa286d6b604d
     status: developed
   ros2_control:
     doc:
@@ -5671,7 +5618,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 402b64519febd31212ca6585e40d9e66edfc0e79
+      version: 366675a15d8c91e6154f24b051dd4f3597756e0e
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -6818,7 +6765,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/sdformat_urdf.git
-      version: 9cec63e0f7102bd5809d1901e5c3e451b0aeb82f
+      version: 53fc3aa54106853e354ecf6b74b20367cbbce6ba
     status: maintained
   sdformat_vendor:
     doc:
@@ -8051,7 +7998,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: d0aab601239299dbc4f9a473bfbdcf7975ade528
+      version: 5affb0325cf42e96160a5954bc69e1d0942c2b88
     status: maintained
   vitis_common:
     doc:
