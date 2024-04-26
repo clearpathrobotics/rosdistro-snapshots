@@ -1079,7 +1079,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_hardware-release.git
-      version: 0.3.1-4
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/dynamixel-community/dynamixel_hardware.git
@@ -1283,7 +1283,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 4c69144b3e541a8af0d106e530affb235ac90baf
+      version: 81c54a49736ccbd86ee3a35c88eb8f8417a8f816
     status: maintained
   event_camera_codecs:
     doc:
@@ -1428,7 +1428,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 48aa53887680539c95799e798824b508bd374420
+      version: 8cb447bb25032f646685c923da866b733fd78aff
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1951,7 +1951,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 4abef9248edc4c49943d8fd8a84c028deb486f4c
+      version: ac5934822e64f0b9ab4df959c39f3a20767fe564
     status: developed
   gz_cmake_vendor:
     doc:
@@ -1996,7 +1996,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_dartsim_vendor.git
-      version: 4cc0a91408703d5265be7ed0c47d6a06a9591e0e
+      version: 2207815e4aab95db64fee7745704e57fb5889c5d
     status: maintained
   gz_fuel_tools_vendor:
     doc:
@@ -2149,7 +2149,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 81dca7171ba6fab0dd9631a7e815f0b312cddc81
+      version: 27af2108e77420dc46c83ac31658fccb67e33911
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3486,7 +3486,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 632f01d5bb3152a1a39c913d3a7472327ff2c32a
+      version: b233a175b90537882cb93ad311e53dbffe2f9cd6
     status: developed
   mrpt_msgs:
     doc:
@@ -3522,11 +3522,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_path_planning-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 8c2a359367322a704af45989bc8ed0c3e78cd118
+      version: 2b7fbcb162409db7bb5cd858cbf92251c33ad1c8
     status: developed
   mrpt_sensors:
     doc:
@@ -3573,7 +3573,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.9.2-1
+      version: 0.9.3-1
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
@@ -4149,7 +4149,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.6.1-2
+      version: 2.6.1-3
     source:
       test_pull_requests: true
       type: git
@@ -4283,7 +4283,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: e659ad0deb264135fd2117aa39c8df227237bbf0
+      version: 3a90d88e62d6f453c345a2084aa3cf3e8377779b
     status: developed
   plotjuggler_msgs:
     doc:
@@ -4594,7 +4594,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: e6b881ee5028e601a2f8aa844ec12b770831d38f
+      version: 4fe5bceb353f5dfcef4f78f9266c0983521bd7ac
     status: maintained
   qpoases_vendor:
     release:
@@ -5182,7 +5182,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 69d778ff970a3c8830633b68d8e8a705ee71c8f6
+      version: 132e516d5c7e55486cd30ba422ee09a1e648fc1e
     status: developed
   rmf_simulation:
     doc:
@@ -5258,7 +5258,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: ed39754c7d89d07b93a6e89b235755535f2ae19a
+      version: e1d7a3e30e560931b9ae7d97f85b05af77b061a5
     status: developed
   rmf_utils:
     doc:
@@ -6725,7 +6725,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: f7c24057a42383da898b2b6af6094888d6724526
+      version: e8dd485d19a35d3abba905020741973e613334e3
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
