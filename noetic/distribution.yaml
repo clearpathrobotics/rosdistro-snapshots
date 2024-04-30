@@ -2910,11 +2910,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/Fields2Cover/fields2cover-release.git
-      version: 2.0.0-1
+      version: 2.0.0-2
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 8b29e6c764a3849db24d854908746c0a5cb90e1e
+      version: c2957f41f2ef1aeff299f8e196a319553e9dd81d
     status: developed
   fields2cover_ros:
     doc:
@@ -3698,7 +3698,7 @@ repositories:
     source:
       type: git
       url: https://github.com/suurjaak/grepros.git
-      version: c023d1499b946ecc380d8c68e7354821dedc48de
+      version: cf9e77bbbcff2716236385d1218d9d16221741cd
     status: developed
   grid_map:
     release:
@@ -3928,7 +3928,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 95f7a3b5f94dde498984959fec42e2df17d19aab
+      version: fbdd005e14f0abb110d3dc84709f53d09be68f50
     status: maintained
   hri_actions_msgs:
     release:
@@ -6063,7 +6063,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: c1d73c0ae911a3242f7b63ba384b7129d9e04ff2
+      version: c43c555704a9a3292256f049135619b273df97c8
     status: maintained
   moveit_calibration:
     doc:
@@ -6223,7 +6223,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: c3a33715029a2fde4dfd229a60ff0cb78c377207
+      version: a1333c62e826a9ec42764ee5c813ca6b8f1d11d5
     status: developed
   mpc_local_planner:
     doc:
@@ -7297,11 +7297,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/ortools_vendor-release.git
-      version: 9.9.0-5
+      version: 9.9.0-6
     source:
       type: git
       url: https://github.com/Fields2Cover/ortools_vendor.git
-      version: f5895339b2cc7e69d7a41cdd855800ee7a16299b
+      version: 29324e161323fa1c3c25e63473004393f6716abd
   osqp_vendor:
     doc:
       type: git
@@ -7725,7 +7725,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 3a90d88e62d6f453c345a2084aa3cf3e8377779b
+      version: e3ec836af98f55aaeda34323de1ab8b5ad9ce6b9
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -8823,7 +8823,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: 0aa9e6f0b9e89fde27f3edc7125a06acfec706d4
+      version: d89ddafadcf87350dfd670b5113a3e4c1577a353
     status: developed
   reach_ros:
     release:
@@ -10882,12 +10882,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.14.21-1
+      version: 1.14.22-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rviz.git
-      version: c6e316b8966df91e8e8c963b200b58aae837460a
+      version: b0ca390c22c00f286e9afbeea0747f3b4a868e2a
     status: maintained
   rviz_animated_view_controller:
     doc:
@@ -12696,7 +12696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 665d9e553112854c79630a16c69dfb83dc51e058
+      version: e1b6b55e3e7e16b48b02385980ccbcb3ef306e35
     status: maintained
   visp_ros:
     doc:
@@ -12900,7 +12900,7 @@ repositories:
     source:
       type: git
       url: https://github.com/warthog-cpr/warthog.git
-      version: b04d45390efe94e2699be5468993161f5c7aa96f
+      version: c340e44de522ce4a2d8a55b52825d060c9bab971
     status: maintained
   warthog_desktop:
     doc:
