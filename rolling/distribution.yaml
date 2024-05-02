@@ -896,7 +896,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 3b381d129154ba33ec07ae4ab05c2e1f5cf86e4e
+      version: cd6d0d93321656895ca071233178c11753d41541
     status: maintained
   control_toolbox:
     doc:
@@ -911,7 +911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 5a1e54c5405e97d4b8c670b459aa8d4374cd0fde
+      version: 3171adbc0d567e7ca8365745f8cc8d2a30e9994e
     status: maintained
   cpp_polyfills:
     release:
@@ -1544,7 +1544,7 @@ repositories:
     source:
       type: git
       url: https://github.com/flexbe/flexbe_behavior_engine.git
-      version: de06e21fc7fbe42933bcfe55f24d64892de1fe9f
+      version: e88c23926a2cb134fda0e7865a034cc41c211068
     status: developed
   flir_camera_driver:
     doc:
@@ -2609,7 +2609,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 6a70ff0cfe9c9cf845bbe6fc43ac70b3ae447c02
+      version: 18e109bdad669e568d46613fdcc5b92d57510b36
     status: developed
   kobuki_core:
     doc:
@@ -3420,7 +3420,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 53627d37e6188443e06cd34627b00d9f25198220
+      version: 358ec63d9a8fee3d2e29ee37413029ff4eff3426
     status: developed
   moveit_msgs:
     doc:
@@ -3488,7 +3488,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: b5a94896f7759f477542bd8ac47ddde30b4392ce
+      version: 5efa4ad0edd4a8568e308062a9edd90271831e1f
     status: developed
   mqtt_client:
     doc:
@@ -3546,7 +3546,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: e273164184237f0fb4d3882cbc60cc675144381c
+      version: 909c69ca587ddc4fd7732c810a7dbaf9277d8f52
     status: developed
   mrpt_path_planning:
     doc:
@@ -5499,7 +5499,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: fa9397cbf567b4d0386bd221dabf34ba0613153b
+      version: 394ae207a4b495538dacf8f99abe84a5bd821859
     status: developed
   robot_calibration:
     doc:
@@ -5609,7 +5609,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: aadcc45c99ff3534cca7eb5b73d44ee68e38d7e6
+      version: 5d0d4966e52099acb6ebaf10c8ed50d44407bb5a
     status: developed
   ros2_controllers:
     doc:
@@ -5682,7 +5682,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
-      version: 0.5.1-2
+      version: 0.5.1-3
     source:
       test_pull_requests: true
       type: git
@@ -7862,11 +7862,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/usb_cam-release.git
-      version: 0.8.0-2
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: a8962cbe1f59182e8c48afac7d4872dab38f2710
+      version: 52dd75fb78ae608a2c40eea60f6e8eac673b91e8
     status: maintained
   v4l2_camera:
     doc:
@@ -8013,7 +8013,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: e1b6b55e3e7e16b48b02385980ccbcb3ef306e35
+      version: 2fc7f61762e95aeef53fa3cbb3125cf6c5ecf49e
     status: maintained
   vitis_common:
     doc:
