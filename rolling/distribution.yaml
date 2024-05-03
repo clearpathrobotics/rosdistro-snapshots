@@ -495,6 +495,12 @@ repositories:
       url: https://github.com/astuff/automotive_autonomy_msgs.git
       version: 191dce1827023bef6d69b31e8c2514cf82bf10c5
     status: maintained
+  autoware_adapi_msgs:
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
+      version: aa847c6f997ec8084c952c604abb5eac4ea82ecb
+    status: developed
   autoware_auto_msgs:
     doc:
       type: git
@@ -509,6 +515,12 @@ repositories:
       type: git
       url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
       version: 818d3587d41728422b768898e9c8d2e55bad9e5f
+    status: developed
+  autoware_cmake:
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_cmake.git
+      version: 890e31281d293b87933b1ad3c1d2846c88d77ffa
     status: developed
   avt_vimba_camera:
     doc:
@@ -1298,7 +1310,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 81c54a49736ccbd86ee3a35c88eb8f8417a8f816
+      version: 019b7a95c12d9cec045531b2020c031c1241df71
     status: maintained
   event_camera_codecs:
     doc:
@@ -1503,7 +1515,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: c2957f41f2ef1aeff299f8e196a319553e9dd81d
+      version: 6141a6aebb61d7e92d70b9bb1c7385a2120beafb
     status: developed
   filters:
     doc:
@@ -1690,7 +1702,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: f1a1f42479ce3ae64db6b0e390cdacd954b4259f
+      version: ff41ec07de91bca8f0b756d90e26be80753a6bab
     status: maintained
   game_controller_spl:
     doc:
@@ -4249,7 +4261,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: 67f5956405f0ac8510e73261357d276c90900d61
+      version: b0096aae0530b07108a091474ec6b6004c00dc49
     status: maintained
   pick_ik:
     doc:
@@ -4503,7 +4515,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: e7a2f3ae3503a847d5471013f0b8e56a63e13629
+      version: 38a711ab403ab3c597a49ca76114b609cabca394
     status: developed
   py_trees:
     doc:
@@ -4939,7 +4951,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 5f912eb58e0f6f1718592ece0935f9a0115d03ec
+      version: f7185dc129c40388e66813c96f2ac5dbb73ffe00
     status: maintained
   rclpy:
     doc:
@@ -6760,7 +6772,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: c91c74632d9e3c80b22f458c0d7b5fe7c07ed908
+      version: 32eb8b9404927883247e868ab0c7d62b80df2ed1
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
