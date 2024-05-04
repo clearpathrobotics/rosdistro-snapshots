@@ -713,7 +713,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ipa320/care-o-bot.git
-      version: kinetic_release_candidate
+      version: kinetic_dev
     release:
       packages:
       - care_o_bot
@@ -728,7 +728,7 @@ repositories:
       type: git
       url: https://github.com/ipa320/care-o-bot.git
       version: f9c3ac1427063a27de9695395ab1a973e2adbcf7
-    status: maintained
+    status: end-of-life
   carla_msgs:
     doc:
       type: git
@@ -1029,7 +1029,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ipa320/cob_android.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       packages:
       - cob_android
@@ -1045,12 +1045,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_android.git
       version: f91803a149a528bf1be4efeef04576468c9d8eb0
-    status: maintained
+    status: end-of-life
   cob_calibration_data:
     doc:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       tags:
         release: release/noetic/{package}/{version}
@@ -1060,12 +1060,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
       version: 32dd5810c5dbbfc90d1f16522e234a69c940dbaf
-    status: maintained
+    status: end-of-life
   cob_command_tools:
     doc:
       type: git
       url: https://github.com/4am-robotics/cob_command_tools.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       packages:
       - cob_command_gui
@@ -1086,12 +1086,12 @@ repositories:
       type: git
       url: https://github.com/4am-robotics/cob_command_tools.git
       version: 2bd5b315988c8e976d436f7c6cf3526d80970ba9
-    status: maintained
+    status: end-of-life
   cob_common:
     doc:
       type: git
       url: https://github.com/4am-robotics/cob_common.git
-      version: kinetic_release_candidate
+      version: kinetic_dev
     release:
       packages:
       - cob_actions
@@ -1108,12 +1108,12 @@ repositories:
       type: git
       url: https://github.com/4am-robotics/cob_common.git
       version: f1c56d6ac7decc06004a53aebfaf273315d92dd3
-    status: maintained
+    status: end-of-life
   cob_control:
     doc:
       type: git
       url: https://github.com/4am-robotics/cob_control.git
-      version: melodic_release_candidate
+      version: melodic_dev
     release:
       packages:
       - cob_base_controller_utils
@@ -1141,12 +1141,12 @@ repositories:
       type: git
       url: https://github.com/4am-robotics/cob_control.git
       version: 6ff88e69d2606a746e72065e37edadb216d2c600
-    status: maintained
+    status: end-of-life
   cob_driver:
     doc:
       type: git
       url: https://github.com/4am-robotics/cob_driver.git
-      version: kinetic_release_candidate
+      version: kinetic_dev
     release:
       packages:
       - cob_base_drive_chain
@@ -1177,12 +1177,12 @@ repositories:
       type: git
       url: https://github.com/4am-robotics/cob_driver.git
       version: 51917d224d57e8eada599ff67de38f7bcbbf0021
-    status: maintained
+    status: end-of-life
   cob_environments:
     doc:
       type: git
       url: https://github.com/ipa320/cob_environments.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       packages:
       - cob_default_env_config
@@ -1195,12 +1195,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_environments.git
       version: 72ae32d85bef0fde67714ee90bc00fdf33fd8fbc
-    status: maintained
+    status: end-of-life
   cob_extern:
     doc:
       type: git
       url: https://github.com/ipa320/cob_extern.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       packages:
       - cob_extern
@@ -1217,7 +1217,7 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_extern.git
       version: 3e6f30aa477bed89b7c0d1cd0a3e996f50f6039d
-    status: maintained
+    status: end-of-life
   cob_fiducials:
     doc:
       type: git
@@ -1232,12 +1232,12 @@ repositories:
       type: git
       url: https://github.com/4am-robotics/cob_fiducials.git
       version: dcc3d6e3fdd0788f0f301df61d04695d6ef27b7a
-    status: maintained
+    status: end-of-life
   cob_gazebo_plugins:
     doc:
       type: git
       url: https://github.com/ipa320/cob_gazebo_plugins.git
-      version: kinetic_release_candidate
+      version: kinetic_dev
     release:
       packages:
       - cob_gazebo_plugins
@@ -1250,12 +1250,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_gazebo_plugins.git
       version: b184e77b9ca79e121312fa0be38df02acf234caf
-    status: maintained
+    status: end-of-life
   cob_hand:
     doc:
       type: git
       url: https://github.com/ipa320/cob_hand.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       packages:
       - cob_hand
@@ -1268,12 +1268,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_hand.git
       version: a4b7520f9a32067df86852447a7ee451b241bf8d
-    status: maintained
+    status: end-of-life
   cob_manipulation:
     doc:
       type: git
       url: https://github.com/ipa320/cob_manipulation.git
-      version: kinetic_release_candidate
+      version: kinetic_dev
     release:
       packages:
       - cob_collision_monitor
@@ -1291,12 +1291,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_manipulation.git
       version: 37f640bc0c69171eacdaae3e69f50afbda938551
-    status: maintained
+    status: end-of-life
   cob_navigation:
     doc:
       type: git
       url: https://github.com/ipa320/cob_navigation.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       packages:
       - cob_linear_nav
@@ -1315,12 +1315,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_navigation.git
       version: 42c92808ade36a2148800d106e4c43b13e5cf02f
-    status: maintained
+    status: end-of-life
   cob_perception_common:
     doc:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       packages:
       - cob_3d_mapping_msgs
@@ -1340,12 +1340,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
       version: daeaae0b36187bd8b0cd72903b8f5c40ed6324f5
-    status: maintained
+    status: end-of-life
   cob_robots:
     doc:
       type: git
       url: https://github.com/ipa320/cob_robots.git
-      version: kinetic_release_candidate
+      version: kinetic_dev
     release:
       packages:
       - cob_bringup
@@ -1362,12 +1362,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_robots.git
       version: cc76524d4df761ed57b1891047494d0b24ba393b
-    status: maintained
+    status: end-of-life
   cob_simulation:
     doc:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
-      version: kinetic_release_candidate
+      version: kinetic_dev
     release:
       packages:
       - cob_bringup_sim
@@ -1384,12 +1384,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
       version: 907144342c0351c9427ddd960ef4dfe013847113
-    status: maintained
+    status: end-of-life
   cob_substitute:
     doc:
       type: git
       url: https://github.com/ipa320/cob_substitute.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       packages:
       - cob_docker_control
@@ -1405,12 +1405,12 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_substitute.git
       version: 9e6e1a561e82b4496e2f5cb705f247f0746f493f
-    status: maintained
+    status: end-of-life
   cob_supported_robots:
     doc:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
-      version: indigo_release_candidate
+      version: indigo_dev
     release:
       tags:
         release: release/noetic/{package}/{version}
@@ -1420,7 +1420,7 @@ repositories:
       type: git
       url: https://github.com/ipa320/cob_supported_robots.git
       version: 0bf91fe71b57daa7a3cd22282bde04f937857f74
-    status: maintained
+    status: end-of-life
   code_coverage:
     doc:
       type: git
@@ -1659,7 +1659,7 @@ repositories:
     source:
       type: git
       url: https://github.com/cpr-application/cpr_onav_description.git
-      version: 5b2627cf409031a69665f8b692c450aeb880331f
+      version: 0c8487713eaa808a31b467bcd93ed7e9da0c647a
     status: maintained
   crane_x7:
     doc:
@@ -2914,7 +2914,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 6141a6aebb61d7e92d70b9bb1c7385a2120beafb
+      version: 19fdbfc5c1aa371eb4bb8411aa15acfec82c5919
     status: developed
   fields2cover_ros:
     doc:
@@ -3132,7 +3132,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: ff30bdd0760862427396ecbaab8e470d97a4c75b
+      version: e773b927056cd53f35a13a7113891ace203a5e9c
     status: developed
   foxglove_msgs:
     doc:
@@ -6223,7 +6223,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 5efa4ad0edd4a8568e308062a9edd90271831e1f
+      version: 2a48f59cbe3514774037e363b933530b0b866657
     status: developed
   mpc_local_planner:
     doc:
@@ -6291,7 +6291,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: b233a175b90537882cb93ad311e53dbffe2f9cd6
+      version: 97dd5c3ded12dc8bb2e135910cdf3088c2675ac1
     status: developed
   mrpt_msgs:
     doc:
@@ -8349,7 +8349,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros4hri/pyhri.git
-      version: 8126f5d77aec38893ebc6ca38438b72f5987d6ad
+      version: f01e9c2ca86235fa0e3d99ed4cc213fb7548423c
     status: developed
   pyquaternion:
     doc:
@@ -11282,7 +11282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git
-      version: 761d90c7758b8a448280dc47fdf2d11ddb09dd49
+      version: 9fbf1945c26da93a56ab62b765614a6930a466b4
     status: developed
   sick_tim:
     doc:

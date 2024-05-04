@@ -522,6 +522,12 @@ repositories:
       url: https://github.com/autowarefoundation/autoware_cmake.git
       version: 890e31281d293b87933b1ad3c1d2846c88d77ffa
     status: developed
+  autoware_utils:
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_utils.git
+      version: 451419ec58923b1a1035956f838afdb8d3cbc0d3
+    status: developed
   avt_vimba_camera:
     doc:
       type: git
@@ -1177,7 +1183,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: c0e30492298d1ca6f24159a238dac74fcefac945
+      version: a65a831e487636bfe5131a685bea3cc6ca52cc7d
     status: developed
   ecl_core:
     doc:
@@ -1310,7 +1316,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 019b7a95c12d9cec045531b2020c031c1241df71
+      version: 24c3628c4cb72f8db5f5d2dc7b55d48bc9ccc4d2
     status: maintained
   event_camera_codecs:
     doc:
@@ -1455,7 +1461,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: eaa23dbdea6ff2fa8259452be368ac8bcb273cc5
+      version: 9928d1df72f9bd5e3a85ed9eb25702ea0c5a4ec7
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1511,11 +1517,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-5
+      version: 2.0.0-8
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 6141a6aebb61d7e92d70b9bb1c7385a2120beafb
+      version: 19fdbfc5c1aa371eb4bb8411aa15acfec82c5919
     status: developed
   filters:
     doc:
@@ -1657,7 +1663,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: ff30bdd0760862427396ecbaab8e470d97a4c75b
+      version: e773b927056cd53f35a13a7113891ace203a5e9c
     status: developed
   foxglove_msgs:
     doc:
@@ -1697,7 +1703,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fuse-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -1989,11 +1995,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: 1a45a5fbdb9d3dd5fd9f16740139d8b82490550d
+      version: 1c3131efb76897d17c23929373ebc1133f8e18bd
     status: maintained
   gz_common_vendor:
     doc:
@@ -3327,7 +3333,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 3bbae88f78bd0e4e1c3d731c65218ba8eff82f88
+      version: 3b3c6e9f48abcf7de099677cd16df51412a931d1
     status: developed
   mola_common:
     doc:
@@ -3500,7 +3506,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 5efa4ad0edd4a8568e308062a9edd90271831e1f
+      version: 2a48f59cbe3514774037e363b933530b0b866657
     status: developed
   mqtt_client:
     doc:
@@ -3533,7 +3539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: b233a175b90537882cb93ad311e53dbffe2f9cd6
+      version: 97dd5c3ded12dc8bb2e135910cdf3088c2675ac1
     status: developed
   mrpt_msgs:
     doc:
@@ -4046,7 +4052,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ortools_vendor-release.git
-      version: 9.9.0-7
+      version: 9.9.0-8
   osqp_vendor:
     doc:
       type: git
@@ -4177,8 +4183,9 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/perception_open3d-release.git
-      version: 0.1.2-3
     source:
+      test_commits: false
+      test_pull_requests: false
       type: git
       url: https://github.com/ros-perception/perception_open3d.git
       version: 7ddcc5769e58826adea728789c5f01091dca46c9
@@ -4967,7 +4974,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 070132a6bb73a006f0cdecf362626a1098b92c05
+      version: 99f1ce933ddd1677fda8fa602af3684b93f814eb
     status: maintained
   rcpputils:
     doc:
@@ -5097,7 +5104,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: 3b46e58f931d09838185923c23eca7c3d2f69f8e
+      version: 1839d583190eb9dcf339eaaf6bebe632d94664a6
     status: maintained
   rig_reconfigure:
     release:
@@ -5621,7 +5628,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 5d0d4966e52099acb6ebaf10c8ed50d44407bb5a
+      version: c935b502733c68bc7879bcfd45fb9fd471ad0259
     status: developed
   ros2_controllers:
     doc:
@@ -6919,7 +6926,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 21e3860b3b805f33a4645856579360089eb5b3aa
+      version: bd38093e9a539b27a24e97225e0316f8746b6053
     status: maintained
   slider_publisher:
     doc:
@@ -7295,11 +7302,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tinyspline_vendor-release.git
-      version: 0.6.0-5
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/wep21/tinyspline_vendor.git
-      version: da4cf5e024abdad0ec8b401780796c9484a2f549
+      version: 09cc162c7b9c3c5d0027369002c64341ff4c9d33
     status: maintained
   tinyxml2_vendor:
     doc:
