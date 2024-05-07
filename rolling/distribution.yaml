@@ -355,7 +355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 1110fd6e81aec72e759acddc4aa5461965450597
+      version: 59cae91751c0251ad2dd1b3d358b36fcf82f470e
     status: maintained
   apriltag_detector:
     doc:
@@ -649,7 +649,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 0dd6a0e4b31caf771e8c70a92527459ba96024b1
+      version: 5ece05baa8375488195f0f0f7c29c8105f5cc25e
     status: developed
   bno055:
     doc:
@@ -1026,7 +1026,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 957ddbb9f04f55cabd8496e8d74eb35ee4d29105
+      version: aa8df8904b864d063e31fd5b953ffe561c7a9fe0
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1521,7 +1521,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 19fdbfc5c1aa371eb4bb8411aa15acfec82c5919
+      version: 0db549517e6c627f4c13556e7bb61157cf21d493
     status: developed
   filters:
     doc:
@@ -1751,7 +1751,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 7d5ec5dbad710d628bc14a82195c196f088621b8
+      version: 296d46a79719eb1e54a67c14b0d9b940fcac69ea
     status: developed
   generate_parameter_library:
     doc:
@@ -2182,7 +2182,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 27af2108e77420dc46c83ac31658fccb67e33911
+      version: 0b9be5c51a483cf9239644f81cfeb38f8fb38b00
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3333,7 +3333,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 3b3c6e9f48abcf7de099677cd16df51412a931d1
+      version: 70c3aa85188d294a4733bd4bdff66faac106f99b
     status: developed
   mola_common:
     doc:
@@ -3359,11 +3359,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_test_datasets-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: 9782e247a3b84546a70b00ae632b4245d812ec37
+      version: 326b4d48698c3d9ce1cc8b5bb47959f11cb6fa63
     status: developed
   motion_capture_tracking:
     doc:
@@ -3502,11 +3502,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.3.3-1
+      version: 1.4.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 2a48f59cbe3514774037e363b933530b0b866657
+      version: f0864c46b113b8a7363ecc7d0be8eac11ad8b39c
     status: developed
   mqtt_client:
     doc:
@@ -3579,7 +3579,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 2b7fbcb162409db7bb5cd858cbf92251c33ad1c8
+      version: 88b9f0737240a4c70cce135962eb365490bf3656
     status: developed
   mrpt_sensors:
     doc:
@@ -3630,7 +3630,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 52b0935e08e023e8201c02b01383ac1689e4cebf
+      version: 4df4411f9589e37b1b9cf8d46963567e8488294f
     status: developed
   nao_button_sim:
     doc:
@@ -4208,7 +4208,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 44d02743e451296d6bc871b101cea33c59adc1d6
+      version: abc0c501a3609af21032a532ab70a8c5b6198331
     status: maintained
   performance_test:
     doc:
@@ -5236,7 +5236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 132e516d5c7e55486cd30ba422ee09a1e648fc1e
+      version: 915f9c5a9f32b407bc7c5bc54ccd07163f529c2a
     status: developed
   rmf_simulation:
     doc:
@@ -5959,7 +5959,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: 3c7d8217c69340daab5a39e1a9e7faf6a42d9805
+      version: e2853cac87f0c62db6294e5bc351e5b52fcd1ae1
     status: maintained
   ros_workspace:
     release:
@@ -6011,7 +6011,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 3cc08f37c90af70569185e4935e46af14825dd34
+      version: 91468782eccd6b11a99e2da80f313fb7ea722d40
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7090,7 +7090,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: b47adcce2657da17b17d664f3fa446a2dfaaca87
+      version: 5600fe5d97bc0523ad1df279565fe2486430fe8a
     status: developed
   stomp:
     doc:
@@ -7723,7 +7723,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 2d5e315404147093a7cdd868b3f9cc95f923c58f
+      version: 0dd877072ed89f27f4330009deeebb6e04447dc5
     status: developed
   urdf:
     doc:
