@@ -421,11 +421,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/aruco_opencv-release.git
-      version: 4.2.0-1
+      version: 6.0.0-1
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: 026af1538bf2ca1a723fb3458a318bb4621be257
+      version: 146e9124c8afca37adae2f5264e7de31c52dd98c
     status: maintained
   astuff_sensor_msgs:
     doc:
@@ -539,6 +539,11 @@ repositories:
       version: 890e31281d293b87933b1ad3c1d2846c88d77ffa
     status: developed
   autoware_utils:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/autoware_utils-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
@@ -930,7 +935,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: cd6d0d93321656895ca071233178c11753d41541
+      version: 09432423dfaa4b51489ef51f6a0abccb7067837f
     status: maintained
   control_toolbox:
     doc:
@@ -945,7 +950,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 3171adbc0d567e7ca8365745f8cc8d2a30e9994e
+      version: 62d81cdc442a209675ba5e9aac9881f209d6533e
     status: maintained
   cpp_polyfills:
     release:
@@ -1477,7 +1482,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: c2a4523a21a94302298bc995057719546b72df2d
+      version: af75423618ccc3875a033fdf76aef7e8e7639176
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -2432,7 +2437,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 171d4366a5ae5c70a0092654ed4bb6114f48ed48
+      version: 794f2eec7da4698352b230e23d1193a28f74ed00
     status: maintained
   image_transport_plugins:
     doc:
@@ -2643,7 +2648,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 18e109bdad669e568d46613fdcc5b92d57510b36
+      version: 24174a48b4bb0af340a32d5532e9c55ca27e6c63
     status: developed
   kobuki_core:
     doc:
@@ -3040,7 +3045,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: f34f967c4e70ec60d1c561fbd2fcabaeedce5957
+      version: 7afc57b194dd08631d5e96e42b217bb52933828f
     status: maintained
   mapviz:
     doc:
@@ -3555,7 +3560,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 2e6aabcdc9e56ba864e55e7866d3d4135f03574e
+      version: d1d36b3ba3d69993cb5af1f0240cc918f34e92d7
     status: developed
   mrpt_msgs:
     doc:
@@ -3646,7 +3651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 4df4411f9589e37b1b9cf8d46963567e8488294f
+      version: c2c98f1aef72633bd504769db9a73d992e74ed04
     status: developed
   nao_button_sim:
     doc:
@@ -4349,11 +4354,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.9.1-1
+      version: 3.9.2-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: e3ec836af98f55aaeda34323de1ab8b5ad9ce6b9
+      version: d115b540c4f2664259a594259b9e11595f0263fc
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5101,7 +5106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: b6552e4b3df3a2d370cc47c9135cad2836c4ead2
+      version: cb528ebaacda07548e0645ea6f6f7875286ee631
     status: maintained
   resource_retriever:
     doc:
@@ -5534,7 +5539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 394ae207a4b495538dacf8f99abe84a5bd821859
+      version: 868b64ef3fd64e4f52d76f9933308791a915b6de
     status: developed
   robot_calibration:
     doc:
@@ -5644,7 +5649,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 607755e89636efdd13f6d70ebc07376f9020a820
+      version: 736d37981e9f487b6fb2d9d8f52dcdac55c1dd7b
     status: developed
   ros2_controllers:
     doc:
@@ -5681,7 +5686,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2a59f60a4827d4f3f0817991a4dfdf4a65d91037
+      version: 009f94686db6b6db845e81e3054b328988d163f8
     status: developed
   ros2_kortex:
     doc:
@@ -7106,7 +7111,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 335bcae934f476692922b9e79834837e6b30474d
+      version: 0b6ac75b04afd62c9ed089e7681d92857351fd74
     status: developed
   stomp:
     doc:
