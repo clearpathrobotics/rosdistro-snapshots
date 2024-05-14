@@ -147,7 +147,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 79cc237f8eb819edf4c1c624b56451e0a05a45f8
+      version: fdbf4574d7ccc67c29d63f906ddbd88017eb9ecc
     status: developed
   ament_cmake_catch2:
     doc:
@@ -351,11 +351,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.2.0-6
+      version: 3.4.1-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: abf7d58c243faf563be597a2029e7a75ee2563ac
+      version: 12cf56b93d8f1f95e528246c8000c36881fb43fb
     status: maintained
   apriltag_detector:
     doc:
@@ -363,10 +363,15 @@ repositories:
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
       version: rolling
     release:
+      packages:
+      - apriltag_detector
+      - apriltag_detector_mit
+      - apriltag_detector_umich
+      - apriltag_draw
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_detector-release.git
-      version: 1.0.0-2
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
@@ -608,7 +613,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: fce8040dfa17f0e793273a8dafd10e04447c8f6f
+      version: 614cb35d76ba0127e58cbc10910078390eefcf44
     status: maintained
   backward_ros:
     doc:
@@ -653,7 +658,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 95210b01f12f30fc25946c03db0fed0b826be1fd
+      version: db25cfbd9ceeda0a55aca52dd2f3c4ef2725a30b
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -1085,7 +1090,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 431926f647cfc54ffbf729cd9c098b1764604d66
+      version: e319448b9821b7fcdb5af0e07f762f61307500d7
     status: maintained
   dolly:
     doc:
@@ -1337,7 +1342,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: d1f1a843b075cabfe39245842660d95af0e60164
+      version: 3b7cdb716fbe84abcdb1675d57ecc4f728e3b05a
     status: maintained
   event_camera_codecs:
     doc:
@@ -1538,11 +1543,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-8
+      version: 2.0.0-12
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 047c853908ab99451254fadebbe4bcff5da9c5c9
+      version: 446888b961e6e6d9e0d53c47f5fd3c319c300e99
     status: developed
   filters:
     doc:
@@ -1772,7 +1777,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 296d46a79719eb1e54a67c14b0d9b940fcac69ea
+      version: fbb4393cb6903fdbda18745990399170f718d074
     status: developed
   generate_parameter_library:
     doc:
@@ -2203,7 +2208,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 18fd2c7faf089bfcd6958c67c948de62c8884803
+      version: 320e4d97d75de4a3e5b489849bc20658b84c1a17
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2348,7 +2353,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 169b2981ef0ff9e1e8925d31a563ada8e8010184
+      version: ecfb04baaf7470710d1b7edfa6947b036e17aed0
     status: developed
   iceoryx:
     release:
@@ -2840,7 +2845,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/leo_common-release.git
-      version: 3.0.2-1
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
@@ -2942,6 +2947,16 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
       version: 61ed5e1c4a694b191071c6ca6f2405965737643e
+    status: developed
+  libcaer_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/libcaer_vendor.git
+      version: fc63c6a4bd179340bc98f8f2efd90b1bb3197b2d
     status: developed
   libg2o:
     release:
@@ -3354,7 +3369,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 70d2c3fa5375bc912237024eeaba432ea392be53
+      version: 8023af503a222376f47d506c26f5ceea1ba3144c
     status: developed
   mola_common:
     doc:
@@ -3527,7 +3542,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 1e4847f6e743861ecdc83b214cac73eb8820e3d6
+      version: 7808db924da9257b479c2b304e9f15f4f8ca5f25
     status: developed
   mqtt_client:
     doc:
@@ -3560,7 +3575,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 141fbabbd3e966952266e212179cd682ca1cf0ce
+      version: c9758618bee25c5ae8ce81d90987fac4eaf2319e
     status: developed
   mrpt_msgs:
     doc:
@@ -3585,7 +3600,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 393e63237269f2350e998c7e2cae811285d4c813
+      version: 93934b2295c05c3b1cf72658915e003b5c857004
     status: developed
   mrpt_path_planning:
     doc:
@@ -4438,7 +4453,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 97a23e60b89396bcfaffc93d6921632b9b2235bf
+      version: e05cbcf20d0977f4391e66f6ff18411028118bc4
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -5539,7 +5554,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 152ab94b96fd72d9bf563895adabe96f7f6f3cb6
+      version: c76c9627ca8cf8c133124368f2f1ad06092b7027
     status: developed
   robot_calibration:
     doc:
@@ -5686,7 +5701,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b2a6b9b557fbc410816964cde363c5afb49c3013
+      version: 30d52bd6cc9d439b471fcb31490fdff87c7a7550
     status: developed
   ros2_kortex:
     doc:
@@ -6369,7 +6384,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: a939f27f6323ba1117edaafcdc498fc982743d4f
+      version: e7879325f075c9d6749a4324618691933727574c
     status: maintained
   rqt_common_plugins:
     doc:
@@ -6440,7 +6455,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_graph.git
-      version: c7f00a91666d5da2629bb2cdaad1df0767041409
+      version: a5a903c6f080b976b10dc5e32b21945f9ce1db2b
     status: maintained
   rqt_image_overlay:
     doc:
@@ -7707,7 +7722,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: aa70951adb70143c3f47878ab4df4efdb5d8026c
+      version: cc4e3ba3c7979b1450daa07bc27e5491a2e11615
     status: developed
   ur_msgs:
     doc:
@@ -7744,7 +7759,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 585e29f5227ad7fe1c49574ca0586f6a862c248a
+      version: 92d0202e2fd0ee1a9fdf031cc2940e0dc1da2ad8
     status: developed
   urdf:
     doc:
@@ -8053,7 +8068,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 6591281177ac8369c8f0a824b2bcdf6a46e43a04
+      version: f1df5cbd607273235435b940e6f32cefd487134f
     status: maintained
   vitis_common:
     doc:
