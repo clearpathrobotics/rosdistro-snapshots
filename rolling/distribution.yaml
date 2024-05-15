@@ -351,7 +351,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.4.1-1
+      version: 3.4.2-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
@@ -431,6 +431,25 @@ repositories:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
       version: 146e9124c8afca37adae2f5264e7de31c52dd98c
+    status: maintained
+  aruco_ros:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/aruco_ros.git
+      version: humble-devel
+    release:
+      packages:
+      - aruco
+      - aruco_msgs
+      - aruco_ros
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/pal-gbp/aruco_ros-release.git
+      version: 5.0.5-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/aruco_ros.git
+      version: 2eba69e025bb1a7a858792d097270a9f959ab095
     status: maintained
   astuff_sensor_msgs:
     doc:
@@ -893,7 +912,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: 913687132d45b85ec55dbacec729277cf6d8fa14
+      version: 0e0450bc8ccd90c885b3a4aba703b7546790c871
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1090,7 +1109,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: e319448b9821b7fcdb5af0e07f762f61307500d7
+      version: 7efb71ad5118f6b7d57d32d8e6b93ce4aa53e41e
     status: maintained
   dolly:
     doc:
@@ -1470,7 +1489,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 75b2be7d6ee208e635a3451c46dc075e5d1c97e3
+      version: f889eee5880f521931214a1f8aa11efcd003b421
     status: maintained
   fastrtps:
     doc:
@@ -1543,11 +1562,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-12
+      version: 2.0.0-13
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 446888b961e6e6d9e0d53c47f5fd3c319c300e99
+      version: 770f13fa78cf04a470499ced6922365c46997890
     status: developed
   filters:
     doc:
@@ -1689,7 +1708,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: e773b927056cd53f35a13a7113891ace203a5e9c
+      version: 0b6c5886555b9b5dfcc19d2560012e00073b2559
     status: developed
   foxglove_msgs:
     doc:
@@ -1865,7 +1884,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 24643fce510d8cc836fe6e5277a1d3f86a21af04
+      version: a17a2bf8297052d2c6a404f9799bfe3b81040482
     status: maintained
   geometry_tutorials:
     doc:
@@ -2204,11 +2223,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 1.2.2-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 320e4d97d75de4a3e5b489849bc20658b84c1a17
+      version: 21b0914026b7846d18b434431dff91b291f44490
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2353,7 +2372,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: ecfb04baaf7470710d1b7edfa6947b036e17aed0
+      version: ca4b94d3d608e538a3959f056f0fb2672edbba49
     status: developed
   iceoryx:
     release:
@@ -2956,7 +2975,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_vendor.git
-      version: fc63c6a4bd179340bc98f8f2efd90b1bb3197b2d
+      version: a88c9decabcdd3ea7343ab04296f2e27e9f32b49
     status: developed
   libg2o:
     release:
@@ -3365,11 +3384,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 8023af503a222376f47d506c26f5ceea1ba3144c
+      version: bc7d465f159826498546f4ccd870f3513307865e
     status: developed
   mola_common:
     doc:
@@ -3666,7 +3685,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: c2c98f1aef72633bd504769db9a73d992e74ed04
+      version: b8814883388b51919f8369e5f45c0f1dbf7c8276
     status: developed
   nao_button_sim:
     doc:
@@ -4448,7 +4467,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 4.1.0-1
+      version: 5.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -4558,7 +4577,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 38a711ab403ab3c597a49ca76114b609cabca394
+      version: e20e4411a5e52ee324a69b8809b3bc7e4889b26f
     status: developed
   py_trees:
     doc:
@@ -5660,11 +5679,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.10.0-1
+      version: 4.11.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: e2600490481092ba2709c5ac9cb1b36b1032a4bc
+      version: 62b32afef6df68f05430f0e89b385473114dd786
     status: developed
   ros2_controllers:
     doc:
@@ -5697,11 +5716,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.7.0-1
+      version: 4.8.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 30d52bd6cc9d439b471fcb31490fdff87c7a7550
+      version: 4008030db301c48d3a03f83434f48800981fbf9f
     status: developed
   ros2_kortex:
     doc:
@@ -5737,7 +5756,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
-      version: 0.5.1-3
+      version: 0.5.1-4
     source:
       test_pull_requests: true
       type: git
@@ -7722,7 +7741,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: cc4e3ba3c7979b1450daa07bc27e5491a2e11615
+      version: 462f38347da9d963fc4bf7c32bef5922ebbf76fe
     status: developed
   ur_msgs:
     doc:
@@ -8068,7 +8087,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: f1df5cbd607273235435b940e6f32cefd487134f
+      version: 7ece4ea25a45fdccf66fed0c893375e8db2a5bed
     status: maintained
   vitis_common:
     doc:

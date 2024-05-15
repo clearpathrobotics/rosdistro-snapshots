@@ -569,6 +569,16 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: 287eb59cefdc375cfd45bfa1431a840163e8199a
     status: developed
+  beluga:
+    doc:
+      type: git
+      url: https://github.com/Ekumen-OS/beluga.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/Ekumen-OS/beluga.git
+      version: 71d3f0cae0588ce2fed1beb847999bf08e2fcf69
+    status: developed
   bond_core:
     doc:
       type: git
@@ -2910,11 +2920,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/Fields2Cover/fields2cover-release.git
-      version: 2.0.0-2
+      version: 2.0.0-3
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 446888b961e6e6d9e0d53c47f5fd3c319c300e99
+      version: 770f13fa78cf04a470499ced6922365c46997890
     status: developed
   fields2cover_ros:
     doc:
@@ -3132,7 +3142,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: e773b927056cd53f35a13a7113891ace203a5e9c
+      version: 0b6c5886555b9b5dfcc19d2560012e00073b2559
     status: developed
   foxglove_msgs:
     doc:
@@ -3928,7 +3938,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: ecfb04baaf7470710d1b7edfa6947b036e17aed0
+      version: ca4b94d3d608e538a3959f056f0fb2672edbba49
     status: maintained
   hri_actions_msgs:
     release:
@@ -4726,7 +4736,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: a5f828e58a5a7e4b453c86c6817977c60a9d4a45
+      version: ff5872f1778afcf5425e7c988fe8d2b35994b740
     status: developed
   jsk_roseus:
     doc:
@@ -6460,7 +6470,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: c2c98f1aef72633bd504769db9a73d992e74ed04
+      version: b8814883388b51919f8369e5f45c0f1dbf7c8276
     status: developed
   nao_meshes:
     release:
@@ -10989,7 +10999,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
-      version: 8d5e0933bc363f8cbbe739800031f926e705df0a
+      version: master
     status: maintained
   sbg_driver:
     doc:
@@ -12696,7 +12706,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: f1df5cbd607273235435b940e6f32cefd487134f
+      version: 7ece4ea25a45fdccf66fed0c893375e8db2a5bed
     status: maintained
   visp_ros:
     doc:
