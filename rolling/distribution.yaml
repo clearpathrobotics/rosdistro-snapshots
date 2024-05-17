@@ -1071,7 +1071,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: aa8df8904b864d063e31fd5b953ffe561c7a9fe0
+      version: 4a18995bb7ef52ff40c7892005dca3a68d64fff0
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1228,7 +1228,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: a476840a9e19037e8e5981a81828ea75142043dd
+      version: 2bb37a3b6ea5e58ff8d875364434634e5154970f
     status: developed
   ecl_core:
     doc:
@@ -1476,7 +1476,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: 05aa97e547fd7f18c53e9936d78a6380819eb843
+      version: 7e47aee77b7558d7d587c980cf874cbf6b2c451b
     status: maintained
   fastcdr:
     release:
@@ -1506,7 +1506,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: cee0599506bb92c0728670b8fb4b99b0ca375e50
+      version: e891cd1b8cba42e2d0f55dfcb1e5899610e2048a
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -2372,7 +2372,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 51dc275871fa85f088cc3c13a78e247dac074c49
+      version: 6d4af7000e2df327d5bd2d78a5752475c25de668
     status: developed
   iceoryx:
     release:
@@ -2435,7 +2435,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 74d9e8edb02eaf13771ee4d12a558d68279cbf44
+      version: fd51363e2b8f8cd99e9a77970c1d49eb86c1480f
     status: maintained
   image_pipeline:
     doc:
@@ -3209,7 +3209,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 48b53ccdf95f10b2ab3366c6e061fad2a76bd6c8
+      version: 072df7eeec7ba21ca28743719f752e5478f64e32
     status: developed
   menge_vendor:
     doc:
@@ -3320,7 +3320,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 4.2.0-1
+      version: 4.3.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3388,7 +3388,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: bc7d465f159826498546f4ccd870f3513307865e
+      version: b2337530440bb7461d563fd6523e53125cfc84d2
     status: developed
   mola_common:
     doc:
@@ -3418,7 +3418,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: 326b4d48698c3d9ce1cc8b5bb47959f11cb6fa63
+      version: 1c855ad8f48023fd4ed9454b41c8e64f4665ba43
     status: developed
   motion_capture_tracking:
     doc:
@@ -3493,7 +3493,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 358ec63d9a8fee3d2e29ee37413029ff4eff3426
+      version: 6454a073d27c4eeb23d4f748364b22f5b072cf92
     status: developed
   moveit_msgs:
     doc:
@@ -3561,7 +3561,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 7808db924da9257b479c2b304e9f15f4f8ca5f25
+      version: d909afb65f43fd634a4a26253943d416ac3d6e38
     status: developed
   mqtt_client:
     doc:
@@ -4203,11 +4203,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.1.5-2
+      version: 2.2.4-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
-      version: 1b0436abb14292ca434e62bddfbed57e185cccfb
+      version: ec6f9b5562a71bcccaccb930eb9b8e8ef3bfed7c
     status: maintained
   pangolin:
     release:
@@ -4494,7 +4494,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: da4d119acec859e18ea13ae8f694cd11fdaba633
+      version: 46f3d22f3d5660529f4372aeed3fbcb41852a911
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -5241,7 +5241,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 0687b452084a0dae526b8df211c9a0ac5ef07868
+      version: f230e69870996cdd01ad335a361a77fcc84b687c
     status: developed
   rmf_internal_msgs:
     doc:
@@ -6625,7 +6625,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_robot_monitor-release.git
-      version: 1.0.5-3
+      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_monitor.git
@@ -7778,7 +7778,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 92d0202e2fd0ee1a9fdf031cc2940e0dc1da2ad8
+      version: 8d779246876294b18e3a3dd9626bdfa0f990ebdb
     status: developed
   urdf:
     doc:
