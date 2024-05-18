@@ -1014,7 +1014,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: 843ae6d099f70bdeb7c5dd3f4f2cc3897d9614d2
+      version: 454df330c7bc213729ccf714c20807b22d02f007
     status: maintained
   data_tamer:
     doc:
@@ -1228,7 +1228,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 2bb37a3b6ea5e58ff8d875364434634e5154970f
+      version: 526ef8ac236198f801bbcb24296fb67aa883ff7b
     status: developed
   ecl_core:
     doc:
@@ -1506,7 +1506,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: e891cd1b8cba42e2d0f55dfcb1e5899610e2048a
+      version: a75ccefbf2cacb21ffe297715a85a012aa991d0e
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1566,7 +1566,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 770f13fa78cf04a470499ced6922365c46997890
+      version: fc35541c0d3b4222ef1ec86507a608e2682ebe7b
     status: developed
   filters:
     doc:
@@ -1780,24 +1780,6 @@ repositories:
       url: https://github.com/ros-sports/game_controller_spl.git
       version: 5ac458f30c951ad61281b20c5b75e5941a7a277b
     status: developed
-  gazebo_ros2_control:
-    doc:
-      type: git
-      url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: master
-    release:
-      packages:
-      - gazebo_ros2_control
-      - gazebo_ros2_control_demos
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
-      version: 0.7.1-2
-    source:
-      type: git
-      url: https://github.com/ros-simulation/gazebo_ros2_control.git
-      version: 03184328d9401452bf737c6c3c9151696c76763a
-    status: developed
   generate_parameter_library:
     doc:
       type: git
@@ -1884,7 +1866,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 381d381739d008f83c2ebdf39034d46a19ea364e
+      version: dd30056f5fb118bf31427cea06a607cee8bacecc
     status: maintained
   geometry_tutorials:
     doc:
@@ -2435,7 +2417,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: fd51363e2b8f8cd99e9a77970c1d49eb86c1480f
+      version: d909f9bfb702be5cf7fbf6dc69379de649ed0fd8
     status: maintained
   image_pipeline:
     doc:
@@ -2461,7 +2443,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 794f2eec7da4698352b230e23d1193a28f74ed00
+      version: a8cd84027d23d3bd21c506f2538b7a4d29e4ba6f
     status: maintained
   image_transport_plugins:
     doc:
@@ -3418,7 +3400,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: 1c855ad8f48023fd4ed9454b41c8e64f4665ba43
+      version: 5627eaf9077f426fe881d22189ca8014c33652e9
     status: developed
   motion_capture_tracking:
     doc:
@@ -3561,7 +3543,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: d909afb65f43fd634a4a26253943d416ac3d6e38
+      version: 81f8a4b1f757614f5c1175057d716bd10e50401b
     status: developed
   mqtt_client:
     doc:
@@ -3594,7 +3576,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 6f997ee11ac78279fa438c13c80d7e20320deb70
+      version: 95126876ec4d6a48d6818d442952152cc22c6c2f
     status: developed
   mrpt_msgs:
     doc:
@@ -5291,7 +5273,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 5e58af95b399724eb5ab58fdc27a64f6e26372b3
+      version: 77c9f754e98f46462a0a4e47bb86f87cb48b002b
     status: developed
   rmf_simulation:
     doc:
@@ -5573,7 +5555,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: c76c9627ca8cf8c133124368f2f1ad06092b7027
+      version: a8680fbcf51bded8c0612237150461dbe892a1b5
     status: developed
   robot_calibration:
     doc:
@@ -6996,7 +6978,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git
-      version: b4faa76a36d02e073dae3c3f1ceb9e9f9c9925c3
+      version: 6c6099c012b166b5cb21ee17163a9cc4f0743c53
     status: maintained
   smach:
     doc:
@@ -7778,7 +7760,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 8d779246876294b18e3a3dd9626bdfa0f990ebdb
+      version: f5b9bd4ec3d2fb5c27389d38dc5f6aeeb910c735
     status: developed
   urdf:
     doc:
