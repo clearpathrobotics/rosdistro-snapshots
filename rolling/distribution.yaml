@@ -355,7 +355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 12cf56b93d8f1f95e528246c8000c36881fb43fb
+      version: 21be60d7cd4edf5e316894601233b44f4196bd2f
     status: maintained
   apriltag_detector:
     doc:
@@ -690,11 +690,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.6.0-1
+      version: 4.6.1-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 287eb59cefdc375cfd45bfa1431a840163e8199a
+      version: 1aa02f2a8fee5c37cfc9b13aee1e15bd3062ff09
     status: developed
   bno055:
     doc:
@@ -1506,7 +1506,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: a75ccefbf2cacb21ffe297715a85a012aa991d0e
+      version: 0cfbf33b8060c249214e141162a386cd1c5ed7df
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1623,7 +1623,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/flir_camera_driver-release.git
-      version: 2.0.16-1
+      version: 2.0.17-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
@@ -2650,11 +2650,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kinematics_interface-release.git
-      version: 1.0.0-2
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 24174a48b4bb0af340a32d5532e9c55ca27e6c63
+      version: e1783223068a309fa3962df6d80ac1a7882ccaea
     status: developed
   kobuki_core:
     doc:
@@ -2954,6 +2954,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/libcaer_vendor.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/libcaer_vendor-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_vendor.git
@@ -3222,7 +3227,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: bf21666eb8edc51d31ac1d20df3db050d15a3117
+      version: 71fd32b4b375f59ae59a7c7c4d3faab33d0105b2
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3396,7 +3401,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_test_datasets-release.git
-      version: 0.3.2-1
+      version: 0.3.3-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
@@ -3539,7 +3544,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.4.0-1
+      version: 1.4.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3572,7 +3577,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.12.2-1
+      version: 2.13.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -3628,16 +3633,17 @@ repositories:
       - mrpt_generic_sensor
       - mrpt_sensor_bumblebee_stereo
       - mrpt_sensor_gnns_nmea
+      - mrpt_sensor_imu_taobotics
       - mrpt_sensorlib
       - mrpt_sensors
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_sensors-release.git
-      version: 0.1.0-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 12656a16a3f64ded7a4879cf0a511467f92c51ea
+      version: 2e459d7f3eb4c10b65014c13f1c07b154112ba0a
     status: developed
   mrt_cmake_modules:
     doc:
@@ -4200,7 +4206,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: a29c8a4ba6a52f0e0371b407dcf9f15503a80fb2
+      version: 9d8fef79f8fec2f1d9bbd499de70dd72f4de2608
     status: maintained
   pcl_msgs:
     release:
@@ -5439,7 +5445,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: 222b7c9a97789aed2d29ac63295a3fe493d5a72c
+      version: 22f59f8931944999864ef3b0d7aa75ab7258f028
     status: maintained
   rmw_connextdds:
     doc:
@@ -7756,7 +7762,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.4.4-1
+      version: 2.4.5-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
@@ -8096,7 +8102,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vrpn-release.git
-      version: 7.35.0-15
+      version: 7.35.0-20
     source:
       test_commits: false
       test_pull_requests: false
