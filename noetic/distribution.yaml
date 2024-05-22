@@ -550,7 +550,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: db25cfbd9ceeda0a55aca52dd2f3c4ef2725a30b
+      version: b95135bfb3d9b6729db0c79044dcbad937e82ada
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -567,17 +567,26 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 1aa02f2a8fee5c37cfc9b13aee1e15bd3062ff09
+      version: 980db2dbb7bc31a36892a2c741927c82b82568b7
     status: developed
   beluga:
     doc:
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
       version: main
+    release:
+      packages:
+      - beluga
+      - beluga_amcl
+      - beluga_ros
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros2-gbp/beluga-release.git
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
-      version: bda970b9af7deb8718803dd16a37ef1af6bb0c21
+      version: f5d3632fb40a2cbc6b1a285271fc87685cc000cc
     status: developed
   bond_core:
     doc:
@@ -685,7 +694,7 @@ repositories:
     source:
       type: git
       url: https://github.com/up2metric/cam2lidar.git
-      version: 1cd2cd7e503ee651268ce9218b8ef62ed5c1c29f
+      version: 26f05b0e333184a4bd86fb91c3753b8d00e61095
     status: maintained
   camera_aravis:
     doc:
@@ -3142,7 +3151,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 0b6c5886555b9b5dfcc19d2560012e00073b2559
+      version: 15df09892cc2cbea0dd6efc8c53e4f01e0881511
     status: developed
   foxglove_msgs:
     doc:
@@ -8534,7 +8543,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: ac3af4c6cd7fe23b2a330249b66e8877be47ecb5
+      version: 3ff6918b1ff744eef37e48751187e4c81d1be79b
     status: developed
   qt_gui_core:
     doc:
@@ -9095,12 +9104,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_controllers-release.git
-      version: 0.7.0-1
+      version: 0.7.1-4
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/fetchrobotics/robot_controllers.git
-      version: 938b67673a31d0a495d016e4a31c75263258092f
+      version: acd6cae5ff9fe1cc5eb84aaf25a498bfaa36124b
     status: maintained
   robot_localization:
     doc:
@@ -10892,12 +10901,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.14.24-1
+      version: 1.14.25-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rviz.git
-      version: 2db2c5394a4f1fcf5fecfb8d0952d4f913c04aee
+      version: d1cea53992eac45a1a13835028446008aa3540df
     status: maintained
   rviz_animated_view_controller:
     doc:
@@ -11174,12 +11183,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver-release.git
-      version: 1.3.2-1
+      version: 1.4.0-4
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: d09c6761d3c24b89bee742f38716521df3f50bab
+      version: 18473c67303589c2654401ef4c4a0ee3825ef635
     status: maintained
   serial:
     doc:
@@ -12706,7 +12715,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 7ece4ea25a45fdccf66fed0c893375e8db2a5bed
+      version: 4141c66db38b84cfe2b9747c833f46f55438ff61
     status: maintained
   visp_ros:
     doc:

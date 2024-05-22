@@ -677,7 +677,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: db25cfbd9ceeda0a55aca52dd2f3c4ef2725a30b
+      version: b95135bfb3d9b6729db0c79044dcbad937e82ada
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -694,7 +694,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 1aa02f2a8fee5c37cfc9b13aee1e15bd3062ff09
+      version: 980db2dbb7bc31a36892a2c741927c82b82568b7
     status: developed
   bno055:
     doc:
@@ -1228,7 +1228,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 526ef8ac236198f801bbcb24296fb67aa883ff7b
+      version: 0bdb60ceef2d0621791ae4950002df50e8430fe5
     status: developed
   ecl_core:
     doc:
@@ -1506,7 +1506,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 0cfbf33b8060c249214e141162a386cd1c5ed7df
+      version: 56c6602525b6a54dc5e816e09c148bab523033b7
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1607,7 +1607,7 @@ repositories:
     source:
       type: git
       url: https://github.com/flexbe/flexbe_behavior_engine.git
-      version: e88c23926a2cb134fda0e7865a034cc41c211068
+      version: cad6edfb4a91c272f90a0198362e453434642bdc
     status: developed
   flir_camera_driver:
     doc:
@@ -1708,7 +1708,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 0b6c5886555b9b5dfcc19d2560012e00073b2559
+      version: 15df09892cc2cbea0dd6efc8c53e4f01e0881511
     status: developed
   foxglove_msgs:
     doc:
@@ -2964,6 +2964,17 @@ repositories:
       url: https://github.com/ros-event-camera/libcaer_vendor.git
       version: 3ccc18e6b1c5f2c91b372461e6137e6d1001fc9c
     status: developed
+  libcamera:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/libcamera-release.git
+      version: 0.3.0-2
+    source:
+      type: git
+      url: https://git.libcamera.org/libcamera/libcamera.git
+      version: aee16c06913422a0ac84ee3217f87a9795e3c2d9
+    status: maintained
   libg2o:
     release:
       tags:
@@ -3227,7 +3238,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 71fd32b4b375f59ae59a7c7c4d3faab33d0105b2
+      version: ab0f734b256ef4fab79324378b8e653405824e35
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -5809,7 +5820,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: c0e59c442e61f6c638f06a48a00ecf10913442fb
+      version: 7e8d42e3816dc9f7dc268109a2bb9cc66cc4d4ee
     status: developed
   ros2acceleration:
     doc:
@@ -6054,7 +6065,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 5a06430cac7e823e5b5522a67ce7bd3b325e516f
+      version: e01e1efe57c4f226eed21e2eefb0b459fd3bd0b8
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6904,7 +6915,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: 9bf12569be820492f35a178cf80f6222c7b0e236
+      version: ros2
     status: maintained
   sick_safevisionary_base:
     doc:
@@ -8075,7 +8086,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 7ece4ea25a45fdccf66fed0c893375e8db2a5bed
+      version: 4141c66db38b84cfe2b9747c833f46f55438ff61
     status: maintained
   vitis_common:
     doc:
