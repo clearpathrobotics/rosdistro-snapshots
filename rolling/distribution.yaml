@@ -820,7 +820,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ngmor/catch_ros2.git
-      version: 0893276b3f42efeca6d9259c4d0501a392c46f69
+      version: 5130950de1bf0ed41cbcea925b316e0e681daa77
     status: maintained
   class_loader:
     doc:
@@ -1506,7 +1506,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: d8ec40ec879d9e0dc6c205ae84aa11294496312f
+      version: fc576e4894a585103df3d14444806eb4ff6f51a1
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1723,7 +1723,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: a4b0b3592c8ecf10dbb273c7ee51c2b8211df873
+      version: 7658786f354af2fab053b7151b364dd751c0c0f9
     status: maintained
   fuse:
     doc:
@@ -3491,7 +3491,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: c72ac1bfc4fad1288bc0e5361c16edaaf8b90a01
+      version: bee0a2985bdf5e5c9ba67c0e2e0d74c6a8840c63
     status: developed
   moveit_msgs:
     doc:
@@ -3592,7 +3592,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: d52329b74b5d407655474577e23a6cc27961d60b
+      version: 57b0848dda11a6685f4e9cce49946551d396ce7b
     status: developed
   mrpt_msgs:
     doc:
@@ -3654,7 +3654,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 2e459d7f3eb4c10b65014c13f1c07b154112ba0a
+      version: 521e4e37aa6a0e5047ace36cd2d24bf889063a00
     status: developed
   mrt_cmake_modules:
     doc:
@@ -3684,7 +3684,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: b8814883388b51919f8369e5f45c0f1dbf7c8276
+      version: 7dbc2de654e8abe0694901735bf69d018ae492c5
     status: developed
   nao_button_sim:
     doc:
@@ -4051,6 +4051,16 @@ repositories:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
       version: 1.5.2-4
+  openeb_vendor:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/openeb_vendor.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/openeb_vendor.git
+      version: 3c36396dc979c0bee769a6222cd93e6039e788f9
+    status: developed
   openni2_camera:
     doc:
       type: git
@@ -5012,7 +5022,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 343b29b617b163ad72b9fe3f6441dd4ed3d3af09
+      version: 22df1d593a3e77917db8a7d7b20f57aee80d7e55
     status: maintained
   rclpy:
     doc:
@@ -5028,7 +5038,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 99f1ce933ddd1677fda8fa602af3684b93f814eb
+      version: 786c4647f7eefb0038f4a4534f77f7d1d36f06dd
     status: maintained
   rcpputils:
     doc:
@@ -5572,7 +5582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: a8680fbcf51bded8c0612237150461dbe892a1b5
+      version: 93ba28e0959940200ebbd0066d3433a426088ef2
     status: developed
   robot_calibration:
     doc:
@@ -5682,7 +5692,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 6ae39507231ea111974c6a3362dc1e652524e857
+      version: 9f1007b0bffc13f7eb2e755369dd24302d2db7d1
     status: developed
   ros2_controllers:
     doc:
@@ -6906,16 +6916,17 @@ repositories:
     doc:
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: ros2
+      version: master
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
+      version: 1.4.0-4
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: ros2
+      version: 18473c67303589c2654401ef4c4a0ee3825ef635
     status: maintained
   sick_safevisionary_base:
     doc:
@@ -7144,7 +7155,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: fb22661623426fadcc60804e10a964664330d98e
+      version: bbccb6a25dd34eb6266b0c689870a2a24c41fa67
     status: developed
   stomp:
     doc:
@@ -7725,7 +7736,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 80aee077fe1b49879513e88e1d531df8372b7441
+      version: 1f20f0557462bd84d53646ff5d0b782863a58b43
     status: developed
   ur_description:
     doc:
@@ -7777,7 +7788,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 3f423ed18e6a6adc139b3395d23867b26a3f5632
+      version: 109861752f3deb8497c8e9bfbd7b0475f8f3f23a
     status: developed
   urdf:
     doc:
