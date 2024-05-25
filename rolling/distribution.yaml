@@ -1228,7 +1228,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 0bdb60ceef2d0621791ae4950002df50e8430fe5
+      version: 419a1d1a685866490d6125f6fcc4a95ea1bae0f9
     status: developed
   ecl_core:
     doc:
@@ -1506,7 +1506,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: fc576e4894a585103df3d14444806eb4ff6f51a1
+      version: 0a118ee178092f7eb840f64b110183770832da13
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -2011,7 +2011,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 0fee5cb76e7a04b590ff0dc1051950da5b265340
+      version: 42b27e4484e9deea43a87b648d40b1b1db2d86e4
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2354,7 +2354,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 6d4af7000e2df327d5bd2d78a5752475c25de668
+      version: 151e84b9e4cb87ada94dea2d76b2935fd540a8a0
     status: developed
   iceoryx:
     release:
@@ -2412,12 +2412,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 5.2.0-1
+      version: 5.2.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: d909f9bfb702be5cf7fbf6dc69379de649ed0fd8
+      version: 59e2fa0c6044672a21661aecdc7984d6b8ca913d
     status: maintained
   image_pipeline:
     doc:
@@ -3491,7 +3491,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: bee0a2985bdf5e5c9ba67c0e2e0d74c6a8840c63
+      version: 82ef3fc8dbf6770f309557924634ce0bc4ea6af8
     status: developed
   moveit_msgs:
     doc:
@@ -3592,7 +3592,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 57b0848dda11a6685f4e9cce49946551d396ce7b
+      version: c18a52d2898c98756314ecc4f757747ce0061f19
     status: developed
   mrpt_msgs:
     doc:
@@ -3628,11 +3628,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_path_planning-release.git
-      version: 0.1.2-1
+      version: 0.1.3-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 88b9f0737240a4c70cce135962eb365490bf3656
+      version: 0c64b339b4e9f7fcb5f11ab3c15839d656a467b2
     status: developed
   mrpt_sensors:
     doc:
@@ -4498,12 +4498,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport_plugins-release.git
-      version: 3.0.3-2
+      version: 5.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: 46f3d22f3d5660529f4372aeed3fbcb41852a911
+      version: 82ea633a09f242124e960d16e7354e7e0e37eba0
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -5111,7 +5111,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: d89ddafadcf87350dfd670b5113a3e4c1577a353
+      version: 203c4bffd02cec053c17578aca0c7c17e4785676
   reach_ros:
     source:
       type: git
@@ -5582,7 +5582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 93ba28e0959940200ebbd0066d3433a426088ef2
+      version: 1ac6bd2ae1d3a9f741167bb2c771e42bea50229f
     status: developed
   robot_calibration:
     doc:
@@ -5751,7 +5751,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: cfb518085d6af6b17c1ed8bbbb372697d01b01c4
+      version: 33ec22cddfe9feed7642c8e18d0a00320a017926
     status: developed
   ros2_ouster_drivers:
     doc:
@@ -6843,7 +6843,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: e439c8f46609174ebf5caa35bb8e2cf13b3d510c
+      version: b2d4546abffea506dc571907028e4c2b208d9d23
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7155,7 +7155,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: bbccb6a25dd34eb6266b0c689870a2a24c41fa67
+      version: 2d8cb10829f81e56c6913bedfffc25c4bf7f475d
     status: developed
   stomp:
     doc:
