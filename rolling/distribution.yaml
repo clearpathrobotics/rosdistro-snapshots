@@ -1228,7 +1228,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 419a1d1a685866490d6125f6fcc4a95ea1bae0f9
+      version: 24e026360819a15014b9bd5bf407755419ce4fca
     status: developed
   ecl_core:
     doc:
@@ -1361,7 +1361,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: b6186cc99e40e2d8688a0b187edd3eb93f8c852d
+      version: f414fbe32df00dccd8bd4d39ea1dc6b0ba69cbc1
     status: maintained
   event_camera_codecs:
     doc:
@@ -1376,7 +1376,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: d75844dbd88c31c6bb8425ac84d16c96ad0cecc4
+      version: 5640c6d88010be32234a71d600aa1b49a6817ca8
     status: developed
   event_camera_msgs:
     doc:
@@ -1421,7 +1421,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
-      version: 8c03619de77cbfb059e6037aae80b2b14f8ccb27
+      version: f8dd43fdeaba1a13224ed58758b49283c92ea8d0
     status: developed
   example_interfaces:
     doc:
@@ -1506,7 +1506,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 689dd3f15588764d7d2fa37f4a060c5c63ee63dd
+      version: 8305478ada3c89f8dd8b9cb458092796e4c9c675
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1861,12 +1861,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.37.0-1
+      version: 0.37.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: d700d78611ca2f2a56128ee71dd157961a1f4fb4
+      version: ad72a82961e82470d2c9848840dd6e8eee44b127
     status: maintained
   geometry_tutorials:
     doc:
@@ -2037,11 +2037,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_common_vendor-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_common_vendor.git
-      version: c08378b3cfbb553a6742cc1b704d83e2cfb1356b
+      version: 8cfa7ed8eab4ad1fe416c8aade33cee7c3ef1812
     status: maintained
   gz_dartsim_vendor:
     doc:
@@ -2071,7 +2071,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_fuel_tools_vendor.git
-      version: 44475dffcab7b69adf051839f6404ee626ed006c
+      version: c3d5fc4b761e3fc8269ee7363b0d4c19d9f4c9fe
     status: maintained
   gz_gui_vendor:
     doc:
@@ -2127,11 +2127,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_msgs_vendor-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_msgs_vendor.git
-      version: d1d192130ac5f81d29e8f25445dc9f9a79b2abf3
+      version: 307f0c2aef99bb906942b4c0e817afc8e8a5898a
     status: maintained
   gz_ogre_next_vendor:
     doc:
@@ -2220,11 +2220,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_sensors_vendor-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_sensors_vendor.git
-      version: 65e851b25c433459fe235098e50dce2a100f0431
+      version: 63afe7987d87b1c609120855771a0f83bada9c5d
     status: maintained
   gz_sim_vendor:
     doc:
@@ -2443,7 +2443,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 78d80f77b75bb80feb29484ed8fc6791a4c1deb9
+      version: 847920b8ee0d0ed6937d029d80799a061e307ab8
     status: maintained
   image_transport_plugins:
     doc:
@@ -2795,7 +2795,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: eea42eb2948a7ba9d893b50a9dc7a0006d4be632
+      version: dc51768d29bb9dd2d1523ed63bdc8b50f7a4c996
     status: developed
   launch_param_builder:
     doc:
@@ -3577,7 +3577,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: f9598deb27d18db2ab1ad03e5e830668af06da17
+      version: f53753047f96b68432043d00d71bd02d35c1e2e6
     status: maintained
   mrpt2:
     doc:
@@ -4401,7 +4401,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 414f54f188876531bd2b79d180276c8b08a65151
+      version: 379f61f8f89f0e250f7bb6a62fe4f332aabbbc1d
     status: developed
   plotjuggler:
     doc:
@@ -4601,7 +4601,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 627720d9f249c4da890d0a44acdd03724d83c849
+      version: 7c4da9c7b23b137496ad3d1641e3b6b28f0ec489
     status: developed
   py_binding_tools:
     release:
@@ -5048,7 +5048,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 22df1d593a3e77917db8a7d7b20f57aee80d7e55
+      version: 3bc364a10bd1bfe710307147174b37ef62562abd
     status: maintained
   rclpy:
     doc:
@@ -5276,7 +5276,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 05504d9d761306858409c1d9424e582f46b03489
+      version: 5ab6a3ddd8681da188610a5784bacf1b0eb3cf5f
     status: developed
   rmf_internal_msgs:
     doc:
@@ -5347,7 +5347,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: f71d2d3d2fcc50e10537b995fc91f256668360da
+      version: d9e55c6a95a7ed97dd282014921340f4c47953c9
     status: developed
   rmf_task:
     doc:
@@ -5402,7 +5402,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: e1d7a3e30e560931b9ae7d97f85b05af77b061a5
+      version: 19784b0985a60a7917eef1189102eb54dd58f16b
     status: developed
   rmf_utils:
     doc:
@@ -5417,7 +5417,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_utils.git
-      version: 5ed0f58fe7498e9b1b0ac9b9a6b4bb3030546109
+      version: f4a2ea619114b07e2a1b5e84de961d90edba1584
     status: developed
   rmf_variants:
     doc:
@@ -5608,7 +5608,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 1ac6bd2ae1d3a9f741167bb2c771e42bea50229f
+      version: 60b131ea969cc9711e08efd9e44e7fef6485d96e
     status: developed
   robot_calibration:
     doc:
@@ -6932,11 +6932,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_vendor-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/gazebo-release/sdformat_vendor.git
-      version: 05590c78f8eda3b2dd8e51b40390bced6aa9b41b
+      version: f24319bb40ae461d8dae19b28a6c334726a83b1e
     status: maintained
   septentrio_gnss_driver:
     doc:
@@ -7017,7 +7017,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: bd38093e9a539b27a24e97225e0316f8746b6053
+      version: 842b0ed714a63544a3b5340a9bdd48e09953c8ee
     status: maintained
   slider_publisher:
     doc:
@@ -7762,7 +7762,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 1f20f0557462bd84d53646ff5d0b782863a58b43
+      version: 97af030996c652b54965fa89402b4bd1e5de87ea
     status: developed
   ur_description:
     doc:
@@ -7814,7 +7814,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 109861752f3deb8497c8e9bfbd7b0475f8f3f23a
+      version: 1a9399dd0f57e97ce46eb934da179103389e1414
     status: developed
   urdf:
     doc:
