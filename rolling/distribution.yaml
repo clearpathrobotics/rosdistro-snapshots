@@ -408,11 +408,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_ros-release.git
-      version: 3.1.1-4
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
-      version: 6ec122f8d0bd4d32063119411d3ed4676740a262
+      version: 503e784cfa368a959278b0c73bd239cdb77cc23a
     status: developed
   aruco_opencv:
     doc:
@@ -562,6 +562,18 @@ repositories:
       url: https://github.com/autowarefoundation/autoware_cmake.git
       version: 890e31281d293b87933b1ad3c1d2846c88d77ffa
     status: developed
+  autoware_internal_msgs:
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_internal_msgs.git
+      version: f777a95baec3c624aa7b9af28749d4611bd15d8b
+    status: developed
+  autoware_lanelet2_extension:
+    source:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
+      version: 49192812c368721da4d87ee70981a319cfdfa58e
+    status: developed
   autoware_utils:
     release:
       tags:
@@ -677,7 +689,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: b95135bfb3d9b6729db0c79044dcbad937e82ada
+      version: 550ab6e58e3a85c754af6c315b8ceccebbce5b9a
     status: developed
   behaviortree_cpp_v4:
     doc:
@@ -694,7 +706,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: d8cd725236977cd219e9e35fe430fcd32e697fa6
+      version: a1f431c1d91a6f07b601af3165b0d71973c2558b
     status: developed
   bno055:
     doc:
@@ -1372,7 +1384,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_codecs-release.git
-      version: 1.0.4-2
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
@@ -1387,11 +1399,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_msgs-release.git
-      version: 1.0.5-2
+      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: 91d3376199a24a43bd4225da396f1c2a667268e8
+      version: a37d28d0bcb783a9f900e8f473254919fbf61699
     status: developed
   event_camera_py:
     doc:
@@ -1417,7 +1429,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_renderer-release.git
-      version: 1.0.3-2
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
@@ -1723,7 +1735,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 0c5b3c2f7525af1b3efc165a160afd69c50fe0fb
+      version: 446d4f0c7450c0b9fb1c5b3889c2ea640ee045e6
     status: maintained
   fuse:
     doc:
@@ -2011,7 +2023,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 42b27e4484e9deea43a87b648d40b1b1db2d86e4
+      version: 50021ed6d5eb0a0f21f5c44cb2ecbdf29f22430f
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2943,11 +2955,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcaer_driver-release.git
-      version: 1.0.0-2
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
-      version: 61ed5e1c4a694b191071c6ca6f2405965737643e
+      version: 5cb8c6ac4df73fe7c80e8038527f3017c78bc6ab
     status: developed
   libcaer_vendor:
     doc:
@@ -3577,7 +3589,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: f53753047f96b68432043d00d71bd02d35c1e2e6
+      version: 4016873a6b66f3b0ea158c7ff975a8adcb336466
     status: maintained
   mrpt2:
     doc:
@@ -4074,7 +4086,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
-      version: 3c36396dc979c0bee769a6222cd93e6039e788f9
+      version: a47bc894ca5e00e026cfe04b29affa789beaa07f
     status: developed
   openni2_camera:
     doc:
@@ -4242,7 +4254,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 9d8fef79f8fec2f1d9bbd499de70dd72f4de2608
+      version: 661500c4f5522057da3cb6c98a1a0e6479d2da59
     status: maintained
   pcl_msgs:
     release:
@@ -4401,7 +4413,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 379f61f8f89f0e250f7bb6a62fe4f332aabbbc1d
+      version: 2ecbc9b46b3e6fa83221cfffb6b82b58328eb2c8
     status: developed
   plotjuggler:
     doc:
@@ -5048,7 +5060,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 3bc364a10bd1bfe710307147174b37ef62562abd
+      version: d8d83a0ee67b7b6427defc802005c382b218459d
     status: maintained
   rclpy:
     doc:
@@ -5347,7 +5359,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: d9e55c6a95a7ed97dd282014921340f4c47953c9
+      version: 993d684f29e10e30b485b75bf2deb07407043953
     status: developed
   rmf_task:
     doc:
