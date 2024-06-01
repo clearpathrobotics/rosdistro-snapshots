@@ -408,11 +408,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_ros-release.git
-      version: 3.2.0-1
+      version: 3.2.1-1
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
-      version: 503e784cfa368a959278b0c73bd239cdb77cc23a
+      version: 8d8b3e25757c9f67849f2e8fbb2845582ec62e7d
     status: developed
   aruco_opencv:
     doc:
@@ -572,7 +572,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 49192812c368721da4d87ee70981a319cfdfa58e
+      version: f50f4ba228b4145bcf79787ba718c241bca8f76d
     status: developed
   autoware_utils:
     release:
@@ -2985,7 +2985,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: c79fa47aac9b38865dab5e9f29030903bf460c46
+      version: aad5837d70f8d3dc19f62f88f1434e3c9cf5ffbe
     status: maintained
   libg2o:
     release:
@@ -3037,7 +3037,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 784f746845459f77965b7cebc3096d3b09e2f9df
+      version: 575ec169d8a314e45a3ec7b3881dd4048a5a4a7b
     status: developed
   libyaml_vendor:
     release:
@@ -3313,7 +3313,7 @@ repositories:
     source:
       type: git
       url: https://github.com/micro-ROS/micro_ros_msgs.git
-      version: cefbf4883654083d195671971d3bf9a290e7917c
+      version: 4f1dbf42db9e35b22525e3d408730a450eeb4eea
     status: maintained
   microstrain_inertial:
     doc:
@@ -3503,7 +3503,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 82ef3fc8dbf6770f309557924634ce0bc4ea6af8
+      version: 672e0ecd48f471fe05057f81e6233272a692a156
     status: developed
   moveit_msgs:
     doc:
@@ -3585,7 +3585,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mqtt_client-release.git
-      version: 2.2.1-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -4254,7 +4254,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 661500c4f5522057da3cb6c98a1a0e6479d2da59
+      version: 3d892efd06d3f49cc23f7d3081136c86b016bd81
     status: maintained
   pcl_msgs:
     release:
@@ -4413,7 +4413,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 2ecbc9b46b3e6fa83221cfffb6b82b58328eb2c8
+      version: b54a1bf9deec016344a2d538448aaa0797d941e7
     status: developed
   plotjuggler:
     doc:
@@ -5076,7 +5076,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 786c4647f7eefb0038f4a4534f77f7d1d36f06dd
+      version: 547245a3fb7526662fbce9b0caffd7980d9d2791
     status: maintained
   rcpputils:
     doc:
@@ -5233,7 +5233,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_api_msgs.git
-      version: 38f2e8e0c42cf694ea115a8efd720183492e1bbb
+      version: 1a8df29cf064f7b20bf8318c27ccf9748227ac0c
     status: developed
   rmf_battery:
     doc:
@@ -5316,7 +5316,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: fd124ad6ab60647e12172b1597cbe8dbf9620f32
+      version: aff8a9eeba46009be40dc5fc842d26016abd631d
     status: developed
   rmf_ros2:
     doc:
@@ -5359,7 +5359,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: 993d684f29e10e30b485b75bf2deb07407043953
+      version: 697d12a51083096d63f433838ca37e112ea5c45e
     status: developed
   rmf_task:
     doc:
@@ -5414,7 +5414,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 19784b0985a60a7917eef1189102eb54dd58f16b
+      version: 34b38e1555751fa58c0a9ed8a8b899aeeb157f4f
     status: developed
   rmf_utils:
     doc:
@@ -6113,7 +6113,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: e01e1efe57c4f226eed21e2eefb0b459fd3bd0b8
+      version: ef66ee145cb4e74b4504d4806445cad8ad953390
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7530,7 +7530,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tracing/tracetools_analysis.git
-      version: 760dca9598a04a64b2e1aef0f8e419e8018c79d6
+      version: 943bf2011a779bd347175e8b321c38aa1ff5c1da
     status: developed
   transport_drivers:
     doc:
@@ -7826,7 +7826,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 1a9399dd0f57e97ce46eb934da179103389e1414
+      version: 9da8109ce1521dd99bc6696840c83ff2cfa449ed
     status: developed
   urdf:
     doc:
