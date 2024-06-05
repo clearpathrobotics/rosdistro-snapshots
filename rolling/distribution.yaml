@@ -430,7 +430,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: 146e9124c8afca37adae2f5264e7de31c52dd98c
+      version: 20e4681eab35626fe0126d416039848b9c387aec
     status: maintained
   aruco_ros:
     doc:
@@ -531,7 +531,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-      version: aa847c6f997ec8084c952c604abb5eac4ea82ecb
+      version: fe1ba2901fe019c7b023c6f2f17c6af7cb0551a4
     status: developed
   autoware_auto_msgs:
     doc:
@@ -560,7 +560,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_cmake.git
-      version: 890e31281d293b87933b1ad3c1d2846c88d77ffa
+      version: 54542fcbde14d3903430ca875308f0cfa106362d
     status: developed
   autoware_internal_msgs:
     release:
@@ -571,13 +571,13 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: f777a95baec3c624aa7b9af28749d4611bd15d8b
+      version: f37769d806fcdec7344da14efe1c6d64f0d7c8db
     status: developed
   autoware_lanelet2_extension:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: f50f4ba228b4145bcf79787ba718c241bca8f76d
+      version: 3d699757cc59eb7d35dc408dceb6c10692a64ce1
     status: developed
   autoware_utils:
     release:
@@ -588,7 +588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 451419ec58923b1a1035956f838afdb8d3cbc0d3
+      version: 7add7cefacf3f6c1d609b30ac10a2c3f7c36b8dc
     status: developed
   avt_vimba_camera:
     doc:
@@ -1579,11 +1579,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.0.0-13
+      version: 2.0.0-14
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 01f6e7d5431856629a1c3daccecf49cb990c4785
+      version: fb228d124d8b6547b17253bb6157ff6d21d0c528
     status: developed
   filters:
     doc:
@@ -1817,7 +1817,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: d50b4730ab9441705d7d53036638d5d3176e169b
+      version: 88e7f79a446c6922cc8023d6d99fe782479dd792
     status: developed
   geographic_info:
     doc:
@@ -2371,7 +2371,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 42fd3ec0235d2c521222d4afb29e246cb08fff05
+      version: f508ee7bcbdb5f9bc155459541320222184ff5bc
     status: developed
   iceoryx:
     release:
@@ -2455,7 +2455,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.0-1
+      version: 6.0.0-2
     source:
       test_pull_requests: true
       type: git
@@ -2990,7 +2990,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 6cd17515ffeb67fb38ffcc4d57aadf9732b54800
+      version: 98071d3109c131820439f61d9380c0bd4cd2119a
     status: maintained
   libg2o:
     release:
@@ -3094,7 +3094,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 10e69c799ac5f11cd2d4acfd07b728b1d03c331e
+      version: 173f22250c7831566b54d195810a677a694f717a
     status: maintained
   mapviz:
     doc:
@@ -3609,7 +3609,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: c18a52d2898c98756314ecc4f757747ce0061f19
+      version: de4da84b5fa66457df7ae1552cb0fa0965b9a959
     status: developed
   mrpt_msgs:
     doc:
@@ -4092,7 +4092,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/openeb_vendor-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
@@ -4423,7 +4423,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 1c2edde3c05001397b94150a2bf7fc9867495610
+      version: de0dcec50493846d9a5ed153eb9c2b7aaa69e8d0
     status: developed
   plotjuggler:
     doc:
@@ -4518,7 +4518,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 7ecf416ae6d3477c142f83a12be1a4c086ec0a96
+      version: 92a9aade328b465b187a559e65f5d415820660ec
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4623,7 +4623,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 2616630eb12f31cff657bbcf6dac7f4b3f683b91
+      version: 29e9505c0af75ecb839fce4eb6dd22156487555d
     status: developed
   py_binding_tools:
     release:
@@ -5070,7 +5070,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: d8d83a0ee67b7b6427defc802005c382b218459d
+      version: 7c096888caf92aa7557e1d3efc5448b56d8ce81c
     status: maintained
   rclpy:
     doc:
@@ -5086,7 +5086,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: ffcdae92d450cc54ef29ea8b7fa7a3467dce4416
+      version: 88ce194b723594ccfcb42aacc3bfc4c405bbde95
     status: maintained
   rcpputils:
     doc:
@@ -5153,7 +5153,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: ebb174d25600e5c103d656f7598bd2c9f935b7cb
+      version: 8f5d6bc3bb4fce7e3d19c18c906ceafe1c348ae7
     status: maintained
   reach:
     source:
@@ -5298,7 +5298,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 5ab6a3ddd8681da188610a5784bacf1b0eb3cf5f
+      version: 6870b41c27e0248792ba39167ea758fe0d0b42dd
     status: developed
   rmf_internal_msgs:
     doc:
@@ -5619,7 +5619,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: 6f8bc6bca69d948e8d7c31dabd5416b3e20d4090
+      version: 16e14d15e210672fbfe0beb1f57effbd8d1233b0
     status: developed
   rmw_zenoh:
     doc:
@@ -5629,7 +5629,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: e6864931cccfc9c504b4bbc3ae7899334e70fdae
+      version: 66ec842030fda0cd381835f8ed2577f331fb5729
     status: developed
   robot_calibration:
     doc:
@@ -6239,7 +6239,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_defaults.git
-      version: 7f6d49928a53f5a854b04aa6daec4d5bc970d0fc
+      version: bb2541ec5b2835ddfaaadccfc0b9544c0590cccb
     status: maintained
   rosidl_dynamic_typesupport:
     doc:
