@@ -649,7 +649,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 97ac6cc87fe92e3a4286feec41457a8e06468498
+      version: 8ebc30e97433975f78e7c3f82d2cd12d58675141
     status: maintained
   backward_ros:
     doc:
@@ -1523,7 +1523,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 43f39bda987a9ad64db0801188030cfd13407279
+      version: e6044e01172525295733737e574e69f74ff507ca
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1621,10 +1621,25 @@ repositories:
       type: git
       url: https://github.com/flexbe/flexbe_behavior_engine.git
       version: rolling
+    release:
+      packages:
+      - flexbe_behavior_engine
+      - flexbe_core
+      - flexbe_input
+      - flexbe_mirror
+      - flexbe_msgs
+      - flexbe_onboard
+      - flexbe_states
+      - flexbe_testing
+      - flexbe_widget
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/flexbe_behavior_engine-release.git
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/flexbe/flexbe_behavior_engine.git
-      version: cad6edfb4a91c272f90a0198362e453434642bdc
+      version: aec2d77f58d9a29d7356b18d43431c36e287550a
     status: developed
   flir_camera_driver:
     doc:
@@ -1883,7 +1898,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: ad72a82961e82470d2c9848840dd6e8eee44b127
+      version: 18ed7cdacf859ea446cf1d09024a97c01076f023
     status: maintained
   geometry_tutorials:
     doc:
@@ -2282,11 +2297,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_transport_vendor-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_transport_vendor.git
-      version: e30efaef076b90f47d89d8baaed9d8828a9ed5d5
+      version: c59310f2f177bbd4d1ab16d2d5ebcd9bf46f92c7
     status: maintained
   gz_utils_vendor:
     doc:
@@ -2434,7 +2449,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 59e2fa0c6044672a21661aecdc7984d6b8ca913d
+      version: 1dd7a60a8f98555b0a9870f32a39dd08d71d0179
     status: maintained
   image_pipeline:
     doc:
@@ -3224,7 +3239,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 072df7eeec7ba21ca28743719f752e5478f64e32
+      version: 5646ba4e7af87b153e6fd29657f524208632eb82
     status: developed
   menge_vendor:
     doc:
@@ -3255,7 +3270,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: d7ef6af8b2c5f773372b0ad3beab7033449e37e4
+      version: ac26507686ea8533504bb917128659951029759d
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3270,7 +3285,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
-      version: 8b8fec1e5eac4254c204de2ef5e52ddb24ee11d0
+      version: e7def70b6fa4cdaf34f32091da9622cd47a36ea9
     status: maintained
   metavision_driver:
     doc:
@@ -3508,7 +3523,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 672e0ecd48f471fe05057f81e6233272a692a156
+      version: 627d28229e314164d68dc6aed0deb896142e80a9
     status: developed
   moveit_msgs:
     doc:
@@ -3609,7 +3624,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 93496f7b542c0ad2cc0b5f0a32ba6836dccc7204
+      version: 4e8c4982d001595e3d85cc3cc02328876facefa4
     status: developed
   mrpt_msgs:
     doc:
@@ -4309,7 +4324,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 1b11ebd3b97bade5bdd70f9e17738d179f2c73de
+      version: e92d6756f33b1a01a0a3bcb0befc5971c8d0993d
     status: maintained
   performance_test:
     doc:
@@ -4423,7 +4438,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: de0dcec50493846d9a5ed153eb9c2b7aaa69e8d0
+      version: 3c4f3fd8dc38be6d381ceb8828d5b407af01d0fe
     status: developed
   plotjuggler:
     doc:
@@ -5367,7 +5382,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: 1ae8f1f5bf7aa7dd395f97f1b0239af05b5cd58e
+      version: b513df9b67910de36ea57be730fb4e175ad885bd
     status: developed
   rmf_task:
     doc:
@@ -5475,7 +5490,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
@@ -5629,7 +5644,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: dc1b047257da642aa4afc12f3499b1d1e69faedf
+      version: 1caf7f1c55e7f5f04c3511b19d172571e732f42e
     status: developed
   robot_calibration:
     doc:
@@ -5739,7 +5754,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 1ed61efcf82dd19e0946bb199a113429df96c507
+      version: d61abcdf593330839d698c32b3c7745f9515d06a
     status: developed
   ros2_controllers:
     doc:
@@ -6890,7 +6905,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 526f25105b4f679a4c09128558d94b678affd0fa
+      version: 7c097d00de11d9c7c8e34ffd8022cb5a011ca6f1
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7152,11 +7167,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sophus-release.git
-      version: 1.22.9100-1
+      version: 1.22.9102-2
     source:
       type: git
       url: https://github.com/clalancette/sophus.git
-      version: 57ebc5e122bf1e493dd8b603a5a671c295b0d4e9
+      version: ebc8b976ecc90ea7ef0d16b2fd8c71baa36df640
     status: maintained
   spdlog_vendor:
     release:
