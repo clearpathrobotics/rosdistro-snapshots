@@ -408,11 +408,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_ros-release.git
-      version: 3.2.1-1
+      version: 3.2.2-1
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
-      version: 8d8b3e25757c9f67849f2e8fbb2845582ec62e7d
+      version: fe69f5843736adea301ee10e630262ae7ca6b6ab
     status: developed
   aruco_opencv:
     doc:
@@ -1374,7 +1374,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 3.1.4-2
+      version: 3.6.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -1867,7 +1867,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
-      version: 256c46c9089bf606a0f21a96929782964820251b
+      version: b5c8d44160c454b906ad06804fae504033efe877
     status: maintained
   geometry2:
     doc:
@@ -2382,7 +2382,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.4.4-1
+      version: 2.4.4-2
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -3215,7 +3215,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2023.9.9-2
+      version: 2024.6.6-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -3235,11 +3235,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.6.0-2
+      version: 2.8.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 5646ba4e7af87b153e6fd29657f524208632eb82
+      version: b0da849a06eb1a215b9205b92b8cf39c6d7cf88f
     status: developed
   menge_vendor:
     doc:
@@ -3538,7 +3538,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
-      version: 0e203aaffd1f754ab3b31110eff0eaf26e1c3599
+      version: c713195687cc4afcd466062007cc97cb1736638e
     status: developed
   moveit_resources:
     doc:
@@ -3624,7 +3624,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 4e8c4982d001595e3d85cc3cc02328876facefa4
+      version: 16f42f6332543ea29bbf85fa04314dbf79c1aa09
     status: developed
   mrpt_msgs:
     doc:
@@ -3786,6 +3786,21 @@ repositories:
       url: https://github.com/ros-sports/nao_lola.git
       version: 8f1505475b7d5a548d467457bb6fd75e8d0a5e0a
     status: developed
+  nav2_minimal_turtlebot_simulation:
+    release:
+      packages:
+      - nav2_minimal_tb3_sim
+      - nav2_minimal_tb4_description
+      - nav2_minimal_tb4_sim
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation.git
+      version: 42185fac24063dff54d6bd1785111b7363e5dd7c
+    status: maintained
   navigation_msgs:
     doc:
       type: git
@@ -4279,7 +4294,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 3d892efd06d3f49cc23f7d3081136c86b016bd81
+      version: 13e4a1804cefe8ddfd22cdddfac183d5d2828859
     status: maintained
   pcl_msgs:
     release:
@@ -4438,7 +4453,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 3c4f3fd8dc38be6d381ceb8828d5b407af01d0fe
+      version: a53267e094e06b96f6aea6aad84d870c16dcbcf1
     status: developed
   plotjuggler:
     doc:
@@ -4634,7 +4649,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/proxsuite-release.git
-      version: 0.6.1-1
+      version: 0.6.5-1
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
@@ -4924,12 +4939,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_genicam_driver_ros2-release.git
-      version: 0.3.0-3
+      version: 0.3.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_genicam_driver_ros2.git
-      version: 5e7d5ca0bff28695ec06adb65e89492b513fba83
+      version: dae76f02a2ee1c5f59ac407c3c4539209e001d1c
     status: developed
   rc_reason_clients:
     doc:
@@ -5363,7 +5378,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 77c9f754e98f46462a0a4e47bb86f87cb48b002b
+      version: a5d411aeacd9c4a05223b590bfee351793c56384
     status: developed
   rmf_simulation:
     doc:
@@ -6137,7 +6152,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: ef66ee145cb4e74b4504d4806445cad8ad953390
+      version: 0f216c892d70726bcd2b1ea127953247e5e40656
     status: developed
   rosbag2_bag_v2:
     source:
