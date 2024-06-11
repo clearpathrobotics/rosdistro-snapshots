@@ -216,7 +216,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/fictionlab-gbp/aruco_opencv-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/fictionlab/aruco_opencv.git
@@ -2500,7 +2500,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/stack-of-tasks/eigenpy-ros-release.git
-      version: 3.1.4-5
+      version: 3.6.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
@@ -3773,7 +3773,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 50021ed6d5eb0a0f21f5c44cb2ecbdf29f22430f
+      version: aba056176e98b95c807fb37c107188110ec54be2
     status: developed
   haf_grasping:
     doc:
@@ -3947,11 +3947,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/humanoid-path-planner/hpp-fcl-ros-release.git
-      version: 2.4.0-1
+      version: 2.4.4-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: f508ee7bcbdb5f9bc155459541320222184ff5bc
+      version: 7154948d0ba5cf3a49c3bfb173ef81ff5f2079b3
     status: maintained
   hri_actions_msgs:
     release:
@@ -5355,7 +5355,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/locator_ros_bridge-release.git
-      version: 1.0.10-1
+      version: 1.0.11-2
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
@@ -5598,7 +5598,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2024.3.3-1
+      version: 2024.6.6-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5619,7 +5619,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.18.0-1
+      version: 1.19.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6314,7 +6314,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 2a680a35151a04c8aaf4a8e2b9e10f5416d308a4
+      version: 5921200c19bcd59452a9086626968131672c8974
     status: developed
   mrpt_msgs:
     doc:
@@ -7733,7 +7733,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a53267e094e06b96f6aea6aad84d870c16dcbcf1
+      version: d006653ee612ec6d604d28e27ceffe6e5822f5ef
     status: developed
   plotjuggler:
     doc:
@@ -8857,7 +8857,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach_ros.git
-      version: 95aff84d722fae8c1fa2ee752722a09ef532c6fb
+      version: 6168ec6834314869646875130b85460932889597
     status: developed
   realsense2_camera:
     doc:
@@ -9631,7 +9631,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git
-      version: 8694a573684d4ac4664efe1a00cdca83ec931b9c
+      version: 179503b754921e7cb35791dfcd854cd6c94937fa
     status: developed
   ros_inorbit_samples:
     release:
@@ -11899,7 +11899,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: d1ef3bc1fa108afcf101ea265f5426ca3efd02d9
+      version: a2750a9fe1db041a72c9dc9cd100b877bace7e83
     status: developed
   tf2_2d:
     release:
@@ -12719,7 +12719,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1efa2f4a71e6914b8daeca2bf2053fa21da3b673
+      version: 92b1ddcd646e136047afe0b8b4320d697b996903
     status: maintained
   visp_ros:
     doc:

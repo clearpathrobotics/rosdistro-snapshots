@@ -972,11 +972,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 5.1.0-1
+      version: 5.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: d89fa336c3ed26d4b7758b9e8e55e3ffee6d5fc7
+      version: c39c00f27c4d7cf7840deec318a17c78ba3da0ff
     status: maintained
   control_toolbox:
     doc:
@@ -1378,7 +1378,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: ca81cf1a86a20b0884993a6cd63ebac14404155c
+      version: e99f46158e797db898a4d4f7ff34af290a5af1de
     status: maintained
   event_camera_codecs:
     doc:
@@ -1523,7 +1523,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 7344e31e9b815a0acb2b93bf9d9bf90fc67afa11
+      version: 62235434434d7c2b0268d121b5111fedf4a963fb
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1863,7 +1863,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometric_shapes-release.git
-      version: 2.1.3-4
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -2043,7 +2043,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 50021ed6d5eb0a0f21f5c44cb2ecbdf29f22430f
+      version: aba056176e98b95c807fb37c107188110ec54be2
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2241,7 +2241,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 45035076408e6014cc911e8d4bc169572a25008c
+      version: cd0b002c49e71be459f4e9f0a063b97fed195b28
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2386,7 +2386,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: f508ee7bcbdb5f9bc155459541320222184ff5bc
+      version: 7154948d0ba5cf3a49c3bfb173ef81ff5f2079b3
     status: developed
   iceoryx:
     release:
@@ -2475,7 +2475,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: efb9005a5ca45f4ceb7563fc01d7e33d6f39214d
+      version: 9a4a42abb52be572cd01e417a104c1f5a9332cf3
     status: maintained
   image_transport_plugins:
     doc:
@@ -3005,7 +3005,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 48cb731d72e2bc54d3bf76eb35c6644fa2f924f2
+      version: f3caea0ff7e63b529c9464f911162aa457e9b858
     status: maintained
   libg2o:
     release:
@@ -3270,7 +3270,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: ac26507686ea8533504bb917128659951029759d
+      version: aea0e9ffcdeef43c1244a413a1f5ac2ffb78d082
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3534,7 +3534,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_msgs-release.git
-      version: 2.4.0-2
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -3624,7 +3624,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 2a680a35151a04c8aaf4a8e2b9e10f5416d308a4
+      version: 5921200c19bcd59452a9086626968131672c8974
     status: developed
   mrpt_msgs:
     doc:
@@ -4183,7 +4183,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ortools_vendor-release.git
-      version: 9.9.0-8
+      version: 9.9.0-9
   osqp_vendor:
     doc:
       type: git
@@ -4453,7 +4453,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a53267e094e06b96f6aea6aad84d870c16dcbcf1
+      version: d006653ee612ec6d604d28e27ceffe6e5822f5ef
     status: developed
   plotjuggler:
     doc:
@@ -5374,11 +5374,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.6.0-1
+      version: 2.7.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: a01fc2df430902774b448e1f0a216a2d2e121740
+      version: 0329646138b92d1fe969c25904c51d7f5924eb04
     status: developed
   rmf_simulation:
     doc:
@@ -5689,7 +5689,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: f2b36f761ffd6f7b07c98b6c748c4d75660098b9
+      version: f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab
     status: maintained
   robot_state_publisher:
     doc:
@@ -6805,7 +6805,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_tf_tree.git
-      version: 871a6fa4e343c53b6befe6dffd04261d855033a3
+      version: bb4cd6ad6d9642355d2b373f6ecf07e65f075def
     status: maintained
   rqt_topic:
     doc:
@@ -8174,7 +8174,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1efa2f4a71e6914b8daeca2bf2053fa21da3b673
+      version: 92b1ddcd646e136047afe0b8b4320d697b996903
     status: maintained
   vitis_common:
     doc:
