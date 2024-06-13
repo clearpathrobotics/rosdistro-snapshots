@@ -162,7 +162,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/ament_cmake_catch2.git
-      version: 4d063c2a1cb28dea545d7a3ea046f3781d32d25f
+      version: be87d611bc91e089221fb209864ce77705958c2e
     status: developed
   ament_cmake_ros:
     doc:
@@ -1293,7 +1293,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stonier/ecl_core.git
-      version: 9d1c49c882c57668f3c46adb2a1a38c2d0957e59
+      version: 8d4c7e8946b7ceaba3735ea1bf8b3639d15db77f
     status: maintained
   ecl_lite:
     doc:
@@ -1380,11 +1380,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 3.6.0-1
+      version: 3.7.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: c3cfbe607e3e949fc0db95532e4b55bada5855d4
+      version: e35c6bee4065197faf7ed710213b312ff03d92cb
     status: maintained
   event_camera_codecs:
     doc:
@@ -2830,7 +2830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
-      version: 240de9e720fd7ea9ce81215b3f3bdbd14a1eb2b6
+      version: 9c15e129a309a7642f19a3d3dabad1c9d2b3ef5e
     status: maintained
   launch:
     doc:
@@ -3031,7 +3031,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: d2a5508d0aa17304daf273991de08828e57c82fb
+      version: 20b8538a197c45597eecf5c7a51058263e816eb9
     status: maintained
   libg2o:
     release:
@@ -3280,7 +3280,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/menge_vendor.git
-      version: 4fe3e1e3e92f8b02d95a9389ee373ed17a1ac266
+      version: 543afe2715087bb84374c8d8836d73719df0f565
     status: developed
   message_filters:
     doc:
@@ -3296,7 +3296,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: aea0e9ffcdeef43c1244a413a1f5ac2ffb78d082
+      version: 5d99c9ca87e037efb581c038973748c1a1ab378e
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3492,7 +3492,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
-      version: 94551e3c73375e868b965c191fedacb487e3abc2
+      version: fb3738acc7603ff04e011c85a8f17997044c27f9
     status: developed
   moveit:
     doc:
@@ -3549,7 +3549,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 627d28229e314164d68dc6aed0deb896142e80a9
+      version: 42663ad7b5c6341a9ce57d771b2db93c3debd20e
     status: developed
   moveit_msgs:
     doc:
@@ -3617,7 +3617,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 2b15f694647ede31b9d3b79384ee88fb53140a29
+      version: 370eaf65002ed375ea9c5ae3b39a3de8cc3bfa46
     status: developed
   mqtt_client:
     doc:
@@ -3873,7 +3873,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/nlohmann_json_schema_validator_vendor.git
-      version: 1073a4865399f5c2f123f13f69c0521359bb2414
+      version: 4839757c3efb29fec59593034df317f0659e473e
     status: developed
   nmea_hardware_interface:
     doc:
@@ -4769,7 +4769,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/pybind11_json_vendor.git
-      version: f04c309dcbd831b7ec8ea91d4f96fe86dc297aa7
+      version: 830f769f63e5bd458a8d4565c21fcd6ae3a86b04
     status: developed
   pybind11_vendor:
     doc:
@@ -5005,7 +5005,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rcdiscover.git
-      version: ec316a8a32ae8bdf38ac2c1af7c7693ea5a0fadd
+      version: 12ce0926fe272907b131d93c51d29a555d5aa646
     status: developed
   rcl:
     doc:
@@ -5299,7 +5299,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_api_msgs.git
-      version: 1a8df29cf064f7b20bf8318c27ccf9748227ac0c
+      version: 0141ab64e03bf08aba79be76b31ea02a55a3b296
     status: developed
   rmf_battery:
     doc:
@@ -5314,7 +5314,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_battery.git
-      version: 32bded5e1d541f94f99a1607e7703060b5f7201e
+      version: c9caa39b1a6b6c65ec6be49908af31d2baa9acc9
     status: developed
   rmf_building_map_msgs:
     doc:
@@ -5329,7 +5329,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_building_map_msgs.git
-      version: e870ba3bfe49f3f07514fc737cab0209b5acb741
+      version: e26cf73ec7b1f61bbd450a4f85450e0db20d6c72
     status: developed
   rmf_cmake_uncrustify:
     doc:
@@ -5354,7 +5354,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 3aefa06e85a76bd0524de7bcefa446dcefa0e102
+      version: 7c642aad44c4f6f33ac877ca40fe53e87d7579f6
     status: developed
   rmf_internal_msgs:
     doc:
@@ -5382,7 +5382,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: aff8a9eeba46009be40dc5fc842d26016abd631d
+      version: 944a6f4f37c9649234c243e44f168b30e0678c7c
     status: developed
   rmf_ros2:
     doc:
@@ -5404,7 +5404,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 0329646138b92d1fe969c25904c51d7f5924eb04
+      version: f2d40bf58373d589a3bfcb050f8fcd8bb5a66136
     status: developed
   rmf_simulation:
     doc:
@@ -5423,7 +5423,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: 1b14ef6e069be63dc9550f2e2a61600a987d60e2
+      version: ee0c022040e50556c1464d5361e250424033cd10
     status: developed
   rmf_task:
     doc:
@@ -5441,7 +5441,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: c82bfae62cc4761d194937913093218d96b3666e
+      version: 31904099ecb244eb63dfb537515eca6b9b20cb68
     status: developed
   rmf_traffic:
     doc:
@@ -5459,7 +5459,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: 8274fd28d7c312724875ee5cf1006184d8057873
+      version: 9c7747dce1bcae8042b201ff16c82b26a886914f
     status: developed
   rmf_traffic_editor:
     doc:
@@ -5479,7 +5479,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 27aa2c70b30cfd46c458a8b672a4be4e3a4d7885
+      version: fc525156f7f533a939fc509d94d8a5b688ac0cbf
     status: developed
   rmf_utils:
     doc:
@@ -5494,7 +5494,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_utils.git
-      version: 2d49187985a4b3d305f8f7fdddc2da3166e619e6
+      version: 0b45fe5a24f495c82370e2baac904bfd30f18df2
     status: developed
   rmf_variants:
     doc:
@@ -5511,7 +5511,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_variants.git
-      version: 49a0e651bbdeceff9c618ba9cc745ef7ef0d85d7
+      version: 208d06f62bbd4eb4c325277f15edfe12450db194
     status: developed
   rmf_visualization:
     doc:
@@ -5535,7 +5535,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
-      version: dc7b120148bec64bde7e625b7d78deaf136932fc
+      version: 1130f2cc491736f7dc395abe032d364008c24900
     status: developed
   rmf_visualization_msgs:
     doc:
@@ -6178,7 +6178,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: e7e60057bf5c43f843af6856e09628cabd1010c1
+      version: 8297cb014fb218ac3b7d610a464bbbf4bc7f199c
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6239,7 +6239,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 4ba0effa201030ae8f45597b29d4ca685b2d50a1
+      version: 57940a28bd9d0aface66130f21e5a9c5945694aa
     status: maintained
   rosidl_core:
     doc:
@@ -6831,7 +6831,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_tf_tree.git
-      version: 4048695f70522f9d58f4904f8fbafd89e2446ef4
+      version: b4521916fa2508e8a4bc047f3f4e17ccb73cf5a5
     status: maintained
   rqt_topic:
     doc:
@@ -7864,7 +7864,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 462f38347da9d963fc4bf7c32bef5922ebbf76fe
+      version: a9767bb3d1485e3f0774b1d14eb3d57ad97aabe4
     status: developed
   ur_msgs:
     doc:
