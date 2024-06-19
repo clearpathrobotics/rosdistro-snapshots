@@ -717,7 +717,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: a1f431c1d91a6f07b601af3165b0d71973c2558b
+      version: 52d6d8d771ef2e8084bffc8f2521832025e39616
     status: developed
   bno055:
     doc:
@@ -1251,7 +1251,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: ff6b4ddcecacb5a91dbb313a94f16b7dabda9ec9
+      version: f16f46a8724ef96361c0f58ca52efd8717c3110c
     status: developed
   ecl_core:
     doc:
@@ -1384,7 +1384,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: e35c6bee4065197faf7ed710213b312ff03d92cb
+      version: 563cd7ac3068b9a2db735ad66d699518556101e4
     status: maintained
   event_camera_codecs:
     doc:
@@ -1529,7 +1529,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: d26d15ea1cf1b06e696cef2b07cf882918b02f8f
+      version: d11f7eab5c902386927852041322c3de7cb90c60
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -1671,11 +1671,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/flir_camera_driver-release.git
-      version: 2.0.17-1
+      version: 2.0.19-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
-      version: 92578f85c40cd05956d3e8fdcb25b25dd621792c
+      version: 66657e2e3adb1398532f2ca3ee13a59233725071
     status: maintained
   fluent_rviz:
     doc:
@@ -2402,7 +2402,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: b9274643754e3bac9b39520476df8afc99705009
+      version: a0b0b74eed2662d980953e0b5ea75f7428209d56
     status: developed
   iceoryx:
     release:
@@ -3550,7 +3550,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 5c110526557d96fb87bb321a4ca4ebd33a03614d
+      version: 94796046b5ae6fc2a8e5f5ee73db4944d71a5643
     status: developed
   moveit_msgs:
     doc:
@@ -3651,7 +3651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 5e9332665d815fd9fff6e46eba72ae8b7e961835
+      version: 095e2c4c762b0d8f776aeb73d815e2fac52cf765
     status: developed
   mrpt_msgs:
     doc:
@@ -3758,7 +3758,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 7dbc2de654e8abe0694901735bf69d018ae492c5
+      version: 65bed9135394a2f7fb9d1299a38a365ef19b5f30
     status: developed
   nao_button_sim:
     doc:
@@ -4321,7 +4321,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 70c219da7cb865aadb5d3915790857bfcd5f531c
+      version: 2e67335fde01e25328160d92de660566806e92fa
     status: maintained
   pcl_msgs:
     release:
@@ -4480,7 +4480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 9bd876d9c02e0704676dacbd5ae67d95ca44bbf7
+      version: be4a8369b559c9a545f022b11517a89679d576af
     status: developed
   plotjuggler:
     doc:
@@ -5352,10 +5352,23 @@ repositories:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
       version: main
+    release:
+      packages:
+      - rmf_demos
+      - rmf_demos_assets
+      - rmf_demos_bridges
+      - rmf_demos_fleet_adapter
+      - rmf_demos_gz
+      - rmf_demos_maps
+      - rmf_demos_tasks
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmf_demos-release.git
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 7c642aad44c4f6f33ac877ca40fe53e87d7579f6
+      version: 58ec578cbc9694b4eb558cb6a2182ce23686e33b
     status: developed
   rmf_internal_msgs:
     doc:
@@ -5405,7 +5418,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: f3bf60e1730b1368ddfd17eafd6f65a70e74ef4b
+      version: 2b7e67503f0fa64ee7063ff8f91c84142587f6b5
     status: developed
   rmf_simulation:
     doc:
@@ -5547,7 +5560,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization_msgs-release.git
-      version: 1.4.0-2
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization_msgs.git
@@ -5686,7 +5699,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 1caf7f1c55e7f5f04c3511b19d172571e732f42e
+      version: d3396a59f7b005e152244c212178c43951b2b113
     status: developed
   robot_calibration:
     doc:
@@ -5833,7 +5846,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b24515538cd31b6c2b64268465dd479f464b151d
+      version: 615524831a3bd3e0fc4e4678c6eb9afd7f39f326
     status: developed
   ros2_kortex:
     doc:
@@ -5857,25 +5870,6 @@ repositories:
       url: https://github.com/Kinovarobotics/ros2_kortex.git
       version: 33ec22cddfe9feed7642c8e18d0a00320a017926
     status: developed
-  ros2_ouster_drivers:
-    doc:
-      type: git
-      url: https://github.com/SteveMacenski/ros2_ouster_drivers.git
-      version: foxy-devel
-    release:
-      packages:
-      - ouster_msgs
-      - ros2_ouster
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
-      version: 0.5.1-4
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/SteveMacenski/ros2_ouster_drivers.git
-      version: 2a2a7db5aebe17ea05b6ad6e04047ad5cfc0f0ad
-    status: maintained
   ros2_robotiq_gripper:
     doc:
       type: git
@@ -7470,7 +7464,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/tf_transformations.git
-      version: b77b5916a666746554360f13db7061842e90cc8f
+      version: cba4ec0a696af268aec204d76dfff4ffaf8d4cbc
     status: maintained
   tinyspline_vendor:
     doc:
@@ -7606,7 +7600,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tracing/tracetools_analysis.git
-      version: eb2b8f6867f4d8d8b539e0e55d275a48ea294da7
+      version: 6550e878bc996120262e0bb0ca40fa52bdb5ab63
     status: developed
   transport_drivers:
     doc:
@@ -8211,7 +8205,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 82830971983f76a20401bc43e4ae2924346b1943
+      version: c31996f3c6102d4b9c827cc6c740345b6a3337e8
     status: maintained
   vitis_common:
     doc:
