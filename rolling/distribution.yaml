@@ -147,7 +147,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: c6affa2dd7dc0e3200b2cf4dea8682d44a8d2ca2
+      version: dfd51d45836105906fad1a44c2afd6cd41b1e4a1
     status: developed
   ament_cmake_catch2:
     doc:
@@ -1251,7 +1251,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: b0c5a4c16b107fba66063cd7c45ad80147c3c326
+      version: 3274646b104751fc149c21e5c312963835692206
     status: developed
   ecl_core:
     doc:
@@ -1506,13 +1506,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastcdr-release.git
-      version: 2.2.1-1
+      version: 2.2.2-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: f889eee5880f521931214a1f8aa11efcd003b421
+      version: 24d9e72f3aa8aab91d2e5e6422f2b5ce90490cb6
     status: maintained
   fastrtps:
     doc:
@@ -1529,7 +1529,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: af8358641e123efc62bfe863d60157318c46e3fc
+      version: 547790f317bbad74e6284d1b96fe6fd1e10dbad7
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -2853,7 +2853,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 651f57451e4d0e93d055669764fcd588e2d9b1e6
+      version: 9d5c9257ee11677159490288d20522657a27243b
     status: developed
   launch_param_builder:
     doc:
@@ -3431,6 +3431,7 @@ repositories:
       - mola_kernel
       - mola_launcher
       - mola_metric_maps
+      - mola_navstate_fg
       - mola_navstate_fuse
       - mola_pose_list
       - mola_relocalization
@@ -3440,11 +3441,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 502add98aa54555baba6399b64e2d0c213906f19
+      version: ba77129ff9ff32b4e1f4ff3f61296eb542eefd08
     status: developed
   mola_common:
     doc:
@@ -3614,11 +3615,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.4.3-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: bdf3c8afa57069feae918e8feace54df9c3b2dda
+      version: 8fe0e44d9cbce9cded631bb4a03b2d396af9c7ef
     status: developed
   mqtt_client:
     doc:
@@ -3651,7 +3652,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: ca3f28dc6bd80a65278bf0afabfff4a8b9d04e00
+      version: d83b49b1395721faea5215c3da63337db2f02653
     status: developed
   mrpt_msgs:
     doc:
@@ -3743,7 +3744,7 @@ repositories:
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
-      version: 643d2193af10e562b221d3e40e169c4dc9c2a721
+      version: 15d2ff0f033bbfc786812a0305fe50711a3dbab7
     status: maintained
   mvsim:
     doc:
@@ -3826,7 +3827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation.git
-      version: 7e82adc9bf4eec31314aa3510949cdfc2f364741
+      version: 6b64127f0e0d677ecdaa458bce57b89119cb08ee
     status: maintained
   navigation_msgs:
     doc:
@@ -5699,7 +5700,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 7609e413af380182985ce52b8946a8ec598e7f60
+      version: 543738ec91551550acab926bfbbad2acfb47a8e9
     status: developed
   robot_calibration:
     doc:
@@ -5904,7 +5905,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
-      version: d25a55528eb7b27ab3c22c1b888a7276ae4af6f9
+      version: 3c82371743cd806c7ec038370d247a8728c30a0b
     status: developed
   ros2_tracing:
     doc:
@@ -5928,7 +5929,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 0b85777745517fbef8a31c42b41bed7595c10b44
+      version: 63f060e353f0504f11da0009403211d93957aa1c
     status: developed
   ros2acceleration:
     doc:
@@ -6168,12 +6169,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.27.0-1
+      version: 0.28.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 5062b6e7caaa04eeeaf2e9546df737a814d5533b
+      version: fa84cfeeb0b640d53c23d25634ec5b0177ae1efe
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6234,7 +6235,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 6a6287ede8f310dccd2c3d4d9631a69e1e9d391a
+      version: 86fa39823b6ec7d2e24940647c214a4082beab79
     status: maintained
   rosidl_core:
     doc:
@@ -6941,7 +6942,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: ee5427cc387876aabffc88290e4b8d5b06b58230
+      version: 06740e28d2e3daf532aa4a5c7dbd55929dc9ca6a
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7089,7 +7090,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 64731fd5288bae7ec247fd58dba2b83f31a760b8
+      version: a2510ec926596e4b0b07ad9301bc995e3dd33165
     status: maintained
   slg_msgs:
     doc:
@@ -7293,7 +7294,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
-      version: 0b0c9c76dd950e68babccf8e08561b3df36b466c
+      version: a255574c966ed286f1429d61c3fd827b80d62b26
     status: developed
   system_fingerprint:
     doc:
@@ -8058,7 +8059,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
-      version: 52dd75fb78ae608a2c40eea60f6e8eac673b91e8
+      version: 501af3d428513b2fd520b7a087ba5774b4d6181d
     status: maintained
   v4l2_camera:
     doc:
