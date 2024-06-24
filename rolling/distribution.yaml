@@ -355,7 +355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 6319d842ec8253aaf8017aeb9876d30bc7cce4b2
+      version: 64654c001bee30ba1e33322343b2c8bb4895afa1
     status: maintained
   apriltag_detector:
     doc:
@@ -577,9 +577,24 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: f50f4ba228b4145bcf79787ba718c241bca8f76d
+      version: 68cfa3053a16a81ab7352acae5414698150ac56e
     status: developed
   autoware_msgs:
+    release:
+      packages:
+      - autoware_common_msgs
+      - autoware_control_msgs
+      - autoware_localization_msgs
+      - autoware_map_msgs
+      - autoware_perception_msgs
+      - autoware_planning_msgs
+      - autoware_sensing_msgs
+      - autoware_system_msgs
+      - autoware_vehicle_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/autoware_msgs-release.git
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -1848,7 +1863,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 88e7f79a446c6922cc8023d6d99fe782479dd792
+      version: 4ad23ba738a32fd58483ac05c61df3c586394ddf
     status: developed
   geographic_info:
     doc:
@@ -3648,11 +3663,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.13.1-1
+      version: 2.13.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 43f876848e870c5c5684a056035ad45358cc1544
+      version: ef47532d18cc35db564e4689eaaa85fc4587b69f
     status: developed
   mrpt_msgs:
     doc:
@@ -3823,7 +3838,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation.git
@@ -8313,7 +8328,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 9ec48b0ebafa628878352ff1c467fc07e9b2e892
+      version: 9a4c8d955c79f85d112c36e45665536aec31e1dc
     status: maintained
   xacro:
     doc:
