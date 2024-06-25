@@ -574,6 +574,14 @@ repositories:
       version: 4537a08fdb679bc5f0f1b7fd0f5e54ca5bd3f029
     status: developed
   autoware_lanelet2_extension:
+    release:
+      packages:
+      - autoware_lanelet2_extension
+      - autoware_lanelet2_extension_python
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/autoware_lanelet2_extension-release.git
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
@@ -732,7 +740,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 52d6d8d771ef2e8084bffc8f2521832025e39616
+      version: b8277b74410dd84a5f51343086c1d9d732dab56b
     status: developed
   bno055:
     doc:
@@ -1266,7 +1274,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 3274646b104751fc149c21e5c312963835692206
+      version: 41145e1b5e7261c376c4c228c755cefd3f8514c6
     status: developed
   ecl_core:
     doc:
@@ -1863,7 +1871,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 4ad23ba738a32fd58483ac05c61df3c586394ddf
+      version: 138e501526d8eca814c8286d03f2b20a829c3622
     status: developed
   geographic_info:
     doc:
@@ -1898,7 +1906,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
-      version: b5c8d44160c454b906ad06804fae504033efe877
+      version: cd6b9bf21f889a608ded84b98eb63574afffc230
     status: maintained
   geometry2:
     doc:
@@ -2074,7 +2082,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: aba056176e98b95c807fb37c107188110ec54be2
+      version: a2a7a066464c4f147aad74bd98efccfe0f53baae
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2119,7 +2127,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_dartsim_vendor.git
-      version: 2207815e4aab95db64fee7745704e57fb5889c5d
+      version: f7e15d7470f113aa4d449a044a58b8f3e68ef24d
     status: maintained
   gz_fuel_tools_vendor:
     doc:
@@ -3046,7 +3054,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 437e601653e69c82f5396979d99e7b9b5bb6086b
+      version: 2119bdac6a011034cc33584e3303e47db4932313
     status: maintained
   libg2o:
     release:
@@ -3634,7 +3642,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 515aabd638323113f91420cf6a4ff1fc3c637052
+      version: 164b9adc92734c277585f93ca5e633e4c0c7a725
     status: developed
   mqtt_client:
     doc:
@@ -4496,7 +4504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: aac673a90d09f19e55ee4adb2f4135d20a270a75
+      version: c06b018b56785c927ce8b7aa34f5d01de06e5181
     status: developed
   plotjuggler:
     doc:
@@ -4833,7 +4841,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: 1fbfb441b86dfc9df252fb7e4a7c0d736a5d1cbe
+      version: 9cae8fd524fa2e9388bfde0c383fc21944b09990
     status: maintained
   qpoases_vendor:
     release:
@@ -4867,7 +4875,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: ce5df8b6be5ee41e63c46395fdfb9dc644aaf1d6
+      version: 9a3e5526abf3a7909d9fbc12b74e40da73569a1c
     status: maintained
   quaternion_operation:
     doc:
@@ -5715,7 +5723,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 543738ec91551550acab926bfbbad2acfb47a8e9
+      version: 61f2a704a17e6e45834274b15cff72a53bd00554
     status: developed
   robot_calibration:
     doc:
@@ -6873,7 +6881,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: e93c5456c2a328de6ae18f4b663a7dbc74c1a81d
+      version: a479dd8e82f4c03d906e90acd8dea0cb4805defe
     status: developed
   rt_manipulators_cpp:
     doc:
@@ -6957,7 +6965,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 06740e28d2e3daf532aa4a5c7dbd55929dc9ca6a
+      version: 0707355430b5a1c915c8a57961099155bb40cef8
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7260,7 +7268,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
-      version: cc304b139469e9482a85782580ae05e1cc0eb172
+      version: c118b35d113f2d7e43f57c5f792a81fb42f85db2
     status: maintained
   sros2:
     doc:
