@@ -1150,12 +1150,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 3.1.2-2
+      version: 4.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 19f64806fd3bc23d880f00dca3456bd54ddc5413
+      version: 0af0de12889f748cf9b29591a1a365ad5ac9eb82
     status: maintained
   dolly:
     doc:
@@ -1639,7 +1639,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/find_object_2d-release.git
-      version: 0.7.0-5
+      version: 0.7.1-1
     source:
       type: git
       url: https://github.com/introlab/find-object.git
@@ -1779,7 +1779,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 733737ffdd2a8231a55b59a07716fc0a275d0e4f
+      version: 84e177f767108ef47a2125e45120e30e3709e0e6
     status: developed
   foxglove_msgs:
     doc:
@@ -3319,7 +3319,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 7c3d40cc6e9b36ec9f0d31b1a8eac41306aee60f
+      version: ffa31507c48ae8ec2a452485db22cb8d7abf85bf
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3468,7 +3468,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: b184975de38f7afd5b68610fd5f96816865fbf18
+      version: 9feb591f537f6669756d598f0a36602a4d8c5e5c
     status: developed
   mola_common:
     doc:
@@ -3642,7 +3642,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 164b9adc92734c277585f93ca5e633e4c0c7a725
+      version: a44726f3aa8b800a796b10aea1998e5c5e512102
     status: developed
   mqtt_client:
     doc:
@@ -3675,7 +3675,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 58dc340e96cb09f5b191c69b4fa98810c29bed64
+      version: 41b64b4c8bb3ff976c41591defa465b8b30463f4
     status: developed
   mrpt_msgs:
     doc:
@@ -3715,7 +3715,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 910fa8e16bbde1e35ee360b29edf537b73a1e00e
+      version: c7a4a63520480ab2e8f1698e13e3ec08acb99ede
     status: developed
   mrpt_path_planning:
     doc:
@@ -5723,7 +5723,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: e73df29cf80723f0e49e09d1f72cff5f1d342744
+      version: cdea502d5537f8ff22ae854568f59ce3bb09543b
     status: developed
   robot_calibration:
     doc:
@@ -6453,7 +6453,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
-      version: 5a6cddf12f4c7534568d19baaddcd8f0cc7f56b8
+      version: bfa947366aae6d9eacb701aa5b0e248051644591
     status: developed
   rot_conv_lib:
     release:
@@ -7936,7 +7936,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 87802164c855c36f2861c3cc49cb00103ce5c652
+      version: 021336a1596e76d7b31ecf8c4db671615b263e43
     status: developed
   urdf:
     doc:
@@ -8245,7 +8245,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 503f56372794282bd2cfb02c4667cec07a49a1be
+      version: a19b3c588c6f507dd6d99c8ba783ba4113d011bb
     status: maintained
   vitis_common:
     doc:
