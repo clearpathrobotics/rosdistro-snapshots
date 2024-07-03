@@ -531,7 +531,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-      version: 9bb74bd5006f7e3901ecd0368c19c30d047482f4
+      version: 0152e40f5062e8a5acce9a3ee40879206720ff39
     status: developed
   autoware_auto_msgs:
     doc:
@@ -571,7 +571,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: 6eaa137758571b1fbed8ff0b9eada69c74a192bb
+      version: cfd1e44bc1bedda65c6a6b79bb711b3700274aca
     status: developed
   autoware_lanelet2_extension:
     release:
@@ -585,7 +585,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: a586d15222469f6303039cb87bdf52dffade7c00
+      version: a2d5a6fa8f73b8cb2f208bc38eaee3825a752511
     status: developed
   autoware_msgs:
     release:
@@ -606,7 +606,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: 4c3a1939520cd8ac9d05b0addf7286a0534de024
+      version: a51a5d8f695af2138011b2438de10ebce1ce2933
     status: developed
   autoware_utils:
     release:
@@ -617,7 +617,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: f4202fe044499023a863bf1804628858c4098d1a
+      version: f8f29ab7b2a0b64bad3153b9d4663caa63f94b65
     status: developed
   avt_vimba_camera:
     doc:
@@ -1683,7 +1683,7 @@ repositories:
     source:
       type: git
       url: https://github.com/flexbe/flexbe_behavior_engine.git
-      version: aec2d77f58d9a29d7356b18d43431c36e287550a
+      version: e5f7fd194c40c9c8f69106c134bf50d0ab29248c
     status: developed
   flir_camera_driver:
     doc:
@@ -2281,11 +2281,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: ff0e409b584672bdcdfd0e927b0d18347fabdbcf
+      version: dd100d033333d112e14307c2b372520697453378
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3473,7 +3473,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 0dc73942ce52fde812651de23d8aca55799bc337
+      version: cb8940c25176123a9764a03f580cd52d8f5ec5f8
     status: developed
   mola_common:
     doc:
@@ -3503,7 +3503,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: f468c1544fedcc0871ee751e80152c100c081d1b
+      version: f123002efa8e61caa36073bbbb5b8bb598f226db
     status: developed
   motion_capture_tracking:
     doc:
@@ -3888,7 +3888,7 @@ repositories:
     source:
       type: git
       url: https://github.com/neobotix/neo_simulation2.git
-      version: 406d98465eeaee4a735b1c660c240508c3efe88f
+      version: 77358d93e378b6df16f17f082b49e2df3714be64
     status: maintained
   nlohmann_json_schema_validator_vendor:
     doc:
@@ -4081,7 +4081,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OctoMap/octomap_mapping.git
-      version: 99403587f3942e92ad4eacfcb5e85533f60127c2
+      version: 3ae6aa23b4cbb91c423392961013270fac572499
     status: maintained
   octomap_msgs:
     doc:
@@ -4111,7 +4111,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OctoMap/octomap_ros.git
-      version: c951978a516a9fb935597daaca0668ad92c3ab92
+      version: 638592f10225e27dac2839a92018d5ea14628120
     status: maintained
   octomap_rviz_plugins:
     doc:
@@ -4126,7 +4126,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
-      version: 1891a49cc1a6cbcd36ac082571d91798a9cc8c65
+      version: 42be6dfff4faebea9656fba10ef8ec18ae874544
     status: maintained
   odom_to_tf_ros2:
     doc:
@@ -4144,13 +4144,21 @@ repositories:
       version: bd9a8be9b819fdc59d8f3e7926901d0dba63fe5b
     status: maintained
   odri_master_board:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
+      version: main
     release:
       packages:
       - odri_master_board_sdk
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/odri_master_board_sdk-release.git
-      version: 1.0.6-4
+      version: 1.0.7-1
+    source:
+      type: git
+      url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
+      version: fe50b0e74c8303e6be51bfff2a3860f7bacbef5f
     status: maintained
   odri_master_board_sdk:
     doc:
@@ -4509,7 +4517,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 99e0c305e041115d61490569a76c392547f6843d
+      version: 06907edbff16c03c5821ec5e24c2b0b995582804
     status: developed
   plotjuggler:
     doc:
@@ -5056,7 +5064,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 3e7ce7615526009362b9683fc0e6a87105d49a83
+      version: 250d820c9f6a0ed60176b0f2dd428097581a68cc
     status: maintained
   rcl_interfaces:
     doc:
@@ -5156,7 +5164,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 8de4b90512469d74802871e6c88db2e3135720e7
+      version: c743c173e68d92af872cf163e10721a8dbe51dd0
     status: maintained
   rclpy:
     doc:
@@ -5728,7 +5736,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 568c0c358c0ea1f187a6fe6af2feaa2645b4c6be
+      version: 9ede38d1d84e9b7f08971d56d1843624b5052240
     status: developed
   robot_calibration:
     doc:
@@ -5957,7 +5965,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 63f060e353f0504f11da0009403211d93957aa1c
+      version: 8d898b5ff0d79ef34eeae73a6ef3a20b30fe1ac8
     status: developed
   ros2acceleration:
     doc:
@@ -7118,7 +7126,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/simple_actions.git
-      version: 14de986c80bbe4e9ad246b4bf2b395ee1de4ea0c
+      version: 97201c5555cf7292114fdf4e51967e9d9e329d4d
     status: developed
   simple_launch:
     doc:
@@ -7847,7 +7855,7 @@ repositories:
     source:
       type: git
       url: https://github.com/flynneva/udp_msgs.git
-      version: 122f9a1b4a18280c9859fe0d2c85c80cd68d0f35
+      version: d3c4522d87c04ad93f531874205b3d080cfbc920
     status: maintained
   uncrustify_vendor:
     release:
@@ -7889,7 +7897,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 548f3b78a80b87a3afbb155ab1e5a203f45807a0
+      version: a567be04ac507c145ebe3266d6ee48af41276f41
     status: developed
   ur_description:
     doc:
@@ -7941,7 +7949,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: cf59444226772841a59a1e96f035901dcdf72bcd
+      version: a8c3a4353b4fe32ede7c1c8f2eeae4b167da9e01
     status: developed
   urdf:
     doc:
@@ -8298,7 +8306,7 @@ repositories:
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
-      version: 36965cfc021c6b124edb30428434da6097f73a9b
+      version: 700c5563fea60aafaf02a94a90af3a20553e2c12
     status: developed
   warehouse_ros:
     doc:
