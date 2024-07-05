@@ -567,7 +567,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_internal_msgs-release.git
-      version: 1.0.1-1
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
@@ -2285,7 +2285,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: dd100d033333d112e14307c2b372520697453378
+      version: c4b3a550f0a6f6462a0d8acff71d911feff719d9
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3059,7 +3059,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 196abb8d1d6e0fe9d190315e72a85eb12d16a554
+      version: 131039f6330f4c1a4a36f0b4d381f0033b9ecf46
     status: maintained
   libg2o:
     release:
@@ -3643,7 +3643,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.5.0-1
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -3720,7 +3720,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 72b9d1bdeeca41df42a4e4aaeaa25c6fc1f709f8
+      version: 0828d33996707aae56862425f6f585b607b74c5c
     status: developed
   mrpt_path_planning:
     doc:
@@ -3746,14 +3746,15 @@ repositories:
       packages:
       - mrpt_generic_sensor
       - mrpt_sensor_bumblebee_stereo
-      - mrpt_sensor_gnns_nmea
+      - mrpt_sensor_gnss_nmea
+      - mrpt_sensor_gnss_novatel
       - mrpt_sensor_imu_taobotics
       - mrpt_sensorlib
       - mrpt_sensors
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_sensors-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
@@ -4077,7 +4078,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_mapping-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_mapping.git
@@ -4107,7 +4108,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_ros-release.git
-      version: 0.4.3-3
+      version: 0.4.4-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_ros.git
@@ -4122,7 +4123,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_rviz_plugins-release.git
-      version: 2.0.0-4
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
@@ -4517,7 +4518,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 06907edbff16c03c5821ec5e24c2b0b995582804
+      version: c989669e255715e2fa2504b3226664bf20de6fb5
     status: developed
   plotjuggler:
     doc:
@@ -5846,7 +5847,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: f04443f4cf5aa27b5b5b0a6f290640a21d3a80f4
+      version: bb85eae699ed8ccc2121feeeab17cd6c36c67063
     status: developed
   ros2_controllers:
     doc:
@@ -5965,7 +5966,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 8d898b5ff0d79ef34eeae73a6ef3a20b30fe1ac8
+      version: 00a4e99c461e005d093689e1bdbb6b6caa3f5960
     status: developed
   ros2acceleration:
     doc:
@@ -8258,7 +8259,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: a19b3c588c6f507dd6d99c8ba783ba4113d011bb
+      version: d6f388fcc0aaa545d9852d1be254f6c6a83a8943
     status: maintained
   vitis_common:
     doc:
