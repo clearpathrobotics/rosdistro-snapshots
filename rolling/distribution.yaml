@@ -1649,7 +1649,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-misc-utilities/flex_sync.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1658,7 +1658,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/flex_sync.git
-      version: da0ca3537b3a07b1c463f90a2d6568ad72e29d70
+      version: 98e0947d884ccdfb36bc094ff14db47335081eb1
     status: developed
   flexbe_behavior_engine:
     doc:
@@ -1689,7 +1689,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
-      version: rolling-release
+      version: ros2-release
     release:
       packages:
       - flir_camera_description
@@ -1703,7 +1703,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
-      version: 59f7b395e6b85974ccd436428933febedd3429ec
+      version: 5fea1c00f6793d19a5137206899178c569ee1ad9
     status: maintained
   fluent_rviz:
     doc:
@@ -1784,7 +1784,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: dbb033e0be7ab3d5d3f22de6e11740eeef9bd5b1
+      version: 9bc30200524f55de6dab1a73c23a617218f16dcc
     status: developed
   foxglove_msgs:
     doc:
@@ -1948,7 +1948,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/geometry_tutorials.git
-      version: ros2
+      version: rolling
     release:
       packages:
       - geometry_tutorials
@@ -3059,7 +3059,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 131039f6330f4c1a4a36f0b4d381f0033b9ecf46
+      version: 974a526c837109f767b81616c59d03de210eb85a
     status: maintained
   libg2o:
     release:
@@ -4159,7 +4159,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
-      version: fe50b0e74c8303e6be51bfff2a3860f7bacbef5f
+      version: f65f73d5c81b2be3c8a8d78406d5b1b09789accd
     status: maintained
   odri_master_board_sdk:
     doc:
@@ -5197,7 +5197,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcpputils.git
-      version: 162d345c2856b4644a31fbbaacfee9f3f5684f98
+      version: 8d7f40d315f41da27b822ff4e1f8aef326126886
     status: developed
   rcss3d_agent:
     doc:
@@ -5737,7 +5737,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 747a72ee774c65113b6f738fd8b87c586ae21e1b
+      version: 5c09185f59d0d577a08bcdc83ddba39463164da4
     status: developed
   robot_calibration:
     doc:
@@ -5847,7 +5847,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: bb85eae699ed8ccc2121feeeab17cd6c36c67063
+      version: 723c8694c969110a10a5d1e5f9d8d164bb4001e7
     status: developed
   ros2_controllers:
     doc:
@@ -5966,7 +5966,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 00a4e99c461e005d093689e1bdbb6b6caa3f5960
+      version: 74ff10b30809907b3799b85d6a0414c21198ab3c
     status: developed
   ros2acceleration:
     doc:
@@ -6096,7 +6096,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -7138,11 +7138,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.9.1-2
+      version: 1.10.1-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: a2510ec926596e4b0b07ad9301bc995e3dd33165
+      version: 088d1ab1c091b2085518f0bf624f781dcf694b16
     status: maintained
   slg_msgs:
     doc:
@@ -8259,7 +8259,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: d6f388fcc0aaa545d9852d1be254f6c6a83a8943
+      version: ef77e0951f1ec017fa5c4143cf4f0ee1c2b106ed
     status: maintained
   vitis_common:
     doc:
