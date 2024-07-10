@@ -586,7 +586,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
-      version: 942f589ea4a4a8d79d40d04c0ed3e18f0c9bd954
+      version: 0e12b301e32e812eb04425c125597941d5f7accc
     status: developed
   bond_core:
     doc:
@@ -2653,6 +2653,9 @@ repositories:
       - etsi_its_cam_msgs
       - etsi_its_coding
       - etsi_its_conversion
+      - etsi_its_cpm_ts_coding
+      - etsi_its_cpm_ts_conversion
+      - etsi_its_cpm_ts_msgs
       - etsi_its_denm_coding
       - etsi_its_denm_conversion
       - etsi_its_denm_msgs
@@ -2664,11 +2667,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 2.0.2-2
+      version: 2.1.0-3
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: 93722490e4d3a67c241b7ba2f7b5136714ae8ed7
+      version: 5922481239c8b786bd36059ddedfe997a6a8aa9e
     status: developed
   euslime:
     release:
@@ -3951,7 +3954,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: a6ae155012ad5526c818d9334163317b3f733db9
+      version: 4f76da9492e429f1026c6296afbadee18f937aa7
     status: maintained
   hri_actions_msgs:
     release:
@@ -5624,7 +5627,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: a739960397af7de56d917a0317ac43b3fe1426cf
+      version: a71060bf291207e7ff61d2d7793434a303cf7656
     status: developed
   mcl_3dl:
     doc:
@@ -7733,7 +7736,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: c989669e255715e2fa2504b3226664bf20de6fb5
+      version: f8ad482699c486a83b0b7621c86314c205bd2d1a
     status: developed
   plotjuggler:
     doc:
@@ -7748,7 +7751,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 2c51aa689a69c7f1a2d715fd62b9179850fc23ff
+      version: 47a61d768c6aaa7be20c8c3c5b48ad2bd0459b1a
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -12341,7 +12344,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: a567be04ac507c145ebe3266d6ee48af41276f41
+      version: 613b2f9f81ed888c2fac9463963d6dc9d07ba762
     status: developed
   ur_msgs:
     doc:
