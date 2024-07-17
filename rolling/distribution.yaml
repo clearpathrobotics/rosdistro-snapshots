@@ -1408,7 +1408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: a5eb4dd7d1f32f5f17391f197f7721c5dfc86460
+      version: 615b42782f97b34e75d9cc4eae314c9e0a12be7a
     status: maintained
   event_camera_codecs:
     doc:
@@ -1958,11 +1958,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry_tutorials-release.git
-      version: 0.3.6-4
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/ros/geometry_tutorials.git
-      version: a3979b448c5f49e55524d433af3eed347dd37679
+      version: 5b073f43b58d26333a47d135959773d29c5668c3
     status: developed
   google_benchmark_vendor:
     doc:
@@ -2431,7 +2431,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 040901f33e13c02bedfe8f449dc33531b33bf281
+      version: 686dc253523d7e6263f2a719d14075e9c35492bd
     status: developed
   iceoryx:
     release:
@@ -2817,7 +2817,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: 905f5e9a95c1200bf3a86bf2803af0a654401740
+      version: e2ed8c3b4b81eb261c4e16f8a20d1a098de5c954
     status: maintained
   laser_geometry:
     doc:
@@ -3346,16 +3346,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/metavision_driver-release.git
-      version: 1.0.8-2
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: e9a28ec6af7a39ff29b8a689270e05a408886fbe
+      version: 5efa9ac126cc3ce87be9ecfd68ac725e319d3548
     status: developed
   micro_ros_diagnostics:
     doc:
@@ -3474,7 +3474,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 125e4d1aa662e75f1e35f574b331173b444c107d
+      version: 220a7d52dc2feedb9d3233917de5d70916c3ddad
     status: developed
   mola_common:
     doc:
@@ -3681,7 +3681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 043ad0bb5f5c617488b9226694fa34b68d513be2
+      version: 08a8acd000224a977c820c6e187441e794c90215
     status: developed
   mrpt_msgs:
     doc:
@@ -3890,7 +3890,7 @@ repositories:
     source:
       type: git
       url: https://github.com/neobotix/neo_simulation2.git
-      version: 77358d93e378b6df16f17f082b49e2df3714be64
+      version: ebec9639d1954004e35fcee0e2a887345e3fd325
     status: maintained
   nlohmann_json_schema_validator_vendor:
     doc:
@@ -4188,7 +4188,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/openeb_vendor-release.git
-      version: 1.0.2-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
@@ -4519,7 +4519,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 4d7ad6d51a1bda0e462377424a1a15b8c5f888cf
+      version: 071c564fb8aef38bb2e7478afdeb32992859222c
     status: developed
   plotjuggler:
     doc:
@@ -5166,7 +5166,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 304b51c3a17b90aca24e131a2ebade9f8a7a5bec
+      version: 004db2b3939ec833290fb30cb1876d83176ea7df
     status: maintained
   rclpy:
     doc:
@@ -5407,7 +5407,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: d6ae16da51940a3406b5c89eab2b50a21a753340
+      version: 7ecd917c13a5b7e774e1a3a76fa42ad828ede3f0
     status: developed
   rmf_internal_msgs:
     doc:
@@ -5738,7 +5738,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 5fbf902e48fc73ff13108eb64abe3c17b4acbcd9
+      version: ca79e0e8b27774b664f2ac6d4e3f930390061df3
     status: developed
   robot_calibration:
     doc:
@@ -5848,7 +5848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 0c17054773d2962f695cdc3b0650aa20a3ba9c92
+      version: 1f8ca08923ee53f75f86b4f8298c337d46a861e7
     status: developed
   ros2_controllers:
     doc:
@@ -5885,7 +5885,17 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 12b531082bcea252d1c4359dacf648afa3a9568d
+      version: 96a8d5798c1e2a80b104d2fb3312e1444dc142c5
+    status: developed
+  ros2_easy_test:
+    doc:
+      type: git
+      url: https://github.com/felixdivo/ros2-easy-test.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/felixdivo/ros2-easy-test.git
+      version: 347a723242a7fdc6693706647b87c68882afabd2
     status: developed
   ros2_kortex:
     doc:
@@ -5939,11 +5949,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_socketcan-release.git
-      version: 1.2.0-2
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
-      version: 3c82371743cd806c7ec038370d247a8728c30a0b
+      version: a9204072121c2b646593a8d4093af78d88a2da54
     status: developed
   ros2_tracing:
     doc:
@@ -7952,7 +7962,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: ec79784ba9ae9c91ae28ed591c1cce1160964748
+      version: 27c9a9c7ef6f59569f84f51bed4cee1ec2c40fd5
     status: developed
   urdf:
     doc:
@@ -8261,7 +8271,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: c22f2e8f8683b56d9a34eb493fdb4a559f4d6923
+      version: 1e1355377008d454a2f9747dbe0225bd478345cf
     status: maintained
   vitis_common:
     doc:
