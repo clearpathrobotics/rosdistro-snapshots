@@ -464,7 +464,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 9c6512f25a8beabbe7b37d45fcf6a464b9c3a12b
+      version: 4f1755878c3b8c2a4ee15dbaecdf815d7dc62bdd
     status: maintained
   backward_ros:
     doc:
@@ -584,6 +584,8 @@ repositories:
       url: https://github.com/ros2-gbp/beluga-release.git
       version: 2.0.2-1
     source:
+      test_commits: false
+      test_pull_requests: false
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
       version: 220075248daf4a225763d924c18a64cb952072ed
@@ -3473,7 +3475,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
-      version: e1853e4aa0983326dd89a7b0a704dd086c945815
+      version: 9f88a1bead1d71573fbec6391df7c08c1327e15a
     status: maintained
   geometry:
     doc:
@@ -5016,7 +5018,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: 75913d51d8e64a02d07cfe8d0c59f216e86e4268
+      version: 53e0a0014da95e6634c90fae24ad4a20f674daef
     status: maintained
   laser_geometry:
     doc:
@@ -6204,7 +6206,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_task_constructor.git
-      version: 60ccd744435e90393a38bb987bb398f8f9760974
+      version: 763148664838f6920304d57d026db5ccfc0fee91
     status: developed
   moveit_visual_tools:
     doc:
@@ -7736,7 +7738,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 071c564fb8aef38bb2e7478afdeb32992859222c
+      version: abcdc6461f2bde941c3d97456497e0d1d90ce87e
     status: developed
   plotjuggler:
     doc:
@@ -11782,7 +11784,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 598fa70633c10b2ae7354b976b4976bf40502405
+      version: 2516dcd755a4024f1575ece6a0744e4f561e55a0
     status: developed
   teb_local_planner:
     doc:
@@ -12722,7 +12724,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1e1355377008d454a2f9747dbe0225bd478345cf
+      version: 133df8288d18950264411fc3ce000beb2382e8ef
     status: maintained
   visp_ros:
     doc:
