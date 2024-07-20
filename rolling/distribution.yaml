@@ -678,7 +678,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 4f1755878c3b8c2a4ee15dbaecdf815d7dc62bdd
+      version: c94b2c3cd448f44aacedad3dc1286e0f37164f1f
     status: maintained
   backward_ros:
     doc:
@@ -1938,12 +1938,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.38.1-1
+      version: 0.38.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: e541c753095868677d81fbba195406177f2e9b03
+      version: 3e6e9d312514c68bf816a884873bb83cca553020
     status: maintained
   geometry_tutorials:
     doc:
@@ -1958,11 +1958,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry_tutorials-release.git
-      version: 0.6.1-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/ros/geometry_tutorials.git
-      version: 5b073f43b58d26333a47d135959773d29c5668c3
+      version: c63478db0ad01bc6e8824fe142da285a5e2d7597
     status: developed
   google_benchmark_vendor:
     doc:
@@ -2431,7 +2431,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 686dc253523d7e6263f2a719d14075e9c35492bd
+      version: 412cf1000470aec00166eaa239e881a2cfa46995
     status: developed
   iceoryx:
     release:
@@ -2489,12 +2489,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_common-release.git
-      version: 5.3.0-1
+      version: 5.3.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 0e7b6137381ea3c9d13a7822fedf54122acbf051
+      version: 5505ad8748c2033697b20ca8a033a2ad82eea464
     status: maintained
   image_pipeline:
     doc:
@@ -3164,7 +3164,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 664ee62c12570948b0e025d15b42d641fba8d54a
+      version: 9a9308fd5477d2a44f4e491d5a712546d4a2b3e4
     status: maintained
   mapviz:
     doc:
@@ -3320,12 +3320,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 6.0.0-1
+      version: 6.0.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 55515183fd38411ed57021217ee071673f5551e8
+      version: fbb524f22f7fd18267c7edd5100feed435de3225
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3580,7 +3580,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 865b006036ebf21226859c3f64a3e829c087205d
+      version: a7fe0df4c565db15710581bdcba1d33d70aa0ddb
     status: developed
   moveit_msgs:
     doc:
@@ -4609,12 +4609,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 5.0.2-1
+      version: 5.0.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: e1a4b3b11ebb83ca5fd2cf36ea83814579e8b663
+      version: 6426427070f923ef947cbcddcc6b0b15d043a4f3
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -5622,7 +5622,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: 016875cb79e2c92b8d2a0ecc0fb773fe0c53cc4a
+      version: 5ce844c23131113f14102ad45aac009142bafa9a
     status: maintained
   rmw_connextdds:
     doc:
@@ -5821,7 +5821,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: e6db3cf2129fd03abbcb56c6a063b92184949a06
+      version: eef67bac5999143d9bca244bf61d695f4083af8b
     status: developed
   ros2_control:
     doc:
@@ -5848,7 +5848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 9d1aff96291302c6db153f863792350e352f66a9
+      version: 0792a35966f981f40bf977d211d89de53940e258
     status: developed
   ros2_controllers:
     doc:
@@ -7001,12 +7001,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 14.2.3-1
+      version: 14.2.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 367cf4af4dd8bd29a79601b6891cc2ce9158108c
+      version: c209043daa325cba47d231a92e24e45f3de5b9e6
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7962,7 +7962,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: ca19535e5a2b6c6c5ae86aebb62e3eaa41cde261
+      version: 9e6a211ef0b2babd120d58b16d8fb862da851e0f
     status: developed
   urdf:
     doc:
@@ -8047,7 +8047,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: 29426ec119e9c3a9df9fc705d08c262a97b7f285
+      version: 483ff92a7e631283117ca3d421d58e146c8b6d21
     status: maintained
   urdfdom_headers:
     doc:
