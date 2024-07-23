@@ -712,7 +712,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/FraunhoferIOSB/camera_aravis.git
-      version: b7f6a13df202a40598341136da7f995e779d640f
+      version: 290206da5e5b9fcb0f07f71fcdb3b27895c3bcc8
     status: maintained
   capabilities:
     doc:
@@ -3175,7 +3175,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 446d4f0c7450c0b9fb1c5b3889c2ea640ee045e6
+      version: a95e4e039bc7159572f9dd3297a2cb7cdad7389b
     status: developed
   frame_editor:
     doc:
@@ -3778,7 +3778,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: cc2e8de2bcad1c6a5a1c74bd6a21eb3e519e7a9f
+      version: feab2a2d20151afe7a22edb8a00143b531990f0e
     status: developed
   haf_grasping:
     doc:
@@ -5640,11 +5640,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/mcl_3dl-release.git
-      version: 0.6.2-1
+      version: 0.6.3-1
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
-      version: 390fe4d5c5f156c121f983d32d1dd3d2131aaf2c
+      version: 361a57f6c0ae5b1797f52827856f7829d6c9f0d2
     status: developed
   mcl_3dl_msgs:
     doc:
@@ -6251,7 +6251,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: f3b2de20c5f456be4c85212a801ce8fb0284f9aa
+      version: 657374aa5d21a81b0393de8a90eeca6193d1fce9
     status: developed
   mpc_local_planner:
     doc:
@@ -6778,6 +6778,21 @@ repositories:
       type: git
       url: https://github.com/astuff/network_interface.git
       version: 769fa55261df07f265030ef08843c8a1983555a2
+    status: maintained
+  nicla_vision_ros:
+    doc:
+      type: git
+      url: https://github.com/ADVRHumanoids/nicla_vision_ros.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ADVRHumanoids/nicla_vision_ros-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ADVRHumanoids/nicla_vision_ros.git
+      version: 568dbb9e398436edf0bc94e5117e1f5dc722be7b
     status: maintained
   nmea_comms:
     doc:
@@ -7738,7 +7753,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 8cf4c15988ef5df263ef07df048386dfaf94e3e4
+      version: 502d1b2969ab9b278328a77ce58bf6cb4d041285
     status: developed
   plotjuggler:
     doc:
@@ -8962,7 +8977,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
-      version: f38b7897cb3e56b1d49da9b196c28a6fc1de3e2d
+      version: 7f2489993f1369906e808402e8f45e4c2aebf5b3
     status: maintained
   ridgeback_desktop:
     doc:
@@ -9053,7 +9068,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: 167cde08fbe4a5e5537cc7bffa9c5bce830a2b56
+      version: cb9828260d8bc2549b13f5a468330f5748560a98
     status: developed
   rm_description:
     doc:
@@ -10801,7 +10816,7 @@ repositories:
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
-      version: 41fe47efdf084dc36cd02973cf211f20dbdd9e38
+      version: 24ca56248ffc54740afac4084ec3054a560b401a
     status: maintained
   rtabmap_ros:
     doc:
@@ -11904,7 +11919,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 03098fc12cffedcf6e90b50744fbe46ce062b332
+      version: ead051438c4374d2f489f2284db49c15e22f8e17
     status: developed
   tf2_2d:
     release:
@@ -12724,7 +12739,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 133df8288d18950264411fc3ce000beb2382e8ef
+      version: 7be927fa391fd7742e3c7efc9229d1e77433abb6
     status: maintained
   visp_ros:
     doc:
