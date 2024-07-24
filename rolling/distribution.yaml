@@ -1553,7 +1553,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 48f1dc0f76947001b19f140db84e6508902a975d
+      version: 55ca0aac47aa3c3b2ac184a06a0c6c566c356326
     status: maintained
   ffmpeg_image_transport:
     doc:
@@ -2515,12 +2515,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.1-1
+      version: 6.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 54b74c009a0b4079604f99f1d4f2dc46d645e029
+      version: 0ecbcc1873fda0ccf65e884993ffe58ac72b65e1
     status: maintained
   image_transport_plugins:
     doc:
@@ -2817,7 +2817,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: fb10f8b4824009fba47c8feb0f67763737388543
+      version: eaaaeab4418e00d5e7f67f9a730be5b2012e8793
     status: maintained
   laser_geometry:
     doc:
@@ -3857,7 +3857,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation.git
-      version: 6b64127f0e0d677ecdaa458bce57b89119cb08ee
+      version: f4eefd049359b3f0becabd7a0870005f4140ec08
     status: maintained
   navigation_msgs:
     doc:
@@ -4519,7 +4519,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 502d1b2969ab9b278328a77ce58bf6cb4d041285
+      version: edfd51787d793500cc1f7a05f82bb3d98c456b57
     status: developed
   plotjuggler:
     doc:
@@ -5738,7 +5738,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 91faad7079b75f6f03b58c8c7874d1d0f554c900
+      version: fcfed30ca7ba629a137bc48fab0502c71e515839
     status: developed
   robot_calibration:
     doc:
@@ -5844,11 +5844,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.13.0-1
+      version: 4.14.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 89292e3b29df240371fcf376f5b8d939388da87c
+      version: 3bc4e456dd4846a277b8f898183d30d0c9f56680
     status: developed
   ros2_controllers:
     doc:
@@ -5868,6 +5868,7 @@ repositories:
       - imu_sensor_broadcaster
       - joint_state_broadcaster
       - joint_trajectory_controller
+      - parallel_gripper_controller
       - pid_controller
       - position_controllers
       - range_sensor_broadcaster
@@ -5881,11 +5882,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.11.0-1
+      version: 4.12.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 609b86763822e3c1276643de0b1f4f2aeb90ce90
+      version: e4b7827c7545c03aa977bbde92149606cb73e6a9
     status: developed
   ros2_easy_test:
     doc:
@@ -6223,7 +6224,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 7a01d7890c5697dd734e761fb8ded0ca59015d39
+      version: 22148a7a8efa5e465eb8c88035d29e02c332b327
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6537,12 +6538,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 1.7.1-1
+      version: 1.7.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: 6a24c4077bb86dc4acf57edaa2f1172aaffe0531
+      version: c465dfba882dc5ef43c00a2f2a9a09a76edf0842
     status: maintained
   rqt_action:
     doc:
@@ -6951,7 +6952,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rtabmap-release.git
-      version: 0.21.5-1
+      version: 0.21.6-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -8221,7 +8222,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/vision_msgs.git
-      version: e77fa2d97d69abaaa546592892d2d5d16cec9977
+      version: 21b2d3ff0f8e95b1330dca87a21aea1cc3feda58
     status: developed
   vision_msgs_layers:
     doc:
@@ -8271,7 +8272,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 7be927fa391fd7742e3c7efc9229d1e77433abb6
+      version: 1ae3d966126bf4af7632789baf417d3df38dcab4
     status: maintained
   vitis_common:
     doc:
