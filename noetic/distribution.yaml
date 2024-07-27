@@ -75,6 +75,16 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: 3558eb3c6c3e22d5dc93effa7c8adda8a4b284fa
     status: maintained
+  adi_tmc_coe:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_tmc_coe.git
+      version: noetic
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_tmc_coe.git
+      version: 68b346654a228f5a36c62ff773517abf206848d8
+    status: maintained
   adi_tmcl:
     doc:
       type: git
@@ -3778,7 +3788,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: feab2a2d20151afe7a22edb8a00143b531990f0e
+      version: c6bd3f8e321c1570583c93f29f0791c53e4cf5a0
     status: developed
   haf_grasping:
     doc:
@@ -6319,7 +6329,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: c726a8ef05c8820fe2eeab76cbb6286dfacadc7e
+      version: dd65ff85ee5abef5dac8f17d2c807e098dd1a3b1
     status: developed
   mrpt_msgs:
     doc:
@@ -6430,7 +6440,7 @@ repositories:
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
-      version: 15d2ff0f033bbfc786812a0305fe50711a3dbab7
+      version: 20d7c9b24b6f2e5442ae1028f0b12a47d7a85b4b
     status: developed
   multi_object_tracking_lidar:
     doc:
@@ -7753,7 +7763,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 50553295c95b52a85a44ba817fb3b01728e1199d
+      version: 59dc0dfb26adb3899bac6a4de2831df73f902c6f
     status: developed
   plotjuggler:
     doc:
@@ -7829,7 +7839,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ADVRHumanoids/point_cloud2_filters.git
-      version: caf76a936041d2063aa2e4b541352215d80ed869
+      version: e4e917db4164b8250ca59318626fc14105ab6aed
     status: maintained
   point_cloud_color:
     doc:
@@ -9044,7 +9054,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: bbcd91096a9f4851a0e514d98203e81e86c68a9b
+      version: 14a4b3e2a9558ec74b474090fac7ecb9da5fcb1f
     status: developed
     status_description: developed
   rm_controllers:
@@ -11321,7 +11331,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/SICKAG/sick_scan_xd-release.git
-      version: 3.2.6-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_scan_xd.git
@@ -11919,7 +11929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 9f3f2f57b16329a15cf1f18c274792d9842489ba
+      version: dbeb11b333b3c1f72b7c2134de4269f9fc199011
     status: developed
   tf2_2d:
     release:
@@ -12361,7 +12371,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 613b2f9f81ed888c2fac9463963d6dc9d07ba762
+      version: 0f0321a9cdf84737dcac49b5e7f678ddf002e890
     status: developed
   ur_msgs:
     doc:
