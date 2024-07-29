@@ -2817,7 +2817,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: eaaaeab4418e00d5e7f67f9a730be5b2012e8793
+      version: 9dbd42e6b0a05d9f597087a6f06c6d7f752e4ec1
     status: maintained
   laser_geometry:
     doc:
@@ -3499,7 +3499,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 44d1e91414b2fba4a7429f4eaca794d3e511481b
+      version: 7c368b81f33588eada967f1d3dcc6ebf5a392ef2
     status: developed
   mola_test_datasets:
     doc:
@@ -3514,7 +3514,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: f123002efa8e61caa36073bbbb5b8bb598f226db
+      version: c2145d6cd33ac741792a5454fd624e4bf094e400
     status: developed
   motion_capture_tracking:
     doc:
@@ -3658,7 +3658,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 16803c47484bd774bf8b921899cae25711a906b7
+      version: ddfc3fbb431595a19e1d884334794d943a9a4417
     status: developed
   mqtt_client:
     doc:
@@ -3679,20 +3679,13 @@ repositories:
       version: 4016873a6b66f3b0ea158c7ff975a8adcb336466
     status: maintained
   mrpt2:
-    doc:
-      type: git
-      url: https://github.com/MRPT/mrpt.git
-      version: develop
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
       version: 2.13.4-1
-    source:
-      type: git
-      url: https://github.com/MRPT/mrpt.git
-      version: 31218231e57367d9a577cfcc6376314dd2fd18ed
-    status: developed
+    status: end-of-life
+    status_description: Deprecated by packages mrpt_ros and python_mrpt_ros
   mrpt_msgs:
     doc:
       type: git
@@ -3747,6 +3740,16 @@ repositories:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
       version: 0c64b339b4e9f7fcb5f11ab3c15839d656a467b2
+    status: developed
+  mrpt_ros:
+    doc:
+      type: git
+      url: https://github.com/MRPT/mrpt_ros.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/MRPT/mrpt_ros.git
+      version: b6124c33d31a56fe4d5c8bf5a69abfbb822fdf34
     status: developed
   mrpt_sensors:
     doc:
@@ -4852,6 +4855,16 @@ repositories:
       url: https://github.com/ros2/python_cmake_module.git
       version: e56d9aec78ada15902121607326ed4dddd178d0c
     status: developed
+  python_mrpt_ros:
+    doc:
+      type: git
+      url: https://github.com/MRPT/python_mrpt_ros.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/MRPT/python_mrpt_ros.git
+      version: 3a97b79e174dbc1aeb12bfa6eb9b07aa552caa2a
+    status: developed
   python_qt_binding:
     doc:
       type: git
@@ -5192,7 +5205,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 2a8f23ed1b52ea2355658cce09d7045b955f417a
+      version: 573d9c88904e574aa0b333afa2cf68e6c4997971
     status: maintained
   rcpputils:
     doc:
@@ -5467,7 +5480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: a265614cc072c0d2dc68372fc8dfed307b5203f0
+      version: 47722c616b7c5cabcbad1b27f718e23b5916d406
     status: developed
   rmf_simulation:
     doc:
@@ -6497,11 +6510,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosx_introspection-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
-      version: 56ea4fae25ef91a0d0a4ca80243df016a7f4d426
+      version: 3922e2c6b1bd17d96f4dc6d3a4cb215bccd14606
     status: developed
   rot_conv_lib:
     release:
