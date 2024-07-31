@@ -1156,7 +1156,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 0447648c6481119986f9eb1dbf951c7201b01e90
+      version: cd24251b844b6243fdd1b1d9fb198a8492d6f0ca
     status: maintained
   dolly:
     doc:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 8f806967ef7495ad736a532e65f08700bd529497
+      version: 63d1cc2f7b996ccb5843e26a10669b9e50f04215
     status: developed
   ecl_core:
     doc:
@@ -1785,7 +1785,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: efbcaef49f4e30bc8de71a92cdf2d4bed301cdd9
+      version: 05f362ab858c90358932d8fec07a19848e0e3884
     status: developed
   foxglove_msgs:
     doc:
@@ -2286,7 +2286,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: a9bf81f73ad91f35bf32de068205e44f49157914
+      version: c8a74cc06f85ab87e037ea251051d4dea1b7a05b
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2542,7 +2542,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: 5bbd2f225ecb79d1651c194166b0ab82af1fc749
+      version: f23a4ce69320e2cc77f42f9bb75815abbdfefbef
     status: maintained
   imu_pipeline:
     doc:
@@ -3052,15 +3052,19 @@ repositories:
       version: 3ccc18e6b1c5f2c91b372461e6137e6d1001fc9c
     status: developed
   libcamera:
+    doc:
+      type: git
+      url: https://git.libcamera.org/libcamera/libcamera.git
+      version: v0.3.1
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.3.0-3
+      version: 0.3.1-1
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: c9152bad5ce905f5a31dbd05b40195f02c0cc2a9
+      version: 7f33dfc100b2da0f158494534138a2d8b4f95100
     status: maintained
   libg2o:
     release:
@@ -3325,7 +3329,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: f93d754f3dc880ba387bd201879186c7a3bd69cd
+      version: 4c9392afbf8fd8b9bf5b3e1f2270fa0cea85859f
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3475,7 +3479,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 1d100720843b272b3a88e9bafaebb0838958752a
+      version: eed104781c3abfab89f4f36832c09e64eb5ef2d9
     status: developed
   mola_common:
     doc:
@@ -3500,7 +3504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 57b2a012c98df3a64079eb43131db3c4f8c7e6d8
+      version: 6e3b383281d16cbbfee96bdee9858082e96137e6
     status: developed
   mola_test_datasets:
     doc:
@@ -4533,7 +4537,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 43d91447a2b181cdd6f40440d07f7769ab4da88e
+      version: 2fbec139411fd756b5195530b7e37a7f896e6dc3
     status: developed
   plotjuggler:
     doc:
@@ -5206,7 +5210,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 14a423ac76adb7a6a2f92548bea9f1a665d403f0
+      version: dc72d8cdb160b7d4a740cfbf54cca67ed190038d
     status: maintained
   rcpputils:
     doc:
@@ -7190,7 +7194,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 088d1ab1c091b2085518f0bf624f781dcf694b16
+      version: cb36d82506910ab003261b3f65b7939a96f694f5
     status: maintained
   slg_msgs:
     doc:
@@ -8414,7 +8418,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 4448c165a22fb65997bfc99f0169b6d763bd3d7b
+      version: b90f9158ac3cfe6ec72500f2bc740246fd7511d0
     status: maintained
   xacro:
     doc:
