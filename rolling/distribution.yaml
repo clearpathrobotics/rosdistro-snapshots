@@ -1151,12 +1151,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 4.3.0-1
+      version: 4.3.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: cd24251b844b6243fdd1b1d9fb198a8492d6f0ca
+      version: bb392ee850b7d549e621c265b214c47ad9f2dd8f
     status: maintained
   dolly:
     doc:
@@ -1781,11 +1781,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.7.9-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 05f362ab858c90358932d8fec07a19848e0e3884
+      version: 26d5fac4d11b34edc583ff63236910c94f4416e7
     status: developed
   foxglove_msgs:
     doc:
@@ -2427,7 +2427,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hpp_fcl-release.git
-      version: 2.4.4-2
+      version: 2.4.5-1
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
@@ -2537,12 +2537,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 4.0.1-1
+      version: 5.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: f23a4ce69320e2cc77f42f9bb75815abbdfefbef
+      version: 65bebb484570c83fc0e4c95ae359792028b48c94
     status: maintained
   imu_pipeline:
     doc:
@@ -2859,7 +2859,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
-      version: a8d3b8837b78b5c6a2c7730f4476ce37aae6a333
+      version: e657ee8ff8c6d5e263dce233651e85c1617717d4
     status: maintained
   launch:
     doc:
@@ -3064,7 +3064,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 7f33dfc100b2da0f158494534138a2d8b4f95100
+      version: a3ddf56a00c1cd7801c6e3c9a628618978377c9f
     status: maintained
   libg2o:
     release:
@@ -3324,12 +3324,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 6.0.2-1
+      version: 6.0.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 4c9392afbf8fd8b9bf5b3e1f2270fa0cea85859f
+      version: c69aaed5a6ac58f388ff123edf35a558abe613fb
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3479,7 +3479,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: eed104781c3abfab89f4f36832c09e64eb5ef2d9
+      version: 5aa3d0fe2bcdcea05fb0e450499ee83c81c70f5d
     status: developed
   mola_common:
     doc:
@@ -3504,7 +3504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 6e3b383281d16cbbfee96bdee9858082e96137e6
+      version: 65d92cf202f9063236641c260499c80c794a8f2b
     status: developed
   mola_test_datasets:
     doc:
@@ -3595,7 +3595,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 51c38625b0e935a50230624bd8f7beaae46600d7
+      version: 1d93035fc4fbc2831916bce26d7b03e15b8a86d5
     status: developed
   moveit_msgs:
     doc:
@@ -3729,7 +3729,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: affa55b20a84b42f9fbcafa421b178a32896dad2
+      version: 80cbdb3f92cbf6a7b8506bc31c0c6a55c90ac2c6
     status: developed
   mrpt_path_planning:
     doc:
@@ -5073,7 +5073,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rcdiscover.git
-      version: 12ce0926fe272907b131d93c51d29a555d5aa646
+      version: 6f2af2f16395fbd4842606014052bdc02c7e6547
     status: developed
   rcl:
     doc:
@@ -5210,7 +5210,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: dc72d8cdb160b7d4a740cfbf54cca67ed190038d
+      version: adfcb2bd00a8301b310e4fd90731d61e94a86753
     status: maintained
   rcpputils:
     doc:
@@ -5914,7 +5914,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: e4b7827c7545c03aa977bbde92149606cb73e6a9
+      version: 33e35f0cf330d51290c13405e5af04544c795fe5
     status: developed
   ros2_easy_test:
     doc:
@@ -6263,7 +6263,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 86f681d9f525a4b7c3b4133d6b657e342283aad8
+      version: 990475c7e252c38ee62ab45b9139b46e92fd3360
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7204,7 +7204,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ajtudela/slg_msgs.git
-      version: 8c4f09d50f9b59b9b67d79e8c09e98accc076997
+      version: 7013c16979a203f0387e13d26eb51a8e6580f1d6
     status: maintained
   slider_publisher:
     doc:
@@ -8418,7 +8418,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: b90f9158ac3cfe6ec72500f2bc740246fd7511d0
+      version: 0e70d814096bbbc6f47bacea445ce53bea41a74d
     status: maintained
   xacro:
     doc:
