@@ -1006,7 +1006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 65814d985aa29bed0adfaed5f2ebd8cf26266056
+      version: bbac894228912eaf2779fa4e1aa3096e7438b8e3
     status: maintained
   control_toolbox:
     doc:
@@ -1021,7 +1021,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 7d8f74526427e5494e206c157fbec2ed89b90712
+      version: 36f08c8e970cdaf48f2bc4c14300596525bc3a20
     status: maintained
   cpp_polyfills:
     release:
@@ -1877,7 +1877,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: bfc22d5645dd89b1a8bcea6fa773bd7f921e5faf
+      version: 3da6c015f58c9e7822e9733da1b6c30fe9bc6fc9
     status: developed
   geographic_info:
     doc:
@@ -2286,7 +2286,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: c8a74cc06f85ab87e037ea251051d4dea1b7a05b
+      version: 6c8f5ee47fcb8aabfaa2efcf22df4bf0d2b3c96e
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2731,7 +2731,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 9e0d1c3db541f853a486e3a451a537bd5367b604
+      version: 41d9e744e4b64110dcabe91a46bcf39a3bc05fc0
     status: developed
   kobuki_core:
     doc:
@@ -3064,7 +3064,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: a3ddf56a00c1cd7801c6e3c9a628618978377c9f
+      version: 19bbca3c0b376ba0183f5db53472c8c46cd402b5
     status: maintained
   libg2o:
     release:
@@ -3329,7 +3329,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: c69aaed5a6ac58f388ff123edf35a558abe613fb
+      version: e60450dabf1daf56642efe52fb790f8ecaacd9d7
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -5560,7 +5560,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: fc525156f7f533a939fc509d94d8a5b688ac0cbf
+      version: f5d138188678d7adfd2e6d6e908359c555ff1021
     status: developed
   rmf_utils:
     doc:
@@ -5814,6 +5814,12 @@ repositories:
       url: https://github.com/ros/robot_state_publisher.git
       version: 32848eea4e6c8c66bc5db433688a0b4f1e8811ed
     status: maintained
+  robotraconteur:
+    source:
+      type: git
+      url: https://github.com/robotraconteur/robotraconteur.git
+      version: 5908520ef8c218d59dbff774b3f87121bdd1c4fc
+    status: maintained
   ros1_bridge:
     source:
       test_commits: false
@@ -5876,7 +5882,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 5cd1a43f8c95b5586ae4d5728e5052892ae1c80e
+      version: 42107676e96d6517c258cb9c06e0adcfbb23fc3b
     status: developed
   ros2_controllers:
     doc:
@@ -5914,7 +5920,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 33e35f0cf330d51290c13405e5af04544c795fe5
+      version: 9ab820522aa0ea5c7d1a6c93c3325545641b4408
     status: developed
   ros2_easy_test:
     doc:
