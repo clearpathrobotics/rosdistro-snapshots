@@ -2663,6 +2663,9 @@ repositories:
       - etsi_its_cam_coding
       - etsi_its_cam_conversion
       - etsi_its_cam_msgs
+      - etsi_its_cam_ts_coding
+      - etsi_its_cam_ts_conversion
+      - etsi_its_cam_ts_msgs
       - etsi_its_coding
       - etsi_its_conversion
       - etsi_its_cpm_ts_coding
@@ -2679,7 +2682,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 2.1.0-3
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
@@ -6261,7 +6264,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: ddfc3fbb431595a19e1d884334794d943a9a4417
+      version: f673fa037a64300ebffe871fb8313e671ba9d894
     status: developed
   mpc_local_planner:
     doc:
@@ -6329,7 +6332,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt/mrpt.git
-      version: 5b6f10b126e2975b807f610d45c839231b8bf2f1
+      version: a5559bac64798e74c4c4ee68dea3b6766ee314b9
     status: developed
   mrpt_msgs:
     doc:
@@ -6498,7 +6501,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 65bed9135394a2f7fb9d1299a38a365ef19b5f30
+      version: efb4683e95a676575af8c5cd1d18f18a81b2d456
     status: developed
   nao_meshes:
     release:
@@ -7839,7 +7842,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ADVRHumanoids/point_cloud2_filters.git
-      version: e4e917db4164b8250ca59318626fc14105ab6aed
+      version: 667da66d0537eb68af2bc25dacd6598701fd49e7
     status: maintained
   point_cloud_color:
     doc:
@@ -11217,7 +11220,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver-release.git
-      version: 1.4.0-5
+      version: 1.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -12526,7 +12529,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/seqsense/urg_stamped-release.git
-      version: 0.1.1-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
