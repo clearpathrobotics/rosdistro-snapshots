@@ -617,7 +617,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: f8f29ab7b2a0b64bad3153b9d4663caa63f94b65
+      version: 4620237e836dfdb1e2db8acce9e8c4ad4ccc17f8
     status: developed
   avt_vimba_camera:
     doc:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 9e8ecbbe2e0f30e05b2f492d4b2fb3f11bfb7e7e
+      version: 5a4300b68dffdc830a61010e13531452168fd9ec
     status: developed
   ecl_core:
     doc:
@@ -3595,7 +3595,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 19d4a2818bca7024305cbf5be5c3bca4186351d5
+      version: 4ad84ccc5a1541e150609f1dd783185c8cbc0737
     status: developed
   moveit_msgs:
     doc:
@@ -3688,7 +3688,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt2-release.git
-      version: 2.13.4-1
+      version: 2.13.5-1
     status: end-of-life
     status_description: Deprecated by packages mrpt_ros and python_mrpt_ros
   mrpt_msgs:
@@ -3805,9 +3805,10 @@ repositories:
       url: https://github.com/ros2-gbp/mvsim-release.git
       version: 0.9.4-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: efb4683e95a676575af8c5cd1d18f18a81b2d456
+      version: 79fb822904057fc8fd4ca55d120ff61044eb7c71
     status: developed
   nao_button_sim:
     doc:
@@ -4438,7 +4439,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: e17be742abd8324d5f736df7a01c3b827817933f
+      version: db7f1ee8b1a103b08418006ed8182196fd40c418
     status: maintained
   performance_test_fixture:
     release:
@@ -5210,7 +5211,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 464a357a7d9e39a12aed966fa3ccb44d50bb6816
+      version: ee79763648858bffa2a84b76e092fe0b20504aa8
     status: maintained
   rcpputils:
     doc:
@@ -6588,7 +6589,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: c465dfba882dc5ef43c00a2f2a9a09a76edf0842
+      version: 6ed041c520b0d2d582777ae1106519ed5c2cd265
     status: maintained
   rqt_action:
     doc:
@@ -6661,7 +6662,7 @@ repositories:
     source:
       type: git
       url: https://github.com/niwcpac/rqt_dotgraph.git
-      version: 4b83ce947e59528d37041fa31cde913518254077
+      version: 7cc8b44d1739f362ec2633d4566e0e3c0b10ae44
     status: maintained
   rqt_gauges:
     doc:
@@ -7971,7 +7972,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 7c0a5c3f70376b71ea00a8f4175c2b68f140a9d1
+      version: b2f3b744d6dd29a6d625d3847c8435ceb883dd29
     status: developed
   ur_msgs:
     doc:
@@ -8008,7 +8009,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: fdeeacb3ef90fe4d1db82ccc024f272cbc7a2099
+      version: e697644b326dc5827e3883d10278822d2c7dcbc7
     status: developed
   urdf:
     doc:
@@ -8395,7 +8396,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_sqlite.git
-      version: d56050df29852212b94c4ae87a383beb4bffb021
+      version: 920fd2e300513fbb022e1aa42a9d110708ff0281
     status: maintained
   webots_ros2:
     doc:
@@ -8424,7 +8425,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: e06572d11f60399bd086efc6ae5725396cce5374
+      version: 950cb03bf408e55a3f16fd7668d773bffea11d95
     status: maintained
   xacro:
     doc:
