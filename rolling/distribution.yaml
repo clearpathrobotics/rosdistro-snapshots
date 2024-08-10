@@ -215,7 +215,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_index.git
-      version: 186831ac95e05632936b1399f8eda34d9f2199f4
+      version: 1ef3b4c92b54bf0530efb01424b65856b44a25ef
     status: maintained
   ament_lint:
     doc:
@@ -678,7 +678,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: c94b2c3cd448f44aacedad3dc1286e0f37164f1f
+      version: 0f497b38e9b0b0b2f6464304bc01645612b7bc9d
     status: maintained
   backward_ros:
     doc:
@@ -2144,7 +2144,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_fuel_tools_vendor-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_fuel_tools_vendor.git
@@ -2312,7 +2312,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_sim_vendor-release.git
-      version: 0.1.1-2
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/gazebo-release/gz_sim_vendor.git
@@ -3189,7 +3189,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 1979d6be3fe4e22f2c14cbc439ef49dd124b5d0a
+      version: d2242ed43ce1f8636cfe5e77d9528bb5761cef3a
     status: developed
   marine_msgs:
     doc:
@@ -3263,7 +3263,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: fd51de8c3becf056b5ccfa2a887f08b7b8ea9635
+      version: defcfb9f3a23f81cf6ea7340e3c93b303db428fc
     status: developed
   mavlink:
     doc:
@@ -3479,7 +3479,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 5385a41f37d77d4c57367365d983d8ef440ea488
+      version: 23349f660912bff315f2a7d8c7e52141d65d486b
     status: developed
   mola_common:
     doc:
@@ -3494,7 +3494,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 3266c465e2b98449aa93ff9c33254522cd9a2e23
+      version: 07a98c92d495e0105d90af2351b3610dac7e0d11
     status: developed
   mola_lidar_odometry:
     doc:
@@ -3504,7 +3504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 1a5607e95133af27284205bba3477d4b2eb22fad
+      version: a290df32729652cf396a77c23f1212aff117b8c4
     status: developed
   mola_test_datasets:
     doc:
@@ -3595,7 +3595,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 50310747e4eb0c8a50c3eb866d2b017033416465
+      version: f8738b2f5699b01870249b51352459240f2c33f8
     status: developed
   moveit_msgs:
     doc:
@@ -3633,7 +3633,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: 6d3084a3fcaaaef84695ddd57aebb8637935eb56
+      version: c4d86cf67bb6798da1b56d423d75f4dc8642be19
     status: developed
   moveit_visual_tools:
     doc:
@@ -3721,11 +3721,12 @@ repositories:
       - mrpt_pointcloud_pipeline
       - mrpt_rawlog
       - mrpt_reactivenav2d
+      - mrpt_tps_astar_planner
       - mrpt_tutorials
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_navigation-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -3777,7 +3778,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 35557b295057dea13440a3c79310eeabc4e09c5f
+      version: 833f9a3c650a2e62e1cba5d92c9b2763af634f19
     status: developed
   mrt_cmake_modules:
     doc:
@@ -3808,7 +3809,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 79fb822904057fc8fd4ca55d120ff61044eb7c71
+      version: 3c8571e34a7911a5716c0cd1e7c00d4f0546f2bb
     status: developed
   nao_button_sim:
     doc:
@@ -5819,7 +5820,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur.git
-      version: 5908520ef8c218d59dbff774b3f87121bdd1c4fc
+      version: 598e6ac5a2757a98a99fe3a7a1209978b33ed734
     status: maintained
   ros1_bridge:
     source:
@@ -5883,7 +5884,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 32e471a0f85dfbb120891171f8c35059f612f012
+      version: a1ad5237c1ee0df7e82e9339b8fb566f265c19be
     status: developed
   ros2_controllers:
     doc:
@@ -6270,7 +6271,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 990475c7e252c38ee62ab45b9139b46e92fd3360
+      version: ce918b786095757a458a71b5b36ccdc818851246
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6987,7 +6988,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rt-net/rt_manipulators_cpp.git
-      version: 01d9425e41f9c581fec865d0b404f35331349fd6
+      version: cf8726bc1152f59f599db139f5cfa5b73bdc6317
     status: maintained
   rtabmap:
     doc:
@@ -7116,7 +7117,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_vendor-release.git
-      version: 0.1.2-1
+      version: 0.1.3-1
     source:
       type: git
       url: https://github.com/gazebo-release/sdformat_vendor.git
