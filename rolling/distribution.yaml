@@ -1877,7 +1877,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: c798ce92279f60176e98d9727ba17d63b9466717
+      version: e7909a07fea2372e91a0dfb6ccb510ba90b33ff7
     status: developed
   geographic_info:
     doc:
@@ -2520,7 +2520,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 6ef6cc001ecef5c38c821613794d63f4f233f8d6
+      version: a7c0b09c5e37fcaf7e3153e6d353687a793ee3f9
     status: maintained
   image_transport_plugins:
     doc:
@@ -3164,7 +3164,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/magic_enum-release.git
-      version: 0.9.5-2
+      version: 0.9.6-1
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
@@ -3501,6 +3501,11 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
       version: develop
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -3752,6 +3757,26 @@ repositories:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
       version: main
+    release:
+      packages:
+      - mrpt_apps
+      - mrpt_libapps
+      - mrpt_libbase
+      - mrpt_libgui
+      - mrpt_libhwdrivers
+      - mrpt_libmaps
+      - mrpt_libmath
+      - mrpt_libnav
+      - mrpt_libobs
+      - mrpt_libopengl
+      - mrpt_libposes
+      - mrpt_libros2bridge
+      - mrpt_libslam
+      - mrpt_libtclap
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt_ros-release.git
+      version: 2.13.6-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4194,11 +4219,20 @@ repositories:
       version: fe50b0e74c8303e6be51bfff2a3860f7bacbef5f
     status: developed
   ompl:
+    doc:
+      type: git
+      url: https://github.com/ompl/ompl.git
+      version: main
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
-      version: 1.5.2-4
+      version: 1.6.0-1
+    source:
+      type: git
+      url: https://github.com/ompl/ompl.git
+      version: af4d6d625e15a4ed6d85255c718ce26bcd79e4cc
+    status: developed
   openeb_vendor:
     doc:
       type: git
@@ -4766,7 +4800,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 0d5b39f2f6333c504406d8a63052c456c6bd1ce5
+      version: 8bfe7c382d4efa0cbb17a7dc46190de5405c03c2
     status: developed
   py_trees_js:
     doc:
@@ -5319,7 +5353,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 2.5.0-3
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
@@ -5857,7 +5891,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 27ed7fb6265ccfd53c475d4427881e3d8da192c6
+      version: eb219ebd9a8a3743a15c0f6d82356b9e1443e803
     status: developed
   ros2_control:
     doc:
@@ -5884,7 +5918,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: eb4316b1dc65d9a93a2463b4f2b22f3510f0ab1b
+      version: 80c264f024c06079707378e0bbaf0f361a1dff6c
     status: developed
   ros2_controllers:
     doc:
@@ -5918,7 +5952,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.12.0-1
+      version: 4.12.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -6103,6 +6137,14 @@ repositories:
       type: git
       url: https://github.com/ipa320/ros_battery_monitoring.git
       version: main
+    release:
+      packages:
+      - battery_state_broadcaster
+      - battery_state_rviz_overlay
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ros_battery_monitoring-release.git
+      version: 1.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7182,7 +7224,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_actions-release.git
-      version: 0.3.0-2
+      version: 0.4.0-1
     source:
       test_pull_requests: true
       type: git
