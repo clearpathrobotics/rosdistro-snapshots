@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 6a44dad4d66ce2e064d8f06b8cdb89c0db96d1bb
+      version: bfea3088947a35921fa893a547c8c1abde91934e
     status: developed
   ecl_core:
     doc:
@@ -1553,8 +1553,18 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: a73d86edbe16b953fbc16a42b23e8932c8676654
+      version: 6ec65747fce970798f02a1183a5f5358e9a190ef
     status: maintained
+  ffmpeg_encoder_decoder:
+    doc:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
+      version: release
+    source:
+      type: git
+      url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
+      version: 9c25f94b28bf32431bef147e4071dd2cdaca2136
+    status: developed
   ffmpeg_image_transport:
     doc:
       type: git
@@ -1629,7 +1639,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/filters.git
-      version: 38a41429a5bc0fe47fb0e9577c88004cd6ec7e29
+      version: eebb5f5aaa223f87b8d7bb97c04dc76e991944a0
     status: maintained
   find_object_2d:
     doc:
@@ -2088,7 +2098,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: c6bd3f8e321c1570583c93f29f0791c53e4cf5a0
+      version: 67976ad4bcb79b6c271ed64bb61671d2fa92fed1
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2515,12 +2525,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.2-1
+      version: 6.0.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: d272c4e3379104aa1ea8c9315d63a88ba4175d9c
+      version: a5c2a7a76dfe10d85b22a36808ba31984655f177
     status: maintained
   image_transport_plugins:
     doc:
@@ -3064,7 +3074,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: ce690bd9d7abeab6e7f69b83d0ad4d6fac47aa25
+      version: 119277b8ce4ae4bb98d94c16e756f26c174f0250
     status: maintained
   libg2o:
     release:
@@ -3664,11 +3674,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.5.2-1
+      version: 1.5.3-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 0b0289226b274c54125dab94fa90474c77a8ef39
+      version: 2fd0bc593b9f83d549f23fe5cb316750c6aca598
     status: developed
   mqtt_client:
     doc:
@@ -3780,7 +3790,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: 54fd767d4bc6556fb73bda1f9a71a4a08bcb780e
+      version: d2b58021361514f939bbe8d569f87888bc9a0c3f
     status: developed
   mrpt_sensors:
     doc:
@@ -4573,7 +4583,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 7481a1c155709972d55838955ba47742a38b76f1
+      version: 178d99689000de4f6840e6d34d792d4b3a8441bb
     status: developed
   plotjuggler:
     doc:
@@ -4773,7 +4783,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 315f4d301fb1e9666108737f36c22996cae1785e
+      version: 22d0d91d1b3178a47578dfc988431e6b5cdfcb4a
     status: developed
   py_binding_tools:
     release:
@@ -5802,7 +5812,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: b78d6a15ca47681ddd11613c085fe41420fa9168
+      version: 90a16ec850b75bc66a32f5393586c12acfcd26ff
     status: developed
   robot_calibration:
     doc:
@@ -5820,7 +5830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
-      version: 044d5dead3fa149f10cf4c2ec4030f57ae5778f9
+      version: 4220f4519720b58af3951c1e6c81fa8335142823
     status: developed
   robot_localization:
     release:
@@ -6313,7 +6323,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: ce918b786095757a458a71b5b36ccdc818851246
+      version: 270884ade2158edf8a0a8fb009467a45c8abcf16
     status: developed
   rosbag2_bag_v2:
     source:
