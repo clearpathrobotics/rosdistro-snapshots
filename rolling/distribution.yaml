@@ -147,7 +147,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 446e3ede3ec268bcc9f76be27b4a2a24ba6a96bb
+      version: 4c630d4c36af09e8a426ef5c1fbc8850f656019c
     status: developed
   ament_cmake_catch2:
     doc:
@@ -585,7 +585,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 1d3219aae488f21a491553d278296849732fc8f6
+      version: eb4736174f4cbb92cb2e5a92df15068adf2d7887
     status: developed
   autoware_msgs:
     release:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 4f8bad0c91dd3e8c7a1b738c3b40dd2bcb08e203
+      version: e13cadbf4cc2a3441e0f2582bf85854ffd31c6d0
     status: developed
   ecl_core:
     doc:
@@ -1897,7 +1897,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: e7909a07fea2372e91a0dfb6ccb510ba90b33ff7
+      version: 28b187098a6ed12e6fff2e4276cd2b1f365b4e61
     status: developed
   geographic_info:
     doc:
@@ -2306,7 +2306,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 7573f5b3c3041d7a02fa1677cb5b04d981123455
+      version: cbdd3a3fc6dcb49072b501984c3294a20872dcd8
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2540,7 +2540,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: a5c2a7a76dfe10d85b22a36808ba31984655f177
+      version: dbf697de8ac6e3f06044bc920a36785b28cb1cf4
     status: maintained
   image_transport_plugins:
     doc:
@@ -2837,7 +2837,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: 913a34280bc30ab54d8d32f4bce585b3f2f0e01b
+      version: 4945cd7dd1e92aa869b6af8c03c9efc252d887b0
     status: maintained
   laser_geometry:
     doc:
@@ -3349,7 +3349,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: dcfabee20f275c568a96cf14ad907e193ac335a1
+      version: a9af91b1217bbcd10fdf98e9b4fda76877dcda11
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3499,7 +3499,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: e33a80781ee912b6e052c7f75e4186e5fd156943
+      version: 5557ce5dde5d49ddecba3b0bdacc21ebc3431900
     status: developed
   mola_common:
     doc:
@@ -3620,7 +3620,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 5548ef152a9b4fdbf87551b4a4291ba7ea1883d9
+      version: 600227747ab4e0a61de4b5239da5e8cea3d2fa7d
     status: developed
   moveit_msgs:
     doc:
@@ -3800,7 +3800,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: d2b58021361514f939bbe8d569f87888bc9a0c3f
+      version: 27aaed29ff147ee054056c426fc0a7f85b8b291e
     status: developed
   mrpt_sensors:
     doc:
@@ -4593,7 +4593,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 178d99689000de4f6840e6d34d792d4b3a8441bb
+      version: df7abe46381ee5610d971b516f4d47e3c8aaf916
     status: developed
   plotjuggler:
     doc:
@@ -5150,7 +5150,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: dcfe9ba4f95e3c0d546d30b3f03b769df16667a1
+      version: 522f3476c76d911d72922584b18df1fa1761f608
     status: maintained
   rcl_interfaces:
     doc:
@@ -5266,7 +5266,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 7e3005a689c7240cc5b0a3c030b36b88a12166d9
+      version: 47346ef9688039b890ae19c499d4b51587a7305b
     status: maintained
   rcpputils:
     doc:
@@ -5725,7 +5725,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: c8ffbfd5713463b314c4b4ea825e139bd29e806d
+      version: 500baaa0d9032a51335e349023b363c093680ca0
     status: developed
   rmw_cyclonedds:
     doc:
@@ -5934,11 +5934,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.15.0-1
+      version: 4.16.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: ecfec159921bc646cf6350eab4e8bdc7bb48b6ed
+      version: 08492a161b581b720a7b123a24ff74aef09dd370
     status: developed
   ros2_controllers:
     doc:
@@ -5972,7 +5972,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.12.1-1
+      version: 4.13.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -6333,7 +6333,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: f0f3cc5f57ba9142b763247a68acc571d2500bb5
+      version: 604cebcf11775151efa94f7c30ba1aea68e90c5c
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7149,7 +7149,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
-      version: 101b1d19f8b9452c6f3f86a14196f939c6714899
+      version: 0b7dc4825b254c79d073c8eb7c5db105d019c716
     status: maintained
   sdformat_urdf:
     doc:
