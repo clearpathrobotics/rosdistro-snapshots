@@ -3796,7 +3796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 54711929fac5d70b7c52a2eb2d6bf2ea84a7ddf3
+      version: d94e50af805c8bd44fb56a468af3d05438dd7ae1
     status: developed
   haf_grasping:
     doc:
@@ -6284,7 +6284,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 2fd0bc593b9f83d549f23fe5cb316750c6aca598
+      version: ebaa5c0e3d57d5af16f59ed6d1921a7d12ff004e
     status: developed
   mpc_local_planner:
     doc:
@@ -6426,17 +6426,17 @@ repositories:
       - mrpt_libobs
       - mrpt_libopengl
       - mrpt_libposes
-      - mrpt_libros2bridge
+      - mrpt_libros_bridge
       - mrpt_libslam
       - mrpt_libtclap
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.13.6-3
+      version: 2.13.7-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: 27aaed29ff147ee054056c426fc0a7f85b8b291e
+      version: 6dae82c7a5832cb422fe7e33a72e8e671666121a
     status: developed
   mrpt_sensors:
     doc:
@@ -11532,6 +11532,21 @@ repositories:
       type: git
       url: https://github.com/robosoft-ai/smacc.git
       version: e5abc09c51b16a8911b2516892afc953a00020ea
+    status: developed
+  snmp_diagnostics:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/snmp_diagnostics.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/snmp_diagnostics.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/snmp_diagnostics.git
+      version: 03244d41bbc3e52d07f12db9ba4c0818ad71061d
     status: developed
   snmp_ros:
     doc:
