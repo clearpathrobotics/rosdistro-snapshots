@@ -585,7 +585,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 5e09dc7a2ffd07f030c885b0564fb0bd83c19805
+      version: ae87d0df3fe1a275bce9e5e18abc000c8a87361d
     status: developed
   autoware_msgs:
     release:
@@ -1623,7 +1623,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 2e1e43bc483c369091246d3f633609b08207f0a6
+      version: a45f6974a05ac72049832d90f7d9a8f5a2bea7c4
     status: developed
   filters:
     doc:
@@ -2108,7 +2108,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 77b8123ed0a8da11e2368d2f82de575fe6f2e987
+      version: 3aca281cafc89b5638c553063c2c32c6cc77f77c
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3084,7 +3084,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 874b63d5cb3f772d361ce891721e7580b09dd378
+      version: 9020c2eec9de5d9b5bc1016b26e714b1c0206441
     status: maintained
   libg2o:
     release:
@@ -3499,7 +3499,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 02c8b57312dc4c0bfcaef920bcb406381282f225
+      version: 21b052785d4d3e8443aa60227e4eb34a845418e2
     status: developed
   mola_common:
     doc:
@@ -3529,7 +3529,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 6ef37bcd31fec33ad01b9e624fe3db2395163487
+      version: 3908dbde40e6e4e54b7b759b732c8224cab36e05
     status: developed
   mola_test_datasets:
     doc:
@@ -3684,11 +3684,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.5.3-1
+      version: 1.5.5-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: ebaa5c0e3d57d5af16f59ed6d1921a7d12ff004e
+      version: 409e3b964ef57640df98453b6ef29d2ccb402da5
     status: developed
   mqtt_client:
     doc:
@@ -3755,7 +3755,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 8ed10b610f73ef382ba7184f1b528d377d626f38
+      version: e733ed85c0b2ed73a9955ddb9dddb18203e74a96
     status: developed
   mrpt_path_planning:
     doc:
@@ -3770,7 +3770,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 0c64b339b4e9f7fcb5f11ab3c15839d656a467b2
+      version: a881ffaab8aa03d700ee5da5bb702f86fbecd513
     status: developed
   mrpt_ros:
     doc:
@@ -3800,7 +3800,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: d6d761ab1085bbd70e3f412ea020a35ddb946097
+      version: fc04438ffdd3e03bf351c91647f9c0548f51e1d4
     status: developed
   mrpt_sensors:
     doc:
@@ -3823,7 +3823,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: 833f9a3c650a2e62e1cba5d92c9b2763af634f19
+      version: b28d16a0ad451221e25d440ab76f77ede37146c6
     status: developed
   mrt_cmake_modules:
     doc:
@@ -3854,7 +3854,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: b1427eab2dc49db9fff972b6e06e74f60727d9a8
+      version: 3e90b33c919c9d9c2a4197bc710de05263e2002c
     status: developed
   nao_button_sim:
     doc:
@@ -4574,7 +4574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: e8befa845da451d5cffd2c9497d76940fd6d3d41
+      version: 0b594a0fb803fcc2141856e6fb8c69bcf1e8981b
     status: developed
   plotjuggler:
     doc:
@@ -4755,11 +4755,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.11-2
+      version: 0.3.12-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
-      version: 29d3b7d4bed51e56640c7e64184bb9f914c7ac39
+      version: b9e4aa11b60cee539376a55e1689d6b64584b65b
     status: maintained
   proxsuite:
     doc:
@@ -4774,7 +4774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 6d708e67e4bc2c498bfc282391aec57ded88d0a3
+      version: 72f8c3b13e4c5929f1767bd0ebb4718b1fa3e9a7
     status: developed
   py_binding_tools:
     release:
@@ -4905,7 +4905,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
-      version: 4e9fc9cb2099cad48e62e27927d81682cab45004
+      version: 56c395855abe11d55c60ff87eaaa0ccf0b50075f
     status: developed
   python_qt_binding:
     doc:
@@ -5793,7 +5793,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: e01f7832f7f795856942245fecc5b655197d0f46
+      version: b103174ff42ac382fa0e3e3fef32145721fcfd63
     status: developed
   rmw_zenoh:
     doc:
@@ -5803,7 +5803,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: a9b95a91faf517e881a39dedf59a99d0c950f9e3
+      version: d2e1225639664d4430e57d4d3cf428ddfed29927
     status: developed
   robot_calibration:
     doc:
@@ -5833,7 +5833,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab
+      version: e3753506fb31cd199017af03507c61edba5d86af
     status: maintained
   robot_state_publisher:
     doc:
@@ -5924,7 +5924,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 8f7374faf482e83c94c0a477bfbe8b2e672f241c
+      version: d2004083cc969ed14b0bde4011fa3172988c86b3
     status: developed
   ros2_controllers:
     doc:
@@ -7799,6 +7799,12 @@ repositories:
       url: https://github.com/wep21/turbojpeg_compressed_image_transport.git
       version: e6c9b35e2e20e89ab153a185e1e1b206ca507d72
     status: maintained
+  turtle_nest:
+    source:
+      type: git
+      url: https://github.com/Jannkar/turtle_nest.git
+      version: 3480d238a70bef7ec3fa088cae88cbf8fb13a1c6
+    status: developed
   turtlebot3_msgs:
     doc:
       type: git
@@ -8367,7 +8373,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 6a727de86e6170beb67461797344e9dd3c2a9901
+      version: 07c8be1db4c7311481cf8e7f832b906c0587718c
     status: maintained
   vitis_common:
     doc:

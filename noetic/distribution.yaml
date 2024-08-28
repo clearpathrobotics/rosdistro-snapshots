@@ -2960,7 +2960,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 2e1e43bc483c369091246d3f633609b08207f0a6
+      version: a45f6974a05ac72049832d90f7d9a8f5a2bea7c4
     status: developed
   fields2cover_ros:
     doc:
@@ -3796,7 +3796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 77b8123ed0a8da11e2368d2f82de575fe6f2e987
+      version: 3aca281cafc89b5638c553063c2c32c6cc77f77c
     status: developed
   haf_grasping:
     doc:
@@ -6280,11 +6280,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mp2p_icp-release.git
-      version: 1.5.4-1
+      version: 1.5.5-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: ebaa5c0e3d57d5af16f59ed6d1921a7d12ff004e
+      version: 409e3b964ef57640df98453b6ef29d2ccb402da5
     status: developed
   mpc_local_planner:
     doc:
@@ -6340,20 +6340,13 @@ repositories:
       version: 4016873a6b66f3b0ea158c7ff975a8adcb336466
     status: maintained
   mrpt2:
-    doc:
-      type: git
-      url: https://github.com/mrpt/mrpt.git
-      version: master
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt2-release.git
       version: 2.13.5-1
-    source:
-      type: git
-      url: https://github.com/mrpt/mrpt.git
-      version: 5b42d5a4da172d0bfdd8bcfbbe69c8ce9a80d6ce
-    status: developed
+    status: end-of-life
+    status_description: Deprecated by packages mrpt_ros and python_mrpt_ros
   mrpt_msgs:
     doc:
       type: git
@@ -6406,7 +6399,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 0c64b339b4e9f7fcb5f11ab3c15839d656a467b2
+      version: a881ffaab8aa03d700ee5da5bb702f86fbecd513
     status: developed
   mrpt_ros:
     doc:
@@ -6436,7 +6429,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: d6d761ab1085bbd70e3f412ea020a35ddb946097
+      version: fc04438ffdd3e03bf351c91647f9c0548f51e1d4
     status: developed
   mrpt_sensors:
     doc:
@@ -6551,7 +6544,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: b1427eab2dc49db9fff972b6e06e74f60727d9a8
+      version: 3e90b33c919c9d9c2a4197bc710de05263e2002c
     status: developed
   nao_meshes:
     release:
@@ -7816,7 +7809,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: e8befa845da451d5cffd2c9497d76940fd6d3d41
+      version: 0b594a0fb803fcc2141856e6fb8c69bcf1e8981b
     status: developed
   plotjuggler:
     doc:
@@ -7988,11 +7981,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
-      version: 0.3.11-1
+      version: 0.3.12-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
-      version: 29d3b7d4bed51e56640c7e64184bb9f914c7ac39
+      version: b9e4aa11b60cee539376a55e1689d6b64584b65b
     status: maintained
   power_msgs:
     doc:
@@ -12817,7 +12810,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 6a727de86e6170beb67461797344e9dd3c2a9901
+      version: 07c8be1db4c7311481cf8e7f832b906c0587718c
     status: maintained
   visp_ros:
     doc:
