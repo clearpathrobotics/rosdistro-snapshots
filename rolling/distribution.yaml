@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: b130791c4ba50fc1ca43b4a25ce37be5a5c5742c
+      version: 535989480cbe8395ea34d74ba051430dc6c9ffe2
     status: developed
   ecl_core:
     doc:
@@ -1404,11 +1404,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eigenpy-release.git
-      version: 3.7.0-1
+      version: 3.8.2-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 1e00704bc01e1e209f65b5d9ffe261853c2ce7ca
+      version: f6a47cc1a0231b1ce6dbbd9ef6de97b0b125123c
     status: maintained
   event_camera_codecs:
     doc:
@@ -1560,10 +1560,15 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
       version: release
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ffmpeg_encoder_decoder-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
-      version: 9c25f94b28bf32431bef147e4071dd2cdaca2136
+      version: 99a45cb356107cc7aaedc5c6d4686372906b63ff
     status: developed
   ffmpeg_image_transport:
     doc:
@@ -2108,7 +2113,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 60f880e221015c4a7272ac7ab7111212a6b712c4
+      version: c3842bb0c5f80f34f4586a431ca3606d01a496ad
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2123,7 +2128,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: 6a5dd540031e412523eae1ceb9684dc77512d112
+      version: d57159d7634f4dbbb130d265e427ae7dfe64eb48
     status: maintained
   gz_common_vendor:
     doc:
@@ -2381,7 +2386,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_utils_vendor.git
-      version: 574ba532fa2dd51922b64ec9259d911b84bb99a0
+      version: 3c58be65f5d56fbab2bad1a01a45841d71666448
     status: maintained
   hash_library_vendor:
     doc:
@@ -3084,7 +3089,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 9020c2eec9de5d9b5bc1016b26e714b1c0206441
+      version: 7a36d05795fddf66f3ddaec710a8cace5af5623a
     status: maintained
   libg2o:
     release:
@@ -3529,7 +3534,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 3908dbde40e6e4e54b7b759b732c8224cab36e05
+      version: dbfbe10da912345707dc34059601929147a3f3c6
     status: developed
   mola_test_datasets:
     doc:
@@ -4404,7 +4409,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
-      version: ec6f9b5562a71bcccaccb930eb9b8e8ef3bfed7c
+      version: 75c0453fd59ecee1a6bda4930cae9b06a5af01b2
     status: maintained
   pangolin:
     release:
@@ -4574,7 +4579,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 0b594a0fb803fcc2141856e6fb8c69bcf1e8981b
+      version: 4d95bd927adf96b3d134918bb64652003dd8fdb6
     status: developed
   plotjuggler:
     doc:
@@ -4774,7 +4779,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 72f8c3b13e4c5929f1767bd0ebb4718b1fa3e9a7
+      version: 5bc2b9db87e7b3886b3d21a9f69c886dd49e5c7b
     status: developed
   py_binding_tools:
     release:
@@ -4801,7 +4806,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 8bfe7c382d4efa0cbb17a7dc46190de5405c03c2
+      version: 2b7caf25805c590cb3680232a0d162cf3babfc99
     status: developed
   py_trees_js:
     doc:
@@ -4833,7 +4838,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_ros.git
-      version: 247cf47d509f827bb24464be376e8ed2ddefc0fb
+      version: 1729e289a4d7783dfe3b633bf4d144f3526fce0c
     status: developed
   py_trees_ros_interfaces:
     doc:
@@ -5262,7 +5267,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 47346ef9688039b890ae19c499d4b51587a7305b
+      version: 8a2e2d3de5a96eaa50b9c9336d97396f8489bda4
     status: maintained
   rcpputils:
     doc:
@@ -5818,7 +5823,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: ff7e46c61562de20a1fc4bc29a88975218840c3f
+      version: 60b72f07a7d7254aeed8c39c11174bb52806ee62
     status: developed
   robot_calibration:
     doc:
@@ -5848,7 +5853,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 7b911bb19ca1fbbbdf0532260b4ca1359fbfcfac
+      version: 53a7386acd5b63ec10325137a80dfe0c1ea445ce
     status: maintained
   robot_state_publisher:
     doc:
@@ -5939,7 +5944,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: f743bf401c6ae17fc83928ab2b7296710872703e
+      version: 8552dcfbc3934c006d09dd5950a75506a58c45b0
     status: developed
   ros2_controllers:
     doc:
@@ -6232,7 +6237,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -7829,10 +7834,19 @@ repositories:
       version: e6c9b35e2e20e89ab153a185e1e1b206ca507d72
     status: maintained
   turtle_nest:
+    doc:
+      type: git
+      url: https://github.com/Jannkar/turtle_nest.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/turtle_nest-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/Jannkar/turtle_nest.git
-      version: d07d2adbecf6c89825ef03097e895a575c4c843a
+      version: a8c71a29764f123c454f4849ba83d6a21486a6e4
     status: developed
   turtlebot3_msgs:
     doc:
@@ -8293,7 +8307,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/variants.git
-      version: 70f5a409ae7a9baa44950bf8468742256de67c43
+      version: e59c53f1252c45e16a7c757534f77656c13ab42d
     status: maintained
   velodyne:
     doc:
