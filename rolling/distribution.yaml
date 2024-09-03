@@ -36,7 +36,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/autowarefoundation/autoware.auto/acado_vendor.git
-      version: 6daf1cd09e939222773310870d01d8a3c85c7362
+      version: main
     status: maintained
   ackermann_msgs:
     release:
@@ -340,7 +340,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/apex_test_tools.git
-      version: 8e42ecdfdeb42675e27b7f07b9d992635f0af8a2
+      version: rolling
     status: developed
   apriltag:
     doc:
@@ -546,7 +546,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
-      version: 818d3587d41728422b768898e9c8d2e55bad9e5f
+      version: master
     status: developed
   autoware_cmake:
     release:
@@ -2311,7 +2311,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: dc6375d09e430715cb2405d43166bc9963c7f08c
+      version: 4febdcfa8e2bbcf4eaf1107a53495952d3a3ce94
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3085,11 +3085,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.3.1-1
+      version: 0.3.1-4
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 7a36d05795fddf66f3ddaec710a8cace5af5623a
+      version: ac1c57fcf5dff06ae4e7e5fad7baa8f93c413e37
     status: maintained
   libg2o:
     release:
@@ -3504,7 +3504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 5b7c3ceaa6c89966ac091b9c6796ec197fffbd1d
+      version: 8ccb1eaebdc58afe08750c5ab44b581ad2944735
     status: developed
   mola_common:
     doc:
@@ -3530,11 +3530,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.3.1-1
+      version: 0.3.3-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: a55b36783fbd98cdafc81e69f48e503351f400f5
+      version: edf7519931b87c1a02e4b95ce606f43a5fa1df20
     status: developed
   mola_test_datasets:
     doc:
@@ -3693,7 +3693,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 409e3b964ef57640df98453b6ef29d2ccb402da5
+      version: 3078ce9a2e33bce2a2c5e156d4b20f57f220634e
     status: developed
   mqtt_client:
     doc:
@@ -3756,11 +3756,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_navigation-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 25ed39c1961f9de7aabce8693d3a54fb10b64683
+      version: 32b31c582ddc28959f66287def32853e39ac4134
     status: developed
   mrpt_path_planning:
     doc:
@@ -3824,7 +3824,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_sensors-release.git
-      version: 0.2.2-1
+      version: 0.2.3-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
@@ -3859,7 +3859,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 02fd25f4a974e7703515bb8c2b7bfeaa13c8ef41
+      version: 879215b56e17045ab7bc002c4d82fec2a2be7cb8
     status: developed
   nao_button_sim:
     doc:
@@ -4420,7 +4420,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: f55cb3e5e81cb7d58511fbc3ebadcf0610cae245
+      version: 9f72a8099c5bd67f1837680add5b2ebd718c3e67
     status: maintained
   pcl_msgs:
     release:
@@ -4480,7 +4480,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: db7f1ee8b1a103b08418006ed8182196fd40c418
+      version: master
     status: maintained
   performance_test_fixture:
     release:
@@ -4579,7 +4579,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 4d95bd927adf96b3d134918bb64652003dd8fdb6
+      version: 70eebe87bcca2574f2e4481bab81fbcdcfbefd54
     status: developed
   plotjuggler:
     doc:
@@ -4655,7 +4655,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
-      version: 5eabe4cc125f550133ab69a5a08d7f40b84a035c
+      version: rolling
     status: developed
   point_cloud_transport:
     doc:
@@ -5251,7 +5251,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: ee94bc63e4ce47a502891480a2796b53d54fcdfc
+      version: e846f56224a39b93f1c609e7ee03fff0662b7453
     status: maintained
   rclpy:
     doc:
@@ -5542,7 +5542,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 44cd76c38494afe35c352522c6820819bac04d72
+      version: 1ab38d717283aece61050874b9827d111de66b29
     status: developed
   rmf_simulation:
     doc:
@@ -8284,7 +8284,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
-      version: dbfac3e18c05451662b10285addb71463c2caa57
+      version: rolling
     status: developed
   variants:
     doc:
@@ -8494,7 +8494,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_sqlite.git
-      version: 3326e668dfb9172d89f8406918b3564aea1a9b74
+      version: 842c69555d9dbd51916e23c3ab1e11978438042f
     status: maintained
   webots_ros2:
     doc:
