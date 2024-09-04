@@ -36,7 +36,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/autowarefoundation/autoware.auto/acado_vendor.git
-      version: main
+      version: 6daf1cd09e939222773310870d01d8a3c85c7362
     status: maintained
   ackermann_msgs:
     release:
@@ -340,7 +340,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/apex_test_tools.git
-      version: rolling
+      version: 8e42ecdfdeb42675e27b7f07b9d992635f0af8a2
     status: developed
   apriltag:
     doc:
@@ -546,7 +546,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
-      version: master
+      version: 818d3587d41728422b768898e9c8d2e55bad9e5f
     status: developed
   autoware_cmake:
     release:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 535989480cbe8395ea34d74ba051430dc6c9ffe2
+      version: 43be35ddaa367b42483693789bd66cabe00e3d13
     status: developed
   ecl_core:
     doc:
@@ -1408,7 +1408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 52092f6ea76f9942ede050d5257d937429f2ebc1
+      version: 9537d8f6d513177b97fe53fc41ca293da1c33436
     status: maintained
   event_camera_codecs:
     doc:
@@ -2128,7 +2128,7 @@ repositories:
     source:
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: d57159d7634f4dbbb130d265e427ae7dfe64eb48
+      version: 5ad71a5554d81a3f78a447dbaf98b3222300664c
     status: maintained
   gz_common_vendor:
     doc:
@@ -3085,11 +3085,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.3.1-4
+      version: 0.3.1-5
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: ac1c57fcf5dff06ae4e7e5fad7baa8f93c413e37
+      version: b318101ada9ccd2c8b53b8c7a1436e84fc157e04
     status: maintained
   libg2o:
     release:
@@ -3439,7 +3439,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 6e6bfa71b0e4e2da5e7d5187d621cf9874ddb71c
+      version: 3f54491b9d0d05ec53c44256c7ce4e88102d0853
     status: developed
   mimick_vendor:
     doc:
@@ -3625,7 +3625,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 94e84a17d8551b43fa4011a6cc9c7fbd1ea6c70d
+      version: c3efd1cad025d612e07f6e1c1d0682e62f2d4531
     status: developed
   moveit_msgs:
     doc:
@@ -3693,7 +3693,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 3078ce9a2e33bce2a2c5e156d4b20f57f220634e
+      version: 721d2223a930ea8a6bf19fda140b14ab53088456
     status: developed
   mqtt_client:
     doc:
@@ -4480,7 +4480,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: master
+      version: db7f1ee8b1a103b08418006ed8182196fd40c418
     status: maintained
   performance_test_fixture:
     release:
@@ -4655,7 +4655,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/point_cloud_msg_wrapper
-      version: rolling
+      version: 5eabe4cc125f550133ab69a5a08d7f40b84a035c
     status: developed
   point_cloud_transport:
     doc:
@@ -4691,12 +4691,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport_plugins-release.git
-      version: 5.0.0-1
+      version: 5.0.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: 052f9a72c60435ff2f9f52317bf8e7f54723c2e5
+      version: fa6f3abd23857106ab2d06d97e1ad31ef6305ab7
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -4779,7 +4779,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 5bc2b9db87e7b3886b3d21a9f69c886dd49e5c7b
+      version: 4d90c3d743fbabecfec9190d0ef04659b3afb121
     status: developed
   py_binding_tools:
     release:
@@ -4806,7 +4806,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 2b7caf25805c590cb3680232a0d162cf3babfc99
+      version: 7d3d907feabdcafc6662cb042f49fbf797870404
     status: developed
   py_trees_js:
     doc:
@@ -4907,10 +4907,17 @@ repositories:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
       version: main
+    release:
+      packages:
+      - python_mrpt
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
+      version: 2.13.7-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
-      version: 56c395855abe11d55c60ff87eaaa0ccf0b50075f
+      version: 68e313f02e2693f1424677c3ff515adaf2406cce
     status: developed
   python_qt_binding:
     doc:
@@ -5267,7 +5274,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 8a2e2d3de5a96eaa50b9c9336d97396f8489bda4
+      version: d4106700177f7d38bb29b1dd8b9ea0824f863c6b
     status: maintained
   rcpputils:
     doc:
@@ -5340,7 +5347,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: e933ab58d2cb8eaf56298a058698559559e57830
+      version: e0618ed30b1caa6e62ff9ff2d03c0b888a165c9a
   reach_ros:
     source:
       type: git
@@ -7549,7 +7556,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: foxy-devel
+      version: master
     release:
       packages:
       - joy_teleop
@@ -7560,11 +7567,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_tools-release.git
-      version: 1.5.0-2
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: b40c474408a0d449495d3922d06e5fa67bd24da7
+      version: ee5bb2ad855e91959a20099189b70d20f52ce00b
     status: maintained
   teleop_twist_joy:
     doc:
@@ -8284,7 +8291,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
-      version: rolling
+      version: dbfac3e18c05451662b10285addb71463c2caa57
     status: developed
   variants:
     doc:
@@ -8490,7 +8497,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/warehouse_ros_sqlite-release.git
-      version: 1.0.4-1
+      version: 1.0.5-1
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_sqlite.git
