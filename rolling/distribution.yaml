@@ -104,11 +104,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_black-release.git
-      version: 0.2.5-1
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/botsandus/ament_black.git
-      version: 81af88419ec46ea30a23a4278678ec3ea9335915
+      version: 360638d56487e0159731f422f4616799cecf380a
     status: maintained
   ament_cmake:
     doc:
@@ -355,7 +355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 3806edf38ac4400153677e510c9f9dcb81f472c8
+      version: 620b84234dbe61cb8f1aae64beed34c8258004c1
     status: maintained
   apriltag_detector:
     doc:
@@ -581,11 +581,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_lanelet2_extension-release.git
-      version: 0.5.0-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 9676d45982204ff17b9afe0fadf2420abdff5adf
+      version: 69f0e5e849b9d9c72c443cc78e8fd753e6b30b9f
     status: developed
   autoware_msgs:
     release:
@@ -959,7 +959,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: 1d1c2945443c4014d00628f32185bf8fed1c5cfc
+      version: d685509e9cb9f80bd320a347f2db954a73397ae7
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 43be35ddaa367b42483693789bd66cabe00e3d13
+      version: 8ae8323a9c95fe57e40af948d02137da85d7f482
     status: developed
   ecl_core:
     doc:
@@ -2113,7 +2113,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: c3842bb0c5f80f34f4586a431ca3606d01a496ad
+      version: cdcc64407e64b35f05d7d108c2135e01ccc69aa7
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2257,7 +2257,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_ogre_next_vendor.git
-      version: c1596a8c8ab5f33da37e41b0de1e794ec5e0fd1b
+      version: 96cb234d911233393337f8ee59a8c2ce11ac614c
     status: maintained
   gz_physics_vendor:
     doc:
@@ -3106,7 +3106,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 8161018b9b2a161b83072d5ddec7658079850c21
+      version: f75b8dd26feaca86701704390dea18c71e2f0350
     status: maintained
   libg2o:
     release:
@@ -3300,12 +3300,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_messages-release.git
-      version: 1.6.0-1
+      version: 1.6.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: defcfb9f3a23f81cf6ea7340e3c93b303db428fc
+      version: 7f113ad892d7b2d712ede7f595387addc5cf6fed
     status: developed
   mavlink:
     doc:
@@ -3521,7 +3521,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 8ccb1eaebdc58afe08750c5ab44b581ad2944735
+      version: 270176903f40dda088e296c7af05ecf97296e674
     status: developed
   mola_common:
     doc:
@@ -3551,7 +3551,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: edf7519931b87c1a02e4b95ce606f43a5fa1df20
+      version: 6d5f6e8de96f7a6576a1de41b488b91b2ee4d506
     status: developed
   mola_test_datasets:
     doc:
@@ -3584,7 +3584,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
-      version: 385287da42d96d72d53d12d2783969d0355483cc
+      version: 35adc3e1b10ca879d8dbcc62d1dab93819705f1d
     status: developed
   moveit:
     doc:
@@ -3822,7 +3822,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: da45d00b7415e42c15d9234923f9cf41fca23056
+      version: db5dc006a0db52797f936c7ad7949b165bb54be4
     status: developed
   mrpt_sensors:
     doc:
@@ -4497,7 +4497,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: db7f1ee8b1a103b08418006ed8182196fd40c418
+      version: 1d660d0d489c271980c7b76950e7bd3043cdd825
     status: maintained
   performance_test_fixture:
     release:
@@ -5175,7 +5175,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 522f3476c76d911d72922584b18df1fa1761f608
+      version: 61077aa1e78363dd4596ea49957e36cd05398b44
     status: maintained
   rcl_interfaces:
     doc:
@@ -5222,7 +5222,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_logging.git
-      version: 7529e87a5ea26351690882c26eece7ebd400fdd4
+      version: 4d186fac565caa7dfb2e21b367bec8c074b62835
     status: maintained
   rcl_logging_rcutils:
     doc:
@@ -5877,7 +5877,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 53a7386acd5b63ec10325137a80dfe0c1ea445ce
+      version: ef0a27352962c56a970f2bbeb8687313b9e54a9a
     status: maintained
   robot_state_publisher:
     doc:
@@ -6146,7 +6146,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: ddd614636911c7ffbd11129c0d3581577bccda1d
+      version: 303f0b1b9bcb634a4a249fbd9ddedd1d3326be64
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6372,7 +6372,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbag2-release.git
-      version: 0.28.0-1
+      version: 0.29.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7867,11 +7867,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/turtle_nest-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/Jannkar/turtle_nest.git
-      version: 4a74326a520e72f8115837205ca8985318ef3f44
+      version: 1f275a8f664b9f921ddbdde6b5dd6a8dbdca276c
     status: developed
   turtlebot3_msgs:
     doc:
@@ -8080,7 +8080,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 0f0321a9cdf84737dcac49b5e7f678ddf002e890
+      version: e688988510ada482112b36308e49cd7603d64ec1
     status: developed
   ur_description:
     doc:
@@ -8095,7 +8095,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 6b7c6ad2f0e86293b149d8817d10c4c627a9cd25
+      version: f75a112853371c65691895f0afb2d650d98a1afc
     status: developed
   ur_msgs:
     doc:

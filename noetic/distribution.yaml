@@ -180,7 +180,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aprilrobotics/apriltag.git
-      version: 3806edf38ac4400153677e510c9f9dcb81f472c8
+      version: 620b84234dbe61cb8f1aae64beed34c8258004c1
     status: maintained
   apriltag_ros:
     doc:
@@ -1793,11 +1793,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.3.9-1
+      version: 2.4.2-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 986e500745e73a0b314376c99937d7e970a93f03
+      version: fb674afbd2832398a96c3c71275f00a1af714304
     status: developed
   create_robot:
     doc:
@@ -3796,7 +3796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: c3842bb0c5f80f34f4586a431ca3606d01a496ad
+      version: cdcc64407e64b35f05d7d108c2135e01ccc69aa7
     status: developed
   haf_grasping:
     doc:
@@ -6124,7 +6124,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 361de4b9295cd867b4ff446f26c8349d8a53cb94
+      version: 0ca45f0b1a582b727ec50a9a9af8fca7d8dba3bb
     status: maintained
   moveit_calibration:
     doc:
@@ -6380,7 +6380,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 1.0.6-1
+      version: 1.0.6-2
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -6425,11 +6425,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.13.7-4
+      version: 2.13.7-5
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: da45d00b7415e42c15d9234923f9cf41fca23056
+      version: db5dc006a0db52797f936c7ad7949b165bb54be4
     status: developed
   mrpt_sensors:
     doc:
@@ -6467,11 +6467,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_slam-release.git
-      version: 0.1.17-1
+      version: 0.1.18-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
-      version: e32cb25034a3cc61c861b897e8a1c6d15b50fb61
+      version: bca7405dd42b29cebbbde8436a9fc82c61b67f14
     status: developed
   mrt_cmake_modules:
     doc:
@@ -9512,7 +9512,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: ecbb123cb4fcf4f6e67fa8295e1ddd961a442286
+      version: 5067f44f540a1928083cfc5824670a563a704820
     status: maintained
   ros_comm_msgs:
     doc:
@@ -11539,7 +11539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/snmp_diagnostics.git
-      version: 03244d41bbc3e52d07f12db9ba4c0818ad71061d
+      version: 1a6a522cf8d9017c4b69a33cfbde79b6ae6796af
     status: developed
   snmp_ros:
     doc:
@@ -12075,6 +12075,21 @@ repositories:
       url: https://github.com/ThundeRatz/thunder_line_follower_pmr3100.git
       version: 63d83afa9cc0688f4e03a399cd8e9996e38caa1d
     status: developed
+  timed_roslaunch:
+    doc:
+      type: git
+      url: https://github.com/Tiryoh/timed_roslaunch.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/Tiryoh/timed_roslaunch-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/Tiryoh/timed_roslaunch.git
+      version: f175a7f485ece6f57ade6127fb6b24720e161a44
+    status: maintained
   trac_ik:
     doc:
       type: git
@@ -12432,7 +12447,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 0f0321a9cdf84737dcac49b5e7f678ddf002e890
+      version: e688988510ada482112b36308e49cd7603d64ec1
     status: developed
   ur_msgs:
     doc:
