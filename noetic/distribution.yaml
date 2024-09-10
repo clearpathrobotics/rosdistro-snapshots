@@ -5278,7 +5278,7 @@ repositories:
     source:
       type: git
       url: https://github.com/norlab-ulaval/libpointmatcher.git
-      version: 34ae751ecae46a970d30bd867aabc6b8b75bbebc
+      version: 6aa08f31c39ee00f14ff4c6b4f3cd1887212e080
     status: maintained
   librealsense2:
     doc:
@@ -6118,13 +6118,13 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.14-1
+      version: 1.1.15-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 0ca45f0b1a582b727ec50a9a9af8fca7d8dba3bb
+      version: adb3f2c3bfcd44450d511446e513bf6ea789a5b0
     status: maintained
   moveit_calibration:
     doc:
@@ -6280,7 +6280,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mp2p_icp-release.git
-      version: 1.5.5-1
+      version: 1.6.0-2
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -6425,7 +6425,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.13.7-5
+      version: 2.13.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -8465,6 +8465,23 @@ repositories:
       url: https://github.com/Achllle/pyquaternion.git
       version: 68157b90404d5725b30ff5e1f454caf3e298d247
     status: maintained
+  python_mrpt_ros:
+    doc:
+      type: git
+      url: https://github.com/MRPT/python_mrpt_ros.git
+      version: main
+    release:
+      packages:
+      - python_mrpt
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/python_mrpt_ros-release.git
+      version: 2.13.8-1
+    source:
+      type: git
+      url: https://github.com/MRPT/python_mrpt_ros.git
+      version: 1d1335467c2d3144b5d6ef4a9190762e6647a540
+    status: developed
   python_qt_binding:
     doc:
       type: git
@@ -11539,7 +11556,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/snmp_diagnostics.git
-      version: 8747bdf198125d2f2249e8a4d195e43bc797bb52
+      version: cf032e958e6b6ca6b53ffbdb47c27259514f51b8
     status: developed
   snmp_ros:
     doc:
@@ -11721,7 +11738,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
-      version: 954e5aa7970b451ff72caca4bccc4dd2e6476e22
+      version: 68f64f8d8d1af83fc76f9beeb8ec6c4feb393816
     status: maintained
   stag_ros:
     release:
@@ -12432,7 +12449,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
-      version: 2538c7ffa4990830d570ad033a7f039783e5b19a
+      version: cce1f0e55b265b8440a333a4c39caae56a6e0b16
     status: developed
   ur_client_library:
     doc:
@@ -12606,7 +12623,7 @@ repositories:
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
-      version: 02fb017f6202157174b988c07168a3e37f598bd8
+      version: b76e79774b6eba2b2f8d54e36e30c21595a23540
     status: developed
   usb_cam:
     doc:
