@@ -740,7 +740,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 4f664475980d3a25eaba35fc6e3071a995dc3888
+      version: 28267fff38dc9f3606691759bb623af91fef6080
     status: developed
   bno055:
     doc:
@@ -1080,7 +1080,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: e0fbe2e5e4e61d780213f99c1ab1a5ed9f6697eb
+      version: 04c94710cd6bdb8fe1e31f3776346cb33d17ad7d
     status: developed
   demos:
     doc:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 173132acfee75e7dbf070f81f36b973de4ab5e64
+      version: 362b6bd71615b5baaf11169e05ea7a240e04eea8
     status: developed
   ecl_core:
     doc:
@@ -2113,7 +2113,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 5e419e12339802ccbd99596de2d781be4f4d650d
+      version: 525ff7cc11698d77bd81480924e61cb3d0cd4d6d
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2536,7 +2536,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: cf49bfddc1b85943b7b3a21050a037e062aa1da2
+      version: ea6a9e47c259cc875b7a4545e07359b63bd27f60
     status: maintained
   image_pipeline:
     doc:
@@ -3520,7 +3520,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 8cd83ee1259e46ac56eed0ec71a07f7df7171bd3
+      version: 24e0e5d364d04b062d9b8250bc1ec95d1175f8fd
     status: developed
   mola_common:
     doc:
@@ -3709,7 +3709,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: f6ba7227af408047d2dda6663bf8c6fd008b5ed3
+      version: 1fa0dd9a937afb325ba83b7567bc148676588fa5
     status: developed
   mqtt_client:
     doc:
@@ -3776,7 +3776,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: d5044a88112a7c013f13bc1e9bdb46ee27d27c54
+      version: 3d7521cd4cb4f95785111cb1cbb91a5ca40a5420
     status: developed
   mrpt_path_planning:
     doc:
@@ -5290,7 +5290,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 533d50c396ad2eb611193f099560f70835c9c7e6
+      version: d8f894f01baa4ffad61b65d516ae484f645feb31
     status: maintained
   rcpputils:
     doc:
@@ -6437,7 +6437,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: e25750db3d7735947cad24f630d135ba02db5e59
+      version: c027a3867a4b4c6e42b8f79796e9950d4b28ffac
     status: maintained
   rosidl_core:
     doc:
@@ -7785,7 +7785,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: 210f767d1d4e89ab30aa0a951aaa62716b4ec7a7
+      version: 2656590d39c98b0c58f425355ccea34d18d9f450
     status: developed
   tracetools_acceleration:
     doc:
@@ -8132,6 +8132,12 @@ repositories:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
       version: 57db144aed8bcb8acbf4bb5d36aa01b805e92ec5
+    status: developed
+  ur_simulation_gz:
+    source:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
+      version: 76de33806cc852f49738edfd43f404040f2368d1
     status: developed
   urdf:
     doc:
