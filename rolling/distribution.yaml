@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 362b6bd71615b5baaf11169e05ea7a240e04eea8
+      version: 756cb2eb0426d78dc30746b840e6f2c679643181
     status: developed
   ecl_core:
     doc:
@@ -1408,7 +1408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 9537d8f6d513177b97fe53fc41ca293da1c33436
+      version: 694d996a8303830484a7e6b84fc6add60f6d382e
     status: maintained
   event_camera_codecs:
     doc:
@@ -1855,7 +1855,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: ff41ec07de91bca8f0b756d90e26be80753a6bab
+      version: b625a172302f14eb346ffd577c2de3612afcd5cc
     status: maintained
   game_controller_spl:
     doc:
@@ -2113,7 +2113,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 525ff7cc11698d77bd81480924e61cb3d0cd4d6d
+      version: 2c140df1962dce201195a3087d8700f4e3693c38
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3227,11 +3227,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.3.0-2
+      version: 2.4.3-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 58e3e2f52a45ee29cbea525b6b0c53a52271552b
+      version: 9f6eaf79b1d68ed20fa631a0425a36e228b28492
     status: developed
   marine_msgs:
     doc:
@@ -3273,12 +3273,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.7.2-1
+      version: 3.7.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 68abeae57e79f97a425d15fb62f0bbecb9c2ffc7
+      version: be291715b25d5601bf9e71a5e19628253d24f837
     status: developed
   marti_messages:
     doc:
@@ -3619,6 +3619,7 @@ repositories:
       - moveit_ros_planning_interface
       - moveit_ros_robot_interaction
       - moveit_ros_tests
+      - moveit_ros_trajectory_cache
       - moveit_ros_visualization
       - moveit_ros_warehouse
       - moveit_runtime
@@ -3635,7 +3636,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.10.0-1
+      version: 2.11.0-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -5282,7 +5283,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: d8f894f01baa4ffad61b65d516ae484f645feb31
+      version: db9db32904e4d12d87582bf720d51d2581d06803
     status: maintained
   rcpputils:
     doc:
@@ -5632,7 +5633,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 2dd298afd7e1ee90535f18684754564d397ec960
+      version: 71e419c9cda7fa17d47055ded3445859c542979e
     status: developed
   rmf_utils:
     doc:
@@ -8123,7 +8124,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 57db144aed8bcb8acbf4bb5d36aa01b805e92ec5
+      version: 0b2e196f5fd737f063082197c8ab56cbda762b59
     status: developed
   ur_simulation_gz:
     source:
