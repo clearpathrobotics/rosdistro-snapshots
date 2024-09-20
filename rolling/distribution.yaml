@@ -1408,7 +1408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 694d996a8303830484a7e6b84fc6add60f6d382e
+      version: 3586fcb488d21bc6279f24635e99094a642d3c99
     status: maintained
   event_camera_codecs:
     doc:
@@ -1807,6 +1807,11 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
       version: release
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/foxglove_compressed_video_transport-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
@@ -2113,7 +2118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 2c140df1962dce201195a3087d8700f4e3693c38
+      version: 63c4e33e8cf7e1250fc3209cd6e8673c3293311c
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3210,7 +3215,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: dae6bbf16c363e9ead4e628a47fdb02956a634f3
+      version: a560110eadfba109c0451014e0c1977c6989cd91
     status: maintained
   mapviz:
     doc:
@@ -5283,7 +5288,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: db9db32904e4d12d87582bf720d51d2581d06803
+      version: 2de5c8ea447a1614a7c36d0fcf2250cefc21a594
     status: maintained
   rcpputils:
     doc:
@@ -5345,7 +5350,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 6.9.1-1
+      version: 6.9.2-1
     source:
       test_pull_requests: true
       type: git
@@ -7238,6 +7243,21 @@ repositories:
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
       version: 5e31b44e377775261a88fa34a0ec8a246e820aac
     status: maintained
+  sick_safetyscanners2_interfaces:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2_interfaces.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safetyscanners2_interfaces-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2_interfaces.git
+      version: 5c0d90c3d98821436358d66c59efbf205086e526
+    status: developed
   sick_safevisionary_base:
     doc:
       type: git
