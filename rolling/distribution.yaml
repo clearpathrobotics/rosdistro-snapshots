@@ -2118,7 +2118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 63c4e33e8cf7e1250fc3209cd6e8673c3293311c
+      version: ed90121e0afa1edbb5a13c638df1e6911fd38b5d
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2567,7 +2567,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 731b43c632b4f76c15642dd386c493b1f09827d3
+      version: ed445982b829e101be958eba32acbe639e8ae90a
     status: maintained
   image_transport_plugins:
     doc:
@@ -3111,7 +3111,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 66c9b157e95b108b38f1ac2f13b827fafef74602
+      version: cbfe04f77ca6ee46fcb6635294c8dbe9be26c5d1
     status: maintained
   libg2o:
     release:
@@ -3525,7 +3525,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: c103a125c6e9c1df31ac18c26788682551311e46
+      version: 73f8427482ff369a445df140565c2ee74ad51858
     status: developed
   mola_common:
     doc:
@@ -3857,7 +3857,7 @@ repositories:
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
-      version: 20d7c9b24b6f2e5442ae1028f0b12a47d7a85b4b
+      version: 46c80964ae675bcd8db1754381376b7e35f03527
     status: maintained
   mvsim:
     doc:
@@ -4593,7 +4593,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 6b6da02500778737389f759128019f10c5f6449a
+      version: 3b0e5417c3bec253088149b15998ca92fec1838c
     status: developed
   plotjuggler:
     doc:
@@ -7258,6 +7258,21 @@ repositories:
       url: https://github.com/SICKAG/sick_safetyscanners2_interfaces.git
       version: 5c0d90c3d98821436358d66c59efbf205086e526
     status: developed
+  sick_safetyscanners_base:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners_base.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safetyscanners_base-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners_base.git
+      version: 5b14c1f35e97994db8a939361c6f3faa24f950e0
+    status: developed
   sick_safevisionary_base:
     doc:
       type: git
@@ -8107,7 +8122,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 5524bc3aa314cb50b3bda109abaf8e580606c84c
+      version: 60e6974c65bf5ebe611c51c022cf2eccf88fae32
     status: developed
   ur_msgs:
     doc:
