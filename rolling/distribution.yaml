@@ -1080,7 +1080,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: a47f40d52b1420658117b907f36cfb586bb58856
+      version: 5750ccf78208fa088d892e5bd67678ca4a45248a
     status: developed
   demos:
     doc:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 756cb2eb0426d78dc30746b840e6f2c679643181
+      version: 72432ff0a437fc23316a33b499e712dfec00b6df
     status: developed
   ecl_core:
     doc:
@@ -1855,7 +1855,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fuse-release.git
-      version: 1.2.0-1
+      version: 1.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2118,7 +2118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: e52973b72d5f3af3654069196f4d797652fedf91
+      version: fd7df61d451619e1dcd7bdb33f76ba1d02a7696f
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3111,7 +3111,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: cbfe04f77ca6ee46fcb6635294c8dbe9be26c5d1
+      version: 642dbafe64d5d8c584931f773129c50ca186a927
     status: maintained
   libg2o:
     release:
@@ -3774,7 +3774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 3d7521cd4cb4f95785111cb1cbb91a5ca40a5420
+      version: a972d2976fb594242d7b0a62250e83f22247c8fd
     status: developed
   mrpt_path_planning:
     doc:
@@ -3789,7 +3789,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: d6edb618fb7248c31a46fcfd3c8b6fe5e8ae6216
+      version: 352bb7e1520065f088881fed046846379ec3e26e
     status: developed
   mrpt_ros:
     doc:
@@ -3853,7 +3853,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrt_cmake_modules-release.git
-      version: 1.0.10-1
+      version: 1.0.11-1
     source:
       type: git
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
@@ -4251,7 +4251,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 02c1139ede4bfbbf26fedcae735631540a15235d
+      version: 18a5f5bea1940a8b56369a58d3c20dac0d884d8b
     status: developed
   openeb_vendor:
     doc:
@@ -4479,7 +4479,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: d97ca08419bd9d173649a9de181fc56d2a3ac83e
+      version: d2c64121fd66fe2539abc10fcf679e153c8c7d1f
     status: maintained
   performance_test:
     doc:
@@ -4494,7 +4494,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: b0c66aae443cfdfe8318c72e87ed18e06cda6871
+      version: a3f917a9bc036f42b6dbeba7954ab7ea29fb52b2
     status: maintained
   performance_test_fixture:
     release:
@@ -4931,7 +4931,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
-      version: c6bf93c9defe30602ac17677326ebb9cacf1b469
+      version: fb184cceb467c5ad4e17432ebdc20b90ca4da1cb
     status: developed
   python_qt_binding:
     doc:
@@ -5272,7 +5272,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: a78d0cbd33b8fe0b4db25c04f7e10017bfca6061
+      version: 63105cd8a6edb6906efa71c7cf56cd56d0bccdda
     status: maintained
   rclpy:
     doc:
@@ -5582,7 +5582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: a39e65825164fbc989d4a99ffdcf8ad4a678b1c3
+      version: 97d120d6dd25cbf901828109e49ef230043ff920
     status: developed
   rmf_task:
     doc:
@@ -5801,7 +5801,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: fc66051e598c49d0f01665e33ee63d3ae83b1e2d
+      version: 565bbc22357413aa7342e9dd0d6518b71f7f10a6
     status: developed
   rmw_gurumdds:
     doc:
@@ -6071,7 +6071,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
-      version: 1971390aebeb85e21bd7784f63690a4b69651e81
+      version: d0a44226c29b07d5074362e4eb34da1093da0f13
     status: developed
   ros2_tracing:
     doc:
@@ -6374,7 +6374,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: fd8dd26f840c1634534607364a5dc71d41cf6265
+      version: cd7bd63696604973e23c739afa6387556f3e7781
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7382,7 +7382,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/executive_smach.git
-      version: f14c51a949519a6532125cc1fa5d026e07e210a0
+      version: 7fb264e1d50c29fc03be082b9c33537eea41c5ca
     status: maintained
   snowbot_operating_system:
     doc:
@@ -8474,7 +8474,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 3981a8d67ba9a3a865e4be09a31715cc5499a86b
+      version: 2412b1534dab59c700adc79311ef196001bd8779
     status: maintained
   vitis_common:
     doc:
