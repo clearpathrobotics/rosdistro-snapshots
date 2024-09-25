@@ -585,7 +585,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 6fc35a09cd147192e5d7905d4a8455988e3302ca
+      version: c148815f4483a9acd51bd25abcb26a7a5a99381d
     status: developed
   autoware_msgs:
     release:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 72432ff0a437fc23316a33b499e712dfec00b6df
+      version: 3a51a0df9c1841837df695ba1a2010ed51865a20
     status: developed
   ecl_core:
     doc:
@@ -1553,7 +1553,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 1970c71f54a7798514048d982d036a49730bc281
+      version: b287e91381b8853fff98bd4ebff289bf9640cbff
     status: maintained
   ffmpeg_encoder_decoder:
     doc:
@@ -2118,7 +2118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: fd7df61d451619e1dcd7bdb33f76ba1d02a7696f
+      version: e4ec8d3b9c5c18fe3b2b4a553e15ec7b3fdcc2db
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3111,7 +3111,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 642dbafe64d5d8c584931f773129c50ca186a927
+      version: 8bcec687344e5cc2ccef1361c03b87f0fd2cc59b
     status: maintained
   libg2o:
     release:
@@ -3647,7 +3647,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 489d99617932a453057c03134e04e68092b8a189
+      version: 7d3693baa157357c488cf1232177cbff641a3fc6
     status: developed
   moveit_msgs:
     doc:
@@ -3774,7 +3774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: a972d2976fb594242d7b0a62250e83f22247c8fd
+      version: 5468e0bd9347be5233ad0f30107e9c71b16d185e
     status: developed
   mrpt_path_planning:
     doc:
@@ -3819,7 +3819,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: 9be7c058615175c8544b2eaf0eca9fe352f20499
+      version: 3545df4de54483e26f3efa5deef422f088e0c27b
     status: developed
   mrpt_sensors:
     doc:
@@ -3873,7 +3873,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 7effca2f79835bee8529ef8cd00c88a3f129fcc6
+      version: ece7577a29eaec7b60a5aa4439eeeac070e1978e
     status: developed
   nao_button_sim:
     doc:
@@ -4494,7 +4494,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: a3f917a9bc036f42b6dbeba7954ab7ea29fb52b2
+      version: 4b308ef86878e695a7b0c41744e3a8c4d2053087
     status: maintained
   performance_test_fixture:
     release:
@@ -4688,7 +4688,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 6426427070f923ef947cbcddcc6b0b15d043a4f3
+      version: 7cc2e9731e6c89aef8107f252cd2c1561be4612d
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4931,7 +4931,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
-      version: fb184cceb467c5ad4e17432ebdc20b90ca4da1cb
+      version: 523d792a2b482fdd2fff69c773101a894bab4bf8
     status: developed
   python_qt_binding:
     doc:
@@ -5172,7 +5172,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 3762d862df6e52ea173a167a9a40de4743267ea8
+      version: 1e565d56551f193b5cb1461a6ed71015508f7485
     status: maintained
   rcl_interfaces:
     doc:
@@ -5251,7 +5251,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclc.git
-      version: 995cda8c68456c7477ed103d9419a161fd068960
+      version: b4e3b9c4f6456b4cdf957296a1ad27c842bf91da
     status: developed
   rclcpp:
     doc:
@@ -5272,7 +5272,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 63105cd8a6edb6906efa71c7cf56cd56d0bccdda
+      version: 1f408e3b19cde3036272f62b3ddb91fbe8084dec
     status: maintained
   rclpy:
     doc:
@@ -5563,7 +5563,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 16e5557fc36ff832afe04219b4b4d01e7846f31d
+      version: 76ef117c693de9880feb39fd3987734df877a06a
     status: developed
   rmf_simulation:
     doc:
@@ -7243,6 +7243,21 @@ repositories:
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
       version: 5e31b44e377775261a88fa34a0ec8a246e820aac
     status: maintained
+  sick_safetyscanners2:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/sick_safetyscanners2-release.git
+      version: 1.0.4-1
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_safetyscanners2.git
+      version: 886a81af4bed1492e36033aa19338ef772155c2c
+    status: developed
   sick_safetyscanners2_interfaces:
     doc:
       type: git
@@ -8159,7 +8174,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 0b2e196f5fd737f063082197c8ab56cbda762b59
+      version: 6188912f84e3cf79212635a18cef07d18c38ca79
     status: developed
   ur_simulation_gz:
     source:
