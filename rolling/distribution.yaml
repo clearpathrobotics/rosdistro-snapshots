@@ -386,7 +386,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_mit-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_mit.git
@@ -798,7 +798,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
-      version: ad31775a40fdd0786e6c5b46616dd6c5bb22208f
+      version: 96a1e8b469d23141801f61f7d8293deb47b59217
   cartographer:
     doc:
       type: git
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 3a51a0df9c1841837df695ba1a2010ed51865a20
+      version: 5bd95d46a564ee3e2c2f3ec3c981eb60bb78af26
     status: developed
   ecl_core:
     doc:
@@ -1408,7 +1408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 3586fcb488d21bc6279f24635e99094a642d3c99
+      version: 5a73c763f9f9e665227f0bcfb0ec2dd72c623c6c
     status: maintained
   event_camera_codecs:
     doc:
@@ -2118,7 +2118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 8f474600e0bef7bbe7cc9651b5445c1ed5a400ba
+      version: d72d23cd3cef5df7f03a413018bb1dcb64da1f65
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2129,12 +2129,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.1.1-1
+      version: 0.2.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: 5ad71a5554d81a3f78a447dbaf98b3222300664c
+      version: 5c05a675ee4fd2a49a7562aa035e2920565a8fa3
     status: maintained
   gz_common_vendor:
     doc:
@@ -3774,7 +3774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: d97f29915de86e98bfa5eea67f80d19d26965617
+      version: feb6d4386e6b9920c0f4bd70dae8d898b3490869
     status: developed
   mrpt_path_planning:
     doc:
@@ -3789,7 +3789,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 352bb7e1520065f088881fed046846379ec3e26e
+      version: 6d7d17441a11076e8fd97841e122b0af50577a31
     status: developed
   mrpt_ros:
     doc:
@@ -3873,7 +3873,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: ece7577a29eaec7b60a5aa4439eeeac070e1978e
+      version: 633680721928e8afe2bbb70fce3c94da85fea20d
     status: developed
   nao_button_sim:
     doc:
@@ -4485,12 +4485,12 @@ repositories:
     doc:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 1.2.1
+      version: master
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/performance_test-release.git
-      version: 2.0.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
@@ -5862,7 +5862,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
-      version: 4220f4519720b58af3951c1e6c81fa8335142823
+      version: ba89eabe4c01faff4c728e31b1e924c48852e425
     status: developed
   robot_localization:
     release:
@@ -5965,7 +5965,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: b2794d021fe143a4814ae30d47933247386f006f
+      version: ce5c35a6a62bcaece2bfe47ae9bd21bf4e06a671
     status: developed
   ros2_controllers:
     doc:
@@ -7157,7 +7157,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 993797558264f556528c5824d4ec4c9196886339
+      version: 8e757c2c39e382a0523e4ce230e5719ea450f483
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
