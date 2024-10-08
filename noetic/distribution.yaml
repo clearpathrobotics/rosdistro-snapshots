@@ -479,7 +479,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: b8af2f4ee2b909e5c6a72b8f95bda4ba62e2052d
+      version: 7afef615156a74aa2a0393506bff04ec215e4c11
     status: maintained
   backward_ros:
     doc:
@@ -2071,12 +2071,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-ros-release.git
-      version: 2.10.1-1
+      version: 2.10.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 10ce4377dc421a5833b14bbd497a97ce18610192
+      version: d684a69bcd6fcbdaa5dfd3ffcea334284f474540
     status: developed
   depthimage_to_laserscan:
     release:
@@ -3796,7 +3796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: b89e9c9a24e693309e90e09b024bdd834a9327d6
+      version: 498d0b38af55ef42d6b4740ce9e097c68aefa5dc
     status: developed
   haf_grasping:
     doc:
@@ -5860,12 +5860,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/microstrain_inertial-release.git
-      version: 4.3.0-1
+      version: 4.4.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: f0a6659a4298ffda9fb41425e455dded9bad80a4
+      version: ad94c84f847a423fd3afe81f45e6aa55d1ef0783
     status: developed
   mikrotik_swos_tools:
     doc:
@@ -6118,13 +6118,13 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.1.15-1
+      version: 1.1.16-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 65e2f9eeafed86e7e95ddcd8637d385c6d360a5c
+      version: a1b1bfb88326a8520b895b794e05f06e9fa545fc
     status: maintained
   moveit_calibration:
     doc:
@@ -6360,7 +6360,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_msgs.git
-      version: 55ba56363d0f8da84a588b149b3459704f08b0e1
+      version: 01aec871ece702af23bcd2fd3f4831ddf82b2fbc
     status: developed
   mrpt_navigation:
     doc:
@@ -6395,11 +6395,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_path_planning-release.git
-      version: 0.1.5-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: bfbcd10cf7176c1ff399adee9c40d94dd908bc6e
+      version: 641835dadb478e5815a5c94fd70abd02d09db822
     status: developed
   mrpt_ros:
     doc:
@@ -6425,7 +6425,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.14.1-1
+      version: 2.14.2-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -6524,7 +6524,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carnegierobotics/multisense_ros.git
-      version: 2decb0902bd07495f28fd4318683fc6fce77365d
+      version: addac372a7b6c65ffcf0a5e0051be1242d4b1c00
     status: maintained
   muse_v2_driver:
     doc:
@@ -7809,7 +7809,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: b7763d97cebdf8aaf659f2d38a771cf6e537aadd
+      version: 13eaf946d1c2b6d38cd5643bab8ea16a70981757
     status: developed
   plotjuggler:
     doc:
@@ -8476,7 +8476,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/python_mrpt_ros-release.git
-      version: 2.14.1-1
+      version: 2.14.2-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
