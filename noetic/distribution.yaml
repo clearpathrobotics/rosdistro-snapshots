@@ -75,6 +75,12 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: 3558eb3c6c3e22d5dc93effa7c8adda8a4b284fa
     status: maintained
+  adi_3dtof_image_stitching:
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_3dtof_image_stitching.git
+      version: 4b09bda6ac4da71133b60260478359418417731e
+    status: maintained
   adi_tmc_coe:
     doc:
       type: git
@@ -603,7 +609,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
-      version: 64026d92fbbb40731200b1cb6069b64fde361fbd
+      version: 9795c4127314394628277edd36d02797db7c7767
     status: developed
   bond_core:
     doc:
@@ -711,7 +717,7 @@ repositories:
     source:
       type: git
       url: https://github.com/up2metric/cam2lidar.git
-      version: 769b4b0167899a459921bf3d8f7d7fbb0a808fa1
+      version: 267674074004458de1fa6d7262d12fad9d011710
     status: maintained
   camera_aravis:
     doc:
@@ -3796,7 +3802,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 498d0b38af55ef42d6b4740ce9e097c68aefa5dc
+      version: c97b9a9a8d9659006efd4d09dd2b9e5f1b195f12
     status: developed
   haf_grasping:
     doc:
@@ -7809,7 +7815,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 13eaf946d1c2b6d38cd5643bab8ea16a70981757
+      version: a794a418de3878f5b5e7b7e8770dc82154dd4d46
     status: developed
   plotjuggler:
     doc:
@@ -12842,7 +12848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 70ddb40b68c1d61a2544e36eb113a9f3a758d8b7
+      version: f83e271b261fd89d323d536a8a86378803806a25
     status: maintained
   visp_ros:
     doc:
@@ -12905,7 +12911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MoffKalast/vizanti.git
-      version: 03bf0ba19df047f4ca9388b2c3beb477ecc42496
+      version: 4bf604b2dbd2749256cc7a20192178328f247a65
     status: maintained
   vl53l1x_ros:
     doc:
@@ -13012,7 +13018,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_mongo.git
-      version: 0aa391684cfa7426a4034d019780190af8cbe2e3
+      version: e52e7f9e7072f063de5ff5878b1ab4808a1f687f
     status: maintained
   warehouse_ros_sqlite:
     doc:
