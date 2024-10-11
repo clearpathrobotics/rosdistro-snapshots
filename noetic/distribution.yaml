@@ -76,6 +76,11 @@ repositories:
       version: 3558eb3c6c3e22d5dc93effa7c8adda8a4b284fa
     status: maintained
   adi_3dtof_image_stitching:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/raebelchristo-adi/adi_3dtof_image_stitching-release.git
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/analogdevicesinc/adi_3dtof_image_stitching.git
@@ -90,7 +95,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/adi_tmcl_coe-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/analogdevicesinc/adi_tmc_coe.git
@@ -105,7 +110,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros2-gbp/adi_tmcl-release.git
-      version: 4.0.0-1
+      version: 4.0.1-3
     source:
       type: git
       url: https://github.com/analogdevicesinc/tmcl_ros.git
@@ -1803,7 +1808,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 94c5328d57a2d63c2305b6a358c1d83453404463
+      version: ebcd1755514b847a14b1150b614b641b3aae7e49
     status: developed
   create_robot:
     doc:
@@ -3802,7 +3807,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: c97b9a9a8d9659006efd4d09dd2b9e5f1b195f12
+      version: 9a146eb9426c940d1e31dd030713b563d8bf313d
     status: developed
   haf_grasping:
     doc:
@@ -3980,7 +3985,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 6b9f9c8eb42a2e857312fd849db624e35e00c079
+      version: 3224f2ba8e9e172601abd6e3a316a8c7191b3958
     status: maintained
   hri_actions_msgs:
     release:
@@ -5627,11 +5632,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2024.6.6-1
+      version: 2024.10.10-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: a25f3ed08ed5ea74df38b223a7cc7b3c16bb2c99
+      version: 5b12d0fe48457a6b5237966976cb39484cb0d339
     status: maintained
   mavros:
     doc:
@@ -5648,12 +5653,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 1.19.0-1
+      version: 1.20.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 0d0f5441a4455a09b257e07fffdfec90827d3e76
+      version: a5ff4b67b46a786aec4418b72f388dca9d199cba
     status: developed
   mcl_3dl:
     doc:
@@ -5668,7 +5673,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/mcl_3dl.git
-      version: 361a57f6c0ae5b1797f52827856f7829d6c9f0d2
+      version: 7153239e3db2c61371f4ee6134e7fafc928b56a2
     status: developed
   mcl_3dl_msgs:
     doc:
@@ -6550,7 +6555,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: dd2c8d59a488e1ca05e2a4338629f9270837ce6c
+      version: 338edfe77a9139317a98f9ab3c1152cab6b76eeb
     status: developed
   nao_meshes:
     release:
@@ -9299,7 +9304,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pr2/robot_self_filter.git
-      version: b24715a991fb3e077086aa1db14fee4e85ace9cc
+      version: a8d2e49f11be6517ec1619a39960d6b47cb6a4f4
     status: unmaintained
   robot_state_publisher:
     doc:
@@ -12132,7 +12137,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: 9d22477e70d64df75720ec99066cb03ee813ec3d
+      version: 45e82f69c58bd0f1ee9b1f8542d5ae98253a5e94
     status: developed
   tsid:
     doc:
@@ -12504,7 +12509,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
-      version: 82b678eda19200a397f9767395efb0c07511c1ff
+      version: dc545b532744b6ca9e0a56eac695d7520f199fe7
     status: developed
   urdf:
     doc:
@@ -12629,7 +12634,7 @@ repositories:
     source:
       type: git
       url: https://github.com/seqsense/urg_stamped.git
-      version: b76e79774b6eba2b2f8d54e36e30c21595a23540
+      version: 404d008b009f67d8463273f702b7eee5227719ec
     status: developed
   usb_cam:
     doc:
