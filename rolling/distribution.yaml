@@ -2563,7 +2563,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.3-1
+      version: 6.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -3371,7 +3371,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 6.0.5-1
+      version: 6.0.6-1
     source:
       test_pull_requests: true
       type: git
@@ -3556,7 +3556,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 3725847ca88eb860f761dc1a8805a8d769b21d0f
+      version: 9bb216f499a90c915f4b18260fbba1e1b92046cb
     status: developed
   mola_test_datasets:
     doc:
@@ -3820,7 +3820,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: c007766e4a912e2095c0285d01590a6aef2801a8
+      version: 203801d604161282da89c5069fbdd21368cd8746
     status: developed
   mrpt_sensors:
     doc:
@@ -3869,7 +3869,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.11.0-1
+      version: 0.11.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4190,11 +4190,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_rviz_plugins-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
-      version: 42be6dfff4faebea9656fba10ef8ec18ae874544
+      version: 62ea089afc43801d70dd31dd51a1d35b916416a7
     status: maintained
   odom_to_tf_ros2:
     doc:
@@ -4435,7 +4435,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: e80f97436fb1ff813189c54f18667d0d7b22711d
+      version: 74be1886139acdb7eceef368edf574101c95e487
     status: maintained
   pcl_msgs:
     release:
@@ -4932,7 +4932,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
-      version: b879edd39c7e6b94a4193e7ee6fac53198adc1c1
+      version: fbdb88c2ec45c44fa2d252ed71bd2406deed273a
     status: developed
   python_qt_binding:
     doc:
@@ -5273,7 +5273,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: bcc14755f93d8321709e7ce4fab6efa58f17f35e
+      version: f12e3c69dcc5823b474d43ae1d7bf3c596154cbd
     status: maintained
   rclpy:
     doc:
@@ -5835,7 +5835,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: e3a409a32bf2987c6dcc31164af8156a8a8feddd
+      version: e9f60082b76e0621629c146d160b72bdac82ae45
     status: developed
   rmw_zenoh:
     doc:

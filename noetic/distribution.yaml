@@ -76,6 +76,10 @@ repositories:
       version: 3558eb3c6c3e22d5dc93effa7c8adda8a4b284fa
     status: maintained
   adi_3dtof_image_stitching:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_3dtof_image_stitching.git
+      version: noetic-devel
     release:
       tags:
         release: release/noetic/{package}/{version}
@@ -1808,7 +1812,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: ebcd1755514b847a14b1150b614b641b3aae7e49
+      version: cbe0c7795800a766b104700c8bace17b762f6b36
     status: developed
   create_robot:
     doc:
@@ -6436,11 +6440,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.14.3-1
+      version: 2.14.4-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: c007766e4a912e2095c0285d01590a6aef2801a8
+      version: 203801d604161282da89c5069fbdd21368cd8746
     status: developed
   mrpt_sensors:
     doc:
@@ -6551,7 +6555,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.11.0-1
+      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -8487,11 +8491,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/python_mrpt_ros-release.git
-      version: 2.14.3-1
+      version: 2.14.4-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
-      version: b879edd39c7e6b94a4193e7ee6fac53198adc1c1
+      version: fbdb88c2ec45c44fa2d252ed71bd2406deed273a
     status: developed
   python_qt_binding:
     doc:
