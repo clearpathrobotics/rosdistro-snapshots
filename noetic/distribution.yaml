@@ -2699,10 +2699,13 @@ repositories:
       - etsi_its_msgs_utils
       - etsi_its_primitives_conversion
       - etsi_its_rviz_plugins
+      - etsi_its_vam_ts_coding
+      - etsi_its_vam_ts_conversion
+      - etsi_its_vam_ts_msgs
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
@@ -3811,7 +3814,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: dc24255418310fda3849404fd4cc8d05a37935e3
+      version: 05af66296d34f352f772ad3bcafe723944f42789
     status: developed
   haf_grasping:
     doc:
@@ -6555,11 +6558,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.11.1-1
+      version: 0.11.2-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 95843fab5b32172b91f65533de1ecc8c1c1661c7
+      version: ad88527b6005f31dd41e437faded554ccbba50f6
     status: developed
   nao_meshes:
     release:
