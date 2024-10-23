@@ -2657,7 +2657,8 @@ repositories:
       type: git
       url: https://github.com/cubicleguy/ess_imu_ros1_uart_driver.git
       version: 557d070b642dcc24aaf245ed4d80ac15a7a73e6d
-    status: unmaintained
+    status: end-of-life
+    status_description: This is deprecated. Please use ess_imu_driver (See https://wiki.ros.org/ess_imu_driver)
   ethercat_grant:
     doc:
       type: git
@@ -3703,7 +3704,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/graceful_controller.git
-      version: 8f0f52a6feedc3f435b4a8f2ea82c002e0a98b74
+      version: cef11692ebf5995b555bc96c9054e1ee722be2da
     status: developed
   graft:
     doc:
@@ -6302,7 +6303,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: fffc320128912b844b35f2464fa0dd6645cc8ff8
+      version: ded7fd2309c7e4d5e2a1eaf0f59da937d0c77b7c
     status: developed
   mpc_local_planner:
     doc:
