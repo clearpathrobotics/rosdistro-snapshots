@@ -618,7 +618,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 4620237e836dfdb1e2db8acce9e8c4ad4ccc17f8
+      version: 0ef7eeb7fbd8304a73143941f1b544d029a2099a
     status: developed
   avt_vimba_camera:
     doc:
@@ -2118,7 +2118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 0ffe6c930302ebd297484e65e6e8d467c91d26b0
+      version: 3d622261d7f0cfebd008c6d340189626b729c345
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2854,7 +2854,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 55c1f410f29e4bd498ae1ec85a2fd9225eb33c68
+      version: 1d88ad28baa5b6962d80642422c0667ae88bfdae
     status: maintained
   laser_filters:
     release:
@@ -3648,7 +3648,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 1b8044a85a2d667e283b7ad9dc80154e0879afe0
+      version: b05ab22fba39ff4fc5ccfa1384aa1d5f53af0390
     status: developed
   moveit_msgs:
     doc:
@@ -3874,7 +3874,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: ad88527b6005f31dd41e437faded554ccbba50f6
+      version: 561b6b2c0c419514be52edc01f8f39c46ae4a086
     status: developed
   nao_button_sim:
     doc:
@@ -4435,7 +4435,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 74be1886139acdb7eceef368edf574101c95e487
+      version: 5c8922a307f6831728c68249e9a676f7dfe9d6bb
     status: maintained
   pcl_msgs:
     release:
@@ -4655,7 +4655,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
-      version: 65718ebaf1e245826fda7b741a9461427c419d5c
+      version: b0f86d4e74556f598cdc3915e2fc355c4104eebd
     status: maintained
   point_cloud_msg_wrapper:
     doc:
@@ -5289,7 +5289,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: a09a0312cf9e2bbe0f6dc4467c72060a2fb74ce5
+      version: c009b0de286101da1caedef860b88f1520edb97b
     status: maintained
   rcpputils:
     doc:
@@ -5816,6 +5816,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
+      version: 5.0.0-1
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
@@ -5845,7 +5846,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: b272935bb0f24ba4d0ea8bfa929ccfa41a59b8f0
+      version: 1607d834dba7fbbcd19cd2ea81a040c66b7dbc5e
     status: developed
   robot_calibration:
     doc:
@@ -5966,7 +5967,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: d55def1923fe15b3b7a6e6dd3ffb3a90cfe67997
+      version: cb91599f8f66aaf39b7485a2f7e131157f633474
     status: developed
   ros2_controllers:
     doc:
@@ -6196,7 +6197,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
-      version: 5d472cc3e3e01c14787ed5337642cf7d5fbe7072
+      version: 56c3fd5f255abd93c6b3cacba997f4bf3e6ab333
     status: developed
   ros_battery_monitoring:
     doc:
@@ -6268,7 +6269,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: a4d00a90a1a5f753a0d0fbfe8e1e142540aebadd
+      version: e8a3ec5404c71e75468d6ebf233d9cab09715b36
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6379,7 +6380,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 25304dd36e51cc0fbccf148fded2dd4ba5ccba35
+      version: 786c3c4b8ab05271630371cf515130ba02a9cde8
     status: developed
   rosbag2_bag_v2:
     source:
