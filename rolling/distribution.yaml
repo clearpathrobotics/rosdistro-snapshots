@@ -1018,11 +1018,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 3.2.0-2
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 0d9b508d49688fa81b733caee5dc4de04e977d4f
+      version: 7ddc072d509a8fd24db478dca1af976e7603b6e9
     status: maintained
   cpp_polyfills:
     release:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: e54d371a8e9fcf6686807c192a34e6ecbdbb05b1
+      version: 6b856b668bf1d011d5f066a55569ac160231dc24
     status: developed
   ecl_core:
     doc:
@@ -1408,7 +1408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 7dde1094bcfdbd3c141c74f70ad1f66027bf80e2
+      version: 1e7cfa29e67b7a39cfff579c74da9853b1286835
     status: maintained
   event_camera_codecs:
     doc:
@@ -1903,7 +1903,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.3.8-3
+      version: 0.3.9-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -1973,7 +1973,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 1b005c6556cf350d7670812ef30eefed8443a759
+      version: 37fb99ca2a739cebe6cdc70bc0dc18cfd511b2ee
     status: maintained
   geometry_tutorials:
     doc:
@@ -2324,11 +2324,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: e19b0eff2618ed341496a345d50f11b2365b1a1e
+      version: b1a75d56df2abff2d11d51ba53378b37bee6e604
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3112,7 +3112,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 80a7ccd3add45eb56fda6f1fb445017ac01fea7a
+      version: ff069d87e263cd41f9d5d74774609c8b0ecbcb2a
     status: maintained
   libg2o:
     release:
@@ -3648,7 +3648,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: d2ab1b6ba6fc5851311302c5ccfefad7f42ee6e5
+      version: 02ebcba723d80392012bbfa7f495860be464041b
     status: developed
   moveit_msgs:
     doc:
@@ -3734,7 +3734,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: 4016873a6b66f3b0ea158c7ff975a8adcb336466
+      version: 0649f996dbef74133945762d9707b832d37bdfa5
     status: maintained
   mrpt_msgs:
     doc:
@@ -4594,7 +4594,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 2e55c8b4fb52fc6d32c178fd2ab5451cba1a7a38
+      version: 68166cc3254131253edba87c6d5322a9f8ac9e98
     status: developed
   plotjuggler:
     doc:
@@ -4775,7 +4775,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pose_cov_ops-release.git
-      version: 0.3.12-1
+      version: 0.3.13-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -5289,7 +5289,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: c009b0de286101da1caedef860b88f1520edb97b
+      version: 5ab016b19ea8eb95fcf71c52f39669eff721f924
     status: maintained
   rcpputils:
     doc:
@@ -5400,7 +5400,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 7bd84f6399e17c80c5af36c4e4bf9b194b614a2e
+      version: 144b12c2ddba1624db3383f7176fd47f26e41be8
     status: maintained
   resource_retriever:
     doc:
@@ -5963,7 +5963,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.18.0-1
+      version: 4.19.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -6145,7 +6145,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 8e46bf2608d04e81a3d088ccc5087dbde9f3e32f
+      version: a3198b80f8a993ac01501d8e3fbdd76e7aaf92dc
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6269,7 +6269,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: e8a3ec5404c71e75468d6ebf233d9cab09715b36
+      version: 02faa5b2383df27aa36321766c940924febdc5c6
     status: developed
   ros_image_to_qimage:
     doc:
