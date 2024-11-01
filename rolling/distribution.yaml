@@ -607,7 +607,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: 4f9f1c0a8adeed63986d00d3f7ce7f4453c95789
+      version: c24660708531a677ee0dc156abab77fbb9751b54
     status: developed
   autoware_utils:
     release:
@@ -1118,7 +1118,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: ea3661152a87bc48e3f277ca8131c85a1a23d661
+      version: 923d15bdb2f34b78c1cd9e68bfba443b3523bdb8
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1275,7 +1275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 6b856b668bf1d011d5f066a55569ac160231dc24
+      version: ecb51790436bc874d8fcbe4f4b3ff996b3b133f2
     status: developed
   ecl_core:
     doc:
@@ -1553,7 +1553,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 0616997c27aaf8dcd4bfcc51ab13a41b455d877c
+      version: 5ceebe0130a47b963882f9d9815a72b12c3490ee
     status: maintained
   ffmpeg_encoder_decoder:
     doc:
@@ -1860,7 +1860,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: affb5d4a8c7359974292a4d28d2a39904f849772
+      version: 777cc25dd1bf8dbd0a3b23b38847ee149362f068
     status: maintained
   game_controller_spl:
     doc:
@@ -2118,7 +2118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: b2e586bb27ed47b36790d00164e2a6bacf47670b
+      version: 67495babae9fd0e976c983a6ff2dc1b5ee86dcef
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3164,7 +3164,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 34578144166d44e02611fa0ffd23f389c2f3ec9b
+      version: a5dc1dba70ba0e313dda42b6e3ea72df9a321e44
     status: developed
   libyaml_vendor:
     release:
@@ -3648,7 +3648,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 08da0b607c2c168604a7b8b6868e52844a47789d
+      version: d5f763ed18b4a0cedcb2efc40961885f30387146
     status: developed
   moveit_msgs:
     doc:
@@ -4594,7 +4594,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: e1e18c5c317653c9d6f80bdaea9de3747237ce2c
+      version: 4dfa9d2a04a8f5ce043f662be072150aed3be380
     status: developed
   plotjuggler:
     doc:
@@ -5400,7 +5400,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: a11e9cf9b8fb9f3d5216377a04e17ea1627a84ad
+      version: 974c89c466e093eec39deb252fda0739b473ce15
     status: maintained
   resource_retriever:
     doc:
@@ -5967,7 +5967,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 832602dc327386a989ef447906a75295eba31210
+      version: 5dbd6d55c60dd6ad8d0244dca900e9a52f5b3c25
     status: developed
   ros2_controllers:
     doc:
@@ -6005,7 +6005,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 7c89c17a5cf6ac5d553c79ccc63182f2e1454388
+      version: fa42b5ec97b0af5420060844b7027b8e8912c05d
     status: developed
   ros2_easy_test:
     doc:
@@ -6264,12 +6264,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 02faa5b2383df27aa36321766c940924febdc5c6
+      version: ad225a22d4e4974b67f10658f035227fb478b792
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6822,7 +6822,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
-      version: 0.3.1-3
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ros-sports/rqt_image_overlay.git
@@ -8428,11 +8428,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/velodyne-release.git
-      version: 2.5.0-1
+      version: 2.5.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/velodyne.git
-      version: 9ae012c8ca2857628a5b5be985cbce8ebcc2d0bd
+      version: 0f2a3bb1dde4fa91cbafad8a3f9f89b66c2a1350
     status: developed
   velodyne_simulator:
     doc:
