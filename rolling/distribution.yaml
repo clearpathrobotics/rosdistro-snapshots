@@ -690,11 +690,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/backward_ros-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/pal-robotics/backward_ros.git
-      version: ee427cd657d7b3473cc39ce0cc200fb531b99446
+      version: 6ca0607b3cf1fed6f79ed3e2b4f9324ffc4a5f5c
     status: maintained
   bag2_to_image:
     doc:
@@ -1007,7 +1007,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: f1ec9fa3f0e2be5aa46fdfbd1956ad5d1d6fa1ce
+      version: d2efe1886c1134feaee8afdc019da832358cd7d6
     status: maintained
   control_toolbox:
     doc:
@@ -1553,7 +1553,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 5ceebe0130a47b963882f9d9815a72b12c3490ee
+      version: 66ec998a804ad066b7a950ecb2237a91d782af8e
     status: maintained
   ffmpeg_encoder_decoder:
     doc:
@@ -1973,7 +1973,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 9c989ba4da9faba41e032de2c24f806c028a2f4e
+      version: 247fd08ac99ed043036067ce681adaa7e238dd10
     status: maintained
   geometry_tutorials:
     doc:
@@ -2118,7 +2118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 9535ae2fc974a61fe52a0312439c64b6e71cfdad
+      version: 04768a7c267f285c8566c709ef9cf29d10f0a9d0
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3112,7 +3112,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: e1d45a17f76d5d125d44409b259114b087a4bfe3
+      version: 2cbf863f3f38f22e5e81dd35a77f1cee84f74d0a
     status: maintained
   libg2o:
     release:
@@ -3456,12 +3456,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/microstrain_inertial-release.git
-      version: 4.4.0-1
+      version: 4.5.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: 2c2a23cfebf45696e4bc5941cb4287a996ad0d8e
+      version: bbbd72186547cc760bb4a2f42fa9dbde16db1484
     status: developed
   mimick_vendor:
     doc:
@@ -3648,7 +3648,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: dfb3877132ee7c1d2dc379c3b4665912b37001c1
+      version: 1a77d7d5154108b6ad0681f17502092a0b374a5e
     status: developed
   moveit_msgs:
     doc:
@@ -4480,7 +4480,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: d2c64121fd66fe2539abc10fcf679e153c8c7d1f
+      version: c1ccdd2776043ba1477926acceab7df75f64bf22
     status: maintained
   performance_test:
     doc:
@@ -4997,7 +4997,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: ee23724f956c4dff8e635fae422493fcbd621124
+      version: 4a11ebc5d97ebe718c5a09c98814c186bfb7a4f4
     status: maintained
   quaternion_operation:
     doc:
@@ -5967,7 +5967,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: d714e8bfe521c653d82e60ec2b47e5a0d5083863
+      version: 93a2a68f6ab4110b7e5816bce134437780ba3bf3
     status: developed
   ros2_controllers:
     doc:
@@ -6005,7 +6005,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 9439764015ef4a8b245ed07381459c19883e5a2b
+      version: b0391e2069c8ec9a94ce35cb3e395bac3ca62eb6
     status: developed
   ros2_easy_test:
     doc:
@@ -6145,7 +6145,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: fce8ae79fb38056de8581b4a75b298a59fa8be18
+      version: 775ea35536c4e7044395f9439731a293fe2b3181
     status: maintained
   ros2cli_common_extensions:
     doc:
