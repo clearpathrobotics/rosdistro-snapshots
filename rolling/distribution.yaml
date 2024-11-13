@@ -1062,7 +1062,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: 454df330c7bc213729ccf714c20807b22d02f007
+      version: 76360fb73907ce3dba397e89090a7a4ecf4f1246
     status: maintained
   data_tamer:
     doc:
@@ -1195,6 +1195,16 @@ repositories:
       url: https://github.com/ros2/domain_bridge.git
       version: 64e34de40218909b91057c368c10d4ce584af612
     status: developed
+  dual_laser_merger:
+    doc:
+      type: git
+      url: https://github.com/pradyum/dual_laser_merger.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/pradyum/dual_laser_merger.git
+      version: ff1edbf1e17136e4f92d3b0523f1c701cf757cff
+    status: developed
   dynamixel_hardware:
     doc:
       type: git
@@ -1275,7 +1285,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 4bccca87f5d57d4b9ae804a91cd95d60bb184f4d
+      version: 80f7c219f2bf42a1440a1598d798ea2634aeb75a
     status: developed
   ecl_core:
     doc:
@@ -2144,12 +2154,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.2.0-1
+      version: 0.2.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: 5c05a675ee4fd2a49a7562aa035e2920565a8fa3
+      version: 808d2041649a2a6974f8be73c98f43d377f33cd9
     status: maintained
   gz_common_vendor:
     doc:
@@ -2880,7 +2890,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: 15a6e7d5701e6837f9d2df5802cc3d90413f0821
+      version: 32d90a3b4d71ad86908e853206d2bb118344ed26
     status: maintained
   laser_geometry:
     doc:
@@ -4609,7 +4619,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 902d6766202d44d84b4c54ab9b197f9fa166b701
+      version: 57bd4520d2ac652b80fe54b3b70de999bb82f573
     status: developed
   plotjuggler:
     doc:
@@ -5557,7 +5567,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: 5767211afb3e939ea0c9d8c705dd44e3feef47c4
+      version: 9ff25f4bc1edef70f2b6c564cef9efa17377c892
     status: developed
   rmf_ros2:
     doc:
@@ -5579,7 +5589,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 1db8a6559c58994f5024138daa1d04b2bec2812a
+      version: dd91566c7e9483bfa0d053d9ad1846b5fc725ae6
     status: developed
   rmf_simulation:
     doc:
@@ -5598,7 +5608,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: 9e0e5b70d67573ae9519c59d1e27d8b380b57f0e
+      version: 84455245e05b397c9d7925a33aa01602dc317a0d
     status: developed
   rmf_task:
     doc:
@@ -5654,7 +5664,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 71e419c9cda7fa17d47055ded3445859c542979e
+      version: d4649d9ef2fb9b801f10e61ffdebadbec3c3a173
     status: developed
   rmf_utils:
     doc:
@@ -5861,7 +5871,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: fbdd17a06e8a3dba8cd1379b1d8704095b79dc84
+      version: 91edead67504f2a297a5819b5c625e3e3bd92b36
     status: developed
   robot_calibration:
     doc:
@@ -6021,7 +6031,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: f519170c776649de11431addbfe5bba84ac3603d
+      version: 28dd7e12987bad86e131c0f2c5684f8c84a61c59
     status: developed
   ros2_easy_test:
     doc:
@@ -8546,7 +8556,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: c2b6c8ad4c099efde3b38b8d6f004370c825af25
+      version: 8206553a4558c8f918999efb54a3041545f2f54e
     status: maintained
   vitis_common:
     doc:
