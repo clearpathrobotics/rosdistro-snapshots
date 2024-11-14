@@ -901,6 +901,12 @@ repositories:
       url: https://github.com/MetroRobots/classic_bags.git
       version: 9d10c426ff5e5da7b856f9f285933f6bac7b8f19
     status: developed
+  clips_vendor:
+    source:
+      type: git
+      url: https://github.com/carologistics/clips_vendor.git
+      version: edd029d04e7753589e082aa40f240df58732abfa
+    status: maintained
   color_names:
     doc:
       type: git
@@ -1285,7 +1291,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 80f7c219f2bf42a1440a1598d798ea2634aeb75a
+      version: d001439752e7c435707a697d62009f59ade9e24f
     status: developed
   ecl_core:
     doc:
@@ -2886,7 +2892,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.0.7-2
+      version: 2.0.8-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -3137,7 +3143,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: dcb90f13cf79d909d04dacf2cfbd256a4744347f
+      version: 5c71df927ddaaa01204bff1e647c9d2bf653d95f
     status: maintained
   libg2o:
     release:
@@ -3241,7 +3247,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: a72a0536c716fdef4f029fb43e1fd7e7b3d9ac9b
+      version: e046b69a3736d314fad813e159b1c192eaef92cd
     status: maintained
   mapviz:
     doc:
@@ -3673,7 +3679,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 2490e51444df20bf64c05deacf903785703852b7
+      version: ab34495d2d901fb9f053b706bb610c574b5bc0d6
     status: developed
   moveit_msgs:
     doc:
@@ -4619,7 +4625,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 57bd4520d2ac652b80fe54b3b70de999bb82f573
+      version: 470ec5a57604a9e24eb02f9215eb059ab59920bc
     status: developed
   plotjuggler:
     doc:
@@ -5198,7 +5204,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: d9daca7c0af7ecdcd103ece30bb7c64bc919ef24
+      version: 41609f90c1e75fa7a4d7e1c904eed8f6ad669964
     status: maintained
   rcl_interfaces:
     doc:
@@ -5555,6 +5561,7 @@ repositories:
       - rmf_ingestor_msgs
       - rmf_lift_msgs
       - rmf_obstacle_msgs
+      - rmf_reservation_msgs
       - rmf_scheduler_msgs
       - rmf_site_map_msgs
       - rmf_task_msgs
@@ -5563,7 +5570,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
-      version: 3.4.0-1
+      version: 3.4.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
@@ -5604,7 +5611,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_simulation-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
@@ -5871,7 +5878,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 91edead67504f2a297a5819b5c625e3e3bd92b36
+      version: 2976b9cda94686d2c2f495ad5c4d698b9a281a15
     status: developed
   robot_calibration:
     doc:
@@ -5992,7 +5999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: ec70ae1dc66ff39ce9a2fddf83a04c4261897dcb
+      version: 30d51cd7d04a93886cadc7d60275c9c1c529079f
     status: developed
   ros2_controllers:
     doc:
@@ -6416,6 +6423,16 @@ repositories:
       version: 676475d26bfac6fe2eee896f903fd2010af6a95a
     status_description: Maintained in source form only since no ROS 1 packages available
       in Rolling
+  rosbag2_to_video:
+    doc:
+      type: git
+      url: https://github.com/fictionlab/rosbag2_to_video.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/fictionlab/rosbag2_to_video.git
+      version: c2c01ef2071ee74b2ea5e2b05584136ccd065b39
+    status: maintained
   rosbridge_suite:
     doc:
       type: git
@@ -7194,7 +7211,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 0d95ae1f1227ab9aa0327d0945d9aec8ed9f88e1
+      version: 9a94bdf2f5f92ccdac4037c9268b95940845d609
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7410,6 +7427,11 @@ repositories:
       type: git
       url: https://github.com/ajtudela/slg_msgs.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/slg_msgs-release.git
+      version: 3.9.1-1
     source:
       type: git
       url: https://github.com/ajtudela/slg_msgs.git
@@ -8189,7 +8211,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 881adb0f8a425cba3090af5ec1d89fbdde117082
+      version: df9f95cebb6094cd30c4f5be8f989922fbf26f70
     status: developed
   ur_description:
     doc:
@@ -8694,7 +8716,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/xacro.git
-      version: 88129b7c8e54b5fc8f8da632c35c19508d598976
+      version: e956f945a31901773801dafe90f5aa4905b0f981
     status: maintained
   yaml_cpp_vendor:
     release:
