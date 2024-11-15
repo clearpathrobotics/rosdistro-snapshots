@@ -147,7 +147,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 032dc51e558cc046b2c6e5af7a9d38bdc30ba191
+      version: fb1eda91c16a9423a8a96541e878358289e1b2b2
     status: developed
   ament_cmake_catch2:
     doc:
@@ -905,7 +905,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_vendor.git
-      version: edd029d04e7753589e082aa40f240df58732abfa
+      version: 5f7e7c61b9ba1a26d8e1688a6ee90a58f948ad40
     status: maintained
   color_names:
     doc:
@@ -1291,7 +1291,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: d001439752e7c435707a697d62009f59ade9e24f
+      version: 9278997cd05d210a2862b46a976d9506a595f1d3
     status: developed
   ecl_core:
     doc:
@@ -1424,7 +1424,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 69395f8b6962b2a0efb1b8937c4227f1ade6a447
+      version: 56e338116198d04fdf32c49f4ab078c9e88b1237
     status: maintained
   event_camera_codecs:
     doc:
@@ -2149,7 +2149,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: a95d816f379babfaa0d786e745a5bf7a8b9c7ed5
+      version: 164c35424b13057c10a261eb4c8b6343125dccc9
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2181,7 +2181,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_common_vendor.git
-      version: 462ee4fd99642095a95902c841cd2870302722fa
+      version: 3435f71e1a869d3d57df86216c0f1ba6fc43685c
     status: maintained
   gz_dartsim_vendor:
     doc:
@@ -3679,7 +3679,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: ab34495d2d901fb9f053b706bb610c574b5bc0d6
+      version: 0f4c9351dc4d0036b79d7390ef7fb3ea29a7d87d
     status: developed
   moveit_msgs:
     doc:
@@ -5086,6 +5086,25 @@ repositories:
       url: https://github.com/ros-planning/random_numbers.git
       version: 12fd6fdf4ce708a943bb1b0bc2295ced4cd1c2ed
     status: maintained
+  raspimouse2:
+    doc:
+      type: git
+      url: https://github.com/rt-net/raspimouse2.git
+      version: jazzy
+    release:
+      packages:
+      - raspimouse
+      - raspimouse_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/raspimouse2-release.git
+      version: 2.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/rt-net/raspimouse2.git
+      version: f5a520c86b2cd7a12b46ad653a0a80dc61ddb029
+    status: maintained
   rc_common_msgs:
     doc:
       type: git
@@ -5204,7 +5223,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 41609f90c1e75fa7a4d7e1c904eed8f6ad669964
+      version: 2615b0e8a5e3d9188e50412337e3b306991b05a6
     status: maintained
   rcl_interfaces:
     doc:
@@ -5431,7 +5450,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: c0d6b2b5de85af8819932d7769bc30ba1f3ca6f2
+      version: b3a342a833d9bf91db33efd5b725afbad46e4cea
     status: maintained
   resource_retriever:
     doc:
@@ -5878,7 +5897,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 2976b9cda94686d2c2f495ad5c4d698b9a281a15
+      version: e29ac6de6f22852741d777318577906e5e5378a1
     status: developed
   robot_calibration:
     doc:
@@ -5999,7 +6018,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 30d51cd7d04a93886cadc7d60275c9c1c529079f
+      version: bab2d303903970f32ec530030b0cade2ca0254bb
     status: developed
   ros2_controllers:
     doc:
@@ -6302,7 +6321,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: ad225a22d4e4974b67f10658f035227fb478b792
+      version: 04446e08e5a1153043e074528a7a3f2ec55449ab
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7147,6 +7166,22 @@ repositories:
       url: https://github.com/rt-net/rt_manipulators_cpp.git
       version: cf8726bc1152f59f599db139f5cfa5b73bdc6317
     status: maintained
+  rt_usb_9axisimu_driver:
+    doc:
+      type: git
+      url: https://github.com/rt-net/rt_usb_9axisimu_driver.git
+      version: jazzy
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rt_usb_9axisimu_driver-release.git
+      version: 3.0.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/rt-net/rt_usb_9axisimu_driver.git
+      version: 3766c9c0f54bbf4fdeb6fa92aacab8a17f9748a9
+    status: maintained
   rtabmap:
     doc:
       type: git
@@ -7274,12 +7309,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_vendor-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/sdformat_vendor.git
-      version: 37e4559e98ed40890129c7047907ba15e6bb1716
+      version: fe8863e4e7b32c81ba2c8089a901d26736bb6cb5
     status: maintained
   septentrio_gnss_driver:
     doc:
