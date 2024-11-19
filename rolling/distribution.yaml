@@ -1009,11 +1009,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 5.2.0-1
+      version: 5.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 0b9753ee922273d2fc421a101e67570e7c552e81
+      version: cf2d2134949c81cec107015651f705721d0a3f55
     status: maintained
   control_toolbox:
     doc:
@@ -1028,7 +1028,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 7dda65fb78ac538d27a9346423b3f6b9a0347798
+      version: d4b317c4a384099e2c56692dd787ea34ea661937
     status: maintained
   cpp_polyfills:
     release:
@@ -1827,11 +1827,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_compressed_video_transport-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
-      version: 3956410338147c6a13c9a0a0287a3f740d06ead4
+      version: fda75dca1f78e57148944cf0e9ff4c3d0cf6d516
     status: developed
   foxglove_msgs:
     doc:
@@ -2935,6 +2935,11 @@ repositories:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/laser_segmentation-release.git
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
@@ -3049,11 +3054,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/leo_robot-release.git
-      version: 1.4.0-2
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot-ros2.git
-      version: 16af7d583f84653d509afdd8293fe6b563cc41e0
+      version: 7e0480c4e0d419a0476aae5e6ba94a4ba72da9c6
     status: maintained
   leo_simulator:
     doc:
@@ -3143,7 +3148,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 5c71df927ddaaa01204bff1e647c9d2bf653d95f
+      version: d5217b16020c659145f9d6dbf5849129b8500967
     status: maintained
   libg2o:
     release:
@@ -3247,7 +3252,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: e046b69a3736d314fad813e159b1c192eaef92cd
+      version: 715b442682f3cac6e04636d8beaf4104c20bac23
     status: maintained
   mapviz:
     doc:
@@ -3679,7 +3684,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 91b47a65306a80243d2417a3f9728956fd3713aa
+      version: d529029062305520817c261be6601bab94b21255
     status: developed
   moveit_msgs:
     doc:
@@ -3905,7 +3910,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 8b36ae2a9f2b5a90b6438af1bd0d0ff7fdceb5b5
+      version: 4a428e7a0df053a8feabed36fb310d6d80d9fc15
     status: developed
   nao_button_sim:
     doc:
@@ -4236,7 +4241,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/odom_to_tf_ros2-release.git
-      version: 1.0.2-3
+      version: 1.0.3-3
     source:
       type: git
       url: https://github.com/gstavrinos/odom_to_tf_ros2.git
@@ -5450,7 +5455,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: b3a342a833d9bf91db33efd5b725afbad46e4cea
+      version: 35587d140064f672afe004602e89811f04da1c1f
     status: maintained
   resource_retriever:
     doc:
@@ -5564,7 +5569,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: b1636b0de7d2bf951c613e3d5b9fc3bf46fc9a2b
+      version: 11e5d9d708c651884045af368d483e52e2a41600
     status: developed
   rmf_internal_msgs:
     doc:
@@ -6018,7 +6023,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: da167e79ff90b250f3d4b9686e46a77c8b9ba4ab
+      version: 23bd1c3c06c30d706f010628d85133a7198e226d
     status: developed
   ros2_controllers:
     doc:
@@ -6057,7 +6062,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 28dd7e12987bad86e131c0f2c5684f8c84a61c59
+      version: 29e84b977be4b8fda791e17fd1ba47ec5b2ef3ef
     status: developed
   ros2_easy_test:
     doc:
@@ -6591,7 +6596,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport_fastrtps.git
-      version: 8f2bd9e932659ae280f070452e70df740a9dd99b
+      version: 8bb4d6374c6f8e61668eceff1eefe3c8f254df04
     status: maintained
   rosidl_python:
     doc:
@@ -8142,7 +8147,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/twist_stamper-release.git
-      version: 0.0.3-3
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/joshnewans/twist_stamper.git
@@ -8246,7 +8251,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: df9f95cebb6094cd30c4f5be8f989922fbf26f70
+      version: d3baa8b36d7aa184dc152a96b91912e00dcf995c
     status: developed
   ur_description:
     doc:

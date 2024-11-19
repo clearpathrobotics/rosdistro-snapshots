@@ -2594,7 +2594,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ADVRHumanoids/ROSEndEffector.git
-      version: 12956eefa9a9554e487dc83cb74be9ea6afc89a2
+      version: bdef511797132979352a98d998c47196c85ce968
     status: maintained
   ensenso_driver:
     doc:
@@ -2710,7 +2710,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: a1d906c0f2a9b0ba5948ef5962a06bc9d9fd9923
+      version: d50835c931363c6299ff82edb95b087d60ff72ff
     status: developed
   euslime:
     release:
@@ -5504,7 +5504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: e046b69a3736d314fad813e159b1c192eaef92cd
+      version: 715b442682f3cac6e04636d8beaf4104c20bac23
     status: maintained
   mapviz:
     doc:
@@ -6543,7 +6543,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carnegierobotics/multisense_ros.git
-      version: 72c70170a8d6f800fa75227fb54a95c0f94fd3e3
+      version: 5ff24cb6db99bbe60460be38f5522d9e7f0d616d
     status: maintained
   muse_v2_driver:
     doc:
@@ -6563,7 +6563,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 8b36ae2a9f2b5a90b6438af1bd0d0ff7fdceb5b5
+      version: 4a428e7a0df053a8feabed36fb310d6d80d9fc15
     status: developed
   nao_meshes:
     release:
@@ -6928,7 +6928,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.11.0-2
+      version: 1.11.1-1
     source:
       test_pull_requests: true
       type: git
@@ -9746,13 +9746,17 @@ repositories:
       version: 559e91b734f3e23131567404be323926883dcce7
     status: developed
   ros_inorbit_samples:
+    doc:
+      type: git
+      url: https://github.com/inorbit-ai/ros_inorbit_samples.git
+      version: noetic-devel
     release:
       packages:
       - inorbit_republisher
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/inorbit-ai/ros_inorbit_samples-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/inorbit-ai/ros_inorbit_samples.git
@@ -12483,7 +12487,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: df9f95cebb6094cd30c4f5be8f989922fbf26f70
+      version: d3baa8b36d7aa184dc152a96b91912e00dcf995c
     status: developed
   ur_msgs:
     doc:
@@ -12924,7 +12928,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MoffKalast/vizanti.git
-      version: aabbd9e870a15686cbd3449af7051751d30f8156
+      version: a30e8aa99bade4a363c8ef51457bebb1a491fc94
     status: maintained
   vl53l1x_ros:
     doc:
