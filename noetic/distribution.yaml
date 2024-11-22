@@ -3313,6 +3313,21 @@ repositories:
       url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
       version: efe1de7de7aa83c5c475adf3f494f8146a580d07
     status: maintained
+  gazebo_noisy_depth_camera:
+    doc:
+      type: git
+      url: https://github.com/peci1/gazebo_noisy_depth_camera.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/gazebo_noisy_depth_camera-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/peci1/gazebo_noisy_depth_camera.git
+      version: 51137659433778031c197fb54f4ed2222f019aa4
+    status: maintained
   gazebo_ros_control_select_joints:
     release:
       tags:
@@ -3993,7 +4008,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 4d1b792849b8befff077caae2fb755df7b48cefc
+      version: 88df2d7f9fd5d6c9571040cf92e4932652ecdd06
     status: maintained
   hri_actions_msgs:
     release:
@@ -8958,7 +8973,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: 82e525edcb809c45fcfa0c8a213d0244ba684956
+      version: 5cb38a10b3d6f4bc9ed01af6e03a6b1601dfa8d5
     status: developed
   reach_ros:
     release:
@@ -9756,7 +9771,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/inorbit-ai/ros_inorbit_samples-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/inorbit-ai/ros_inorbit_samples.git
@@ -12030,7 +12045,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: 3105ad89f9e49e31def8da3cf0668d3dba9d5f2e
+      version: b7d07369d583a606fdd969ea87401946032921e3
     status: developed
   tf2_2d:
     release:
@@ -12165,7 +12180,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 36e35620f3af5179c76ce47060745f9a01ff5e26
+      version: 0d62ba2ef13a563c1ea162c664079e9c07770102
     status: maintained
   turtlebot3:
     doc:
@@ -12487,7 +12502,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: d3baa8b36d7aa184dc152a96b91912e00dcf995c
+      version: bbac0b22af4fcc984aec89e344317b26efa7e944
     status: developed
   ur_msgs:
     doc:

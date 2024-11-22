@@ -500,6 +500,16 @@ repositories:
       url: https://github.com/hatchbed/asyncapi_gencpp.git
       version: fe77883cdc9a648ff95bb08a47c9decced393452
     status: developed
+  automatika_ros_sugar:
+    doc:
+      type: git
+      url: https://github.com/automatika-robotics/ros-sugar.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/automatika-robotics/ros-sugar.git
+      version: 3273cc4a46613bdbb161d2a1067f094347212628
+    status: developed
   automotive_autonomy_msgs:
     doc:
       type: git
@@ -581,11 +591,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_lanelet2_extension-release.git
-      version: 0.6.0-1
+      version: 0.6.2-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: c148815f4483a9acd51bd25abcb26a7a5a99381d
+      version: 36f5ffb7692ad218ce610d35256882ca38f37488
     status: developed
   autoware_msgs:
     release:
@@ -905,7 +915,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_vendor.git
-      version: bfed26cb3b712d5a46dd1613cdd288bbd1471a34
+      version: a21d89f29d22922000ee6d53bd25d9b273e3903a
     status: maintained
   color_names:
     doc:
@@ -1731,11 +1741,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/flir_camera_driver-release.git
-      version: 2.0.20-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
-      version: 5fea1c00f6793d19a5137206899178c569ee1ad9
+      version: ac5b78abd41b8f12e1a35a35338730b4341d5514
     status: maintained
   fluent_rviz:
     doc:
@@ -1958,7 +1968,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
-      version: 4f65a3819edc39f9040c5ce28f2bdc17037b7085
+      version: 8f1002ed6d1574c642348ef51b24d3500b6002bc
     status: maintained
   geometry2:
     doc:
@@ -2509,7 +2519,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 4d1b792849b8befff077caae2fb755df7b48cefc
+      version: 88df2d7f9fd5d6c9571040cf92e4932652ecdd06
     status: developed
   iceoryx:
     release:
@@ -3696,7 +3706,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 648724955963d8d77d16178a2f951f58fbb69986
+      version: 6d94dfb719f28215a0d9ba21eac1b0f8a6146f9b
     status: developed
   moveit_msgs:
     doc:
@@ -4306,16 +4316,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/openeb_vendor-release.git
-      version: 2.0.1-1
+      version: 2.0.1-2
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
-      version: rolling
+      version: 6597d4e66c662d8ee2bc1353f0b81dc0bb637086
     status: developed
   openni2_camera:
     doc:
@@ -5198,7 +5208,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_reason_clients-release.git
-      version: 0.4.0-1
+      version: 0.3.1-2
     source:
       test_pull_requests: true
       type: git
@@ -5340,7 +5350,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 64dd644469d7fb6f2ed64e609e5bd48b6b23f4ce
+      version: 7e9ff5f4c774e6c0b28268f2d2b1b03fc52383a2
     status: maintained
   rclpy:
     doc:
@@ -5429,12 +5439,12 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: 82e525edcb809c45fcfa0c8a213d0244ba684956
+      version: 5cb38a10b3d6f4bc9ed01af6e03a6b1601dfa8d5
   reach_ros:
     source:
       type: git
       url: https://github.com/ros-industrial/reach_ros2.git
-      version: f2e0d016be4612c7323f61517fb0dc453f1e8852
+      version: 9f912d4dd6e364f0bdd40db0e11472df9fc56bad
   realtime_support:
     doc:
       type: git
@@ -5452,7 +5462,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/realtime_support.git
-      version: 7ecf92f91a550ac7470de59cbcb11044ae8c41f3
+      version: e21fc2d2d36c0e53009063cba305ac4935b90dd6
     status: maintained
   realtime_tools:
     doc:
@@ -6166,7 +6176,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: f1e79ebba8b8d435c97e093402d5b1645f3aae4b
+      version: 60170d72c9b81b9ba9770fe1b1985ec25c12f4b7
     status: developed
   ros2acceleration:
     doc:
@@ -6338,7 +6348,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 558a1cfd55f9921e78a87c563d8ed847e9eae6bd
+      version: cfd0f8c74ded9efdcb35410135d0a1da1727dcff
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7478,7 +7488,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: f623b7de5dc5827c0580f64528a8c0d182ef7eac
+      version: f993622d32c1acfdf7a80e51244ef2c94e0a9cfa
     status: maintained
   slg_msgs:
     doc:
@@ -8269,7 +8279,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: d3baa8b36d7aa184dc152a96b91912e00dcf995c
+      version: bbac0b22af4fcc984aec89e344317b26efa7e944
     status: developed
   ur_description:
     doc:
