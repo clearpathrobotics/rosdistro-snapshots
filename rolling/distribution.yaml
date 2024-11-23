@@ -1216,10 +1216,15 @@ repositories:
       type: git
       url: https://github.com/pradyum/dual_laser_merger.git
       version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/dual_laser_merger-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/pradyum/dual_laser_merger.git
-      version: ff1edbf1e17136e4f92d3b0523f1c701cf757cff
+      version: 1b08231dbc469c74c9b8572727a5898802162503
     status: developed
   dynamixel_hardware:
     doc:
@@ -1999,7 +2004,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 1377a244dd3307899f037b3ab5700cfaa17037d4
+      version: 714f45643ca2c403eff2c1462b1850ee5e1a5a84
     status: maintained
   geometry_tutorials:
     doc:
@@ -2583,7 +2588,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: f6e4ab6625325f05b8720090b63de59a81b78939
+      version: ebd91a90503450041b8b29463c7c86e1ebb8b97d
     status: maintained
   image_pipeline:
     doc:
@@ -3507,7 +3512,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: bbbd72186547cc760bb4a2f42fa9dbde16db1484
+      version: e7ad0aa1306265eb5427bdfe2153cba90618fb39
     status: developed
   mimick_vendor:
     doc:
@@ -3614,7 +3619,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: a1743cc016b90a33e0fe37244f7fbce520ea29ee
+      version: 97fac5cf7198e88779e3d51113154b2773f6c3b7
     status: developed
   mola_test_datasets:
     doc:
@@ -3706,7 +3711,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 6d94dfb719f28215a0d9ba21eac1b0f8a6146f9b
+      version: d754dbd73322ad758ec22c139926877c511bcc75
     status: developed
   moveit_msgs:
     doc:
@@ -4310,7 +4315,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 18a5f5bea1940a8b56369a58d3c20dac0d884d8b
+      version: 1fae8db0a91a28af6087ad93790ec0232be96a11
     status: developed
   openeb_vendor:
     doc:
@@ -4478,11 +4483,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.2.4-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
-      version: 4da315b2dd2c1ccb9d8a131d707b3e3c4bafa1a4
+      version: b6ea65988e1e275f565bd481903048f8c52dea93
     status: maintained
   pangolin:
     release:
@@ -4747,7 +4752,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: e4978bc18677ab519fcde494df45c2f8ec6aa61d
+      version: bcda57614b244e68d97f54bfde97a82336d24168
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -5208,7 +5213,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_reason_clients-release.git
-      version: 0.3.1-2
+      version: 0.4.0-2
     source:
       test_pull_requests: true
       type: git
@@ -5844,7 +5849,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_cyclonedds.git
-      version: 12b702d2ff8e8ece55c42f87140ffc2a505f4b66
+      version: 00806e6358d95eafc137e0e51ae101616f54650d
     status: developed
   rmw_dds_common:
     doc:
@@ -6045,7 +6050,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 23bd1c3c06c30d706f010628d85133a7198e226d
+      version: 9997023ff7266a652a36cf753619205d73af9199
     status: developed
   ros2_controllers:
     doc:
@@ -6084,7 +6089,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 79358e38100139cd1d91ba8d090a388677d464b3
+      version: 9b344c7b5c06879b85cd4bcc135e35b5f7eedc2f
     status: developed
   ros2_easy_test:
     doc:
@@ -6176,7 +6181,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 60170d72c9b81b9ba9770fe1b1985ec25c12f4b7
+      version: 9722d25f4eac15d309853f148b53aa8cd4ce367e
     status: developed
   ros2acceleration:
     doc:
@@ -6348,7 +6353,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: cfd0f8c74ded9efdcb35410135d0a1da1727dcff
+      version: 5c1251a658ad8dd276664c2c88300d27572e25da
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6459,7 +6464,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: b5098eff15281c9e79853e8bb2ae9a0a104e6ea5
+      version: ebd9ed0b786b2ca8bef00554fb8d1655fc9b55fb
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6473,11 +6478,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/fictionlab/rosbag2_to_video.git
-      version: rolling
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rosbag2_to_video-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/fictionlab/rosbag2_to_video.git
-      version: c2c01ef2071ee74b2ea5e2b05584136ccd065b39
+      version: e481a36d7c24aba0e24a09d0c60f63b43be28559
     status: maintained
   rosbridge_suite:
     doc:
@@ -6530,7 +6540,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 2a808dc7b449d43f80ce22bc2fe3b8e31c96ca3b
+      version: a2590c9a95e802b0200a04c5b5b4ffdee34d94d8
     status: maintained
   rosidl_core:
     doc:
