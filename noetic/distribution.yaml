@@ -2710,7 +2710,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: a28615117aa4249ea63e6e118c1d99cf90fe8fc5
+      version: f986a23f81c5faafdfb38ef8439906a48b759e44
     status: developed
   euslime:
     release:
@@ -3193,7 +3193,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.7.10-1
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -3830,7 +3830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 164c35424b13057c10a261eb4c8b6343125dccc9
+      version: 979fb93b98a03bbca310461e73dcb282f5866b6f
     status: developed
   haf_grasping:
     doc:
@@ -9166,7 +9166,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: b32c0884b525169772beb9d79583d78aca57359f
+      version: 9a2bed3f20a595fb5104f5c6c359d32a419b31c1
     status: developed
     status_description: developed
   rm_controllers:
@@ -11467,8 +11467,9 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/uos/sick_tim.git
-      version: 557503908918a759c6e9508a92b14a1721ac062f
-    status: developed
+      version: f793bd82628aff65f8963d004e347af0c6956974
+    status: end-of-life
+    status_description: Deprecated. Use the fork sick_scan_xd instead.
   sick_visionary_ros:
     doc:
       type: git
@@ -12895,7 +12896,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1e447eb328d1724dc089e4b787e4ba68c711b2cb
+      version: 53c90ce32b3f3c28146dbb0f246970536b7245ff
     status: maintained
   visp_ros:
     doc:

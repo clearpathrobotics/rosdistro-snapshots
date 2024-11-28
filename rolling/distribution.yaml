@@ -181,7 +181,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: 3e7d57bd05a4863ac4617970c995a93b0f1787a2
+      version: 21748df4b59b1fd149d42c664e092fde4e9179f4
     status: maintained
   ament_download:
     doc:
@@ -991,7 +991,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: 50cccb2dc164ae10a92c9360524eb169627bd36a
+      version: c0c0bc57f958eb54a142446f0c2a475754367eee
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1053,7 +1053,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 641c92954dbae1af0435cdeb105cbf5a1578d152
+      version: 00ec401a6bf26f6aa58c15ebcf3e7d9453bad820
     status: maintained
   cpp_polyfills:
     release:
@@ -1321,7 +1321,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: aa607930a2b74877682f9b61afd5efb0ff96a7c4
+      version: 99c8a25ec541b03d73caa6d07a275ccb7dd855a5
     status: developed
   ecl_core:
     doc:
@@ -1582,7 +1582,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: ae920520a9d7c7c3facba2445045d8a2d0b268ba
+      version: 691ba7a65518eed3e0a1a13bb8e0820962873136
     status: maintained
   fastrtps:
     doc:
@@ -1842,7 +1842,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.8.0-1
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -2179,7 +2179,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 164c35424b13057c10a261eb4c8b6343125dccc9
+      version: 979fb93b98a03bbca310461e73dcb282f5866b6f
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2222,7 +2222,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_dartsim_vendor-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2635,7 +2635,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 0dd99bf0f8afd84e849c5dfc69b2c7efb37df890
+      version: a7283c73d8e16101f4fe7908222c16e9c55a6f14
     status: maintained
   image_transport_plugins:
     doc:
@@ -3184,7 +3184,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: f5db8497327963854fce63e9200e7ffc95ef238b
+      version: 493f198e94f84e6453573f24f10a2a30edb3c9c0
     status: maintained
   libg2o:
     release:
@@ -3615,7 +3615,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: ac4afbbe4a74fea108a426a2ecffd558c15f9dd3
+      version: a950918f4b319e743ec7bef816d28dc38055084d
     status: developed
   mola_common:
     doc:
@@ -4330,7 +4330,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 1fae8db0a91a28af6087ad93790ec0232be96a11
+      version: f624e4a7c68027e3b67a94117de3a2a4d6de6200
     status: developed
   openeb_vendor:
     doc:
@@ -4585,7 +4585,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/performance_test_fixture.git
-      version: ea87e5d74064d91b2a166a29a47600028fd61f2e
+      version: 3e0177bcd49ddc898f371ff6ea5b76d7d5ded46d
     status: maintained
   phidgets_drivers:
     doc:
@@ -5297,7 +5297,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_interfaces.git
-      version: f6b3741d921ef5414125091b2ccc74b863be3c24
+      version: e17f2ea368eeeec7211a050b02b208b9a2b8c349
     status: maintained
   rcl_logging:
     doc:
@@ -5497,7 +5497,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 252b136249ca4d5f87aa54692cb570a17973ebeb
+      version: d9764775924eceffe817e90261ce881b9374642e
     status: maintained
   resource_retriever:
     doc:
@@ -5607,11 +5607,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_demos-release.git
-      version: 2.4.0-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 11e5d9d708c651884045af368d483e52e2a41600
+      version: 8844e41173518508e82ffa18f079f92ca6d60011
     status: developed
   rmf_internal_msgs:
     doc:
@@ -5652,17 +5652,18 @@ repositories:
       - rmf_charging_schedule
       - rmf_fleet_adapter
       - rmf_fleet_adapter_python
+      - rmf_reservation_node
       - rmf_task_ros2
       - rmf_traffic_ros2
       - rmf_websocket
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.7.1-1
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: dd91566c7e9483bfa0d053d9ad1846b5fc725ae6
+      version: 8c26ec48ce798fa176705e55e32a0abd0920cb33
     status: developed
   rmf_simulation:
     doc:
@@ -5695,11 +5696,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_task-release.git
-      version: 2.6.0-1
+      version: 2.7.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: bf0f9198b37f05378c9c4816340665ab4d3b4169
+      version: d7fb70b29f0e09cb3921d310e24c6408aade7555
     status: developed
   rmf_traffic:
     doc:
@@ -5733,11 +5734,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic_editor-release.git
-      version: 1.10.0-1
+      version: 1.11.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 3f83a2b8508ebf0d72fe55c284be2fcd2b910485
+      version: 893e566a540e2e1ab6283acce87d8b27efc273ce
     status: developed
   rmf_utils:
     doc:
@@ -5789,11 +5790,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_visualization-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_visualization.git
-      version: 8602f8bd82544db03697ace9661cb833ea8d2f78
+      version: ef42bb42d5749076c0d321864e1b06eea1378e9a
     status: developed
   rmf_visualization_msgs:
     doc:
@@ -5880,7 +5881,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_dds_common.git
-      version: 0cf1ce476af39f8706004ea5432d00645aa93a66
+      version: 6d3a10a660fac7073bdf24ca37c7d4d21ddd434d
     status: maintained
   rmw_fastrtps:
     doc:
@@ -6065,7 +6066,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 41d73939597a9332779ebdab82a72f4d13125328
+      version: abb4c688bdfd6b47a659a884f71ae8736c4a19bc
     status: developed
   ros2_controllers:
     doc:
@@ -6104,7 +6105,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 9b344c7b5c06879b85cd4bcc135e35b5f7eedc2f
+      version: d8b30f864ea70126e989cc451ddab482be8850f7
     status: developed
   ros2_easy_test:
     doc:
@@ -6244,7 +6245,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: e77104637de7b4b8f9fa0f02210554c789e465b6
+      version: acefd9c0d773e7a067a6c458455eebaa2fbc6751
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6259,7 +6260,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/ros2cli_common_extensions.git
-      version: 0f534ff70bf75a4b1454518b16b87494e35424c4
+      version: e70b426edd29e6c3a33b62532e06e2d964eccce9
     status: maintained
   ros2launch_security:
     doc:
@@ -6555,7 +6556,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 64f033b739508d1fd84373343fad049a0401184f
+      version: dd0530023e758914c9e8e48ef0ddc1f797161a64
     status: maintained
   rosidl_core:
     doc:
@@ -6677,7 +6678,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_runtime_py.git
-      version: 3327b1dc488af514017c5446ffff12d102bbe94a
+      version: e6c860fec22ffc44556d6d87f730e2d07a8cc62b
     status: maintained
   rosidl_typesupport:
     doc:
@@ -6696,7 +6697,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: 818eecb2474ee807347a7f61409129c6d4c096cd
+      version: 312b734ab9203d339b7ca6db29b7f098a08abeb1
     status: maintained
   rosidl_typesupport_fastrtps:
     doc:
@@ -7361,7 +7362,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_vendor-release.git
-      version: 0.2.2-1
+      version: 0.2.3-2
     source:
       test_pull_requests: true
       type: git
@@ -8356,13 +8357,13 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 4ad0056fe47f9046698a18277df06084a33308a1
+      version: e9499954614229f089a672b64cd63c1e2a49c328
     status: developed
   ur_simulation_gz:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
-      version: 54a6a11a88b886f886cfa098bb21bf8448ea8c18
+      version: cf43d88c5d9688f54e8e173ea27ef88c9c332ebd
     status: developed
   urdf:
     doc:
@@ -8671,7 +8672,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1e447eb328d1724dc089e4b787e4ba68c711b2cb
+      version: 53c90ce32b3f3c28146dbb0f246970536b7245ff
     status: maintained
   vitis_common:
     doc:
