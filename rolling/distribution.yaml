@@ -1291,7 +1291,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
-      version: ros2
+      version: 140ddf6566fd01d1fdbbcbd201ccc5bddfc7a907
     status: maintained
   dynamixel_workbench_msgs:
     doc:
@@ -1306,7 +1306,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
-      version: ros2
+      version: f1ee7e2bec6bfd89f68248800d82e55fb1f735d7
     status: maintained
   ecal:
     doc:
@@ -1321,7 +1321,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: ec86702f730fed1819016ded39f8ede25f2b1ba8
+      version: bc53fdf83a06b75a3950cd2846ef5fb5933c28fd
     status: developed
   ecl_core:
     doc:
@@ -3194,7 +3194,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 9fc86dc02ac227a5af14e19f7f6253df377fd2e8
+      version: 737fb452fc3bb8a8513ddbf527f4836b9d32d2a5
     status: maintained
   libg2o:
     release:
@@ -3344,6 +3344,21 @@ repositories:
       url: https://github.com/apl-ocean-engineering/marine_msgs.git
       version: 14bddb417a51767600e3feada3bc7fc378d0e6f9
     status: developed
+  marker_msgs:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/marker_msgs.git
+      version: ros2
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/marker_msgs-release.git
+      version: 0.0.8-1
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/marker_msgs.git
+      version: 171f4db45f5cef20a5783689b01a486497e1e970
+    status: maintained
   marti_common:
     doc:
       type: git
@@ -4508,11 +4523,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.5.0-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
-      version: 175ee8d81e3d4eb28029c63fb8b7d1c2606d9113
+      version: 6610859996dfc0e40ab40013ac0199f61a787449
     status: maintained
   pangolin:
     release:
@@ -4568,7 +4583,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: c1ccdd2776043ba1477926acceab7df75f64bf22
+      version: 85a0f181fc3da393b0bb5194e7384e67b110ab98
     status: maintained
   performance_test:
     doc:
@@ -5469,7 +5484,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach.git
-      version: 5cb38a10b3d6f4bc9ed01af6e03a6b1601dfa8d5
+      version: 880afae418cf6a8b417b1781dcac6ee87ef2db56
   reach_ros:
     source:
       type: git
@@ -5955,7 +5970,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 8306a63313cd9e21883344deff9abc782636a464
+      version: 20af2874326fd210e04312d9004e8960dd403b30
     status: developed
   robot_calibration:
     doc:
@@ -6379,7 +6394,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 5c1251a658ad8dd276664c2c88300d27572e25da
+      version: 0eae6ffbaabb514c9a80e6add1f49f16ade72a2c
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7612,7 +7627,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/soccer_interfaces.git
-      version: efc57d7a5beea9e7eccfce37cd6a8a83d9ed7ab6
+      version: a47b61957b6afe27f9095897d89cc2ad8174d1a9
     status: developed
   soccer_vision_3d_rviz_markers:
     doc:
@@ -7627,7 +7642,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-sports/soccer_vision_3d_rviz_markers.git
-      version: a83fdcd8c2c99178d6ed5b70e1f4a5be83ae95d1
+      version: e3c035a806ecb61223d37e0a8794c140b2a70d96
     status: developed
   sol_vendor:
     doc:
@@ -7903,7 +7918,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: 41419c1c9a00b648859b9e0ac48a023a7ac2e655
+      version: 58ce180fac5fe1671a132aec45048b29f4799acf
     status: maintained
   tf_transformations:
     doc:
@@ -8151,12 +8166,38 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tuw_geometry-release.git
-      version: 0.0.7-3
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_geometry.git
-      version: fa5aeffc21bd850a52cabb7194ae622c4ad03c68
+      version: e6b945bb6c76c6d3c56c6bd29d27a72410fb8192
     status: maintained
+  tuw_msgs:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_msgs.git
+      version: ros2
+    release:
+      packages:
+      - tuw_airskin_msgs
+      - tuw_geo_msgs
+      - tuw_geometry_msgs
+      - tuw_graph_msgs
+      - tuw_msgs
+      - tuw_multi_robot_msgs
+      - tuw_nav_msgs
+      - tuw_object_map_msgs
+      - tuw_object_msgs
+      - tuw_std_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/tuw_msgs-release.git
+      version: 0.2.2-2
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/tuw_msgs.git
+      version: 6cc63ee9f4c9a23560751fe6ba8bc1c63b9ba6c2
+    status: developed
   tvm_vendor:
     doc:
       type: git
@@ -8373,7 +8414,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
-      version: cf43d88c5d9688f54e8e173ea27ef88c9c332ebd
+      version: 4510808f5419f159480e4b25ae99d6d8b5e5502d
     status: developed
   urdf:
     doc:
@@ -8834,6 +8875,16 @@ repositories:
       url: https://github.com/ros2/yaml_cpp_vendor.git
       version: cadad84c6930ec1518e842460cd83cd0ab2908e3
     status: maintained
+  yasmin:
+    doc:
+      type: git
+      url: https://github.com/uleroboticsgroup/yasmin.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/uleroboticsgroup/yasmin.git
+      version: f96d5a1ce0f35f47572869938bb6a80b826a6c39
+    status: developed
   zbar_ros:
     doc:
       type: git
