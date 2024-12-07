@@ -613,7 +613,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_msgs-release.git
-      version: 1.2.0-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -1187,7 +1187,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 095894604064ad48b75585673b7fd65a1d4bdb2a
+      version: beb9935496abe179f21bcb597229fc78f40a9a9e
     status: maintained
   dolly:
     doc:
@@ -1321,7 +1321,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: bc53fdf83a06b75a3950cd2846ef5fb5933c28fd
+      version: 196033ea1fb18deebd6eb19cf9f24ef25602b2ce
     status: developed
   ecl_core:
     doc:
@@ -1984,11 +1984,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometric_shapes-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
-      version: cf9eb238112c3790dbca7d70344047f922768582
+      version: 8bf32729ca6f217168d54b118c8b60602dfa25a6
     status: maintained
   geometry2:
     doc:
@@ -2179,7 +2179,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: bb5cfb22840360a39e590cc19e5db84e58d6f897
+      version: e17858af29a1d5c7af9afdce737f67baf0b76f0c
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3194,7 +3194,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 737fb452fc3bb8a8513ddbf527f4836b9d32d2a5
+      version: 3930b9402110472ef2e8d4a997f4ebc4925e864b
     status: maintained
   libg2o:
     release:
@@ -3988,7 +3988,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 32f460ea3097c24449c6c1cd419c0259f621bfb2
+      version: 96091c875eed7773bc3a26f81c99b73321c9fd76
     status: developed
   nao_button_sim:
     doc:
@@ -4456,7 +4456,7 @@ repositories:
     source:
       type: git
       url: https://github.com/osrf/osrf_pycommon.git
-      version: d2757108163af745bdd2dd39e2113b0bbc1d34d6
+      version: 36bdb31c54b4a4a2969b9c2626b762d7fd03ab94
     status: maintained
   osrf_testing_tools_cpp:
     doc:
@@ -5100,7 +5100,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: 9ad54b91166eae541e1627f7828d12b328f8fc97
+      version: 90b5ddd6f86c8d240a298e2eac635b4d63e18768
     status: maintained
   quaternion_operation:
     doc:
@@ -5522,7 +5522,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 88d4f9f93413432395957a0964f9c5fbf70ffdfc
+      version: 81afa50a7ed6823fc20887a0e893d5199355220d
     status: maintained
   resource_retriever:
     doc:
@@ -5970,7 +5970,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 20af2874326fd210e04312d9004e8960dd403b30
+      version: 029327863b5b01bb4828813a4f2631ff531ee6de
     status: developed
   robot_calibration:
     doc:
@@ -5988,7 +5988,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
-      version: 103562e6ced8f8ce1a928680478277fb118365fb
+      version: ed25dc4d6adce874dd2fc36242c6ffae6b18be7f
     status: developed
   robot_localization:
     release:
@@ -6087,11 +6087,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.20.0-1
+      version: 4.21.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 331038d9c71194b3f8c4400e6d8e3d10d5ca7b2c
+      version: 2072e2d5cbe1c4e6ab0e0b2e545e5d74de8cd984
     status: developed
   ros2_controllers:
     doc:
@@ -6130,7 +6130,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: cd730558b2c449568c627f066cdf8bfa8bc4c3bf
+      version: dc60f6fb888096b90a81cae4564c86653a95e4de
     status: developed
   ros2_easy_test:
     doc:
@@ -6394,7 +6394,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 0eae6ffbaabb514c9a80e6add1f49f16ade72a2c
+      version: 63b651a53e30c53474e9e2bf429e417147827b64
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7209,7 +7209,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_topic.git
-      version: 19c982623582aa41a517e3d5e4c321effe7e5a74
+      version: 32d741501ec12c5db1860140af4bfc13e38597a6
     status: maintained
   rsl:
     doc:
@@ -8883,7 +8883,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: f96d5a1ce0f35f47572869938bb6a80b826a6c39
+      version: ed97b88f5a6a3b3b40387a020f82d923707c1eec
     status: developed
   zbar_ros:
     doc:
