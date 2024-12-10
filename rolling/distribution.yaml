@@ -617,7 +617,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: e4eedc657cf446e1484ea0d6b0454c837e1ce3c2
+      version: 3597d20d145b8612c8ce71ff938b581034942526
     status: developed
   autoware_utils:
     release:
@@ -1049,7 +1049,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 3.3.0-1
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -1321,7 +1321,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 196033ea1fb18deebd6eb19cf9f24ef25602b2ce
+      version: 7ba8e0a80328b0fbc2924eaca40e98669f7933bc
     status: developed
   ecl_core:
     doc:
@@ -1917,17 +1917,10 @@ repositories:
       packages:
       - game_controller_spl
       - game_controller_spl_interfaces
-      - gc_spl
-      - gc_spl_2022
-      - gc_spl_interfaces
-      - rcgcd_spl_14
-      - rcgcd_spl_14_conversion
-      - rcgcrd_spl_4
-      - rcgcrd_spl_4_conversion
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/game_controller_spl-release.git
-      version: 4.0.1-1
+      version: 5.0.0-2
     source:
       type: git
       url: https://github.com/ros-sports/game_controller_spl.git
@@ -2089,7 +2082,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
-      version: 4892806b00f197001ed2b232c00edcde8b818ab8
+      version: ceb6e5d2a878057b1779e31626a40a8617a695ff
     status: developed
   graph_msgs:
     doc:
@@ -2179,7 +2172,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: c93f752e74f7c810bdf2e4f3ec1419485294d4a7
+      version: 3add91d3997e4234c65c51bd0bb3f71ba885cc77
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2758,7 +2751,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/joint_state_publisher.git
-      version: fb29caa6a341556ef8716b583ef32507d001dcdc
+      version: 8fc9d7de0e398d1cb90540a1cd77a67c85dd8844
     status: maintained
   joy_tester:
     doc:
@@ -3194,7 +3187,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 3930b9402110472ef2e8d4a997f4ebc4925e864b
+      version: 229667606e4d30e03d530341baf1ee528e7f2e95
     status: maintained
   libg2o:
     release:
@@ -3320,11 +3313,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.4.3-1
+      version: 2.4.4-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 90cd19e4bf0948d76b3e83127ca87cc8456dde1b
+      version: 67b1ee49551d3babf37cb0fd1efe1774162d344e
     status: developed
   marine_msgs:
     doc:
@@ -3386,7 +3379,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: e09421748cc203a03488d93427025331dfa0d90b
+      version: 1260f77256528844ba714b126ff83f26ae17fbc7
     status: developed
   marti_messages:
     doc:
@@ -3412,7 +3405,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: 0750c1c410ee595ec671ac5b1b5a91e3c48929da
+      version: 6a7b8335297dca98d4b5e7c9b9fa462c9137588e
     status: developed
   mavlink:
     doc:
@@ -3930,11 +3923,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.14.6-1
+      version: 2.14.7-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: e88e428eafb8d8cfb85ac5a3e67e4518b0283a7b
+      version: 91f921f7e519ab7118edd66d377b958ca29a30c7
     status: developed
   mrpt_sensors:
     doc:
@@ -3988,7 +3981,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 96091c875eed7773bc3a26f81c99b73321c9fd76
+      version: 8d3a6ecab02f67df3bd186ff4f44dae7df6dbb1a
     status: developed
   nao_button_sim:
     doc:
@@ -4203,7 +4196,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
-      version: 92bb90b6744232ec7e3c85a0e07acaee2257c83b
+      version: b0f4f5aec80571625cc910b5ae36f9babe98bb16
     status: developed
   ntpd_driver:
     doc:
@@ -4693,11 +4686,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 3.2.0-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 93e7c3ae20de2b389d3b168012e14d85d789fe78
+      version: 67fa1c5e5f5c96f5a5151dcdd6414cdec06cedea
     status: developed
   plotjuggler:
     doc:
@@ -5031,11 +5024,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.14.6-1
+      version: 2.14.7-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
-      version: 9b139369c51ec0728bb822d09c48e16c773234d8
+      version: c270ce92c408e441a48f62be3ac1ec76ae7852cb
     status: developed
   python_qt_binding:
     doc:
@@ -5395,7 +5388,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: a7f05a904ac499b55ca1b13ac30bc08f03c6900c
+      version: 8c0161a07f1a44db023650d10f1b2e581c64e1f1
     status: maintained
   rclpy:
     doc:
@@ -5970,7 +5963,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 029327863b5b01bb4828813a4f2631ff531ee6de
+      version: 7fcd0745975a1e562f64fd0d617f1d58ec757f37
     status: developed
   robot_calibration:
     doc:
@@ -6000,7 +5993,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: ef0a27352962c56a970f2bbeb8687313b9e54a9a
+      version: c549dafb64dd0a77829c711cb19fd8ccd24bae43
     status: maintained
   robot_state_publisher:
     doc:
@@ -6016,7 +6009,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/robot_state_publisher.git
-      version: 34a7b23c15af2d2e4f863d5041c54922aa9bf675
+      version: 9558725e15f8a5ade93f53ccd7a5a4612c8c1702
     status: maintained
   robotraconteur:
     release:
@@ -6091,7 +6084,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 6e896bf091fd879660b872c5177c04b30c1b7775
+      version: d40377d821d15b7d99a36e8a48c0aa75d994e21b
     status: developed
   ros2_controllers:
     doc:
@@ -6107,10 +6100,12 @@ repositories:
       - effort_controllers
       - force_torque_sensor_broadcaster
       - forward_command_controller
+      - gpio_controllers
       - gripper_controllers
       - imu_sensor_broadcaster
       - joint_state_broadcaster
       - joint_trajectory_controller
+      - mecanum_drive_controller
       - parallel_gripper_controller
       - pid_controller
       - pose_broadcaster
@@ -6126,11 +6121,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.16.0-1
+      version: 4.17.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2c7047e527b09916ca58c6031e4cb6ee665416d8
+      version: 66d160c6ae2b596dd3749e658cb01e2ac00d35a7
     status: developed
   ros2_easy_test:
     doc:
@@ -6162,7 +6157,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 535d06c20e33bb4b5ba83041518aa4caf1ceb863
+      version: 97a0e7c9a2b7970f8de5830919e2fe0d7eea3bf6
     status: developed
   ros2_robotiq_gripper:
     doc:
@@ -7042,7 +7037,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: ee9cb5d8fce08c87c52e63e695fc5aecca7b8192
+      version: 08a81d0e8e5edb10b7e4b2cf38d6cdf11033baec
     status: maintained
   rqt_py_console:
     doc:
@@ -7763,7 +7758,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
-      version: 99208b064c5f196457fd2ebab24a0a2c4c5cb7f2
+      version: 868d30b672532d10769644bce3c98197818a4374
     status: developed
   system_fingerprint:
     doc:
