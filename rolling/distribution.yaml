@@ -1321,7 +1321,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 7ba8e0a80328b0fbc2924eaca40e98669f7933bc
+      version: b98c7054ae232e0e8b46e6f285afa4d86f41b123
     status: developed
   ecl_core:
     doc:
@@ -1456,6 +1456,21 @@ repositories:
       url: https://github.com/stack-of-tasks/eigenpy.git
       version: 6b776662ea9c55b2f54af76ed742a1b684d5e6d6
     status: maintained
+  eiquadprog:
+    doc:
+      type: git
+      url: https://github.com/stack-of-tasks/eiquadprog.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/eiquadprog-release.git
+      version: 1.2.9-1
+    source:
+      type: git
+      url: https://github.com/stack-of-tasks/eiquadprog.git
+      version: ebc7fcb8c772a415f6acb322a7617d2fb8de9526
+    status: maintained
   event_camera_codecs:
     doc:
       type: git
@@ -1569,7 +1584,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: 7d617c66b5cbf476483325a2e73540bf92e6e515
+      version: 84f750b0383f54472a71929d725d472cafd1be60
     status: maintained
   fastcdr:
     release:
@@ -2172,7 +2187,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 3add91d3997e4234c65c51bd0bb3f71ba885cc77
+      version: 2c9e315a2ccc7592f192ea57dc6a1e0de48c7877
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2382,7 +2397,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: d2b2f0d5cd57aecfe3cf142d477371a47a63f944
+      version: 9ead4869949530722259898b192251706e083332
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2602,7 +2617,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: c03af04a7b5ab883933c57d4ffc6ff1bfd86399f
+      version: 223f41c6af2e7589680d4508a774912e818fae01
     status: maintained
   image_pipeline:
     doc:
@@ -2628,7 +2643,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: bb4ab63f19ec4d7df9cd80a0785ed2e4ffa144d1
+      version: 6ff605c129e85f8fb9cfaef5e146c9a76ef1cbf1
     status: maintained
   image_transport_plugins:
     doc:
@@ -3633,7 +3648,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: a950918f4b319e743ec7bef816d28dc38055084d
+      version: ac160ae1a9a8161ce190cb402ee5dba2f6bfa165
     status: developed
   mola_common:
     doc:
@@ -3663,7 +3678,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 21109ed80de60d5a2fb5a33a2f1302c659da4833
+      version: 4b8bbae144bb46328f2415a34bae114232f23f31
     status: developed
   mola_test_datasets:
     doc:
@@ -3755,7 +3770,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: f82cdcdccf471dd25550578098c4bb7e074a5535
+      version: ecd5d300773af9481c842e56cc81df3769500676
     status: developed
   moveit_msgs:
     doc:
@@ -3981,7 +3996,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 8d3a6ecab02f67df3bd186ff4f44dae7df6dbb1a
+      version: 94484807b746ee6f6f6abfad553cc2291d70f97b
     status: developed
   nao_button_sim:
     doc:
@@ -4227,7 +4242,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/ntrip_client.git
-      version: a44d5e52b7a36ae55f3bf1c78dd8f1844ec3c2ad
+      version: a16aa79b2b240124be4e01fa2205eaa19721c3db
     status: developed
   object_recognition_msgs:
     release:
@@ -4785,7 +4800,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: f90a87b3c6143898362409ba4ad224b48502f759
+      version: 0350a390bdd8cc39c509b71614a4c613457ce909
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -4807,7 +4822,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: fa6f3abd23857106ab2d06d97e1ad31ef6305ab7
+      version: 9f643f58827e9b472d17d0e944ccbf821f4157c7
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -5515,7 +5530,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 81afa50a7ed6823fc20887a0e893d5199355220d
+      version: e74a882ac8a97ec26ea8420b4199bb8cd0b6a842
     status: maintained
   resource_retriever:
     doc:
@@ -5963,7 +5978,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 7fcd0745975a1e562f64fd0d617f1d58ec757f37
+      version: 8bca9d744c9ca6cd0f56d98406c40acc57fa3558
     status: developed
   robot_calibration:
     doc:
@@ -5981,7 +5996,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
-      version: ed25dc4d6adce874dd2fc36242c6ffae6b18be7f
+      version: faaf8243ef31890a9e5dbc5fbe43c3eed0aead10
     status: developed
   robot_localization:
     release:
@@ -6125,7 +6140,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 66d160c6ae2b596dd3749e658cb01e2ac00d35a7
+      version: 950c9c1a056c8d8861000a8f11facb7e1cd9f8c9
     status: developed
   ros2_easy_test:
     doc:
@@ -6500,7 +6515,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 8f1527e56bcbe13dbc5efa1f250f10471b19429a
+      version: aa71be70f87c9e9e0aed7ca3fed59a508e83d9f0
     status: developed
   rosbag2_bag_v2:
     source:
@@ -6576,7 +6591,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: dd0530023e758914c9e8e48ef0ddc1f797161a64
+      version: 95739d5b19d614296aa6e0d6411a134c293da197
     status: maintained
   rosidl_core:
     doc:

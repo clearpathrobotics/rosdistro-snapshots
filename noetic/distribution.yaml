@@ -2695,22 +2695,28 @@ repositories:
       - etsi_its_denm_coding
       - etsi_its_denm_conversion
       - etsi_its_denm_msgs
+      - etsi_its_mapem_ts_coding
+      - etsi_its_mapem_ts_conversion
+      - etsi_its_mapem_ts_msgs
       - etsi_its_messages
       - etsi_its_msgs
       - etsi_its_msgs_utils
       - etsi_its_primitives_conversion
       - etsi_its_rviz_plugins
+      - etsi_its_spatem_ts_coding
+      - etsi_its_spatem_ts_conversion
+      - etsi_its_spatem_ts_msgs
       - etsi_its_vam_ts_coding
       - etsi_its_vam_ts_conversion
       - etsi_its_vam_ts_msgs
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 2.4.0-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: 06c63e344c2c9c4054f0ba151061145d60c415fb
+      version: eca93fc66f07d045e188ad23ae647fb3a9efab00
     status: developed
   euslime:
     release:
@@ -3830,7 +3836,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 3add91d3997e4234c65c51bd0bb3f71ba885cc77
+      version: 2c9e315a2ccc7592f192ea57dc6a1e0de48c7877
     status: developed
   haf_grasping:
     doc:
@@ -4863,7 +4869,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
-      version: 35e3bc1b6dbd94309326acb4b8b9da2b8cfb3d18
+      version: 92d741255160da566fdce3df87aea9a951acca8f
     status: developed
   jskeus:
     doc:
@@ -6593,7 +6599,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 8d3a6ecab02f67df3bd186ff4f44dae7df6dbb1a
+      version: 94484807b746ee6f6f6abfad553cc2291d70f97b
     status: developed
   nao_meshes:
     release:
