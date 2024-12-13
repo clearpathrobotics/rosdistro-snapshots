@@ -1576,16 +1576,19 @@ repositories:
       version: master
     release:
       packages:
+      - compass_conversions
       - compass_msgs
+      - magnetic_model
       - magnetometer_compass
+      - magnetometer_pipeline
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/compass.git
-      version: 1.0.3-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ctu-vras/compass.git
-      version: 90982923f7ff5370f4146acd4a978f8172864263
+      version: c10aa878e2ff1ba14926415e1ee717cefbad1c7b
     status: maintained
   computer_status_msgs:
     doc:
@@ -1808,11 +1811,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.4.5-1
+      version: 2.4.7-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: eb7ea6d6f36337ac4f9c4dfcc3bfc790ade7f7c2
+      version: 42f9da095c17702a63720ccd7d08c6551d5d1898
     status: developed
   create_robot:
     doc:
@@ -3836,7 +3839,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 137a50374638c78b8a110d29a96e842167a492ce
+      version: 456df093f110af74b6ee6e85ba6e44ced009a680
     status: developed
   haf_grasping:
     doc:
@@ -4677,6 +4680,7 @@ repositories:
       - jsk_common
       - jsk_data
       - jsk_network_tools
+      - jsk_rosbag_tools
       - jsk_tilt_laser
       - jsk_tools
       - jsk_topic_tools
@@ -4685,7 +4689,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.2.12-1
+      version: 2.2.14-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -4827,7 +4831,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: c80a511340cd9b9fb112be70056632fd07b58964
+      version: 166151d07fcd7d14aebd168d0c909bde02ac009d
     status: developed
   jsk_roseus:
     doc:
@@ -6599,7 +6603,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 3b117eee9827c4b2d28a66f4b17913eaf78a770d
+      version: 67d31fae4a2de589e0000b1c460d5ff23e72565f
     status: developed
   nao_meshes:
     release:
@@ -7864,7 +7868,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 67fa1c5e5f5c96f5a5151dcdd6414cdec06cedea
+      version: 4e958e2ad1d14fd4f86acec3bf5706af6847e5f2
     status: developed
   plotjuggler:
     doc:
@@ -8695,7 +8699,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: f2378636e2a6a7ec0f8124fbe5d0770bce5bec0f
+      version: 7245dced8452ad8aa62297b9a00d47ffe43c4a5e
     status: developed
   qt_gui_core:
     doc:
@@ -12524,7 +12528,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 4daad9b890943cfc22bee74df7ac8a069ca3ed6e
+      version: 1d6b398e31718522f47ae2f29c5070f60b6d0d0d
     status: developed
   ur_msgs:
     doc:
