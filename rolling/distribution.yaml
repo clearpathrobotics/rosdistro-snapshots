@@ -581,7 +581,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: b037d21650092178a8d1aa9aceb4e343382d5639
+      version: 13968e8f6b650073194057c3c792470eb37f8360
     status: developed
   autoware_lanelet2_extension:
     release:
@@ -1327,7 +1327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 7a1d9311073f8da69360fb5ee5fc145c66505db7
+      version: 41f1078de0e7e61f24673ca9820c8e1a7acd5600
     status: developed
   ecl_core:
     doc:
@@ -1597,7 +1597,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastcdr-release.git
-      version: 2.2.4-1
+      version: 2.2.6-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -2956,7 +2956,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: 32d90a3b4d71ad86908e853206d2bb118344ed26
+      version: 46a42b63b159d243d18521c5049227102971dc1c
     status: maintained
   laser_geometry:
     doc:
@@ -3650,7 +3650,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.3.0-1
+      version: 1.4.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -3680,7 +3680,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.3.3-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -3840,7 +3840,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.6.3-1
+      version: 1.6.4-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -4243,7 +4243,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ntrip_client-release.git
-      version: 1.3.0-2
+      version: 1.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5425,7 +5425,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 8f1f16f16090184062f1993728d063ff2680f958
+      version: ca59a7f05b6712ba535a78ec617627d401668268
     status: maintained
   rcpputils:
     doc:
@@ -5536,7 +5536,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 70d93ba82bf96457ad24ab6592b1dcc906d3cffc
+      version: 246e57ee601d65e81a2c29d0f2e9bfa0eb66fc26
     status: maintained
   resource_retriever:
     doc:
@@ -5721,7 +5721,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: 84455245e05b397c9d7925a33aa01602dc317a0d
+      version: 665020847e6481621612534c608c997e0ae1983b
     status: developed
   rmf_task:
     doc:
@@ -5757,7 +5757,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: 9c7747dce1bcae8042b201ff16c82b26a886914f
+      version: 982bf1318a010b5e1b8fed092a2c4c3e8246a51a
     status: developed
   rmf_traffic_editor:
     doc:
@@ -5777,7 +5777,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 5ed7be2cb6c72f91d804c1fce3377bcc5baefbee
+      version: cb95b26000df592e50b092c9b54191361d86aec7
     status: developed
   rmf_utils:
     doc:
@@ -5984,7 +5984,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 86ccf3f32d02b956cd7ad9f0f2801626597ae2f5
+      version: 65e0cabeb7bc45ec317ca4f714f8a86df5de9a0b
     status: developed
   robot_calibration:
     doc:
@@ -6105,7 +6105,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: e7d2fcce4ea7fcca07d86c03cb53564a9aaecdba
+      version: 612b30ba655922c51e7a07e077d3f3ca06ea2092
     status: developed
   ros2_controllers:
     doc:
@@ -6142,11 +6142,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 4.17.0-1
+      version: 4.18.0-2
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: a09e7af552c873ce29940b10167af99568252fb2
+      version: eaeefdfbf18a73bcc1dac62141e3da3b009858df
     status: developed
   ros2_easy_test:
     doc:
@@ -7043,7 +7043,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: 842cd61ba59a5240b730791de567ad489d2e2900
+      version: 01e3e7c36c03b915b53fc1e53009adc5f09cc3ce
     status: maintained
   rqt_publisher:
     doc:
@@ -7058,7 +7058,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: 08a81d0e8e5edb10b7e4b2cf38d6cdf11033baec
+      version: 17c81696299409fefee5354c149b514bcf48d2f5
     status: maintained
   rqt_py_console:
     doc:
@@ -7917,7 +7917,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tier4/tensorrt_cmake_module.git
-      version: 0aff720f7b81384e785ac74489fa1eb7c73723d3
+      version: 7780071145a0fb362032ba779ceef3363c204abf
     status: maintained
   test_interface_files:
     doc:
@@ -8227,7 +8227,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_msgs.git
-      version: db9c5c0e2df977a3751ccebe7cf5ce7b4dbbffcf
+      version: 27c78d07cd4ba05bc20c0f75961cb7594ae45e3f
     status: developed
   tvm_vendor:
     doc:
@@ -8435,7 +8435,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 2.4.13-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
@@ -8759,7 +8759,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 3e3b020e5af7dd09caf95d82cc4bc2e0127e480e
+      version: 2beba7d3d012ae9568ab1556129380ce9002383f
     status: maintained
   vitis_common:
     doc:
