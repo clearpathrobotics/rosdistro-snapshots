@@ -618,7 +618,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
-      version: ce8405abd2e23e4ef34813571d8bd1f104eafc1c
+      version: c15867595bf21828f51afe830b97686e53708175
     status: developed
   bond_core:
     doc:
@@ -1578,17 +1578,18 @@ repositories:
       packages:
       - compass_conversions
       - compass_msgs
+      - compass_stack
       - magnetic_model
       - magnetometer_compass
       - magnetometer_pipeline
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/compass.git
-      version: 2.0.1-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/ctu-vras/compass.git
-      version: c10aa878e2ff1ba14926415e1ee717cefbad1c7b
+      version: 18895f48c194df5840ffb069126b3ed7f699efac
     status: maintained
   computer_status_msgs:
     doc:
@@ -4032,7 +4033,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: f6c31abdb1227daae9acc467ce18ee7809299d12
+      version: cf759661577134b527455e5a09c050fd8684d1df
     status: maintained
   hri_actions_msgs:
     release:
@@ -5337,7 +5338,7 @@ repositories:
     source:
       type: git
       url: https://github.com/norlab-ulaval/libpointmatcher.git
-      version: 08729a2e8e9121deb90c77b34027d03211662bc2
+      version: 3eb448330b2c35f7718e690e66f0c1057115e877
     status: maintained
   librealsense2:
     doc:
@@ -6183,7 +6184,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 675495426dcceb18453ab0a689f5fd8319248998
+      version: ce61fac95b9c659592dfdf53b6a3332e4afab91e
     status: maintained
   moveit_calibration:
     doc:
@@ -6603,7 +6604,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
-      version: 67d31fae4a2de589e0000b1c460d5ff23e72565f
+      version: 1f6069a52686ee620e3245f608596bef27527cf1
     status: developed
   nao_meshes:
     release:
@@ -7051,7 +7052,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/LORD-MicroStrain/ntrip_client-release.git
-      version: 1.3.0-1
+      version: 1.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7868,7 +7869,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: f22130afe46cab38c9adc9ed5fd098b0ae273c89
+      version: 0d820bef44699f6d847ad3020e3de1e7cfa5b50a
     status: developed
   plotjuggler:
     doc:
@@ -8699,7 +8700,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 0be5ba8cf616f5832abc7100011748d1143a6f3d
+      version: 979d76aa47a5e4e9925d58be3b7bf9948a822364
     status: developed
   qt_gui_core:
     doc:
@@ -13320,12 +13321,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 1.14.18-1
+      version: 1.14.19-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/xacro.git
-      version: 69a621929f829631ddfa58feeef837e0e311b070
+      version: 5b583548cee228f591968f47918f9c27fe0d16fd
     status: maintained
   xpp:
     doc:
