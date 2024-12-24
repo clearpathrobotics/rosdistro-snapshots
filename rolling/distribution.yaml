@@ -997,7 +997,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: c0c0bc57f958eb54a142446f0c2a475754367eee
+      version: 7f75faa7ba1b992456194f38bbbebd3511015c10
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1622,6 +1622,17 @@ repositories:
       url: https://github.com/eProsima/Fast-DDS.git
       version: 7e6ff9dfb0cbcdd4ad75db21e809fd0f0a8c4532
     status: maintained
+  feetech_ros2_driver:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/feetech_ros2_driver-release.git
+      version: 0.1.0-2
+    source:
+      type: git
+      url: https://github.com/JafarAbdi/feetech_ros2_driver.git
+      version: 56f0c6e2d84bba0bd68da9c23017155b50f1e486
+    status: developed
   ffmpeg_encoder_decoder:
     doc:
       type: git
@@ -2193,7 +2204,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 6f7365e1f393d219dad5e65752529c7c0369fefc
+      version: c70898aac1ca1837399315e2dec9dae1b28a6589
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2403,7 +2414,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 3e37582a271d6e23045e18af3912617196285d61
+      version: 3e30a2136cfd32c7e76ad87e592f2b0885d64e27
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3219,7 +3230,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: e37830925130afd541449ed22df0bc952c19a94a
+      version: 35ed4b91291d9f3d08e4b51acfb51163e65df8f8
     status: maintained
   libg2o:
     release:
@@ -3665,7 +3676,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 4656ab8521c69a8712929c882bfa81373fea4cc0
+      version: 0d849d153f1db1f3d9a57e5f26327802be88d782
     status: developed
   mola_common:
     doc:
@@ -4013,7 +4024,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 03b7955e4947e52dca2c582a3c7fefe3ca805edc
+      version: 3be233d6f94c6b6c967f6597230961824c8de38f
     status: developed
   nao_button_sim:
     doc:
@@ -4722,7 +4733,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: c0d86b5345acd1be51f99e7b01f5c7acf6c5c143
+      version: a73c947521027ce2900540af91b862a4e2021866
     status: developed
   plotjuggler:
     doc:
@@ -5732,7 +5743,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: 665020847e6481621612534c608c997e0ae1983b
+      version: 40a2262a0dd7b54985b0df4a04870b5bbe8e22ed
     status: developed
   rmf_task:
     doc:
@@ -5995,7 +6006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 79fc5ce304fa4ef9a40ab497e71d8a12d91a2449
+      version: b1caf786fc76ac62bfaca40aaf627aeeb72616f5
     status: developed
   robot_calibration:
     doc:
@@ -6116,7 +6127,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 03bf0e8ff13695a9b6e862fdbaba358ee6b1941c
+      version: 52a2ffd4343747af1c5da5c4c49535e3ecc94fc7
     status: developed
   ros2_controllers:
     doc:
@@ -8234,7 +8245,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tuw_msgs-release.git
-      version: 0.2.4-1
+      version: 0.2.5-1
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_msgs.git
