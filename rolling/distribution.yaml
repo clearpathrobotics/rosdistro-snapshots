@@ -508,7 +508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: d630e454d2b009418597adabb72f7292ca776ac2
+      version: dfcc07527d1206c56e43efe8fcb21a139cc93d0f
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -574,10 +574,14 @@ repositories:
     status: developed
   autoware_internal_msgs:
     release:
+      packages:
+      - autoware_internal_debug_msgs
+      - autoware_internal_msgs
+      - autoware_internal_perception_msgs
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_internal_msgs-release.git
-      version: 1.1.0-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
@@ -1620,7 +1624,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 7e6ff9dfb0cbcdd4ad75db21e809fd0f0a8c4532
+      version: 29ff5264ff544604ca072d22929560874ee3c0c7
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2063,7 +2067,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/geometry_tutorials.git
-      version: c7edb602162bbdeb397afabbd39a2193716b3a7a
+      version: 4684c676b8a175826bea8ab4e0dc722b64c271f8
     status: developed
   google_benchmark_vendor:
     doc:
@@ -2204,7 +2208,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: a2f917aa09e744bc26fc6ed9f0e03e598b338ee8
+      version: 39d92cbfc5536f8d2ee7c868d5c414085f6dcf90
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2655,7 +2659,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.6-1
+      version: 6.0.7-1
     source:
       test_pull_requests: true
       type: git
@@ -2701,7 +2705,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/imu_pipeline.git
-      version: 5eba63cd893f4cdb1cfefa5d27df713ef9e2f32a
+      version: cf59e0a6b62f293b1a1abd13ffb815e011481e8a
     status: maintained
   imu_tools:
     doc:
@@ -3662,8 +3666,6 @@ repositories:
       - mola_launcher
       - mola_metric_maps
       - mola_msgs
-      - mola_navstate_fg
-      - mola_navstate_fuse
       - mola_pose_list
       - mola_relocalization
       - mola_traj_tools
@@ -3672,11 +3674,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.4.1-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: f135385f3ba4d584f3709d0e76e0fee8887b3691
+      version: 3b328e2d666c5e4f4c3dc9c4257a45b0d6439a09
     status: developed
   mola_common:
     doc:
@@ -3707,6 +3709,16 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
       version: bd6bff82b91bac11abf06cc7bd2fc34f80c7be7a
+    status: developed
+  mola_state_estimation:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mola_state_estimation.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mola_state_estimation.git
+      version: 4ab0104b3a1cb689c05296e0d0039b919fd5974e
     status: developed
   mola_test_datasets:
     doc:
@@ -4019,7 +4031,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.12.0-1
+      version: 0.13.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5331,7 +5343,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: c0cc63870a763340952471c848eb85827f97879b
+      version: 673c558fa7ff5434a489857df75064ebdb0ee5a8
     status: maintained
   rcl_interfaces:
     doc:
@@ -5378,7 +5390,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_logging.git
-      version: c8d466d9a0aacdb4974515fc249dc5a2327dcf6b
+      version: 2d5deed307163d15f9ef2379ee2facd86a643969
     status: maintained
   rcl_logging_rcutils:
     doc:
@@ -6308,7 +6320,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: e20d2c664fc2981b0b80ebed534e5becc6fdbf34
+      version: 9f8e5453bf71e17e03e3608b2dcd1590512cb83a
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7362,7 +7374,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: be68734b712dbc0f1f556d520bb993eb954fdaff
+      version: 2f82645f65e578b2aa6098bfd4ad164ce7695963
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
