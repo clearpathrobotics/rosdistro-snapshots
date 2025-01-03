@@ -263,7 +263,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: a5d96f47984502fcb144acc3fe32ececf64c3cfe
+      version: 33cf3644d4995d7550fb159e1cde688f44872c3d
     status: developed
   ament_nodl:
     release:
@@ -828,11 +828,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/camera_ros-release.git
-      version: 0.2.1-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: cc3fa065c6e749981998bae56071366bb6f16ac9
+      version: 809e39e2982458032579cbcb6bca2e029a7bc157
     status: developed
   cartographer:
     doc:
@@ -1469,7 +1469,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 6b776662ea9c55b2f54af76ed742a1b684d5e6d6
+      version: 2feca0cb286bd64852eb82011b8f2a3fea005f80
     status: maintained
   eiquadprog:
     doc:
@@ -2213,7 +2213,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 9db9ad7a03c263f7347beb287842bb59606b5077
+      version: 05d8030af4ef2ffa8a7cb5fc9218f7017c5c6f33
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3250,7 +3250,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.3.2-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
@@ -3727,7 +3727,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 2b6dc7f6e85fcc228faa40e881ebea80976ca0ab
+      version: f412cca408ea658a7d739afb3100e1a0c50956f1
     status: developed
   mola_state_estimation:
     doc:
@@ -3737,7 +3737,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 7eacf927c57011f00da33e3370c9647b3771cdb9
+      version: cc8cd38de8d37e000133d8646ce37307be86caed
     status: developed
   mola_test_datasets:
     doc:
@@ -4123,7 +4123,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation.git
-      version: 091b5ff12436890a54de6325df3573ae110e912b
+      version: 7371c8065cb11a250ab89c39380e54d548808c33
     status: maintained
   navigation_msgs:
     doc:
@@ -4650,7 +4650,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 85a0f181fc3da393b0bb5194e7384e67b110ab98
+      version: 43a3f650ba3ef8a46969d00f08de6f33b933a597
     status: maintained
   performance_test:
     doc:
@@ -4764,7 +4764,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a73c947521027ce2900540af91b862a4e2021866
+      version: ecc688d6ccd4018d05e8452b9580d16a405c4fcd
     status: developed
   plotjuggler:
     doc:
@@ -6034,10 +6034,18 @@ repositories:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
       version: rolling
+    release:
+      packages:
+      - rmw_zenoh_cpp
+      - zenoh_cpp_vendor
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_zenoh-release.git
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 60987116e91442a582ab48b36a4792d8602c4a05
+      version: 2429bf27c798af7be0b759bea1d770152b0f5042
     status: developed
   robot_calibration:
     doc:
@@ -6199,7 +6207,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2375aca137a00b8d162babf5f8dbec2c35be55ba
+      version: ad7739f4423ebaebe20a94cbb414e19e3b4dc500
     status: developed
   ros2_easy_test:
     doc:
@@ -6339,7 +6347,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 9f8e5453bf71e17e03e3608b2dcd1590512cb83a
+      version: 01578e76ca8f5027efb1b1f3b1f90f482f95a91a
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8488,11 +8496,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 88364dbf201abb2b4498983ae02545a0e58a315a
+      version: 614b4bd88fe0d52260f1ce09d13bac7b751a38f7
     status: developed
   ur_simulation_gz:
     release:
