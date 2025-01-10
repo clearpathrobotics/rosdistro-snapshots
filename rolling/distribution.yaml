@@ -500,6 +500,16 @@ repositories:
       url: https://github.com/hatchbed/asyncapi_gencpp.git
       version: fe77883cdc9a648ff95bb08a47c9decced393452
     status: developed
+  automatika_embodied_agents:
+    doc:
+      type: git
+      url: https://github.com/automatika-robotics/ros-agents.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/automatika-robotics/ros-agents.git
+      version: 2bf5efd6ec32555b2d56fc3c7d219d904bf7e221
+    status: developed
   automatika_ros_sugar:
     doc:
       type: git
@@ -832,7 +842,7 @@ repositories:
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: 809e39e2982458032579cbcb6bca2e029a7bc157
+      version: 901846bedd79c21b7c5cdcdd4930488494159b9d
     status: developed
   cartographer:
     doc:
@@ -1248,7 +1258,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/domain_bridge.git
-      version: 27d69879ff1e35fb0050510ba41824eb065f2151
+      version: c2523e1d03d9c3e5e83b3e7e56503784feabf8f2
     status: developed
   dual_laser_merger:
     doc:
@@ -1345,7 +1355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: b3023aeddfacff6f87161cd8e2de12a7d65d4654
+      version: c35f4dc1cf9f5ad034161756b255f8da300a72d6
     status: developed
   ecl_core:
     doc:
@@ -1478,7 +1488,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: f7ad860a3dbaa02206a3eb4dafd45b92119191b7
+      version: a73b5879b55d1657515eeaf825b4b93b1697d373
     status: maintained
   eiquadprog:
     doc:
@@ -2222,7 +2232,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 169523ecc6d834dcc2174446e0da91856b780215
+      version: 89fbe4bd2ef69707ba874aa5ce21012855dbe750
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2587,7 +2597,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: b550c1dbc14485ad183f58ffadf45f2b88fe275c
+      version: 5aa4305d004d7399b5e11c335974316ee99eec0f
     status: developed
   iceoryx:
     release:
@@ -2700,7 +2710,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: ccb2e9bf447c16c1857afc0d935413dcc2969cea
+      version: 0352721b71ca24d6bc085c1b45bca3636620bab3
     status: maintained
   imu_pipeline:
     doc:
@@ -3263,7 +3273,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 91de550243121056984e5b9b693b486860655d31
+      version: d49a84a4f3aa63efc900564ff32558e4f5d85b04
     status: maintained
   libg2o:
     release:
@@ -3516,7 +3526,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: b49095727a6ff160e1e913b90a4ce50e383e8863
+      version: 3eb44b96e83a9a75043dcbb99691347d3b0e06b0
     status: developed
   menge_vendor:
     doc:
@@ -3706,7 +3716,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 34825dbeb35727b8a1492a5b315803ebe7369b59
+      version: fbbad2a51419c38f9b5e76536260d4124be7e4cf
     status: developed
   mola_common:
     doc:
@@ -3732,7 +3742,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -3756,7 +3766,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 7b1e9fac78a3c380322e983aeb9f90a92417d3e8
+      version: 2941e7e0a4022acb6e6ba80b13a71f8defaefff0
     status: developed
   mola_test_datasets:
     doc:
@@ -3848,7 +3858,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 75286c7822e5f2d9babbb41b9a0ffaddb0d54808
+      version: 256646748452430ed064c48ce86a670bbf2116ec
     status: developed
   moveit_msgs:
     doc:
@@ -4787,7 +4797,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: aa816e9cf8bf094d46fa4be10dc092c607d2442f
+      version: 0f1d9989bcf886eed9d4011b3e48fdb2f79f544d
     status: developed
   plotjuggler:
     doc:
@@ -5501,7 +5511,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 4e8b071127228d5dace5aebf61d02260ecb91253
+      version: 296425c4183135c048dff8fd22a4c0d44b39b0f4
     status: maintained
   rcpputils:
     doc:
@@ -6068,7 +6078,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 0ef1d11cfa09fb6d409706c48a8e471bb72fef68
+      version: 660b1b0ab29797aab9f10ce99b40ad500e2c3106
     status: developed
   robot_calibration:
     doc:
@@ -6189,7 +6199,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 940cf5318413bebcfef4e8fe7560bb6d134f849d
+      version: b32967913da494d08ce5cbaa3f60b4b43dc47fed
     status: developed
   ros2_controllers:
     doc:
@@ -6230,7 +6240,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 7ddaf83e023c1ed90d29d2cdda2f94cb719208e9
+      version: 67096bdb9b99cf0d010019728bf1ff46aad76dc9
     status: developed
   ros2_easy_test:
     doc:
@@ -7997,7 +8007,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tensorrt_cmake_module-release.git
-      version: 0.0.3-3
+      version: 0.0.4-2
     source:
       type: git
       url: https://github.com/tier4/tensorrt_cmake_module.git
@@ -8843,7 +8853,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b38f92e1f0b9085598266cf9d8008fabac490744
+      version: abf3419733ec5f9153fea1b116eb1e37334e5c07
     status: maintained
   vitis_common:
     doc:
@@ -8977,7 +8987,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/xacro-release.git
-      version: 2.0.11-1
+      version: 2.0.12-1
     source:
       type: git
       url: https://github.com/ros/xacro.git
