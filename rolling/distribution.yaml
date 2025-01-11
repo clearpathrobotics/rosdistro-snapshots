@@ -723,7 +723,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/backward_ros.git
-      version: 6ca0607b3cf1fed6f79ed3e2b4f9324ffc4a5f5c
+      version: 3b77a2a4346ef109477ad979e329c0eb1cbe1986
     status: maintained
   bag2_to_image:
     doc:
@@ -770,7 +770,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: d4d8ae13fabe82c88de7c1885ce226272015325a
+      version: 48f6c5bd1d797c73a562f1c92f404d0bb944e018
     status: developed
   bno055:
     doc:
@@ -1355,7 +1355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: c35f4dc1cf9f5ad034161756b255f8da300a72d6
+      version: 88f1c7c9cb47a9e970a6b764462a6e6abe43aae2
     status: developed
   ecl_core:
     doc:
@@ -1488,7 +1488,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: a73b5879b55d1657515eeaf825b4b93b1697d373
+      version: 63b9d11f42fc936f2774c87a80fd0d71baa31380
     status: maintained
   eiquadprog:
     doc:
@@ -2006,7 +2006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 4e92cc4e9da5e7a853ac0b1762db85e1f859d91b
+      version: 6d88bc2b7e487796756ee3cc52df64a618428f60
     status: developed
   geographic_info:
     doc:
@@ -2232,7 +2232,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 89fbe4bd2ef69707ba874aa5ce21012855dbe750
+      version: 60365b763084c8366f40ea8a72a07b82725e3543
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2360,7 +2360,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_msgs_vendor.git
-      version: e7294d2ba8cfe719d520f26ad787f9f0a052d00b
+      version: ae03d1b8e162b44cc4388b627831d5c09afef496
     status: maintained
   gz_ogre_next_vendor:
     doc:
@@ -3091,7 +3091,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 02595bafc7891d4d287667b6aa9161edf738e9f3
+      version: a93ce70943c65b938d38eab78322dc27722b7a6f
     status: developed
   launch_param_builder:
     doc:
@@ -3273,7 +3273,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: d49a84a4f3aa63efc900564ff32558e4f5d85b04
+      version: 2ae7b2ff7438a4deecff2a8b5de685cc14e5cd44
     status: maintained
   libg2o:
     release:
@@ -3746,7 +3746,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 61e0d0468c0bf9af36f819dd90dd26438626d83a
+      version: f39be61fcf45071fb4393c3b3429f9efcc417fd4
     status: developed
   mola_state_estimation:
     doc:
@@ -3762,11 +3762,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_state_estimation-release.git
-      version: 1.6.0-1
+      version: 1.6.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 2941e7e0a4022acb6e6ba80b13a71f8defaefff0
+      version: 5f6d8700691c46db0f330d9e09acfcd44d9b6f1f
     status: developed
   mola_test_datasets:
     doc:
@@ -4797,7 +4797,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 0f1d9989bcf886eed9d4011b3e48fdb2f79f544d
+      version: 6acfc6be98d9943924aa19a81caf656d0b72e320
     status: developed
   plotjuggler:
     doc:
@@ -5495,7 +5495,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 9cabd69412eb2e66f93af73c614b4db25f7c7501
+      version: 80768ed14e5ebbeb4fbbff6de42149c9c526409d
     status: maintained
   rclpy:
     doc:
@@ -5589,7 +5589,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach_ros2.git
-      version: 9f912d4dd6e364f0bdd40db0e11472df9fc56bad
+      version: 31d41e39582fba97abc22beccd9c76e454001513
   realtime_support:
     doc:
       type: git
@@ -5622,7 +5622,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: d54140d48b2d18d4cafda86ea09c28ffd621ba03
+      version: 5b85370c75371a5748b790101802910e53bb12f0
     status: maintained
   resource_retriever:
     doc:
@@ -6078,7 +6078,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 660b1b0ab29797aab9f10ce99b40ad500e2c3106
+      version: 1f2d6752b762ffca2d451bbd220d1593f9d8b9c2
     status: developed
   robot_calibration:
     doc:
@@ -6199,7 +6199,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: b32967913da494d08ce5cbaa3f60b4b43dc47fed
+      version: d501f1b05b69d5f92a4c7bb5110fc63fabbed71d
     status: developed
   ros2_controllers:
     doc:
@@ -6240,7 +6240,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 67096bdb9b99cf0d010019728bf1ff46aad76dc9
+      version: 0736e6c068b1705b59acfd62a1e4e330f5df7830
     status: developed
   ros2_easy_test:
     doc:
@@ -7434,7 +7434,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 9be9fab373e21792f3fe1df084fdddac8c76f500
+      version: 0708e9f86100f5e88a342ab08b6634cf20cf651f
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8533,7 +8533,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: accd58b7e3d98a5ed9dd259a7a3859cdba1851aa
+      version: 60815e8d7215e2b0ddaf43a491bbd6daf00b6330
     status: developed
   ur_simulation_gz:
     release:
