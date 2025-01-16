@@ -508,7 +508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
-      version: a1f0975474276d8c8bb230d1d8d443edd97cb2c2
+      version: d1fc09f40877464420320d5136a3917089f55ae2
     status: developed
   automatika_ros_sugar:
     doc:
@@ -723,7 +723,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/backward_ros.git
-      version: 3b77a2a4346ef109477ad979e329c0eb1cbe1986
+      version: a0c6cc9237d627dd08179e8a1c5c2304d8d352a7
     status: maintained
   bag2_to_image:
     doc:
@@ -1083,11 +1083,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 3.4.0-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: ec19b210f3ffd4540de2842a5f79af9a6a229223
+      version: 4885811543e558d5cb0e26495f4599b4b8df2e04
     status: maintained
   cpp_polyfills:
     release:
@@ -1355,7 +1355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: ef95a1b0fea1639c690fac24464fd9880b20f2c8
+      version: 0e30c01d61061cfd20070ed51d8a87291c98ab7e
     status: developed
   ecl_core:
     doc:
@@ -2068,12 +2068,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.40.0-1
+      version: 0.40.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 609deb138650697acb73085440bf46e38bf2da09
+      version: 24a8b9a1433220775c186cc7ef556972c6ca5402
     status: maintained
   geometry_tutorials:
     doc:
@@ -2233,7 +2233,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 4cbf67354071a32c1db71cec7baf699a8ffe1049
+      version: 3c382dd47f687ed0a005f556840ac83edc42bd34
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2443,7 +2443,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: f9b4e7f72c42cdb1269c879a0dcfa153070a817e
+      version: 63dd3bd1f533f0c433ae84e0e3e837c9de7f2bf1
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2923,7 +2923,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: e9dd04af80ad16ffe6af526f597c167233c9d62b
+      version: 86465afdf3c092f03eda7bb969f9efd6faf9071b
     status: developed
   kinematics_interface_pinocchio:
     doc:
@@ -2996,7 +2996,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: 9a150a468a71077262f15f9384dade6d8378b087
+      version: b5363cbdefa5f5bcb4c5a1ef3188952283802fb0
     status: developed
   lanelet2:
     doc:
@@ -3755,11 +3755,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.5.2-1
+      version: 0.5.3-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: d0b9a1459c4f8788fd25125181ad032b5161341e
+      version: a3443d57c4c252619b53d5e34cc67e06ffeb4b55
     status: developed
   mola_state_estimation:
     doc:
@@ -5540,7 +5540,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 296425c4183135c048dff8fd22a4c0d44b39b0f4
+      version: 2b38e662b3635fffe5b68309f75e39f9e7441602
     status: maintained
   rcpputils:
     doc:
@@ -6107,7 +6107,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: f040f5cc2d2a2a4d7c6e8713e9526a6273b95427
+      version: 2930620850d09474b3178518f8fcd66b19fc9967
     status: developed
   robot_calibration:
     doc:
@@ -6228,7 +6228,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 00c7088394773a61a8e6a9daf614591e31a2b55d
+      version: f8c03cc7cca969a425e536c2cbfbf0bbc664d9fe
     status: developed
   ros2_controllers:
     doc:
@@ -6269,7 +6269,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: e0b929b5efcd8d3f7ba98649d00b24e2d22b0c7e
+      version: bfe622cd03fa4516d07c84ab12764282ad1bc693
     status: developed
   ros2_easy_test:
     doc:
@@ -6301,7 +6301,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: c2b4ce2a97e588643c07af85b9f0e90daa52ad4a
+      version: 8ac64df8cb250b5c21707b5b93ec01cb71741a82
     status: developed
   ros2_robotiq_gripper:
     doc:
@@ -6533,7 +6533,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: faf5b4ff2097f5fa60657e209687b9b465f413b7
+      version: 6156b3ece5064fd9b567496013a7476e2f195cf4
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7458,12 +7458,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 14.4.0-1
+      version: 14.4.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 0708e9f86100f5e88a342ab08b6634cf20cf651f
+      version: 9bbca6e06b71e05aefbf9b6719aa311049a34074
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9053,7 +9053,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 15df2d941e3b13c1c21a5648add3f758ddecb89d
+      version: 47201cc773f340f268285be7afef3aff5f221e04
     status: developed
   zbar_ros:
     doc:
