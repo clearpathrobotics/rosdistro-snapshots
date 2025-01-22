@@ -519,11 +519,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/automatika_ros_sugar-release.git
-      version: 0.2.5-1
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: 2bbfbd716269910d8a59fb9449e849fed1b9c3f7
+      version: d4b9d27ab33aef81b9cfc823c7d577503ee1a7a4
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -1355,7 +1355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 34654723e6d85fcf7ef715d11ebc21507cba4425
+      version: ca3ab233d99d72b1783140f37bbc003aac2a1b67
     status: developed
   ecl_core:
     doc:
@@ -1648,7 +1648,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: dbfd1f3b8e3961ffdc0828d584a582c054ffef36
+      version: ec42a58f3e001be8b7ea9c866bdc99e9d8f7efdd
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2233,7 +2233,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: c3908c8666346ecc25d8f5c7a7aa8af2d0cbc916
+      version: d5f304ef50d65b89257dddd471df22a9b10c9e23
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2443,7 +2443,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 63dd3bd1f533f0c433ae84e0e3e837c9de7f2bf1
+      version: bd6e284e6a6cc350a0e8281275b32e1b45c66ab0
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3286,7 +3286,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: b01918978c8281d344d5408b3a13aab9e5af4b5d
+      version: fdc01dc3e0969423d65ee87f118164ec74373e5d
     status: maintained
   libg2o:
     release:
@@ -3412,7 +3412,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.4.4-1
+      version: 2.4.5-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -3725,11 +3725,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.5.1-1
+      version: 1.6.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: da876df85adfde99dad734b92cbf1ace1a1fc2da
+      version: ee9331e8a4e160b64655540e26b4f65928437bb9
     status: developed
   mola_common:
     doc:
@@ -3755,11 +3755,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.5.4-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: bdf5fb7177c34c2d651526cf003c54ed8bbd1618
+      version: 49598b474d6be2cb07db6201322e3bcb2b4ce7ed
     status: developed
   mola_state_estimation:
     doc:
@@ -3871,7 +3871,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 2b9173b372b4e33559104d0afdb99f32b98eb01e
+      version: e11cabbadf895c421c9c7018f974d786ec80cad8
     status: developed
   moveit_msgs:
     doc:
@@ -4013,7 +4013,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 3846b303241dc377ac26b8cab5a97c79c78aed4b
+      version: 6231841ce1e8e8fb7fc8a025b256ecd381bd0b3e
     status: developed
   mrpt_ros:
     doc:
@@ -4995,7 +4995,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
-      version: 0cda7bd0d3d4a4938eb27026afb8d67d97cda7f3
+      version: e8fdc3512b88daf5bd2471a90abd9fa1a34a1ded
     status: maintained
   proxsuite:
     doc:
@@ -5010,7 +5010,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 301fbb9c6d089e63081239bf0333af0c8cb9159b
+      version: 145e8dc70c300c321258bec1b71e043332add1a6
     status: developed
   py_binding_tools:
     release:
@@ -6055,7 +6055,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: 508ad9dd2ce05cb831ba00e9784c5f334101174c
+      version: 9619f2b1d98666b0f27ee52992826c2f81e6f3a3
     status: developed
   rmw_gurumdds:
     doc:
@@ -6089,7 +6089,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: 74bd075495a25286839881f5f500e1c9b9926f4c
+      version: b12c55d0b5e7d0cf1c51f41288e87b9dc1156539
     status: developed
   rmw_zenoh:
     doc:
@@ -6269,7 +6269,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: cd6d5f8445b33c49ee7b994e4106b2abafd5bc01
+      version: 3d14b4260a1929fda117da844ea128716d13260d
     status: developed
   ros2_easy_test:
     doc:
@@ -6409,7 +6409,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: d930a74491b836bea2e6a8223a95259890676adb
+      version: f3fc36cc06395035748d71c672cb3e40995eb850
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6644,7 +6644,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: ffd8c7da4ebd5aca9a1a5d860c9a10db28576e31
+      version: b48354198038fd4e8966035cafc46a7c6e6cb4c9
     status: developed
   rosbag2_bag_v2:
     source:
@@ -8882,7 +8882,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 9b74fa6df2a6e80c9e05e6bfabf7bf018a39809b
+      version: 9de0731d9b25aeabc372099be57218be913e5c0a
     status: maintained
   vitis_common:
     doc:
