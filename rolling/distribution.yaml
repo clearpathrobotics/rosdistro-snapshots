@@ -505,10 +505,15 @@ repositories:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/automatika_embodied_agents-release.git
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
-      version: 5f5ebd51d7edf2027445876879fe54927a4ac90a
+      version: 134975cab3f46f0fc82434abe1e1c3b12f423af8
     status: developed
   automatika_ros_sugar:
     doc:
@@ -523,7 +528,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: d4b9d27ab33aef81b9cfc823c7d577503ee1a7a4
+      version: 17355c3b4295ad6035c2ad1b9f0435a01cdde228
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -709,7 +714,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 56b3712f75860c31bb7c0656c1cc2304ffe06ffe
+      version: 60865b305fbbd65a61c2a179adb46af8df8a147b
     status: maintained
   backward_ros:
     doc:
@@ -1375,7 +1380,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 1027772c6a9a163bab08266443a19ec91fc1c440
+      version: d4534039434ed30032862a8d8f1a97d2681c6a92
     status: developed
   ecl_core:
     doc:
@@ -1926,7 +1931,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: ff853d82068d92ff7ad359af39c47f356b799dbc
+      version: 2fba8a3c593f811bd9bb2e52620da060e4351234
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2253,7 +2258,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 648c68d130a3eae119c2db9eae3bd64bf4b4550e
+      version: bb0c70b482c1562265106e6211b99605200b0813
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2445,7 +2450,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_rendering_vendor.git
-      version: 4fce47cea3e3f803928d3bc7ccd60e3ec0854ebb
+      version: 17775078263e340114791dbd858c6f150161f41f
     status: maintained
   gz_ros2_control:
     doc:
@@ -3013,10 +3018,18 @@ repositories:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
       version: main
+    release:
+      packages:
+      - kompass
+      - kompass_interfaces
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/kompass-release.git
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: a85619f6fcee6ce6fbefa898f286a9ccc6dd6977
+      version: bdcb071b24d9fbaaf56af4c16a7bd0fd6fbc7e9c
     status: developed
   lanelet2:
     doc:
@@ -3749,7 +3762,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: cbf79c4ad1df939112022fcb166c5c62f19c5256
+      version: 33495bd99d86193068d583984d48e7a8c68ad1ea
     status: developed
   mola_common:
     doc:
@@ -3955,11 +3968,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.6.4-1
+      version: 1.6.5-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: a056d097e0cc9a180e765f14b67cb5d8384c3f92
+      version: abf5c68ef1fb7a7f14924358cfa51c77ee53bd6a
     status: developed
   mqtt_client:
     doc:
@@ -4845,7 +4858,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 6fa3779ad7aad279be86c0e9a2d72cd06f6c4adb
+      version: afa2f5525596ea95894023f1f60d45a97c7aca45
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5030,7 +5043,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: d9b4dea935b031d1eec4585cde413e201aeefcf0
+      version: 88aa809b0822de66583db8b3c60015ccee94b884
     status: developed
   py_binding_tools:
     release:
@@ -6690,7 +6703,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: b48354198038fd4e8966035cafc46a7c6e6cb4c9
+      version: 1d60d7b38cb9492e51136cb27ad59a25c700c6c6
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7918,7 +7931,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 5968e6bbda57adba038726ac53c582eb51cfecff
+      version: 93749a188171b3c002e01814b821b5d4a3ab9d48
     status: developed
   steering_functions:
     doc:
