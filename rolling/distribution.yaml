@@ -714,7 +714,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 60865b305fbbd65a61c2a179adb46af8df8a147b
+      version: fec4ae5247cb323556267f729b209d4e7a23c041
     status: maintained
   backward_ros:
     doc:
@@ -1961,7 +1961,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: ce1ffa651a01277fdb43b86ac3f42e5b755c6869
+      version: f681bb555d2de197fb42fa7f203c3b30e2f6aaf3
     status: maintained
   fuse:
     doc:
@@ -2258,7 +2258,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 885e8ef9f631f165aa2cf0d5a40f82ffc49ef17b
+      version: 2998d988dd168ae8e58ae0025dbf35dcdbc61926
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2468,7 +2468,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 789819147a52db8dd7cbf0c18857cfe42911891a
+      version: 135332632bd340f17eeb0930b0d46b30fb956ebb
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2511,7 +2511,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_tools_vendor-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2726,7 +2726,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 722ca08b98f37b7b148d429753da133ff1e2c7cf
+      version: 0908a961f9c16ac1b349ada22196e72e4c56b811
     status: maintained
   image_transport_plugins:
     doc:
@@ -3056,7 +3056,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 1d88ad28baa5b6962d80642422c0667ae88bfdae
+      version: d5c1fc89dd6c27eef845b6a7a75cf4dd1f58c194
     status: maintained
   laser_filters:
     release:
@@ -3114,7 +3114,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
-      version: 9e7494e81f95b1eb21bcabfbf2fa774b7f63aee2
+      version: 7bba178d0928e58ce174787bcab15cdb2a491dd9
     status: maintained
   launch:
     doc:
@@ -4125,7 +4125,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.13.1-1
+      version: 0.13.2-1
     source:
       test_pull_requests: true
       type: git
@@ -4669,7 +4669,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pal_statistics-release.git
-      version: 2.6.1-1
+      version: 2.6.2-1
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
@@ -5240,11 +5240,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/qml_ros2_plugin-release.git
-      version: 1.0.1-1
+      version: 2.25.2-1
     source:
       type: git
       url: https://github.com/StefanFabian/qml_ros2_plugin.git
-      version: 0f35c53cf98a9ae7791b6a52793d0fece35b9aac
+      version: 617ecd63adc36c6ebd97837114214099304cc6fe
     status: developed
   qpoases_vendor:
     release:
@@ -5843,7 +5843,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: 9ff25f4bc1edef70f2b6c564cef9efa17377c892
+      version: 5b8784b3127586832a2f6a17931b25191ecf410d
     status: developed
   rmf_ros2:
     doc:
@@ -6162,7 +6162,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_zenoh-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
@@ -6283,11 +6283,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 4.25.0-1
+      version: 4.26.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: dab91b1a6d46feb422cb3e2b147096cb28d89f0d
+      version: 5d4933d2945b72bf2625a2a28c98107433c31d9d
     status: developed
   ros2_controllers:
     doc:
@@ -6468,7 +6468,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: a91bbc1b25d1d45e727d430a86d9f05646e71288
+      version: 33320954a69b8f7abdfe418d45406cad830bb262
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6516,11 +6516,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_babel_fish-release.git
-      version: 0.10.2-1
+      version: 3.25.2-1
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
-      version: 00f4a4a562097486a01a5000ff3f35e74546054f
+      version: 3b3a0af048cc7d32a9b6881181359369746a0222
     status: developed
   ros_battery_monitoring:
     doc:
@@ -6534,7 +6534,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_battery_monitoring-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -7760,7 +7760,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ajtudela/slg_msgs.git
-      version: 4aeb40f12bd1493d94640272cfeffb59e4aeeae5
+      version: c3a20a7412c7c31bfa66c1ccf351d2a3368a1018
     status: maintained
   slider_publisher:
     doc:
@@ -8568,7 +8568,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 316b1b30abb976a36ff9ac6e84fdcd9fb50bf4d8
+      version: b9b9fcf879ce1f2e18c61b873d730d80ec00dee8
     status: developed
   ur_description:
     doc:
@@ -9107,7 +9107,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 3.0.3-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git

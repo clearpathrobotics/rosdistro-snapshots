@@ -494,7 +494,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 60865b305fbbd65a61c2a179adb46af8df8a147b
+      version: fec4ae5247cb323556267f729b209d4e7a23c041
     status: maintained
   backward_ros:
     doc:
@@ -3222,7 +3222,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: ce1ffa651a01277fdb43b86ac3f42e5b755c6869
+      version: f681bb555d2de197fb42fa7f203c3b30e2f6aaf3
     status: developed
   frame_editor:
     doc:
@@ -3371,7 +3371,8 @@ repositories:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
       version: 61f743545da9406dbc96a219ca6027fef6bf0daa
-    status: maintained
+    status: end-of-life
+    status_description: Deprecated. Use ros_gz instead.
   gazebo_set_joint_positions_plugin:
     doc:
       type: git
@@ -3587,7 +3588,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry2.git
-      version: 6df9e94363061a24ba890a6ff29771a96b0d756b
+      version: 9ff608f463d98f27b99d575fa89000a498ed2d4f
     status: maintained
   geometry_tutorials:
     doc:
@@ -3840,7 +3841,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 885e8ef9f631f165aa2cf0d5a40f82ffc49ef17b
+      version: 2998d988dd168ae8e58ae0025dbf35dcdbc61926
     status: developed
   haf_grasping:
     doc:
@@ -5047,7 +5048,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: 1d88ad28baa5b6962d80642422c0667ae88bfdae
+      version: d5c1fc89dd6c27eef845b6a7a75cf4dd1f58c194
     status: maintained
   laser_assembler:
     doc:
@@ -6600,7 +6601,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
-      version: 0.13.0-1
+      version: 0.13.2-1
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
@@ -7430,7 +7431,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/lpresearch/openzenros.git
-      version: 7297eb941c260a5fe69df7cccc596e7d3012d87e
+      version: 9417cd006cc6d067ed19c3ba902a744de9f006f3
     status: developed
   opw_kinematics:
     doc:
@@ -7930,7 +7931,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
-      version: e686f7c6a887f59f502d26d3f437947ca379dc71
+      version: 6e2a8295e0a8a92259577a2b29909738e210612c
     status: maintained
   point_cloud2_filters:
     doc:
@@ -8700,7 +8701,7 @@ repositories:
     source:
       type: git
       url: https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System.git
-      version: 7d9f9b43a7957784c2b99f5a3e20b88e50b5b1c2
+      version: 483bb7354ace8f07b76f483ec167e84467ac3977
     status: developed
   qt_gui_core:
     doc:
@@ -12529,7 +12530,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 316b1b30abb976a36ff9ac6e84fdcd9fb50bf4d8
+      version: b9b9fcf879ce1f2e18c61b873d730d80ec00dee8
     status: developed
   ur_msgs:
     doc:
