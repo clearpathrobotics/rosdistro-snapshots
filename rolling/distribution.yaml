@@ -1208,7 +1208,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: cbb174232b322eb3231d54af05765558c093ceca
+      version: e869d5bce0f9f73a5a549b9c3a315413344ba17c
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1241,12 +1241,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 4.3.1-1
+      version: 4.4.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 484cca0ef1cc28610577e71a8b93a75e62f67078
+      version: 70eaae5b01ed113d6777ac0d02919a2afc37fce9
     status: maintained
   dolly:
     doc:
@@ -1643,7 +1643,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: 4a4082a8db04fd3d587bd0d2052ae0c439e788c6
+      version: 9ea5fee12e12c371a1197f4e74612050baed60ac
     status: maintained
   fastcdr:
     release:
@@ -1673,7 +1673,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 7eb774ed0959b7512376501891ad9eac9cea65a0
+      version: fd8d24ec98cc077cb9fc0e4e8a80712c26c57962
     status: maintained
   feetech_ros2_driver:
     release:
@@ -1961,7 +1961,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: f681bb555d2de197fb42fa7f203c3b30e2f6aaf3
+      version: 19ca37c914b1a90bf1e4098e710293e1e78de912
     status: maintained
   fuse:
     doc:
@@ -2721,12 +2721,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.7-1
+      version: 6.0.8-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 0908a961f9c16ac1b349ada22196e72e4c56b811
+      version: 757545d99949f83014507a99b634f9034b52c362
     status: maintained
   image_transport_plugins:
     doc:
@@ -2748,7 +2748,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: 0352721b71ca24d6bc085c1b45bca3636620bab3
+      version: 39136ebee0eebc950dbaeb2758374137b5458879
     status: maintained
   imu_pipeline:
     doc:
@@ -5240,7 +5240,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/qml_ros2_plugin-release.git
-      version: 2.25.2-1
+      version: 2.25.2-2
     source:
       type: git
       url: https://github.com/StefanFabian/qml_ros2_plugin.git
@@ -5573,7 +5573,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 2cc43b327405f82d8192267714d509074ef2915f
+      version: f6b80abe4aec0f6284fb42f3b122e5f8574d2649
     status: maintained
   rclpy:
     doc:
@@ -5866,7 +5866,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: bee9778579dc1fc7a70686f5c3a0b259c142ff4b
+      version: e4d1d87f57388d5aa97303d714aa1f460ba4021c
     status: developed
   rmf_simulation:
     doc:
@@ -6050,7 +6050,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: 99a271e7c3468f609ed563730f99fbd771755a48
+      version: 4d1cb022b3f3e2f73b7852ce84a13b6d04238cac
     status: developed
   rmw_cyclonedds:
     doc:
@@ -6328,7 +6328,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 5486fcd2a651e0f6ca9a1827d5d2871917b99c2c
+      version: ae6efebd2a87d90e522738399ccb3fd5556b47c7
     status: developed
   ros2_easy_test:
     doc:
@@ -8248,7 +8248,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: a8ad111444fca07e36fc53a9fb9cd0701a8a25e8
+      version: fcf3c7c34cdb593ab1666fd9ee37cc7607e9ed11
     status: developed
   tracetools_acceleration:
     doc:
@@ -8568,7 +8568,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: b9b9fcf879ce1f2e18c61b873d730d80ec00dee8
+      version: f717f83c5943b1ef2bc722e7313f0ebe6d3cf1c9
     status: developed
   ur_description:
     doc:
@@ -8940,7 +8940,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 291de3a237c33ef229b3e1403a2107ce8abd57d5
+      version: 26b8bcd03ceba2928d15e0f87ac7cee87baf0f56
     status: maintained
   vitis_common:
     doc:
