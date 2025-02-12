@@ -848,7 +848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: 5a85ec283a5352e193866f16fcfe684c8eaf6814
+      version: 2478c680e0a6e2633aefb97b344beb83e41405f8
     status: developed
   cartographer:
     doc:
@@ -1380,7 +1380,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: b9f2fe514611ae57efb231ae090473cfe9d29012
+      version: 045f5197de34cb81025b4a54e9006c3e629b0dc2
     status: developed
   ecl_core:
     doc:
@@ -1513,7 +1513,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 490f2273c5df9195f6453f35999bd8c4e0a71586
+      version: 7102d83447795424665fbcd61a97030fedca68b5
     status: maintained
   eiquadprog:
     doc:
@@ -1673,7 +1673,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: fd8d24ec98cc077cb9fc0e4e8a80712c26c57962
+      version: 74e3d6fd8ad14375c0c0805c2e878c6444f496a2
     status: maintained
   feetech_ros2_driver:
     release:
@@ -1957,11 +1957,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 3.0.1-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 19ca37c914b1a90bf1e4098e710293e1e78de912
+      version: 3aba12ef03589f68a026d64eb4c6355a941e0f21
     status: maintained
   fuse:
     doc:
@@ -2623,7 +2623,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: a0811cdf3524ad03243014b4b37b851c41b29124
+      version: adbaedf80489d45b6edf348ad58c90155af046b7
     status: developed
   hyveos_bridge:
     source:
@@ -2743,7 +2743,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 5.0.1-1
+      version: 5.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -3319,7 +3319,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 9b1f609e5b754ce7adc0219a08b72714ae783e43
+      version: f63f4d71d4c917b62242cb9b7e06edae80d6c204
     status: maintained
   libg2o:
     release:
@@ -3904,7 +3904,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 99227040ebe4bac4cc1a95afbe44ee9c543e3c02
+      version: 7db0bd48625695bbb163e6e814bd1fb2e579d530
     status: developed
   moveit_msgs:
     doc:
@@ -5043,7 +5043,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 88aa809b0822de66583db8b3c60015ccee94b884
+      version: c1218c8aa42853a24fffc2a053c7e60174f225d6
     status: developed
   py_binding_tools:
     release:
@@ -5070,7 +5070,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 0469336dbc7e650817a6d629b6e14ecaf175c484
+      version: 11617ac95c77f53c2b45169753faf2530347f0d5
     status: developed
   py_trees_js:
     doc:
@@ -5573,7 +5573,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: f6b80abe4aec0f6284fb42f3b122e5f8574d2649
+      version: 605251bd71da0427ab2cdca26a9e737ca93e73d9
     status: maintained
   rclpy:
     doc:
@@ -6094,7 +6094,7 @@ repositories:
     source:
       type: git
       url: https://github.com/signetlabdei/rmw_desert.git
-      version: 539277cc1012096e84c2977a46c3cc37ba124308
+      version: 2ff90b9f454bcd2114ae3602c988ee65b49e4d03
     status: maintained
   rmw_fastrtps:
     doc:
@@ -6328,7 +6328,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: ae6efebd2a87d90e522738399ccb3fd5556b47c7
+      version: c2dd18394cbcd7871f22f91c577bce58a64a65d4
     status: developed
   ros2_easy_test:
     doc:
@@ -6360,7 +6360,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 566c345e7d689612b171940bbe2b446822ffd595
+      version: 9c07a2666215574848b711486b3614f853378e16
     status: developed
   ros2_robotiq_gripper:
     doc:
@@ -6468,7 +6468,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 33320954a69b8f7abdfe418d45406cad830bb262
+      version: da96480074fbac942e7edc3e6b39f85d577978e3
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6592,7 +6592,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 5e3b0730359a4f3f23cb26f6083ae5620b9a5ea1
+      version: f646d5cade730166f8cb408d483c24b6d382ca0e
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7220,11 +7220,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_plot-release.git
-      version: 1.6.0-1
+      version: 1.6.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: 262826e84be01780f75e6a49a416141b19b8d743
+      version: cc961ff3d6c932903d0343a84bc99446ea5d463f
     status: maintained
   rqt_publisher:
     doc:
@@ -8511,7 +8511,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 1af51879a6e61c26c75a9c7132eee4798d5bddae
+      version: 8f93aba05dfcd56fa21359ea5b7190e2994e1de1
     status: maintained
   udp_msgs:
     doc:
@@ -8568,7 +8568,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f717f83c5943b1ef2bc722e7313f0ebe6d3cf1c9
+      version: 97ad8256a9d582fb595c9e593e158c624b193e32
     status: developed
   ur_description:
     doc:
@@ -8940,7 +8940,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 26b8bcd03ceba2928d15e0f87ac7cee87baf0f56
+      version: 564643c3982b84cce2965f4d4eee91e81adb268b
     status: maintained
   vitis_common:
     doc:
@@ -9034,7 +9034,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
-      version: 29e684c8ef1413a2ba1095b3353ffd0983cb0f40
+      version: 95f9b70d543c4562b87c126514ed359c84679d7c
     status: maintained
   webots_ros2:
     doc:
