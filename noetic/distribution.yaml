@@ -618,7 +618,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/Ekumen-OS/beluga.git
-      version: b6d5ee387cd196aa3c11617c993aa6300c7a9484
+      version: c91454c125277ebd30565d1bb40b4de8ad3a6579
     status: developed
   bond_core:
     doc:
@@ -1804,6 +1804,7 @@ repositories:
       version: master
     release:
       packages:
+      - cras_bag_tools
       - cras_cpp_common
       - cras_docs_common
       - cras_py_common
@@ -1812,11 +1813,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.4.8-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 7c990bb374b1c13bfc5b475bd36736f28a58953b
+      version: 63f1a2379da48b36aaadf85b431255c337dc6196
     status: developed
   create_robot:
     doc:
@@ -2404,7 +2405,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/DynamixelSDK-release.git
-      version: 3.7.51-4
+      version: 3.8.0-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
@@ -2720,7 +2721,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: 6aff2201d622d10ead29cba57bc4a63aa0bd513d
+      version: 7300c32d6bd9a7e11ba7e95e07219a6b84ad950c
     status: developed
   euslime:
     release:
@@ -2762,12 +2763,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/executive_smach-release.git
-      version: 2.5.2-1
+      version: 2.5.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/executive_smach.git
-      version: 94a196d0dbe79f4ae205d13f50302316860194b8
+      version: 816b22a406cff5386689540e5d1277023b2b640f
     status: maintained
   executive_smach_visualization:
     doc:
@@ -2785,7 +2786,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/executive_smach_visualization.git
-      version: e82d7efc46f009dd313650f776739fe5ca7939dd
+      version: 1632d0f7af63ef8a74d0380aee236108c3312786
     status: unmaintained
   exotica:
     doc:
@@ -3841,7 +3842,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 82fcedf2da2f5bb25b82c5e158476994cfe5e57d
+      version: fa37ce710d5db7dc17e74737240190ef88a93171
     status: developed
   haf_grasping:
     doc:
@@ -4853,7 +4854,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
-      version: b135d326a693abd1b00c5fc95bfdb81351503b51
+      version: 71bc6fde941ed8b9e19f38ddeb27bcc18f39c2f3
     status: developed
   jsk_visualization:
     doc:
@@ -5048,7 +5049,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: d5c1fc89dd6c27eef845b6a7a75cf4dd1f58c194
+      version: c6445c9682fc1355e504b3467be0f23a8d34cbad
     status: maintained
   laser_assembler:
     doc:
@@ -7549,7 +7550,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse/paho.mqtt.cpp.git
-      version: 01a30cfa0e84595dcc44134f49d6d216d57b766e
+      version: a682a4a8e44fdfe87b6868cf813ffb7358ddbd5b
     status: maintained
   pal_statistics:
     doc:
@@ -7870,7 +7871,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 187afafcfe22d7ac16a26241c0b13a76d04d82c1
+      version: c0bbd6c74245a6f49089666d0205b9b1eb3437eb
     status: developed
   plotjuggler:
     doc:
@@ -9071,12 +9072,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/resource_retriever-release.git
-      version: 1.12.7-1
+      version: 1.12.8-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: e93cb6018e667fd9bc40d15ae0b5e33b5832ebb1
+      version: 10d507e0a7ece98f084772dd44eb8eca48038b8e
     status: maintained
   rgbd_launch:
     doc:
@@ -10950,7 +10951,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.21.9-1
+      version: 0.21.10-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -10981,7 +10982,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.21.9-1
+      version: 0.21.10-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -11953,7 +11954,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: a2583c92a8c39e3f20fb0fe69e3e96cb5a31d4a5
+      version: 5aa19c7d9d3ff8f59eff6cb90e5dafde2dffd990
     status: developed
   teb_local_planner:
     doc:
@@ -12073,7 +12074,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: d24cf6d19166ec671afbaa80d0266fc684c69d02
+      version: bdfe9807e063c3a3157e1adf5ce520c68aabfa81
     status: developed
   tf2_2d:
     release:
@@ -12908,7 +12909,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 335a61133a15f9d4b96e0867689ccef7ec7da67b
+      version: 183910a7faea4e60598396cfd45ebd9de2bc4ae5
     status: maintained
   visp_ros:
     doc:
