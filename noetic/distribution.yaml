@@ -2096,7 +2096,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/luxonis/depthai-ros.git
-      version: 071dd21035f4084a5b626562c3251c2a8662a60e
+      version: 68dc04f213aeec31ba1f633ac0da66f6ba8a1b4b
     status: developed
   depthimage_to_laserscan:
     release:
@@ -2786,7 +2786,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/executive_smach_visualization.git
-      version: 1632d0f7af63ef8a74d0380aee236108c3312786
+      version: 2a88895d4b51c6c9cb91d83a55cb25ca539e3832
     status: unmaintained
   exotica:
     doc:
@@ -3223,7 +3223,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 04f6f8a25d449fa2bf32da6970b99d108d07d867
+      version: f8889ccb7c8a487a16019666c30f38d2ce7f84d2
     status: developed
   frame_editor:
     doc:
@@ -3827,7 +3827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/CogRob/catkin_grpc.git
-      version: 0cac36f0a7f4929593879f85c51440bdebc05924
+      version: 68f784746edeb555ac5197098ce9a8a011601928
     status: maintained
   gtsam:
     doc:
@@ -6324,10 +6324,22 @@ repositories:
       url: https://github.com/peci1/movie_publisher.git
       version: melodic-devel
     release:
+      packages:
+      - camera_info_manager_lib
+      - camera_info_manager_metadata_extractor
+      - exiftool_metadata_extractor
+      - exiv2_metadata_extractor
+      - lensfun_metadata_extractor
+      - libexif_metadata_extractor
+      - movie_publisher
+      - movie_publisher_plugins
+      - movie_publisher_plugins_copyleft
+      - movie_publisher_plugins_nonfree
+      - movie_publisher_plugins_permissive
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/peci1/movie_publisher-release.git
-      version: 1.4.0-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/peci1/movie_publisher.git

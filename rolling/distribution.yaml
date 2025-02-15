@@ -1380,7 +1380,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: db3f4f12dccff55119123915831e9463290bb1a1
+      version: 6221e3eebd54690da746e278bd6cc9d60e712276
     status: developed
   ecl_core:
     doc:
@@ -1673,7 +1673,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 74e3d6fd8ad14375c0c0805c2e878c6444f496a2
+      version: 2acdfa4d07bf43d040bfc35709f17d0636799aeb
     status: maintained
   feetech_ros2_driver:
     release:
@@ -1883,7 +1883,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
-      version: 9c21332ebf601afb4554d59f96d2f9017df73bbf
+      version: 3debf7287fd6bcd44da47d1e4d421a7d6fbfc42d
     status: maintained
   fmilibrary_vendor:
     release:
@@ -1894,7 +1894,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmilibrary_vendor.git
-      version: 9cff7130b4b3c5a4665df514eea117814876bd41
+      version: 0a6237f3ac356719f693a5cd36cc70dcd26cd21c
     status: maintained
   foonathan_memory_vendor:
     release:
@@ -1961,7 +1961,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 04f6f8a25d449fa2bf32da6970b99d108d07d867
+      version: f8889ccb7c8a487a16019666c30f38d2ce7f84d2
     status: maintained
   fuse:
     doc:
@@ -2700,7 +2700,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: b021202a42d7bc3ff3215237ded251a59c282da5
+      version: 22402b169f0dff9ed3d46d49e77a9fc938ea2bfa
     status: maintained
   image_pipeline:
     doc:
@@ -3904,7 +3904,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: dbf07b1acdf452c1a7eba82988110948ddd0c1e3
+      version: 50b4337688eeae8f2d916e84a0ff55d014d2455c
     status: developed
   moveit_msgs:
     doc:
@@ -5473,7 +5473,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 1427bbb73af6bda69036e5efe1255dfb90329186
+      version: 168ea9bb18507999c7011faaf8f3e527d69419f0
     status: maintained
   rcl_interfaces:
     doc:
@@ -6023,15 +6023,16 @@ repositories:
       packages:
       - rmw
       - rmw_implementation_cmake
+      - rmw_security_common
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 7.6.0-1
+      version: 7.7.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: f8b3563c6bfcf13e8ff7d7d76a32f94956cbafe0
+      version: 2f89ac38d1f49237a86f6c762f8602caa79095a7
     status: maintained
   rmw_connextdds:
     doc:
@@ -6050,7 +6051,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: 4d1cb022b3f3e2f73b7852ce84a13b6d04238cac
+      version: 6100096293e995fab6fcb9eece043db4cd901299
     status: developed
   rmw_cyclonedds:
     doc:
@@ -6068,7 +6069,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_cyclonedds.git
-      version: 45eebe66bbca85f4994fb4ba91d315924b148c95
+      version: 21184ac4e11587f42f6d24a8eee754aaa31ffe86
     status: developed
   rmw_dds_common:
     doc:
@@ -6084,7 +6085,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_dds_common.git
-      version: 6d3a10a660fac7073bdf24ca37c7d4d21ddd434d
+      version: abbcbb996532c4aa31048fc27122815d5d47547c
     status: maintained
   rmw_desert:
     doc:
@@ -6114,7 +6115,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: a821496b940e97cc7a6bbc1330a8f9c442645c40
+      version: 07910edf34f9aaf207c2fd2c04f5241ef34eec47
     status: developed
   rmw_gurumdds:
     doc:
@@ -6166,7 +6167,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 4e0ea70e5a2e2fac0edbf2ab1bac7b3b60842bbd
+      version: baa4e875eca13dc16cebc61842cd6cf2600158fb
     status: developed
   robot_calibration:
     doc:
@@ -6287,7 +6288,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 254b6e85445cc4425d8400518a2cbb607ea0f9c1
+      version: 3e253fc4457b244ffbc86f593f804e8c95100b5c
     status: developed
   ros2_controllers:
     doc:
@@ -6328,7 +6329,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: c9ca6f728c61944af0edaa32742e7f7acd86ad75
+      version: a048212b694af6b0c0e5f17fe3e14eb024c3246c
     status: developed
   ros2_easy_test:
     doc:
@@ -6468,7 +6469,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: da96480074fbac942e7edc3e6b39f85d577978e3
+      version: 6aa2d98c416657fc202fe76cd101aa6845b38f35
     status: maintained
   ros2cli_common_extensions:
     doc:
