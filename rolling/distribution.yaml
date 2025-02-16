@@ -848,7 +848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: d74a4a8d74745475f5cb6743bd73987f5fb5d339
+      version: ae0dc20a2db9f4d3b3e04bd9c6a46c6d74d65f20
     status: developed
   cartographer:
     doc:
@@ -1883,7 +1883,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
-      version: 3debf7287fd6bcd44da47d1e4d421a7d6fbfc42d
+      version: 90d05d6e5432130b2613cee03437ef26fb2ce8f8
     status: maintained
   fmilibrary_vendor:
     release:
@@ -1894,7 +1894,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boschresearch/fmilibrary_vendor.git
-      version: 0a6237f3ac356719f693a5cd36cc70dcd26cd21c
+      version: 23a79a0999b1e651b7e1049474d0dbd40cfdf30c
     status: maintained
   foonathan_memory_vendor:
     release:
@@ -2594,6 +2594,12 @@ repositories:
       type: git
       url: https://github.com/tier4/heaphook.git
       version: 856418ff7963d94972fe489da64fbbf36c54ac82
+    status: maintained
+  hebi_cpp_api:
+    source:
+      type: git
+      url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
+      version: b280ec8996bf9664e09b97c233df4d599068595b
     status: maintained
   hls_lfcd_lds_driver:
     doc:
@@ -3762,7 +3768,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 1192911712f729851b4f48ab8e05caacb9cbd708
+      version: 67b5cfd8416bdcc32a60d47f98b7b29547032812
     status: developed
   mola_common:
     doc:
@@ -3792,7 +3798,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: d9f6a9606161f741ff2b95b2f2dfc7f19b980a38
+      version: a7097ae53dd83cfad6e2cbb72938e44d9ed6df64
     status: developed
   mola_state_estimation:
     doc:
@@ -3812,7 +3818,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: b59744d887650f535430b5167d65d5b1e9700549
+      version: e9a2d5cdbd450ffd10e85c1921bebbffd0c41642
     status: developed
   mola_test_datasets:
     doc:
@@ -9079,7 +9085,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/xacro.git
-      version: ae90987938b2e8cf90a7136f7d37a33fcb88f94c
+      version: 35e3c2ebc737ef3a0c2866101c08c90304d008bd
     status: maintained
   yaml_cpp_vendor:
     release:
