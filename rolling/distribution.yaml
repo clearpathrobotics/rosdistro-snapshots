@@ -351,11 +351,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag-release.git
-      version: 3.4.2-1
+      version: 3.4.3-1
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: fc2a7b20a49fc8b211709280e337a76a30db3042
+      version: fb2a4096ec5f84b9ec18e501dfa129ffeaaf774e
     status: maintained
   apriltag_detector:
     doc:
@@ -2258,7 +2258,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: fa37ce710d5db7dc17e74737240190ef88a93171
+      version: 854639b2753bcb52159473884aa3a866630a56f0
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3785,6 +3785,16 @@ repositories:
       url: https://github.com/MOLAorg/mola_common.git
       version: 5cce30716d15af61303960ae0657ff76db229e9e
     status: developed
+  mola_gnss_to_markers:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mola_gnss_to_markers.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mola_gnss_to_markers.git
+      version: b57d9473f4ec416ca6bbde7b9aaa6ea4135e9074
+    status: developed
   mola_lidar_odometry:
     doc:
       type: git
@@ -3798,7 +3808,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: a7097ae53dd83cfad6e2cbb72938e44d9ed6df64
+      version: b3fb0ed5f09f7ac5ddf684fd1723c7202a956ea1
     status: developed
   mola_state_estimation:
     doc:
@@ -3818,7 +3828,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: e9a2d5cdbd450ffd10e85c1921bebbffd0c41642
+      version: 16d0f14353222d615ddbabe12e5f2f14ab3fdd65
     status: developed
   mola_test_datasets:
     doc:
@@ -3904,13 +3914,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.12.0-1
+      version: 2.13.0-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 50b4337688eeae8f2d916e84a0ff55d014d2455c
+      version: bb2eb754fb54e43e3ddfe449bf6ed638f3ceaff1
     status: developed
   moveit_msgs:
     doc:
@@ -4690,7 +4700,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 235519a761d67a23340110ee4e2d5c04dcd5d862
+      version: e079ab7ed16ba90cbd9789fc8422d976b2c30ee4
     status: maintained
   pcl_msgs:
     release:
@@ -5820,7 +5830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 989135cd23a6e9bb0715cb209b424945109a6af2
+      version: 41d10f10152069c128dedfef31eea6526a7fa3da
     status: developed
   rmf_internal_msgs:
     doc:
@@ -6335,7 +6345,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: a048212b694af6b0c0e5f17fe3e14eb024c3246c
+      version: fc561262d3ef06234f61964cc78f3bd7daf0c4d1
     status: developed
   ros2_easy_test:
     doc:
@@ -6891,7 +6901,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: 4b5dfcf87c7a60539b2be21c08feda46df34c79c
+      version: 1d4a4c74c674558d781606be7e32cced4b6bc5f6
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -7748,11 +7758,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_launch-release.git
-      version: 1.10.1-1
+      version: 1.11.0-1
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 4bce35750d1ffcc0af6c4ed6ca02060ca9964d0f
+      version: eb8cf191cc9e9aef1b0d79d7cb538ef8bfac33b6
     status: maintained
   slg_msgs:
     doc:
