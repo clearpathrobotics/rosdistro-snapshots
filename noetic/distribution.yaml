@@ -597,7 +597,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 87d2f03ea2828908402864a1df4fd61e689b4386
+      version: a7c90872ee776c840044e49e260ecde69bd69fab
     status: developed
   beluga:
     doc:
@@ -1813,11 +1813,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.fel.cvut.cz/cras/ros-release/ros-utils.git
-      version: 2.5.0-1
+      version: 2.5.1-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 63f1a2379da48b36aaadf85b431255c337dc6196
+      version: 232fc803c7b17bfd5b853d214895d323886699ed
     status: developed
   create_robot:
     doc:
@@ -2700,6 +2700,9 @@ repositories:
       - etsi_its_denm_coding
       - etsi_its_denm_conversion
       - etsi_its_denm_msgs
+      - etsi_its_denm_ts_coding
+      - etsi_its_denm_ts_conversion
+      - etsi_its_denm_ts_msgs
       - etsi_its_mapem_ts_coding
       - etsi_its_mapem_ts_conversion
       - etsi_its_mapem_ts_msgs
@@ -2717,7 +2720,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ika-rwth-aachen/etsi_its_messages-release.git
-      version: 3.0.0-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
@@ -2786,7 +2789,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/executive_smach_visualization.git
-      version: 2a88895d4b51c6c9cb91d83a55cb25ca539e3832
+      version: 5588ec20cab970596b0bdcfeefeb5fc6687b8fba
     status: unmaintained
   exotica:
     doc:
@@ -2851,6 +2854,43 @@ repositories:
       url: https://github.com/iron-ox/fadecandy_ros.git
       version: 45189bd37f5befad292749ad17f479d6cb548589
     status: developed
+  fanuc:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/fanuc.git
+      version: noetic
+    release:
+      packages:
+      - fanuc_cr35ia_support
+      - fanuc_cr7ia_support
+      - fanuc_crx10ia_support
+      - fanuc_driver
+      - fanuc_lrmate200i_support
+      - fanuc_lrmate200ib_support
+      - fanuc_lrmate200ic_support
+      - fanuc_lrmate200id_support
+      - fanuc_m10ia_support
+      - fanuc_m16ib_support
+      - fanuc_m20ia_support
+      - fanuc_m20ib_support
+      - fanuc_m430ia_support
+      - fanuc_m6ib_support
+      - fanuc_m710ic_support
+      - fanuc_m900ia_support
+      - fanuc_m900ib_support
+      - fanuc_r1000ia_support
+      - fanuc_r2000ib_support
+      - fanuc_r2000ic_support
+      - fanuc_resources
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-industrial-release/fanuc-release.git
+      version: 0.6.0-1
+    source:
+      type: git
+      url: https://github.com/ros-industrial/fanuc.git
+      version: b38b71b34b3e6d4e4c75d58d8e0529a47b990490
+    status: maintained
   fath_pivot_mount_description:
     doc:
       type: git
@@ -3842,7 +3882,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 854639b2753bcb52159473884aa3a866630a56f0
+      version: 6b73f3efdfcfef9db7b5f78d957802c142ebccea
     status: developed
   haf_grasping:
     doc:
@@ -6339,7 +6379,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/peci1/movie_publisher-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/peci1/movie_publisher.git
@@ -6358,7 +6398,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 15d03b4434920de627cd774eb37cc4e5a0bd94de
+      version: de17e51dc12f445c7362ad422d68e143e545960a
     status: developed
   mpc_local_planner:
     doc:
@@ -6598,7 +6638,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carnegierobotics/multisense_ros.git
-      version: 5ff24cb6db99bbe60460be38f5522d9e7f0d616d
+      version: b0de8ad8e67e99e76211111d96564f08c06e22e1
     status: maintained
   muse_v2_driver:
     doc:
@@ -7334,7 +7374,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/opencv_apps.git
-      version: 812b43d2a9bb41055cccd6c6f8a7053bb600e39b
+      version: f767b0699296cf816a920cee3934b8a1160b4204
     status: maintained
   openhrp3:
     doc:
@@ -12086,7 +12126,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: bdfe9807e063c3a3157e1adf5ce520c68aabfa81
+      version: 5bc26f05eb0e7c369754a74c079b6d68179c940b
     status: developed
   tf2_2d:
     release:
@@ -12543,7 +12583,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 97ad8256a9d582fb595c9e593e158c624b193e32
+      version: 99f0a7689ce5d2d6ca3cffc6e18fb65210ed9975
     status: developed
   ur_msgs:
     doc:
