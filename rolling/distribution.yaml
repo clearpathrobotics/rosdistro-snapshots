@@ -835,6 +835,21 @@ repositories:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
       version: cb57e21f23b2b8c002baa64738f7b6dbc4717173
+  boost_sml_vendor:
+    doc:
+      type: git
+      url: https://github.com/nobleo/boost_sml_vendor.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/boost_sml_vendor-release.git
+      version: 1.1.11-1
+    source:
+      type: git
+      url: https://github.com/nobleo/boost_sml_vendor.git
+      version: 6171f55d167c9ee135e78a0ea1edd64ed21f8ed2
+    status: maintained
   camera_ros:
     doc:
       type: git
@@ -3790,7 +3805,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 1.6.1-1
+      version: 1.6.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
@@ -3830,7 +3845,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 0.6.1-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
@@ -3850,7 +3865,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_state_estimation-release.git
-      version: 1.6.1-1
+      version: 1.7.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
@@ -4885,7 +4900,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pinocchio-release.git
-      version: 3.4.0-2
+      version: 3.4.0-3
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
@@ -7647,7 +7662,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.4.1-1
+      version: 1.4.2-1
     source:
       test_pull_requests: true
       type: git
@@ -8993,7 +9008,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: bccf1b6bf20370623ff2e49d3c40b36d7aea2320
+      version: e8195fbade3598341956b3a166119bc8cd525d42
     status: maintained
   vitis_common:
     doc:
