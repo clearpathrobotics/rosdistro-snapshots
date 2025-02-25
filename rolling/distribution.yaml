@@ -642,7 +642,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: 0631905d402bd94ca5092c03dc2188a8c20f7bfb
+      version: 2a54c182c5a166eb8a55a2dfadc9c144232b1bf2
     status: developed
   autoware_utils:
     release:
@@ -653,7 +653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 7115d01f3f8b7b0abc31dfabdd293ce548399623
+      version: 5bc66a83aebad3e80ea973ac81cd22c165fa9d62
     status: developed
   avt_vimba_camera:
     doc:
@@ -1299,6 +1299,12 @@ repositories:
       type: git
       url: https://github.com/ros2/domain_bridge.git
       version: c2523e1d03d9c3e5e83b3e7e56503784feabf8f2
+    status: developed
+  doom_ros:
+    source:
+      type: git
+      url: https://github.com/gstavrinos/doom_ros.git
+      version: e0a7cb8e0de25735dbcbc6a1247b470d2d4903f9
     status: developed
   dual_laser_merger:
     doc:
@@ -1993,7 +1999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 4b4816bbac8dc2677f0532846d577cb00e69837e
+      version: 0ba4c2658dcccdb6112b1b7927704b2542243224
     status: maintained
   fuse:
     doc:
@@ -2698,7 +2704,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
-      version: ebdf38728a29c6a8ee172efc440b8e2f4415ff7a
+      version: 301d996f754837ae26e148980883885998cf627d
     status: developed
   ifm3d_core:
     release:
@@ -2773,7 +2779,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: d541f3061696abba489d1421ff723b4730f72463
+      version: a98d13d370516dbce8f333bf2754cfe1c2e3def9
     status: maintained
   image_transport_plugins:
     doc:
@@ -3076,7 +3082,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: bbfac6da2ac9796a3e8b28b008d8fa612d9c6a1b
+      version: 626ab835e4b2e8eae13f99f3aa93445393fb29ab
     status: developed
   lanelet2:
     doc:
@@ -3103,7 +3109,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: c6445c9682fc1355e504b3467be0f23a8d34cbad
+      version: d9320cf66698004cd5e57988ac001e02e73e2e40
     status: maintained
   laser_filters:
     release:
@@ -3184,7 +3190,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 552bfacde39ebbea9c899450ffdcdfd188c61acd
+      version: 72f3ac62635cf121af577081bcfa66ab81f6a975
     status: developed
   launch_param_builder:
     doc:
@@ -3366,7 +3372,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: d476f8358be1536d4edd680c6024f784ff022f5d
+      version: d4545edb38e2e58d4231fe83f61d766ca2b730fc
     status: maintained
   libg2o:
     release:
@@ -3809,7 +3815,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 3d7268413690aa18a8ec4d4de7ebdcec98cdc42f
+      version: 8253a7e74935b4a4c4a11b2486c5a87e74f9110d
     status: developed
   mola_common:
     doc:
@@ -4659,7 +4665,7 @@ repositories:
     source:
       type: git
       url: https://github.com/osrf/osrf_pycommon.git
-      version: 94b0d8e89a4000db8bee7b1c70dd8772a20b6229
+      version: f5ab4ff4674658821b237aeaa7e18e604e31c81c
     status: maintained
   osrf_testing_tools_cpp:
     doc:
@@ -4904,7 +4910,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: a3f6c2fc11426259441a12284964f90a9d0e3d52
+      version: 9f3e3930d797c979efae2870abea6e6ba79fad4b
     status: developed
   plotjuggler:
     doc:
@@ -5104,7 +5110,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 5760e507657a9c658b4d36e465f4478238f910cb
+      version: 249660b8d39d3ac77999d5007ba100cc410e70dd
     status: developed
   py_binding_tools:
     release:
@@ -6349,7 +6355,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 201d3a7d3ffc59efd911723812609f22bbf45c6e
+      version: bfb57361a548893d616301adefa18bd5f989b493
     status: developed
   ros2_controllers:
     doc:
@@ -6390,7 +6396,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 3e938c80bcdbd8cddde1b600341c0c71f3663f90
+      version: 17af0cc5df72cecfdf6aef410ad72eed8630d587
     status: developed
   ros2_easy_test:
     doc:
@@ -6482,7 +6488,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 7a15085800f3b022290efba988c20e56c2d164da
+      version: 66d2c691adf5aba42593996ff3f4e550b2967884
     status: developed
   ros2acceleration:
     doc:
@@ -6649,12 +6655,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 2.1.4-1
+      version: 2.1.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 44545b9e00b9a194500a2652f8eabb8a2ff80143
+      version: 96f92fc713077c923171f12d0beda35cc8fe822d
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6764,7 +6770,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 323ebbfdf737234224e70e6edd9b4d0c6667dfe6
+      version: 0105eec1d0bf650280b32076234fee73236bca31
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7176,7 +7182,7 @@ repositories:
     source:
       type: git
       url: https://github.com/niwcpac/rqt_dotgraph.git
-      version: 8c0546c662773e5f90f4b818597ba7898df71309
+      version: c24e454cc0e81939209787d8df9664bae53ab3cc
     status: maintained
   rqt_gauges:
     doc:
@@ -7667,7 +7673,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: 86ef13e8a3ec53cf9186fbd83f74786e047244f5
+      version: 2d91a27f711a29455df3b4cf79ac8fb87f0209f2
     status: maintained
   service_load_balancing:
     doc:
@@ -8651,7 +8657,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: b2077cb126cc5034d9c4455665dbbae174c40a8c
+      version: 2985b6aee492efec07eff480c7409e8fe5cd4a8c
     status: developed
   ur_msgs:
     doc:
@@ -8688,7 +8694,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 099336eaa9f470c0d95dfa1e2b242acc9eed948b
+      version: 91c4a6a7926b65773f83cc26edb45377b65c9b0e
     status: developed
   ur_simulation_gz:
     release:
