@@ -653,7 +653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 5bc66a83aebad3e80ea973ac81cd22c165fa9d62
+      version: 2a2ffa0f3aa554accf8d6e353063772d81ebde5a
     status: developed
   avt_vimba_camera:
     doc:
@@ -776,7 +776,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: a7c90872ee776c840044e49e260ecde69bd69fab
+      version: 14589e589c5049fbb7f1fb30ccaa3efc66c84f18
     status: developed
   bno055:
     doc:
@@ -863,7 +863,7 @@ repositories:
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: 1ac8de04ed23b6c7e7590a7d9db38e14f39ab43a
+      version: 8a4499e83e853a58dc27ebc77ff88ca79d228395
     status: developed
   cartographer:
     doc:
@@ -1418,7 +1418,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 6ecd0938e7680ac432fa3804562401cbd93bc0f0
+      version: 74add576089e79538ac669c9d5aec27442d2f0b8
     status: developed
   ecl_core:
     doc:
@@ -1999,7 +1999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 0ba4c2658dcccdb6112b1b7927704b2542243224
+      version: 47ff08058ea14c092500154ba7a2b54470491ed2
     status: maintained
   fuse:
     doc:
@@ -3372,7 +3372,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: d4545edb38e2e58d4231fe83f61d766ca2b730fc
+      version: 33ce463a46c44f874fdbc3e484bee730e7b251a3
     status: maintained
   libg2o:
     release:
@@ -3815,7 +3815,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 8253a7e74935b4a4c4a11b2486c5a87e74f9110d
+      version: 187252f87317e7246bd24cf76af5377fb2fb75d5
     status: developed
   mola_common:
     doc:
@@ -3855,7 +3855,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 221ee3f357254d5eec318f4dab2160b69ccefa89
+      version: 6636d74daa866f6826460af4e744b59aad5f04df
     status: developed
   mola_state_estimation:
     doc:
@@ -3875,7 +3875,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: b47acc844b761ed39ed61564724a1c65f3228666
+      version: cc1bb890df003d9e594f8f0872f744f354cb362c
     status: developed
   mola_test_datasets:
     doc:
@@ -3967,7 +3967,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 83d05aec063bd459bd6c56ae9eb41dfb126f1e31
+      version: bbf7e40ab6089b230fa0ae6b52d8ba8848169847
     status: developed
   moveit_msgs:
     doc:
@@ -8046,6 +8046,15 @@ repositories:
       version: 868d30b672532d10769644bce3c98197818a4374
     status: developed
   synapticon_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/synapticon/synapticon_ros2_control.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/synapticon/synapticon_ros2_control-release.git
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/synapticon/synapticon_ros2_control.git
@@ -8642,7 +8651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 44b650f81b343c65875de49cad5579d4f735ed44
+      version: 205cabd230d78fdab1034d37a57c87c79363eb3f
     status: developed
   ur_description:
     doc:
@@ -8705,7 +8714,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
-      version: efd1ccf1b35f842ab3059199f1b65f92dc0e4141
+      version: 73b56dd526cab1bc04009779b0f813dc089d16ba
     status: developed
   urdf:
     doc:
@@ -9014,7 +9023,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: e8195fbade3598341956b3a166119bc8cd525d42
+      version: 5e7f6e43e26a8f3399a3d73b7b56fbff6882032f
     status: maintained
   vitis_common:
     doc:
