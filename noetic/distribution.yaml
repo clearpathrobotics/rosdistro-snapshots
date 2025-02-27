@@ -1817,7 +1817,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 232fc803c7b17bfd5b853d214895d323886699ed
+      version: b2a75099da0dfb9716301609b5033b1b4b7f96d2
     status: developed
   create_robot:
     doc:
@@ -2750,7 +2750,7 @@ repositories:
     source:
       type: git
       url: https://github.com/euslisp/EusLisp.git
-      version: 5f8ef04c22819e58b91fe65b566f8619210e697f
+      version: f27fba256a4304b9eebbd7fd6edfb1c77f3a362d
     status: developed
   executive_smach:
     doc:
@@ -3263,7 +3263,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 47ff08058ea14c092500154ba7a2b54470491ed2
+      version: 005b84062093b92fd271d401f55e8626a0769df3
     status: developed
   frame_editor:
     doc:
@@ -3406,12 +3406,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.9.2-1
+      version: 2.9.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-      version: 61f743545da9406dbc96a219ca6027fef6bf0daa
+      version: cd9cc952402375be5f274f39b29399c4087aa839
     status: end-of-life
     status_description: Deprecated. Use ros_gz instead.
   gazebo_set_joint_positions_plugin:
@@ -5676,7 +5676,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 523c8aa6b8b40c2c118b0ead8333ecdfd02e1c95
+      version: d9769032e66da299d41429ed860434469f7fed99
     status: developed
   marti_messages:
     doc:
@@ -6059,7 +6059,7 @@ repositories:
     source:
       type: git
       url: https://github.com/NOKOV-MOCAP/mocap_nokov.git
-      version: 8dda38c07acca75d350bfd69f624ea319e6d551d
+      version: 7d0b9918c937a876826438648440288f17b49d36
     status: developed
   mocap_optitrack:
     doc:
@@ -6361,7 +6361,7 @@ repositories:
   movie_publisher:
     doc:
       type: git
-      url: https://github.com/peci1/movie_publisher.git
+      url: https://github.com/ctu-vras/movie_publisher.git
       version: melodic-devel
     release:
       packages:
@@ -6379,11 +6379,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/peci1/movie_publisher-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
-      url: https://github.com/peci1/movie_publisher.git
-      version: b765ae292dc159d9e88864946d0d7bd13c15f81c
+      url: https://github.com/ctu-vras/movie_publisher.git
+      version: f26e85458f10364a678e8b1caf26761debb0b70b
     status: maintained
   mp2p_icp:
     doc:
@@ -6394,11 +6394,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mp2p_icp-release.git
-      version: 1.6.3-1
+      version: 1.6.6-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: de17e51dc12f445c7362ad422d68e143e545960a
+      version: 59e19673298f8086bb996bff2e67715ceeb171ed
     status: developed
   mpc_local_planner:
     doc:
@@ -6875,7 +6875,7 @@ repositories:
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
-      version: 4db2b7810e0ee868d141e3a8c30f8540faa66dee
+      version: 2e79ddfcdddb35749f14a798f519459c33947c0a
     status: developed
   neonavigation_msgs:
     doc:
@@ -12583,7 +12583,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 205cabd230d78fdab1034d37a57c87c79363eb3f
+      version: caf852980b2cd0818c658cfb44a2cabe3589d6a2
     status: developed
   ur_msgs:
     doc:

@@ -653,7 +653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 2a2ffa0f3aa554accf8d6e353063772d81ebde5a
+      version: 62b5953d32eebcd7bb206b2395d6c9ab6b81155e
     status: developed
   avt_vimba_camera:
     doc:
@@ -1399,7 +1399,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_workbench_msgs-release.git
-      version: 2.0.3-4
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
@@ -1704,7 +1704,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/fastrtps-release.git
+      url: https://github.com/ros2-gbp/fastdds-release.git
       version: 2.14.4-1
     source:
       test_commits: true
@@ -1999,7 +1999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 47ff08058ea14c092500154ba7a2b54470491ed2
+      version: 005b84062093b92fd271d401f55e8626a0769df3
     status: maintained
   fuse:
     doc:
@@ -2307,12 +2307,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: 808d2041649a2a6974f8be73c98f43d377f33cd9
+      version: 6bb84d7b83489ea72d13b2efdcc3a5b760c2a564
     status: maintained
   gz_common_vendor:
     doc:
@@ -3372,7 +3372,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 33ce463a46c44f874fdbc3e484bee730e7b251a3
+      version: f72c76eb6e06a41d2aaff8c8c4002dea21a7774d
     status: maintained
   libg2o:
     release:
@@ -3815,7 +3815,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 187252f87317e7246bd24cf76af5377fb2fb75d5
+      version: dc962d9fdd328ac8faa71a7c60234233b8818765
     status: developed
   mola_common:
     doc:
@@ -3837,10 +3837,15 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola_gnss_to_markers.git
       version: develop
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mola_gnss_to_markers-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_gnss_to_markers.git
-      version: 5a555ac7ae0ca12db52df36f8a4550dc10c60d6b
+      version: 6802e9ab69ee10e1c7bdccfaab0df78a6c3ec962
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4031,11 +4036,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 1.6.5-1
+      version: 1.6.6-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: de17e51dc12f445c7362ad422d68e143e545960a
+      version: 59e19673298f8086bb996bff2e67715ceeb171ed
     status: developed
   mqtt_client:
     doc:
@@ -5540,7 +5545,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 168ea9bb18507999c7011faaf8f3e527d69419f0
+      version: bfcf66d0d8beece02c195999afe2eb5daeef0412
     status: maintained
   rcl_interfaces:
     doc:
@@ -6159,10 +6164,15 @@ repositories:
       type: git
       url: https://github.com/signetlabdei/rmw_desert.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_desert-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/signetlabdei/rmw_desert.git
-      version: 2ff90b9f454bcd2114ae3602c988ee65b49e4d03
+      version: 1dd28139bf766a462e6d6e8b8a3f3472f4912144
     status: maintained
   rmw_fastrtps:
     doc:
@@ -6182,7 +6192,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: fbff6df0bcc73dc8d31cd206fdd5d7e1fd334386
+      version: 772aee145ef6b98f1975f51b2986cae6ae8636f8
     status: developed
   rmw_gurumdds:
     doc:
@@ -6355,7 +6365,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: bfb57361a548893d616301adefa18bd5f989b493
+      version: e7457a733ccc9e78eaacb6f79a1421bd80247d9a
     status: developed
   ros2_controllers:
     doc:
@@ -6812,11 +6822,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbridge_suite-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 52d39c16beb8875c33f58f8812aeda9d0a38fa15
+      version: 00e30e3e9fc5a77484f7686f4af9a530b3b173eb
     status: developed
   rosidl:
     doc:
@@ -8594,7 +8604,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 8f93aba05dfcd56fa21359ea5b7190e2994e1de1
+      version: 4fd7f54fedee40ef9ea6fe8fb04ff12073b7f3f1
     status: maintained
   udp_msgs:
     doc:
@@ -8647,11 +8657,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.7.0-1
+      version: 1.7.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 205cabd230d78fdab1034d37a57c87c79363eb3f
+      version: caf852980b2cd0818c658cfb44a2cabe3589d6a2
     status: developed
   ur_description:
     doc:
@@ -8703,7 +8713,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 91c4a6a7926b65773f83cc26edb45377b65c9b0e
+      version: 7c630570b7cf6ff16da961bdb17fe56f8bb6fc74
     status: developed
   ur_simulation_gz:
     release:
@@ -8937,25 +8947,6 @@ repositories:
       url: https://github.com/ros-drivers/velodyne.git
       version: 0f2a3bb1dde4fa91cbafad8a3f9f89b66c2a1350
     status: developed
-  velodyne_simulator:
-    doc:
-      type: git
-      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
-      version: foxy-devel
-    release:
-      packages:
-      - velodyne_description
-      - velodyne_gazebo_plugins
-      - velodyne_simulator
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/velodyne_simulator-release.git
-      version: 2.0.3-3
-    source:
-      type: git
-      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
-      version: 1cfa7b3bb562849271b9185f3a636bae714aadda
-    status: maintained
   vision_msgs:
     doc:
       type: git
