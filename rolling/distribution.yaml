@@ -1696,22 +1696,22 @@ repositories:
       url: https://github.com/eProsima/Fast-CDR.git
       version: 09350511563ffc0901fd91ce85c7f37587f424b5
     status: maintained
-  fastrtps:
+  fastdds:
     doc:
       type: git
-      url: https://github.com/eProsima/Fast-RTPS.git
-      version: 2.14.x
+      url: https://github.com/eProsima/Fast-DDS.git
+      version: 3.1.x
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 2.14.4-1
+      version: 3.1.2-1
     source:
       test_commits: true
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: e6d0844d1808811e07dd27d32208dbd12fea3837
+      version: e03357e52db6bb08b2225672b98d73aaeb790b97
     status: maintained
   feetech_ros2_driver:
     release:
@@ -1969,7 +1969,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 4df693fc314ff095293adfeeec9fc4811a2e9e7e
+      version: 75e4a45e3730f5ba3f972dfdeb21321e959c01af
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -1999,7 +1999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 4c14cd66659cd934fd3fe63b07a63cd615d365e9
+      version: 399da6847abc0d0bcde103acf59e238af1652c70
     status: maintained
   fuse:
     doc:
@@ -2296,7 +2296,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 12cebafd509cac95e36401bf58aeae6b64e14263
+      version: c6a22301b7aeabc057a95043144f36d062a71b88
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2774,7 +2774,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 6.0.9-1
+      version: 6.0.10-1
     source:
       test_pull_requests: true
       type: git
@@ -3185,7 +3185,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/launch-release.git
-      version: 3.7.1-1
+      version: 3.8.0-1
     source:
       test_pull_requests: true
       type: git
@@ -3372,7 +3372,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: d748bdc66d3344761292adc8a611b74e4dfeb88f
+      version: eb550486c737305dd7e86187e9d76d95d35a9cfd
     status: maintained
   libg2o:
     release:
@@ -3424,7 +3424,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 05d112a54a23d13bbc9e163407112e7efa79af89
+      version: ec4d7517e9f2098e0051d38452095163c24c3ef8
     status: developed
   libyaml_vendor:
     release:
@@ -4816,7 +4816,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: 4b308ef86878e695a7b0c41744e3a8c4d2053087
+      version: 4231d1ebd58d70d6338ccce832138eb5ebfe6682
     status: maintained
   performance_test_fixture:
     release:
@@ -4900,7 +4900,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/picknik_controllers.git
-      version: 827b59b51286c85e61e4592b6191b733789fbd1d
+      version: c63222660d78485451ae6c4c1fd6a18e5632461f
     status: developed
   pinocchio:
     doc:
@@ -4915,7 +4915,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 9f3e3930d797c979efae2870abea6e6ba79fad4b
+      version: 243c53ddbf4aa8a9899023077764b3e70c173c8b
     status: developed
   plotjuggler:
     doc:
@@ -5645,7 +5645,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 6c10f941d3f5c7585ef0af60ad30a301d8d65f16
+      version: 48a4761faa2ac6339aea45ccd00cd23fd5456d4d
     status: maintained
   rclpy:
     doc:
@@ -5661,7 +5661,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 87fbec0d6bbfda968d14689c977e9a6bdaa48886
+      version: f8606f03d900bbd2387f51178ae5bdf5c5d7b443
     status: maintained
   rcpputils:
     doc:
@@ -6104,7 +6104,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: 9aca1dbae5996881d8b5b5855b3ea741230d2e8d
+      version: 95ac9726e5fea128d9e825775d3e5eccaf0a0713
     status: maintained
   rmw_connextdds:
     doc:
@@ -6244,7 +6244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 4fc36b75606911c2bbd2467667827f04edc7254f
+      version: 299ddc7c618085a31247b829ffb2a4a24bccb49a
     status: developed
   robot_calibration:
     doc:
@@ -6365,7 +6365,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: a5a2e2744ac8c1a7132d90a35b8b117c32b93f51
+      version: c58b9687a82f636f06a2035985ff70c179679ae2
     status: developed
   ros2_controllers:
     doc:
@@ -6498,7 +6498,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 66d2c691adf5aba42593996ff3f4e550b2967884
+      version: b11e0068357aaa5afcb62052dcacc94637ff1f46
     status: developed
   ros2acceleration:
     doc:
@@ -6780,7 +6780,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 0105eec1d0bf650280b32076234fee73236bca31
+      version: 5fedfd092d93992c9e0a20ebbccc8f1f4ced58eb
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7594,7 +7594,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 14.4.2-1
+      version: 14.4.3-1
     source:
       test_pull_requests: true
       type: git
