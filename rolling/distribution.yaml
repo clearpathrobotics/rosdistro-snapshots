@@ -1065,7 +1065,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: 0cf96ab111a3da980a1f94cf18d6867701d70939
+      version: 3ad2c9222ba64679d15ab4a0f896faa9c0ac0260
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1186,7 +1186,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: d00554ddb9a83e4cd0ddef1810f4861cb1714bf2
+      version: 7053e7fa5a4d9695b5d15c158632364e0e2a5d24
     status: developed
   demos:
     doc:
@@ -1418,7 +1418,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 6c51d111be2bdfdc83e5a696aa39ff630c196fd3
+      version: 7af5aee6c974ba4f949cbb0b83cec2a058cc4598
     status: developed
   ecl_core:
     doc:
@@ -1705,7 +1705,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 3.1.2-1
+      version: 3.1.2-2
     source:
       test_commits: true
       test_pull_requests: false
@@ -2676,7 +2676,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: b9c0ae249e96893e87715a89c649957678fc0981
+      version: 4ddf1e7e03d0d5306f8574b921e162d96aeeb8f8
     status: developed
   hyveos_bridge:
     source:
@@ -2704,7 +2704,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-iceoryx/iceoryx.git
-      version: 301d996f754837ae26e148980883885998cf627d
+      version: 41b69258cf486685f23bd9cc256888aad99b9d9e
     status: developed
   ifm3d_core:
     release:
@@ -3109,7 +3109,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: d9320cf66698004cd5e57988ac001e02e73e2e40
+      version: 50239be48aa5a911d7347fdb828ee79dde2b2666
     status: maintained
   laser_filters:
     release:
@@ -3372,7 +3372,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: c0a58b97989f7d529f1469b2c2f8705ff55d3af4
+      version: 5e6872740d39033094823eedbca7bf110e3720da
     status: maintained
   libg2o:
     release:
@@ -4569,7 +4569,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 9cdf0ad99f5d98c4817002411671734da1098c7e
+      version: 50b9a6c7378deef35dae4b5f1d2207323dd1807b
     status: developed
   openeb_vendor:
     doc:
@@ -4930,7 +4930,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 5f4fbc9f1990fd4e8a31493b0dfb87b29d03a7c9
+      version: 3a2e901210ee812c480b288ffd3ed4cb4ee95f48
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5545,7 +5545,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: bfcf66d0d8beece02c195999afe2eb5daeef0412
+      version: f9ad1c6e07136eaca5fb699ad2edf4cb2b9c5365
     status: maintained
   rcl_interfaces:
     doc:
@@ -5938,7 +5938,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: a3f9e5f20ad2d8868794e7c3b41247a2df8d88a9
+      version: 94de1483a1053de6780b14fd9c9122296384bbbb
     status: developed
   rmf_simulation:
     doc:
@@ -6168,7 +6168,6 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_desert-release.git
-      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/signetlabdei/rmw_desert.git
@@ -6187,12 +6186,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 9.2.0-1
+      version: 9.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: 772aee145ef6b98f1975f51b2986cae6ae8636f8
+      version: 45cc219b2611b20a01c32fd8fb3ca05c1177b422
     status: developed
   rmw_gurumdds:
     doc:
@@ -8068,7 +8067,7 @@ repositories:
     source:
       type: git
       url: https://github.com/synapticon/synapticon_ros2_control.git
-      version: 4531aa0f4099271a93a484cb0a42ccd3c74e4cfe
+      version: 8264d3692374d90613d0c1d1f21e5d67136bbbb5
     status: maintained
   system_fingerprint:
     doc:
