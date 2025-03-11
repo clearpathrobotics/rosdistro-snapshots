@@ -562,7 +562,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-      version: 6812822a022bc6b65736497d4406706061a7f4c6
+      version: 66783e83c03baaa0d4bebe1ddf16da7d851074f7
     status: developed
   autoware_auto_msgs:
     doc:
@@ -1113,7 +1113,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 9cdad3ab97d020cd594881adb1972936691bb93f
+      version: 9f15e1a111edd0c7fa29b4efaa917465d8a35821
     status: maintained
   control_toolbox:
     doc:
@@ -1128,7 +1128,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 55756bf41b395cb45d44b210a1b27cf503797b8b
+      version: 769d61033f565890ddc684d48c54e4c25ead0995
     status: maintained
   cpp_polyfills:
     release:
@@ -1352,7 +1352,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel_interfaces.git
-      version: 8dd18c356fe18007f6da5b8656330ee1632c7c3c
+      version: d8885f8c377bfc39ef2d98f75d0c22ece7ac998f
     status: developed
   dynamixel_sdk:
     doc:
@@ -1419,7 +1419,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 8887c57e01bd69a32ddaa9c6c4a569f2d02036ea
+      version: 4afc4a7ec908b3da67298d722d38492ab76a439e
     status: developed
   ecl_core:
     doc:
@@ -2000,7 +2000,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 94aea4d87f01f9bce490946233ee7f2d48d0507c
+      version: 672e54ff3f599629f31c1e61d673086a65e810fa
     status: maintained
   fuse:
     doc:
@@ -2297,7 +2297,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: aa0eb11f38a450ffb60885760e05b79611c15e3e
+      version: 33d2262e07578e51c5b991d960c9763508afff04
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3191,7 +3191,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: bdf124d83c847b5205c204932e9f86daccc0c747
+      version: 151b024a7cfac06f0d56798cbe87ab180b9ea3ab
     status: developed
   launch_param_builder:
     doc:
@@ -3226,7 +3226,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 3569f0d76c68884ca8796c0134bad29e8732d868
+      version: aeff3ca28cfe51c522b04592ec3c7e7077bf2531
     status: maintained
   leo_common:
     doc:
@@ -4581,7 +4581,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/openeb_vendor-release.git
-      version: 2.0.1-2
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/openeb_vendor.git
@@ -4916,7 +4916,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: d97e3df741144e1f2f741fe61c1f07f7c4e21bee
+      version: 2f33ea1ad612bf4bcb29b2964aaf12f1a980cf83
     status: developed
   plotjuggler:
     doc:
@@ -5116,7 +5116,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 249660b8d39d3ac77999d5007ba100cc410e70dd
+      version: 869649b18db42c47df99e7da7309cac877091c56
     status: developed
   py_binding_tools:
     release:
@@ -5662,7 +5662,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: f8606f03d900bbd2387f51178ae5bdf5c5d7b443
+      version: 94f42b6b16de00f1b0543a793c6cd614843ea69e
     status: maintained
   rcpputils:
     doc:
@@ -5994,7 +5994,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: bc65e4522fab9bbd8fc5620c21ab410b1bad33fd
+      version: 457d3c039cb62c89a7a3a10e1e78f6ea668ce2af
     status: developed
   rmf_traffic_editor:
     doc:
@@ -6169,11 +6169,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_desert-release.git
-      version: 1.0.3-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/signetlabdei/rmw_desert.git
-      version: 604bc5a96b14a8dc856e007f385b7ace3b7cd7b9
+      version: b7aef3777be5c3e4f28e75582b601865a6a22015
     status: maintained
   rmw_fastrtps:
     doc:
@@ -6366,7 +6366,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: bfbedd2c1c7487f3c6d424c58a0b6d1c79e161c9
+      version: cc3491c9935b908cba2135fa12f629c7e5063e58
     status: developed
   ros2_controllers:
     doc:
@@ -8008,7 +8008,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 93749a188171b3c002e01814b821b5d4a3ab9d48
+      version: 8fd7b70df5d91b19a76a6025cb32e6f44c4d7cdd
     status: developed
   steering_functions:
     doc:
@@ -9014,7 +9014,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: c14cb6a70a5d028e5954da4b05fa6b1699b43fe8
+      version: d0a35c4343f5086b2bb71e5b2e300a65d11e3f41
     status: maintained
   vitis_common:
     doc:
