@@ -290,7 +290,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_package.git
-      version: 5090b28ef9d02fffc41cc1cd04883e3ac2c8f4a6
+      version: 9b09d9471f8bf77d5c847a6cd973da79d18d2e11
     status: developed
   ament_vitis:
     doc:
@@ -644,17 +644,6 @@ repositories:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
       version: 2a54c182c5a166eb8a55a2dfadc9c144232b1bf2
-    status: developed
-  autoware_utils:
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/autoware_utils-release.git
-      version: 1.0.0-1
-    source:
-      type: git
-      url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 4e6922ea4fa54c558202560e6af9e0ee3009aaad
     status: developed
   avt_vimba_camera:
     doc:
@@ -1109,7 +1098,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 5.3.0-1
+      version: 6.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -1124,11 +1113,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 4.0.1-1
+      version: 5.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 1080c86ac4c7baf0c8ef04fe12656075959f0b3c
+      version: 6c9a959c06b52cc3b43b09d21a1090c9c60f2d5d
     status: maintained
   cpp_polyfills:
     release:
@@ -1224,7 +1213,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: e869d5bce0f9f73a5a549b9c3a315413344ba17c
+      version: 61e8dd417ab7d2e1a1cd2357716173316ab6df94
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1419,7 +1408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: b37156a37358d1efb3cdba63237588997bebee8c
+      version: 32250204362fbff293be3808b26d5bd4b877aac8
     status: developed
   ecl_core:
     doc:
@@ -2000,7 +1989,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 61b5f64fa272cd2b263d9397ae9ff9b0c2784a5d
+      version: 2ae99788070baba617aedfefcebec4c8cc1e60a8
     status: maintained
   fuse:
     doc:
@@ -2677,7 +2666,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 412b1485b839515b0e520b4a4c6b2e5add2590e5
+      version: 19be898e86f185add2be48f01fad757e40387fc1
     status: developed
   hyveos_bridge:
     source:
@@ -2998,7 +2987,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kinematics_interface-release.git
-      version: 1.2.1-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
@@ -3652,12 +3641,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_message_filters-release.git
-      version: 7.0.1-1
+      version: 7.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: a71640aa31f10a98df5b59da923f95e68d4774e7
+      version: 65746bda70ff93ee7a981997c2783764a67045c3
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -3683,7 +3672,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/metavision_driver-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
@@ -4377,7 +4366,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/nobleo_socketcan_bridge.git
-      version: df3b9049213729ae546b9e2692c8fb6a6544be1f
+      version: 1e4419e3019709b41ce04adabfcfd221de716c32
     status: maintained
   nodl:
     doc:
@@ -5362,7 +5351,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: 880d773a9166a16970cbd7e00b83b36e0d4fd0d5
+      version: 7f0bcf88e16a65d97cab9d09896ba64fa191e08b
     status: maintained
   quaternion_operation:
     doc:
@@ -5673,7 +5662,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 93c68bb3b3ba27ff99d8e5caa60290e69504a4a6
+      version: 624c9aecaa0970cbe3f576daa7182cfedbcba807
     status: maintained
   rcpputils:
     doc:
@@ -6111,7 +6100,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 7.8.0-1
+      version: 7.8.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6148,7 +6137,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-      version: 4.0.0-1
+      version: 4.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6199,7 +6188,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
-      version: 9.3.0-1
+      version: 9.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6233,7 +6222,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_implementation-release.git
-      version: 3.0.3-1
+      version: 3.0.4-1
     source:
       test_pull_requests: true
       type: git
@@ -6256,7 +6245,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 76ab162d27997995023c8ea8525da328dc4c4b4b
+      version: 63f0623d1e538b0b5a0b5cbb510ade31cdb45190
     status: developed
   robot_calibration:
     doc:
@@ -6377,7 +6366,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: daf5fb0605e312b3025d90b7c24253d313e7fd39
+      version: 32459c238227a01f40cba1d0e2ecea0bdc20717d
     status: developed
   ros2_controllers:
     doc:
@@ -6510,7 +6499,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: b11e0068357aaa5afcb62052dcacc94637ff1f46
+      version: 215ea3a3fec4bc330122ecc4d4dd15293cbd027a
     status: developed
   ros2acceleration:
     doc:
@@ -8123,7 +8112,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: 8d0b7dea57044f14139e9354366f9c1871a47746
+      version: df98633b28ca9092e43f26783fd9939e4a68373b
     status: developed
   tango_icons_vendor:
     release:
@@ -8234,7 +8223,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: 69973399485a59ba71bac85a4719d33a8ffab987
+      version: 11929004ec70f28a404cfa0e7ad6e24f4f7a1eba
     status: maintained
   tf_transformations:
     doc:
@@ -9025,7 +9014,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: ce45d3e2b68979853571d12745a1ab50cfbe7710
+      version: f28b5675b90f32c41a309031358a9d269bd41747
     status: maintained
   vitis_common:
     doc:
@@ -9150,7 +9139,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 329486a5b393da249165ad57c1160001e80e27a1
+      version: 7435cfba110794900641cf57e5b33dfd07badaca
     status: maintained
   xacro:
     doc:
