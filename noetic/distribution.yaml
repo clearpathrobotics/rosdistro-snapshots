@@ -2610,7 +2610,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/ensenso/ros_driver.git
-      version: 169ad1f7c639fa0635e915c3ffa60758a75f9fd2
+      version: 1e2522611ea4b23702cd07b81975756219533ff8
     status: developed
   er_public_msgs:
     release:
@@ -2724,7 +2724,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: 59db42364d051c0ca663c5f5e081bf4478e8de5b
+      version: fca0afebf2a96b520721431d8ace1fca09dc5c61
     status: developed
   euslime:
     release:
@@ -5062,7 +5062,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/beamaginelidar/l3cam_ros.git
-      version: 75858135eda95d814d08260767ff16e9e941e762
+      version: 35e6c35cf003e09f155bb90e08064b12831f727a
     status: developed
   lanelet2:
     doc:
@@ -9272,6 +9272,12 @@ repositories:
       url: https://github.com/rm-controls/rm_description.git
       version: a4b31828bf964e491d3ba5a731d12c1213562feb
     status: developed
+  robnux_arm_kinematics_trajectory:
+    source:
+      type: git
+      url: https://github.com/ROBNUX/arm_kinematics_trajectory.git
+      version: d13e1df0cf66d3ea6375255e9764fd237adf9bb5
+    status: developed
   robot_body_filter:
     doc:
       type: git
@@ -12126,7 +12132,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: a627fff7a61b79b5c64cc444dc0f69818470bfca
+      version: 54047f698541148aa76b1518b7adc74186b67d39
     status: developed
   tf2_2d:
     release:
@@ -12579,11 +12585,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library-release.git
-      version: 1.8.0-1
+      version: 1.9.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f977b70e60559cb4fd69b67eedbda0366e6b5104
+      version: 41d4d01448be53862d9c6c63f1170f826b220a19
     status: developed
   ur_msgs:
     doc:

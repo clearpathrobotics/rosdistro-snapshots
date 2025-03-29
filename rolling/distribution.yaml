@@ -1214,7 +1214,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 88828e912af2d18890229678357e48cd83d258d7
+      version: c1b3becb8ff316dca0fe38f4385cf75e49c5e551
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1414,7 +1414,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: e2ffed6ddf1f4477a3edeeae46f7b42726677eca
+      version: 9b245b3afd78f48bb81edbb33027234b9cef59dc
     status: developed
   ecl_core:
     doc:
@@ -1677,7 +1677,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: bea0186806239ed2e28958b62b6eacab3390e8d0
+      version: e606ac65827142113be7193f294ccaa379c12b8f
     status: maintained
   fastcdr:
     release:
@@ -1830,7 +1830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/message_filters.git
-      version: 70af2f1ff6c4d60a7de02d54b22482438df85fc4
+      version: f043046b1c5f5b0a1accd197a4e6071304ece097
     status: maintained
   flex_sync:
     doc:
@@ -2173,7 +2173,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/google_benchmark_vendor.git
-      version: 0de27c29e3fa10c13b579f4b31fe6e03e4352ce2
+      version: a39485da54edbe10ca0c7b411fc9e5f272208f30
     status: maintained
   googletest:
     release:
@@ -2187,7 +2187,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/googletest.git
-      version: a79ad9c9ef2581f97a7a28c3cf2d78183aafc160
+      version: 699989e5432bf26942f87232491cf50d43c650b7
     status: maintained
   gps_umd:
     doc:
@@ -3234,7 +3234,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ld08_driver-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ld08_driver.git
@@ -3450,6 +3450,12 @@ repositories:
       type: git
       url: https://github.com/ros2/libyaml_vendor.git
       version: 855754620fd05bdc7601d464958522b395435f3c
+    status: maintained
+  lidar_mirror_fov_reshaper:
+    source:
+      type: git
+      url: https://github.com/ioskn/lidar_mirror_fov_reshaper.git
+      version: 968aab92e3950f7c75abfe823660697e4d3fcc72
     status: maintained
   linux_isolate_process:
     doc:
@@ -4593,7 +4599,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: c77ac5e7bd47cee17c676ae43a5b95b4de89b0ae
+      version: 9717e82596825c408849fc71324c9670b0a223d3
     status: developed
   open_manipulator:
     doc:
@@ -5679,7 +5685,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: aae375be91714102d09f8260b26e0e205e8d2e48
+      version: 7b6ee8a2e7a13d73f9f69368970390a9e0930448
     status: maintained
   rclpy:
     doc:
@@ -6278,7 +6284,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: da47bcea37f93aac2ed3ad3ba3c023499830e512
+      version: 0abbf0f06542bcee3dfbeeb70d4b20c981f01897
     status: developed
   robot_calibration:
     doc:
@@ -6399,7 +6405,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 95188b92c9bf628e72dc90a671e1f6c00f0b7611
+      version: 3fddf8a62367683a5bcb3d8a62285478e7b7377b
     status: developed
   ros2_control_cmake:
     doc:
@@ -6455,7 +6461,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 996f0304cbfef89f6162442e4aa7aefd3ed4d843
+      version: d1844e6da63f25d384a0d81bf8a48fdc9a7861d2
     status: developed
   ros2_easy_test:
     doc:
@@ -6875,7 +6881,7 @@ repositories:
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 23888e2a6c66a350011779e348661d1e72d765fc
+      version: fde7509eb5f9f569ee8ff4cc6fdc6eaa94954662
     status: developed
   rosidl:
     doc:
@@ -7647,7 +7653,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 64e2aaaa317abae3d99e33ae990d1fddcc12c080
+      version: c14f86291b764f051f9d729d4761318a40117158
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8741,11 +8747,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 1.8.0-1
+      version: 1.9.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f977b70e60559cb4fd69b67eedbda0366e6b5104
+      version: 41d4d01448be53862d9c6c63f1170f826b220a19
     status: developed
   ur_description:
     doc:
@@ -8760,7 +8766,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 8e88554ea3a55ae1612a6c226f0b78a2216f5794
+      version: 09ade0c12e9ab72b28761713d730ddd7c97b2b04
     status: developed
   ur_msgs:
     doc:
@@ -9302,11 +9308,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/zed-ros2-interfaces-release.git
-      version: 4.2.5-1
+      version: 5.0.0-1
     source:
       type: git
       url: https://github.com/stereolabs/zed-ros2-interfaces.git
-      version: 7bf431e5ea74f3f5cf2ab56418ee4fe1ff70b400
+      version: f675b8c25d3fc783e1865938e15403f4c552684c
     status: maintained
   zenoh_bridge_dds:
     doc:
