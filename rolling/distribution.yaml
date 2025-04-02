@@ -80,6 +80,16 @@ repositories:
       url: https://github.com/ros-acceleration/adaptive_component.git
       version: 491b0fe6c48a917ccf33b65b6bd355798b70e0bb
     status: developed
+  adi_iio:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/iio_ros2.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/iio_ros2.git
+      version: 6d82cf10ba9e4408ce6e09756cab5b0b0e314ce2
+    status: maintained
   ament_acceleration:
     doc:
       type: git
@@ -182,7 +192,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: 65828bdd7139802b0d86e039d39c454bfa3f77eb
+      version: 196ca1f809a2235e891b79dc0aa57614f6eb9c66
     status: maintained
   ament_download:
     doc:
@@ -415,6 +425,12 @@ repositories:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
       version: 0ab1987c2811ca60c18c1cc04bc3a8a0355b3522
+    status: developed
+  aruco_markers:
+    source:
+      type: git
+      url: https://github.com/namo-robotics/aruco_markers.git
+      version: 8e4b7df3b06846a58e62ef0641801c4be73db07d
     status: developed
   aruco_opencv:
     doc:
@@ -705,7 +721,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 5a48d3fd808344f7f979082e445c074bda8e1fdf
+      version: e4d701c2dd44f03dd262140148a80999dc1d6153
     status: maintained
   backward_ros:
     doc:
@@ -1332,7 +1348,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_hardware_interface-release.git
-      version: 1.4.0-1
+      version: 1.4.1-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel_hardware_interface.git
@@ -1362,7 +1378,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_sdk-release.git
-      version: 3.8.2-1
+      version: 3.8.3-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
@@ -1414,7 +1430,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 9b245b3afd78f48bb81edbb33027234b9cef59dc
+      version: d00e25b1c9c97f2a7574d5377602108044946735
     status: developed
   ecl_core:
     doc:
@@ -1547,7 +1563,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: f17456eb9c500e5b8b00a41650c4b10557af613a
+      version: a9f12d32893a3a6b46978b71f2172c0bc119dd61
     status: maintained
   eiquadprog:
     doc:
@@ -1684,7 +1700,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastcdr-release.git
-      version: 2.2.5-1
+      version: 2.3.0-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -1701,7 +1717,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 3.1.2-2
+      version: 3.2.0-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -1830,7 +1846,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/message_filters.git
-      version: afac8913da09f56b7ae2f2f8813e1a0feced7d5a
+      version: 7f93c8a9a00255285d48f3f8059113c63d307891
     status: maintained
   flex_sync:
     doc:
@@ -1886,11 +1902,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/flir_camera_driver-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/flir_camera_driver.git
-      version: ac5b78abd41b8f12e1a35a35338730b4341d5514
+      version: b8414ef2785414b2a0663b35aa1aabc9fec830fa
     status: maintained
   fluent_rviz:
     doc:
@@ -2001,7 +2017,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 4bab291443e57963392986c8de1a5890fef872b0
+      version: 5f011e4881844e4002c101588e354e4d4174c522
     status: maintained
   fuse:
     doc:
@@ -2508,7 +2524,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 0e38d9558324bf1fb85ab8c6576ac6c391202cc5
+      version: 44971e9a506c967f44ad31031a5f65430a2c7854
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2678,7 +2694,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 797e29654922ec8c0694739281db93f48bdf4393
+      version: 9e27edcf12b91425d2dcff9250626c56e9e1656b
     status: developed
   hyveos_bridge:
     source:
@@ -3122,7 +3138,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: bbc883dbb5d41c9b9f125b6f948e6481e2c09ffa
+      version: 16cb6b135ddf79113b8b14293800187da6ae4155
     status: maintained
   laser_geometry:
     doc:
@@ -3385,7 +3401,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 485a807dcb5845a8438d3d84ce25bc38098785c4
+      version: 8b2533d0ac6ff5943794a119a76037d4a2592b56
     status: maintained
   libg2o:
     release:
@@ -4955,7 +4971,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 1fb0ab610bd27ad1746368b06ff5e9ec4ce3e0c8
+      version: e6e5f36ba3ce8b7151de19b9b2122719093f216b
     status: developed
   plotjuggler:
     doc:
@@ -5701,7 +5717,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: f6dc98939bb5930790b2f483cd42d07b3b9a51aa
+      version: 0dda6bc7774e63115a37a6e2f35779bc184ca175
     status: maintained
   rcpputils:
     doc:
@@ -5768,7 +5784,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 2f3252e66c56559807b8dc698395d69d37fa2ee9
+      version: e811760383e93323d11b9d05c9b05f6b6d4681c4
     status: maintained
   reach:
     source:
@@ -6405,7 +6421,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: b66e5c6a37ae3b7d14ce49dfc60b630e7dd2423d
+      version: 7fba025e2024a347cb215daa5ceecd23d8622848
     status: developed
   ros2_control_cmake:
     doc:
@@ -6461,7 +6477,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: d1844e6da63f25d384a0d81bf8a48fdc9a7861d2
+      version: ce672da0af02447f33adf12959ba1021133838b6
     status: developed
   ros2_easy_test:
     doc:
@@ -6835,7 +6851,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: c8291b10a5914653d8cf994d0c8c7ff286e31034
+      version: 5ab979628ac239fe92c2a6fb3be73521663dc46e
     status: developed
   rosbag2_bag_v2:
     source:
@@ -8215,12 +8231,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
-      version: 2.6.2-1
+      version: 2.6.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/teleop_twist_joy.git
-      version: 7b45d503f425a490ed50e9d6796f3abe8887c35c
+      version: b6304ae8cb14c0fdc721b5fe90001511a96491b5
     status: maintained
   teleop_twist_keyboard:
     doc:
@@ -8516,7 +8532,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_manipulation.git
-      version: 70451aa59fbf1dde7687919119d475dd57775c2d
+      version: f6512b963ca771dfdde666cb59de1a4597596b24
     status: developed
   turtlebot3_msgs:
     doc:
@@ -8546,11 +8562,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot3_simulations-release.git
-      version: 2.2.5-4
+      version: 2.3.2-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-      version: e5c1c28b2157e60782f349a35952fdb709454c76
+      version: 45403d3397a3b065d75adc6cb00bf24564716aeb
     status: developed
   tuw_geometry:
     doc:
@@ -8751,7 +8767,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 87fd042e682028f3c494071e4244d61b8569e73b
+      version: 96dfebaaf45ac23c2217cfbc516dbfbf6d4ab1a2
     status: developed
   ur_description:
     doc:
@@ -9104,7 +9120,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: aa5013161cd2cfe359875ad0191365ae45059503
+      version: 5be6af52ac2590b2b84e82dd60fbb66e2d789685
     status: maintained
   vitis_common:
     doc:

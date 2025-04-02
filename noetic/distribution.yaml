@@ -494,7 +494,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 5a48d3fd808344f7f979082e445c074bda8e1fdf
+      version: e4d701c2dd44f03dd262140148a80999dc1d6153
     status: maintained
   backward_ros:
     doc:
@@ -2058,6 +2058,12 @@ repositories:
       url: https://github.com/pal-robotics/ddynamic_reconfigure_python.git
       version: d1dc50162fb8fc3112d3e5483ff09369c9533f69
     status: maintained
+  depth_obstacle_detect_ros:
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/depth-obstacle-detect-ros.git
+      version: c8236325decfd73417abf2a75dfa1c343a6580f8
+    status: maintained
   depthai:
     doc:
       type: git
@@ -3263,7 +3269,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 4bab291443e57963392986c8de1a5890fef872b0
+      version: 5f011e4881844e4002c101588e354e4d4174c522
     status: developed
   frame_editor:
     doc:
@@ -4075,7 +4081,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 797e29654922ec8c0694739281db93f48bdf4393
+      version: 9e27edcf12b91425d2dcff9250626c56e9e1656b
     status: maintained
   hri_actions_msgs:
     release:
@@ -7923,7 +7929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 1fb0ab610bd27ad1746368b06ff5e9ec4ce3e0c8
+      version: e6e5f36ba3ce8b7151de19b9b2122719093f216b
     status: developed
   plotjuggler:
     doc:
@@ -8724,6 +8730,21 @@ repositories:
       url: https://bitbucket.org/qbrobotics/qbshin-ros.git
       version: 62a98d23ef0c98818c8c98a50c900c19cfe8236f
     status: developed
+  qoi_image_transport:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/qoi_image_transport.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/qoi_image_transport.git
+      version: 1.0.4-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/qoi_image_transport.git
+      version: ad09684cb507044ae9f4220344dc338fb4c035ce
+    status: developed
   qpoases_vendor:
     doc:
       type: git
@@ -9255,7 +9276,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: 76654ad2fa96c0372972fe55cc8b4cf917e9dfb7
+      version: c831752b2d52ada4d48d6e2ac4e876fe4c361ea1
     status: developed
   rm_description:
     doc:
@@ -12589,7 +12610,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 87fd042e682028f3c494071e4244d61b8569e73b
+      version: 96dfebaaf45ac23c2217cfbc516dbfbf6d4ab1a2
     status: developed
   ur_msgs:
     doc:
@@ -12967,7 +12988,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: aa5013161cd2cfe359875ad0191365ae45059503
+      version: 5be6af52ac2590b2b84e82dd60fbb66e2d789685
     status: maintained
   visp_ros:
     doc:
