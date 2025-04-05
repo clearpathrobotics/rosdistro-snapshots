@@ -626,7 +626,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: 20f93d2bab505833cb405a958434b7094d247cf6
+      version: ef106ab7070a2fef37bb8e0911757244710555c8
     status: developed
   autoware_lanelet2_extension:
     release:
@@ -640,7 +640,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: b5acecf59e599b3fb52394addd9e0d633bf51fa6
+      version: 9d97e96909742f54ef4c36d2d1897ee41fd87edb
     status: developed
   autoware_msgs:
     release:
@@ -1433,7 +1433,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 407215bc12b415673e13d86fa15ad4191c1427c8
+      version: 27b01354d0414073d3e2de3f6c382a6972089814
     status: developed
   ecl_core:
     doc:
@@ -2020,7 +2020,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: bb239649a940928a14922e286964498b16461771
+      version: 0ba13d998b371996a486ce27cbaf3dd2896405c8
     status: maintained
   fuse:
     doc:
@@ -2523,11 +2523,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 2.0.6-1
+      version: 2.0.7-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 44971e9a506c967f44ad31031a5f65430a2c7854
+      version: 76266c541d2ae7bfe58b18436e99812fdb9ffc51
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2697,7 +2697,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: e963fc113d2c4fc3ebf2215bc3d8d0afd0db1136
+      version: d87131d4f3f2e6ee32df89ba2f28538fb0497754
     status: developed
   hyveos_bridge:
     source:
@@ -4078,7 +4078,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: da5bf30d99bbecb0753efee8dc4fa16d38fcfbd2
+      version: 218cddeff93978dbecf314f31538c80a382bdd0d
     status: developed
   mqtt_client:
     doc:
@@ -4618,7 +4618,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 0f990886e9e40014e32ddee177c8d798adbc8fb7
+      version: 0fcb1be3e3d4c3de95acf00f1757bdfad045e45c
     status: developed
   open_manipulator:
     doc:
@@ -4974,7 +4974,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 733891651b9262e9c4e07ae6b6312b9a5a722670
+      version: 7d123d3ac5bab621761bacd11a03c63b61095f1d
     status: developed
   plotjuggler:
     doc:
@@ -5599,12 +5599,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 10.0.2-1
+      version: 10.1.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 696a81d7856c3700ccffe470bfe49acecc760131
+      version: cc72fc1769ce9e6557c0f01efde982b3212e77b0
     status: maintained
   rcl_interfaces:
     doc:
@@ -5699,12 +5699,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 29.3.0-1
+      version: 29.4.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 011b878554ef76cbc05bfd5f024181dadd0307d1
+      version: 892cae99159597b85d3e569953ed67652a0c9eed
     status: maintained
   rclpy:
     doc:
@@ -6303,7 +6303,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: c6e074ab8fffa1b1a974d6b860fcc3892f596d48
+      version: a9ab960d57e1bb5eaa966e3dd90a5b32b5a14b61
     status: developed
   robot_calibration:
     doc:
@@ -6424,7 +6424,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: bb4af6dab02299fc1caaaf9137dcb5bdb93a6478
+      version: 25be71db396f6c4f4704d975c8dc6b9ac45c0a04
     status: developed
   ros2_control_cmake:
     doc:
@@ -6480,7 +6480,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: ce672da0af02447f33adf12959ba1021133838b6
+      version: 9ed7cbeb1220f07e320dcd0531aad86248034f82
     status: developed
   ros2_easy_test:
     doc:
@@ -6620,7 +6620,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: a9ef32e58e88570d4dc06aaf6739c464b1b1c95e
+      version: e8a0fb42548d9a75f85787197047f2718b2b65f2
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7036,7 +7036,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: 1c6b21aa2261899bc684a900923f010131b7f93c
+      version: 8aefd489b840d46c138245095402fcc50d3559f4
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -7672,7 +7672,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 98225aaaf5be04a35cc30b275c38c43cf1baede9
+      version: a657981d9fc816900688663bfcb6e7f3c50a0acc
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8822,7 +8822,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 69436523b80f523f7861f537df1c2055d62ce84b
+      version: 5162bf49245b9488e0a079d54701293cc8ccb23c
     status: developed
   ur_simulation_gz:
     release:
@@ -9123,7 +9123,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: c173d038de57f8143cf89abb453a605235909e00
+      version: c3289c9be3a87d27ae1bed2fc17337e2028438f6
     status: maintained
   vitis_common:
     doc:
