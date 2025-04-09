@@ -606,11 +606,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_cmake-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_cmake.git
-      version: 9c9653d4c17229fe84fb08d7c222acca06007c33
+      version: fa3dc172fb6f24ec6103b00c41320d722a994136
     status: developed
   autoware_internal_msgs:
     release:
@@ -1234,7 +1234,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 188885e63509d8851430d1ef308e0fe5a0a25edd
+      version: 9b1db070e21c86d49fba2cce7ce6b0cefed22a28
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1435,7 +1435,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: aee20697ce4f1c13bc22f63be6c816173c520ec5
+      version: 2389631f6284e66cf50418a561435c4d486cdb15
     status: developed
   ecl_core:
     doc:
@@ -1568,7 +1568,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 688783d23cd9aad390516e0ba104fe0a3c76a209
+      version: 65ebafde43065d11265bfd12df240cf49efad3fe
     status: maintained
   eiquadprog:
     doc:
@@ -1728,7 +1728,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: a69d9d99baef18233aa6d5e936c66aa9f5d5729d
+      version: c6f89d3d8cb6f0a7652abff1fcb51909c103f4a6
     status: maintained
   feetech_ros2_driver:
     release:
@@ -1814,7 +1814,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 38797ea39952240081283bb991397c0ddae1bf4f
+      version: eda8a003b539f8f05b8b03efb8abb935f00b89cb
     status: developed
   filters:
     doc:
@@ -2022,7 +2022,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 329c594997edb32daef931fc6f0d43502efc61be
+      version: 812e0dbdd954193b5906e64389e88e5b822b6e84
     status: maintained
   fuse:
     doc:
@@ -2319,7 +2319,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 967c3edfbdfd971f1fb6798637e7c8a67d8a176e
+      version: 0570dea91acab15cb2d064ce1cd4d8d92dd2a202
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2699,7 +2699,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: a4b08e5218d56b7e74fa8b4f998daf03636e4c02
+      version: 182fb7373707cc9675b7cb18b5bac0a73ee8bf61
     status: developed
   hyveos_bridge:
     source:
@@ -3248,7 +3248,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: d3e2350b29d279ba4b9cbecfdc0db47dfb073e98
+      version: 9907300a51aae1188530ea60d88e03ca72c5dbea
     status: maintained
   ld08_driver:
     release:
@@ -3259,7 +3259,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ld08_driver.git
-      version: b92adab375ec69a6067f5e0bfa70affed9a1bbd7
+      version: 9f9d3089cda56031fd5c22189d8c4217b625227d
     status: developed
   leo_common:
     doc:
@@ -3696,7 +3696,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 153888b44e01d0c7d33d05442fc2a764266a5046
+      version: e58552d2dfe6bb26eed2504aedc0b32a29b4a310
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4695,7 +4695,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/orocos_kdl_vendor.git
-      version: b86d2da3fb48a2288e7387f37e0445e54045a1b2
+      version: 460b99294c1dab0e3d2aa893f80d41ec4e78ef32
     status: developed
   ortools_vendor:
     release:
@@ -4976,7 +4976,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 942571434fec553d988490db7c3aa53e38aa0d12
+      version: 3dcb74c0d16bbd35917bb37b55f8c9303326304e
     status: developed
   plotjuggler:
     doc:
@@ -5176,7 +5176,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: bb4c2ad609fff539df7da41a070edd1e0e826e00
+      version: 17c89519a8e9070e5560c62caddf6c817fd16005
     status: developed
   py_binding_tools:
     release:
@@ -8824,7 +8824,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 14f80ac54642a8f3f62436ed31e60a2e34dda127
+      version: f1863a2ddb35352a3a9aafa6ab7f5a7e19b2a146
     status: developed
   ur_simulation_gz:
     release:
@@ -9125,7 +9125,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 96263596e4ca20206ade99c4418113fe0e34a170
+      version: ba71bb588b53be711cf9e50ff22ddd66c27edefd
     status: maintained
   vitis_common:
     doc:
