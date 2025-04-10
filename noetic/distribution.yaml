@@ -6,6 +6,39 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
+  abb:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/abb.git
+      version: noetic
+    release:
+      packages:
+      - abb
+      - abb_crb15000_support
+      - abb_irb1200_support
+      - abb_irb120_support
+      - abb_irb1600_support
+      - abb_irb2400_support
+      - abb_irb2600_support
+      - abb_irb4400_support
+      - abb_irb4600_support
+      - abb_irb52_support
+      - abb_irb5400_support
+      - abb_irb6600_support
+      - abb_irb6640_support
+      - abb_irb6650s_support
+      - abb_irb6700_support
+      - abb_irb7600_support
+      - abb_resources
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-industrial-release/abb-release.git
+      version: 1.5.0-1
+    source:
+      type: git
+      url: https://github.com/ros-industrial/abb.git
+      version: eefdf01c956a6f2129aacb88d598201feff3cf19
+    status: maintained
   abb_driver:
     doc:
       type: git
@@ -68,12 +101,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.14.0-1
+      version: 1.14.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/actionlib.git
-      version: 3558eb3c6c3e22d5dc93effa7c8adda8a4b284fa
+      version: c8ed22be8f9901edab7ad8ff24796974d17c4067
     status: maintained
   adi_3dtof_image_stitching:
     doc:
@@ -160,12 +193,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry_angles_utils-release.git
-      version: 1.9.13-1
+      version: 1.9.14-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/angles.git
-      version: 2392b18b4101cf2e81b77e89e3535959ad03d1ca
+      version: d2f5e3c0d09d52c28b982723f5d4d1b106babe94
     status: maintained
   app_manager:
     doc:
@@ -2059,6 +2092,18 @@ repositories:
       version: d1dc50162fb8fc3112d3e5483ff09369c9533f69
     status: maintained
   depth_obstacle_detect_ros:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/depth-obstacle-detect-ros.git
+      version: noetic-devel
+    release:
+      packages:
+      - depth_obstacle_detect_ros
+      - depth_obstacle_detect_ros_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/anilsripadarao/depth-obstacle-detect-ros-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/analogdevicesinc/depth-obstacle-detect-ros.git
@@ -3269,7 +3314,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 812e0dbdd954193b5906e64389e88e5b822b6e84
+      version: 31dafa269d040f152a0b12af74d705b681daf9e8
     status: developed
   frame_editor:
     doc:
@@ -3665,11 +3710,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/gl_dependency-release.git
-      version: 1.1.2-1
+      version: 1.1.3-1
     source:
       type: git
       url: https://github.com/ros-visualization/gl_dependency.git
-      version: 337fcfc30d1fca48f97a3c0a57678a14ec3fdb85
+      version: 390accc8a6dbd5a19b4fb4fbe52de0788403706c
     status: maintained
   gmcl:
     doc:
@@ -3888,7 +3933,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 0570dea91acab15cb2d064ce1cd4d8d92dd2a202
+      version: e7f758e7943f12b14802aba5b21706bb5b86eba0
     status: developed
   haf_grasping:
     doc:
@@ -4225,12 +4270,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/image_common-release.git
-      version: 1.12.0-1
+      version: 1.12.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 21aac6a4b84017c10e8ed7ad86bc59826a77aa1f
+      version: 5559cc5ff15c4e94bef7912eabe5e330de62475c
     status: maintained
   image_pipeline:
     doc:
@@ -4429,12 +4474,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/interactive_markers-release.git
-      version: 1.12.0-1
+      version: 1.12.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: d124076ffd98dba52b756ab435b04e0e5d9f2c42
+      version: cf7f4d177004609fa8a86f4424d98f4f7b2bdd63
     status: maintained
   iotbot:
     doc:
@@ -5068,7 +5113,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/beamaginelidar/l3cam_ros.git
-      version: 35e6c35cf003e09f155bb90e08064b12831f727a
+      version: b9aadf547b6eb686280e4ac665ddee03047ab60c
     status: developed
   lanelet2:
     doc:
@@ -5155,12 +5200,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/laser_geometry-release.git
-      version: 1.6.7-1
+      version: 1.6.8-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
-      version: 85cbee24f759ff11010a15330878f35224abd409
+      version: 1dd8476f543427f0a82ce952bd13f9870c2e2d19
     status: maintained
   laser_pipeline:
     doc:
@@ -5303,6 +5348,16 @@ repositories:
       url: https://github.com/lgsvl/lgsvl_msgs.git
       version: 0e5e7bd3660dcd25fefef44bef093cd034875769
     status: developed
+  libaditof:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/libaditof.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/libaditof.git
+      version: 120fcd72bc8eb1aa31f52ff05c85e990094a8f80
+    status: maintained
   libcreate:
     doc:
       type: git
@@ -8611,12 +8666,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.4.4-1
+      version: 0.4.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: 7095b4de210e2b235606f73565908f9af413db96
+      version: a7ac98e14b8dc7d69a6776fb21823dfd736b9d1e
     status: maintained
   qb_chain:
     doc:
@@ -8793,12 +8848,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: 9147631f5f21f77e1f8e1f3ad884b5e96a8e22e4
+      version: c58a063833d872eed3f5171f510fc12e9ac71dbf
     status: maintained
   quanergy_client:
     release:
@@ -10454,11 +10509,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt-release.git
-      version: 0.5.3-1
+      version: 0.5.4-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: d09d1033de8030dcc83a4cad3a3008e636f0277e
+      version: fc457ca0ede7b6dd19467ce0b086cfdd3cc78585
     status: maintained
   rqt_action:
     doc:
@@ -10469,11 +10524,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_action-release.git
-      version: 0.4.9-1
+      version: 0.4.10-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_action.git
-      version: fd461f410be6d7ef6beb5743251f0b4beba940e9
+      version: 3fc26e41ebd162d5c074e767f7c980a71bc0b87f
     status: maintained
   rqt_bag:
     doc:
@@ -10487,11 +10542,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_bag-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: 2f6fbd558baa8e8038f4d11bb20e27c75537d39c
+      version: aed1e0a037b7fae6a72d8087871be988e37b8731
     status: maintained
   rqt_common_plugins:
     doc:
@@ -10502,12 +10557,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.4.9-1
+      version: 0.4.10-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
-      version: b89e918e660b65cbbcc98b8d6401f711b0dcc6c7
+      version: a46dd85d8717d404508801d9cdb29094f2a9a2a1
     status: unmaintained
   rqt_console:
     doc:
@@ -10518,11 +10573,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_console-release.git
-      version: 0.4.12-1
+      version: 0.4.13-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
-      version: ce131912be9218216f1ca46fef1ed529dd1ff7f5
+      version: b3ce9d3ea6dd07d4221e121c72575a2a6132080a
     status: maintained
   rqt_dep:
     doc:
@@ -10533,11 +10588,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_dep-release.git
-      version: 0.4.12-1
+      version: 0.4.13-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_dep.git
-      version: ebf0f6ea572d772f8c4d1bbc78b56d48cea699d1
+      version: 57cd4b286cde5dbfb8526d9e01ed0df5f68db707
     status: maintained
   rqt_ez_publisher:
     doc:
@@ -10563,12 +10618,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_graph-release.git
-      version: 0.4.14-1
+      version: 0.4.15-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_graph.git
-      version: 759e210ac03a9c19e3ed4040361f97499203191f
+      version: d498b19b78dfa4f8ea562956bf0dfc2f350ccc14
     status: maintained
   rqt_human_radar:
     doc:
@@ -10593,12 +10648,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_image_view-release.git
-      version: 0.4.17-1
+      version: 0.4.18-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_image_view.git
-      version: 3803409bd001ca0583f8cc2a80941f53488afc2c
+      version: 21b717d43a65bb72e6bdbeb5a6162cc8556edd5d
     status: maintained
   rqt_launch:
     doc:
@@ -10655,11 +10710,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_msg-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_msg.git
-      version: cd226dd2b06b83c101e9e781aafa91b434ba1b29
+      version: ae57b4fbaef46e053f2844dbc164ffb4697763e9
     status: maintained
   rqt_multiplot_plugin:
     release:
@@ -10694,11 +10749,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_plot-release.git
-      version: 0.4.13-2
+      version: 0.4.15-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: e5af1b8aec0a824a8d5bd22e9726f47351b0d657
+      version: 3d81fe7d3e672fe2f97437b2db211478c20b8976
     status: maintained
   rqt_pose_view:
     doc:
@@ -10709,11 +10764,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_pose_view-release.git
-      version: 0.5.11-1
+      version: 0.5.12-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_pose_view.git
-      version: 42e917442c2e4f1c627a4c1d7dd45227f6114b4b
+      version: d39f98b19ce6a0913c5fb9c0ec1a4a9a0a158307
     status: maintained
   rqt_pr2_dashboard:
     doc:
@@ -10724,7 +10779,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_pr2_dashboard-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/pr2/rqt_pr2_dashboard.git
@@ -10739,11 +10794,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_publisher-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: 3f32ffe1e56a56a5e0610aa1dc4e5c37a2b2a88b
+      version: a160d4e9ba5f6667b4a4d92d1ce05d3cf7a3a6a0
     status: maintained
   rqt_py_console:
     doc:
@@ -10754,11 +10809,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_py_console-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_py_console.git
-      version: f9bf6037042541b46d0c1a849329ea13a15c9a98
+      version: c2653bae29ecb95c30feeef70180ef0f27f9b531
     status: maintained
   rqt_py_trees:
     doc:
@@ -10784,12 +10839,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_reconfigure-release.git
-      version: 0.5.5-1
+      version: 0.5.6-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_reconfigure.git
-      version: 988179e349329b5b29f19a891b37d3ac0620ebd2
+      version: 7f51d90736aad92d8ae6359264f905d35d644db4
     status: maintained
   rqt_robot_dashboard:
     doc:
@@ -10847,11 +10902,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_steering-release.git
-      version: 0.5.12-1
+      version: 0.5.13-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_steering.git
-      version: 77bc75e62d5cf62527b764acb3d74d2bfdbfe645
+      version: 3d834fb4b4f59a14a6684a72a4010c150d97b9dc
     status: maintained
   rqt_runtime_monitor:
     doc:
@@ -10877,12 +10932,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_rviz-release.git
-      version: 0.7.0-1
+      version: 0.7.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_rviz.git
-      version: def41cdda055791bac9428e0488203f647fe0e10
+      version: 2d4dcc4e87e7df435bb205f43bdaa74732b01a49
     status: maintained
   rqt_service_caller:
     doc:
@@ -10893,11 +10948,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_service_caller-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_service_caller.git
-      version: 08ff4ccb173d860690618fefad22149b28a4b3c4
+      version: acf7f33c61d20fea596a7ed29eb3e1e6d54741bc
     status: maintained
   rqt_shell:
     doc:
@@ -10923,11 +10978,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_srv-release.git
-      version: 0.4.9-1
+      version: 0.4.10-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_srv.git
-      version: 876365ef9fa30fe82eb3b6b6d826b542a01e131d
+      version: 43fcc7f364f15f43e440bdf4f5c68452216b3447
     status: maintained
   rqt_tf_tree:
     doc:
@@ -10954,11 +11009,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_top-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_top.git
-      version: b2caab135d5336cc180065552501ab592b22b1db
+      version: 1cc0b3dc3d5a43c622341e3deb3336fe0afda529
     status: maintained
   rqt_topic:
     doc:
@@ -10969,11 +11024,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_topic-release.git
-      version: 0.4.13-1
+      version: 0.4.14-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_topic.git
-      version: 84653713d4979fa5f85a042845d3deb47098b9c9
+      version: 8a08bf5a7dc092699a3db3ba0bfea52693638eb6
     status: maintained
   rqt_web:
     doc:
@@ -10984,11 +11039,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_web-release.git
-      version: 0.4.10-1
+      version: 0.4.11-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_web.git
-      version: 49eaabf06c0bea59624776b863d9c2befa63a086
+      version: 7b3442e70e7256cb1beaaae192ad6e7f3fdacd31
     status: maintained
   rslidar_sdk:
     doc:
@@ -12033,7 +12088,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 09a57a9bc9c817ea5d8017e8301be89e3463d20c
+      version: 719ae968eb4dde28522eb4f5bf883eaf57b5ff6e
     status: developed
   teb_local_planner:
     doc:
@@ -12288,7 +12343,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 243fe81b902b26d97570c915f037fbfbb079dc86
+      version: ac9b45a6d33473c88396f38e4f4f71f6f90fcf1a
     status: maintained
   turtlebot3:
     doc:
@@ -12579,6 +12634,7 @@ repositories:
       - universal_robots
       - ur10_moveit_config
       - ur10e_moveit_config
+      - ur12e_moveit_config
       - ur16e_moveit_config
       - ur20_moveit_config
       - ur30_moveit_config
@@ -12586,12 +12642,13 @@ repositories:
       - ur3e_moveit_config
       - ur5_moveit_config
       - ur5e_moveit_config
+      - ur7e_moveit_config
       - ur_description
       - ur_gazebo
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/universal_robot-release.git
-      version: 1.3.3-1
+      version: 1.4.0-1
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
@@ -13036,12 +13093,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/visualization_tutorials-release.git
-      version: 0.11.0-1
+      version: 0.11.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/visualization_tutorials.git
-      version: dd1b79e191d5b2b3f143cb5ee12749711b2a0889
+      version: f417df42aa25bbef6b6be1505fc261f12980e3e0
     status: maintained
   vizanti:
     doc:
