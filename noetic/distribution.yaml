@@ -108,6 +108,16 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: c8ed22be8f9901edab7ad8ff24796974d17c4067
     status: maintained
+  adi_3dtof_adtf31xx:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_3dtof_adtf31xx.git
+      version: noetic-devel
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/adi_3dtof_adtf31xx.git
+      version: 951565e9720f216ce1de24ad7f09295facca01ed
+    status: maintained
   adi_3dtof_image_stitching:
     doc:
       type: git
@@ -3933,7 +3943,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: e7f758e7943f12b14802aba5b21706bb5b86eba0
+      version: 8a1c4120bbb6c58812d1e6df8c606a51cdec854b
     status: developed
   haf_grasping:
     doc:
@@ -4126,7 +4136,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 182fb7373707cc9675b7cb18b5bac0a73ee8bf61
+      version: 343392a354ae8a255952414812f7d6c6f8ce5fa0
     status: maintained
   hri_actions_msgs:
     release:
@@ -5371,7 +5381,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AutonomyLab/libcreate.git
-      version: a8e274be1559a5c921463629f57d5b6dfeed1583
+      version: 116be443e7970de1574b5dc5f91e414828854c08
     status: maintained
   libfranka:
     doc:
