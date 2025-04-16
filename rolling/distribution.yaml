@@ -194,7 +194,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: 51a4f46f847eeb1cf543f26ab6fa86760e323f64
+      version: 2d33dd42d4b8cb8c7a8167f05c350af50eeae6aa
     status: maintained
   ament_download:
     doc:
@@ -876,11 +876,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/camera_ros-release.git
-      version: 0.3.0-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: cbb78b6af260ab36904fa186faded2388aa509b7
+      version: 0b2c24fe204fb23cb8b2df6a71f47efbcae63418
     status: developed
   cartographer:
     doc:
@@ -1441,7 +1441,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: fa46a3fc462608be4e11a01200b8ab2b0166dfa1
+      version: ea5623ae3352e5833fcfca300546c9cda855309c
     status: developed
   ecl_core:
     doc:
@@ -1857,7 +1857,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/message_filters.git
-      version: c3a61d68d52ce4d32558169341599168aecc226c
+      version: 626d19f963147730339ed2fcedab69d5f0469503
     status: maintained
   fkie_potree_rviz_plugin:
     source:
@@ -2034,7 +2034,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: f78d6c27cb044e777ab251fa4e013c09295cdd6d
+      version: 5f1023926b46336eea18ee16470054989cdddd49
     status: maintained
   fuse:
     doc:
@@ -2064,7 +2064,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 0830db9ff90e6fd564fae1552a2367460404d007
+      version: 1061442a207ba840931b3b1fbc4641be607068d4
     status: maintained
   game_controller_spl:
     doc:
@@ -3028,7 +3028,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-tooling/keyboard_handler.git
-      version: baafa63c064a2bcbdd26b1adc28d9da14629afbf
+      version: 553c24711fbc34e8ebc510a55231672049983ef2
     status: developed
   kinematics_interface:
     doc:
@@ -3235,7 +3235,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 6026e663f450b174831e5671653da00275342ea9
+      version: f8ef67a0f8cface863e1cd168f0b6bf2976be60b
     status: developed
   launch_param_builder:
     doc:
@@ -3270,7 +3270,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: eb34cbe44cc4ff5a39753f65d5329ccb0fd4df53
+      version: 1e33f0a9bdd0ffecb0b893187ab8352ddac56b2e
     status: maintained
   ld08_driver:
     release:
@@ -3428,7 +3428,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 886f877dd39d3c7baec9d7a8b99c804e05aed598
+      version: 50d143ad1dc6fd5974da427f6b072b3817724792
     status: maintained
   libg2o:
     release:
@@ -3803,7 +3803,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/microstrain_inertial.git
-      version: e7ad0aa1306265eb5427bdfe2153cba90618fb39
+      version: f03d70f53a8f42d858f52cfcad6699a0dbf0de60
     status: developed
   mimick_vendor:
     doc:
@@ -4028,13 +4028,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit2-release.git
-      version: 2.13.0-1
+      version: 2.13.1-1
     source:
       test_commits: false
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: ec5b3682c43bb614a23f4ab5188c6ef55e327826
+      version: d7ce1a4e3773848b27bd78651b7e8bef98f68522
     status: developed
   moveit_msgs:
     doc:
@@ -4332,7 +4332,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation.git
-      version: 0ae809337996f29b80df97959aaeebac20136269
+      version: d15694256b492dc3070020b38c5148e3e3215c4c
     status: maintained
   navigation_msgs:
     doc:
@@ -4521,7 +4521,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/LORD-MicroStrain/ntrip_client.git
-      version: cecfa7db2b26297100a034bfa729f696b416a5be
+      version: ad5c1f0138792d8ba630d91129396063ea918191
     status: developed
   object_recognition_msgs:
     release:
@@ -5163,12 +5163,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/polygon_ros-release.git
-      version: 1.1.0-1
+      version: 1.2.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/polygon_ros.git
-      version: 536c3dac01a231c5d3eddd11c0d5aec73500c1e3
+      version: 57ebe27fea2cd939fdfa1cee3cdb949c5cea4b03
     status: developed
   pose_cov_ops:
     doc:
@@ -5969,7 +5969,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: a7ba9f97f7d8a2eccab208c34918ee14dfbfaf25
+      version: b0a5ca38da9f535e643f6a64b4a8f7e2590a4003
     status: developed
   rmf_internal_msgs:
     doc:
@@ -7097,7 +7097,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2-rust/rosidl_rust.git
-      version: 0165ef2f4e755fee57ac9e648ef4d06a8e7d653b
+      version: ad4f24304cefe932685cc2a36f82dc248a75e4a4
     status: developed
   rosidl_typesupport:
     doc:
@@ -8236,7 +8236,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: e5c9a0d28318ba68d19c383b40efc8f4013eefa5
+      version: 71c109bc0f0adb617eab6146a1c57debdada1b82
     status: developed
   tango_icons_vendor:
     release:
@@ -8560,7 +8560,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3.git
-      version: fa8d9e6f4e30f8a3d72f4fa9c553be1c4b97f2e8
+      version: eb6383e80f306397bf923eea441ad0e6d1c18ca6
     status: developed
   turtlebot3_autorace:
     doc:
@@ -8815,7 +8815,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 1632f6d2635cb809186939a4e4160f1cb0831937
+      version: 96351221eed78a040f5c2f2961b9ce46dfad9060
     status: developed
   ur_description:
     doc:
@@ -9168,7 +9168,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 39d3670c177bcccf8a0215b3bed09d7fb1c71df3
+      version: 015e82ec5c0e9d123794fbccdcc0ad0f8c089109
     status: maintained
   vitis_common:
     doc:
