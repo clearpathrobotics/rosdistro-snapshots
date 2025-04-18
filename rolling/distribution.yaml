@@ -157,7 +157,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: ed4a0a5c2ea3f978d327b92dd60bfaa4e1278d4f
+      version: 3135a00b29c5251610337955a401ec56d60ad440
     status: developed
   ament_cmake_catch2:
     doc:
@@ -228,7 +228,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_index.git
-      version: 01d28972cdbd4d46de8e327e44409289dac52757
+      version: 26fa7f40b096adfa4ea02ca59b3f518abe4bbadb
     status: maintained
   ament_lint:
     doc:
@@ -276,7 +276,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 2bee9151aba25b94020241c00f468f12944ab265
+      version: 37ce577e53499934bf1193543be1682f550c3454
     status: developed
   ament_nodl:
     release:
@@ -303,7 +303,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_package.git
-      version: 9b09d9471f8bf77d5c847a6cd973da79d18d2e11
+      version: 14734a6a52281ebfa66083f0af23b914c4ca3daf
     status: developed
   ament_vitis:
     doc:
@@ -368,7 +368,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: fb2a4096ec5f84b9ec18e501dfa129ffeaaf774e
+      version: 36763892a3ccc826364a4c42a2f107fb0d56f40f
     status: maintained
   apriltag_detector:
     doc:
@@ -793,7 +793,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 3a00bc307e511611203fdd0acdaadbad8d68a772
+      version: 9c1aa084d72cc924b437de1d332b56b7108c7760
     status: developed
   bno055:
     doc:
@@ -1441,7 +1441,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: deac75afc3a85acb19145ad122ba05dfb3ef002f
+      version: f708644dd8701149ec120152d2daa29a9d5aa169
     status: developed
   ecl_core:
     doc:
@@ -1857,7 +1857,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/message_filters.git
-      version: b111fcaa852dc8e3c37d3e15df57db8375b421bc
+      version: aafa927af804587dc990f77e79d6e4ef6ba60252
     status: maintained
   fkie_potree_rviz_plugin:
     source:
@@ -2034,7 +2034,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: e9617cccbdf09f313b9912356a30a4da9294ec01
+      version: 6bb419c9ce109fc38dec2288ac67ae73724d9624
     status: maintained
   fuse:
     doc:
@@ -2341,7 +2341,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 11f77422597b31ada7d981eae698558f99f2dd5a
+      version: 4ad62e8948588a262acc85e68bc79981c7ec5f30
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2551,7 +2551,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 76266c541d2ae7bfe58b18436e99812fdb9ffc51
+      version: e45c3c7af57c637e1db3c815d9791d201c936da9
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2721,7 +2721,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 343392a354ae8a255952414812f7d6c6f8ce5fa0
+      version: 6068d02b1607963675e9c79c4139525b62f54e0b
     status: developed
   hyveos_bridge:
     source:
@@ -3235,7 +3235,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: f8ef67a0f8cface863e1cd168f0b6bf2976be60b
+      version: 4b8c6bb3496bceb4de1368fadcdd7ee522e7b369
     status: developed
   launch_param_builder:
     doc:
@@ -3424,11 +3424,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.5.0-2
+      version: 0.5.0-3
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 50d143ad1dc6fd5974da427f6b072b3817724792
+      version: 5d1380f7dfd142cb4ef3a54f813d52ed33922f5d
     status: maintained
   libg2o:
     release:
@@ -6206,7 +6206,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: 93baabf1d9edeb4f67915f4a3d40952eb3eb3b19
+      version: a475c701415932c1e9c7088e3029d7ead8d5540f
     status: developed
   rmw_cyclonedds:
     doc:
@@ -6448,7 +6448,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: de00c17e643b19e7980e522965f23cf22c0a9c21
+      version: 7d812367cc359f0796d5cc27e1f9410b7a5f57cc
     status: developed
   ros2_control_cmake:
     doc:
@@ -6536,7 +6536,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: fb633aacf9c1c85d61a96c1099b5afa3d533e5a3
+      version: 11292a51d4c8b15ed198ba091017c88804e47eb6
     status: developed
   ros2_robotiq_gripper:
     doc:
@@ -6596,7 +6596,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: e83d0e4ab3bd6ece2c7752e03761c892b8726fce
+      version: aa718f3fdfdf8c4fd907cf33accf8e11914ba804
     status: developed
   ros2acceleration:
     doc:
