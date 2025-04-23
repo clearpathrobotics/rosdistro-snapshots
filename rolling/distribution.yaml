@@ -204,7 +204,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: ac36cdb074de807719e8b18afeeedc0220a4b016
+      version: 544524b4f3c7fb0f6f7166ba04173bdf22a446d3
     status: maintained
   ament_download:
     doc:
@@ -480,7 +480,7 @@ repositories:
       - aruco_ros
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/pal-gbp/aruco_ros-release.git
+      url: https://github.com/ros2-gbp/aruco_ros-release.git
       version: 5.0.5-1
     source:
       type: git
@@ -597,7 +597,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-      version: be10e00e8841331fd454e136e4057e8e2b2a12cb
+      version: b0ea13e067ae2d9b8f755a303c831fcbbbefadfb
     status: developed
   autoware_auto_msgs:
     doc:
@@ -680,7 +680,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: 0e47f667eca59d3339a254332263e3c8a566008d
+      version: ede6926780c0cfe753086478ede4b7b9825f3955
     status: developed
   avt_vimba_camera:
     doc:
@@ -861,7 +861,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
-      version: 5aa938cc056048e8b711799dc5d0f56fcef52581
+      version: 89db3507cc05ea35430c38e10211d8634f674d22
   boost_sml_vendor:
     doc:
       type: git
@@ -1451,7 +1451,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: f708644dd8701149ec120152d2daa29a9d5aa169
+      version: 51500198cbcf13535c4ae9e33d90eadc6370df2f
     status: developed
   ecl_core:
     doc:
@@ -1830,7 +1830,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: e14b2d4fe84799ebb56d117c607d1da7a4dc37cf
+      version: 3613525c241538fa9fd9df3e1209ae8184627958
     status: developed
   filters:
     doc:
@@ -2360,7 +2360,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 3a1188a2eef2d74d422d2c732b404cf22386c07e
+      version: c9498fe0c07e7750ceada4d1eb798f8f04ac9a2c
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2570,7 +2570,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 4d2c7c3a966521b8f9749285fe11fa107b6a2a21
+      version: 5398c37f657544ceecb3fd3be3e548f28d090928
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3447,7 +3447,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 5b73d25967cfcf80a6fae64e8e6bcee12fa3cea1
+      version: e1818265aeae36d17a3f7e4fca5c115cffd3bf80
     status: maintained
   libg2o:
     release:
@@ -3896,7 +3896,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 4af94ea32bfbc101183688c0653df17a80977a0e
+      version: 4f3dcc0c6cc190cf1af8e9bf7d5035c9bd675d36
     status: developed
   mola_common:
     doc:
@@ -3911,7 +3911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 0cc9ecc5412c243dd7100be07ecdad3e5a098f56
+      version: b0b066d0d7e08f85b8c64d146c65399323c75bcc
     status: developed
   mola_gnss_to_markers:
     doc:
@@ -3941,7 +3941,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: cd7a8952b4c88593fe9e2b555a82822957ee9237
+      version: cac02e9370fe80f64af4d4070b0c97bb94e9b17b
     status: developed
   mola_state_estimation:
     doc:
@@ -3961,7 +3961,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: b96b78eacebbe0a58e7a6622b430bebe7c5b677e
+      version: 3f0a782f44be763383657b09c8b5ce8e67b60280
     status: developed
   mola_test_datasets:
     doc:
@@ -4121,7 +4121,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 0ede244c3809099b31d0f50068e1b2ddb4f6aca5
+      version: bc9b21cf0a099366c01dde43bf37f4c7299ebf8b
     status: developed
   mqtt_client:
     doc:
@@ -5909,7 +5909,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: 1f276a23c51cf774c29c37fc1d425f8c8c943042
+      version: a97f614803e4159c99d1db6824e55e6b56f582c6
     status: maintained
   rig_reconfigure:
     release:
@@ -6056,7 +6056,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 41e9f914342153b7010badd896d0a96579e92f67
+      version: 05c89d8c1c8d1b987e00bbab82bf7a7defa56247
     status: developed
   rmf_simulation:
     doc:
@@ -6363,7 +6363,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: aabc7265d66417bde7f960551505f2e74d8e568d
+      version: 35b5a54b9fa9a26abdd2f5628d95ff317b0e5777
     status: developed
   robot_calibration:
     doc:
@@ -6457,7 +6457,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: c171c3b5f48f45a4e564c8759268cc088a35b9d9
+      version: 52327f9b2286a83ef566304c8b0de5d2db177c02
     status: developed
   ros2_control:
     doc:
@@ -6805,7 +6805,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: ec08a0175bbac1b2da2c1bcf04e9d202e23b5769
+      version: 388d9318dc8019e511ecd0d6f948c1b8547ea4d6
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7754,7 +7754,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: d87b5a514fe5ebd5028ceb8fdee36b3c7fb2fb50
+      version: 3f35cdc262ed099aa53c4a29a5caf9d55c546605
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8305,7 +8305,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
-      version: 47dccfa873dff13e3ffe2d943988ee1629c8bc32
+      version: 7a1a3cee88153de67985f316ffee042c1d242f36
     status: maintained
   teleop_twist_joy:
     doc:
@@ -8915,7 +8915,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
-      version: 9c2fb8247445386226118e371349af6f71b3078b
+      version: 58de398c1f5ddc21162e52418f981508637c7b47
     status: developed
   urdf:
     doc:
@@ -9205,7 +9205,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 015e82ec5c0e9d123794fbccdcc0ad0f8c089109
+      version: aacbc2d7f11e4a9f627e22bb7ea4e7ea078b0c9c
     status: maintained
   vitis_common:
     doc:
