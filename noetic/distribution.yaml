@@ -101,12 +101,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.14.1-1
+      version: 1.14.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/actionlib.git
-      version: beabd07133ff26ddea69d48413e0eeb4b234926d
+      version: de276d56aa27bd629f775f4ea61d20a977cb5675
     status: maintained
   adi_3dtof_adtf31xx:
     doc:
@@ -678,12 +678,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/bond_core-release.git
-      version: 1.8.6-1
+      version: 1.8.7-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/bond_core.git
-      version: 5a79fecb3e8b6f2c210d83669b5cb40d47d62c47
+      version: 5e299fbfc512b60434b20f2b828b44ae25697e46
     status: maintained
   boost_plugin_loader:
     release:
@@ -881,7 +881,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/AIS-Bonn/catch_ros.git
-      version: 5653e4a040cc13d55d5169ac451fafe8edc628e1
+      version: e371074944e313075851bc43a57b81ecfa9a2209
     status: maintained
   catkin:
     doc:
@@ -892,12 +892,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.8.11-1
+      version: 0.8.12-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/catkin.git
-      version: 8dc99b50ab40bcd0718f85c6df9ed6edd63c73f0
+      version: fdf0b3e13e4281cf90821aeea75aa4932a7ff4f3
     status: maintained
   catkin_lint_cmake:
     source:
@@ -951,12 +951,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/class_loader-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/class_loader.git
-      version: a5f3855ffd917d0fc8fd24b3d021bf116d99c07b
+      version: 007c4e2d359bd9294671ff5605a771affebe8de6
     status: maintained
   clearpath_msgs:
     doc:
@@ -1082,12 +1082,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/cmake_modules-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/cmake_modules.git
-      version: a1b0cb906ef91f56e04f2eb288b71d0143e81d91
+      version: 3f8318d8f673e619023e9a526b6ee37536be1659
     status: maintained
   cmvision:
     doc:
@@ -1584,12 +1584,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/common_msgs-release.git
-      version: 1.13.1-1
+      version: 1.13.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/common_msgs.git
-      version: 20a833b56f9d7fd39655b8491a2ec1226d2639b3
+      version: 1230f39a7068d1d73d1039eb0eb970c922b6bcf7
     status: maintained
   common_tutorials:
     doc:
@@ -2385,12 +2385,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.7.4-1
+      version: 1.7.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/dynamic_reconfigure.git
-      version: b19fa331fe1437383b0ff21dee9e58e43f71fac7
+      version: 1a7a015d3c3a34f74fde8608453d5ced20abc7e3
     status: maintained
   dynamic_robot_state_publisher:
     doc:
@@ -2602,7 +2602,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 7102d83447795424665fbcd61a97030fedca68b5
+      version: 0287c3d4f6c4765a2851d09af66218bdcaed7b85
     status: developed
   eiquadprog:
     doc:
@@ -3327,7 +3327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 0354c0afc6321ca805c7872b2ae9baf28d7b043e
+      version: 74e74d62ba15905641bd8ef529d2596e2425ccb3
     status: developed
   frame_editor:
     doc:
@@ -3516,11 +3516,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/gencpp-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/ros/gencpp.git
-      version: a826dd34cf6b58d3e292a5c7d5c4f0abb58e813c
+      version: cc7e11cf67ec5c5f49b1d539e80475073f3864b4
     status: maintained
   geneus:
     doc:
@@ -3604,12 +3604,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.6.17-1
+      version: 0.6.18-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/genpy.git
-      version: 6a58260025d92cfff7b5c9b16e77cb2764a8616b
+      version: 323d861c512ba912a8c7e842647fe2d9657fd15b
     status: maintained
   geographic_info:
     doc:
@@ -3660,12 +3660,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry-release.git
-      version: 1.13.3-1
+      version: 1.13.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry.git
-      version: 935321b7c2ff1c7f7724bc84004f05606c6e02d0
+      version: faeeae78261896159072ca08270491e7f4aed3e5
     status: maintained
   geometry2:
     doc:
@@ -3688,12 +3688,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.7.8-1
+      version: 0.7.9-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry2.git
-      version: 44a604df70c1fd1b596a0e5e791c4c549e5c711c
+      version: b7735612ed0b1cc6a1a452da63a28c7650b31bdb
     status: maintained
   geometry_tutorials:
     doc:
@@ -3723,11 +3723,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/gl_dependency-release.git
-      version: 1.1.3-1
+      version: 1.1.4-1
     source:
       type: git
       url: https://github.com/ros-visualization/gl_dependency.git
-      version: 00c15d9860bc436e440735551cb3204b868408b0
+      version: fe96ed536fa6410af74aa2d2c04445f01a7c73f5
     status: maintained
   gmcl:
     doc:
@@ -3946,7 +3946,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 3eac859bf9bb93edc47db60fabb15126642d5e83
+      version: deb4045aa60d246d5805cf8db14ee6d26200df51
     status: developed
   haf_grasping:
     doc:
@@ -4139,7 +4139,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 6068d02b1607963675e9c79c4139525b62f54e0b
+      version: 31a1a8919ee93cfc56d6860c2d5265c355f4da9c
     status: maintained
   hri_actions_msgs:
     release:
@@ -4487,12 +4487,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/interactive_markers-release.git
-      version: 1.12.1-1
+      version: 1.12.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: 063dc53af2d11b807a1f800dabfda9acde70985a
+      version: 51e6b1c83c376affacad897fa9c6f723ea2c6cd5
     status: maintained
   iotbot:
     doc:
@@ -6613,11 +6613,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_ros-release.git
-      version: 2.14.7-1
+      version: 2.14.8-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: 47f43b50250a007d22c5e0187dabb515e68fc96c
+      version: afa338eff99bf3963643447470d28e28ca3a6224
     status: developed
   mrpt_sensors:
     doc:
@@ -8058,7 +8058,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
-      version: a519586e45960504d4a5b466e992a1b02c36d0f7
+      version: 8d4bf7e4fab132d6b7d894d446631a9161f2afec
     status: maintained
   point_cloud2_filters:
     doc:
@@ -8560,7 +8560,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/py_binding_tools.git
-      version: 367936efef47266a3c08901ad9d54239d2725bbf
+      version: 906b0ba0d5cd4d7f94ee1ee3eeb3728419f3e26d
     status: maintained
   py_trees:
     doc:
@@ -8664,11 +8664,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/python_mrpt_ros-release.git
-      version: 2.14.7-1
+      version: 2.14.8-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
-      version: 352b56b4f03622ea26754313e0bd25790b7a0090
+      version: c2d4ba5ed78adfeb45265f3323fa8a6d18b162cc
     status: developed
   python_qt_binding:
     doc:
@@ -8684,7 +8684,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: 8efbff93581b6f6d01c32c0afdeba6e23580fafa
+      version: 2daadd0830740770690c3d07767bb3e75967ffc5
     status: maintained
   qb_chain:
     doc:
@@ -8866,7 +8866,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: a237c21662b37f632ee8fa0ef3e0e661697342c7
+      version: 04ab29ebd05bfd037d2c099c9bb90f4873dc4594
     status: maintained
   quanergy_client:
     release:
@@ -9738,7 +9738,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: 8250c7d434ea34d0589eb8b6eaab5df1b11fd325
+      version: 562ebc3809533bb8d47f8211490bf21c60807db4
     status: maintained
   ros_comm_msgs:
     doc:
@@ -10701,7 +10701,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_logger_level.git
-      version: 4078407e437190f5c3d85eb806c1efd6764df269
+      version: 96263e3f4a869e4aaf057d8e091e0a0618043edf
     status: maintained
   rqt_moveit:
     doc:
@@ -10984,7 +10984,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_shell.git
-      version: 849d835343c680f70e7294a77b68015db2b2ffe4
+      version: 3bc4955cff2ae1027bcdb0321bc2de22c7f2a203
     status: maintained
   rqt_srv:
     doc:
@@ -12669,7 +12669,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
-      version: 82cc04ed7f70bd33425f626577cf319b8a635209
+      version: 13ed111fd7219cf930be58e197f1147c9efa91cf
     status: developed
   ur_client_library:
     doc:
@@ -12680,11 +12680,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library-release.git
-      version: 1.9.0-1
+      version: 2.0.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: ba00e69f5fb06eb8d6d3f817b3ca236a881b5602
+      version: 6eb3b530007f04f9b891bdf060a82c3eedadb626
     status: developed
   ur_msgs:
     doc:
@@ -12714,7 +12714,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
@@ -13332,7 +13332,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/webkit_dependency.git
-      version: b7a00699538c2a167356ddb459a986646d4e466a
+      version: 448f518cd76ff478a42fa63c2e69bbc367ee49fa
     status: maintained
   webots_ros:
     doc:
