@@ -2113,7 +2113,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/anilsripadarao/depth-obstacle-detect-ros-release.git
-      version: 1.0.0-2
+      version: 1.0.0-3
     source:
       type: git
       url: https://github.com/analogdevicesinc/depth-obstacle-detect-ros.git
@@ -3327,7 +3327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 5deebf6887acd0c1fb27b332801ae695120bcce6
+      version: 61f2f1365e8e2f039e087017cf6e96ae1b5656a1
     status: developed
   frame_editor:
     doc:
@@ -3693,7 +3693,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry2.git
-      version: b7735612ed0b1cc6a1a452da63a28c7650b31bdb
+      version: 02815f3bfcaffae7fe1137f4f5034f674cf874d2
     status: maintained
   geometry_tutorials:
     doc:
@@ -4139,7 +4139,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 31a1a8919ee93cfc56d6860c2d5265c355f4da9c
+      version: 4f62965cab46da58946a6916cdcbafe438b8f5d1
     status: maintained
   hri_actions_msgs:
     release:
@@ -4394,12 +4394,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.2.6-1
+      version: 1.2.7-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
-      version: 740316b849390f821729bc15d6866cddcd867972
+      version: 5e298b4fa3ab31681857f0c0c8b6d0e015e11e5a
     status: developed
   industrial_core:
     doc:
@@ -4938,7 +4938,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: 2bb9739e16bb78e5963c04e97612795e0c8e9b54
+      version: 948d7b9781eaa3ed8d6e53cc3cd5915a0913990e
     status: developed
   jsk_roseus:
     doc:
@@ -6300,7 +6300,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: 118d219d78563dcafe79c8b69245f00537e9fb9e
+      version: fcbdce7014202075081da98bf10b8df61219ee4b
     status: maintained
   moveit_calibration:
     doc:
@@ -6415,7 +6415,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_task_constructor.git
-      version: a0da41a4aa1f97a6da82b9cae55a024ac247ca3b
+      version: 5a0059dc83e60307797787b0f2d594e0ca30db48
     status: developed
   moveit_visual_tools:
     doc:
@@ -7997,7 +7997,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 669c77cd06de179e6339aae9592ea7caa0734814
+      version: 666d5d4e6b084b259189308d95987cabf9ef54ba
     status: developed
   plotjuggler:
     doc:
@@ -8012,7 +8012,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 3a2e901210ee812c480b288ffd3ed4cb4ee95f48
+      version: 9034fb6f3b9ff0c66c9d46c3526411902c722855
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -9738,7 +9738,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: b2be236136579c77e70119bf76c900c2b5629a78
+      version: 38b95ba9b8c5c4d958ffd1f7221db5dbdd7c7605
     status: maintained
   ros_comm_msgs:
     doc:
@@ -11102,7 +11102,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.21.10-1
+      version: 0.21.13-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -11133,7 +11133,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.21.10-1
+      version: 0.21.13-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -12420,7 +12420,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-      version: 76e78b0a34e07cf1dd16dafdc54c44f35c5b83eb
+      version: noetic-devel
     status: developed
   turtlebot3_simulations:
     doc:
@@ -13062,7 +13062,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: b4552331e2390bf8ee464d6d260a44fad9dc6dbc
+      version: d74b905ee9eaa534919b23aa4cca29a086625be8
     status: maintained
   visp_ros:
     doc:
