@@ -1139,7 +1139,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 07e5f2a40827e5530e32d40b14212c5d414731fa
+      version: 59f8f6fc71f131d7a813a7f90355256b1debc4f8
     status: maintained
   control_toolbox:
     doc:
@@ -1154,7 +1154,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 09363940e9a6bec76625cd942e43e11eabe3dd03
+      version: 28cc66f280d7737db5acd23920bba19c74549797
     status: maintained
   cpp_polyfills:
     release:
@@ -1213,7 +1213,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: 7053e7fa5a4d9695b5d15c158632364e0e2a5d24
+      version: d457aa05f8a77426a60639ddc362c471fe930e69
     status: developed
   demos:
     doc:
@@ -1584,7 +1584,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 7658690815780069d079420f9414106a5b03b57a
+      version: a1c8ee5cfdebafaf1af8dc959f880b44bc0f7323
     status: maintained
   eiquadprog:
     doc:
@@ -1841,7 +1841,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/filters-release.git
-      version: 2.1.2-1
+      version: 2.2.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2053,7 +2053,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 61f2f1365e8e2f039e087017cf6e96ae1b5656a1
+      version: 26028f93a18f67743a53f0f6d42baf793b97158c
     status: maintained
   fuse:
     doc:
@@ -2570,7 +2570,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 5398c37f657544ceecb3fd3be3e548f28d090928
+      version: c729498f2f67beb44bd9241b9089c3812c3b6385
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3065,7 +3065,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: efd1b8a9518dbcfccfb5072e18a4463635461fff
+      version: fd581d6bd037386d2daae51dcbd2b2cb3dacda4d
     status: developed
   kinematics_interface_pinocchio:
     doc:
@@ -3184,7 +3184,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: d0082619e4b8c551381f48ac9dd4f741bdabe7a5
+      version: 7e21947ad660006920e4cdae27f4c2e3709e62d1
     status: maintained
   laser_geometry:
     doc:
@@ -3254,7 +3254,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: f580507c270cf3d459762581a92a1aba5b04fb12
+      version: 2771a89fecae6dc6bcf4834253a784fb5f43061b
     status: developed
   launch_param_builder:
     doc:
@@ -3447,7 +3447,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 92ed6140ee02dd9235d887168f4ef2d5d0f42391
+      version: ab508f2b55d213f701d4cfceb79daccca97cf67e
     status: maintained
   libg2o:
     release:
@@ -4919,7 +4919,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 9e80ff76fd1776b40b08f3ffea2674ff3bca2f88
+      version: 5309f670e33091c219fddf327062da3a34653fcf
     status: maintained
   performance_test:
     doc:
@@ -5033,7 +5033,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 8e051c34641c9add87e9c2612a804a8718051453
+      version: d3546c251f741de45389656e3886761ee063c18c
     status: developed
   plotjuggler:
     doc:
@@ -5044,7 +5044,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.9.2-1
+      version: 3.10.1-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -5166,7 +5166,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
-      version: f376655bd78b0d90a48a81aafd960b8d230da762
+      version: 2c756e0d458c2d9a70489947983ad7ff424693c2
     status: maintained
   pointcloud_to_laserscan:
     doc:
@@ -5663,7 +5663,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: f352cff7a08b51715f34426599ef6f3200366cb5
+      version: d290ab955ceb57fae6c76f96bdb5b649a5e3f4bd
     status: maintained
   rcl_interfaces:
     doc:
@@ -5763,7 +5763,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: b1ec85df16cd1faee1ace8d0df5d31bce880df4b
+      version: 127a10e8c8085f0270f218706e5e0ea7d6d229c6
     status: maintained
   rclpy:
     doc:
@@ -5890,7 +5890,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 169a2dd371d58ee64f37ef8d43e6ab12584eb555
+      version: 75b8a435f24dfa9084820d72a00fbef8be7a3537
     status: maintained
   resource_retriever:
     doc:
@@ -6484,7 +6484,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 74cb0f09615722e888534b995423ae6769dd37b4
+      version: 30273dc698834c74ac06a0c682410561fea830ec
     status: developed
   ros2_control_cmake:
     doc:
@@ -6499,7 +6499,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
-      version: 167423990d93800af56b12c40b070d7ec73148de
+      version: ca97fc6b19e5fe7f46eaa25cd765b8a243ca5894
     status: developed
   ros2_controllers:
     doc:
@@ -6541,7 +6541,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 460d67d6896824e1313217f0f78eb0b2474b86e1
+      version: 5eb04da24a6bbf8d579755ad947ed41a77f87770
     status: developed
   ros2_easy_test:
     doc:
@@ -6915,7 +6915,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 8ddae20e5b019676c7c2ce78adfe240eca08f0b0
+      version: b358c45aa8e25f7d5bdfd1f55970e696ab707b30
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7002,7 +7002,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: f5bddb0016ba083f4fb9089abb54c2cf839cbcd7
+      version: a53698c02f3b4c0419e8e1eb2159717cce9e3ea9
     status: maintained
   rosidl_core:
     doc:
@@ -8648,7 +8648,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/turtlebot3_msgs-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
