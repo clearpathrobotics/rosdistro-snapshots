@@ -3327,7 +3327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 26028f93a18f67743a53f0f6d42baf793b97158c
+      version: aa7ab0727e054900642ffe2cc218bf684f3a0a53
     status: developed
   frame_editor:
     doc:
@@ -3338,11 +3338,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ipa320/rqt_frame_editor_plugin-release.git
-      version: 1.1.1-1
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/ipa320/rqt_frame_editor_plugin.git
-      version: 74c3035e8e1ff6225bbc160fa936f7ac90a613df
+      version: 3717e275688dcee146d6ac64107ea9e3b6163d29
     status: maintained
   franka_ros:
     doc:
@@ -3688,12 +3688,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.7.9-1
+      version: 0.7.10-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry2.git
-      version: 02815f3bfcaffae7fe1137f4f5034f674cf874d2
+      version: 40ce3df158c80cc4ac5edc5b1c22fe833d0cbc4c
     status: maintained
   geometry_tutorials:
     doc:
@@ -4139,7 +4139,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 4f62965cab46da58946a6916cdcbafe438b8f5d1
+      version: bb470eef28b8c010b17ff4facc0f4ed961d48cf7
     status: maintained
   hri_actions_msgs:
     release:
@@ -4938,7 +4938,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: 6f7f9b2f7e4d055972315acb1f59bc9dc1b01d0a
+      version: 6e806864e8312b3687a34aa74f35b2f94598a251
     status: developed
   jsk_roseus:
     doc:
@@ -6415,7 +6415,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_task_constructor.git
-      version: 5a0059dc83e60307797787b0f2d594e0ca30db48
+      version: 0cc398797f56de22e4328f0064ac5d0c53c011a3
     status: developed
   moveit_visual_tools:
     doc:
@@ -9320,7 +9320,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
-      version: 7cf90c9e6f30cb71a2fd01d5ebf48a05e501f31a
+      version: 823f7e5314b26ca796b1ff3ce383d5c18f0b2abb
     status: developed
     status_description: developed
   rm_controllers:
@@ -9344,7 +9344,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
-      version: 48b914c1f1e5ee283b243d344ee14c4a383cb26b
+      version: b849c45865fdd1b01b6299b199b92fde3e3ad91d
     status: developed
   rm_description:
     doc:
@@ -9733,12 +9733,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.17.1-1
+      version: 1.17.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: 38b95ba9b8c5c4d958ffd1f7221db5dbdd7c7605
+      version: efa270e622e390999469a2012b3c5ffd07ddff60
     status: maintained
   ros_comm_msgs:
     doc:
@@ -11215,12 +11215,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.14.25-1
+      version: 1.14.26-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rviz.git
-      version: 5f0b2db9ff3007323d3e5f3e0f4ae1c537e9c956
+      version: c4964de840d97b1377456a2054662551816b0a54
     status: maintained
   rviz_animated_view_controller:
     doc:
