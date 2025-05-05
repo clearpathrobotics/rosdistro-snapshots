@@ -2183,12 +2183,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.11.0-1
+      version: 1.12.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: efd6f828d77faa365825e4cdca25d3b503ca632e
+      version: 43557d53cd1073d01affc1ad5dd10a3eb9cd8782
     status: maintained
   diffbot:
     doc:
@@ -10243,7 +10243,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/roscpp_core.git
-      version: 2951f0579a94955f5529d7f24bb1c8c7f0256451
+      version: a1a194271bfb35b97a09553f2782585cf7fec9db
     status: maintained
   rosdoc_lite:
     doc:
@@ -13057,7 +13057,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: d74b905ee9eaa534919b23aa4cca29a086625be8
+      version: 54f504a3b106f2af42f051196435e900776c9b07
     status: maintained
   visp_ros:
     doc:
