@@ -90,6 +90,16 @@ repositories:
       url: https://github.com/analogdevicesinc/iio_ros2.git
       version: 6d82cf10ba9e4408ce6e09756cab5b0b0e314ce2
     status: maintained
+  adi_imu:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/imu_ros2.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/analogdevicesinc/imu_ros2.git
+      version: 637372fc00b2962330fe3a8ca44ccd8d3e1de8d7
+    status: maintained
   ai_worker:
     doc:
       type: git
@@ -548,6 +558,12 @@ repositories:
       url: https://github.com/hatchbed/asyncapi_gencpp.git
       version: fe77883cdc9a648ff95bb08a47c9decced393452
     status: developed
+  at_sonde_ros_driver:
+    source:
+      type: git
+      url: https://github.com/ma-shangao/at_sonde_ros_driver.git
+      version: 5ddc2fb7a0df95969969c7d98cee92577f406be7
+    status: developed
   automatika_embodied_agents:
     doc:
       type: git
@@ -655,7 +671,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: 5a0a7c386bdf14d420ddc8a081c29bc689176c44
+      version: fb81b602b9c931fd0930ad4786f3c304d974ec58
     status: developed
   autoware_lanelet2_extension:
     release:
@@ -840,7 +856,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 9b29c99bea709994a55a5d88ac9edd93013a2b82
+      version: 5a158efb238185b450c6f59f923d13716920f99e
     status: developed
   bno055:
     doc:
@@ -1099,7 +1115,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/color_util.git
-      version: 43496b824c5f16b851c6be68a2874669e8b75d63
+      version: 6c85a48be3877ce39b7ba40cab5d08b10c474698
     status: developed
   common_interfaces:
     doc:
@@ -1488,7 +1504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 414d04c82e419df4c6188e00ef1a1e5b66fa618d
+      version: 3d18556764a99af95e20ca84b753fbb6923a5262
     status: developed
   ecl_core:
     doc:
@@ -2090,7 +2106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/schemas.git
-      version: 06e4ac1144f0c0cd4e874bc6a7be24dce4d6657b
+      version: 7329a100f2898b4f117afc3772ee18425d89782a
     status: maintained
   fuse:
     doc:
@@ -2406,7 +2422,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 42cc0ac922460d506a7bbf3a37a4a0b1e103b79e
+      version: e41c2eef1201b585cb00897f2227765146222eb4
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3769,7 +3785,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: d67e88bcab21dfb31e419829896812c09da25772
+      version: a69c22275b6863ac8011edfaaa55adb26a30c57e
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4952,7 +4968,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 0ca29d7b98602429d3126a1bbad552d80964c0a8
+      version: 93af46d5f284c272a61a356691f8dcb3d3bd223c
     status: maintained
   performance_test:
     doc:
@@ -5012,7 +5028,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: b0096aae0530b07108a091474ec6b6004c00dc49
+      version: 29eecb9fb99c31d6ef4140e0be1766f64244c23b
     status: maintained
   pick_ik:
     doc:
@@ -6047,7 +6063,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 164e62e8afd3857badceb51e55bbf03778cf4d17
+      version: 346c9c4bbd04502beb151bd9ad93f635c798198d
     status: developed
   rmf_internal_msgs:
     doc:
@@ -6099,7 +6115,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 160176cb818b78559fafd8a8ad4af453ba6e4382
+      version: b34cfb1125fc10ba0ae992a58e76b29ba27b99da
     status: developed
   rmf_simulation:
     doc:
@@ -6318,7 +6334,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_dds_common.git
-      version: d9565f55cd8c35f538b9c4c2cb5ae9d52a0a20ec
+      version: f10f8bf208d6a4835ab091cb2009aa448a5ab84e
     status: maintained
   rmw_desert:
     doc:
@@ -6776,7 +6792,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
-      version: e18ac4209806e1c79d98d3513da95bd3e680f37c
+      version: 8450ca2fbd8ec545ac08a044754370951c5dac60
     status: developed
   ros_battery_monitoring:
     doc:
@@ -7248,7 +7264,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DFKI-NI/rospy_message_converter.git
-      version: c14031eacf8de134ae8b429bfe1df12bcf448161
+      version: 47b9217d52dcb9c5890a68e91ae287b260f9580f
     status: maintained
   rosx_introspection:
     doc:
@@ -9008,7 +9024,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
-      version: d47b65e037e21a361c9560c6374b709188a6186b
+      version: 8d4bdf1d8039df567bac2beb03935aa9c8e580ea
     status: developed
   urdf:
     doc:
