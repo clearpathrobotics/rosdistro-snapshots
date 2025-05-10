@@ -108,7 +108,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: 6fb5fb83ed5cf88879eb286e7b4d9e00a0dc53cb
+      version: cd868d2c73f42b3034d73d71c352b3fe3e2b40d3
     status: developed
   ament_acceleration:
     doc:
@@ -856,7 +856,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 5a158efb238185b450c6f59f923d13716920f99e
+      version: 3c62813b84fa9b26d8cb88dc38da17deb852f6a7
     status: developed
   bno055:
     doc:
@@ -943,7 +943,7 @@ repositories:
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: ab763a25646b1c1f87d7856a5c1b732672c13903
+      version: 07cbefd879e2737a09e1983729a3d13d598a7c7e
     status: developed
   cartographer:
     doc:
@@ -1145,7 +1145,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: 3631ac99a5d52898f8ee9600fe517656ec8ce72f
+      version: edb0a3a9ed3c8309aada12e9ced9a65e532cf1a1
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1791,7 +1791,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 3.2.1-1
+      version: 3.2.2-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -2096,7 +2096,7 @@ repositories:
   foxglove_msgs:
     doc:
       type: git
-      url: https://github.com/foxglove/schemas.git
+      url: https://github.com/foxglove/foxglove-sdk.git
       version: main
     release:
       tags:
@@ -2105,9 +2105,9 @@ repositories:
       version: 3.1.0-1
     source:
       type: git
-      url: https://github.com/foxglove/schemas.git
-      version: cd14fd363eaa32cb147ce00673f6ece05abeb360
-    status: maintained
+      url: https://github.com/foxglove/foxglove-sdk.git
+      version: 6aead68d8a4840614bdbf44d0a6bb80196751dbd
+    status: developed
   fuse:
     doc:
       type: git
@@ -2632,7 +2632,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: c729498f2f67beb44bd9241b9089c3812c3b6385
+      version: 5b7f233de637c4bbbd6a15bb5c4677b21b44e4f0
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2967,7 +2967,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
-      version: d0568b01623453dc7bba45150a987cada46d8696
+      version: ab49aa47a43fb6ef8b1fd9beaa42cf011e521d02
     status: maintained
   interactive_marker_twist_server:
     doc:
@@ -3495,7 +3495,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: a79941501716eb65e6d905d2430bddf48887f3f5
+      version: fabfdd8559fc9713b58536c61b7381dd02b5807a
     status: maintained
   libg2o:
     release:
@@ -3785,7 +3785,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: a69c22275b6863ac8011edfaaa55adb26a30c57e
+      version: a1228d978bcc11764116bb8f9184dc1ecf7d7dda
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -5739,7 +5739,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_interfaces.git
-      version: 04780fc64a3616b45a21bc9d5880c7d0fff2b456
+      version: 355006bb4f60f99defba0c6c010950ed45e4911c
     status: maintained
   rcl_logging:
     doc:
@@ -5828,7 +5828,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 3414456ddaf1163d1951d301336028c9600bd58e
+      version: a7c8631c7af567b01adc15406bd02825b5276642
     status: maintained
   rcpputils:
     doc:
@@ -5949,7 +5949,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: c13e85454b55f82a5c4df5c840546653939c9738
+      version: 946b485fde687f4e68b7e7de620d06115b27253a
     status: developed
   resource_retriever:
     doc:
@@ -5995,7 +5995,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_api_msgs.git
-      version: a1306f1923f06d04ba5912be222e48c5fc209c15
+      version: cc752789f8339f6fa2b5e5783843893b0c4df2ad
     status: developed
   rmf_battery:
     doc:
@@ -6063,7 +6063,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_demos.git
-      version: 346c9c4bbd04502beb151bd9ad93f635c798198d
+      version: 7e995cbd39dc2fc1fbf594e84874fc0df64092ff
     status: developed
   rmf_internal_msgs:
     doc:
@@ -6092,7 +6092,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: 6beb9c76887984060e041b60777f6ae1019c3699
+      version: c0f72ce5e2129411d2868414b25f6fab1460fcdb
     status: developed
   rmf_ros2:
     doc:
@@ -6115,7 +6115,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: a4ca20e388fce90740b554c8d18da1a12acf16ea
+      version: f96c074c0b0ce6b5f658a7ee0ca84ca02e8ab39a
     status: developed
   rmf_simulation:
     doc:
@@ -6134,7 +6134,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: 7d70ff18e123b99487485acae1692a7276e380cd
+      version: 38a68c6367dcfa747ea250e50b360ff31624ecb1
     status: developed
   rmf_task:
     doc:
@@ -6170,7 +6170,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: cce1becd8a50c6bcfbf84aa39643742e038b1604
+      version: 95ce466f641274023974ecf8399758707624fc58
     status: developed
   rmf_traffic_editor:
     doc:
@@ -6190,7 +6190,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: e7a19644fc5476e694d293073df3c18ee00c85e0
+      version: 3dc7d2609b95e8c1919a779bded75e25f742749a
     status: developed
   rmf_utils:
     doc:
@@ -6422,7 +6422,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 23015962b0ec36cea932aab440202f368bd0ef22
+      version: 33b250e4541718977f35ea6d518a96f5af7465fd
     status: developed
   robot_calibration:
     doc:
@@ -7530,7 +7530,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: 15f62ba464a77cf640ebca114bd2c0e6e0eaff4e
+      version: b63bfd84f02f2b46e3b7dead0f08f2c81b911b52
     status: maintained
   rqt_publisher:
     doc:
@@ -7912,7 +7912,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: 2d91a27f711a29455df3b4cf79ac8fb87f0209f2
+      version: d75f44e4cdb278457cdc6febb99d5929974b3844
     status: maintained
   service_load_balancing:
     doc:
@@ -8698,6 +8698,26 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/turtlebot3.git
       version: eb6383e80f306397bf923eea441ad0e6d1c18ca6
     status: developed
+  turtlebot3_applications:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_applications.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_applications.git
+      version: ee4767822d0f85ebd67f79308c7478871716b3e1
+    status: developed
+  turtlebot3_applications_msgs:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_applications_msgs.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_applications_msgs.git
+      version: 572a00138b8891ce5df1f9986de316e9288a477c
+    status: developed
   turtlebot3_autorace:
     doc:
       type: git
@@ -8717,6 +8737,26 @@ repositories:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
       version: d58f2ff133f58a512f49381eb1ed7ff7e46ef5d8
+    status: developed
+  turtlebot3_home_service_challenge:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_home_service_challenge.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_home_service_challenge.git
+      version: b3fbb40a6e0a465840f1ed97e3f9bb7e268b9786
+    status: developed
+  turtlebot3_machine_learning:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_machine_learning.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_machine_learning.git
+      version: 86f49b45b370323b370f60e93546d004b697ef86
     status: developed
   turtlebot3_manipulation:
     doc:
@@ -8976,7 +9016,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 91f51a89be2f488afc4d25f03b2bd75f47399608
+      version: 5ff30bb80b77e1e953e51a05a219343e2fb7192f
     status: developed
   ur_msgs:
     doc:
@@ -9314,7 +9354,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: d060954bda8a1d8b2eca34257511dc68993e6de0
+      version: 801f5d1d0684e52adc9530bee0adb75823c309b7
     status: maintained
   vitis_common:
     doc:

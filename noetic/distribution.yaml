@@ -101,12 +101,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.14.2-1
+      version: 1.14.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/actionlib.git
-      version: 4783c147059f779eba3f57a15ee545cb0a7428ad
+      version: ce5635930d4083090ee1e6c4c3248daa3fb3de62
     status: maintained
   adi_3dtof_adtf31xx:
     doc:
@@ -640,7 +640,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 5a158efb238185b450c6f59f923d13716920f99e
+      version: 3c62813b84fa9b26d8cb88dc38da17deb852f6a7
     status: developed
   beluga:
     doc:
@@ -3317,7 +3317,7 @@ repositories:
   foxglove_msgs:
     doc:
       type: git
-      url: https://github.com/foxglove/schemas.git
+      url: https://github.com/foxglove/foxglove-sdk.git
       version: main
     release:
       tags:
@@ -3326,8 +3326,8 @@ repositories:
       version: 2.3.0-1
     source:
       type: git
-      url: https://github.com/foxglove/schemas.git
-      version: cd14fd363eaa32cb147ce00673f6ece05abeb360
+      url: https://github.com/foxglove/foxglove-sdk.git
+      version: 6aead68d8a4840614bdbf44d0a6bb80196751dbd
     status: developed
   frame_editor:
     doc:
@@ -4871,7 +4871,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
-      version: 5a29d9b4acd81e104c2d86c5bfbf5f8a0325b53a
+      version: 8a5b2cdf2e737b184deca81962f3b0c2a581a78e
     status: developed
   jsk_planning:
     doc:
@@ -4911,7 +4911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
-      version: 35688122e9fa1b04ea88c11a19eb7dd7d25690ec
+      version: 61a57863ab63b3bb1faf0c0922c8a9d35c5015df
     status: developed
   jsk_recognition:
     doc:
@@ -4938,7 +4938,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
-      version: 6e806864e8312b3687a34aa74f35b2f94598a251
+      version: a7295ce054b35a1732061b90c24911166202dcd3
     status: developed
   jsk_roseus:
     doc:
@@ -7097,12 +7097,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.11.1-1
+      version: 1.11.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/nodelet_core.git
-      version: 4303d35e053d95c82df3bdafea4ead54e3993e80
+      version: ed2a4e13298e45fc6b8b60fbd3d06c4e65f6d434
     status: maintained
   nonpersistent_voxel_layer:
     doc:
@@ -7844,6 +7844,7 @@ repositories:
       - phidgets_analog_inputs
       - phidgets_analog_outputs
       - phidgets_api
+      - phidgets_current_inputs
       - phidgets_digital_inputs
       - phidgets_digital_outputs
       - phidgets_drivers
@@ -7859,7 +7860,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
-      version: 1.0.9-1
+      version: 1.0.10-1
     source:
       test_pull_requests: true
       type: git
@@ -9733,12 +9734,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.17.2-1
+      version: 1.17.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_comm.git
-      version: 114a14228c2c8afda8dafd320f4b25e5a770e69d
+      version: b6c57e76a764252cf50d8d24053f32e2ad54a264
     status: maintained
   ros_comm_msgs:
     doc:
@@ -10681,12 +10682,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_launch-release.git
-      version: 0.4.9-1
+      version: 0.4.10-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_launch.git
-      version: e6c639697f6b52cd41884c964e97231fbadb9291
+      version: f95c99093aabe3f94ecfc720806f2032f0258785
     status: maintained
   rqt_logger_level:
     doc:
@@ -10712,7 +10713,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_moveit-release.git
-      version: 0.5.11-1
+      version: 0.5.13-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_moveit.git
@@ -11497,12 +11498,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/septentrio-users/septentrio_gnss_driver-release.git
-      version: 1.4.2-1
+      version: 1.4.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/septentrio-gnss/septentrio_gnss_driver.git
-      version: 2d91a27f711a29455df3b4cf79ac8fb87f0209f2
+      version: d75f44e4cdb278457cdc6febb99d5929974b3844
     status: maintained
   serial:
     doc:
@@ -13057,7 +13058,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: d060954bda8a1d8b2eca34257511dc68993e6de0
+      version: 801f5d1d0684e52adc9530bee0adb75823c309b7
     status: maintained
   visp_ros:
     doc:
@@ -13120,7 +13121,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MoffKalast/vizanti.git
-      version: 921313a012d0246081e0df0489f9fe4443cc00eb
+      version: c20fe7ea8f442406a7c3b0ae0ae6d1e38b04cc18
     status: maintained
   vl53l1x_ros:
     doc:
