@@ -476,7 +476,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: rolling
+      version: ros2
     release:
       packages:
       - aruco_opencv
@@ -488,7 +488,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: 20e4681eab35626fe0126d416039848b9c387aec
+      version: 6ce0da70242512affeeebc97cbeeaaaf41193523
     status: maintained
   aruco_ros:
     doc:
@@ -1192,7 +1192,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 59f8f6fc71f131d7a813a7f90355256b1debc4f8
+      version: 04ce7cc424e64cc37a2f25d060fda9544738723b
     status: maintained
   control_toolbox:
     doc:
@@ -1767,7 +1767,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: a7cfa3a9c2b9aafd10b30172edb78091ac656ec3
+      version: 153d692a70871c0974fe00edaadb7ff867aaa1f9
     status: maintained
   fastcdr:
     release:
@@ -3945,7 +3945,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: bfc63200bcfcf9a326c2d163d6176b7a450bbc9d
+      version: b2a070dc950bcdaac82b5aeca6ff3a98c3426de8
     status: developed
   mola_common:
     doc:
@@ -5712,7 +5712,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: d290ab955ceb57fae6c76f96bdb5b649a5e3f4bd
+      version: ba977a4888cb017ec5cd1bab4e3cd045bf07e62d
     status: maintained
   rcl_interfaces:
     doc:
@@ -5939,7 +5939,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 49159878f79831ea06f83ff0c87446a45c5dbcb8
+      version: 90ba2f679aa8e6ee72e88fa529378faec7c6e649
     status: maintained
   replay_testing:
     doc:
@@ -5991,7 +5991,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_api_msgs-release.git
-      version: 0.4.0-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_api_msgs.git
@@ -6088,7 +6088,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
-      version: 3.4.1-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
@@ -6111,7 +6111,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_ros2-release.git
-      version: 2.9.0-1
+      version: 2.10.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
@@ -6130,7 +6130,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_simulation-release.git
-      version: 2.4.1-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
@@ -6166,7 +6166,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic-release.git
-      version: 3.4.0-1
+      version: 3.5.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
@@ -6186,7 +6186,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmf_traffic_editor-release.git
-      version: 1.11.0-1
+      version: 1.12.0-1
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
@@ -6974,7 +6974,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: b358c45aa8e25f7d5bdfd1f55970e696ab707b30
+      version: 599317aca89a105db0ca98063271d7d2757ace95
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7069,7 +7069,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: b3d84469b7a82ba63cf7ce3f708ba2db6b9d7607
+      version: c9a3084d8570ee7d1f3a35b81d7cf9259aee6dbc
     status: maintained
   rosidl_core:
     doc:
@@ -7907,7 +7907,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.4.2-1
+      version: 1.4.3-1
     source:
       test_pull_requests: true
       type: git
@@ -9354,7 +9354,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 801f5d1d0684e52adc9530bee0adb75823c309b7
+      version: 5c977b2a81aa49fb95d26cba43ed77178fc79152
     status: maintained
   vitis_common:
     doc:
