@@ -640,7 +640,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 3c62813b84fa9b26d8cb88dc38da17deb852f6a7
+      version: 793a6bdd75386a557382697dd2d7940351a6357d
     status: developed
   beluga:
     doc:
@@ -3327,7 +3327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 3f2fcd2e84f9d32ea37ae549e4eba780ef96d9e7
+      version: b0b5695f455f63e4cab0c3c1950d902aeda384c2
     status: developed
   frame_editor:
     doc:
@@ -3342,7 +3342,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/rqt_frame_editor_plugin.git
-      version: 3717e275688dcee146d6ac64107ea9e3b6163d29
+      version: 413aa5e93e7c5826113bc5575cd51e02a01aa896
     status: maintained
   franka_ros:
     doc:
@@ -5186,7 +5186,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/laser_filtering.git
-      version: ef296671d4ecf75383813b470b975aae4e9ee84a
+      version: 5b24f5ae9a4e135413c1962c18a203bffa1fa33c
     status: maintained
   laser_filters:
     doc:
@@ -5368,7 +5368,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/libaditof.git
-      version: b8a02b3aab5ad6101c6f765dc1d938f28acd7127
+      version: 31170f448f19e49a49ca746ff3eb85bf90491c5a
     status: maintained
   libcreate:
     doc:
@@ -6076,12 +6076,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/uos-gbp/mir_robot-release.git
-      version: 1.1.7-1
+      version: 1.1.8-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/DFKI-NI/mir_robot.git
-      version: 866218f64fd4e1ed3c79ec90d6ae529ce4d0ed79
+      version: 0c30407055ed217b574efe5fd805867cb2d698a2
     status: developed
   mitch_v2_driver:
     doc:
@@ -6442,6 +6442,7 @@ repositories:
       - camera_info_manager_metadata_extractor
       - exiftool_metadata_extractor
       - exiv2_metadata_extractor
+      - gpmf_metadata_extractor
       - lensfun_metadata_extractor
       - libexif_metadata_extractor
       - movie_publisher
@@ -6452,11 +6453,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/peci1/movie_publisher-release.git
-      version: 2.0.3-1
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/ctu-vras/movie_publisher.git
-      version: 715d845b1ba9712e0a6d7b2cfe74d670e453388e
+      version: 81d1c783317c7020ffb67af91b8099f9e332696a
     status: maintained
   mp2p_icp:
     doc:
@@ -6900,7 +6901,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-planning/navigation_msgs.git
-      version: 793d06ff51d20fcd94832161ccde268cb4ce5e38
+      version: 18fc8567a6ff86ca3b48370c610b2300c3f561f2
     status: maintained
   nearfield_map:
     doc:
@@ -6944,11 +6945,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/at-wat/neonavigation-release.git
-      version: 0.17.7-1
+      version: 0.18.0-1
     source:
       type: git
       url: https://github.com/at-wat/neonavigation.git
-      version: cc1ae06b787451004dd565355a163977235163f5
+      version: 7abe1ee362515fc1b1bb5670dece409549ffecae
     status: developed
   neonavigation_msgs:
     doc:
@@ -10133,7 +10134,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/rosbag_snapshot.git
-      version: 6b07f837f66f50ff15061e45590eed9087bdc5c4
+      version: b7a3d78fb18c58728bee3f9c7198cbfa20822e66
     status: maintained
   rosbash_params:
     doc:
@@ -12085,7 +12086,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/ros_system_fingerprint.git
-      version: 81e7af417ebd0e6f3d0b91cd503dad4a6172f9ec
+      version: 2fecd471254371bd36ad69bdcc23d6ea86fc6f56
     status: developed
   taskflow:
     doc:
@@ -12220,7 +12221,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: d6fc306790dc816fc0d610f48a1a1d36d9e515e1
+      version: cd2a05ac28127bd1e686ab6f8ba0da3871917469
     status: developed
   tf2_2d:
     release:
@@ -12647,6 +12648,7 @@ repositories:
       - ur10_moveit_config
       - ur10e_moveit_config
       - ur12e_moveit_config
+      - ur15_moveit_config
       - ur16e_moveit_config
       - ur20_moveit_config
       - ur30_moveit_config
@@ -12660,11 +12662,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-industrial-release/universal_robot-release.git
-      version: 1.4.0-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
-      version: 97036996ddfbf4013c6ccc97e143cc2e4084f1c5
+      version: e4c1c42e854e45084ad827adca6a6bda00324955
     status: developed
   ur_client_library:
     doc:
@@ -12709,11 +12711,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
-      version: becfddf6aebdb3a89f53ec0423c89abd810f4754
+      version: 62307ed3a76da523c7f13e0759cae14f7880b423
     status: developed
   urdf:
     doc:
@@ -12762,7 +12764,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_sim_tutorial.git
-      version: 3c5a4f7c9ff691300a04f4be32eaf3bc28144088
+      version: 56832df6a924d53f57e22b79bc68a976ed60086f
     status: maintained
   urdf_tutorial:
     doc:
@@ -13057,7 +13059,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 07b270b27fea09935b2a60b1ea557374789e3457
+      version: 1d357299b2f6c9fdb844fd51d9725bc30113eb8e
     status: maintained
   visp_ros:
     doc:
@@ -13460,7 +13462,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/wu_ros_tools.git
-      version: f57e7f07f69cdd244d4bc9449bfc82239ba16e12
+      version: 2b17253df819130c692c63d8df23cce8e9091253
     status: maintained
   xacro:
     doc:
