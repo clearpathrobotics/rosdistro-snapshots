@@ -728,12 +728,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_utils-release.git
-      version: 1.4.0-1
+      version: 1.4.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 6783a161a9f05790e93a651cb37a49f2e6e237ea
+      version: 204a1fef35ab00e072911a686014dc8c34bcff4a
     status: developed
   avt_vimba_camera:
     doc:
@@ -943,7 +943,7 @@ repositories:
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: 4481779a02f3eb74b2396740958dd5963810b8a0
+      version: 444830c9293ef81e625f13241433bc9c843d758f
     status: developed
   cartographer:
     doc:
@@ -1342,7 +1342,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 1fb3620252f73a9d5908b0b03aef9344cad5b5b4
+      version: f26af6c1c00fede6b9fc865e4cba5cdd75f6f694
     status: maintained
   dolly:
     doc:
@@ -1504,7 +1504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 3d18556764a99af95e20ca84b753fbb6923a5262
+      version: 18ee8a2b9745de28e08875bd40ab3cdd4e12a411
     status: developed
   ecl_core:
     doc:
@@ -2076,7 +2076,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: f8bde8b0b14b672a0f7f6a6d3f5214f76ce31866
+      version: 41f96cc6053632a472d9a821989952771b1117f2
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2106,7 +2106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 3d579966165b83a27e7d4dbaf2088a7ce4b95769
+      version: 0c37b21ab9fab18408a268293754dc24383f1289
     status: developed
   fuse:
     doc:
@@ -2422,7 +2422,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 6d30fe0e9e89c5e19f570a0b51fe350ce5a23733
+      version: bbd0ef5a47171c8cdc3a7e5e64e8a2f1b8225be5
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2967,7 +2967,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
-      version: ab49aa47a43fb6ef8b1fd9beaa42cf011e521d02
+      version: 0fc51619293204934d2f63cebc712b0d9298144b
     status: maintained
   interactive_marker_twist_server:
     doc:
@@ -3495,7 +3495,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: f3a12332f6d987b34893b2a41294dba6db5feb39
+      version: e5442c3150fd18eda0242e0cdbf9360f142b5e13
     status: maintained
   libg2o:
     release:
@@ -3547,7 +3547,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: b0ef30d2d40de29cdb86aa07e9fdd6b4587f95b9
+      version: 6da51b027e1a5b9b4c934f1b0232572fc969bdf6
     status: developed
   libyaml_vendor:
     release:
@@ -3754,7 +3754,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 427d697074657eef354672e46a55c1de7a209cb7
+      version: 43a40efc818c1e27c1ef44b78ccca61353c751e3
     status: developed
   menge_vendor:
     doc:
@@ -4963,12 +4963,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.6.3-1
+      version: 2.7.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 99ddc0bfd91dee4ac3c6fa200175159f4993a3a9
+      version: 46a66fdd546bd8181be763de31b6a6246ad5e3e5
     status: maintained
   performance_test:
     doc:
@@ -5028,7 +5028,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: 254d8a264ca015fb4c0358cfc828f28c03190c0c
+      version: fdc77024ecd16f108db34ff30ad4803b44a0469c
     status: maintained
   pick_ik:
     doc:
@@ -5483,7 +5483,7 @@ repositories:
     source:
       type: git
       url: https://github.com/StefanFabian/qml_ros2_plugin.git
-      version: 03f91c6f0c8db341b04da0542e16b41c4110c737
+      version: d8c055aa33bf06197299e4991f962d7312d39b7c
     status: developed
   qpoases_vendor:
     release:
@@ -5949,7 +5949,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: 81109d1bf3c3aaa45b31b8991d9d068480a5776b
+      version: f44beef54aac2b4f67bacabe2a82b14913a3f213
     status: developed
   resource_retriever:
     doc:
@@ -6452,7 +6452,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 4a9220e230da60a8fd78fcac347e11ebc6ce8282
+      version: 7150615384900b423777d0cf128755883baff838
     status: maintained
   robot_state_publisher:
     doc:
@@ -6543,7 +6543,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 0b0918e1c95cdbdb350019c39608a4c0a251f4a3
+      version: ad2efc6fb8adb89c2b3af0d55280e1901ee46fa3
     status: developed
   ros2_control_cmake:
     doc:
@@ -8949,7 +8949,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 4fd7f54fedee40ef9ea6fe8fb04ff12073b7f3f1
+      version: ecfccabf3b104980947588bce2a5947774917e30
     status: maintained
   udp_msgs:
     doc:
@@ -9006,7 +9006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 3c985120bbe367f460d107160dcb883483d47e1c
+      version: 28573301c63d77ed8e20d29b2a7d8cc64dc9a618
     status: developed
   ur_description:
     doc:
@@ -9017,11 +9017,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 3.1.1-1
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 201b24464bb3d7773d1e173a37825a2cf46ba3c4
+      version: c3f7c3411b4ac7d0685b7ba74c2deade946ab50e
     status: developed
   ur_msgs:
     doc:
@@ -9058,7 +9058,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: d38be8e9c1019cab53230c1336556b935e8813d6
+      version: e8e8423b458944d8ee41a9177c630097c4a4c14c
     status: developed
   ur_simulation_gz:
     release:
@@ -9069,7 +9069,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
-      version: 790126b7724b7721d1e6e2bd337dadfb6d9fb344
+      version: 9dc25fbd39293d57333f544cee6969e280bf4467
     status: developed
   urdf:
     doc:
@@ -9359,7 +9359,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1d357299b2f6c9fdb844fd51d9725bc30113eb8e
+      version: 78bf80cef1780baa9191909c9eea28443a8cf160
     status: maintained
   vitis_common:
     doc:

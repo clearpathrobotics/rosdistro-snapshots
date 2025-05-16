@@ -3312,7 +3312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: f8bde8b0b14b672a0f7f6a6d3f5214f76ce31866
+      version: 41f96cc6053632a472d9a821989952771b1117f2
     status: developed
   foxglove_msgs:
     doc:
@@ -3327,7 +3327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 3d579966165b83a27e7d4dbaf2088a7ce4b95769
+      version: 0c37b21ab9fab18408a268293754dc24383f1289
     status: developed
   frame_editor:
     doc:
@@ -3924,10 +3924,13 @@ repositories:
       url: https://github.com/CogRob/catkin_grpc.git
       version: master
     release:
+      packages:
+      - grpc
+      - test_grpc
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/CogRobRelease/catkin_grpc-release.git
-      version: 0.0.16-2
+      version: 0.0.17-1
     source:
       type: git
       url: https://github.com/CogRob/catkin_grpc.git
@@ -3946,7 +3949,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 6d30fe0e9e89c5e19f570a0b51fe350ce5a23733
+      version: bbd0ef5a47171c8cdc3a7e5e64e8a2f1b8225be5
     status: developed
   haf_grasping:
     doc:
@@ -4735,6 +4738,7 @@ repositories:
       - collada_urdf_jsk_patch
       - dialogflow_task_executive
       - downward
+      - emotion_analyzer
       - ff
       - ffha
       - gdrive_ros
@@ -4760,14 +4764,14 @@ repositories:
       - rostwitter
       - sesame_ros
       - switchbot_ros
-      - voice_text
+      - voicevox
       - webrtcvad_ros
       - zdepth
       - zdepth_image_transport
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.28-1
+      version: 2.1.31-3
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -4921,6 +4925,7 @@ repositories:
       packages:
       - audio_to_spectrogram
       - checkerboard_detector
+      - depth_image_publisher
       - imagesift
       - jsk_pcl_ros
       - jsk_pcl_ros_utils
@@ -4933,7 +4938,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 1.2.17-2
+      version: 1.2.19-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -5181,7 +5186,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/wu-robotics/laser_filtering_release.git
-      version: 0.0.5-1
+      version: 0.0.6-1
     source:
       test_pull_requests: true
       type: git
@@ -5368,7 +5373,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/libaditof.git
-      version: 31170f448f19e49a49ca746ff3eb85bf90491c5a
+      version: 23c801e199c7ce25c28855c9acf07b820fd3ef8a
     status: maintained
   libcreate:
     doc:
@@ -5553,7 +5558,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/locator_ros_bridge-release.git
-      version: 1.0.13-1
+      version: 1.0.14-2
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
@@ -6896,7 +6901,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/navigation_msgs-release.git
-      version: 1.14.1-1
+      version: 1.14.2-1
     source:
       test_pull_requests: true
       type: git
@@ -7676,7 +7681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse/paho.mqtt.cpp.git
-      version: fda1acfdf567a9ecc08be17ad1b81cd66234365c
+      version: 17ff3dc0270738adc710667be44847eebc038ae0
     status: maintained
   pal_statistics:
     doc:
@@ -9473,7 +9478,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/robot_navigation.git
-      version: 2350d4d5634e9136b2f04836f785b2237a93a975
+      version: fabbe8e070b368d6653df8a00fedf1aa7dfeb147
     status: developed
   robot_pose_ekf:
     doc:
@@ -10129,7 +10134,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rosbag_snapshot-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       test_pull_requests: true
       type: git
@@ -12081,7 +12086,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/MetroRobots/ros_system_fingerprint-release.git
-      version: 0.6.1-1
+      version: 0.6.2-1
     source:
       test_pull_requests: true
       type: git
@@ -12101,7 +12106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 7b9f678e8f7ef879aebe6b5d41a609edc64fcf18
+      version: 14120771e1c328b3a95356c4a0c53eda7b83b339
     status: developed
   teb_local_planner:
     doc:
@@ -12221,7 +12226,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/tesseract.git
-      version: cd2a05ac28127bd1e686ab6f8ba0da3871917469
+      version: 8b8cf83b8da6c350f377ac8633fe7cfc2515fa8c
     status: developed
   tf2_2d:
     release:
@@ -12681,7 +12686,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 3c985120bbe367f460d107160dcb883483d47e1c
+      version: 28573301c63d77ed8e20d29b2a7d8cc64dc9a618
     status: developed
   ur_msgs:
     doc:
@@ -12775,7 +12780,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/urdf_tutorial-release.git
-      version: 0.5.0-1
+      version: 0.5.0-2
     source:
       test_pull_requests: true
       type: git
@@ -13059,7 +13064,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1d357299b2f6c9fdb844fd51d9725bc30113eb8e
+      version: 78bf80cef1780baa9191909c9eea28443a8cf160
     status: maintained
   visp_ros:
     doc:
@@ -13457,7 +13462,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/wu-robotics/wu_ros_tools.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       test_pull_requests: true
       type: git
