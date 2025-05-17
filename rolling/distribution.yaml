@@ -1342,7 +1342,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: f26af6c1c00fede6b9fc865e4cba5cdd75f6f694
+      version: 3e1b842004c991006ce1879be2b2d6bb037026e1
     status: maintained
   dolly:
     doc:
@@ -1797,7 +1797,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: f6f8c5b12a73cae36493b4443678e4d24fc8afa3
+      version: ab6f2d781b3802f5e1632b0514d5214da5604294
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2072,7 +2072,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.8.3-1
+      version: 0.8.5-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -2106,7 +2106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 0c37b21ab9fab18408a268293754dc24383f1289
+      version: fa42d5317021f2e996b42e470c96640ef95fdc52
     status: developed
   fuse:
     doc:
@@ -2422,7 +2422,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: bbd0ef5a47171c8cdc3a7e5e64e8a2f1b8225be5
+      version: cc4a0e18048354a2dad3492b0c220a00019277ef
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2802,7 +2802,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: bb470eef28b8c010b17ff4facc0f4ed961d48cf7
+      version: 0b8d08c103bc23b88c30a0462b5ea0a654ea4e09
     status: developed
   hyveos_bridge:
     source:
@@ -2962,7 +2962,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/imu_tools-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4706,7 +4706,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
-      version: 1.7.0-1
+      version: 1.7.0-2
     source:
       type: git
       url: https://github.com/ompl/ompl.git
@@ -4963,12 +4963,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.7.0-1
+      version: 2.7.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 46a66fdd546bd8181be763de31b6a6246ad5e3e5
+      version: ceee93aae126baa32ea3401b88a3fc1798f0e195
     status: maintained
   performance_test:
     doc:
@@ -5097,7 +5097,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: cb0032f2fa69ec7c48ef7b7a1776b89baa92f9da
+      version: 1301e632d8f9d07ecf8b6df17112737af9d07dd7
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5812,7 +5812,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 1aaade8976afc71d0899bc60072ed8c4f0571dac
+      version: 73e9bfb62b9d9dff8b8dc22d6c1da2a8b4a739df
     status: maintained
   rclpy:
     doc:
@@ -7802,7 +7802,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: ae350396cc154915bab8b0c312e6598e674d2d94
+      version: 37b6e7a4c60f5befd2506741d5f7d0ae7eefb3db
     status: developed
   rviz:
     doc:
@@ -8073,7 +8073,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/simulation_interfaces.git
-      version: ab8d27bfb08d0d37faaac297550a0be489ab3a6d
+      version: 628bdf98cde1a00e1e2374202184f2245501939f
     status: developed
   slg_msgs:
     doc:
@@ -9359,7 +9359,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 78bf80cef1780baa9191909c9eea28443a8cf160
+      version: 8ce4aece29ece4304558c2c6630592d3c427c8c3
     status: maintained
   vitis_common:
     doc:

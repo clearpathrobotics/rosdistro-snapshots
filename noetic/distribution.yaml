@@ -116,7 +116,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/adi_3dtof_adtf31xx.git
-      version: 951565e9720f216ce1de24ad7f09295facca01ed
+      version: 8e50e820e784686fc9e292f87f3721059cee2f85
     status: maintained
   adi_3dtof_image_stitching:
     doc:
@@ -2788,7 +2788,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/etsi_its_messages.git
-      version: 5c9d1144223aca9f955a7ab9659b54e7f9c6d175
+      version: 6e7c1e567198c26bfca1fa3c41e0a5bcaaa4656c
     status: developed
   euslime:
     release:
@@ -3327,7 +3327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 0c37b21ab9fab18408a268293754dc24383f1289
+      version: fa42d5317021f2e996b42e470c96640ef95fdc52
     status: developed
   frame_editor:
     doc:
@@ -3949,7 +3949,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: bbd0ef5a47171c8cdc3a7e5e64e8a2f1b8225be5
+      version: cc4a0e18048354a2dad3492b0c220a00019277ef
     status: developed
   haf_grasping:
     doc:
@@ -4142,7 +4142,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: bb470eef28b8c010b17ff4facc0f4ed961d48cf7
+      version: 0b8d08c103bc23b88c30a0462b5ea0a654ea4e09
     status: maintained
   hri_actions_msgs:
     release:
@@ -4738,7 +4738,6 @@ repositories:
       - collada_urdf_jsk_patch
       - dialogflow_task_executive
       - downward
-      - emotion_analyzer
       - ff
       - ffha
       - gdrive_ros
@@ -4764,14 +4763,14 @@ repositories:
       - rostwitter
       - sesame_ros
       - switchbot_ros
-      - voicevox
+      - voice_text
       - webrtcvad_ros
       - zdepth
       - zdepth_image_transport
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.31-3
+      version: 2.1.28-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -5373,7 +5372,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/libaditof.git
-      version: 23c801e199c7ce25c28855c9acf07b820fd3ef8a
+      version: cbdf336035de11518c073ee09c3bbd020c0adb6d
     status: maintained
   libcreate:
     doc:
@@ -8018,7 +8017,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: cb0032f2fa69ec7c48ef7b7a1776b89baa92f9da
+      version: 1301e632d8f9d07ecf8b6df17112737af9d07dd7
     status: maintained
   plotjuggler_msgs:
     doc:
@@ -9876,7 +9875,7 @@ repositories:
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
-      version: 75f833a3b1ac67c8d8635b9415162c7ead08da91
+      version: 413e43573b2201e384f791bf348fad42e7b5b415
     status: maintained
   ros_environment:
     doc:
@@ -13064,7 +13063,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 78bf80cef1780baa9191909c9eea28443a8cf160
+      version: 8ce4aece29ece4304558c2c6630592d3c427c8c3
     status: maintained
   visp_ros:
     doc:
