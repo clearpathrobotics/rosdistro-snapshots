@@ -2385,12 +2385,12 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.7.5-1
+      version: 1.7.6-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/dynamic_reconfigure.git
-      version: 1a7a015d3c3a34f74fde8608453d5ced20abc7e3
+      version: a70f872d7a84cd50202e096771c36e04564876d5
     status: maintained
   dynamic_robot_state_publisher:
     doc:
@@ -3327,7 +3327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: c5e89eaf0c3b835293cadf149befd5861377efdd
+      version: 70462bafb77feff7f55389ae49d51ec596344c45
     status: developed
   frame_editor:
     doc:
@@ -4142,7 +4142,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 0b8d08c103bc23b88c30a0462b5ea0a654ea4e09
+      version: 8889f69482e896699ac3b11ced6451baffe06d27
     status: maintained
   hri_actions_msgs:
     release:
@@ -4738,6 +4738,7 @@ repositories:
       - collada_urdf_jsk_patch
       - dialogflow_task_executive
       - downward
+      - emotion_analyzer
       - ff
       - ffha
       - gdrive_ros
@@ -4763,14 +4764,14 @@ repositories:
       - rostwitter
       - sesame_ros
       - switchbot_ros
-      - voice_text
+      - voicevox
       - webrtcvad_ros
       - zdepth
       - zdepth_image_transport
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.28-1
+      version: 2.1.31-4
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -5372,7 +5373,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/libaditof.git
-      version: cbdf336035de11518c073ee09c3bbd020c0adb6d
+      version: 425b3d3369d983369518e5ccae7a59546c08128a
     status: maintained
   libcreate:
     doc:
@@ -12105,7 +12106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/taskflow/taskflow.git
-      version: 14120771e1c328b3a95356c4a0c53eda7b83b339
+      version: 96a286658211ea8d2c2e2fa42f3a0fa85b7d00ac
     status: developed
   teb_local_planner:
     doc:
@@ -12340,11 +12341,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/traclabs/trac_ik-release.git
-      version: 1.6.6-1
+      version: 1.6.7-1
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: 45e82f69c58bd0f1ee9b1f8542d5ae98253a5e94
+      version: 799a4e7aa668b57a8c1782e19ac15ecaaa92c28d
     status: developed
   tsid:
     doc:
@@ -12715,11 +12716,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
-      version: 62307ed3a76da523c7f13e0759cae14f7880b423
+      version: 8a0dbd42c3057aca9dd6bc45f0ad584fac780470
     status: developed
   urdf:
     doc:

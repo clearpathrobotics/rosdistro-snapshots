@@ -153,7 +153,6 @@ repositories:
       - ament_cmake_export_definitions
       - ament_cmake_export_dependencies
       - ament_cmake_export_include_directories
-      - ament_cmake_export_interfaces
       - ament_cmake_export_libraries
       - ament_cmake_export_link_flags
       - ament_cmake_export_targets
@@ -172,12 +171,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 2.8.0-1
+      version: 2.8.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 4f6c8ed0bc57cf2cb924abb75dba1c6bd387c787
+      version: 2a2beafc80132d9d6d3516b41b081076cc0b6983
     status: developed
   ament_cmake_catch2:
     doc:
@@ -671,7 +670,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: fb81b602b9c931fd0930ad4786f3c304d974ec58
+      version: 18dfbaf03f237604d6b732af80c5989d8ca3563c
     status: developed
   autoware_lanelet2_extension:
     release:
@@ -733,7 +732,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 204a1fef35ab00e072911a686014dc8c34bcff4a
+      version: f5f945ee16cce0d3bd9e4a689ae02b411801887f
     status: developed
   avt_vimba_camera:
     doc:
@@ -954,12 +953,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cartographer-release.git
-      version: 2.0.9003-1
+      version: 2.0.9004-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/cartographer.git
-      version: ddfd4414ef2907b6c46a195f1d4e380beedce05d
+      version: 1489fc933b6e0b1da936ca08af462abe559dd02e
     status: maintained
   cartographer_ros:
     doc:
@@ -979,7 +978,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/cartographer_ros.git
-      version: 1bbf9af3d250ba7d17f9b2340e7fe01ac22cf7a7
+      version: f0d38dd8b3958f61c5e780b1244afb0072f414ec
     status: maintained
   cascade_lifecycle:
     doc:
@@ -1144,7 +1143,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: d23696669f17c2fa666e0030effcccf655645145
+      version: fa74e954260279e97182f82776dc086328502b67
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1503,7 +1502,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 18ee8a2b9745de28e08875bd40ab3cdd4e12a411
+      version: 4439ce7bb50cfa2d822118642a1d2e1a88d0ddfd
     status: developed
   ecl_core:
     doc:
@@ -2105,7 +2104,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: c5e89eaf0c3b835293cadf149befd5861377efdd
+      version: 70462bafb77feff7f55389ae49d51ec596344c45
     status: developed
   fuse:
     doc:
@@ -2307,12 +2306,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gps_umd-release.git
-      version: 2.0.4-1
+      version: 2.0.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
-      version: ceb6e5d2a878057b1779e31626a40a8617a695ff
+      version: a55e57e5603d10d7a2bb6b1ba6b9f11ed414975a
     status: developed
   graph_monitor:
     doc:
@@ -2801,7 +2800,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 0b8d08c103bc23b88c30a0462b5ea0a654ea4e09
+      version: 8889f69482e896699ac3b11ced6451baffe06d27
     status: developed
   hyveos_bridge:
     source:
@@ -3141,7 +3140,7 @@ repositories:
     source:
       type: git
       url: https://github.com/justagist/kinematics_interface_pinocchio.git
-      version: 3fd313e18b14e47afb269d304b31e1c51d80f508
+      version: e93d748105f06570a2b9a348c6c41eeb29dc9339
     status: maintained
   kobuki_core:
     doc:
@@ -3494,7 +3493,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 0069b9ceb1e03d5887ac614e35d79602b003ff27
+      version: 969df3db3195b43883b6a200bd022ee6c9928042
     status: maintained
   libg2o:
     release:
@@ -3626,11 +3625,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.4.6-1
+      version: 2.4.7-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: eb24ff1d44d5cf42a4ff92436f9a5e6dd23a5537
+      version: 5402923040e35d4191f5bc13865a9f0953ad09ad
     status: developed
   marine_msgs:
     doc:
@@ -3687,12 +3686,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.7.4-1
+      version: 3.7.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: d490332411ba094f6fec20898b622570ad20b557
+      version: e39609e36a86e2b23fcb9bbe79b895541f7f6b7e
     status: developed
   marti_messages:
     doc:
@@ -3989,7 +3988,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: a66b66502456755d797e2b3a02f79b5ff136fe6f
+      version: 3b9ac2e983018518813cccee4f677692a6c33175
     status: developed
   mola_state_estimation:
     doc:
@@ -6383,11 +6382,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
-      version: 5.0.0-3
+      version: 6.0.1-2
     source:
       type: git
       url: https://github.com/ros2/rmw_gurumdds.git
-      version: e130298c064795edad26d64d915cb0e15e750aa2
+      version: 3c4ec891d9ab14128230362dfa9b198104a8d5c7
     status: developed
   rmw_implementation:
     doc:
@@ -6691,7 +6690,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: c6c26ae191e577cd5545d0d04eb7bd2812b4ba43
+      version: 148d46f09890f11412a66061a0a1f07cb65423cc
     status: developed
   ros2acceleration:
     doc:
@@ -6922,7 +6921,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: b9d03d7d2f6375f449f8314726d84dc3775c300d
+      version: 2c52910ff898f2cf6b72ae0a5d1a08b69188f020
     status: maintained
   ros_workspace:
     release:
@@ -7822,12 +7821,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 15.1.2-1
+      version: 15.1.3-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 99498bbd7862b9bd91d21e193b66482b0b6520c1
+      version: bf977993ca0fca55734ac6e011a8b942fd0949d3
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -7846,6 +7845,21 @@ repositories:
       type: git
       url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
       version: d8539fae278f54c2045d1e3132ed20b29ca870e8
+    status: maintained
+  rviz_satellite:
+    doc:
+      type: git
+      url: https://github.com/nobleo/rviz_satellite.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/nobleo/rviz_satellite-release.git
+      version: 4.2.0-1
+    source:
+      type: git
+      url: https://github.com/nobleo/rviz_satellite.git
+      version: 2616a37e7b91de1b806c2676aad1d497ecb31005
     status: maintained
   rviz_visual_tools:
     doc:
@@ -8072,7 +8086,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/simulation_interfaces.git
-      version: 628bdf98cde1a00e1e2374202184f2245501939f
+      version: 597f2b24dc1a1b9d4b432a9e75ab433038d5ed1b
     status: developed
   slg_msgs:
     doc:
@@ -8586,11 +8600,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/trac_ik-release.git
-      version: 2.0.1-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: fcf3c7c34cdb593ab1666fd9ee37cc7607e9ed11
+      version: 5a89d025c9bc062edf8c8d0c9198068ddc2156ad
     status: developed
   tracetools_acceleration:
     doc:
@@ -8755,7 +8769,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_home_service_challenge.git
-      version: b3fbb40a6e0a465840f1ed97e3f9bb7e268b9786
+      version: 7c6c60a5ae69b930282413471a889d49bc2e9d81
     status: developed
   turtlebot3_machine_learning:
     doc:
@@ -9058,11 +9072,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 3.2.1-1
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: e8e8423b458944d8ee41a9177c630097c4a4c14c
+      version: f94809fcefeab162857dff4e260936e553371f30
     status: developed
   ur_simulation_gz:
     release:
@@ -9073,7 +9087,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
-      version: 9dc25fbd39293d57333f544cee6969e280bf4467
+      version: 0f3b311046f05c1738758166f5aa37de2288fd08
     status: developed
   urdf:
     doc:
@@ -9158,7 +9172,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: f9b7156644ebf6a38aaa3ac2367831d2265571a2
+      version: bfcf29f39cc3e0fa13e5572f36b4b8c42d4f5ce1
     status: maintained
   urdfdom_headers:
     doc:
