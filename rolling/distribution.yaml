@@ -408,7 +408,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-misc-utilities/apriltag_detector.git
-      version: 3cec77644057afbc546eba9d6fa1d27f1d3f50e4
+      version: c9bd6e0cf66e8a9a8e19c8ec4b1733a4a4e77587
     status: developed
   apriltag_mit:
     doc:
@@ -984,7 +984,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/cartographer_ros.git
-      version: f0d38dd8b3958f61c5e780b1244afb0072f414ec
+      version: 743345256b43a7fd95765d40c7332b6f31ab66bb
     status: maintained
   cascade_lifecycle:
     doc:
@@ -1002,7 +1002,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fmrico/cascade_lifecycle.git
-      version: 99596c7d4baaf95c5dbe12ede726b9d03adae0f8
+      version: fec8b04f372903ab19ea66e4e60765575082ab49
     status: maintained
   catch_ros2:
     doc:
@@ -2140,7 +2140,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 4925f704b9b148393ea6429e800f8ffec196c72d
+      version: df26dbd36bae5b2f6b7360e4fcb290b6ca6d7f13
     status: maintained
   game_controller_spl:
     doc:
@@ -2426,7 +2426,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: ce5f93f4a0c3c59bd1ff0604f64fd41c279a41ce
+      version: c290accd7e21b0a8eb2e2f6648fe9e72328dc011
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3964,7 +3964,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 96456930378ead30ddfb43281c0178693e616ba4
+      version: 9a0dbe506c5bd77797a06b64e0781912ced30d1d
     status: developed
   mola_gnss_to_markers:
     doc:
@@ -3994,7 +3994,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 544469b84f3f0dc095a47b21b829f8a6fd55401b
+      version: 46cc98ac8774a430bbb35e67ab6209182070f67b
     status: developed
   mola_state_estimation:
     doc:
@@ -4029,7 +4029,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: 179609308f59edc40cf94751fd64ded89f00a3f4
+      version: 603d30c0600bd40cc22965bb145c64c736b9740b
     status: developed
   motion_capture_tracking:
     doc:
@@ -4174,7 +4174,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: cd27754cbdb9f91f6cfdd441cf33e5b0623ecd16
+      version: e4a1558862995cc6cb8bc43d395e8eab007a66fc
     status: developed
   mqtt_client:
     doc:
@@ -5102,7 +5102,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: eb2bc5ee58901354496449c6b0c06be75caeb1b6
+      version: df16cc6c5dc49cf00f2c980b11bf2a9e634eb76b
     status: developed
   plotjuggler_msgs:
     doc:
@@ -6548,11 +6548,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 5.0.0-1
+      version: 5.1.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 210bb1c329564e2244360298a7ac5213d131785c
+      version: d2ae45608ff20eab33c2122cf7917f983564963e
     status: developed
   ros2_control_cmake:
     doc:
@@ -6608,7 +6608,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 23b8ffc24bb74bf0f96679af73d5e9344b7d3809
+      version: 097e94d789a0a93cdda53cc303b59848f06c5c1a
     status: developed
   ros2_easy_test:
     doc:
@@ -6982,7 +6982,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: e718ae79a43b3143be73083264184ccbbc2c4144
+      version: aee5ae1b0a66fb2b11e72d5c9c39c5e01da16f52
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7206,10 +7206,17 @@ repositories:
       type: git
       url: https://github.com/ros2-rust/rosidl_rust.git
       version: main
+    release:
+      packages:
+      - rosidl_generator_rs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rosidl_rust-release.git
+      version: 0.4.6-1
     source:
       type: git
       url: https://github.com/ros2-rust/rosidl_rust.git
-      version: 77732ceb04fb5f1129b05f6e9dc721a975c54e02
+      version: b43d1fdf506a2ff0aff3af081dd3838ea9db652f
     status: developed
   rosidl_typesupport:
     doc:
@@ -8496,7 +8503,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: 2ef4252b87624e4c637ddb21f0db95b246ef596f
+      version: 980a9d256ee9f9e3289b63eb0578d356ecb955f7
     status: maintained
   tf_transformations:
     doc:
@@ -9578,7 +9585,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/zbar_ros.git
-      version: b71c10c405a23244e2e08b09d3d3d2d866871806
+      version: f714ac38e83b18182448edd2f09a5a6461135d33
     status: maintained
   zed-ros2-interfaces:
     doc:
