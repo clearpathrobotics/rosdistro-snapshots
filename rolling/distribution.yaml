@@ -387,7 +387,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 36763892a3ccc826364a4c42a2f107fb0d56f40f
+      version: f11c949c75217f824dd3240ea68a635bb97f0090
     status: maintained
   apriltag_detector:
     doc:
@@ -1346,7 +1346,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 3e1b842004c991006ce1879be2b2d6bb037026e1
+      version: 7021f83f92251d08c075a31fc5d8ada1928ee247
     status: maintained
   dolly:
     doc:
@@ -1508,7 +1508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: a4b7e342011a711389f425f710831902a71b7ef5
+      version: 56ec5d350e99aa4ddb95dc9b3fe1d32115574044
     status: developed
   ecl_core:
     doc:
@@ -1641,7 +1641,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 7e8a5e0bb617ef485204ce56e2281411c19c79ad
+      version: b1ba1f8a5e6998c2c51e2d64412bbcf1cf07a600
     status: maintained
   eiquadprog:
     doc:
@@ -1656,7 +1656,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: a7e328b9966152ec0c9b126a83ce727b222a8b0b
+      version: d1e595d241a1d5906ffda74a11922317c68e6bde
     status: maintained
   event_camera_codecs:
     doc:
@@ -1823,11 +1823,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_encoder_decoder-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
-      version: 41084d5ddefac620559a14eb0a6233b4ce6f8e7a
+      version: 805ac7547016f11c439d210a71387570812015d1
     status: developed
   ffmpeg_image_transport:
     doc:
@@ -1838,11 +1838,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_image_transport-release.git
-      version: 2.0.2-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
-      version: 322ecc4e7793c629e53a7a3ba9852de43ecd52e8
+      version: 5a6188b3aac6eaadc9cb16e2e3c16527ebe402b0
     status: developed
   ffmpeg_image_transport_msgs:
     doc:
@@ -1868,11 +1868,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_image_transport_tools-release.git
-      version: 2.1.1-1
+      version: 2.1.2-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_tools.git
-      version: afce3a526ace8a05b67668e5e9a2f74e57240d6e
+      version: 82c7f66126d1bdb3aa0eab121d2e48dbeecc7c32
     status: developed
   fields2cover:
     doc:
@@ -1914,11 +1914,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/find_object_2d-release.git
-      version: 0.7.1-1
+      version: 0.7.2-1
     source:
       type: git
       url: https://github.com/introlab/find-object.git
-      version: 3bfab87ecee2ffcc73df6e67426f84dfe6177b8d
+      version: 8052e9a804236ef5df33480ddf87ba8d4ea41d26
     status: maintained
   fkie_message_filters:
     doc:
@@ -1950,11 +1950,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/flex_sync-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/flex_sync.git
-      version: 98e0947d884ccdfb36bc094ff14db47335081eb1
+      version: 4f5535488c877aa764777cc2283ed0d2c9e5b22b
     status: developed
   flexbe_behavior_engine:
     doc:
@@ -2091,11 +2091,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_compressed_video_transport-release.git
-      version: 1.0.2-1
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
-      version: 306a8d994d671c790a0d1d72f52a02513e2bbe15
+      version: 0ac213414f7d9a55d47f5dc8038161f7f9f97bbf
     status: developed
   foxglove_msgs:
     doc:
@@ -2110,7 +2110,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: e751c528c60013dab86a8b46f3a9d4e19d516d79
+      version: 8cc44a44542d700d3360c66b854fb8083737974e
     status: developed
   fuse:
     doc:
@@ -2426,7 +2426,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: c290accd7e21b0a8eb2e2f6648fe9e72328dc011
+      version: b14767e597e6c69af5668af0055b09fa5fc97373
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2636,7 +2636,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: c377fe45ac49797a2308d82797f8cc3f71523f2d
+      version: ce5a93dc93ae7d71818a138928ec79ded2e2d15c
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2931,7 +2931,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: 0407dc3e2e8c09437ff8c0e28f3c1b4e6310d683
+      version: 7d15de8c8d02bc009fb1b8434bffff69ecdeafea
     status: maintained
   imu_pipeline:
     doc:
@@ -3131,7 +3131,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: da6e029528fc73d3db15def2cc5d8f492533e836
+      version: 82904dc47704091f2bdaddb21974a186f6ad2592
     status: developed
   kinematics_interface_pinocchio:
     doc:
@@ -4121,7 +4121,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
-      version: ec3ba4bfa2ec37df576bcf7a087e5a4ab88d79a4
+      version: 900ebbea1c80470679f6cbfacfea44fd6ebbdfb9
     status: developed
   moveit_resources:
     doc:
@@ -5033,7 +5033,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: 259f8be5b3c7b4d465cfbbdc9d80b2b8b1543ea8
+      version: 72c826ce82175a618d6de1e5cd032ea4e9be37ef
     status: maintained
   pick_ik:
     doc:
@@ -5087,7 +5087,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: c51d9234f9e34be97ed73bdb2772bd4a61469719
+      version: 8af6014f6143022f4645e49fbefce2eb0418a225
     status: developed
   plotjuggler:
     doc:
@@ -5800,7 +5800,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclc.git
-      version: c27b1d5644d135e41d49a57df21a137939455956
+      version: da713cec4f3f0856b5d7dd66349cedb64f7dc0ac
     status: developed
   rclcpp:
     doc:
@@ -5821,7 +5821,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 373a63c5e6b864b8b671a077e0dc3f4321f11fd5
+      version: df3a303a1788a010358572b93b30df9166923390
     status: maintained
   rclpy:
     doc:
@@ -6552,7 +6552,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: aaa59a312fe76d53624a74bcaa1da51305543311
+      version: e18c8b5f71a5755d2c369cefab4d802c3bf28f33
     status: developed
   ros2_control_cmake:
     doc:
@@ -6608,7 +6608,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 29298ca0800387558f2100dc0c6b75bead32ff68
+      version: 1b92f30ce6584127f01801aca62335a66c422d33
     status: developed
   ros2_easy_test:
     doc:
@@ -6872,7 +6872,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: eb0967b0820e949a078b1dac888aea9f76918a09
+      version: 6ab206d991072014230c1355e7566fe4899f80d0
     status: developed
   ros_image_to_qimage:
     doc:
@@ -6931,7 +6931,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: 2c52910ff898f2cf6b72ae0a5d1a08b69188f020
+      version: 8c85a8fd7ff8d9a379735c1336e291b81c8133e2
     status: maintained
   ros_workspace:
     release:
@@ -8881,7 +8881,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tuw-robotics/tuw_msgs.git
-      version: 27c78d07cd4ba05bc20c0f75961cb7594ae45e3f
+      version: 3bb2d7e21cb5220144c62387033c3c5355f9503d
     status: developed
   tvm_vendor:
     doc:
@@ -9056,7 +9056,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: c3f7c3411b4ac7d0685b7ba74c2deade946ab50e
+      version: c79a8e9778f8cac890a058ee5d1e8d4a204f8586
     status: developed
   ur_msgs:
     doc:
@@ -9093,7 +9093,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: c8a44a611c3a7e26e72ed850772dc63dc872f6fd
+      version: b8954f464f798474cd85ec9b3dabda89c57d1e93
     status: developed
   ur_simulation_gz:
     release:
@@ -9394,7 +9394,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: c97c670f4102085e8bfddc35d67e747ddb839b6b
+      version: cb70dbe74f40c703037337bddca04494f4166f85
     status: maintained
   vitis_common:
     doc:
@@ -9457,7 +9457,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros.git
-      version: d8424dc94df96bdc10eaf76c1dffe7b125adc5fe
+      version: 0cd78f128c770b774987c1d08df2cfcd1008a4b7
     status: maintained
   warehouse_ros_sqlite:
     doc:
@@ -9602,7 +9602,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stereolabs/zed-ros2-interfaces.git
-      version: f675b8c25d3fc783e1865938e15403f4c552684c
+      version: 8621c9e9bac7a81deff44906e0e1864afeb46183
     status: maintained
   zenoh_bridge_dds:
     doc:
