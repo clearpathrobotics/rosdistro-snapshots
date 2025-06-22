@@ -477,11 +477,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/namo-robotics/aruco_markers-release.git
-      version: 0.0.2-1
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/namo-robotics/aruco_markers.git
-      version: a0cc74c5f57b8e395e608ed9ac847fd4e2182502
+      version: c02f6d35d977b8a020d9f256a828b84dc8e78c5a
     status: developed
   aruco_opencv:
     doc:
@@ -2452,7 +2452,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gtsam-release.git
-      version: 4.3.0-1
+      version: 4.3.0-2
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
@@ -3526,7 +3526,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.5.0-3
+      version: 0.5.1-1
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
@@ -4234,11 +4234,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mqtt_client-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: fc8f0ef57f37533518450cf3ffd34effee130752
+      version: 1e4972fd06955bfb07a2537fc399b61f9a2ff220
     status: maintained
   mrpt_msgs:
     doc:
@@ -7035,7 +7035,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 49384be8c9d870525728a85ecaf9c004570d37cf
+      version: f4c2b70fa7700f7609339f6ce5ae123461bd5068
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7332,11 +7332,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidlcpp-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/Tonywelte/rosidlcpp.git
-      version: 2cdea2b3def970743658f79077ffaab53f8fa069
+      version: 4727d84158044b241ba5cc94e1a37aefbdce5d65
     status: developed
   rospy_message_converter:
     doc:
