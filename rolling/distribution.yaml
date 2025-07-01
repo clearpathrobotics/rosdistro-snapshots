@@ -88,7 +88,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/iio_ros2.git
-      version: 72abb3b84e43f5769f190b7fe003c1f512169579
+      version: 040a11a9c0f8423341656d2a951cd353790c4acf
     status: maintained
   adi_imu:
     doc:
@@ -108,7 +108,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: e2a84ffd8b1f1cb862502922fdc057d12f4da4d4
+      version: 6f7e34bc76f6ead071f83302d9e2653192c98bee
     status: developed
   ament_acceleration:
     doc:
@@ -213,7 +213,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: 5050c5fe963fa250f4e0826363def7797a3ff2e5
+      version: 3009543775aa483595ef488d9dbefa28d181b520
     status: maintained
   ament_download:
     doc:
@@ -1266,7 +1266,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: 67d0207659d292cf7257a8507e00deadbd9a5d0c
+      version: f489d579aa954ff36da6b40980bc1b5dd7ecec8c
     status: developed
   cudnn_cmake_module:
     doc:
@@ -1549,7 +1549,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 842f5365807a3a45a7c9e5f7e88302e80e755e85
+      version: 1ddc8f95028d2f114838d2c88a992bf18d7883ba
     status: developed
   ecl_core:
     doc:
@@ -2121,7 +2121,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: c942f34a79632476053344f2d603475bda18158e
+      version: f5c213f1cc59c5c336e9b899fbc07f7a8072c2b8
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2151,7 +2151,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 06fa9b1639071d4dbae87e77ea4fc810cff825b3
+      version: 2979ef17b63da8c732395aabc4e90679f35a4fa1
     status: developed
   fuse:
     doc:
@@ -2467,7 +2467,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 875ba9d1b86ec42683f4a4305a36d6bd3c9bc18e
+      version: e205d72947bc5a031041b3a312e6c2c490fa3d15
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3284,11 +3284,15 @@ repositories:
       version: 50239be48aa5a911d7347fdb828ee79dde2b2666
     status: maintained
   laser_filters:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_filters.git
+      version: rolling
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -3541,7 +3545,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: e9528306f257416c94bc882b89548e20d0aeebc3
+      version: 5f94209b1d2149a3ceea3692bae49256038c2bb3
     status: maintained
   libg2o:
     release:
@@ -3851,7 +3855,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/message_tf_frame_transformer.git
-      version: 7ab22845f3e832767a8bae2e30167e6400b68700
+      version: fd986c2cc3689a124bc14c97fd8c5fbc1da28c3b
     status: maintained
   metavision_driver:
     doc:
@@ -5151,7 +5155,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 2bec1d1c1c6b8847dded113bf4f95e372b2285c9
+      version: 44df3936fd5a2e24ccba63666b6cd475ee93526e
     status: developed
   plotjuggler:
     doc:
@@ -5897,7 +5901,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 5122c312d484dff90153522d805ac18742f25c5f
+      version: e677f4cf39295e1777ba596176e9233c0e0548d2
     status: maintained
   rclpy:
     doc:
@@ -6694,7 +6698,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2800f21c048dcd91973a1c9452dba8a16d5fde69
+      version: d7eca5940b7a01cc229168dc6c24f15cc8a20f82
     status: developed
   ros2_easy_test:
     doc:
@@ -7952,7 +7956,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: f67cec901f7a23c1a00888e2870e7d4e5c3323f2
+      version: 21891c0e9f65b55f8e9100b54d99231ab6c222b9
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9313,7 +9317,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/urdfdom_headers.git
-      version: 574f0bcd4646a65c4584fe583ba96d6355d0f16e
+      version: b5b7cef148cedd85754c4487ee8e3cb46e78c996
     status: maintained
   urg_c:
     doc:
