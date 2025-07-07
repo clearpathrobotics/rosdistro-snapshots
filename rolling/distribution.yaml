@@ -1072,6 +1072,11 @@ repositories:
       version: bf9b7f2d75ed84391e3d9e641e3dfc5871892a0e
     status: maintained
   clips_vendor:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/clips_vendor-release.git
+      version: 6.4.3-1
     source:
       type: git
       url: https://github.com/carologistics/clips_vendor.git
@@ -2467,7 +2472,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 783c6da208231ce9db3d60a2f90e33eaee6feece
+      version: a16dff37e6f3248bce67432754375d33f849388a
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3173,7 +3178,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 3e3ccd7763ab168441a221898516bc3de6a4be13
+      version: e639a030cf34f00d8e5a53418eaa1bd9a44d0ddb
     status: developed
   kinematics_interface_pinocchio:
     doc:
@@ -3250,7 +3255,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kompass-release.git
-      version: 0.2.1-1
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
@@ -4000,7 +4005,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 35e0f2ea81443b6f2aa8d7a2fbe0ff60066a4876
+      version: 67e825c648ee40b85183af8b06665c6264293a1e
     status: developed
   mola_common:
     doc:
@@ -4393,7 +4398,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 3d6f84a0d24b2ace47b7e62fd0213bb44f459887
+      version: 0117a77cb2d18b1ab84a2e2ae2283d52b3a96900
     status: developed
   nanoeigenpy:
     source:
@@ -5170,7 +5175,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 3e51c126cfcf5bb9272c4c797e0890cca23c9d79
+      version: 4854cf17cf57c143de87d2521d00446d891fe62e
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5340,7 +5345,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
-      version: 8acfaef7b8171212d0fe3445d6f14c42f460d04c
+      version: 8aa1def3e07849a3b1d49c187a2a3a9da314bed6
     status: maintained
   protobuf_comm:
     source:
@@ -8017,7 +8022,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_urdf-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       test_pull_requests: true
       type: git
