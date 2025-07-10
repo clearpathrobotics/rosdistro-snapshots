@@ -745,7 +745,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 2fe987a6cc899efac88c59fecbf02f2b2646e123
+      version: 3b0094fa0f4455e63418fb1f86b338e3f7578644
     status: developed
   avt_vimba_camera:
     doc:
@@ -838,21 +838,6 @@ repositories:
       url: https://github.com/wep21/bag2_to_image.git
       version: c7e63a71fb4998afdcae9c73ea2fa89df9618d66
     status: maintained
-  behaviortree_cpp_v3:
-    doc:
-      type: git
-      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: v3.8
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/behaviortree_cpp-release.git
-      version: 3.8.6-2
-    source:
-      type: git
-      url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 669392a6fafd7ac2f47fad88f581c6913c47ae89
-    status: developed
   behaviortree_cpp_v4:
     doc:
       type: git
@@ -926,7 +911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
-      version: 4eff9962f5103db695969df2571c1858ffe5bf7a
+      version: bb127807d5f9c1deb8c345ed398128b4fb4a7c64
   boost_sml_vendor:
     doc:
       type: git
@@ -1271,7 +1256,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: 1ac0130adde0cba24db5715ad379e8896a296d75
+      version: 0a39909a70dc2dd33022130b2205480b2f9c8ffc
     status: developed
   cudnn_cmake_module:
     doc:
@@ -1316,7 +1301,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: 4ce21e0c7d3963121a95e0ec8f5867cdf4fc0cc7
+      version: fc2e89806fcc374b888f2c1d32da46d0917ff060
     status: developed
   demos:
     doc:
@@ -2156,7 +2141,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 23b1a9778ab9e553f747a794ede8b2e78a8aaf65
+      version: a4a1823e8bc9ab556693dd74ab08586743f006b4
     status: developed
   fuse:
     doc:
@@ -2678,11 +2663,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: c59baeff00eb4cec6bca0b2c11acf9e1ec8c04b2
+      version: 5e423ab3c7d28a19413e08884c8f0338e95aad79
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2852,7 +2837,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 25458e11b4892cb7bd5e2673712f16951f9c93d2
+      version: c075841b2f02d537e9b52b80669b6536c801d1cd
     status: developed
   hyveos_bridge:
     source:
@@ -2972,12 +2957,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 5.0.3-1
+      version: 6.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: f461328d7cfcf0c1e7ecfed6477f5947f01afe1f
+      version: 3f1da5240ce4ef058d8571fc7e06a9b6f01d717e
     status: maintained
   imu_pipeline:
     doc:
@@ -3371,7 +3356,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 6854fae626f2948139e1734e68d712cc1e0def1b
+      version: 8fd76bb11c45cdd072b5f3ef4f3800ff63ee3c9a
     status: developed
   launch_param_builder:
     doc:
@@ -4496,21 +4481,6 @@ repositories:
       url: https://github.com/ros-planning/navigation_msgs.git
       version: 138474e5d181ddca655ad5b155d4740efa88c216
     status: maintained
-  neo_simulation2:
-    doc:
-      type: git
-      url: https://github.com/neobotix/neo_simulation2.git
-      version: rolling
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/neo_simulation2-release.git
-      version: 1.0.0-4
-    source:
-      type: git
-      url: https://github.com/neobotix/neo_simulation2.git
-      version: b27ecc3402a2a17abf9ae5e19aa7cc3a3fa890ca
-    status: maintained
   nlohmann_json_schema_validator_vendor:
     doc:
       type: git
@@ -4809,7 +4779,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/open_manipulator-release.git
-      version: 4.0.1-1
+      version: 4.0.5-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator.git
@@ -5060,7 +5030,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/ApexAI/performance_test.git
-      version: b66fdd7af802e4e204e3f0b414405e2d86b0a833
+      version: 16f69a6a3b95663ff00a804c9a864398bb7dddbf
     status: maintained
   performance_test_fixture:
     release:
@@ -5160,7 +5130,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 212311887a74d4042e7e2986c945938e0ca26d11
+      version: 85aadbf539c348ffce7e798712db0b8f9c83e967
     status: developed
   plotjuggler:
     doc:
@@ -5171,7 +5141,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.10.6-1
+      version: 3.10.9-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -5366,7 +5336,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 94bea2ec298f29e814f4ba62d89d0029fea19b30
+      version: 240201f077536dc3d0b419196eafd5a448ed15cc
     status: developed
   py_binding_tools:
     doc:
@@ -5906,7 +5876,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 448287b1090567181c809e59a3c72eed5ef4c69c
+      version: 84c6fb1cfc945521680a0e1fccf5b32237acbcc3
     status: maintained
   rclpy:
     doc:
@@ -6000,7 +5970,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach_ros2.git
-      version: 4310fdf12d7e020738779cb57141b0e781e4c3fd
+      version: 769735195bc7075756f0745389d54be4e620257b
   realtime_support:
     doc:
       type: git
@@ -6040,10 +6010,15 @@ repositories:
       type: git
       url: https://github.com/reductstore/reductstore_agent.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/reductstore_agent-release.git
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/reductstore/reductstore_agent.git
-      version: 0d3f7d5621181d675a39529754ea74f2ddfd57c7
+      version: b6cff949371d0a511d07556a71325f4d5b92005b
     status: developed
   replay_testing:
     doc:
@@ -6526,7 +6501,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: c16f2acf8127ed9fc0e0261969955e4457ce08bf
+      version: c2e5a0c8b0b9dbc9cd4f3afa6899871d6ddb8b1b
     status: developed
   robot_calibration:
     doc:
@@ -6556,7 +6531,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: ros2
+      version: 59ec99532d875e2808ab8735a6e56de1afd3ade1
     status: maintained
   robot_state_publisher:
     doc:
@@ -8552,7 +8527,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
-      version: 2.6.3-1
+      version: 2.6.4-1
     source:
       test_pull_requests: true
       type: git
@@ -9097,7 +9072,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ublox_dgnss-release.git
-      version: 0.5.7-1
+      version: 0.5.8-1
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
@@ -9511,7 +9486,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: f3dfea53410aad9db29153dc4edb2665907b7d16
+      version: 43b708e91f25a46bd6feaa208768dd42451dad5f
     status: maintained
   vitis_common:
     doc:
@@ -9684,7 +9659,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: f6c01f7e57505aa59017b380ee573b230a8d7a6d
+      version: ef51f0dce230818a64cd34c89aa94485a0de97c2
     status: developed
   zbar_ros:
     doc:
