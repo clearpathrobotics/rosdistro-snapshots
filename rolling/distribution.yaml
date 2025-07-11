@@ -584,11 +584,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/automatika_embodied_agents-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
-      version: f3fc96b5f3d82e7b15ebf5cece65268dfe931010
+      version: a3d2cb505f60b05bd1565983ee931a03014669c6
     status: developed
   automatika_ros_sugar:
     doc:
@@ -1338,7 +1338,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: b0b492a300d1207852260686e4326aaf985d6f75
+      version: f747b8fe07d26c7e673d64b0519dbbc2942f3bc2
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1539,7 +1539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 3e9b67efb016227da99ebfcc65d952137ca4f0c1
+      version: 384c010a66738ab28d6b466f581166e9a290ebaa
     status: developed
   ecl_core:
     doc:
@@ -2141,7 +2141,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: a4a1823e8bc9ab556693dd74ab08586743f006b4
+      version: ebec86ae37f16a2f5dd904a1346c05f951c15953
     status: developed
   fuse:
     doc:
@@ -2171,7 +2171,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: c1da35b0cb33adff6131af26d9629973b46fb699
+      version: a491739587b07c1b6d28165761452e33588a4d7c
     status: maintained
   game_controller_spl:
     doc:
@@ -3145,7 +3145,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-tooling/keyboard_handler.git
-      version: f939a5c562408e32b65c485b51ffea35c30f3cf5
+      version: f599c4c0803d976d9c231a90993be4710b711495
     status: developed
   kinematics_interface:
     doc:
@@ -3244,7 +3244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: e571016d0631a0ebd217e5e24026bf7e10d84fe2
+      version: 5d8ff150a4c587fa372c1030e2ffbb54797d40e0
     status: developed
   lanelet2:
     doc:
@@ -3391,7 +3391,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 747b6038c42dec6afcb4a3fa64acd286a781aeb0
+      version: fb6d0b5fd24ba2db383db758bb08812ce093a9a2
     status: maintained
   ld08_driver:
     release:
@@ -4386,6 +4386,15 @@ repositories:
       version: 0117a77cb2d18b1ab84a2e2ae2283d52b3a96900
     status: developed
   nanoeigenpy:
+    doc:
+      type: git
+      url: https://github.com/Simple-Robotics/nanoeigenpy.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/nanoeigenpy-release.git
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/Simple-Robotics/nanoeigenpy.git
@@ -5336,7 +5345,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 240201f077536dc3d0b419196eafd5a448ed15cc
+      version: f88cb35b7fd03a5b27d34409b380ef91282d4867
     status: developed
   py_binding_tools:
     doc:
@@ -6501,7 +6510,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: c2e5a0c8b0b9dbc9cd4f3afa6899871d6ddb8b1b
+      version: 1f1dafdb71ae63e0b6b4db38a02fefc7df195397
     status: developed
   robot_calibration:
     doc:
@@ -6622,7 +6631,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: d4783e39ccbc15d89c4b0b939ab3562006befdd7
+      version: e905c07099e82fc950931812704901689b58018b
     status: developed
   ros2_control_cmake:
     doc:
@@ -6770,7 +6779,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 18678bb66037587521b43d2a0bf20fc5e7587913
+      version: 526967c1a0ad3208fe6c28e0cf16f2b045ed5241
     status: developed
   ros2acceleration:
     doc:
@@ -6818,7 +6827,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: b9f066f9eeaf6716d17bf115c5ef30f85e7c3435
+      version: 87e88c8a2f756deb1652274ba4920c85f5b179f2
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -6941,7 +6950,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: a84dedb34d47e00729902ad3fac4a61949b09c44
+      version: 782f6fea1a5b1f383ad11722789760f898e4faa3
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7592,7 +7601,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_image_view.git
-      version: c8eeb111b369432e0c30ef270e649ac881fdd98c
+      version: 9e2c0881d8ada7b80a305b76a72fbf646d8ab6ac
     status: maintained
   rqt_moveit:
     doc:
@@ -8440,7 +8449,7 @@ repositories:
     source:
       type: git
       url: https://github.com/synapticon/synapticon_ros2_control.git
-      version: c58f8a33c04a01e45e9e1716c988310032642196
+      version: 4731f57e1da5b4fd4fb0daaf897fe6a7de2e53e7
     status: maintained
   system_fingerprint:
     doc:
@@ -9486,7 +9495,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 43b708e91f25a46bd6feaa208768dd42451dad5f
+      version: 3a7968f08588ab0206ca5c869a89c92b97203e8e
     status: maintained
   vitis_common:
     doc:
@@ -9611,7 +9620,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: 7435cfba110794900641cf57e5b33dfd07badaca
+      version: 7169ebb3f6b633d671729593fef5000f9d1e155c
     status: maintained
   xacro:
     doc:
@@ -9659,7 +9668,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: ef51f0dce230818a64cd34c89aa94485a0de97c2
+      version: e0723e766e093c5f2296830e0189338154b7d335
     status: developed
   zbar_ros:
     doc:
