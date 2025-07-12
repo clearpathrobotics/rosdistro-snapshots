@@ -108,7 +108,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: 088575b13367191bac78521114f671b63c60e2c6
+      version: a1be629ae692a2df634e268e244647c98fb5f058
     status: developed
   ament_acceleration:
     doc:
@@ -1054,7 +1054,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_executive.git
-      version: bf9b7f2d75ed84391e3d9e641e3dfc5871892a0e
+      version: 8a239db508300dae51e609d17d405911bff8e67f
     status: maintained
   clips_vendor:
     release:
@@ -2141,7 +2141,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: ebec86ae37f16a2f5dd904a1346c05f951c15953
+      version: 907183ed1b0f13e42a3621123b2c123458ce4b63
     status: developed
   fuse:
     doc:
@@ -3535,7 +3535,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: fb7208397533b73b2b8e3bada936a83161235a4a
+      version: afd9890b7b9a65d95ef3295f52e01e0ec9ce7b3f
     status: maintained
   libg2o:
     release:
@@ -3799,7 +3799,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 7ee83a833676af38a0cacc6c12733746f84cacca
+      version: e7a3e40e55f57e7b70d16b029f4cea37a1e971cf
     status: developed
   menge_vendor:
     doc:
@@ -5085,7 +5085,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/phidgets_drivers.git
-      version: 74186903bef5a70c520d329f247584e021208908
+      version: 785f8ce3da9db1c627de8cf1e846733dd05e6dfe
     status: maintained
   pick_ik:
     doc:
@@ -5154,7 +5154,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 212df799ff8f4d0ddfe11153d77b20dd662f5619
+      version: 70ab11494d5bfe7697e62c26b80115c803e049b2
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5968,7 +5968,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: cab00ffc009ad11570da6ccdce9b7812aa0e46be
+      version: 3a4beda924bfcf766803d25752cbbf911f445e99
     status: maintained
   reach:
     source:
@@ -6631,7 +6631,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: e905c07099e82fc950931812704901689b58018b
+      version: 4fb402c220f82c3fd686269ed260affe10437078
     status: developed
   ros2_control_cmake:
     doc:
@@ -6827,7 +6827,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 87e88c8a2f756deb1652274ba4920c85f5b179f2
+      version: 8a90dbeeebc7a6022bd6794a540284ac768ad8f4
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7601,7 +7601,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_image_view.git
-      version: 9e2c0881d8ada7b80a305b76a72fbf646d8ab6ac
+      version: ea98070da1cc3d674b2d6a360a6a5f987b87e5cf
     status: maintained
   rqt_moveit:
     doc:
@@ -8681,6 +8681,16 @@ repositories:
       url: https://github.com/ros2/tlsf.git
       version: 8179f2cd2a5018aaf752ce11a0cfa50694b0370c
     status: maintained
+  topic_based_hardware_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
+      version: 6b031eef7a1e692df3d90b703820c9526891d7d2
+    status: developed
   topic_based_ros2_control:
     release:
       tags:
@@ -9495,7 +9505,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 3a7968f08588ab0206ca5c869a89c92b97203e8e
+      version: 48c414ce5a64caacbc346aa57ff8620dc1e01245
     status: maintained
   vitis_common:
     doc:
