@@ -108,7 +108,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: d8c86d89418f75f83fd557c062b0b5b581f1c7b3
+      version: ea6e49814d2b1848431ed62208bf26c6ac768f39
     status: developed
   ament_acceleration:
     doc:
@@ -213,7 +213,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: 3009543775aa483595ef488d9dbefa28d181b520
+      version: 130f9e064108acfbd19f327885c95c13f8c2c936
     status: maintained
   ament_download:
     doc:
@@ -720,7 +720,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: eba481b2de08fba8f5fb420dd5f54aac75bce8ea
+      version: f49c35c7a7b0110ad7bf5d91f67967833fd1c0d9
     status: developed
   autoware_utils:
     release:
@@ -1054,7 +1054,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_executive.git
-      version: f196077b73fe8329e0a3cfe89620daf9f2bdaeba
+      version: de726c2e7a2ed69f3ef57896bc8e6db1e886262e
     status: maintained
   clips_vendor:
     release:
@@ -1457,11 +1457,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_hardware_interface-release.git
-      version: 1.4.9-1
+      version: 1.4.10-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel_hardware_interface.git
-      version: 02841dd2ae422676e5dc0fea37057bdec3be8cc1
+      version: cc338de8293d2f413be9391cab47f11e6453eb78
     status: developed
   dynamixel_interfaces:
     release:
@@ -1539,7 +1539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: dd3dde0c6aa6541c2369466fb7c9d38b09aacad4
+      version: 046f6e103c2b81459105ea2a2b77938d5a8320dc
     status: developed
   ecl_core:
     doc:
@@ -1832,7 +1832,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 1a739ff3c2969119d5c2f4ca242d8a17370cb927
+      version: e75b7c2600c85b70f234200d3bd1508e66008dbe
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2111,7 +2111,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 2f1601f1df95c3e9170d3039bca8e06188716ebd
+      version: 0c2e94b382394c62ec81ab67b96e84b4bd28186a
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2141,7 +2141,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 264332b6c9fd93bf9236019961ae352042c16633
+      version: dd9c7a7749939098ab869f9fdde56996709aaf59
     status: developed
   fuse:
     doc:
@@ -2278,7 +2278,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: baef045ccb5df4ae829637f718be9b49eae70bb5
+      version: f3851f6bdb9581a353e2d5dda7c0055d670665c4
     status: maintained
   geometry_tutorials:
     doc:
@@ -2803,11 +2803,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hebi_cpp_api-release.git
-      version: 3.12.3-1
+      version: 3.13.0-1
     source:
       type: git
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
-      version: 70442e525312a79ed88935f5990480a0a942d225
+      version: afbe57b0182074020a791e26e3184a750e9ea956
     status: maintained
   hls_lfcd_lds_driver:
     doc:
@@ -2914,7 +2914,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 92cf37efdca231218136389d5eedab6496dd6c8a
+      version: 14cc056d4f4fab99c82d14e17ceb0e3bb329e9a1
     status: maintained
   image_pipeline:
     doc:
@@ -3535,7 +3535,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: c0586867a9a131f058032ba82c0f461b51b8781a
+      version: a9c2dd05fa3783e2284c64c558122ceb632eab1b
     status: maintained
   libg2o:
     release:
@@ -3733,12 +3733,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.8.5-1
+      version: 3.8.7-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 9e04414dad1667eabe2fa0de5f2bdcae1d7b97c5
+      version: 4462fc32466ec24408abfc8f5de2cfb3a6dd2b74
     status: developed
   marti_messages:
     doc:
@@ -6283,7 +6283,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 3b726769a8a8e3815bc13059bde0a2c0af8e18d2
+      version: 4e386688101d728b3a0cddfe5387f49d4382076f
     status: developed
   rmf_utils:
     doc:
@@ -6393,7 +6393,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: ddb97866fecbc622418b8ed0c0a6e5e1fe98071b
+      version: 68f61f66114c81ccf96ca170068ee90d4b5ee0bb
     status: developed
   rmw_cyclonedds:
     doc:
@@ -6515,7 +6515,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 1f1dafdb71ae63e0b6b4db38a02fefc7df195397
+      version: 2a1544a7c375497c05e06743a15b75709cdf05ac
     status: developed
   robot_calibration:
     doc:
@@ -6561,7 +6561,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/robot_state_publisher.git
-      version: 7c897425d45ed8062af46257aaef1702290ea72d
+      version: 8eaa4e04ea23b53c0b111e9cf9d01456fa66f5b9
     status: maintained
   robotraconteur:
     release:
@@ -6636,7 +6636,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 7061ac416de150d39a9ddf4301592511f9014654
+      version: b315f2b7dcadf2d76a58deb67436213acc8214b6
     status: developed
   ros2_control_cmake:
     doc:
@@ -7978,7 +7978,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: b410b7209fc4e749db22a596db261030b5c61896
+      version: e89b7a0f585a4906ea012c71301edc58a3ce5002
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8423,7 +8423,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 797686eca4d29f0d4c8688957788347b562d2b02
+      version: f3c1a1229526fde388e614a1178a9f7a6c5e4d74
     status: developed
   steering_functions:
     doc:
@@ -8723,7 +8723,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: 6b031eef7a1e692df3d90b703820c9526891d7d2
+      version: 79a2177e2d3304a4e6788f1a04f3bf536afa2aa1
     status: developed
   topic_based_ros2_control:
     release:
@@ -9186,7 +9186,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 289c747850e2bd0c6262a39310b2ae56593baee6
+      version: f5b7af098c50f408c6ef6880e3624291378f3100
     status: developed
   ur_description:
     doc:
@@ -9539,7 +9539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 9851b9798397a7411e3e274c0dfafa88412e7f55
+      version: 88f2b2b4ffe622797022cf4a3c67955d945e0824
     status: maintained
   vitis_common:
     doc:
