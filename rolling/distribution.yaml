@@ -213,7 +213,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: 130f9e064108acfbd19f327885c95c13f8c2c936
+      version: abc917cfa8335cceda82db36eebfffa1ded54bf0
     status: maintained
   ament_download:
     doc:
@@ -247,7 +247,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_index.git
-      version: f3b6ddc6698cff22b8724136188df5d9912ced78
+      version: 2b419244e1cc3a3ee40fdcc09f54e35d0a6a896f
     status: maintained
   ament_lint:
     doc:
@@ -1217,7 +1217,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 6.3.0-1
+      version: 6.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -1236,7 +1236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: c78e5e8d2b66105c46e000f9e13371bc36316f62
+      version: 4504fcf855f0e70a1d08bf5cbb46ab182d9a91e8
     status: maintained
   cpp_polyfills:
     release:
@@ -1929,7 +1929,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/filters-release.git
-      version: 2.2.1-1
+      version: 2.2.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2171,7 +2171,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: a491739587b07c1b6d28165761452e33588a4d7c
+      version: 0c696769b0020dfe35fe0997ef2b5a8da7c5d1bf
     status: maintained
   game_controller_spl:
     doc:
@@ -2914,7 +2914,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 14cc056d4f4fab99c82d14e17ceb0e3bb329e9a1
+      version: fbb8b0b06366969911cf7cfe7046c64d72816a07
     status: maintained
   image_pipeline:
     doc:
@@ -2962,7 +2962,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: 3f1da5240ce4ef058d8571fc7e06a9b6f01d717e
+      version: b58ddeaca2a34c1c82357e0c54e0a4c034ea1563
     status: maintained
   imu_pipeline:
     doc:
@@ -3535,7 +3535,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 14618cdd0c80a4dcdba04d8e7a651d1be8b454d8
+      version: 486e042669925e8134acf317c26d0d2b774ed684
     status: maintained
   libg2o:
     release:
@@ -3830,7 +3830,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 1f3ea63b2128c9ba4ac499ac161dc8499497809f
+      version: c7821ef2dcfdd6161983b0fe52829b9067a5e076
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -5139,7 +5139,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 107086a11a88076ba27cc9b42609ef251d5a5931
+      version: bb5658416724a36d5e8d2fb6c65614f39796f7f1
     status: developed
   plotjuggler:
     doc:
@@ -5234,7 +5234,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: bf9dcd881d6c8ccdcfbcb2153591e8995a2575d2
+      version: 4d502a3159a0700b6ad13d1739359895bd37835d
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -6632,11 +6632,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 5.3.0-1
+      version: 5.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 319e99c02f1d6e95c723b9ce9b5caebbbd89d328
+      version: 6d695b361fe1e82d698772ce5d005395c2588a5d
     status: developed
   ros2_control_cmake:
     doc:
@@ -6832,7 +6832,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: af1d67ea0ba0172e79ed7e1704551f69ddaf081d
+      version: 6150e8bdab9a0dc91bcaac4bd0e3564072fd45cb
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7366,7 +7366,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Tonywelte/rosidlcpp.git
-      version: c03768fb40a9e987a2c006b0198abf8b18e2cb1d
+      version: 6fa69c1a4646177944cda3f30c4909848f3dcc8c
     status: developed
   rospy_message_converter:
     doc:
@@ -7441,7 +7441,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rpyutils.git
-      version: 998fb920488883ca23489221ff761228bea79099
+      version: bfd5a3411727ee902e3d3936c12ebba5545f483a
     status: developed
   rqt:
     doc:
@@ -7651,7 +7651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: 48c147a2d65cd44667f666f1a284a4590595152f
+      version: 839ff5b7434f7a8342a085d2bf7182a00d38f040
     status: maintained
   rqt_publisher:
     doc:
@@ -7978,7 +7978,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: e89b7a0f585a4906ea012c71301edc58a3ce5002
+      version: 9b2a208691c8da161016098f1ebf2284536155c2
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8423,7 +8423,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: f3c1a1229526fde388e614a1178a9f7a6c5e4d74
+      version: 1d36b11a473a637e27221a3139840487e22dfcb5
     status: developed
   steering_functions:
     doc:
@@ -9182,11 +9182,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f5b7af098c50f408c6ef6880e3624291378f3100
+      version: 1b0be72ea09abcfdd402ce0a4cebe63d5bcb352e
     status: developed
   ur_description:
     doc:
@@ -9539,7 +9539,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 88f2b2b4ffe622797022cf4a3c67955d945e0824
+      version: c132e1e9a7d25c12e242e56874ea8834afe9b420
     status: maintained
   vitis_common:
     doc:
