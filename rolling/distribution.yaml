@@ -387,7 +387,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: ce3ccd6b1d68027a91f3574d145a955d632d88d8
+      version: 3950db97ac2001cbe049bd24a2ad3da081c4bd17
     status: maintained
   apriltag_detector:
     doc:
@@ -3535,7 +3535,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: b65df7e7554b45e2d3d7fdb5b37c2ab7df3db4fe
+      version: 16da4892ed9de3ac8f84dfd0d1761022656af376
     status: maintained
   libg2o:
     release:
@@ -4343,7 +4343,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: 5288e25ff056d8f035d98f40497348772f8b058f
+      version: 0abc1ddf6d98951dccd3e67ddbec0cb00621723a
     status: developed
   mrpt_sensors:
     doc:
@@ -4999,7 +4999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ForteFibre/parameter_expression.git
-      version: 98925dede01f8e673e8e79dc0db55b7c609c5286
+      version: 7145c476e4554e578757991bc3a4617f8eaf7624
     status: developed
   pcl_msgs:
     release:
@@ -5170,11 +5170,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.10.10-1
+      version: 3.10.11-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 24834b394918534ec52ed23059948f9b548f6270
+      version: 93367183df9cd2b3e4b35515e3dc87013b800918
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5488,16 +5488,11 @@ repositories:
       type: git
       url: https://github.com/open-rmf/pybind11_json_vendor.git
       version: main
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/pybind11_json_vendor-release.git
-      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/open-rmf/pybind11_json_vendor.git
       version: f27179518c4c88dec3df542411ab64f9d25cf466
-    status: developed
+    status: unmaintained
   pybind11_vendor:
     doc:
       type: git
@@ -6731,7 +6726,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 1321ae8a0f7eec6fd9dfede395cac1b8fd4bac04
+      version: b21a7e1d296f5176538f874693de7472cda7fbf7
     status: developed
   ros2_easy_test:
     doc:
