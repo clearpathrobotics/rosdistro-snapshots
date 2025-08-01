@@ -104,7 +104,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/imu_ros2.git
-      version: 637372fc00b2962330fe3a8ca44ccd8d3e1de8d7
+      version: 37c31061c61e6c678522497f73eeb10d8b187d9b
     status: maintained
   ai_worker:
     doc:
@@ -1545,7 +1545,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 763dbc3797bc29e01670b4aefb8aba6c233fe24a
+      version: 37e2daab46011068c5f4a29f6552cbbf2f63525e
     status: developed
   ecl_core:
     doc:
@@ -1838,7 +1838,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 0b18cfe36a236a6da142724bd97af85c3c84c044
+      version: 837b184baa2d67802944ece93a747923aee2a581
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2147,7 +2147,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: fd1eed53e58fcc30028573c462d84885000f5077
+      version: 11d5c626f46f175dcf13e3bbe7bf8f993384355c
     status: developed
   fuse:
     doc:
@@ -2373,7 +2373,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/graph-monitor.git
-      version: 695c79f120ff243023e252d2bb0116e7f6e0abcb
+      version: 632c3785a6ca4b038bf2a8f370d9c56101846c6b
     status: developed
   graph_msgs:
     doc:
@@ -3557,7 +3557,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 096b9416b2ea8aad709c9b0f7f8f8002c0d6f9e7
+      version: 7a42f3c3d88926aa05b07d9c6a783bdbbfb73610
     status: maintained
   libg2o:
     release:
@@ -5745,12 +5745,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_genicam_api-release.git
-      version: 2.6.5-1
+      version: 2.8.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_genicam_api.git
-      version: bc8552c79ee8e2f8fdc766174ba730a08079c824
+      version: 7bd4e7dcdf69c426929d6df544c10863b29ef211
     status: developed
   rc_genicam_driver:
     doc:
@@ -5766,7 +5766,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_genicam_driver_ros2.git
-      version: 959a9daa94144ea72990475994c2c00dbc52df25
+      version: 1f94f8b15f6329edb32c5b98b56a03b84580c89c
     status: developed
   rc_reason_clients:
     doc:
@@ -5780,7 +5780,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rc_reason_clients-release.git
-      version: 0.4.0-2
+      version: 0.5.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6695,11 +6695,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 5.4.0-1
+      version: 5.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 39c588eb494f36bc72607a16987f0856c7ae8bbe
+      version: 9d5f49c6d673325d2fc0630183c33a5ab2554b37
     status: developed
   ros2_control_cmake:
     doc:
@@ -6736,6 +6736,7 @@ repositories:
       - joint_state_broadcaster
       - joint_trajectory_controller
       - mecanum_drive_controller
+      - omni_wheel_drive_controller
       - parallel_gripper_controller
       - pid_controller
       - pose_broadcaster
@@ -6751,11 +6752,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 5.4.0-1
+      version: 5.5.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b21a7e1d296f5176538f874693de7472cda7fbf7
+      version: 0e9b942283e0fa42716d913cbc7d9dc854868c2a
     status: developed
   ros2_easy_test:
     doc:
@@ -6847,7 +6848,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: e2bd14e603337263dd019d9560a3ef4f943e1e0b
+      version: d373a61c90a3ad3a4a833e46679bb736d4952746
     status: developed
   ros2acceleration:
     doc:
@@ -8497,7 +8498,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 623a2dee52210170178957e9071c723c4991cccd
+      version: 1ee43aa979c80411fe5f6ba2e30db7033b00cbc5
     status: developed
   steering_functions:
     doc:
@@ -9286,11 +9287,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_msgs-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git
-      version: 2a4f234f9acb23ea48ba46de9dd6d56233718951
+      version: fbf46fb4fd48f4b017fec5d864311a6a84da4e45
     status: developed
   ur_robot_driver:
     doc:
