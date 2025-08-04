@@ -703,7 +703,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 8ee015cdc3a4009703b4b781a5d3971f9fd07da1
+      version: d48324f37359c622e2ee6cdbfb63de8423ddbd1f
     status: developed
   autoware_msgs:
     release:
@@ -1678,7 +1678,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 9f9625bcd4f8dae30a77bc015c3f21abca242314
+      version: b3eeec45754c27467a198a073a1577c864e9697d
     status: maintained
   eiquadprog:
     doc:
@@ -2147,7 +2147,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 11d5c626f46f175dcf13e3bbe7bf8f993384355c
+      version: 931a800eaec19bf361866d1212bb34346477961f
     status: developed
   fuse:
     doc:
@@ -4802,7 +4802,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: a0b3c9b19da5d02aaa2a32a45d42a93de3ff7c10
+      version: 1f099c3726fca6b0bdcef8790f956e315756681e
     status: developed
   open_manipulator:
     doc:
@@ -5928,7 +5928,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: b7e4aad091c6b334b9ad17a8f83007ea9901cc3b
+      version: a919a6e5ed8253d0e82e8116470fcee353fe6e91
     status: maintained
   rclpy:
     doc:
@@ -6340,7 +6340,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic_editor.git
-      version: 4e60384563a44518f25e8a4f99803fa8a49bea0a
+      version: cd6bf2b49f0f6c8fd9decbfe07a8e97be27533f9
     status: developed
   rmf_utils:
     doc:
@@ -6632,6 +6632,11 @@ repositories:
       version: 9e11d073b6759c39e0eefc029cdd723c528780dc
     status: maintained
   robotraconteur_companion:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/robotraconteur_companion-release.git
+      version: 0.4.2-1
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur_companion.git
@@ -6699,7 +6704,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 8930c8510e43f7ba6d3efa324733465b2038f326
+      version: a6a517a15c370246e30691120ca5ecca6c8a4925
     status: developed
   ros2_control_cmake:
     doc:
