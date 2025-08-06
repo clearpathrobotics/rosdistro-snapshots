@@ -861,6 +861,16 @@ repositories:
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
       version: 8d47d397e792d9bcc756048272e1a3a42baef6fd
     status: developed
+  better_launch:
+    doc:
+      type: git
+      url: https://github.com/dfki-ric/better_launch.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/dfki-ric/better_launch.git
+      version: fe69955685177be9f074bdd74db9a26c5f61329a
+    status: developed
   bno055:
     doc:
       type: git
@@ -2147,7 +2157,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: f8faac6cb12d903e176a39ba2470e12c612ca2a3
+      version: ba67af6c15f23331df582c27259435abac7f2f58
     status: developed
   fuse:
     doc:
@@ -3557,7 +3567,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 7a42f3c3d88926aa05b07d9c6a783bdbbfb73610
+      version: b37e69d4348a0c3db80597dac19e801d19780d1c
     status: maintained
   libg2o:
     release:
@@ -5197,7 +5207,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 93367183df9cd2b3e4b35515e3dc87013b800918
+      version: d7eb7f821a05ba14ca8cf2ea4e62d295be4d5bcd
     status: developed
   plotjuggler_msgs:
     doc:
@@ -6829,7 +6839,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
-      version: e39a814180b03f00a5692b6951a5d4e9f0463486
+      version: 822ca033c8ce934dc5a622d7bb80adb575522b33
     status: developed
   ros2_tracing:
     doc:
@@ -7200,7 +7210,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 21f665fb2e36172f86dade8594fa30134187ad96
+      version: 5c6ecb5e8f2cec917823a7b596ef8a2b4415a3bc
     status: developed
   rosidl:
     doc:
@@ -7331,7 +7341,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.25.0-1
+      version: 0.26.0-1
     source:
       test_pull_requests: true
       type: git
@@ -8719,6 +8729,13 @@ repositories:
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
       version: 112e34a1bc01b1be9419174f538f22a1ea13db6d
+    status: maintained
+  tf2_web_republisher:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/RobotWebTools/tf2_web_republisher.git
+      version: 8e7b43e63d8680dc5ef8eecf724ae181148704ad
     status: maintained
   tf_transformations:
     doc:
