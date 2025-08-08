@@ -2187,7 +2187,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: a37729aa29f5ff806e9994aa297ce490d9058519
+      version: 1887a74865048b5d94bf59eae7ffa99e765547dd
     status: maintained
   game_controller_spl:
     doc:
@@ -2294,7 +2294,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 2b1742c80a4e91a411e5798eec78573928391a7c
+      version: 80ac894f64b553e3b1f87eea08124cf241af69a6
     status: maintained
   geometry_tutorials:
     doc:
@@ -2383,7 +2383,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/graph-monitor.git
-      version: 632c3785a6ca4b038bf2a8f370d9c56101846c6b
+      version: a72cb4060da31c7a4c6cd6f92e4d73ca11bea75e
     status: developed
   graph_msgs:
     doc:
@@ -3131,6 +3131,12 @@ repositories:
       url: https://github.com/ros-drivers/joystick_drivers.git
       version: 881f3a5474044b79324a2117fe52a5db2106e4e0
     status: maintained
+  jrl_cmakemodules:
+    source:
+      type: git
+      url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
+      version: 5ce4f066aa5368b6f572d287a80bc1a1fb6d08ad
+    status: maintained
   kdl_parser:
     doc:
       type: git
@@ -3567,7 +3573,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 053fedb5edd3c997c09506fd4a32cf99a8894d21
+      version: aa0a91c48ddb38c302390d5c4899cb9e093ddd24
     status: maintained
   libg2o:
     release:
@@ -4037,7 +4043,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 5c85def9ec056b5a05c7c44f39338bf3671c8955
+      version: 05991ebf489155f5ba098aeafda05388a21e8aad
     status: developed
   mola_common:
     doc:
@@ -4812,7 +4818,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 1f099c3726fca6b0bdcef8790f956e315756681e
+      version: 15d8a729e2c1d233799720e2882849e3f125360a
     status: developed
   open_manipulator:
     doc:
@@ -6084,7 +6090,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: ada71434d36e7c47c79319f3c691c552b73e467e
+      version: d6b4113900124429c9f631e9c809d07a6eb8f9f5
     status: maintained
   reductstore_agent:
     doc:
@@ -6275,7 +6281,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 52a01c06a3da0fd68eebe9f7859fefe7e2e3483c
+      version: f41fae50cab9c008853632f6f0a229b60c7c6994
     status: developed
   rmf_simulation:
     doc:
@@ -6714,7 +6720,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 8a1f4bbc7a0ef6b72a4433353bd4431e47e08f21
+      version: 59903e051bb2fbf3767c37fdc15739812b3455a5
     status: developed
   ros2_control_cmake:
     doc:
@@ -6911,7 +6917,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: aed5b49342767f3c4086434044354b7ca6775d17
+      version: 3ac25ce4be2c2c7918d6ffebab1a721e05145bf3
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7144,7 +7150,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 24fb1a9fe5457c5d74bf10f0b5e81fcec84eeb35
+      version: bc37cdf1d3d56cb957b47670808362eae836049b
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7210,7 +7216,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 5c6ecb5e8f2cec917823a7b596ef8a2b4415a3bc
+      version: cb94ab99d9e92feafa1de05643dab8d37a80f150
     status: developed
   rosidl:
     doc:
@@ -7346,7 +7352,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: 0a09413359e0809d76dc697f3280a011597cfaad
+      version: e4c419f880e266533297573931f4576bc368ae13
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -8728,7 +8734,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: 112e34a1bc01b1be9419174f538f22a1ea13db6d
+      version: 3d4e9f8baedb7da9279543a3c84c0496c7709dcf
     status: maintained
   tf2_web_republisher:
     source:
@@ -8933,7 +8939,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: ff89e030ab3db42c5f9b42126a411149585d7b63
+      version: 1d411aa880f01df99ac95fed975274754d941850
     status: maintained
   turbojpeg_compressed_image_transport:
     doc:
