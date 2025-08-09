@@ -869,7 +869,7 @@ repositories:
     source:
       type: git
       url: https://github.com/dfki-ric/better_launch.git
-      version: fe69955685177be9f074bdd74db9a26c5f61329a
+      version: e756b1ba1181290357dc19f49fa3eb3ac6f81808
     status: developed
   bno055:
     doc:
@@ -962,7 +962,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robotic-esp/canboat_vendor.git
-      version: 8e5f9f4215e4365ce560a671476b4282598243fa
+      version: fc04c4f85313cce2b4571f421c3470950645975e
     status: developed
   cartographer:
     doc:
@@ -1555,7 +1555,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 7c2aa4680b05a1073c025057cab863aeaa00cfe0
+      version: 79e014198faa958d0204402f2b0a0d349814cc4f
     status: developed
   ecl_core:
     doc:
@@ -1688,7 +1688,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: b3eeec45754c27467a198a073a1577c864e9697d
+      version: 55fe15ded2bd3b2aea55312848c9b14b886519f3
     status: maintained
   eiquadprog:
     doc:
@@ -1870,11 +1870,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_encoder_decoder-release.git
-      version: 2.0.1-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder.git
-      version: 805ac7547016f11c439d210a71387570812015d1
+      version: fb6844ea567dff8315d1cc08da7c0aa18502cb91
     status: developed
   ffmpeg_image_transport:
     doc:
@@ -1885,11 +1885,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_image_transport-release.git
-      version: 2.0.3-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport.git
-      version: 5a6188b3aac6eaadc9cb16e2e3c16527ebe402b0
+      version: f8f9af165e087592b0680f673e2978c10ff3d582
     status: developed
   ffmpeg_image_transport_msgs:
     doc:
@@ -1915,11 +1915,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ffmpeg_image_transport_tools-release.git
-      version: 2.1.2-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/ffmpeg_image_transport_tools.git
-      version: 82c7f66126d1bdb3aa0eab121d2e48dbeecc7c32
+      version: 0d57fbe6cb6be8d3b81d31e21eafffad3c32f7d3
     status: developed
   fields2cover:
     doc:
@@ -2138,11 +2138,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_compressed_video_transport-release.git
-      version: 1.0.3-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
-      version: 0ac213414f7d9a55d47f5dc8038161f7f9f97bbf
+      version: 87e7d221efd0244c83c695a8982938fd83f160b2
     status: developed
   foxglove_msgs:
     doc:
@@ -2157,7 +2157,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 671171dfddd4a7493394fa823f927b209cf8055a
+      version: 033bf5b5030b38282710eed4a830fddd3c627e3e
     status: developed
   fuse:
     doc:
@@ -2473,7 +2473,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: f65a66194b10a78df2abf877bccb65d490514a46
+      version: b71a977d85c8679ab35d9fd8eae47a3977c4849f
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3676,6 +3676,11 @@ repositories:
       version: 63d76fdc9a0c351fc95432489ba223cd633ed26b
     status: maintained
   live555_vendor:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/live555_vendor-release.git
+      version: 0.20250719.0-1
     source:
       type: git
       url: https://github.com/fkie/live555_vendor.git
@@ -4296,7 +4301,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: 1e4972fd06955bfb07a2537fc399b61f9a2ff220
+      version: 8d81fcec60e48069b13937a43a38425cacce2034
     status: maintained
   mrpt_msgs:
     doc:
@@ -4818,7 +4823,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 15d8a729e2c1d233799720e2882849e3f125360a
+      version: 5d469bd51a6e9996adf641b260df32af59e2c0a5
     status: developed
   open_manipulator:
     doc:
@@ -6917,7 +6922,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 3ac25ce4be2c2c7918d6ffebab1a721e05145bf3
+      version: 26dccbf5021a5d4010e1a603d17402e94b25caf4
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7216,7 +7221,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: cb94ab99d9e92feafa1de05643dab8d37a80f150
+      version: 11017951d910422279621edf15ed1761c0e62e5a
     status: developed
   rosidl:
     doc:
@@ -8092,7 +8097,7 @@ repositories:
     source:
       type: git
       url: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
-      version: 785302deb51c4d43c5ae42aba0be9ddab5f661e0
+      version: e011401b1d9d0d506202822d26ddde9cefda371b
     status: maintained
   rviz_satellite:
     doc:
@@ -8616,7 +8621,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/micro-ROS/system_modes.git
-      version: 6153cb8263c0dcf5f0f7015b795418e374f4695a
+      version: b8679e9781914c6bdb533750bbe7183d7661f63a
     status: developed
   system_tests:
     source:
