@@ -114,7 +114,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: ea6e49814d2b1848431ed62208bf26c6ac768f39
+      version: 3a68f473e29af1248e7ecb911d10704fc24efedf
     status: developed
   ament_acceleration:
     doc:
@@ -1067,6 +1067,33 @@ repositories:
       version: db8eeb74045d971c1229a4586d61c31ecbd95a1a
     status: developed
   clips_executive:
+    doc:
+      type: git
+      url: https://github.com/carologistics/clips_executive.git
+      version: master
+    release:
+      packages:
+      - clips_executive
+      - cx_ament_index_plugin
+      - cx_bringup
+      - cx_clips_env_manager
+      - cx_config_plugin
+      - cx_example_plugin
+      - cx_executive_plugin
+      - cx_file_load_plugin
+      - cx_msgs
+      - cx_plugin
+      - cx_protobuf_plugin
+      - cx_ros_comm_gen
+      - cx_ros_msgs_plugin
+      - cx_ros_param_plugin
+      - cx_tf2_pose_tracker_plugin
+      - cx_tutorial_agents
+      - cx_utils
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/clips_executive-release.git
+      version: 0.1.3-1
     source:
       type: git
       url: https://github.com/carologistics/clips_executive.git
@@ -1237,7 +1264,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 7b3ff34557c3dc190a0b1838f2d5fedfeff113ba
+      version: 5c99788cc8636a7d4b5cd18d7d8bdefdfda0838a
     status: maintained
   control_toolbox:
     doc:
@@ -1555,7 +1582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 79e014198faa958d0204402f2b0a0d349814cc4f
+      version: bf3651bcb9460cb9a8560956db9e23f7c358486c
     status: developed
   ecl_core:
     doc:
@@ -2157,7 +2184,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 033bf5b5030b38282710eed4a830fddd3c627e3e
+      version: 1c7397e4a280949e136b6ddaeeab375c08ae1ebd
     status: developed
   fuse:
     doc:
@@ -3573,7 +3600,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: aa0a91c48ddb38c302390d5c4899cb9e093ddd24
+      version: 14882b8314c40108e9568341ebda7d34b93103ea
     status: maintained
   libg2o:
     release:
@@ -5429,7 +5456,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/py_binding_tools.git
-      version: c76b085c59b41f284c7fe664fed5a6d807e23ad0
+      version: 122a1b04e8ee5639d47c77f3cd6d1e2e58413ccd
     status: maintained
   py_trees:
     doc:
@@ -7251,7 +7278,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: eedfa01db9c8039432a6ce58bb89427006a2ea0b
+      version: 409437194a5c0b6a9aff9b62015342746803b5aa
     status: maintained
   rosidl_core:
     doc:
