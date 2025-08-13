@@ -301,7 +301,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 6353c1b4ef0c5f3bdd0008f95f4a269ebd696609
+      version: c945d9089cf2b60101740cdcecdee414fac984ff
     status: developed
   ament_nodl:
     release:
@@ -579,7 +579,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ma-shangao/at_sonde_ros_driver.git
-      version: 3878a5f0750a8d9fa8b2c4a008ee42e296cd7df5
+      version: 467ee7616d61b324f68c60477b5b5e8bd4df4318
     status: developed
   automatika_embodied_agents:
     doc:
@@ -1504,7 +1504,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel_hardware_interface.git
-      version: 7cc59f399b9e6af11995e6a479fe12bda10f8222
+      version: e4832548c953817f79359d8cee9569715466c3f6
     status: developed
   dynamixel_interfaces:
     release:
@@ -1715,7 +1715,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 55fe15ded2bd3b2aea55312848c9b14b886519f3
+      version: 1532d34af4790830e2ba5773dc8ffaefc56f6198
     status: maintained
   eiquadprog:
     doc:
@@ -2184,7 +2184,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 1c7397e4a280949e136b6ddaeeab375c08ae1ebd
+      version: dbf21e9a2ee2c6c09dd2874975082e538230f977
     status: developed
   fuse:
     doc:
@@ -3099,7 +3099,7 @@ repositories:
     source:
       type: git
       url: https://github.com/JafarAbdi/jacro.git
-      version: 3b0b1bbf55012b5d3cf026d874dce72a3cad8869
+      version: 856b90ab854d6f926f666c0ec0f65d5b856e4ac4
     status: maintained
   joint_state_publisher:
     doc:
@@ -3210,7 +3210,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-tooling/keyboard_handler.git
-      version: f599c4c0803d976d9c231a90993be4710b711495
+      version: 1d8e2d9a4546067631d04c6b0a33d731b7574290
     status: developed
   kinematics_interface:
     doc:
@@ -3596,11 +3596,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.5.1-1
+      version: 0.5.2-1
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 14882b8314c40108e9568341ebda7d34b93103ea
+      version: 01a9b83f3833f1ccfec22c991de747403c46ae68
     status: maintained
   libg2o:
     release:
@@ -4877,7 +4877,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator.git
-      version: 82880560d946f61307233b5d0bc7f16913cd1168
+      version: 712299ef12c4e9f0e6617c63e367434fbcceccfe
     status: developed
   openeb_vendor:
     doc:
@@ -5452,11 +5452,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/py_binding_tools-release.git
-      version: 2.0.2-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ros-planning/py_binding_tools.git
-      version: 122a1b04e8ee5639d47c77f3cd6d1e2e58413ccd
+      version: a360e5ff3bb2a602ff0d184f218f1fce843c37de
     status: maintained
   py_trees:
     doc:
@@ -5580,6 +5580,11 @@ repositories:
       url: https://github.com/ros2/pybind11_vendor.git
       version: a8689e9cffef63df1ccb1f3e9d064f86199dbf15
     status: maintained
+  pymoveit2:
+    source:
+      type: git
+      url: https://github.com/AndrejOrsula/pymoveit2.git
+      version: 584f183fe9d444773a1354d6af0e271af76091cd
   python_cmake_module:
     doc:
       type: git
@@ -5976,7 +5981,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: a919a6e5ed8253d0e82e8116470fcee353fe6e91
+      version: 37677791ca42730952ab0336a4b274299362192c
     status: maintained
   rclpy:
     doc:
@@ -6549,6 +6554,18 @@ repositories:
       url: https://github.com/signetlabdei/rmw_desert.git
       version: 36ee826a95d49565cc9e29e593e3de42492784fa
     status: maintained
+  rmw_email:
+    doc:
+      type: git
+      url: https://github.com/christophebedard/rmw_email.git
+      version: rolling
+    source:
+      test_commits: false
+      test_pull_requests: false
+      type: git
+      url: https://github.com/christophebedard/rmw_email.git
+      version: a35234864b0063b97ec0ec6c7285af6abb7628c4
+    status: developed
   rmw_fastrtps:
     doc:
       type: git
@@ -6620,7 +6637,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: cdb66eed88a41775e4d6b7a3919805d4963f606b
+      version: 2477f712aab2ba8204d6d2db3f25c395cf7ef4a1
     status: developed
   robot_calibration:
     doc:
@@ -7248,7 +7265,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 11017951d910422279621edf15ed1761c0e62e5a
+      version: 98ecb04b9dde0df1b3cc33de33fcc26200078a01
     status: developed
   rosidl:
     doc:
