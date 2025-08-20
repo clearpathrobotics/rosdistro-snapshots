@@ -1582,7 +1582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 01f772c6e32e91a06a6f84d788b23892530dfb47
+      version: 52d54aeb5236750489f18ed2860e36d561f6863e
     status: developed
   ecl_core:
     doc:
@@ -2321,7 +2321,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 80ac894f64b553e3b1f87eea08124cf241af69a6
+      version: 89ca7cadfe65e108a0f028894887db3d347d58c4
     status: maintained
   geometry_tutorials:
     doc:
@@ -2957,7 +2957,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: b2abe1e5eaac06ba7af6ee110ff252076f2b95e6
+      version: 50d396ea0aab3f85fa87df79883c7e7ac592f560
     status: maintained
   image_pipeline:
     doc:
@@ -3600,7 +3600,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 1bd66f54a6bc928f99e321630f43d200df4d3579
+      version: 6e68c391f84935c1e8a1b752c1857f1c0da74469
     status: maintained
   libg2o:
     release:
@@ -4852,6 +4852,11 @@ repositories:
       url: https://github.com/ompl/ompl.git
       version: 74c88a3352fb70735447e962f996e247222e4184
     status: developed
+  open3d_vendor:
+    source:
+      type: git
+      url: https://github.com/christian-rauch/open3d_colcon.git
+      version: 4181d6e49316b7cb4d744ae768e556e49c519db9
   open_manipulator:
     doc:
       type: git
@@ -7089,7 +7094,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 77522600db37d49a23e349c6e109b08caa621188
+      version: 0ddabf0b6aa0450ef84ff3e744ddc1c116253483
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7968,7 +7973,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_topic.git
-      version: 20f6f20764bc3b48dd2cfa2a9551599f17699e3b
+      version: 8a97c10a11a5bd29d93e9ef33d5a6167dd950b86
     status: maintained
   rsl:
     doc:
@@ -8123,7 +8128,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: c7de3dfa092c0bd95d2b8f5bd311b81fe2946713
+      version: 55bb914536407c83d3bab6e63bd90c22d75a8381
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8568,7 +8573,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 1ee43aa979c80411fe5f6ba2e30db7033b00cbc5
+      version: 5b1efee25608ff859a41bd6f526d917e9b392f20
     status: developed
   steering_functions:
     doc:
@@ -8783,7 +8788,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: 3d4e9f8baedb7da9279543a3c84c0496c7709dcf
+      version: b1c82927f1ff48c8d953a866405b469bc783761d
     status: maintained
   tf2_web_republisher:
     source:
@@ -9578,7 +9583,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
-      version: 872c4d0da4f5174f417a7a1027119639cca15a6d
+      version: 23b14c5f824300f71913a16bcd2550cc10e8ecc1
     status: developed
   variants:
     doc:
@@ -9831,7 +9836,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/xacro.git
-      version: 0d1741a34df16ffe76096a8db401a93edddadc58
+      version: 711126cf7d34ddee29f01eb878c5f2e49b279a04
     status: maintained
   yaml_cpp_vendor:
     release:
