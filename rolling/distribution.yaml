@@ -703,7 +703,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 0a4fb3a9baf7f3a8d8ce3b04c0f9979b8fb53b76
+      version: 786685a93b1cc8c6c0f97c4e25b73d873712dbce
     status: developed
   autoware_msgs:
     release:
@@ -869,7 +869,7 @@ repositories:
     source:
       type: git
       url: https://github.com/dfki-ric/better_launch.git
-      version: e756b1ba1181290357dc19f49fa3eb3ac6f81808
+      version: fba65b6021ac2da6d96483b4632aafeab811b4f7
     status: developed
   bno055:
     doc:
@@ -1582,7 +1582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 52d54aeb5236750489f18ed2860e36d561f6863e
+      version: ee893dfbae134105843beb4f732e7ca537b34f27
     status: developed
   ecl_core:
     doc:
@@ -2184,7 +2184,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 98cd4a505e50509f08f8496e49edf2ce438216fa
+      version: 44179597ab55f68ffaf2a131a1530311b9cde995
     status: developed
   fuse:
     doc:
@@ -2321,7 +2321,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 89ca7cadfe65e108a0f028894887db3d347d58c4
+      version: 1fd8b0feb1d152512c3c8c09eda0a2930a5cdbb2
     status: maintained
   geometry_tutorials:
     doc:
@@ -2500,7 +2500,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 87b304db627605cc57344355d83b0b1f745f3532
+      version: 885593742fa924362dbdc0108075070f654df0c5
     status: developed
   gz_cmake_vendor:
     doc:
@@ -4310,7 +4310,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 293e97711405a876c84c68eecd9eb399e772dc8c
+      version: 105d40bb2a8a2ffed8500a9120e05ab9ae5c95c8
     status: developed
   mqtt_client:
     doc:
@@ -5183,6 +5183,12 @@ repositories:
       url: https://github.com/ros-drivers/phidgets_drivers.git
       version: 785f8ce3da9db1c627de8cf1e846733dd05e6dfe
     status: maintained
+  phone_sensors_bridge:
+    source:
+      type: git
+      url: https://github.com/vtalpaert/ros2-phone-sensors.git
+      version: a89a54a6237dd6763c3655b57d409f0c21d8bdc8
+    status: developed
   pick_ik:
     doc:
       type: git
@@ -5235,7 +5241,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 8d2080fb5224a00ca1704da570895bf8455bf600
+      version: c208c6ec0be4c67edf9160f34b6ec31df82636c4
     status: developed
   plotjuggler:
     doc:
@@ -6002,7 +6008,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: f3a326cdb92f1a7c9ff23e4911df5ca5ab36822d
+      version: 21a62356cc600f8a21f276de51b24dbb8bccfe6c
     status: maintained
   rcpputils:
     doc:
@@ -6069,7 +6075,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: cb567cab9bbcab095e13f6f0b8f4055fcec0b535
+      version: 89264ce6fc0a7421101bfa2791a7899adfa05820
     status: maintained
   reach:
     source:
@@ -6642,7 +6648,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: cb3a917d73d29309289c41f467c3902ab4b8331a
+      version: 6369eece90df2c50e763bf250ab2a760145524ee
     status: developed
   robot_calibration:
     doc:
@@ -6774,7 +6780,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: cc83667538184fea7b006fd555af3301a8aeac59
+      version: 605718cc2c489df4c804e03d4f20b6b579c42e9c
     status: developed
   ros2_control_cmake:
     doc:
@@ -7094,7 +7100,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 0ddabf0b6aa0450ef84ff3e744ddc1c116253483
+      version: 64a87d5ee9bc06780ad7b0daa8b0f0ee50e94d30
     status: developed
   ros_image_to_qimage:
     doc:
@@ -8880,7 +8886,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: d743113881b3cb422266f1f0c5fd9c81746dc39e
+      version: dd12f224abd0d934e6b7ca04c6c299a80b4d288f
     status: developed
   topic_based_ros2_control:
     release:
