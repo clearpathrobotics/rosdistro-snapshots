@@ -1582,7 +1582,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 6ffe86e9ed101caea3d2f32179dcf5811cdf18fa
+      version: d0c7265b5b9d41748c5211e8c05ee8b41a49d1ed
     status: developed
   ecl_core:
     doc:
@@ -1715,7 +1715,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 8ecb7f1a3dee68a1a4eb4976dd851e94e367517a
+      version: ec510a720872ebbed1d1ca34fdbb13b3f5676497
     status: maintained
   eiquadprog:
     doc:
@@ -1875,7 +1875,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: d1527be3a59012fe41d8690e632f86ea031ae192
+      version: 0bc405c68482c7e327288f0115e57774cce9cc07
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2184,7 +2184,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 94fe5ff3e3c735804b699d71162dd233335c6ab5
+      version: 6f842a5b2b0481b1d2a43144ceb0dfe6d0da824e
     status: developed
   fuse:
     doc:
@@ -2880,7 +2880,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 99c1e84c61d9bf7a178ff5eb93355913e4e82a47
+      version: 4c89aabba8d28c6ef62a404b591425cd55b1c4a9
     status: developed
   hyveos_bridge:
     source:
@@ -2978,12 +2978,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 7.1.0-1
+      version: 7.1.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 3f91196d97e43f17c9d6a388a210f82193828821
+      version: 23725abd3efd0c064596cdb7ec58b702d163467e
     status: maintained
   image_transport_plugins:
     doc:
@@ -3309,7 +3309,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: 1e3ed873dd9350275b8067be729b9fed6c053ba0
+      version: 74710ee8ac5cb78f61465c20e2bd2ed2b79e8afb
     status: developed
   lanelet2:
     doc:
@@ -3600,7 +3600,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 6554b6264257af1c3c289d502032b2818d276f65
+      version: a1053561edf2c74b2e831896f172ef3f536641de
     status: maintained
   libg2o:
     release:
@@ -3667,7 +3667,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: c0408056d725460849851ad75fef39716effb1b3
+      version: 1ff93b45e3014e10f8bc895316a09605c741bd58
     status: developed
   libyaml_vendor:
     release:
@@ -6648,7 +6648,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 9550a66638a1d3711e13422dec9cbfea1788324a
+      version: b473721ad1a954e6aae345d83ff9c30c94b0f232
     status: developed
   robot_calibration:
     doc:
@@ -6837,7 +6837,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 1bf98f29247493b385fd8f39f2a9b9b533415076
+      version: cb5b183e50e1098ff116abbc49a53cd95f3b5520
     status: developed
   ros2_easy_test:
     doc:
@@ -7210,7 +7210,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 0d376929963348387d0e13ba7e90f2d642fc4fa1
+      version: 2738d770ef13ccc668ad3634798389fc75f8f434
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7276,7 +7276,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: b1f6b4c0009da86c39132ad36e73cc54ae196a4e
+      version: 3020ee7aefd3b0c64c0a445973b57971b3dc785a
     status: developed
   rosidl:
     doc:
@@ -8134,7 +8134,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 815ebb2e69e297818877a3f8a87e7ae282f224d4
+      version: 9e3e88a99e90727b2a714bd2ee64d380d15f7c71
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9709,7 +9709,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 1c049dbd248954fd8d73defc63f3e86c3ab5738e
+      version: 54f0e0867cfe1e699f9e128a724cfc3278399f9c
     status: maintained
   vitis_common:
     doc:
@@ -9803,7 +9803,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
-      version: 8c3e5f4cbc744b1f3ed7ad362aa3d646309e78a9
+      version: 9eaa34357bae457fc6a41951f0c57a40c57c2b12
     status: maintained
   webots_ros2:
     doc:
