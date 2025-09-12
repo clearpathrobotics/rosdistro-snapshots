@@ -53,7 +53,7 @@ repositories:
     source:
       type: git
       url: https://git.ime.uni-luebeck.de/public-projects/asl/ackermann_nlmpc.git
-      version: 9899c70d21d570e4dcb89a48ba08729e0c483d99
+      version: 535f5647276822016802122d1a585d3cb0ec5cff
     status: developed
   actuator_msgs:
     doc:
@@ -872,7 +872,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 6731c518f804e58147eb9698a03ae7a01f90ef93
+      version: 2ed6d496b07fd80b302655b64b1caa90f63aebdd
     status: developed
   better_launch:
     doc:
@@ -1875,7 +1875,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 60c176d716ba11118d2261ab4ef93029ce76fcde
+      version: f00d560586883a5fdb925b8f5bac864dc12df86c
     status: maintained
   fastdds:
     doc:
@@ -2517,7 +2517,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 7244ea385f67a1def8897d9b0b98042c7592328b
+      version: 0fe6e0fede1a34d4e6c5fb93caebea466bd72d74
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3017,7 +3017,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_transport_plugins-release.git
-      version: 6.2.0-1
+      version: 6.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4103,11 +4103,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_common-release.git
-      version: 0.5.0-1
+      version: 0.5.1-2
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 9f57a2f7672fea44643b826fd5b1fa39a00312a2
+      version: f2a53df9e6f0c6f830f2f26a30df46ab74135a57
     status: developed
   mola_gnss_to_markers:
     doc:
@@ -4591,6 +4591,17 @@ repositories:
       type: git
       url: https://github.com/ros-planning/navigation_msgs.git
       version: 138474e5d181ddca655ad5b155d4740efa88c216
+    status: maintained
+  network_bridge:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/network_bridge-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/brow1633/network_bridge.git
+      version: 39153e3a5bb662d49cbf054acd6e04bfe16bf2b2
     status: maintained
   nlohmann_json_schema_validator_vendor:
     doc:
@@ -5402,7 +5413,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pointcloud_to_laserscan-release.git
-      version: 2.0.2-2
+      version: 2.1.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6004,12 +6015,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 30.1.0-1
+      version: 30.1.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: b432df117a2394e9b271adac0374faea4a4d1075
+      version: 380866b3380d74199d24b190bea24d51ab1f3ba0
     status: maintained
   rclpy:
     doc:
@@ -6025,7 +6036,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 50c284adf4bd383a41eadcfeb8a57e8814da0430
+      version: bcdd663e07df2e2ffbdbf941fbdfb85c5cab5c47
     status: maintained
   rcpputils:
     doc:
@@ -6155,7 +6166,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 7123224ced34d360b6c56bcdeef18b73e5dbc548
+      version: cb06c3ec62984bcfef4aca05fae06426de6167b1
     status: maintained
   reductstore_agent:
     doc:
@@ -6188,13 +6199,10 @@ repositories:
       url: https://github.com/ros/resource_retriever.git
       version: rolling
     release:
-      packages:
-      - libcurl_vendor
-      - resource_retriever
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/resource_retriever-release.git
-      version: 3.8.2-1
+      version: 3.9.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6665,7 +6673,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: bc6969ea3373f770ba0fc12de6613bd8aa9e8df2
+      version: 4df489b538a963465152e84eed5d8dcbb5a0be6f
     status: developed
   robot_calibration:
     doc:
@@ -6856,7 +6864,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 3d88b7c05fabe34d011e01a1e1f9d54c46e648f1
+      version: 2dccb5ae31caefe1b79fc8e2b723aeec9193c9bb
     status: developed
   ros2_easy_test:
     doc:
@@ -6991,12 +6999,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.40.0-1
+      version: 0.40.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: f350134e246fd7419e459d900ad8fecb9979519d
+      version: 8653a5d54e79e7222fca7ae295da731714548b92
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8820,6 +8828,18 @@ repositories:
       version: 826471f2a3f1c49bcb465b6e87a19646b2be041c
     status: maintained
   tf2_web_republisher:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/tf2_web_republisher.git
+      version: ros2
+    release:
+      packages:
+      - tf2_web_republisher
+      - tf2_web_republisher_interfaces
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/tf2_web_republisher-release.git
+      version: 1.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -9732,7 +9752,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 006ee1b952d5a2e917cb8e615e856223721dee65
+      version: a1e80c905c304a327ac5662a4c2ab7ccc677c972
     status: maintained
   vitis_common:
     doc:
