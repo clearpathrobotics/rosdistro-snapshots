@@ -301,7 +301,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 62931c113a5518f01cef017625ca70ad1d5e9e42
+      version: 3dc9433af6b3f5f8a2e49a577c5c81f1a19bbbd9
     status: developed
   ament_nodl:
     release:
@@ -684,7 +684,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_cmake.git
-      version: 6829fde0b7f8ef6b0155f1902022b7f6d89b068b
+      version: 99d799247aebc0ef95f4a1fab9ce13752f11ae5a
     status: developed
   autoware_internal_msgs:
     release:
@@ -1599,7 +1599,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 51b90b4db68cf5fee02fa7037f905de07e98c58b
+      version: 048949deed4be92db4a08f278c8a9e789123f816
     status: developed
   ecl_core:
     doc:
@@ -1747,7 +1747,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: d1e595d241a1d5906ffda74a11922317c68e6bde
+      version: b6dd0aa4317680bcb0b2788ad7bd117874746d62
     status: maintained
   event_camera_codecs:
     doc:
@@ -2201,7 +2201,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: b63492b5d668ec936275ed0e678151b567f331b5
+      version: 4f1bfd1fbb0c097508fb6d98905eac3eb2462431
     status: developed
   fuse:
     doc:
@@ -2897,7 +2897,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 1edf368d9e5a51e2bcdeed49f99d75e829a9496d
+      version: 9f94532366ea32e0bcaa40b7dbc0571514d47ae2
     status: developed
   hyveos_bridge:
     source:
@@ -4601,7 +4601,7 @@ repositories:
     source:
       type: git
       url: https://github.com/brow1633/network_bridge.git
-      version: 39153e3a5bb662d49cbf054acd6e04bfe16bf2b2
+      version: 87a5072a06a435e85a4cb0d00219e62d94aba253
     status: maintained
   nlohmann_json_schema_validator_vendor:
     doc:
@@ -6191,7 +6191,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: f44beef54aac2b4f67bacabe2a82b14913a3f213
+      version: 2e0f6942136f929cff4c78dfc838e3f4385d7a13
     status: developed
   resource_retriever:
     doc:
@@ -6220,6 +6220,12 @@ repositories:
       type: git
       url: https://github.com/teamspatzenhirn/rig_reconfigure.git
       version: f05a2947b0cb79601f73ac98c1b45bba9ebd770c
+    status: developed
+  rko_lio:
+    source:
+      type: git
+      url: https://github.com/PRBonn/rko_lio.git
+      version: 46ba69761444879dec9e0995155cfa55b522d2b3
     status: developed
   rmf_api_msgs:
     doc:
@@ -6673,7 +6679,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 4df489b538a963465152e84eed5d8dcbb5a0be6f
+      version: 1a1318d5b2d5270010361aabd5a121eb42a294d5
     status: developed
   robot_calibration:
     doc:
@@ -6805,7 +6811,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 0301b0a868fed0e0cfef59954c6e37af1b267267
+      version: 8beae64bd1e5ca577ffff2d186fd84a7ebfc10cb
     status: developed
   ros2_control_cmake:
     doc:
@@ -6860,11 +6866,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 5.6.1-1
+      version: 5.7.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2dccb5ae31caefe1b79fc8e2b723aeec9193c9bb
+      version: 9ce90bada950b4097e6cd205233cdd37ab42d2a1
     status: developed
   ros2_easy_test:
     doc:
@@ -7237,7 +7243,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 652d3ad2683b18a756c31bf52fd3ce2c51a1ad0a
+      version: bfce7acfd88d1d8e21e83843209ac7a97cd807fe
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7714,7 +7720,7 @@ repositories:
     source:
       type: git
       url: https://github.com/niwcpac/rqt_dotgraph.git
-      version: 3fd05a5e7a1367d4ea257a24f64fc1f4ad098cfb
+      version: ca93e7d143921412331adebb5d55cf4f6c75acc8
     status: maintained
   rqt_gauges:
     doc:
