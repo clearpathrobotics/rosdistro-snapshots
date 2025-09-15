@@ -3897,11 +3897,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.11.0-1
+      version: 2.12.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 6167c0ffcc356557ed9ab7408ac2b1ad45fdeb70
+      version: f8f462dd742056bfba96ddda33b129a75dc6de46
     status: developed
   menge_vendor:
     doc:
@@ -4910,7 +4910,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator.git
-      version: 79b40ac3d823e9eba45981ce32fa74b51acb7da3
+      version: d83295b24bbc13bb7565f88008d3e8cb6125f914
     status: developed
   openeb_vendor:
     doc:
@@ -6036,7 +6036,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: bcdd663e07df2e2ffbdbf941fbdfb85c5cab5c47
+      version: c834c24073d336f2f54774253240892429812b2d
     status: maintained
   rcpputils:
     doc:
@@ -6811,7 +6811,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 8b98fbf38cc836e37678fa26f0db20ba35157e64
+      version: ee61ff0699d5f37e12677d38c2c973612abbe4b3
     status: developed
   ros2_control_cmake:
     doc:
@@ -7716,7 +7716,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_dotgraph-release.git
-      version: 0.0.4-1
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/niwcpac/rqt_dotgraph.git
@@ -7996,7 +7996,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_tf_tree.git
-      version: 29e1790535c581270c678354f7726149638e7874
+      version: 38b2df456fe495617de2271368fce9abcf075245
     status: maintained
   rqt_topic:
     doc:
