@@ -50,6 +50,14 @@ repositories:
       version: 81a5f2d9ae1c1048216678b9dc3db6afc0cb815e
     status: maintained
   ackermann_nlmpc:
+    release:
+      packages:
+      - ackermann_nlmpc
+      - ackermann_nlmpc_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ackmerann_nlmpc-release.git
+      version: 1.0.2-2
     source:
       type: git
       url: https://git.ime.uni-luebeck.de/public-projects/asl/ackermann_nlmpc.git
@@ -607,7 +615,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
-      version: 735c03c72d79a8aaa5022da2c458672f53765ae6
+      version: 4623bf09c210a321e119e002e3a0bfdcd147d274
     status: developed
   automatika_ros_sugar:
     doc:
@@ -2201,7 +2209,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 4f1bfd1fbb0c097508fb6d98905eac3eb2462431
+      version: 95ff43c8d88a8fc191cfe0bbfeb60ba09f2c4b40
     status: developed
   fuse:
     doc:
@@ -3368,7 +3376,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: 5d9c06e45c56212da18aa39eb5666082be052922
+      version: 20894887e449b907f371375054c28f253d263041
     status: maintained
   laser_geometry:
     doc:
@@ -3995,7 +4003,7 @@ repositories:
     source:
       type: git
       url: https://github.com/micro-ROS/micro_ros_msgs.git
-      version: b935f634ba4afc91b56afd71ce3adf71179f90a5
+      version: 839f17bab4bfd52cd6b20db81fcd0a6187b647dc
     status: maintained
   microstrain_inertial:
     doc:
@@ -5269,7 +5277,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 914900421bb18dd5e902464ec9dc8ef54e5da030
+      version: 7e3fb5d8f7ed17330c196ef6c3babc083c8165d0
     status: developed
   plotjuggler:
     doc:
@@ -6020,7 +6028,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 380866b3380d74199d24b190bea24d51ab1f3ba0
+      version: 38f40734741e28d701d8bd2bb8e1125b4ccf0e66
     status: maintained
   rclpy:
     doc:
@@ -6191,7 +6199,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: 2e0f6942136f929cff4c78dfc838e3f4385d7a13
+      version: 9a6f1cbc98391ebb166e17b4925cb50b91decc75
     status: developed
   resource_retriever:
     doc:
@@ -6225,7 +6233,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 46ba69761444879dec9e0995155cfa55b522d2b3
+      version: 8460abd41b4205222e316da938d36d40683ae7eb
     status: developed
   rmf_api_msgs:
     doc:
@@ -6811,7 +6819,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: ee61ff0699d5f37e12677d38c2c973612abbe4b3
+      version: 0d2d78139da58e49992c6dc8ac7552a07e64e397
     status: developed
   ros2_control_cmake:
     doc:
@@ -6902,7 +6910,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 309f9c9d4a277970e542e5ac1fe260ced0630f65
+      version: d6c92b0824f9405edf5dc2f585d6350c66489df4
     status: developed
   ros2_robotiq_gripper:
     doc:
@@ -8171,7 +8179,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 951865f58b7e089e138a46f536679dbfd2cf3b55
+      version: 46045f95597913a2a946dcb753a9efa543b40641
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9401,11 +9409,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 2.2.0-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f7efbfac7effb61586352ce72dd33ad8ea7f4813
+      version: 3b6361085edfe240c2c34eab022a92255b963e24
     status: developed
   ur_description:
     doc:
@@ -9416,11 +9424,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_description-release.git
-      version: 4.0.0-1
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 0e8e0ec6650e54f351dd395cbc1ebc1e5d3b8759
+      version: 6dd8bdc98860ea8bab19a3243ef74883e2834a08
     status: developed
   ur_msgs:
     doc:
@@ -9457,7 +9465,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 041d84906c779dd9a8446864fdd07ad93d59c416
+      version: 0c8d0fc3df11037f466602c9c72c8244a0e9190a
     status: developed
   ur_simulation_gz:
     release:
@@ -9758,7 +9766,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: a1e80c905c304a327ac5662a4c2ab7ccc677c972
+      version: dc78d91010a7a507a7de96b87c3f52889b03821e
     status: maintained
   vitis_common:
     doc:
