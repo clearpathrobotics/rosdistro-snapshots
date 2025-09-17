@@ -615,7 +615,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
-      version: 4623bf09c210a321e119e002e3a0bfdcd147d274
+      version: a0999dfed408199cbf9b2834c0b98ae068f0c4a2
     status: developed
   automatika_ros_sugar:
     doc:
@@ -1285,7 +1285,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 79bbfd4e85e97ad9f920da1a9601a67279bce033
+      version: 31b9452df35bc54b02d1eeb61482f0282b4a53ee
     status: maintained
   control_toolbox:
     doc:
@@ -1300,7 +1300,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 5c3bea49a52fce50ff3cb60e58fa38bab39b7afc
+      version: bedbfccf61d69e0bbbfc47884a35fe739cee1b34
     status: maintained
   cpp_polyfills:
     release:
@@ -1740,7 +1740,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 0856ff2e7b8daa2410e380fbf8899d51ac9f44c6
+      version: 46bf7a73121b5a2512fd90abf103bd22ff8a8a91
     status: maintained
   eiquadprog:
     doc:
@@ -2209,7 +2209,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 95ff43c8d88a8fc191cfe0bbfeb60ba09f2c4b40
+      version: 15f2fbe484e623f79a4b4333223c22259b7d1a4b
     status: developed
   fuse:
     doc:
@@ -3003,12 +3003,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/image_pipeline-release.git
-      version: 7.1.1-1
+      version: 7.1.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 23725abd3efd0c064596cdb7ec58b702d163467e
+      version: eb38612bd18c1d70b92f33ac9f1dc0b0e14e9b32
     status: maintained
   image_transport_plugins:
     doc:
@@ -3625,7 +3625,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: b8d332cdcc130c27232f61369e7bab2d954e7ac6
+      version: 0e096da4b486afce23559ec861305edd895128cf
     status: maintained
   libg2o:
     release:
@@ -4609,7 +4609,7 @@ repositories:
     source:
       type: git
       url: https://github.com/brow1633/network_bridge.git
-      version: 1d80a986a69ee0244fc0d88e6441eb97b85aba59
+      version: f5345f89af746d379504f32db0bac3225e3013dc
     status: maintained
   nlohmann_json_schema_validator_vendor:
     doc:
@@ -4873,6 +4873,31 @@ repositories:
       url: https://github.com/stack-of-tasks/odri_master_board_sdk_release.git
       version: f65f73d5c81b2be3c8a8d78406d5b1b09789accd
     status: maintained
+  off_highway_sensor_drivers:
+    release:
+      packages:
+      - off_highway_can
+      - off_highway_general_purpose_radar
+      - off_highway_general_purpose_radar_msgs
+      - off_highway_premium_radar
+      - off_highway_premium_radar_msgs
+      - off_highway_premium_radar_sample
+      - off_highway_premium_radar_sample_msgs
+      - off_highway_radar
+      - off_highway_radar_msgs
+      - off_highway_sensor_drivers
+      - off_highway_sensor_drivers_examples
+      - off_highway_uss
+      - off_highway_uss_msgs
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/off_highway_sensor_drivers-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
+      version: c1da5595cfe9ba051033255826e01b66951aaf20
+    status: developed
   ompl:
     doc:
       type: git
@@ -5277,7 +5302,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 7e3fb5d8f7ed17330c196ef6c3babc083c8165d0
+      version: 426a9d70bf5a0c6f4f0568f0659069679b22ea04
     status: developed
   plotjuggler:
     doc:
@@ -5922,7 +5947,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 37e3c73348d483645f35c1f52178c317239150da
+      version: 819c78db03753216dd5b1ac38be96ad811bb6cad
     status: maintained
   rcl_interfaces:
     doc:
@@ -6028,7 +6053,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 38f40734741e28d701d8bd2bb8e1125b4ccf0e66
+      version: b14af74a4c9b8683e72b15d61d0ed9121d883973
     status: maintained
   rclpy:
     doc:
@@ -6044,7 +6069,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: c834c24073d336f2f54774253240892429812b2d
+      version: 30cc5675f93192c6f2802a53817423d087220771
     status: maintained
   rcpputils:
     doc:
@@ -6060,7 +6085,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcpputils.git
-      version: 37a8801c18632d7d725ff1659248e8b12a7f2089
+      version: 0e78962a52e0d09d7b1214e5e055fe23883e7b72
     status: developed
   rcss3d_agent:
     doc:
@@ -6111,7 +6136,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: f934aa65a2155a42764962ec416b5ba0c32825a0
+      version: 1879f2c6d534753fb85082430ee7ed0588c4cd3a
     status: maintained
   reach:
     source:
@@ -6174,7 +6199,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: cb06c3ec62984bcfef4aca05fae06426de6167b1
+      version: 24d7260281bac816c9e672e431510a170fbc2b32
     status: maintained
   reductstore_agent:
     doc:
@@ -6233,7 +6258,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 8460abd41b4205222e316da938d36d40683ae7eb
+      version: 18a064c89f0e14402980678382c04d48f914c629
     status: developed
   rmf_api_msgs:
     doc:
@@ -6819,7 +6844,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 0d2d78139da58e49992c6dc8ac7552a07e64e397
+      version: 32ee77ba0bc351620e00f0d661736e7737eb294c
     status: developed
   ros2_control_cmake:
     doc:
@@ -6878,7 +6903,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 9ce90bada950b4097e6cd205233cdd37ab42d2a1
+      version: 7b7ecb7f0f119fd6387ceacd3b2909398b6b80b1
     status: developed
   ros2_easy_test:
     doc:
@@ -7347,7 +7372,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 30877f52f5f19902bedb89f67bf4bafb2c6eae12
+      version: 66b35a6caeb0e1567164e5d54e4ad4241445670f
     status: maintained
   rosidl_core:
     doc:
@@ -7868,7 +7893,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_py_console.git
-      version: f7581e41052acefbf272522bf0ff621b2b25d9e2
+      version: b6e9e07932a00dba074db9b59ec0d2a51aabb510
     status: maintained
   rqt_reconfigure:
     doc:
@@ -8179,7 +8204,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 46045f95597913a2a946dcb753a9efa543b40641
+      version: 3df8aa6339c0439ec8f839a9ad739cf520654aac
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9428,7 +9453,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 6dd8bdc98860ea8bab19a3243ef74883e2834a08
+      version: 05c04609bb07ca040527981b161b0d116320ddd2
     status: developed
   ur_msgs:
     doc:
@@ -9461,11 +9486,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 4.1.0-1
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 0c8d0fc3df11037f466602c9c72c8244a0e9190a
+      version: 64cdb90fd805ec60edf8af02729b10c27f140d20
     status: developed
   ur_simulation_gz:
     release:
@@ -9476,7 +9501,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
-      version: 7eab6c6dd24f841ecc6f4daca178b0b94ea52162
+      version: 03d2609a4c038ddd1ad0d0b6afc017b2cc6ac99e
     status: developed
   urdf:
     doc:
@@ -9766,7 +9791,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: dc78d91010a7a507a7de96b87c3f52889b03821e
+      version: 72048fe6e8e0f909fe14163309ea96cfb27e8932
     status: maintained
   vitis_common:
     doc:
