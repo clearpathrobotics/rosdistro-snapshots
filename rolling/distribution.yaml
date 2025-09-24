@@ -119,12 +119,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/b-robotized/ads_vendor-release.git
-      version: 1.0.0-1
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/b-robotized/ads_vendor.git
-      version: 30f54ba5a32c7dd4f888a5be961e9209c9cecb50
+      version: e18e45cf281bca74cdafeddbddd5248107597586
     status: maintained
   ai_worker:
     doc:
@@ -375,12 +375,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/angles-release.git
-      version: 1.16.0-4
+      version: 1.16.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/angles.git
-      version: 633d83eeb79ae09c077e169b1e9d7718ab17900d
+      version: a96224f9ab3ac51fe8fd981c1e1554528dc4345a
     status: maintained
   apex_test_tools:
     doc:
@@ -1308,7 +1308,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 5.6.0-1
+      version: 5.7.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -1619,7 +1619,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 048949deed4be92db4a08f278c8a9e789123f816
+      version: 20a3a651110bf73fc17a3086d1490d6ff292df03
     status: developed
   ecl_core:
     doc:
@@ -1895,7 +1895,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 9a751578cb14714253c73293831bd54998521096
+      version: 3525c3ddce1e108f5f97a576768b3bd9f1955fb5
     status: maintained
   fastdds:
     doc:
@@ -1912,7 +1912,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 287e6f1be5469f228b1a8995428bba2bda76cfec
+      version: c0a6b6ff1e0a96f4fe41439b05cca951d6c39050
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2537,7 +2537,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: f8575f7d1da167f3509f01119680ac3b03a21d00
+      version: cd5517c571cd0149acb0cce113663c188bfa7356
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2644,7 +2644,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_math_vendor-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2747,7 +2747,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 3ef7b700f82fe8f98e934fc452fc67f9d30049ca
+      version: c34b3e9c686204b64b02cea51627e0db58bc643f
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -4371,7 +4371,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mqtt_client-release.git
-      version: 2.4.1-1
+      version: 2.4.1-2
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
@@ -4932,13 +4932,23 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 4f0a5e640d473ad8ae61e05d1681a212baca3168
+      version: 39526a87d7566c536acd0f1d4559fbcb54f554e0
     status: developed
   open3d_vendor:
+    doc:
+      type: git
+      url: https://github.com/christian-rauch/open3d_colcon.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/open3d_vendor-release.git
+      version: 0.19.0-1
     source:
       type: git
       url: https://github.com/christian-rauch/open3d_colcon.git
-      version: 4181d6e49316b7cb4d744ae768e556e49c519db9
+      version: f217f90dc645480cf92b721074178a6a1de8c64f
+    status: maintained
   open_manipulator:
     doc:
       type: git
@@ -5154,6 +5164,11 @@ repositories:
       version: eb51feaf3f4bddb9768d4f8ac93536407a1779cd
     status: maintained
   parameter_expression:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/parameter_expression-release.git
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/ForteFibre/parameter_expression.git
@@ -5674,10 +5689,20 @@ repositories:
       version: a8689e9cffef63df1ccb1f3e9d064f86199dbf15
     status: maintained
   pymoveit2:
+    doc:
+      type: git
+      url: https://github.com/AndrejOrsula/pymoveit2.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/pymoveit2-release.git
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/AndrejOrsula/pymoveit2.git
       version: f2fc1c4d59752581538c3f493a16866cf72a6a39
+    status: maintained
   python_cmake_module:
     doc:
       type: git
@@ -6167,7 +6192,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/reach_ros2.git
-      version: 769735195bc7075756f0745389d54be4e620257b
+      version: cd048ffcb69c5a0ba2b74124f15afa1ad63c27b5
   realsense2_camera:
     doc:
       type: git
@@ -6219,7 +6244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 2cf4b74d87e4ef11fb4c9161d8f0cc20e2b0cbb8
+      version: 37a17bcf0376495c402a9a52625a322787711849
     status: maintained
   reductstore_agent:
     doc:
@@ -6244,7 +6269,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: 9a6f1cbc98391ebb166e17b4925cb50b91decc75
+      version: 13ce5b729e90c53fe3ddcc70ae48bd482c37a314
     status: developed
   resource_retriever:
     doc:
@@ -6450,7 +6475,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_task.git
-      version: aa19fb42ec2e67d1fdf10c12a46b22fcccb4746a
+      version: b765a6604dc82f14d143b3f710b0fd4ab720c650
     status: developed
   rmf_traffic:
     doc:
