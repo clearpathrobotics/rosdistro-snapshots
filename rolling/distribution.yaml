@@ -1312,7 +1312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 42d30509b7900c65c48f204440098604eceec1bc
+      version: 6a28f23f3fc64416c6fe1c18ddaf4d600d45b490
     status: maintained
   cpp_polyfills:
     release:
@@ -1619,7 +1619,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 20a3a651110bf73fc17a3086d1490d6ff292df03
+      version: c7758643b0caf470d8e1818367930b5019eb4545
     status: developed
   ecl_core:
     doc:
@@ -1752,7 +1752,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 577cd1f776514c88735ed6187c3c35282de095cf
+      version: 4530e62747f6f05f65b2015f64d22d705327122b
     status: maintained
   eiquadprog:
     doc:
@@ -1767,7 +1767,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: b6dd0aa4317680bcb0b2788ad7bd117874746d62
+      version: a8d9fd6bf0542b3ff2c2ac8b7127199f2e5d6f0b
     status: maintained
   event_camera_codecs:
     doc:
@@ -1912,7 +1912,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: c0a6b6ff1e0a96f4fe41439b05cca951d6c39050
+      version: d333311307886bf47d251734639318e319ddfe8a
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2221,7 +2221,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 553b05b7cd44e3a72e7d5e583d5fd21308fa8e0b
+      version: 453794937365877ef1138a41de3e05aa2f7ff572
     status: developed
   fuse:
     doc:
@@ -2569,7 +2569,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_common_vendor.git
-      version: dc2accf325e3d255c6803a70e5a6a31d1645914a
+      version: e6ae63512e5eb795cad19936ca7b9487d5c6862c
     status: maintained
   gz_dartsim_vendor:
     doc:
@@ -2665,7 +2665,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_msgs_vendor.git
-      version: 5548543680c3ad035bcc3b64ae11f79a66a8ff77
+      version: f7c44d61a09bb980b91927c772600173fa39213d
     status: maintained
   gz_ogre_next_vendor:
     doc:
@@ -2697,7 +2697,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_physics_vendor.git
-      version: b220740cbc30aba769c8e35b3881141bd1244b89
+      version: bcc3bb47e325b21456f136be24e1c43f0389f706
     status: maintained
   gz_plugin_vendor:
     doc:
@@ -2729,7 +2729,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_rendering_vendor.git
-      version: 96ed25fec74eac6051292b18c7f833a332240b6e
+      version: 054f80b810736e366b497173c991953af2748a4a
     status: maintained
   gz_ros2_control:
     doc:
@@ -2811,7 +2811,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_transport_vendor.git
-      version: 2c6244bc2fcd59bc6f175c7704a59239aef81b7a
+      version: 79b8afc0dc688783dbf09fad027a95a8c878baf6
     status: maintained
   gz_utils_vendor:
     doc:
@@ -3199,7 +3199,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: 30795190916d0297092e37bc1f7b50f5d76fc09c
+      version: 34ded94e5d33ce56746abb4898b4ccc6dc69bfe8
     status: maintained
   kdl_parser:
     doc:
@@ -4152,7 +4152,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: bc61f64526750cac76d17449c9b04c418db1b010
+      version: 07273976c80d35ca9d99f48afa8d0bd329abfdf6
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4176,7 +4176,6 @@ repositories:
       version: develop
     release:
       packages:
-      - mola_imu_preintegration
       - mola_state_estimation
       - mola_state_estimation_simple
       - mola_state_estimation_smoother
@@ -6269,7 +6268,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: 13ce5b729e90c53fe3ddcc70ae48bd482c37a314
+      version: 1dc4820b6b4d003d212006fd3affe1e059375545
     status: developed
   resource_retriever:
     doc:
@@ -6438,7 +6437,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: c408c65832d53111603ee99dfcb14d5e45e3d8de
+      version: fa98228684dad6d75971bdd5818af320fadbcc0d
     status: developed
   rmf_simulation:
     doc:
@@ -6889,7 +6888,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 56fc0525397afe83624eadf05874e94bfdb21ff7
+      version: ff525622eea035b807b34b313966a535765db386
     status: developed
   ros2_control_cmake:
     doc:
@@ -6904,7 +6903,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
-      version: f681075968e21c186f9982f5b114f71c8b413bb3
+      version: d1c809e69e2d7617903fc6e3a8e8f76e874101f4
     status: developed
   ros2_controllers:
     doc:
@@ -7417,7 +7416,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 4edcac1c0aa162d4c231389811c105214c74a439
+      version: e25eb4ef9c8418d103fb2035ae6ae0bb4f571cb2
     status: maintained
   rosidl_core:
     doc:
@@ -7657,7 +7656,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
-      version: 90afb3d7244de8ae6b8126b10e92cf48403844f2
+      version: dc5fc02122387cc83db29ec2712321082804282e
     status: developed
   rot_conv_lib:
     release:
@@ -8332,7 +8331,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/sdformat_vendor.git
-      version: 4a8ba63a9b36cd25ea18d51a143e456a16cd65be
+      version: 1b43c91de38515418d682db8d2a3d34321f91615
     status: maintained
   septentrio_gnss_driver:
     doc:
@@ -9020,7 +9019,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: 5818698a4fa2acbcc6b0b2d09e27eeff6e653c4b
+      version: c1797737b8cf4ac9b874e5391033d18e56446e18
     status: developed
   topic_based_ros2_control:
     release:
@@ -9133,7 +9132,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 775497f6bcbec0ecff9b15923135515efcf8e602
+      version: 0217fcb49dd52a16b098437965b92a322e195043
     status: maintained
   turbojpeg_compressed_image_transport:
     doc:
@@ -9840,7 +9839,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: af3e8a3918dc60e932053c6b926c3ee0a77a31fe
+      version: f24e6bbce7adf0797a48f031823e66b148683f47
     status: maintained
   vitis_common:
     doc:
