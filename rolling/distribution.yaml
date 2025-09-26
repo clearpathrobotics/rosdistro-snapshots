@@ -1752,7 +1752,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 4530e62747f6f05f65b2015f64d22d705327122b
+      version: b22efa8fde76af7499a39f654b595ecd6376058e
     status: maintained
   eiquadprog:
     doc:
@@ -1895,7 +1895,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 3525c3ddce1e108f5f97a576768b3bd9f1955fb5
+      version: eef98288a6c79becba2d74532e5fea0f06b7dfed
     status: maintained
   fastdds:
     doc:
@@ -2178,20 +2178,23 @@ repositories:
       url: https://github.com/ros-drivers/four_wheel_steering_msgs.git
       version: 9ae2775a3d4266ad8dddb4a97d718b2cb3d55a79
     status: maintained
-  foxglove_bridge:
+  foxglove-sdk:
     doc:
       type: git
-      url: https://github.com/foxglove/ros-foxglove-bridge.git
+      url: https://github.com/foxglove/foxglove-sdk.git
       version: main
     release:
+      packages:
+      - foxglove_bridge
+      - foxglove_msgs
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 0.8.5-1
+      version: 3.2.0-1
     source:
       type: git
-      url: https://github.com/foxglove/ros-foxglove-bridge.git
-      version: 4e801bbb6f32f3edabce1d1ded1e5387bf977797
+      url: https://github.com/foxglove/foxglove-sdk.git
+      version: d2d6384664bd449023bd7cc3c42b3b485401d405
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2207,21 +2210,6 @@ repositories:
       type: git
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
       version: 94fc7ffabb29f5f7a9b001653230a414fdd82634
-    status: developed
-  foxglove_msgs:
-    doc:
-      type: git
-      url: https://github.com/foxglove/foxglove-sdk.git
-      version: main
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
-      version: 3.1.0-1
-    source:
-      type: git
-      url: https://github.com/foxglove/foxglove-sdk.git
-      version: 453794937365877ef1138a41de3e05aa2f7ff572
     status: developed
   fuse:
     doc:
@@ -2564,7 +2552,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_common_vendor-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2660,7 +2648,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_msgs_vendor-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2692,7 +2680,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_physics_vendor-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2724,12 +2712,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_rendering_vendor-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_rendering_vendor.git
-      version: 054f80b810736e366b497173c991953af2748a4a
+      version: 6e7e0437f5574a41372b14da706dff38471a0e88
     status: maintained
   gz_ros2_control:
     doc:
@@ -2774,12 +2762,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_sim_vendor-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_sim_vendor.git
-      version: 0d39bb4876360d0b222ea886ec46da9b4cefa1fa
+      version: 6f02e9f7f38a52a3467e18c0cb202c116a3b28c0
     status: maintained
   gz_tools_vendor:
     doc:
@@ -2806,7 +2794,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_transport_vendor-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3637,7 +3625,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: d03a4fbfcd1ca64fce1efb2581a2d20bc43b38ae
+      version: 5ca7afd2d33d7019af17796ba1cfa9d61d2f4bc0
     status: maintained
   libg2o:
     release:
@@ -3952,7 +3940,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: b6496c309f6cf05ebaccb351446186ba2309f01f
+      version: e849a8e3d15276c0b174a37e57f5fe3572193ae5
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -6239,11 +6227,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 4.5.0-1
+      version: 4.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 37a17bcf0376495c402a9a52625a322787711849
+      version: 418bb0c49c8415cb5a1b205fed422485cd4bb271
     status: maintained
   reductstore_agent:
     doc:
@@ -6861,7 +6849,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: a8eda75c4bae1f46f377a6084d9382be3604b2d7
+      version: cccb11175919f187b654b946958b108fb0872267
     status: developed
   ros2_control:
     doc:
@@ -6903,7 +6891,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
-      version: d1c809e69e2d7617903fc6e3a8e8f76e874101f4
+      version: d92c5280033b499e16ff257b1d89b6e591d27fa2
     status: developed
   ros2_controllers:
     doc:
@@ -7320,7 +7308,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 6b462de40afa0cff207a5da6301e85cb108233ad
+      version: 79ca3cf4c0384d677a53877c661d1db7610781b3
     status: developed
   rosbag2_bag_v2:
     source:
@@ -8326,7 +8314,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sdformat_vendor-release.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       test_pull_requests: true
       type: git
@@ -8861,7 +8849,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/teleop_twist_keyboard.git
-      version: 8a2b696be2461373d6b573eb7a504a9161307b57
+      version: 0656c185bdd488215a3e57f8c8d0a54940a5de8a
     status: maintained
   tensorrt_cmake_module:
     doc:
@@ -9839,7 +9827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: f24e6bbce7adf0797a48f031823e66b148683f47
+      version: c8dada054089f03f9acf2124fcdce6f13217de05
     status: maintained
   vitis_common:
     doc:
