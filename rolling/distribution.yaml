@@ -892,7 +892,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 2ed6d496b07fd80b302655b64b1caa90f63aebdd
+      version: d8c16098a49b7fd2718d1916c4d5df74173a859a
     status: developed
   better_launch:
     doc:
@@ -1625,7 +1625,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 9bf500498c77a4c733768aca1a7815cd67d9b118
+      version: 5139da97cc7f8cd899c6ecb963d2dbf726097974
     status: developed
   ecl_core:
     doc:
@@ -1758,7 +1758,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: b22efa8fde76af7499a39f654b595ecd6376058e
+      version: 25766e8ff3e256b92d8d441ae1a90a69037ffdc1
     status: maintained
   eiquadprog:
     doc:
@@ -1901,7 +1901,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: eef98288a6c79becba2d74532e5fea0f06b7dfed
+      version: 19e59ebd3ebdf4b79d99e9e0a487572f63325e2d
     status: maintained
   fastdds:
     doc:
@@ -2004,7 +2004,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 3613525c241538fa9fd9df3e1209ae8184627958
+      version: 322e60fb3c4c9f0a7f063a60b04344c7cc7ba0a6
     status: developed
   filters:
     doc:
@@ -2200,7 +2200,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 8aea40da22b9dc40e4dd1d066506ad3b88ebe771
+      version: 3f7dfd6eeaabc00e4949b6532f9dc0f0edeca9c7
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2542,7 +2542,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.4.0-1
+      version: 0.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2638,7 +2638,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_math_vendor-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       test_pull_requests: true
       type: git
@@ -2816,7 +2816,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_utils_vendor-release.git
-      version: 0.4.0-2
+      version: 0.4.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3915,7 +3915,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: d613464b05e1a48401cdbc1dcf47e183678352e6
+      version: fa61a0aff5c0f1574a65568faa984547aa71045c
     status: developed
   menge_vendor:
     doc:
@@ -5363,11 +5363,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.12.0-1
+      version: 3.13.0-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 5c8b44c1ceeed2db698e233b4b7794a136047d4b
+      version: 4f8e95faa0d5516e1e1c77a347fde7c0d051d08c
     status: developed
   plotjuggler_msgs:
     doc:
@@ -6001,12 +6001,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 10.2.3-1
+      version: 10.2.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 53d0a54ebb9118aa24f947da4b55eb890b7a8144
+      version: 10ffb64d31521a14c233977f22a65bcb88a7ac70
     status: maintained
   rcl_interfaces:
     doc:
@@ -6461,7 +6461,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: fa98228684dad6d75971bdd5818af320fadbcc0d
+      version: e8ce7becbaa115a776599814d41902d668e4befb
     status: developed
   rmf_simulation:
     doc:
@@ -6680,7 +6680,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_dds_common.git
-      version: e2378e28cf4be07766cb88147b374d87cfba2af4
+      version: 6b94d8904708f22fc2b4c32e3b5402962934507c
     status: maintained
   rmw_desert:
     doc:
@@ -7229,12 +7229,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_ign-release.git
-      version: 3.0.3-1
+      version: 3.0.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 64a87d5ee9bc06780ad7b0daa8b0f0ee50e94d30
+      version: 111e4400ec68882821f41021cf28a15e6735074b
     status: developed
   ros_image_to_qimage:
     doc:
@@ -7344,7 +7344,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 642fd5b87dc9f41a5bbc400d59e4538762d2892f
+      version: c5f65b1eb9b3ded50b4402dd22a00c6fb5f6155e
     status: developed
   rosbag2_bag_v2:
     source:
@@ -7646,7 +7646,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Tonywelte/rosidlcpp.git
-      version: aee414256945e6a1ebd0c0b73960c49e49978e61
+      version: 2841f2526b829969ab117be00c1836876f6cd2d8
     status: developed
   rospy_message_converter:
     doc:
@@ -7680,7 +7680,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
-      version: b9f618cd410b18b6f29b39a2e1d99d85f2610a13
+      version: 0eb68de757eac3b0504f3ec237c9abf857579246
     status: developed
   rot_conv_lib:
     release:
@@ -9506,7 +9506,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 9e5269319fac311e428d36d260f25678a546ec16
+      version: 6c271103b4a2735829d54aba174d520bf95ad4c5
     status: developed
   ur_description:
     doc:
@@ -9521,7 +9521,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-      version: 6fe574eaa5a378135013379776b28820309ca1b9
+      version: 8bd1b533b5b47b7c046089c30a1f77819bd9f672
     status: developed
   ur_msgs:
     doc:
