@@ -1303,7 +1303,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 952cb0a606159fce63a3f7863c283882f0f6df6e
+      version: c0629738b84a10b2fab591775361e10b5caf8d56
     status: maintained
   control_toolbox:
     doc:
@@ -1318,7 +1318,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 6829ff1451844901e7a2fea68ea1a2b81a8606db
+      version: 487d2e9bf42a11f190f2947500ead5c674a1c972
     status: maintained
   cpp_polyfills:
     release:
@@ -3259,7 +3259,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: a9b9d92a046758db51a7785d3d4e57d85fab37ba
+      version: b2f117ba07adf14cb6e26f86d3b59836578a36f6
     status: developed
   kinematics_interface_pinocchio:
     doc:
@@ -3458,7 +3458,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/launch_frontend_py.git
-      version: 86c03eda06667303f9b4248b0b0a9da1cc0de9c6
+      version: 499f54517a650a91e8ffd61b832fb9478f96054b
     status: developed
   launch_param_builder:
     doc:
@@ -4157,7 +4157,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: ad637b4153ad722ae3e866eea4fbae294772bc79
+      version: e377b8b85ca94a07158435d9699eedf33e8b5573
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4191,7 +4191,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: aef180047b656206a724709931e8b16caa591a8e
+      version: bb32f140e30ee0f2b18bbce67f492434a336e2f1
     status: developed
   mola_test_datasets:
     doc:
@@ -6118,7 +6118,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: aa60fcf22a6753fda53644973f64e932c2f3b2b5
+      version: 6fbf03945fe7611f40b8552baa5e81ce0188ce60
     status: maintained
   rclpy:
     doc:
@@ -6264,7 +6264,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: f337644c9b5d167122ed990ea0691c1d6fcbe772
+      version: 4303f5b5f65b0a29771fd7d4a3b804db6e91dd5c
     status: maintained
   reductstore_agent:
     doc:
@@ -6786,7 +6786,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: f62be972984818d99cf129da321f42da2c78a211
+      version: 9eff3ac5a8efb17e5b3351b1c4e586149f786b97
     status: developed
   robot_calibration:
     doc:
@@ -6918,7 +6918,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 9a53382685f76671760563d624910002ef5b0ac9
+      version: 02c0219c05e24a4a39b81366bfddee17fd0566bc
     status: developed
   ros2_control_cmake:
     doc:
@@ -6933,7 +6933,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
-      version: ac91a7ee0c951ab64f94bc05ead1ac3f10394218
+      version: f0091383d1051d430dd3853d9700341828448a5e
     status: developed
   ros2_controllers:
     doc:
@@ -6977,7 +6977,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 4b1f45eef07dbfeba8a662dbd32c655f9809a9af
+      version: 9a8d1104a653f30ee9bd2fffb5975be08be44e24
     status: developed
   ros2_easy_test:
     doc:
@@ -7441,12 +7441,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl-release.git
-      version: 5.0.1-1
+      version: 5.1.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 04bd000e1060d8abe93478a54a63ac96931a1ffa
+      version: 319851286c5c133a31b2e3204a7b9ca0735aecca
     status: maintained
   rosidl_core:
     doc:
@@ -9049,7 +9049,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: 17df6d470dd1f32cec7f02690c6454c41b2f0350
+      version: 1c27a718cd760fb738a19bb5f559bde66d56a740
     status: developed
   topic_based_ros2_control:
     release:
@@ -9192,7 +9192,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Jannkar/turtle_nest.git
-      version: 6087523b134079bc63598fbf370f0340ab689961
+      version: bf8d1fe7317cf3139a01a51969ce25c3d2d22e4e
     status: developed
   turtlebot3:
     doc:
