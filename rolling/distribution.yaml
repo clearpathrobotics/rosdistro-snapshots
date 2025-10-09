@@ -1338,7 +1338,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: 66285d14eaef299e83e724b1ad77ebf8aa0218f8
+      version: 561fcc5b08f639dff31af62d83cfede0fea0718c
     status: developed
   cudnn_cmake_module:
     doc:
@@ -1918,7 +1918,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: b2a54b5476538ccb37f83fe1d88a9ebe0e8fbb68
+      version: 8feef92a3e63e7a1789ef16b6daee95a4fd01b7d
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2200,7 +2200,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: c0ad5542afa6dde8bf5f5f385cc676dbbaaafa5f
+      version: 99c2b441b1efcf9e49bcba50ad6f021b4bd33128
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -3637,7 +3637,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: f0f2aca56611bf9430eb6edc23e9bd55cf96a26d
+      version: b2baf40cce69ef9d4509b4187ab9b828fa10c41e
     status: maintained
   libg2o:
     release:
@@ -3778,7 +3778,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: ec5734e491ab7cb443c6175996d1791854341a55
+      version: 83ab7f4f578bd00e1026a7cd9f7baa4f1a62cbeb
     status: maintained
   mapviz:
     doc:
@@ -4157,7 +4157,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: 7c1d4963cc53bc29b06e35c8ae12dbe944a808f9
+      version: a0c26f429c2d5162af491b138ae780bdfb260240
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4172,7 +4172,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 0b9c530cb6b026dad45447e10c6a23eb8a97521a
+      version: 4b3e95011cde501a5a2e3b2bf7d9ff6bd9cf6848
     status: developed
   mola_state_estimation:
     doc:
@@ -5175,7 +5175,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: eb51feaf3f4bddb9768d4f8ac93536407a1779cd
+      version: b2346d6ba383342c835ef72e43abc3478434d16c
     status: maintained
   parameter_expression:
     release:
@@ -5411,15 +5411,18 @@ repositories:
       url: https://github.com/ros/pluginlib.git
       version: rolling
     release:
+      packages:
+      - pluginlib
+      - ros2plugin
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pluginlib-release.git
-      version: 5.7.0-1
+      version: 5.8.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
-      version: 8cd98e6f6a6ce636db13d0d81efe28da168a7e74
+      version: 844bc79666546b2117264aa46ec288fc1b72aa4a
     status: maintained
   point_cloud_msg_wrapper:
     doc:
@@ -5764,12 +5767,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/python_qt_binding-release.git
-      version: 2.4.0-1
+      version: 2.4.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: 7a013569b355b4b4e04c138dedb075ce4b7bcab1
+      version: 20bcb5f7bf314f225dd9f5295de0e72ecca8bae2
     status: maintained
   qml_ros2_plugin:
     doc:
@@ -5818,7 +5821,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: 9635717a56d1c034ae0c6d4ef0280b7ddbfb8801
+      version: dfd6c38adee363ece498f4dffdc2fd42131c58cf
     status: maintained
   quaternion_operation:
     doc:
@@ -6012,7 +6015,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 76b9d9c60234168ddd5bbc4563cea38b4891cb7c
+      version: 2225f623ee78d371bb4be1cad1d9f8b408cb81a4
     status: maintained
   rcl_interfaces:
     doc:
@@ -6118,7 +6121,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: cd9099d85be4619878af0f47f616270448d857e2
+      version: 715a983c9fe31497317bc4545625d13a0142553e
     status: maintained
   rclpy:
     doc:
@@ -6134,7 +6137,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: cf9240affbb814573e2edb7c0e119273690823d9
+      version: 10f70c9674933159b348524d8872d4bc3d542116
     status: maintained
   rcpputils:
     doc:
@@ -6201,7 +6204,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 3bbdf935477c2ba999943085abd4fbfe8d2867ce
+      version: 5dfee3fe41e680dd4f3b52f738aa032fc6fdf059
     status: maintained
   reach:
     source:
@@ -6289,7 +6292,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: 29e638691f66287851077cba333c8d22acad5d03
+      version: 87c003b9c9c55fccbb4a3e652fe5fd7c299fc7f8
     status: developed
   resource_retriever:
     doc:
@@ -6332,7 +6335,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 77b10aa77e8f9033091716f3d34d8e2d780fb8ea
+      version: a5ad5c40d9b6209008a246a491284bad8deba74a
     status: developed
   rmf_api_msgs:
     doc:
@@ -6633,7 +6636,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: db761272b97dff7ffced709dc2b33236af0aabbd
+      version: 455e062491fc43e1bcdcad9f9f233d528c0d3588
     status: maintained
   rmw_connextdds:
     doc:
@@ -6713,7 +6716,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/christophebedard/rmw_email.git
-      version: b6056b32962a13f66412c53057c8beaa634a1bde
+      version: f5e622bab24edaad8e0da054c7dbc698c6fb809c
     status: developed
   rmw_fastrtps:
     doc:
@@ -6918,7 +6921,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 5db93ce34d1e04e45732c8902ba1d741bf8c332e
+      version: b53dd8e5f754a0af52396b1d4d7f57c9e204ce82
     status: developed
   ros2_control_cmake:
     doc:
@@ -7079,7 +7082,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: b530336ebeb191d74158f383c4fcb0260e5a34cb
+      version: bed1c783387257f82fa806ef0572928523165bf1
     status: developed
   ros2acceleration:
     doc:
@@ -8288,7 +8291,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: ce030d4a46ae262da674485a1e395b25f96826c2
+      version: a9bb9bef9958d2ca3be4cfe9250cd1b319625fc9
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9608,7 +9611,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/urdf.git
-      version: 71abc4f25da5ba5c4e77afc541b6669b004342a8
+      version: 9c1ddd6309f761727edf86ed16013e3f7951cc9d
     status: maintained
   urdf_launch:
     doc:
@@ -9674,7 +9677,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: 230f51a4d2a302d3082d704286f39b834a5e39ae
+      version: 973baf479512b0b34951b3d5ebb616c22990d781
     status: maintained
   urdfdom_headers:
     doc:
@@ -9879,7 +9882,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 80a6faf35f9d50de7761f464d3656f4bb5eb9334
+      version: b50975993e5f7f8ff389aebe90145912f403cc62
     status: maintained
   vitis_common:
     doc:
