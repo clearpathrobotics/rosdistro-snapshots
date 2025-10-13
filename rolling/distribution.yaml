@@ -985,7 +985,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/camera_ros-release.git
-      version: 0.5.0-1
+      version: 0.5.1-1
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
@@ -1147,7 +1147,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
-      version: 4198a34117016e8e1cd3e7760f56dad70b0e571f
+      version: de53be4092a49c3d3a298f4f72e44b3578cc2d3c
     status: developed
   coal:
     doc:
@@ -1918,7 +1918,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: d6316571fa6c2cd5273a3cd2a05408b8d6f59e00
+      version: cdd01d5a28d5de28dc21939cf20d369914f17e40
     status: maintained
   feetech_ros2_driver:
     release:
@@ -3633,7 +3633,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.5.2-1
+      version: 0.5.2-2
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
@@ -4153,7 +4153,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_imu_preintegration-release.git
-      version: 1.12.0-1
+      version: 1.13.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
@@ -4293,7 +4293,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 4fc5c824a8af658d000d58b9f8f6eafbd4d81875
+      version: 65aa94c4a5e2d3c44036c2ac31d37815e9b0c6b5
     status: developed
   moveit_msgs:
     doc:
@@ -4361,13 +4361,18 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: fc63807d819cbf8490a1586e71092ea2796787e0
+      version: dba2bee65ed3900c724f96860898adae846d778b
     status: developed
   mp_units_vendor:
     doc:
       type: git
       url: https://github.com/nobleo/mp_units_vendor.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mp_units_vendor-release.git
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/nobleo/mp_units_vendor.git
@@ -6941,7 +6946,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: df846fe2458207bdbf4bc3ab980855bf3d45ff2c
+      version: 4d8f406a2945e055e8102017ac00c42fcb90c508
     status: developed
   ros2_control_cmake:
     doc:
@@ -7017,6 +7022,11 @@ repositories:
       type: git
       url: https://github.com/nobleo/ros2_fmt_logger.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_fmt_logger-release.git
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/nobleo/ros2_fmt_logger.git
@@ -8359,7 +8369,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
-      version: b49117c28014574729289d12a43af1c123921e89
+      version: 8ff8cf3ae7460be88a847d31797fb02fbac1327f
     status: maintained
   sdformat_urdf:
     doc:
@@ -9783,7 +9793,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
-      version: c37a01f9844b21397fed980643d496fbd0382799
+      version: 2afb2d42e8ce30cbd4b11f394eaa3acfe537fb5e
     status: developed
   variants:
     doc:
@@ -10069,7 +10079,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: bc221419fd04d5e13a501445d33c25733e60d751
+      version: d95de18f616a9e2d8660efd502b600cd7ccfbb12
     status: developed
   zbar_ros:
     doc:
