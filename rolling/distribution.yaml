@@ -3517,7 +3517,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 9c79cba2bb79808d9a892b95fc72128a677cd4c2
+      version: e3ef186b9d77809ef1bf286212b98e627659cb71
     status: maintained
   ld08_driver:
     release:
@@ -4137,7 +4137,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: de339d4cd18b4e27a7a1713c59c682a25550474b
+      version: aed164058be0c50242c43e53e68d2c773b6d1bfa
     status: developed
   mola_common:
     doc:
@@ -4197,7 +4197,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: b5cf5c311a70d0781df444a9059d2d5d7bebafa3
+      version: 3afae9c64ca32577d147d3f83bfed7076370578f
     status: developed
   mola_state_estimation:
     doc:
@@ -4482,7 +4482,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 3a932a88a6a313285569c0a81e1acbf60676a291
+      version: c8e37a7f1f0283cb3a05fc965d4ce7ee8fe3bdd6
     status: developed
   mrpt_path_planning:
     doc:
@@ -4537,7 +4537,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
-      version: 0986af18d348fd56b8b1eb0525e630b9ebc7c420
+      version: fe03dbc654635f90c4386e329501eb8966470c1d
     status: developed
   mrpt_sensors:
     doc:
@@ -4611,7 +4611,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: eff6a04dd6bd2fe5607a8552796115dd660d5884
+      version: 32385ee93df1ea947fce188f2e84cbea315a8ea1
     status: developed
   nanoeigenpy:
     doc:
@@ -5466,6 +5466,15 @@ repositories:
       type: git
       url: https://github.com/pal-robotics/play_motion_builder.git
       version: humble-devel
+    release:
+      packages:
+      - play_motion_builder
+      - play_motion_builder_msgs
+      - rqt_play_motion_builder
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/play_motion_builder-release.git
+      version: 1.4.0-1
     source:
       type: git
       url: https://github.com/pal-robotics/play_motion_builder.git
@@ -6121,7 +6130,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 10.2.4-1
+      version: 10.2.5-1
     source:
       test_pull_requests: true
       type: git
@@ -6227,7 +6236,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 30.1.1-1
+      version: 30.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -6243,7 +6252,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 10.0.0-1
+      version: 10.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6451,7 +6460,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 3cc4c85cfeced17cc86f4831b2188a4be9f09923
+      version: 35b8e5b355eb51ec40d463dbfcbb469e467ab5e5
     status: developed
   rmf_api_msgs:
     doc:
@@ -7037,7 +7046,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: a2e56e4c39ecba978f998871175ab0c5a2d113f5
+      version: 8ab4bf3df98ce78a229337007399afd0da15b729
     status: developed
   ros2_control_cmake:
     doc:
@@ -7121,7 +7130,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/ros2_fmt_logger.git
-      version: 60e1e5f8d3040a1e004f6a2faafa5831ffb0dc2b
+      version: 751d0bc32ccd358a8886c7c1e8dc8ebf78fccaf9
     status: developed
   ros2_kortex:
     doc:
@@ -7303,7 +7312,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
-      version: 8450ca2fbd8ec545ac08a044754370951c5dac60
+      version: c47b9975cd7cbab2c5bba58abbdc34fe62b627e1
     status: developed
   ros_battery_monitoring:
     doc:
@@ -8462,6 +8471,22 @@ repositories:
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: 8ff8cf3ae7460be88a847d31797fb02fbac1327f
     status: maintained
+  sbg_driver:
+    doc:
+      type: git
+      url: https://github.com/SBG-Systems/sbg_ros2.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/SBG-Systems/sbg_ros2-release.git
+      version: 3.3.0-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/SBG-Systems/sbg_ros2.git
+      version: 196136dc141593832ffb48e4a0b0c4c436f7a94b
+    status: developed
   sdformat_urdf:
     doc:
       type: git
@@ -9636,11 +9661,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 2.4.0-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: adfc196ea832abc48a4bb43b9072c0309daa9686
+      version: 0fe3aec08a1c0b0bc3825ade96be7fe4b2054b03
     status: developed
   ur_description:
     doc:
