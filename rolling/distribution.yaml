@@ -904,11 +904,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
-      version: 4.8.0-1
+      version: 4.8.2-1
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 36d13ed5f7f0a240d1d86668ac3442ec392585cd
+      version: cdaca9c2c68f4b3aa187040f72b02b8dc8a1ed25
     status: developed
   better_launch:
     doc:
@@ -1800,7 +1800,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_codecs-release.git
-      version: 2.0.0-2
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
@@ -1917,7 +1917,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 486ce90ef5352d23867bafee5b937f931464f4b1
+      version: c88e2ea474ea23eceed488d15a6ac8295a745762
     status: maintained
   fastdds:
     doc:
@@ -2216,7 +2216,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 9ff269f08bd9de04f2e70765a4c5af44974419f8
+      version: e6f351906152f41b3a3febffcac509e56f56be03
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -3677,7 +3677,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 48560d72cd675814d1d7718a9a44d2aea1ef6c79
+      version: b1f09c013a01a82c739f0e30b71fd8d000ef5655
     status: maintained
   libg2o:
     release:
@@ -4537,7 +4537,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.1-1
+      version: 2.15.1-2
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4955,7 +4955,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OctoMap/octomap_ros.git
-      version: d6c44758fa6b548c6db14f6bbf53992927839dbd
+      version: 183818443db9ac7478816318d7f0352278f8a7c2
     status: maintained
   octomap_rviz_plugins:
     doc:
@@ -4970,7 +4970,7 @@ repositories:
     source:
       type: git
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
-      version: 7423489fa867f199590da3ce7179467754fac714
+      version: 2302d27d34847233fdbf9620719bb330e8cc4ba8
     status: maintained
   odom_to_tf_ros2:
     doc:
@@ -6224,7 +6224,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/rcl_logging_syslog.git
-      version: e863a15b7fa60c1e6da300f779cc6daeab59d2a2
+      version: a79ac79cfbb4e98f8fcecee2e199ca743b5c20c3
     status: maintained
   rclc:
     doc:
@@ -9633,7 +9633,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 8d758a48847e06614dfc6c47be291b497d8b5c51
+      version: d026b3850ae5e02410faca4b62f1fc373ff3d06d
     status: maintained
   udp_msgs:
     doc:
@@ -9742,7 +9742,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 4b618c00417f51fe201b31d8cb2bde0838398db7
+      version: 45496b8928d55aaab6cd1039bab1b4b03408b9d3
     status: developed
   ur_simulation_gz:
     doc:
