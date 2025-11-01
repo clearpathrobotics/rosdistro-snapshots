@@ -112,7 +112,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/imu_ros2.git
-      version: 72a2b80cba4dc0daecc23245b15682c589112ee7
+      version: 365b399172d19e21627f3ba76fa59cb04a599c5e
     status: maintained
   ads_vendor:
     release:
@@ -250,12 +250,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake_ros-release.git
-      version: 0.15.3-1
+      version: 0.15.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: 2d1fe183b6d48d6e4e2a2b6d615335dae600c323
+      version: 3158152989578108db29b8179d43a9263243eeab
     status: maintained
   ament_download:
     doc:
@@ -1319,7 +1319,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 8ad83675c0639a093dd49d7a52ddf96929c8672a
+      version: 753d32ac9cee44c4f938fc68a31fbef50539feb9
     status: maintained
   control_toolbox:
     doc:
@@ -1334,7 +1334,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: f5a3f2fac56d2b8ffb5285a2aad5f13292ac7d8e
+      version: d12a587b8d857ccd10514b9df1b4ae9c87a04801
     status: maintained
   cpp_polyfills:
     release:
@@ -1917,7 +1917,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: c88e2ea474ea23eceed488d15a6ac8295a745762
+      version: 9beec7e6934b020e5de39f97a244d6e4f28cb6ce
     status: maintained
   fastdds:
     doc:
@@ -1934,7 +1934,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 73105e7867b35073d56371b36eaaacd6909a89af
+      version: e9c5c55885295052436e742910bd66a421469a77
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2763,7 +2763,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: aee827fed941a6069c586b05388871aea433352f
+      version: b6e23bb415c738f9df7658cc3f2478c88d394367
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3290,7 +3290,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 85cb9d6089cdb1b296ecf4232bf318613ad41117
+      version: de481e395c7e0c0845ddcd862b694c8684e56c1e
     status: developed
   kinematics_interface_pinocchio:
     doc:
@@ -3744,7 +3744,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/libstatistics_collector.git
-      version: 1ff93b45e3014e10f8bc895316a09605c741bd58
+      version: 5c7b1642e79dc29fce6fb1ace52d5b3a2edb81d1
     status: developed
   libyaml_vendor:
     release:
@@ -4334,7 +4334,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 4cbeb9b972223fae8482c8081c8600de6132defe
+      version: 0dd551d1ec8d139c38d05d6e951aeda15537f6aa
     status: developed
   moveit_msgs:
     doc:
@@ -4541,7 +4541,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: db9cfece6fb58815bad0bc641e790b768aaa44b0
+      version: ac9ce562aedeb594b9a6bdecf2fb934a31e5227e
     status: developed
   mrpt_ros_bridge:
     doc:
@@ -4625,7 +4625,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 88916a294b31133e6042767f22102dc69c274ad2
+      version: ebf6ff0b96a3ef2af51e75b5c9d936fcca5b67cd
     status: developed
   nanoeigenpy:
     doc:
@@ -5869,7 +5869,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AndrejOrsula/pymoveit2.git
-      version: f2fc1c4d59752581538c3f493a16866cf72a6a39
+      version: 5f970783bbc628aeb38daa4eae62bc83364536ec
     status: maintained
   python_cmake_module:
     doc:
@@ -6412,7 +6412,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 334237651c41d2c72aaa505c5c4e292b9b03e5bb
+      version: 1e5fa502ef60173dfe0d5f84ea323de28584b8e0
     status: maintained
   reductstore_agent:
     doc:
@@ -6485,7 +6485,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 836be59a8af78b002f57e5691d43a2c9b0fe79bb
+      version: 13f2653799577b0bd900201646941eed59a4237e
     status: developed
   rmf_api_msgs:
     doc:
@@ -7071,7 +7071,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: f53552b1a97c16f57c870877ab32564461e200b5
+      version: a7e0b3a06749709e5595a1fa45c22367421f0b60
     status: developed
   ros2_control_cmake:
     doc:
@@ -7086,7 +7086,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
-      version: c11ffa55daab67628aa589145b9b92e1e7647f52
+      version: 7797fa99578f90085e3e8422892173102c04295e
     status: developed
   ros2_controllers:
     doc:
@@ -7130,7 +7130,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 56c6fa00f6d0272b370a60c1cb2e7ac50f14b9c6
+      version: 2cd0d47995419783aa97b400b39b34d40631947e
     status: developed
   ros2_easy_test:
     doc:
@@ -7753,7 +7753,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2-rust/rosidl_rust.git
-      version: 8c9775583a3cf9f11f356acb4a70cffefe1a1ddb
+      version: 7fd651eda5d5d5bc7e1d06ef40a68213e8caf1ba
     status: developed
   rosidl_typesupport:
     doc:
@@ -9233,7 +9233,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: f617d2acdfb68d8ea758da574586b6ba3b89b28f
+      version: 350e2ee9e713285b0cad189b3e892a4dc89fd8f6
     status: developed
   topic_tools:
     doc:
@@ -9633,7 +9633,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: d026b3850ae5e02410faca4b62f1fc373ff3d06d
+      version: d71e82dde5365dbe3008af81f666883e96369239
     status: maintained
   udp_msgs:
     doc:
@@ -10047,7 +10047,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 39063eaa5ef20bc64e8d88e14b5ccf4173d59127
+      version: aaf5c7fedb97e82d0b2848785e182751c8dc0fa5
     status: maintained
   vitis_common:
     doc:
