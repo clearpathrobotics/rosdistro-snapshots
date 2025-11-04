@@ -976,7 +976,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
-      version: ab26e78f1473b30af999d5061604ef87cc0614c6
+      version: 742e0de95e6520baa2c3fe208e5040531b4d497e
   boost_sml_vendor:
     doc:
       type: git
@@ -1354,7 +1354,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: b8f1f661aa8bd4041612e4e90110418bb0095d11
+      version: b0070beced66ca27dcc3925145bcc1acd03954be
     status: developed
   cudnn_cmake_module:
     doc:
@@ -1641,7 +1641,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 15f3840f8bc43171f847716dcfb404402da95ecc
+      version: 6330a07cb5b8ca6d5ea8cf3812b6bec8c58d0a72
     status: developed
   ecl_core:
     doc:
@@ -1774,7 +1774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 95187af68bcdcc076245f82a3dc0ddd4c1ef6348
+      version: e47f6f0a5e7611ac0fbbc91a7d4a9bfc9d93c119
     status: maintained
   eiquadprog:
     doc:
@@ -1917,7 +1917,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 9beec7e6934b020e5de39f97a244d6e4f28cb6ce
+      version: 7af127a6eb86e32ef056af13ba39da0b8cfc1251
     status: maintained
   fastdds:
     doc:
@@ -1928,13 +1928,13 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 3.2.2-1
+      version: 3.2.3-1
     source:
       test_commits: true
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: e9c5c55885295052436e742910bd66a421469a77
+      version: 06fe069dfebdf0c6716ae39f3016c916073d9a29
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2216,7 +2216,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: e6f351906152f41b3a3febffcac509e56f56be03
+      version: 015f08820317ea98d085afb8470c74f10bb73edb
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2457,7 +2457,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/graph-monitor.git
-      version: 15f8795051bc3a7c9ef758eb776305e9995c3011
+      version: df2fe23ec7c4402c56e10f5dd1030cae82772018
     status: developed
   graph_msgs:
     doc:
@@ -3036,7 +3036,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: eb38612bd18c1d70b92f33ac9f1dc0b0e14e9b32
+      version: 96935d6e32c7d601b86d803236c261752591ee8a
     status: maintained
   image_transport_plugins:
     doc:
@@ -3224,7 +3224,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: c815b3ba45fa8b7cf4b7a21b69b26ad0bc04fd5c
+      version: 6abee5eb0ccb222a0f08fa502e3d04bc303d176c
     status: maintained
   kdl_parser:
     doc:
@@ -3677,7 +3677,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 760456acfc78419b61c9df01d944007c7f3f6d22
+      version: 79be15a5f1528229a40504a2592056e9dd6fd3c8
     status: maintained
   libg2o:
     release:
@@ -4153,7 +4153,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: fe06f2eb507ac94a905cbe9cf34adb5d7918e8f6
+      version: e009896a8ec83fb9b448e1aa5974bdb6786eacc1
     status: developed
   mola_common:
     doc:
@@ -4213,7 +4213,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: dc45a925cfcbcb1ccef37381608f1995c99889d1
+      version: 3c0182604397a63eca053753893e20e8859de822
     status: developed
   mola_state_estimation:
     doc:
@@ -4424,7 +4424,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 160527340a1aa108b6ed029949613cced0cb3b14
+      version: 83cc982032cd2b1ecf888b2a47d3f620f9c5944b
     status: developed
   mp_units_vendor:
     doc:
@@ -5215,7 +5215,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ouster-ros-release.git
-      version: 0.11.1-5
+      version: 0.13.15-1
     source:
       test_pull_requests: true
       type: git
@@ -5748,7 +5748,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: ea6c337686ee01c386f18297a6477e3f4af59ced
+      version: 1496ec31f5b7c1813fcddeb1a5076f75e1091d27
     status: developed
   py_trees_js:
     doc:
@@ -7067,11 +7067,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 6.0.0-1
+      version: 6.0.1-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: a7e0b3a06749709e5595a1fa45c22367421f0b60
+      version: efa1dec76761014a0dbb06de5f70d4624c2260c0
     status: developed
   ros2_control_cmake:
     doc:
@@ -7130,7 +7130,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 63bae1ba07aabcff7c31067fdbdc4ef9bd18d9d9
+      version: 4c4a13e44c6d01fee7416a89ddcb3f7d57e8f7da
     status: developed
   ros2_easy_test:
     doc:
@@ -7285,7 +7285,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 8653a5d54e79e7222fca7ae295da731714548b92
+      version: 58f324536b19dbdfc9879b0fd6f58e9605008695
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7584,7 +7584,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 05cd355868420017be34e8c76513406402641042
+      version: 4eed34260e8e6b847002029729bdf324bf76619a
     status: developed
   rosidl:
     doc:
@@ -9340,7 +9340,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 424baf5eb1d4f7c5e9f49b98886a6ec9185c7915
+      version: 8d384ac96dca359ea67ada5cd42b95d80248900d
     status: maintained
   turbojpeg_compressed_image_transport:
     doc:
@@ -9742,7 +9742,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 45496b8928d55aaab6cd1039bab1b4b03408b9d3
+      version: 29842df4caee549264e74adff4899820172d6c13
     status: developed
   ur_simulation_gz:
     doc:
