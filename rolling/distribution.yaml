@@ -654,11 +654,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/automatika_ros_sugar-release.git
-      version: 0.3.2-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: 84d354d723c493f5adfc6300c5f21921b0046c9d
+      version: a450d403b03f3950def189c688c37748ee8a9066
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -1789,7 +1789,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: e3b243a8ea625d37aeb8c1f6580635ccc0522ed9
+      version: c6c8eb1b9d79ed9d326ee6f99941b2210b08bdb2
     status: maintained
   event_camera_codecs:
     doc:
@@ -1934,7 +1934,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 06fe069dfebdf0c6716ae39f3016c916073d9a29
+      version: 5482abece2a63fadf2c6759e0e34fd649f983eba
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2212,11 +2212,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 3.2.1-1
+      version: 3.2.2-1
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 015f08820317ea98d085afb8470c74f10bb73edb
+      version: 72a311a9abd475b3251796a5c6fc3afe319f8cef
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2368,7 +2368,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 77ac8b4228867eb575bfe079cd26cb0006b978e4
+      version: 5b5bc9f58272cde4dfd41bd40d2b70cc2ca85c6e
     status: maintained
   geometry_tutorials:
     doc:
@@ -2553,7 +2553,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 96e53555e6ee115f4bff5d471ddef3d3c80ca935
+      version: 663bdb6ee02ec28dc88da84cb3d22a362aa1512a
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2763,7 +2763,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: b6e23bb415c738f9df7658cc3f2478c88d394367
+      version: b81d95d5f3fea06455089c8991e5df5d501e6523
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2933,7 +2933,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 440cf905af7d8a9ce7497f1e1ff207a8d1ca6dd1
+      version: 356aa26e4c8bf064ae24b1d596ba521857f093dd
     status: developed
   hyveos_bridge:
     source:
@@ -3677,7 +3677,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 79be15a5f1528229a40504a2592056e9dd6fd3c8
+      version: 6af90deaf224711ec36cf99fcc817372b11e0295
     status: maintained
   libg2o:
     release:
@@ -3992,7 +3992,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: da6aaadaaf72a0b227f19bd759fd9602a1b61048
+      version: e812c4cba36573ed3fa76150367efd0e7c529e5b
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4153,7 +4153,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: e009896a8ec83fb9b448e1aa5974bdb6786eacc1
+      version: 20d1c383a70f5b2d4a78874f0a255618fe103de6
     status: developed
   mola_common:
     doc:
@@ -5454,7 +5454,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: cfda5e4bd4c238b10530d39b12d7d7f692f6cf45
+      version: f465599c2c260352137d5ef1816c1def1c6c684a
     status: developed
   play_motion2:
     doc:
@@ -5590,7 +5590,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 656e946f24ae8e26e8d1149d1af451abf5c33305
+      version: ce1a25a87701b186fed7d69b39b981e9c5736d3a
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -6412,7 +6412,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: e668fb560a53548247d69443ac8bf752470d8a33
+      version: 59ff73bf289d71a3c9252777d479fa1acbb09172
     status: maintained
   reductstore_agent:
     doc:
@@ -6442,7 +6442,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: 4c4b1b63a581ed4de3705507ddc8ae7e988555f7
+      version: 5dafad7f9e66d82b85c443f31663e41e5301a5a8
     status: developed
   resource_retriever:
     doc:
@@ -7177,7 +7177,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: b86f223249da004f6ef863c788ed4fce7157be24
+      version: cafe348144f223cecbbaeee29f6ad38ade011336
     status: developed
   ros2_robotiq_gripper:
     doc:
@@ -7254,6 +7254,12 @@ repositories:
       type: git
       url: https://github.com/ros-acceleration/ros2acceleration.git
       version: d8c146562b21174c871702dc6ce9eb89791e2f4c
+    status: developed
+  ros2ai:
+    source:
+      type: git
+      url: https://github.com/fujitatomoya/ros2ai.git
+      version: 6f3c82dad2eb343f00b64b8785b43135d1645948
     status: developed
   ros2cli:
     doc:
@@ -7579,12 +7585,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbridge_suite-release.git
-      version: 2.3.0-1
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 4eed34260e8e6b847002029729bdf324bf76619a
+      version: 7426843a88b2bf4795fb653daa6e6a5e1f9cbf8b
     status: developed
   rosidl:
     doc:
@@ -7686,7 +7692,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport.git
-      version: 7f3466266dd11baf29d3b2d82ee22c93104d7675
+      version: a368a2b91cd147f6df11ddbca4242cd52cd3a6f8
     status: maintained
   rosidl_dynamic_typesupport_fastrtps:
     doc:
@@ -7702,7 +7708,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport_fastrtps.git
-      version: 8ecfec9e819e45ddc185c82b95ed4b33614dd319
+      version: 41be99bc8ed526db63d6b0c031a2a128c5a367f8
     status: maintained
   rosidl_python:
     doc:
