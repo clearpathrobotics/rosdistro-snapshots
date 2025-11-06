@@ -658,7 +658,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: a450d403b03f3950def189c688c37748ee8a9066
+      version: 939b0bf81e050fbe71d32fe2aed41d9900cc3855
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -752,7 +752,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: d383f0d0d38de0d64dd26f57c2b28d29f916b89d
+      version: 5fadbb76b96083685cb36335c3c28d6554392d7e
     status: developed
   autoware_msgs:
     release:
@@ -986,11 +986,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/boost_sml_vendor-release.git
-      version: 1.1.11-1
+      version: 1.1.12-1
     source:
       type: git
       url: https://github.com/nobleo/boost_sml_vendor.git
-      version: 6171f55d167c9ee135e78a0ea1edd64ed21f8ed2
+      version: 6247db0b27ed05bc351ab79b6d0a64edbf27d159
     status: maintained
   camera_ros:
     doc:
@@ -1146,7 +1146,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_executive.git
-      version: 3679da463289f2bf6898c759bf9e24001abba5cb
+      version: 695c6e361cee8eba6b035bb3b4297690b7b7197c
     status: maintained
   clips_vendor:
     release:
@@ -1641,7 +1641,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 6330a07cb5b8ca6d5ea8cf3812b6bec8c58d0a72
+      version: 02c3aa69334bedb607b23b7ab44ac99046aad7a4
     status: developed
   ecl_core:
     doc:
@@ -1774,7 +1774,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: e47f6f0a5e7611ac0fbbc91a7d4a9bfc9d93c119
+      version: 3fff56b25c5c668238e524542101cea1b2e28bc0
     status: maintained
   eiquadprog:
     doc:
@@ -2368,7 +2368,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 5b5bc9f58272cde4dfd41bd40d2b70cc2ca85c6e
+      version: 20e81e52e455b596f4de8663abd5d6f84d71325e
     status: maintained
   geometry_tutorials:
     doc:
@@ -2933,7 +2933,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 356aa26e4c8bf064ae24b1d596ba521857f093dd
+      version: 0961dfb4ced6bd5ff70cfb769d627d28c694d29e
     status: developed
   hyveos_bridge:
     source:
@@ -3483,7 +3483,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 3bd49d64f030f3f6d462cb88c7b11ab1d13c4a58
+      version: 0d544768dd7246529bc41dde986ad93db248bbad
     status: developed
   launch_frontend_py:
     doc:
@@ -3533,7 +3533,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: e3ef186b9d77809ef1bf286212b98e627659cb71
+      version: 582004713f9e31d6db35c4ca0e763e154ede68a0
     status: maintained
   ld08_driver:
     release:
@@ -3677,7 +3677,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 6af90deaf224711ec36cf99fcc817372b11e0295
+      version: 559128b1f1b3cfd82f46b8a1248cbb4de0463db1
     status: maintained
   libg2o:
     release:
@@ -3992,7 +3992,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: e812c4cba36573ed3fa76150367efd0e7c529e5b
+      version: b64e5ef1e9188e9413eb7e61c8d689fc03956fa5
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4153,7 +4153,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 20d1c383a70f5b2d4a78874f0a255618fe103de6
+      version: 83b2312a6032ba8056d58e881a207cdcf3965296
     status: developed
   mola_common:
     doc:
@@ -6298,7 +6298,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcpputils.git
-      version: 6f2f0a1cc80ca599a5851b84085e587d01d6944d
+      version: 6fe02db34287e5c233a389c0aa88e3871c41bd0a
     status: developed
   rcss3d_agent:
     doc:
@@ -6485,7 +6485,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: d7e0baf3d9eaa939fc70c187f5f6cc8332d88013
+      version: 1c82cd7df5315b5375fd24edbe55281aca38b5cf
     status: developed
   rmf_api_msgs:
     doc:
@@ -7071,7 +7071,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: efa1dec76761014a0dbb06de5f70d4624c2260c0
+      version: db10bd6b0b6b976345fe1e41faa7590367c87c6b
     status: developed
   ros2_control_cmake:
     doc:
@@ -7151,11 +7151,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_fmt_logger-release.git
-      version: 1.0.0-1
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/nobleo/ros2_fmt_logger.git
-      version: 751d0bc32ccd358a8886c7c1e8dc8ebf78fccaf9
+      version: 735ab40afaacc25e633ad6f6e3fb73d855bdd1dd
     status: developed
   ros2_kortex:
     doc:
@@ -7708,7 +7708,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport_fastrtps.git
-      version: 41be99bc8ed526db63d6b0c031a2a128c5a367f8
+      version: 127419b876ab356315bac461d3768e2b7738383f
     status: maintained
   rosidl_python:
     doc:
@@ -8310,6 +8310,21 @@ repositories:
       url: https://github.com/PickNikRobotics/RSL.git
       version: 36c183bc11cac80d4c5803e7ae77af2df4ac2aee
     status: developed
+  rslidar_msg:
+    doc:
+      type: git
+      url: https://github.com/RoboSense-LiDAR/rslidar_msg.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rslidar_msg-release.git
+      version: 0.0.0-1
+    source:
+      type: git
+      url: https://github.com/RoboSense-LiDAR/rslidar_msg.git
+      version: fe8a95cb242bd294cc3d5e3422f2093fb49a56ee
+    status: maintained
   rt_manipulators_cpp:
     doc:
       type: git
@@ -8452,7 +8467,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: f5d1f58799d1f38e378e23bc0c3a224a5e9bd1c9
+      version: ffe1ab8be02425bae21947fa3807b10038d86e44
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8481,11 +8496,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/nobleo/rviz_satellite-release.git
-      version: 4.2.1-1
+      version: 4.3.0-1
     source:
       type: git
       url: https://github.com/nobleo/rviz_satellite.git
-      version: 439df4e773c44cce8fa19e14d4d744f583ad731c
+      version: 637d3999abd164d4b0c68b31526af987b1f5762e
     status: maintained
   rviz_visual_tools:
     doc:
@@ -9748,7 +9763,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 29842df4caee549264e74adff4899820172d6c13
+      version: 6344060b657ddc601035198e72fc9802352940ac
     status: developed
   ur_simulation_gz:
     doc:
