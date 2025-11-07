@@ -643,7 +643,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
-      version: 1aa2452b3d112c08dff93f56a1141467fbc035c5
+      version: 06d826bd3decf9923775b4f5a92493ab2897e743
     status: developed
   automatika_ros_sugar:
     doc:
@@ -658,7 +658,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: 939b0bf81e050fbe71d32fe2aed41d9900cc3855
+      version: 7a8d29af8b1f10e36dfacd6f274ac8bdc724b5c9
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -1163,7 +1163,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
-      version: 38181596b26f0e1b0c5f2676985c8ee7b3621437
+      version: 6f6123412d0440b6053fdd81f365c7ff89373ce9
     status: developed
   coal:
     doc:
@@ -1348,7 +1348,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
-      version: fdabedce1e4eecbb628a87ec45873ca7839432df
+      version: 8335a04daf0d7b2bcf6754a7927543164c8b399e
     status: maintained
   crazyflie:
     source:
@@ -1436,7 +1436,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 35a91bde49136adf677b27f16335a09c42e7d244
+      version: c16f9345c25e229ef93421ac9506b4ab1aa3f7cc
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1641,7 +1641,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 02c3aa69334bedb607b23b7ab44ac99046aad7a4
+      version: a2e9bfdf9334b474c4484e00da28c7a5ce0119b7
     status: developed
   ecl_core:
     doc:
@@ -2216,7 +2216,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 72a311a9abd475b3251796a5c6fc3afe319f8cef
+      version: b19bcc4422545d204519862d12bc8b57b4ebf0bc
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2302,7 +2302,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 90840422895a92f4b5b1c2351a436210922eebc0
+      version: cfc45299c10fdc0b13e9b063c3107c2b6b411209
     status: developed
   geographic_info:
     doc:
@@ -2368,7 +2368,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 20e81e52e455b596f4de8663abd5d6f84d71325e
+      version: c716b0b67244be2327d9e3fb5bb4c7e69ea38f17
     status: maintained
   geometry_tutorials:
     doc:
@@ -3220,11 +3220,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/jrl_cmakemodules-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: 6abee5eb0ccb222a0f08fa502e3d04bc303d176c
+      version: 97bc4fef7d94280b3d487f51052e19d37fca5c9b
     status: maintained
   kdl_parser:
     doc:
@@ -4213,7 +4213,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 3c0182604397a63eca053753893e20e8859de822
+      version: b08d2ba843dcb69f8787cabcf13f60006b8b2dae
     status: developed
   mola_state_estimation:
     doc:
@@ -4548,10 +4548,18 @@ repositories:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
       version: ros2
+    release:
+      packages:
+      - mrpt_libros_bridge
+      - rosbag2rawlog
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
-      version: fe03dbc654635f90c4386e329501eb8966470c1d
+      version: b314a411f07262c30f95e2dd11b0392c82a4dfdf
     status: developed
   mrpt_sensors:
     doc:
@@ -4640,7 +4648,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/nanoeigenpy.git
-      version: 1dbf7249fe9b5d11b7b8e3399deaa1646538e314
+      version: 225a1792f280cf5971ad5197c2e106bac381d72c
     status: developed
   nao_button_sim:
     doc:
@@ -5585,12 +5593,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 5.3.1-1
+      version: 5.3.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: ce1a25a87701b186fed7d69b39b981e9c5736d3a
+      version: 28c6c2423907c0483b7a36e942f7fde3ed91705f
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -7259,7 +7267,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2ai.git
-      version: 6f3c82dad2eb343f00b64b8785b43135d1645948
+      version: e9f0b2a231612cbb5283f6a4ca5ab6b5450ce66f
     status: developed
   ros2cli:
     doc:
@@ -7524,7 +7532,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 73b50297184d099f60d9d377844090bb87f405f8
+      version: 77edeb850af80ea8db1b0f1f353e9726fc9a6ccd
     status: developed
   rosbag2_bag_v2:
     source:
@@ -8308,7 +8316,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 36c183bc11cac80d4c5803e7ae77af2df4ac2aee
+      version: 136d580ed40b11b901daae9dbf1122781224a62d
     status: developed
   rslidar_msg:
     doc:
@@ -9391,7 +9399,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Jannkar/turtle_nest.git
-      version: f59281b40a7beab756905a8ef4165f096f4a870c
+      version: 0599cf363aca7409acc352c8299d302d7d629e0e
     status: developed
   turtlebot3:
     doc:
@@ -9763,7 +9771,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 6344060b657ddc601035198e72fc9802352940ac
+      version: f247c0bb5c2a226779fe9960a80e5c02c86a6824
     status: developed
   ur_simulation_gz:
     doc:
