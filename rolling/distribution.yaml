@@ -255,7 +255,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ament_cmake_ros.git
-      version: 3158152989578108db29b8179d43a9263243eeab
+      version: fae83ee2422a3a12bc216c320210790f9d634e2a
     status: maintained
   ament_download:
     doc:
@@ -337,7 +337,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 502868425cabd39878b211d3f4a81e08f6a2e264
+      version: af74b631dc32c77064dc475a3a0928002718c9b0
     status: developed
   ament_nodl:
     release:
@@ -658,7 +658,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: c708ded13fefc98697fed70bd4fbbf9a4029b689
+      version: 190baa75f60a595e0824da0a83d11b3763abfb20
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -691,7 +691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-      version: a961390a6b9373757481cb6be25353b0ccd5d273
+      version: 6c3faf2311db65dbd37a78904c9b96edad4b3bbd
     status: developed
   autoware_auto_msgs:
     doc:
@@ -752,7 +752,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 2a5c700db1bb81186678424ad6068a2c9e484b86
+      version: e6968651845f7f49511f530fc1f57be60140890c
     status: developed
   autoware_msgs:
     release:
@@ -918,7 +918,7 @@ repositories:
     source:
       type: git
       url: https://github.com/dfki-ric/better_launch.git
-      version: fdb5e92c16be80e716fa3e171a750915b9eaab0c
+      version: a3a9a9845c61c0b224ae58196b69b7ae9329449c
     status: developed
   bno055:
     doc:
@@ -1319,7 +1319,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 753d32ac9cee44c4f938fc68a31fbef50539feb9
+      version: d796eeac1f4fb87bc193cc6e9f685371e73c0890
     status: maintained
   control_toolbox:
     doc:
@@ -1334,7 +1334,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 2b40ee5b0395f20f2f6c94b4fbf7c177134e2091
+      version: 33843ee427db3bf12d159995754580e2d5387066
     status: maintained
   cpp_polyfills:
     release:
@@ -1795,7 +1795,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1804,13 +1804,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: 5640c6d88010be32234a71d600aa1b49a6817ca8
+      version: 7237649827812ffa992e853cb394b2bdad6a72b8
     status: developed
   event_camera_msgs:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1819,7 +1819,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: a37d28d0bcb783a9f900e8f473254919fbf61699
+      version: 9668450ae1c437676a52b0978c9407e564e56827
     status: developed
   event_camera_py:
     doc:
@@ -1840,7 +1840,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -1849,7 +1849,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
-      version: f8dd43fdeaba1a13224ed58758b49283c92ea8d0
+      version: 3c67b94751926e393125ebf3d3564dbca3c1f7d7
     status: developed
   example_interfaces:
     doc:
@@ -1917,7 +1917,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 7af127a6eb86e32ef056af13ba39da0b8cfc1251
+      version: 88eb2ab7a3aee8b68213b21d60d009ff1752a3a3
     status: maintained
   fastdds:
     doc:
@@ -2226,7 +2226,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 79a56510647cfb22d42bf954e09f2db3af0c9991
+      version: cf6d7a339f587b6df527149bc45a982acc7d9354
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2773,7 +2773,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 945aad3e44521fe292980e2d9017b922660e40ef
+      version: 44731295c53ad3038a9155f3e6b71d723b7d0a88
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3300,7 +3300,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: de481e395c7e0c0845ddcd862b694c8684e56c1e
+      version: 80f9eb5743f2c97db5fd48064afd48bacbc49446
     status: developed
   kinematics_interface_pinocchio:
     doc:
@@ -3381,7 +3381,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: 33407bcf0cf9f679124e7dfd6be31cdc00796b33
+      version: 703149f47ff61b3148bb9737c2e005739a4a425e
     status: developed
   lanelet2:
     doc:
@@ -3648,7 +3648,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -3657,13 +3657,13 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
-      version: 5cb8c6ac4df73fe7c80e8038527f3017c78bc6ab
+      version: 2ff9db9cbae37a43cbf066f0c59f515c2e29fbd5
     status: developed
   libcaer_vendor:
     doc:
       type: git
       url: https://github.com/ros-event-camera/libcaer_vendor.git
-      version: rolling
+      version: release
     release:
       tags:
         release: release/rolling/{package}/{version}
@@ -3672,7 +3672,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_vendor.git
-      version: 3ccc18e6b1c5f2c91b372461e6137e6d1001fc9c
+      version: 67de2674d6893a4ccb0f0105925211a83464fc44
     status: developed
   libcamera:
     doc:
@@ -3687,7 +3687,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 6d19c813b0a74770165e032e7f527c36b838e456
+      version: 30779421e83fe67487f87fa4b2d01ed995154a81
     status: maintained
   libg2o:
     release:
@@ -5472,7 +5472,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: c2eb4c165cd38ded7cd68afcafb729a21f69a66e
+      version: 3b2f428884fd8d3ff491aeda8f87f50e6f279536
     status: developed
   play_motion2:
     doc:
@@ -5630,7 +5630,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: e0efb003358ad8b623bdf1536e18810885432ef8
+      version: e33a5e96c6705d75d128fade7cdc699fb7ec042a
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -5761,7 +5761,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/py_trees-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5793,7 +5793,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/py_trees_ros-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5825,7 +5825,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/py_trees_ros_tutorials-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6430,7 +6430,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 59ff73bf289d71a3c9252777d479fa1acbb09172
+      version: c183cfa042230600ec83d9fff43fe43d832e1480
     status: maintained
   reductstore_agent:
     doc:
@@ -6953,7 +6953,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_zenoh-release.git
-      version: 0.10.0-1
+      version: 0.10.1-1
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
@@ -7089,7 +7089,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: fc7793538440bf7879a0b77f2a967a9138b5ad96
+      version: eba8665da4dd656c9a5addab6f0dd19889103668
     status: developed
   ros2_control_cmake:
     doc:
@@ -7104,7 +7104,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
-      version: 7797fa99578f90085e3e8422892173102c04295e
+      version: 51811a0ee549b9bfb23935435a20bd500e975734
     status: developed
   ros2_controllers:
     doc:
@@ -7148,7 +7148,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: d71538afba652c7fe1565948c082064dfcdec527
+      version: 66264513fb3084e4632232c832ea583448333a9e
     status: developed
   ros2_easy_test:
     doc:
@@ -7608,7 +7608,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 97a2434f5df7d8717e42c72c5f71da810510042a
+      version: eeeef6661b6d9e5d1cb26a8471b7a67e0cd7fbfb
     status: developed
   rosidl:
     doc:
@@ -8544,12 +8544,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/SBG-Systems/sbg_ros2-release.git
-      version: 3.3.1-1
+      version: 3.3.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/SBG-Systems/sbg_ros2.git
-      version: 7346d1881b8f615769ad0135a20953c7127bee1e
+      version: 346000395b29bc865701f9a85acd65a37d9c04e1
     status: developed
   sdformat_urdf:
     doc:
@@ -9272,7 +9272,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: 350e2ee9e713285b0cad189b3e892a4dc89fd8f6
+      version: 753d6aa5e70f0547a7d1155b4dacf65ee24b547d
     status: developed
   topic_tools:
     doc:
@@ -9777,11 +9777,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
-      version: 4.3.0-1
+      version: 4.4.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: a28d9a4f431733c7cef373f5d20ebd3fd3745629
+      version: e266b4cd41dbb6b469d70528fab1b6025e52696b
     status: developed
   ur_simulation_gz:
     doc:
