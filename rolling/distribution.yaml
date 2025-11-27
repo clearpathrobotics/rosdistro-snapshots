@@ -337,7 +337,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 5230bf20b095c13a6c47fa661ca396246979932d
+      version: 3c6fdad43b7c08108bc63586a57d1c7ac6f81497
     status: developed
   ament_nodl:
     release:
@@ -1146,7 +1146,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_executive.git
-      version: 74679447cdf9c5be5755c7ae862f8cad2b2fd313
+      version: 0416387f957c5ee8db9ccc467f0673ccd528d854
     status: maintained
   clips_vendor:
     release:
@@ -1475,7 +1475,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: 5a3d0a43e7f390c53d6645390cc536fbda9694e4
+      version: 14f4ba23d8e415b97a7195d3038b56a2a5640de2
     status: maintained
   dolly:
     doc:
@@ -1559,11 +1559,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_hardware_interface-release.git
-      version: 1.4.16-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel_hardware_interface.git
-      version: 34120da8c58d362a108c34c5475f601b34955847
+      version: 68d0d28b413b2f25f879d283073f28ae6982fd01
     status: developed
   dynamixel_interfaces:
     release:
@@ -3244,7 +3244,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: f618fd133e2ab3943569a6934e70caa2c095a364
+      version: dd57ac26c20fa35ca6adc23cef261e8488c5bebc
     status: maintained
   kdl_parser:
     doc:
@@ -3697,7 +3697,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 4e720d5baeae889af7da74cda9ad85f8098b1284
+      version: 4e9be7d11b9df833ce71e7c134a3d73e4ff5dcf8
     status: maintained
   libg2o:
     release:
@@ -3749,7 +3749,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
-      version: cacc8e701a963a44b49fe51911443797e8b3a517
+      version: f9166653ebc6230396da5f8e62dab569ded14fa2
     status: developed
   libstatistics_collector:
     doc:
@@ -4173,7 +4173,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 5828d199f4d9a363e0c17a9e3130878fd5478ac5
+      version: cddfa592bc2f1d2dacf6ac1531d75a90dd1165f5
     status: developed
   mola_common:
     doc:
@@ -4354,7 +4354,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 76ac75fa4985e50354ca095df7ca5bfdb3338aa2
+      version: 760277f74ba78bc48f157f7f6c38ac13de4a2721
     status: developed
   moveit_msgs:
     doc:
@@ -4444,7 +4444,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 197d3c91f981c4bd4e72fc763874f77f2eaa47f1
+      version: 89c7ec00478fc8e83cd2b4a99d2e6c5f1ae80dbd
     status: developed
   mp_units_vendor:
     doc:
@@ -4532,7 +4532,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: b88222eeb8a6703f3cb8a8d155b7801c63ae9f8c
+      version: fb2ec4c4743a1a34c47f8350722e3f10c757ee10
     status: developed
   mrpt_ros:
     doc:
@@ -4579,7 +4579,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
-      version: 4afde931f2bbc5bc2c39a7633002ad641eb4700b
+      version: 3a8d510d4aa0127ba0f7bbd541ea25b484c1d636
     status: developed
   mrpt_sensors:
     doc:
@@ -5535,7 +5535,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: a3107f96939afc46aab95fc44d1991ee80132f41
+      version: f74fd46a993bc5dfb9102eca2aa805c8f9caf4ee
     status: developed
   plotjuggler_msgs:
     doc:
@@ -6513,7 +6513,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 814175d3e442b75a7d2160b2f003c512fbb810ee
+      version: 75407e820fd205288840c810fe2989f90cac10ee
     status: developed
   rmf_api_msgs:
     doc:
@@ -7319,7 +7319,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 2463d7320516b5ae558f008f04432e9e1c4f67f2
+      version: 7a718b8bb7fa9634f2172ad4366f08379fb219b2
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8495,7 +8495,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 74c9bc85e66a0b60f27d6ad62ca81361590081a1
+      version: 6fb29f8106b3bb62fbc5cbc8be6c9f25ebc27e1a
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8756,7 +8756,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 6444f4e069ef4afe3f58a2a9d37ceb04f5ac3e08
+      version: 734521ecfeb2c9494452cb67c6e29231924e667d
     status: maintained
   simulation_interfaces:
     doc:
@@ -10271,7 +10271,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 991ebef69846dc9c96831866c0966d9428543c0e
+      version: 47aec39464195a6749fb58c1532efba55283b156
     status: developed
   zbar_ros:
     doc:
