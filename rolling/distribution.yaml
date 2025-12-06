@@ -509,7 +509,7 @@ repositories:
     source:
       type: git
       url: https://github.com/vtalpaert/ardrone-ros2.git
-      version: 1e83761912894ab492e338fec367c339b89e9ab1
+      version: 3abbc8136975652044c31b2dc75a27097be6be79
     status: developed
   aruco_markers:
     doc:
@@ -541,11 +541,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/aruco_opencv-release.git
-      version: 6.0.2-1
+      version: 6.1.0-2
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
-      version: 383239a84f7e67c4d60c9f4a8018e290d2e14679
+      version: a36e9bd402db38a2fd2c204091856b89ac354440
     status: maintained
   aruco_ros:
     doc:
@@ -2388,7 +2388,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 69860a564267419d4df16c4cab4289fe8eb3d9fe
+      version: 284708e22a08b62d5d0d94703200f79cfd0891ef
     status: maintained
   geometry_tutorials:
     doc:
@@ -2924,6 +2924,12 @@ repositories:
       type: git
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
       version: fff965af7618beceafadde906807778da1aa9c2e
+    status: maintained
+  hebi_hardware:
+    source:
+      type: git
+      url: https://github.com/HebiRobotics/hebi_hardware.git
+      version: main
     status: maintained
   hls_lfcd_lds_driver:
     doc:
@@ -3503,7 +3509,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 178861587d48189efeba67906294637466980403
+      version: 082e64087b97decf8e66f77f96b0fe10c195e354
     status: developed
   launch_frontend_py:
     doc:
@@ -4985,7 +4991,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/octomap_ros-release.git
-      version: 0.4.4-1
+      version: 0.4.5-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_ros.git
@@ -5434,7 +5440,7 @@ repositories:
     source:
       type: git
       url: https://github.com/vtalpaert/ros2-phone-sensors.git
-      version: dbf25083eaf025d88e6fa4bf7c3e4fb52c89aad7
+      version: 618f88c3963b9574acdc0170eb37fe76f105c0aa
     status: developed
   pick_ik:
     doc:
@@ -5488,7 +5494,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 7b4ae02283203f37320c70e1098204d177f07ae9
+      version: 294c62f00e8c0c196f7f297109ebdf6f3b8b5cae
     status: developed
   play_motion2:
     doc:
@@ -5502,7 +5508,7 @@ repositories:
       - play_motion2_msgs
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/pal-gbp/play_motion2-release.git
+      url: https://github.com/ros2-gbp/play_motion2-release.git
       version: 1.8.0-1
     source:
       type: git
@@ -6157,7 +6163,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_reason_clients_ros2.git
-      version: 1ad4c6b8757dbbe02e029336ab85fc24dc074f7e
+      version: 9bf96d53c50dfd56a29b1c9ef6dd76f266c5fba2
     status: developed
   rcdiscover:
     doc:
@@ -6300,7 +6306,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 02caec12c30d83ff71f2564f328c54d7d38e6a41
+      version: 41c7f680135e40a58ee48f4e3c5237392663ae12
     status: maintained
   rclpy:
     doc:
@@ -6446,7 +6452,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: 534bfab0bfedefe167ce7c351b0f473d5282888f
+      version: ecc707cecd128257d27e620b3d7ac997296f0fc9
     status: maintained
   reductstore_agent:
     doc:
@@ -6519,7 +6525,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 943daa804ac08ad2e8248a2a76d42aefc89d3524
+      version: 3456c21300e039912fcd6d8bb6915a56d7341f51
     status: developed
   rmf_api_msgs:
     doc:
@@ -7074,11 +7080,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.3.1-1
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: 9e4f6f2c9cbc68cc72a23f811442d78ef1c7632d
+      version: e1043013642029d0c9a672886b7047cc25f047de
     status: developed
   ros2_control:
     doc:
@@ -7105,7 +7111,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 16cabaddc5a66049b105c40b758a74f80cf6e29f
+      version: 8aa24d7ebcef8553458a2223863d673daef6d8d6
     status: developed
   ros2_control_cmake:
     doc:
@@ -7325,7 +7331,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 9a970dee85a3f39778326f8293ea36c3d2784376
+      version: 59553796a02a1d5cb2bfff88244d95d54447205e
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7377,7 +7383,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
-      version: 2210c4290296cd35ffc717d4e7007b675717e055
+      version: 820e0786962e11f18a68cd6b39043ae0f3815f96
     status: developed
   ros_battery_monitoring:
     doc:
@@ -7654,7 +7660,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: b2642b7d84832d4274a9c7c9fbfce525cdb98338
+      version: 3466f0ac3984c5785459b7f4d92d8bf9c1c1b1bf
     status: maintained
   rosidl_core:
     doc:
@@ -9280,11 +9286,12 @@ repositories:
       version: main
     release:
       packages:
+      - cm_topic_hardware_component
       - joint_state_topic_hardware_interface
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/topic_based_hardware-release.git
-      version: 0.2.1-1
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
@@ -10277,7 +10284,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 45a8464e0b16ae317412f52e4e78a3774f54346b
+      version: 15a7954f18a8d0af5c4a02bf76e60bb7b77c1bdf
     status: developed
   zbar_ros:
     doc:
