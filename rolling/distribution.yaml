@@ -1800,11 +1800,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_codecs-release.git
-      version: 2.0.1-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_codecs.git
-      version: 7237649827812ffa992e853cb394b2bdad6a72b8
+      version: 543112f5308f51f5881cf85903a81fa8573a4a81
     status: developed
   event_camera_msgs:
     doc:
@@ -1815,11 +1815,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_msgs-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_msgs.git
-      version: 9668450ae1c437676a52b0978c9407e564e56827
+      version: 2499777c3fc9c01a069374b3a3d17e3e0417e8aa
     status: developed
   event_camera_py:
     doc:
@@ -1830,11 +1830,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_py-release.git
-      version: 2.0.1-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_py.git
-      version: 0692f207ba0b328389bcc2c1b370631fd6e11517
+      version: 02df02d01a00df7f68a4e845631726fd95bca699
     status: developed
   event_camera_renderer:
     doc:
@@ -1845,11 +1845,21 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_renderer-release.git
-      version: 2.0.2-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_renderer.git
-      version: 3c67b94751926e393125ebf3d3564dbca3c1f7d7
+      version: d7a82157ff5085312233963fbe7536a6123c18df
+    status: developed
+  event_camera_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_tools.git
+      version: release
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/event_camera_tools.git
+      version: eb58081f665e06b7bdb1e2a4d7439db198190021
     status: developed
   event_image_reconstruction_fibar:
     doc:
@@ -1859,7 +1869,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/event_image_reconstruction_fibar.git
-      version: ef2f8854c4b836080f79a6bbabb59c361c9e610d
+      version: c582c0fa37c5ccc6eae0c751a5c82c3623fe6a6d
     status: developed
   example_interfaces:
     doc:
@@ -2025,7 +2035,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/fibar_lib.git
-      version: 109a353353d4b60d38cb9253f88f81b3ce0c8add
+      version: e75d9429e2d204ebbf585f476396f9c649590e42
     status: developed
   fields2cover:
     doc:
@@ -2253,6 +2263,16 @@ repositories:
       url: https://github.com/ros-misc-utilities/foxglove_compressed_video_transport.git
       version: 94fc7ffabb29f5f7a9b001653230a414fdd82634
     status: developed
+  frequency_cam:
+    doc:
+      type: git
+      url: https://github.com/ros-event-camera/frequency_cam.git
+      version: release
+    source:
+      type: git
+      url: https://github.com/ros-event-camera/frequency_cam.git
+      version: 3565f5c78f7bc5ce9fe9cb645170385bdd64cd80
+    status: developed
   fuse:
     doc:
       type: git
@@ -2322,7 +2342,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 10941336a5eb9e0a0a27f91f231c36c9159e2e52
+      version: 2953822d985aa02a371f2771c622c9c17c8f0fea
     status: developed
   geographic_info:
     doc:
@@ -3316,7 +3336,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 42a8c9f1d8118d2c4b21ebc7721f8e22b6219158
+      version: 8d06641ab0c117a281f4f721a9359d5c8bb06fd7
     status: developed
   kinematics_interface_pinocchio:
     doc:
@@ -3709,7 +3729,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: f4c3dee21770b9b8817c80265b9f81eda1833731
+      version: 0a9cf7e0eb6aafcfaeda4c5774fb04db9186430d
     status: maintained
   libg2o:
     release:
@@ -4054,7 +4074,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
-      version: d2b8e556fb12ddceac890a68a68d0f9812d1e942
+      version: 5d7ecab9f9c04fa1837999c996a857329bbfbb92
     status: developed
   micro_ros_diagnostics:
     doc:
@@ -5547,7 +5567,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 9761509bc99c6c3de086a60864e6e0589583297b
+      version: 47f33dc7ec1b7859abb3e7b2f8975e2b192f495e
     status: developed
   plotjuggler_msgs:
     doc:
@@ -6525,7 +6545,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 3456c21300e039912fcd6d8bb6915a56d7341f51
+      version: 6867dcb6d191fabda9682b06d1fb2bcb3f3c5804
     status: developed
   rmf_api_msgs:
     doc:
@@ -7111,7 +7131,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 8aa24d7ebcef8553458a2223863d673daef6d8d6
+      version: 2365e1dfb5b3696abdc52398b91f0d6493b44cd2
     status: developed
   ros2_control_cmake:
     doc:
@@ -7235,7 +7255,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-      version: a41ca0e10cd98b067e70b76d34626d2375dde4c9
+      version: 630ed383916e347701dad750f28e362ca7849228
     status: maintained
   ros2_socketcan:
     doc:
@@ -7331,7 +7351,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 59553796a02a1d5cb2bfff88244d95d54447205e
+      version: 48f597d5564129366c8051ce3b3740d654bd3579
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -10109,7 +10129,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 03c2a05aa0117c1ab71ae1847e80c428122ac8af
+      version: 3bd5172fa49fb8050c9c9a6de82719e63aa41a80
     status: maintained
   vitis_common:
     doc:
@@ -10284,7 +10304,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 15a7954f18a8d0af5c4a02bf76e60bb7b77c1bdf
+      version: 9216cb3ccdbe1884fcb47eaffada0a612fbf6893
     status: developed
   zbar_ros:
     doc:
