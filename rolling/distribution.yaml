@@ -2032,6 +2032,11 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/fibar_lib.git
       version: release
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/fibar_lib-release.git
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/fibar_lib.git
@@ -2328,17 +2333,13 @@ repositories:
       version: main
     release:
       packages:
-      - cmake_generate_parameter_module_example
       - generate_parameter_library
-      - generate_parameter_library_example
-      - generate_parameter_library_example_external
       - generate_parameter_library_py
-      - generate_parameter_module_example
       - parameter_traits
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.5.0-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -2593,7 +2594,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 64643a46a8a8e462f3efb71be1d493e9b69db257
+      version: fec55808da015e88766216fefd0ccf30cca6d66b
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3270,7 +3271,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: 7dca9cea40b5dbf0e088bd80b01b9c6b2f6339e5
+      version: 40bd412a56dfb9ed3286eb6b7f3de11686a46259
     status: maintained
   kdl_parser:
     doc:
@@ -3338,21 +3339,6 @@ repositories:
       url: https://github.com/ros-controls/kinematics_interface.git
       version: 8d06641ab0c117a281f4f721a9359d5c8bb06fd7
     status: developed
-  kinematics_interface_pinocchio:
-    doc:
-      type: git
-      url: https://github.com/justagist/kinematics_interface_pinocchio.git
-      version: ros-rolling
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/kinematics_interface_pinocchio-release.git
-      version: 0.0.1-1
-    source:
-      type: git
-      url: https://github.com/justagist/kinematics_interface_pinocchio.git
-      version: cbaf518424bc3992fa22923f3e034ccbd9241d28
-    status: maintained
   kobuki_core:
     doc:
       type: git
@@ -4013,7 +3999,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: b85baa6d057cf7092cd26b3bd777d1e01258b08b
+      version: 9bdf00c738bec089041ac597a4f497ab37a3ebdd
     status: developed
   menge_vendor:
     doc:
@@ -4070,7 +4056,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/metavision_driver-release.git
-      version: 2.0.1-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/metavision_driver.git
@@ -5420,7 +5406,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2_persist_parameter_server.git
-      version: eecf4eacc2ec372ad1b2bdf6c1c7ccb378d74708
+      version: 34a16de709e0688a2869b2285cfd1f74e7b46172
     status: maintained
   phidgets_drivers:
     doc:
@@ -5563,11 +5549,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.14.1-2
+      version: 3.14.2-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 47f33dc7ec1b7859abb3e7b2f8975e2b192f495e
+      version: e93b8860d45834ff9b7b52b28c70d5cffadb2b5d
     status: developed
   plotjuggler_msgs:
     doc:
@@ -7190,7 +7176,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 79f917eeb80d249e447f7a41e082a39193236116
+      version: 489ec36213c4c7b2ead157a98dc2df942bfc7652
     status: developed
   ros2_easy_test:
     doc:
@@ -10129,7 +10115,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 3bd5172fa49fb8050c9c9a6de82719e63aa41a80
+      version: 7d3b9bc7b79fe24ecc475bcda924f9d397ad7585
     status: maintained
   vitis_common:
     doc:
@@ -10300,11 +10286,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 4.0.2-1
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 9216cb3ccdbe1884fcb47eaffada0a612fbf6893
+      version: fa13d61d2a17e5ef6425671d19790f84afafa13c
     status: developed
   zbar_ros:
     doc:
