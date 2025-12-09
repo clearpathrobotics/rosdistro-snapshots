@@ -505,11 +505,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ardrone_ros-release.git
-      version: 1.1.0-1
+      version: 2.0.3-1
     source:
       type: git
       url: https://github.com/vtalpaert/ardrone-ros2.git
-      version: 3abbc8136975652044c31b2dc75a27097be6be79
+      version: 0ee50c65b6e9731c992e03bd8357e2de997d0b4c
     status: developed
   aruco_markers:
     doc:
@@ -1789,7 +1789,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: 9606b07172bd5ae69d89a310f09d05b0c894898c
+      version: 319747f6fcf0cd1b06ae7bfbc21501d6207face2
     status: maintained
   event_camera_codecs:
     doc:
@@ -1856,10 +1856,15 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/event_camera_tools.git
       version: release
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/event_camera_tools-release.git
+      version: 3.1.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_tools.git
-      version: eb58081f665e06b7bdb1e2a4d7439db198190021
+      version: 5a934d27d99ba9d93f3d8ed73086533eb7ac8e78
     status: developed
   event_image_reconstruction_fibar:
     doc:
@@ -2251,7 +2256,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 68dfc6750319a8f0260c5cad149969d2620ae8fa
+      version: 106b627f66b8f52fe8ca4b0dda6d54717766e306
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2273,10 +2278,15 @@ repositories:
       type: git
       url: https://github.com/ros-event-camera/frequency_cam.git
       version: release
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/frequency_cam-release.git
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/ros-event-camera/frequency_cam.git
-      version: 3565f5c78f7bc5ce9fe9cb645170385bdd64cd80
+      version: 81ba65ad7202b8cfa2f0d2af3954992e8bdb1d42
     status: developed
   fuse:
     doc:
@@ -3330,10 +3340,11 @@ repositories:
       packages:
       - kinematics_interface
       - kinematics_interface_kdl
+      - kinematics_interface_pinocchio
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kinematics_interface-release.git
-      version: 2.3.0-1
+      version: 2.4.0-2
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
@@ -4191,7 +4202,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: bc97ba0faa2b5ca03ff48b78ef7076a876b24eec
+      version: 8836bfc07d478ba96579802e4d24d3fdbe97ea90
     status: developed
   mola_common:
     doc:
@@ -4372,7 +4383,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 2002fb71c7102fd7ad3c0a6760f05eda99722022
+      version: ff50bdb1ec095894993c445065733947aa2d47ca
     status: developed
   moveit_msgs:
     doc:
@@ -4428,11 +4439,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_task_constructor-release.git
-      version: 0.1.4-1
+      version: 0.1.4-2
     source:
       type: git
       url: https://github.com/moveit/moveit_task_constructor.git
-      version: a98473ff1b187366f062a3fbed50a26378083d81
+      version: 7851ea4191674c02f5ce1ad522b4824f6480fc81
     status: maintained
   moveit_visual_tools:
     doc:
@@ -5403,6 +5414,15 @@ repositories:
       version: 9d8bd9ebafcba8bbea9a2fc1d36aeafabe83728b
     status: maintained
   persist_parameter_server:
+    doc:
+      type: git
+      url: https://github.com/fujitatomoya/ros2_persist_parameter_server.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/persist_parameter_server-release.git
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2_persist_parameter_server.git
@@ -5500,7 +5520,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 294c62f00e8c0c196f7f297109ebdf6f3b8b5cae
+      version: 67e736d57c31e639a8a61d227827e4a8c7351cb6
     status: developed
   play_motion2:
     doc:
@@ -5763,7 +5783,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 4d081eb8ed014afce05d9b27d240c797164b096b
+      version: b3f3064c6c210163522cab3fe4a29a5a000d1794
     status: maintained
   py_binding_tools:
     doc:
@@ -5965,6 +5985,21 @@ repositories:
       url: https://github.com/ros-visualization/python_qt_binding.git
       version: 20bcb5f7bf314f225dd9f5295de0e72ecca8bae2
     status: maintained
+  qml6_ros2_plugin:
+    doc:
+      type: git
+      url: https://github.com/StefanFabian/qml6_ros2_plugin.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/qml6_ros2_plugin-release.git
+      version: 2.25.120-1
+    source:
+      type: git
+      url: https://github.com/StefanFabian/qml6_ros2_plugin.git
+      version: 538f24f24876b4cf82d38f2a04909d9292cd2c6c
+    status: developed
   qml_ros2_plugin:
     doc:
       type: git
@@ -7042,7 +7077,7 @@ repositories:
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur.git
-      version: f6d43858f612bef6b9c20f6d25fd43b09196c066
+      version: 23aebbe5a68fb66842179b43c0bb4f3521f50331
     status: maintained
   robotraconteur_companion:
     release:
@@ -7176,7 +7211,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 489ec36213c4c7b2ead157a98dc2df942bfc7652
+      version: 93bd4bdf0d04320757e71cc888b0f3593d2d085b
     status: developed
   ros2_easy_test:
     doc:
@@ -7305,7 +7340,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2ai.git
-      version: 8d0ec39b36a79e4f4f548aa22e516cec3df9b116
+      version: 42d3d1c73762aba87c9f9c7c12e1abda9add9e53
     status: developed
   ros2cli:
     doc:
@@ -7337,7 +7372,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 48f597d5564129366c8051ce3b3740d654bd3579
+      version: 7508eb200abdf4d154e545050e963c6881ee34e2
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7408,7 +7443,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ipa320/ros_battery_monitoring.git
-      version: 695698cd007c5aa36403fb4c05f5b1f4d2675e42
+      version: ed23f09ce352f1dab898d04ffc7c9199d9d8dc95
     status: developed
   ros_canopen:
     release:
@@ -8513,7 +8548,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: c2cc241318f39b26c75b218b95ad0af7987a9c01
+      version: 4784c8cda3f83f7107de581d90986a6edfd2fc20
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -8789,7 +8824,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-simulation/simulation_interfaces.git
-      version: 3a65de33c621387197e24139d02b04093d066347
+      version: 5af2e295acded2fd0fc4e8db9581e4092e2ec86d
     status: developed
   slg_msgs:
     doc:
@@ -9810,7 +9845,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: f64eeb545a18ac869125cd8f6f2ed589a17934dd
+      version: 236cb736f92f212c75eefdb20e08f7bb38366e15
     status: developed
   ur_simulation_gz:
     doc:
@@ -9910,7 +9945,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: 6997a31c5a00dc7768d2198c9bf835e25afc7e44
+      version: 2ea2d6f5af0f0ae384102863fef7f3aae9618c8e
     status: maintained
   urdfdom_headers:
     doc:
@@ -10290,7 +10325,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: fa13d61d2a17e5ef6425671d19790f84afafa13c
+      version: b5f05206c856897b0041b2aa557f4f7f20102242
     status: developed
   zbar_ros:
     doc:
