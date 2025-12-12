@@ -1350,6 +1350,16 @@ repositories:
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
       version: 8335a04daf0d7b2bcf6754a7927543164c8b399e
     status: maintained
+  cras_ros_utils:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/ros-utils.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/ctu-vras/ros-utils.git
+      version: 4d097ef557d896d7a46863d393f543860813fadd
+    status: developed
   crazyflie:
     source:
       type: git
@@ -4010,7 +4020,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 9bdf00c738bec089041ac597a4f497ab37a3ebdd
+      version: d096e96cb5b2a652036d4269318b61316939fa93
     status: developed
   menge_vendor:
     doc:
@@ -4383,7 +4393,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: ff50bdb1ec095894993c445065733947aa2d47ca
+      version: 0a02fffe34a8920710370c8683b860679141735d
     status: developed
   moveit_msgs:
     doc:
@@ -4506,7 +4516,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
-      version: e9a02fbfd4720f6e6edd020f04f0859840c39841
+      version: e5a84797e4633614d2c07657797ccdaa428c7c67
     status: maintained
   mrpt_msgs:
     doc:
@@ -4697,7 +4707,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/nanoeigenpy.git
-      version: f52203a5b0de31d5bb592a963181c53bd736f242
+      version: 182cb86cecb7390f0319a910091ba2d249d20865
     status: developed
   nao_button_sim:
     doc:
@@ -5520,7 +5530,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 67e736d57c31e639a8a61d227827e4a8c7351cb6
+      version: e22207a77ad8dbd0a66f86aae7413b0c1847891f
     status: developed
   play_motion2:
     doc:
@@ -7211,7 +7221,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b5196f73e5075d557f2b35a4fca013bf7de0e8f8
+      version: 73bad721c677cb77e009e3a7f97eac63c1a73521
     status: developed
   ros2_easy_test:
     doc:
@@ -7340,7 +7350,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2ai.git
-      version: 42d3d1c73762aba87c9f9c7c12e1abda9add9e53
+      version: 21372c82f79017d13f7db9bf940fa1a4f3967dfc
     status: developed
   ros2cli:
     doc:
@@ -10150,7 +10160,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: a3cb3ba5210d7a22fdd357abe295823860050520
+      version: d5085b194bbecbfce6604894d75e1d1160093bf2
     status: maintained
   vitis_common:
     doc:
@@ -10325,7 +10335,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: b5f05206c856897b0041b2aa557f4f7f20102242
+      version: 7ebaf3a5bfd4fd7e5af33ab916577004a32825d3
     status: developed
   zbar_ros:
     doc:
