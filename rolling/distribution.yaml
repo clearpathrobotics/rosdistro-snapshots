@@ -775,7 +775,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: 588f00df3acca009ea709a74acd6538897eef424
+      version: afb64d74ea205744451300b46c5cd5f7c5d4d624
     status: developed
   autoware_utils:
     release:
@@ -1274,6 +1274,16 @@ repositories:
       url: https://github.com/ros2/common_interfaces.git
       version: 5eba74259823a5b017beb6961927763df6d7c913
     status: maintained
+  compass:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/compass.git
+      version: ros2
+    source:
+      type: git
+      url: https://github.com/ctu-vras/compass.git
+      version: 0f9886dad6e42553023129c1824a337e608730b1
+    status: maintained
   console_bridge_vendor:
     doc:
       type: git
@@ -1667,7 +1677,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: fd0a655cc3a705e3b0234d96d9159563ecbc977e
+      version: 8c46553e92e402393ca9d994c9908267cd3b778e
     status: developed
   ecl_core:
     doc:
@@ -1800,7 +1810,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 06430b4df725e84fd41de6eb2dc8a1d4a5016cb2
+      version: eb5fb1e21ea9abd40bc8c98ec566d9eb4e874f6f
     status: maintained
   eiquadprog:
     doc:
@@ -2450,7 +2460,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.45.4-1
+      version: 0.45.5-1
     source:
       test_pull_requests: true
       type: git
@@ -5831,7 +5841,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: b44728404e66cd8e19bb3275d8b87cb69975fb08
+      version: 87784a454171a4787ab986265aff197890089e68
     status: maintained
   py_binding_tools:
     doc:
@@ -6289,7 +6299,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: b7d6d69e670aa97bf69a6b92d12321ed31e68a4c
+      version: 7f7f97d7a89e61736a6edee26589d656fda2ae8a
     status: maintained
   rcl_interfaces:
     doc:
@@ -6411,7 +6421,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: eddfdb6b7f096872996727d58801b75e28f2d9f7
+      version: 18b9e5b9423e0cd20aa83c5c7e7bfdc957b64149
     status: maintained
   rcpputils:
     doc:
@@ -7549,7 +7559,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: cf6dd354677ea43040f7d1c78d23ad082fdc7c52
+      version: 10d169c16cfb6d8c6cac033c040d321ae72383fd
     status: developed
   ros_image_to_qimage:
     doc:
@@ -8597,12 +8607,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 15.1.13-1
+      version: 15.1.14-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 1197754d6ceaffe88f8e732b800884583254da4f
+      version: 84eae42da4c8e0ade0d14633939f837a22d7d7a4
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9790,7 +9800,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 49318c66067990a36110b7104fcd10c4d54aa4bb
+      version: 980ae8875557f62c3c03d73d0c4e468f5b6e56ce
     status: maintained
   udp_msgs:
     doc:
@@ -9999,7 +10009,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: ed3bce58fc2aa40e232b7261364a4de7ff62cf2d
+      version: 9626d2a93f2bec5964ea4a9533996fc2586dc495
     status: maintained
   urdfdom_headers:
     doc:
@@ -10204,7 +10214,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: dd51ba6a88f7bf502396a519868847a3291b77a6
+      version: 2e9dc0441a603fbaeb3d0ecab3e205a15bbdface
     status: maintained
   vitis_common:
     doc:
@@ -10379,7 +10389,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 087489acb7fdbb2a71a555c213e17775efed15a6
+      version: 24e52f32656337c1f95f93b7b02232536410cc0e
     status: developed
   zbar_ros:
     doc:
