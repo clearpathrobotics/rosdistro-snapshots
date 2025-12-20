@@ -738,7 +738,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: e8d6f03c8cb318f0e1d86702774b7b75ec6d03d7
+      version: d98e3ac1b2bcee75baa2a2c8c457e9996b48c2db
     status: developed
   autoware_lanelet2_extension:
     release:
@@ -1146,7 +1146,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_executive.git
-      version: 0416387f957c5ee8db9ccc467f0673ccd528d854
+      version: 80f25839c93781701d90173880a761e0cc156529
     status: maintained
   clips_vendor:
     release:
@@ -1677,7 +1677,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 8c46553e92e402393ca9d994c9908267cd3b778e
+      version: 77ab9aeb913adb47c2f38882ce40971efbb5791e
     status: developed
   ecl_core:
     doc:
@@ -2292,7 +2292,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 17db8d73bd1981bc963a52ffd76ddf77e5179d2e
+      version: 2d03bc6dad75b4f102aefd02d5c77a0d1a2c0519
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -3241,6 +3241,27 @@ repositories:
       url: https://github.com/ros-visualization/interactive_markers.git
       version: 3920d98d96f0781ea2b01a946f0641f1f37d632c
     status: maintained
+  inverse_dynamics_solver:
+    doc:
+      type: git
+      url: https://github.com/unisa-acg/inverse-dynamics-solver.git
+      version: main
+    release:
+      packages:
+      - franka_inria_inverse_dynamics_solver
+      - inverse_dynamics_solver
+      - kdl_inverse_dynamics_solver
+      - ur10_inverse_dynamics_solver
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/inverse_dynamics_solver-release.git
+      version: 6.0.1-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/unisa-acg/inverse-dynamics-solver.git
+      version: 401f3fae1751b0e80b254da46135cc9e24edb260
+    status: developed
   irobot_create_msgs:
     release:
       tags:
@@ -3333,7 +3354,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: 40bd412a56dfb9ed3286eb6b7f3de11686a46259
+      version: c16273dd4b38fbf1288669d21f8b6548d9d505a9
     status: maintained
   kdl_parser:
     doc:
@@ -3778,7 +3799,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 4c4a333c8879bde4b499db85e1731f32d3b50287
+      version: 2861817f09c96a0660b88783eff159631e42030f
     status: maintained
   libg2o:
     release:
@@ -3936,7 +3957,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.5.10-1
+      version: 2.6.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -4063,7 +4084,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: ca823c0ccc9c34d7d9a31e3b0e31f29632e48c8f
+      version: 07f497df9ba698996ee30c39ae9d9a1918ae2be0
     status: developed
   menge_vendor:
     doc:
@@ -4526,7 +4547,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: b83f2c8e022ce47b05e9c5e6cf66e30970df5e96
+      version: 46f9d8dc3400a5c7cc7f045d5a5de507307dd26c
     status: developed
   mp_units_vendor:
     doc:
@@ -4610,11 +4631,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_path_planning-release.git
-      version: 0.2.3-1
+      version: 0.2.4-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: fb2ec4c4743a1a34c47f8350722e3f10c757ee10
+      version: 7be7036e78347ca71a23a4c0c4ae1869b8d4dbf0
     status: developed
   mrpt_ros:
     doc:
@@ -5578,7 +5599,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 454f4325167db32a074a72b0f4cdea5dcc466771
+      version: 4a0e2c40e6991173a40e587e1adff7f974172df3
     status: developed
   play_motion2:
     doc:
@@ -5627,11 +5648,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-release.git
-      version: 3.14.2-1
+      version: 3.14.4-1
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 5781bcca2f10f9adeb22115f0a1e7b69b4646a68
+      version: 2e37c1b3fbfddaab4e2f2ae8dafb8efb27ab6fbf
     status: developed
   plotjuggler_msgs:
     doc:
@@ -6944,7 +6965,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: 4cd25e7e8c969d4d5cdaf0e62c1ad644779bda49
+      version: 785c1e5ddbd95674509587aa5e862ae3c61eb474
     status: developed
   rmw_cyclonedds:
     doc:
@@ -7078,7 +7099,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 12983babe737f60da1b249d79f711c3ddeada463
+      version: 5e10d47b06c3fe327105d06a8350be455411ea5b
     status: developed
   robot_calibration:
     doc:
@@ -7131,7 +7152,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robotraconteur-release.git
-      version: 1.2.6-1
+      version: 1.2.7-1
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur.git
@@ -7269,7 +7290,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: abdaed1c363ca0f2a3765c4dd2cebb1466a4ae91
+      version: 5cbd8c463d0ba9522dc71c945696a8959bdf45b8
     status: developed
   ros2_easy_test:
     doc:
@@ -8641,7 +8662,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/nobleo/rviz_satellite-release.git
-      version: 4.3.0-1
+      version: 4.3.1-1
     source:
       type: git
       url: https://github.com/nobleo/rviz_satellite.git
@@ -10214,7 +10235,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 2e9dc0441a603fbaeb3d0ecab3e205a15bbdface
+      version: 7ba10de1217603b0593f6aa8346fdbad738c7c4c
     status: maintained
   vitis_common:
     doc:
@@ -10389,7 +10410,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 24e52f32656337c1f95f93b7b02232536410cc0e
+      version: 39d17e6c9ac7b4a69f896b63589116d79428013d
     status: developed
   zbar_ros:
     doc:
@@ -10444,7 +10465,7 @@ repositories:
   zmqpp_vendor:
     doc:
       type: git
-      url: https://github.com/tier4/zmqpp_vendor.git
+      url: https://github.com/autowarefoundation/zmqpp_vendor.git
       version: main
     release:
       tags:
@@ -10453,7 +10474,7 @@ repositories:
       version: 0.0.2-3
     source:
       type: git
-      url: https://github.com/tier4/zmqpp_vendor.git
+      url: https://github.com/autowarefoundation/zmqpp_vendor.git
       version: 225354f54fcca56fca6279a1d50c25ff373092e3
     status: developed
 type: distribution
