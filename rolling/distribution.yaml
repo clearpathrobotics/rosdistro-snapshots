@@ -691,7 +691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-      version: 4b7f543666fb5798d193ce5274d9d09fbf180567
+      version: 34f89d088c2cf0ae7ca72f1a325ddb8308a0daeb
     status: developed
   autoware_auto_msgs:
     doc:
@@ -734,11 +734,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_internal_msgs-release.git
-      version: 1.12.0-1
+      version: 1.12.1-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: d98e3ac1b2bcee75baa2a2c8c457e9996b48c2db
+      version: 094122d37e56c7bfd8f3385307d345cfdb2123e6
     status: developed
   autoware_lanelet2_extension:
     release:
@@ -775,7 +775,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: afb64d74ea205744451300b46c5cd5f7c5d4d624
+      version: 5390bca13ff346422e968507e2a886dcb4fe3a98
     status: developed
   autoware_utils:
     release:
@@ -1358,7 +1358,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
-      version: 8335a04daf0d7b2bcf6754a7927543164c8b399e
+      version: bfb0677bacbcbc87891a9cfaf76d23bbb6a3dc8f
     status: maintained
   cras_msgs:
     doc:
@@ -1825,7 +1825,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: 6d90cbd40dad7fdcff8b64496dcc93191b91863f
+      version: 1dfb17ae9ec7f1cc52db445c8d4715801c464606
     status: maintained
   event_camera_codecs:
     doc:
@@ -2263,7 +2263,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eProsima/foonathan_memory_vendor.git
-      version: 716cfd8c15ba6d85be89ccc6cbc076ce78be3a10
+      version: 125dafb05bca4814c5a0e8598339fe2d0fc41c4d
     status: maintained
   four_wheel_steering_msgs:
     release:
@@ -2292,7 +2292,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: a72ae3c2e86d710ebc10ef6afb8025fc4724a7fd
+      version: 31ed242789a45fb33e9ecda3f9da84373002ae57
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2399,7 +2399,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 0a0f261c1450ef68b3c308cd770d5d5f0ec861b3
+      version: cb81e60434d25d8c084b3bf89c9b79a7aa1958a2
     status: developed
   geographic_info:
     doc:
@@ -3680,7 +3680,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
-      version: a6760053334b025c955cc0d6a71b5ad5ad2c047b
+      version: f1a363c978bf7e63416b0902c75728488f687e4d
     status: maintained
   leo_desktop:
     doc:
@@ -4115,7 +4115,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: c31a7a942770117e13de14bdd097e37b7e38594f
+      version: 8cf647e1cc1d88ed992b7019212c5156ab2c3885
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4660,7 +4660,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.2-1
+      version: 2.15.3-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4722,6 +4722,16 @@ repositories:
       url: https://github.com/KIT-MRT/mrt_cmake_modules.git
       version: 46c80964ae675bcd8db1754381376b7e35f03527
     status: maintained
+  mujoco_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/mujoco_ros2_control.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/ros-controls/mujoco_ros2_control.git
+      version: c57c056d99c0a064a5fa1f4f271a79556e59ff1f
+    status: developed
   mujoco_vendor:
     doc:
       type: git
@@ -5501,7 +5511,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/persist_parameter_server-release.git
-      version: 1.0.3-1
+      version: 1.0.4-2
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2_persist_parameter_server.git
@@ -5652,7 +5662,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 4f2b245d2036afa31e887c414d66a5770c73c3d9
+      version: c0e1a253de97c85a33cdb750dcf03de78a27c3c0
     status: developed
   plotjuggler_msgs:
     doc:
@@ -5678,7 +5688,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
-      version: 2.3.0-1
+      version: 2.3.1-1
     source:
       type: git
       url: https://github.com/PlotJuggler/plotjuggler-ros-plugins.git
@@ -5851,7 +5861,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: a57a850a9d2cb87cfd99ae5f5ed95b5895c7cd04
+      version: 589034f55af0f9b6b7c800e85a2e114060a3d019
     status: developed
   px4_msgs:
     doc:
@@ -6042,7 +6052,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/python_mrpt_ros-release.git
-      version: 2.15.1-1
+      version: 2.15.3-1
     source:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
@@ -7231,7 +7241,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 646c64307549a912d7948881f0541f9b3b049903
+      version: b424f14d677cd912ba64a4c7eac4cad927937481
     status: developed
   ros2_control_cmake:
     doc:
@@ -7457,7 +7467,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: e6ab7c09b52aa41d137d5debf6ba8f7667bde1c7
+      version: ff3c2d306aa9a32afcc441266b240a35e700ca6a
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8474,7 +8484,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 136d580ed40b11b901daae9dbf1122781224a62d
+      version: 2c182a1695ec962e3b4d4e3900e009321fc1be96
     status: developed
   rslidar_msg:
     doc:
@@ -8743,7 +8753,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.4.5-1
+      version: 1.4.6-1
     source:
       test_pull_requests: true
       type: git
@@ -9878,7 +9888,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 0c96c75b58688cbccd4261669ceb2f8062983445
+      version: c35be114c0a765eeee0558d73182f1593179cc8d
     status: developed
   ur_description:
     doc:
@@ -10235,7 +10245,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 7ba10de1217603b0593f6aa8346fdbad738c7c4c
+      version: fdba5a4c6e5dd003a53740d291839d6c02972c66
     status: maintained
   vitis_common:
     doc:
@@ -10406,7 +10416,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 4.1.0-1
+      version: 4.2.1-2
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
@@ -10475,7 +10485,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/zmqpp_vendor.git
-      version: 225354f54fcca56fca6279a1d50c25ff373092e3
+      version: 226b51cfa81c737000b411c8d50c202d6c5bc1e6
     status: developed
 type: distribution
 version: 2
