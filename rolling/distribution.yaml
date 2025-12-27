@@ -1347,6 +1347,10 @@ repositories:
       version: 91ef18a0ed3dd2a18666ff2e894c060472e080bc
     status: maintained
   cpp_polyfills:
+    doc:
+      type: git
+      url: https://github.com/PickNikRobotics/cpp_polyfills.git
+      version: main
     release:
       packages:
       - tcb_span
@@ -1354,7 +1358,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cpp_polyfills-release.git
-      version: 1.0.2-4
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
@@ -1384,7 +1388,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: 121e3c470dd93916007340558096067852a5632c
+      version: cf313691c4837d7a22aa301e5aa8df1d0837ea04
     status: developed
   crocoddyl:
     source:
@@ -2650,7 +2654,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 07a66d6ebb7dfeecfd034088c3e4e1caa63aa317
+      version: 7e7b7fad104824316df3c212403dd028ee304127
     status: developed
   gz_cmake_vendor:
     doc:
@@ -4276,7 +4280,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: e8cd7cad0a7b8679cafb26014f98d8214fe6464a
+      version: cb640e2c2b14bcf10072106f58a6fa422dcc8ee7
     status: developed
   mola_common:
     doc:
@@ -4302,11 +4306,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_gnss_to_markers-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_gnss_to_markers.git
-      version: 04cd446984a5c5a025c90bdfaedd62fc332ab5f9
+      version: a3576b2f243aa5bd6ac1332c68342716293526ec
     status: developed
   mola_imu_preintegration:
     doc:
@@ -4317,11 +4321,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_imu_preintegration-release.git
-      version: 1.14.0-1
+      version: 1.14.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: fc333efe852c0f1d7be4dcb837729978e612edc2
+      version: c9557d6244db3ad1c89a86243bf7056f64c9280e
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4336,7 +4340,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 6dd5a7b2d4d2771544549b0515e5971e15836f9d
+      version: 54702943222104d8385059af387eb41d3b6a6741
     status: developed
   mola_state_estimation:
     doc:
@@ -4562,7 +4566,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/mp_units_vendor.git
-      version: 36a53a1f7874bb792f0f82b347dc681ffc490b96
+      version: 1708341a917f1f1c155c91cb231946c08b6b6a01
     status: maintained
   mqtt_client:
     doc:
@@ -4660,11 +4664,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.3-1
+      version: 2.15.4-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: 59b1acdd7986043764c9eee8cab3f4a69c844837
+      version: 981f13efd1b3d02e414d2aae2c60067e5292ee17
     status: developed
   mrpt_ros_bridge:
     doc:
@@ -4678,11 +4682,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
-      version: 3.0.2-1
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
-      version: 46e82be694a0ddffe774ad94a12d03b94f6b49e9
+      version: cfeb8c720a999d66bf98a98ce47e06c09fa604cc
     status: developed
   mrpt_sensors:
     doc:
@@ -4741,7 +4745,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mujoco_vendor-release.git
-      version: 0.0.5-1
+      version: 0.0.6-1
     source:
       type: git
       url: https://github.com/pal-robotics/mujoco_vendor.git
@@ -6436,7 +6440,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: a4a72ac544ea07edc70a090bc84795576e0e16a7
+      version: c85ff926d2ea6c3fb8b8075e28b93632a791fd5c
     status: maintained
   rclpy:
     doc:
@@ -6452,7 +6456,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 8730916289d1dad62638b6e20841f9055b6adf9e
+      version: 803716be691c4de81444fe1d5f956f7fcc92adf6
     status: maintained
   rcpputils:
     doc:
@@ -7590,7 +7594,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 10d169c16cfb6d8c6cac033c040d321ae72383fd
+      version: 7658f4a8848af0cad42433e1c99bd1482ab02d4d
     status: developed
   ros_image_to_qimage:
     doc:
@@ -10040,7 +10044,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: 9626d2a93f2bec5964ea4a9533996fc2586dc495
+      version: 4caee7c75cb65086d4d8f0d39a7e67218eae4d3b
     status: maintained
   urdfdom_headers:
     doc:
