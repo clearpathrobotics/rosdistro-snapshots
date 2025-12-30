@@ -337,7 +337,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 3c6fdad43b7c08108bc63586a57d1c7ac6f81497
+      version: 7956c5f6b99d97248dc730a07364ac3249b35271
     status: developed
   ament_nodl:
     release:
@@ -908,7 +908,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 4afefaca6cf6076fccc5a117913e9449e579d840
+      version: ff0830ae455048993174208347d1d5bcef8320c1
     status: developed
   better_launch:
     doc:
@@ -1329,7 +1329,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 6cd40a59c83c5ce734a52aff7964c3f33dd6aeab
+      version: 20d59df5bff40688023e3f987cb0fbf9aaea740e
     status: maintained
   control_toolbox:
     doc:
@@ -1394,7 +1394,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 6998cb894ed95ac1e31f1eff4dc6b82006d6397a
+      version: 91eb0a376185581461e182bbe9bf840028d32bd2
     status: maintained
   cudnn_cmake_module:
     doc:
@@ -2010,7 +2010,7 @@ repositories:
     source:
       type: git
       url: https://github.com/JafarAbdi/feetech_ros2_driver.git
-      version: 94e3a7d7ee7463fb05be159d9d399eff093bf94f
+      version: ca4ef6bc49912df74c17f9143f34e10535860a7e
     status: developed
   ffmpeg_encoder_decoder:
     doc:
@@ -3680,11 +3680,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/leo_common-release.git
-      version: 3.1.0-1
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_common-ros2.git
-      version: f1a363c978bf7e63416b0902c75728488f687e4d
+      version: db1ec359a6cb7d807a2c6372e19080cc242e26e5
     status: maintained
   leo_desktop:
     doc:
@@ -3724,11 +3724,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/leo_robot-release.git
-      version: 2.4.0-1
+      version: 2.5.0-1
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot-ros2.git
-      version: 606c074f7428afd775e4efecc76017e57e349fb7
+      version: bd867ebda51fd47304b6e410be6b2aaf13df4b75
     status: maintained
   leo_simulator:
     doc:
@@ -4276,11 +4276,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: efe52eb24bb961c0a68cc4a830d99b676dac5c63
+      version: bb3f46c29efa35837da9a912c82776e1990535d5
     status: developed
   mola_common:
     doc:
@@ -4336,11 +4336,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 54702943222104d8385059af387eb41d3b6a6741
+      version: 90139a6cac89fe1e1aaf33232ed8c9cdd9fd723d
     status: developed
   mola_state_estimation:
     doc:
@@ -4547,7 +4547,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.1.2-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
@@ -4734,7 +4734,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: c57c056d99c0a064a5fa1f4f271a79556e59ff1f
+      version: 5a41751e00f31d11df66932539e506b4d6066041
     status: developed
   mujoco_vendor:
     doc:
@@ -4770,12 +4770,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.14.2-1
+      version: 0.15.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 3ea869a9f230dde89bb162293752de59caff98c7
+      version: 15b157f35e99f1976dde75ff2bc8521cf7924fb6
     status: developed
   nanoeigenpy:
     doc:
@@ -7245,7 +7245,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 3da38612ada73743b65cd46d5aec93bd5c900e27
+      version: 224a2036c85c18cd34e7b65f3c2882f5761fd0c3
     status: developed
   ros2_control_cmake:
     doc:
@@ -8647,7 +8647,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: db3305cbc2c8869fc51d3f02b0d594e5f25d1b31
+      version: 86c1fc92f982bcecf76332846de82eb9110c9bad
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -10234,7 +10234,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
-      version: 15b90d6116f6cd6db5a52af5660362d04253cec2
+      version: 50f6f1feccc65dd2ef87f863cb812a8aa0789062
     status: maintained
   visp:
     doc:
@@ -10424,7 +10424,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 1aa04a72fade51612b1c003e0b88a9568a2436a1
+      version: 4bcaf5a5754045d3026e2c3ad19770c1164d1ff2
     status: developed
   zbar_ros:
     doc:
