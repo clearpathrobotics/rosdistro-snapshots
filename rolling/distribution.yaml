@@ -1325,7 +1325,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_msgs-release.git
-      version: 6.6.0-1
+      version: 6.7.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
@@ -1394,7 +1394,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 91eb0a376185581461e182bbe9bf840028d32bd2
+      version: 5c31ef0b9db3b76eafd493e0e2b22ae7d304c8b0
     status: maintained
   cudnn_cmake_module:
     doc:
@@ -1814,7 +1814,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: eb5fb1e21ea9abd40bc8c98ec566d9eb4e874f6f
+      version: 53d726d717aa0337d61e9361bcec9c3bfb728472
     status: maintained
   eiquadprog:
     doc:
@@ -2267,7 +2267,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eProsima/foonathan_memory_vendor.git
-      version: 125dafb05bca4814c5a0e8598339fe2d0fc41c4d
+      version: 0a0f1c479b8d78737bcf8e3d729b04851cc723b1
     status: maintained
   four_wheel_steering_msgs:
     release:
@@ -2654,7 +2654,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: aa9f6847611bc50adc7cc77c70d5e17eabec3aa7
+      version: 90f6f33f6c015e4227f927f6af7b356fe0930809
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2864,7 +2864,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: a4c94fa21e130c340decf05f2add6f5e85544f8e
+      version: 08fbef3cf16be9acbd27f4de7d45689d86f75d9c
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3046,7 +3046,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 9407d538c36bf484c9b18d8d4397d09722698fc4
+      version: 9471d2352043d30fa6e9af83d7d579b1f6efd34b
     status: developed
   hyveos_bridge:
     source:
@@ -4790,7 +4790,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/nanoeigenpy.git
-      version: 368fa4c827624c984ecace03e0e3b6e343910687
+      version: 0443f9a4c166a248d4c82168d50887cbc692301b
     status: developed
   nao_button_sim:
     doc:
@@ -5613,7 +5613,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 4a0e2c40e6991173a40e587e1adff7f974172df3
+      version: 74dc407b9f7240535229631098148afd872cc3a1
     status: developed
   play_motion2:
     doc:
@@ -6659,7 +6659,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: bea20fd3b0ac22fea9bb0c8a4bca355e54d0d0de
+      version: 92454a20f816dc425034adc1abde103ba2349574
     status: developed
   rmf_api_msgs:
     doc:
@@ -7293,6 +7293,7 @@ repositories:
       - ros2_controllers
       - ros2_controllers_test_nodes
       - rqt_joint_trajectory_controller
+      - state_interfaces_broadcaster
       - steering_controllers_library
       - tricycle_controller
       - tricycle_steering_controller
@@ -7300,7 +7301,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 6.1.0-1
+      version: 6.2.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
@@ -9138,7 +9139,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/stomp.git
-      version: f9e9d78f741f0779b65333d4f54d68ade740520b
+      version: b1a87c80f7338caae25a5c689b876da15492aa75
     status: maintained
   swri_console:
     doc:
@@ -9153,7 +9154,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
-      version: 93d15b0a1738f7e7b8857f0c1bb806aa98d9590f
+      version: 253f1bc61bb3e0aeba925932c36acdb378b92f1d
     status: developed
   synapticon_ros2_control:
     doc:
