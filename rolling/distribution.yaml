@@ -857,7 +857,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/azure_iot_sdk_c-release.git
-      version: 1.14.0-2
+      version: 1.14.0-3
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
@@ -1146,7 +1146,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_executive.git
-      version: 80f25839c93781701d90173880a761e0cc156529
+      version: 6172cf8318cb9abcca72e434cffc514d0c7f0b56
     status: maintained
   clips_vendor:
     release:
@@ -1282,7 +1282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/compass.git
-      version: 0f9886dad6e42553023129c1824a337e608730b1
+      version: e114f8052756bbb8f83c110b8b3ca5804d1cc161
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1999,7 +1999,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: c81609314120b03a4f9b41e2560f4d255ec5c435
+      version: 7851c7f885bf7f23cb18cc35b891d111b848b6b4
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2296,7 +2296,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: f81f449aab2b6d1cbd0218332c5e6951f7aeab1f
+      version: 64bcb9a13e6d4367a0db5ea9183d7d576c66e966
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2469,7 +2469,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 5b843f5c5ec432fd9f2e1accb1616659cb6ad288
+      version: 9380c655ee6d5f093611e12362604940c66aaab6
     status: maintained
   geometry_tutorials:
     doc:
@@ -2864,7 +2864,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 08fbef3cf16be9acbd27f4de7d45689d86f75d9c
+      version: 35204931fe6664580fa3a7366b8dba095bbf4def
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -2923,7 +2923,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_transport_vendor-release.git
-      version: 0.3.2-1
+      version: 0.3.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3004,7 +3004,7 @@ repositories:
     source:
       type: git
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
-      version: fff965af7618beceafadde906807778da1aa9c2e
+      version: f7953f67f0dc097fbfcc84efb4786ad2af95dd57
     status: maintained
   hebi_hardware:
     source:
@@ -3487,11 +3487,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kompass-release.git
-      version: 0.3.3-1
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: 7ce528e0777e145c0b8cc32044630835d3a7553e
+      version: 39bd42d6778966d1e9f09d7c91ca460af8d7ad46
     status: developed
   lanelet2:
     doc:
@@ -3803,7 +3803,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: c63f2c72cd7b278584dcc70b8294063e89b01ca1
+      version: 5e59969dbb7313228bc8641e5e611a8ecd0eadcf
     status: maintained
   libg2o:
     release:
@@ -3965,7 +3965,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: db183237ada21f89f08a604b54607d036963125a
+      version: 03df13e1997231455d96c2543ba22d23eddd41b8
     status: developed
   marine_msgs:
     doc:
@@ -4340,7 +4340,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 90139a6cac89fe1e1aaf33232ed8c9cdd9fd723d
+      version: 207d68620db466cdc2556d4c9c8fc7b962652f4c
     status: developed
   mola_state_estimation:
     doc:
@@ -4547,11 +4547,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.2.0-1
+      version: 2.2.1-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 28ef17d9860ca39cfbc44e6c128162489a4c5c2b
+      version: 079115135670c063a7f57a1549e5352c6d795983
     status: developed
   mp_units_vendor:
     doc:
@@ -5787,7 +5787,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
-      version: 22a18511b4671c6e1bfdea60484a88315ea4fd40
+      version: 73699dfcea8c1fcfd6e3760b137aa5397ec1b104
     status: maintained
   pointcloud_to_laserscan:
     doc:
@@ -7113,7 +7113,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 5e10d47b06c3fe327105d06a8350be455411ea5b
+      version: b3b51e11d518bfe82ee7ecd0c7fe5620adb314fc
     status: developed
   robot_calibration:
     doc:
@@ -7472,7 +7472,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: ff3c2d306aa9a32afcc441266b240a35e700ca6a
+      version: 7a1ea4bc486b8e5d047762af2c3f59c79100f1ce
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7705,7 +7705,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 0cc434079af6b86ee4be10d023c8e4ac7a1b72bb
+      version: fdbcc70d0eda7865c47b051bb65c76fb137b627a
     status: developed
   rosbag2_bag_v2:
     source:
@@ -9150,7 +9150,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/swri_console-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
@@ -10338,7 +10338,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros_sqlite.git
-      version: 6b22fcd379d570fc1ec9a979abbb3362ffc107ac
+      version: ba1a4182f69b8172a6c3c4eaa13d709e3fd1e721
     status: maintained
   web_video_server:
     doc:
@@ -10431,7 +10431,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 4.2.2-1
+      version: 4.2.3-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
