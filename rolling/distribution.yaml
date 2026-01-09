@@ -429,7 +429,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 4cdd4fcbb8aee54edf48e0e081b391cc30cb8885
+      version: 31b29af3cd594f5952e3f4c294aeaacfec34ffca
     status: maintained
   apriltag_detector:
     doc:
@@ -857,7 +857,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/azure_iot_sdk_c-release.git
-      version: 1.14.0-3
+      version: 1.14.0-4
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
@@ -2296,7 +2296,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 64bcb9a13e6d4367a0db5ea9183d7d576c66e966
+      version: 605f0c28bf6fd4b317887af07440cb442c19821f
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2469,7 +2469,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 9380c655ee6d5f093611e12362604940c66aaab6
+      version: b4f74ca97d6ffd141ac0612759c984533d73a13b
     status: maintained
   geometry_tutorials:
     doc:
@@ -2864,7 +2864,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 35204931fe6664580fa3a7366b8dba095bbf4def
+      version: 7ed1e12f71d75ac22c510538412c42d73c979b98
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3000,7 +3000,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/hebi_cpp_api-release.git
-      version: 3.15.0-1
+      version: 3.16.0-1
     source:
       type: git
       url: https://github.com/HebiRobotics/hebi_cpp_api_ros.git
@@ -3491,7 +3491,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: 39bd42d6778966d1e9f09d7c91ca460af8d7ad46
+      version: de13afc434831e0e28ae8f3e036993cabc7965f3
     status: developed
   lanelet2:
     doc:
@@ -3728,7 +3728,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot-ros2.git
-      version: bd867ebda51fd47304b6e410be6b2aaf13df4b75
+      version: 3db3bf4e05939d78ee523ec8a5a728237041cc40
     status: maintained
   leo_simulator:
     doc:
@@ -3961,7 +3961,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.6.0-1
+      version: 2.6.1-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -4088,7 +4088,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: c655e6343ec81687d51e7185bcba7a651e361fcd
+      version: faef4e9abfcc045cd0b967ce10d05e4d0556b09c
     status: developed
   menge_vendor:
     doc:
@@ -4280,7 +4280,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 351c923fcc7bec9290703f92ed3e799d928795cc
+      version: 446b3292d9b247fbf72baa7814b3948cfcc70810
     status: developed
   mola_common:
     doc:
@@ -4340,7 +4340,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 207d68620db466cdc2556d4c9c8fc7b962652f4c
+      version: b684bae6f925f93b0f067a619c5bd0b943c3937d
     status: developed
   mola_state_estimation:
     doc:
@@ -4547,11 +4547,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.2.1-1
+      version: 2.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 079115135670c063a7f57a1549e5352c6d795983
+      version: 1db08a8dc9cc81e707aecdafec2797839a169352
     status: developed
   mp_units_vendor:
     doc:
@@ -4562,11 +4562,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp_units_vendor-release.git
-      version: 2.5.0-1
+      version: 2.5.0-2
     source:
       type: git
       url: https://github.com/nobleo/mp_units_vendor.git
-      version: 1708341a917f1f1c155c91cb231946c08b6b6a01
+      version: b85d5f14205c6945387575f72f6cafbf0bf944d3
     status: developed
   mqtt_client:
     doc:
@@ -6456,7 +6456,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 803716be691c4de81444fe1d5f956f7fcc92adf6
+      version: ad4d4d74dd15ed051ae6c09f81d8ce2a5be0a9cc
     status: maintained
   rcpputils:
     doc:
@@ -7113,7 +7113,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: b3b51e11d518bfe82ee7ecd0c7fe5620adb314fc
+      version: 1308162870f1edfb163ef312ff4d22908849b598
     status: developed
   robot_calibration:
     doc:
@@ -7705,7 +7705,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: fdbcc70d0eda7865c47b051bb65c76fb137b627a
+      version: 2f89eecf735e1b4f231833c72d381cb8f53b7e21
     status: developed
   rosbag2_bag_v2:
     source:
@@ -10260,7 +10260,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 314912e1204c72f88e026d52cf03b8a349e6f989
+      version: dc021bc02e029e5466ac891537fb1fc825bf0f61
     status: maintained
   vitis_common:
     doc:
