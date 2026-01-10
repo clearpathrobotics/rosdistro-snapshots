@@ -284,12 +284,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_index-release.git
-      version: 1.13.0-1
+      version: 1.13.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_index.git
-      version: 653db90ce86a460120c270b9a4c4ac792d8aa6f6
+      version: ff262ba957861ca4d8d98594887f34854c05f384
     status: maintained
   ament_lint:
     doc:
@@ -908,7 +908,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 93f0f1ab47085fc9405e403be69c702f09f54183
+      version: ded902738f6072ac9853ea531fc67da933d71e85
     status: developed
   better_launch:
     doc:
@@ -1471,12 +1471,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/demos-release.git
-      version: 0.37.4-1
+      version: 0.37.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 91c63e5301a174edda2b01cf79213bf5cc302e91
+      version: 1b980c4df914a324594d114274111922b5ab4d53
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1681,7 +1681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 4e92ab47f416308d25d2175d6c60d24dca56a6e8
+      version: 9274436ce47172052b96c095ab1f74c726d9cb79
     status: developed
   ecl_core:
     doc:
@@ -2100,7 +2100,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 322e60fb3c4c9f0a7f063a60b04344c7cc7ba0a6
+      version: 85d6cf77acd91dcd93847b3b4b57a71e8620caa8
     status: developed
   filters:
     doc:
@@ -2296,7 +2296,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 605f0c28bf6fd4b317887af07440cb442c19821f
+      version: 4d1c802a28f50ca4210c27b7831e8fe7da088b45
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2464,12 +2464,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/geometry2-release.git
-      version: 0.45.5-1
+      version: 0.45.6-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: b4f74ca97d6ffd141ac0612759c984533d73a13b
+      version: 13184de30f971a02b6e747e4ff2dacaf5f41c29a
     status: maintained
   geometry_tutorials:
     doc:
@@ -2654,7 +2654,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 99161db3d0a16eb778b5e0853cf9a84bd982b64a
+      version: 39321274cf801e30b42475fe6b86e0c6ab83ee05
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2860,7 +2860,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 3.0.5-1
+      version: 3.0.6-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
@@ -3016,7 +3016,7 @@ repositories:
     source:
       type: git
       url: https://github.com/HebiRobotics/hebi_msgs.git
-      version: 73e3dfd99a529cba5772b191b3c899f00c6c37bb
+      version: e88f19322320ee58bdd77b78f63e08fae70bfa7a
     status: maintained
   hls_lfcd_lds_driver:
     doc:
@@ -3212,7 +3212,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/CCNYRoboticsLab/imu_tools.git
-      version: 0fc51619293204934d2f63cebc712b0d9298144b
+      version: 6fe2d40ba40b76967d0bdfe85b0717aa648edd8c
     status: maintained
   interactive_marker_twist_server:
     doc:
@@ -3728,7 +3728,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LeoRover/leo_robot-ros2.git
-      version: 3db3bf4e05939d78ee523ec8a5a728237041cc40
+      version: f13afe97bf467a3a566d6ef2275dfb07395b8692
     status: maintained
   leo_simulator:
     doc:
@@ -4551,7 +4551,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 1db08a8dc9cc81e707aecdafec2797839a169352
+      version: 6f1428871429cb22266900c5c821023314d13cc0
     status: developed
   mp_units_vendor:
     doc:
@@ -4734,7 +4734,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 5a41751e00f31d11df66932539e506b4d6066041
+      version: 2b0c4632e48115860afd455faf607c86a4b33a9e
     status: developed
   mujoco_vendor:
     doc:
@@ -4790,7 +4790,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/nanoeigenpy.git
-      version: 8db14042357e344424f6fd89755ab36939ff8bc6
+      version: 14d1945fbd9443e9eef11dc2220f62eabe59a0a5
     status: developed
   nao_button_sim:
     doc:
@@ -5472,12 +5472,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/perception_pcl-release.git
-      version: 2.7.3-1
+      version: 2.7.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
-      version: 11d26da61eeb8f13b28830cabeeda64d9c28c9c7
+      version: 8fde69004a43a78ee4656ae45d83620865a23040
     status: maintained
   performance_test:
     doc:
@@ -5782,7 +5782,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport_tutorial-release.git
-      version: 0.0.5-1
+      version: 0.0.6-1
     source:
       test_pull_requests: true
       type: git
@@ -6091,7 +6091,7 @@ repositories:
     source:
       type: git
       url: https://github.com/StefanFabian/qml6_ros2_plugin.git
-      version: ecc3ce8d988fb63ef80ee87ee0f9549018308186
+      version: 50b989d91a697b3346cdd82d5d20be7953fb2035
     status: developed
   qml_ros2_plugin:
     doc:
@@ -6106,7 +6106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/StefanFabian/qml_ros2_plugin.git
-      version: e27f44c70be2d98cd39d013f8e43e5c6175239db
+      version: 25bd8c8ba3f5f6735d73d633d74a85a6ef173b98
     status: developed
   qpoases_vendor:
     release:
@@ -6451,12 +6451,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 10.0.2-1
+      version: 10.0.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: ad4d4d74dd15ed051ae6c09f81d8ce2a5be0a9cc
+      version: 1755d6ba24951072f3ef98c90180bacdceb46de9
     status: maintained
   rcpputils:
     doc:
@@ -7113,7 +7113,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 1308162870f1edfb163ef312ff4d22908849b598
+      version: f464f7bfa19a52a8d47a095b86a16065c19d0f23
     status: developed
   robot_calibration:
     doc:
@@ -7154,12 +7154,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robot_state_publisher-release.git
-      version: 3.5.3-1
+      version: 3.5.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/robot_state_publisher.git
-      version: ccfc694828dba9f7604a8e2830f4b276c311fb98
+      version: 06b9896394f63282bb0c988d423658c91ba04461
     status: maintained
   robotraconteur:
     release:
@@ -7245,7 +7245,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 46339f17d7289bce950d8e5b48e26145b64d08fd
+      version: fdb58f5191adbf929a78b93244e36e7959dade32
     status: developed
   ros2_control_cmake:
     doc:
@@ -7330,7 +7330,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/ros2_fmt_logger.git
-      version: 735ab40afaacc25e633ad6f6e3fb73d855bdd1dd
+      version: 87a7171bc9d02c4d5baab31332461cf2ac14ceae
     status: developed
   ros2_kortex:
     doc:
@@ -7467,7 +7467,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.40.3-1
+      version: 0.40.4-1
     source:
       test_pull_requests: true
       type: git
