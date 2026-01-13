@@ -603,7 +603,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/async_web_server_cpp.git
-      version: 9c0e4e0e4470b7bb1ac2a818bc69f6ee715e9849
+      version: 3f40f9e6f9b8f8a50f6342197c0ed563f62b723f
     status: maintained
   asyncapi_gencpp:
     doc:
@@ -1178,7 +1178,7 @@ repositories:
     source:
       type: git
       url: https://github.com/coal-library/coal.git
-      version: b5eef8d0b9b769e76e42e7c9d9bd6b453986f668
+      version: master
     status: developed
   cob_common:
     doc:
@@ -1999,7 +1999,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 7851c7f885bf7f23cb18cc35b891d111b848b6b4
+      version: a45514751187615eb0f8e7f238d704bd481b6ffb
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2267,7 +2267,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eProsima/foonathan_memory_vendor.git
-      version: 3f133c3de05c9af4eb1f249a726c3ff6a46877d3
+      version: d73c6a3f66dea82cff0af9095900c7090b319383
     status: maintained
   four_wheel_steering_msgs:
     release:
@@ -2296,7 +2296,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 4d1c802a28f50ca4210c27b7831e8fe7da088b45
+      version: 9b1def01fc6a54105b9cd050fed5ccbc0835ba31
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2654,7 +2654,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 053d6137631cad08d1795acac2092cb9658b92ae
+      version: 369cb1f893bd30dc192f5ed8a8ca80bb94552c03
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3259,7 +3259,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/inverse_dynamics_solver-release.git
-      version: 6.0.1-1
+      version: 6.0.1-2
     source:
       test_pull_requests: true
       type: git
@@ -3491,7 +3491,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: de13afc434831e0e28ae8f3e036993cabc7965f3
+      version: 25017d9a86037dae68316e64e2a4b15797efa148
     status: developed
   lanelet2:
     doc:
@@ -3603,7 +3603,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 082e64087b97decf8e66f77f96b0fe10c195e354
+      version: 57c1aeec7b18be4e0e93c91a4b069d4437f5b839
     status: developed
   launch_frontend_py:
     doc:
@@ -3653,7 +3653,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: c8b9f526d39ad41f31d0a70943c31a6185027d84
+      version: dc3ed443b4352f0310dfde85d462b52ea2c33472
     status: maintained
   ld08_driver:
     release:
@@ -4359,7 +4359,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 92f5591949edebcd9523326e3b8d36f50b4d9d0b
+      version: 15a6eb766dbac44b5e076b83feeb3ecf28fae408
     status: developed
   mola_test_datasets:
     doc:
@@ -4551,7 +4551,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 5ed89d3ac764afa87c9a7538fec2cbd2e89150e8
+      version: c0911c6aec30f6c4a67314d31f084fdcae913272
     status: developed
   mp_units_vendor:
     doc:
@@ -4664,7 +4664,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.4-1
+      version: 2.15.5-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4734,7 +4734,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 2b0c4632e48115860afd455faf607c86a4b33a9e
+      version: 50c21b6679ad6385b41f5d0c5a363f58078312da
     status: developed
   mujoco_vendor:
     doc:
@@ -7241,7 +7241,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control-release.git
-      version: 6.3.1-1
+      version: 6.3.2-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
@@ -7907,7 +7907,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: eb31e837c34f8fa6bc484d9d228d5124088fe0a6
+      version: 9840fc2f24034a523e2a66f3156d9f054dcc1bc2
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -9109,7 +9109,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: b30f43548f7162e453ed577c72077e97fe2f7f28
+      version: 61f67311fed157bd862fb4c3d8b901721186274e
     status: developed
   steering_functions:
     doc:
@@ -9955,7 +9955,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: c1d3656bcaeb998636dad0b5577c2ea563499290
+      version: 227d8792efb1509cd1c54a042462cc3bf1ce2676
     status: developed
   ur_simulation_gz:
     doc:
@@ -10435,7 +10435,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: db6428682072d89ce03217e8b00accf5d64ffce1
+      version: 4d6862b645187572188894db28f1935b7ae6f451
     status: developed
   zbar_ros:
     doc:
