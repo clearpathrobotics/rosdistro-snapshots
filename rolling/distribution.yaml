@@ -653,7 +653,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
-      version: 16fa743582d4d15ffb90f343e5b382a6de678f2b
+      version: 66471b82e3bb295a79491f895353c7aeee9a44ac
     status: developed
   automatika_ros_sugar:
     doc:
@@ -2664,7 +2664,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 8c98eefb24f846267119f7f81466dd660f195b06
+      version: 6609bb72505c3747850a33cd0f2a0a1e2be6aaed
     status: developed
   gz_cmake_vendor:
     doc:
@@ -3501,7 +3501,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: 25017d9a86037dae68316e64e2a4b15797efa148
+      version: 43af50f0fdbae52810b416628d8cfa83d35c14f7
     status: developed
   lanelet2:
     doc:
@@ -4290,7 +4290,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: e9fa5ca799257c1e51aa4ab12a9a0772bf6e7c07
+      version: a3c77ec9037742190b0c15d712852254ee33c8b2
     status: developed
   mola_common:
     doc:
@@ -4351,6 +4351,16 @@ repositories:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
       version: 1e9ee45431c7fb6b19551bcc63df3ba1942be5b7
+    status: developed
+  mola_sm_loop_closure:
+    doc:
+      type: git
+      url: https://github.com/MOLAorg/mola_sm_loop_closure.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/MOLAorg/mola_sm_loop_closure.git
+      version: dbf0b557f4d3453cb3991600d2bca220064ed9b0
     status: developed
   mola_state_estimation:
     doc:
@@ -4561,7 +4571,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: c13f01cda612bf90ae0ac8c9449014976c6a4e83
+      version: c5f57d3c58feda5798c7a878dc05fbfdd2655607
     status: developed
   mp_units_vendor:
     doc:
