@@ -2317,11 +2317,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 3.2.3-1
+      version: 3.2.4-1
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: d41509186e3a0579c1b82926f9738c4631ab5c20
+      version: 0584f71e2e95b969e18c8de65e581cf8495279dc
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -3833,7 +3833,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 7350d6cc5dd1b5bc724749d21744c07879deb803
+      version: ad2d317a0c15ad475844b239128360b605eb6d8f
     status: maintained
   libg2o:
     release:
@@ -4776,7 +4776,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 1d55de7ff9d7d45031e63e753714daa0cf78a573
+      version: b455c7d5bd5a791b45c0cc5ed069df6ecc89ec80
     status: developed
   mujoco_vendor:
     doc:
@@ -4817,7 +4817,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 53dbe058bfe9ca3aeca103b7a44fe95addbf19e0
+      version: 6141f6559caad6920cc6db67a3d67d08d4e8ec56
     status: developed
   nanoeigenpy:
     doc:
@@ -6643,7 +6643,7 @@ repositories:
     source:
       type: git
       url: https://github.com/reductstore/reductstore_agent.git
-      version: d63845758843da0cd864cecaf9d71d9bf5f90b4b
+      version: 0c7982a0de946bef1782436bdb31a6fe1fb8fddb
     status: developed
   replay_testing:
     doc:
@@ -6836,7 +6836,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: fac08c47b0e99760c4b25a4d095db29d7033ad35
+      version: 609fe3ddf8d93b7b372a8bc2bd05f1aae338d9de
     status: developed
   rmf_simulation:
     doc:
@@ -7136,7 +7136,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: 8bcc72770ff638b816d723660dafda82fccc28ff
+      version: 361fda90ad7155596dc9d4f7fac8b3d58f4e6a60
     status: developed
   rmw_zenoh:
     doc:
@@ -7155,7 +7155,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 8d69999c21650057a96b9d9d17034ee5d616ab8b
+      version: 656b79a2a48060f3205a25a7979bae1448f01086
     status: developed
   robot_calibration:
     doc:
@@ -7431,7 +7431,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/ros2_socketcan.git
-      version: b1d1a6698624758ffabe84ba0e9b68d00780aaef
+      version: fac5101625fe273d53c1656ecc5eb15bbc4f2a7a
     status: developed
   ros2_tracing:
     doc:
@@ -7514,7 +7514,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: a588c01474a2c54440a62729a4ba549575abc4b9
+      version: 83f0429433c0166dbe69a711bbf9099770868b73
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -7747,7 +7747,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 403540efedf2cbb319e4de9a5c692d806ea9e57d
+      version: aa83b66a83ba656f30f6e8f2ac2807ea54c5832d
     status: developed
   rosbag2_bag_v2:
     source:
@@ -9413,6 +9413,12 @@ repositories:
       url: https://github.com/DLu/tf_transformations.git
       version: 07d77223288c457cfe71f361257e9fdd350c6fd9
     status: maintained
+  tf_tree_terminal:
+    source:
+      type: git
+      url: https://github.com/Tanneguydv/tf_tree_terminal.git
+      version: 94e405298f0ceaf17b84cf3754f1e1ad531af774
+    status: developed
   tinyspline_vendor:
     doc:
       type: git
@@ -9700,7 +9706,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/turtlebot3_machine_learning.git
-      version: c829276268aa2a9be9dc34fc093ec331f69655a1
+      version: 3bce927fc2161b3df4568c6a170502dd45aff7e3
     status: developed
   turtlebot3_manipulation:
     doc:
@@ -9945,7 +9951,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 4db70eb4f3488d8ff1414d8c94db37d8e2dfea09
+      version: 45aa60362fd21555c328596a80c9a3979ce5a70b
     status: developed
   ur_description:
     doc:
@@ -10302,7 +10308,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 9f15ef7442263cd3e90d8870954fd08da3a56b95
+      version: d2a1c203afa297ed03e0386a35b1e89db60a1259
     status: maintained
   vitis_common:
     doc:
