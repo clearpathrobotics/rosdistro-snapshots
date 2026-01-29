@@ -762,7 +762,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: ecae5ae92ae891c7b544278654ac196e7011356b
+      version: 963560a48260f8b874540782baa0430179bb2c2f
     status: developed
   autoware_msgs:
     release:
@@ -1282,7 +1282,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/common_interfaces.git
-      version: 282eb842f1fb5bb15bc4697d3ef80a4d61ec639a
+      version: b610accb10a25af0478a03f2cfc9aa52a403ff8c
     status: maintained
   compass:
     doc:
@@ -1726,7 +1726,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: d4cc9fd5a938e480469acbfb80eca05502d4fdfc
+      version: ce5c0a2921b0b9492c448c5cf94b5dcf062385f8
     status: developed
   ecl_core:
     doc:
@@ -2346,7 +2346,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 0584f71e2e95b969e18c8de65e581cf8495279dc
+      version: 633467929200f467b93aa1255d55f0c2dd893664
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2679,7 +2679,7 @@ repositories:
     source:
       type: git
       url: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor.git
-      version: 67fb81075a912f5542fe5ff3bcac227372409b67
+      version: 64e5ad5d7cd03f96c9c81326a130b34a67cbec35
     status: maintained
   gscam:
     doc:
@@ -3858,7 +3858,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 9b477c114b6602569eb2b573e92bf93d0381bd44
+      version: 67fd7d720b4845a22d3e97009212d20cd22df83d
     status: maintained
   libg2o:
     release:
@@ -4405,7 +4405,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_sm_loop_closure.git
-      version: d0c5b42461fede9a884b1c7e831e18b1b6d1c486
+      version: e21a2e73aa9075cc333d9fa0b33ba39cde9471ca
     status: developed
   mola_state_estimation:
     doc:
@@ -4588,7 +4588,7 @@ repositories:
     source:
       type: git
       url: https://github.com/moveit/moveit_task_constructor.git
-      version: 7851ea4191674c02f5ce1ad522b4824f6480fc81
+      version: 6d49f902aa499b9dceb306a05d65c41a4aeaae1f
     status: maintained
   moveit_visual_tools:
     doc:
@@ -4618,7 +4618,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 0462bf1a5489a884444cb488f38c1ecc4d9257ce
+      version: cebc6107b2ca6678172c942137dbddbcb5b7fe6a
     status: developed
   mp_units_vendor:
     doc:
@@ -4842,7 +4842,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: df17df4ba9eb9d18f6b470861905e805cb43fcb6
+      version: eff873fcb76130388ab31216c1610c7466f2631a
     status: developed
   nanoeigenpy:
     doc:
@@ -6437,13 +6437,14 @@ repositories:
       version: rolling
     release:
       packages:
+      - rcl_logging_implementation
       - rcl_logging_interface
       - rcl_logging_noop
       - rcl_logging_spdlog
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 3.3.2-1
+      version: 3.4.0-1
     source:
       test_pull_requests: true
       type: git
@@ -6861,7 +6862,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: e481d4f294422098df8e0ff3f4bdab6c70cd5334
+      version: 5727d0acc4888bdb66be1a20a993aac5c9b31fd0
     status: developed
   rmf_simulation:
     doc:
@@ -9251,7 +9252,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tier4/sync_tooling_msgs.git
-      version: 0b7c482b044a5f6d8eccf3e8686cc8f7afbc3363
+      version: 894ab3777059d562ad34a7d22214d409a165085f
     status: developed
   system_fingerprint:
     doc:
