@@ -638,7 +638,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AutoAPMS/auto-apms.git
-      version: 8b36b3c534e43559a35642066d1d1ff789e89127
+      version: 81f14e5916c6dbdfcaeea504a1375b983ee15a79
     status: developed
   automatika_embodied_agents:
     doc:
@@ -944,6 +944,16 @@ repositories:
       type: git
       url: https://github.com/flynneva/bno055.git
       version: 45e1ff16936101711260c9fda63fbad99376ce3b
+    status: maintained
+  bob_llm:
+    doc:
+      type: git
+      url: https://github.com/bob-ros2/bob_llm.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/bob-ros2/bob_llm.git
+      version: 2d58264b915f67c8208ded1fdb99fc1676a19d06
     status: maintained
   bond_core:
     doc:
@@ -1439,7 +1449,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 39d5b5e3d0f21825f3ad7db3403e425c364bb035
+      version: cd7ee50170caf5727e4ff49799650200b11cd665
     status: maintained
   cudnn_cmake_module:
     doc:
@@ -1726,7 +1736,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 3839c4965f46de39ddee10d5f5af92ec07a87f24
+      version: 71cd03a26d69a4ec4d483c2fd0068af550c5cbfd
     status: developed
   ecl_core:
     doc:
@@ -2043,7 +2053,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 3.4.1-1
+      version: 3.4.2-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -2346,7 +2356,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 29041fae41d4eff20ae180c3363c0f47dc8ec914
+      version: 51e14b5c82b2ca500da8956b3c1cdb4e13a28e29
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2709,7 +2719,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: aed1715546aaa033b96b8c946cf8d1b68ab4ef48
+      version: 9f995fbf1bfbd44071ef63e26dbc416fd35a6270
     status: developed
   gz_cmake_vendor:
     doc:
@@ -2725,7 +2735,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: eb06d00b852acdf1da29e1c50c6b51e0d50d5f92
+      version: 92c25daef1863155080346668f07f354e38c7855
     status: maintained
   gz_common_vendor:
     doc:
@@ -2741,7 +2751,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_common_vendor.git
-      version: 0dfde0cc68570695b72642ea9130f173791bc8ac
+      version: b463933c72259950c6c748d271d88cb2c9698b3b
     status: maintained
   gz_dartsim_vendor:
     doc:
@@ -3101,7 +3111,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: aad098973e3420e35e0e011e2e7fb2aa7cbf4435
+      version: 78110058708d0810084b52d32806c5357bd8afca
     status: developed
   hyveos_bridge:
     source:
@@ -3854,7 +3864,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcamera-release.git
-      version: 0.6.0-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
@@ -4731,7 +4741,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.5-1
+      version: 2.15.6-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
@@ -4837,7 +4847,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mvsim-release.git
-      version: 0.15.0-1
+      version: 0.16.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5227,6 +5237,8 @@ repositories:
       - off_highway_can
       - off_highway_general_purpose_radar
       - off_highway_general_purpose_radar_msgs
+      - off_highway_mm7p10
+      - off_highway_mm7p10_msgs
       - off_highway_premium_radar
       - off_highway_premium_radar_msgs
       - off_highway_premium_radar_sample
@@ -5240,7 +5252,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/off_highway_sensor_drivers-release.git
-      version: 1.1.0-2
+      version: 1.2.0-1
     source:
       type: git
       url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
@@ -6684,7 +6696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/replay_testing.git
-      version: 8a2b2fddbc0cd46d1f2e1a08bb85c67a7bbf7c6c
+      version: 5e47de206d14ef4d469f905760ee7b3b67e28eed
     status: developed
   resource_retriever:
     doc:
@@ -7181,7 +7193,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 656b79a2a48060f3205a25a7979bae1448f01086
+      version: 6b029ea8c17ac2cba066e4e70bb66447ead82000
     status: developed
   robot_calibration:
     doc:
@@ -7373,7 +7385,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: c63d3bb19774ed5c3868bb13443aadf9dd687908
+      version: 76f96ca301ce37dc8157ea03d20a199c30245337
     status: developed
   ros2_easy_test:
     doc:
@@ -9445,6 +9457,15 @@ repositories:
       version: 855b39ceb91265471118e77b9911e802ac617d94
     status: maintained
   tf_tree_terminal:
+    doc:
+      type: git
+      url: https://github.com/Tanneguydv/tf_tree_terminal.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/tf_tree_terminal-release.git
+      version: 2.0.0-2
     source:
       type: git
       url: https://github.com/Tanneguydv/tf_tree_terminal.git
@@ -10034,7 +10055,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 50366b7074a1debb297c8b6c2e256181d5055bce
+      version: 88137a068f5998405fc15a90de23daeaf34cfe72
     status: developed
   ur_simulation_gz:
     doc:
@@ -10149,7 +10170,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/urdfdom_headers.git
-      version: b246616b1d64ec70ce9f8324771b54494cbcd349
+      version: 2ba71eb0ed6332679af3d88b410d1d656fff071a
     status: maintained
   urg_c:
     doc:
@@ -10428,12 +10449,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/web_video_server-release.git
-      version: 2.1.1-1
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
-      version: eef3dc264065c3dd31d157ed19dd5ece1e6ab6b7
+      version: 02a5ffcef614a7f58822d17a0a0fe24a9a50870a
     status: maintained
   webots_ros2:
     doc:
