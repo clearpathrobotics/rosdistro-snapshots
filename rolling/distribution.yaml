@@ -491,7 +491,7 @@ repositories:
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
-      version: 6a6c04a16502413f114649f9bdb166c784d4fcfb
+      version: a469a9da428af93756469a215ad0d7d04fdb801c
     status: developed
   ardrone_ros:
     doc:
@@ -775,7 +775,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 949fef548162013deac126d7fb49cba77d5ac218
+      version: 68219c4793f00317e43a467b963c6d50f33437c6
     status: developed
   autoware_msgs:
     release:
@@ -2401,7 +2401,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 64e84462165f328b82e6bedc340db4579dd1c487
+      version: b57a6e76f1128200af91b14a9b16cc0fa0161133
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2513,7 +2513,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: dbf3b1f71df768f012da1a13a54b51e5e18fa04a
+      version: b40c8f934b80b02fb3d5d8f66073274d5cdc0759
     status: developed
   geographic_info:
     doc:
@@ -2734,7 +2734,7 @@ repositories:
     source:
       type: git
       url: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor.git
-      version: 9dda9325125c77b7eb4e833778763db13afdff53
+      version: 6f5c134bd731c4470fb7bc00887ad4cf582e0778
     status: maintained
   gscam:
     doc:
@@ -3171,7 +3171,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: 6438d5308fd0677ea0834057c480d4b8efe4bb79
+      version: 545f27388078f0b5781b7c1b43213b1fb4253038
     status: developed
   hyveos_bridge:
     source:
@@ -3728,7 +3728,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: cf96072c2045e821eecf43c80c326ab74cb74b7a
+      version: 7b15f52c9ba0d14175468672994c66ed372d8f47
     status: developed
   launch_frontend_py:
     doc:
@@ -4081,7 +4081,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: c1aa6de965960250f4ab762e97e67e6290395dc7
+      version: 7d87efb4a3dddbbe8caa9ca14eff05ede1102ab8
     status: maintained
   mapviz:
     doc:
@@ -4225,7 +4225,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: be258eecd05cef1b526c2d9ad0282d34bde1ffa3
+      version: 89f8cb29547a5be99058da8e9b2e74023ce0e926
     status: developed
   menge_vendor:
     doc:
@@ -4892,7 +4892,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 5527f72532eade39743b73c9246ff5dce4e4c470
+      version: ede0a1c3c625c0d24d6d244972f0be8dad77ca60
     status: developed
   mujoco_vendor:
     doc:
@@ -4907,7 +4907,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/mujoco_vendor.git
-      version: b2c29d279814b70784af4c6666f8eab065deea1b
+      version: e4c679d922fdf977be8625fd770020b955d8cc62
     status: developed
   multisensor_calibration:
     doc:
@@ -5719,7 +5719,7 @@ repositories:
     source:
       type: git
       url: https://github.com/vtalpaert/ros2-phone-sensors.git
-      version: 618f88c3963b9574acdc0170eb37fe76f105c0aa
+      version: 52831b7f51ca079afe8b2b67200d241dd2a4ac12
     status: developed
   pick_ik:
     doc:
@@ -6589,7 +6589,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclc.git
-      version: f496dc8aae925cf02ac05d9925688149c4d47dbb
+      version: 9900fa8c68c870d6b2a6904119118c4f9975d9f6
     status: developed
   rclcpp:
     doc:
@@ -9050,12 +9050,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simple_actions-release.git
-      version: 0.4.0-1
+      version: 0.5.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/simple_actions.git
-      version: 784c3809e247ac7ad1e70bc9913eadbabe00e598
+      version: b5322ebb103d72c12e0880961881ce35f9ae7938
     status: developed
   simple_grasping:
     doc:
@@ -9085,7 +9085,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: dc0e5057a981c573baaa32da07ac18657cf735ba
+      version: 01f4b154c75a92abda3729ee2a14ce5e5e8bdfab
     status: maintained
   simulation_interfaces:
     doc:
@@ -9285,7 +9285,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: 533fdef62c16d05bd116f29f46f516f7fe68f4a7
+      version: dd54f209131b1ba46503cdbec229e7db6ef5354b
     status: developed
   steering_functions:
     doc:
@@ -10201,7 +10201,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_launch.git
-      version: 7627a0f1d983e4a534837c1651def90cc3423ca9
+      version: 9c2d5af6e235c7658409939bdb624f5547de8952
     status: developed
   urdf_parser_py:
     doc:
@@ -10456,7 +10456,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 853626f3f99f26e9321e1d55cf5ec1a84036c757
+      version: 49f26f806b6dffc1be9a6a149064a8ec857c6f3c
     status: maintained
   vitis_common:
     doc:
