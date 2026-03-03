@@ -1209,7 +1209,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/facontidavide/cloudini-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
@@ -1390,7 +1390,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_msgs.git
-      version: 13dacdd8748264b6cd7cbbc9893c18c90e24be00
+      version: 88840b8751883af0bdc9f8f5c34bd97eba1d22aa
     status: maintained
   control_toolbox:
     doc:
@@ -1405,7 +1405,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: a2c47dba4aba40c95ece42bf0ea0a30004ae581d
+      version: f2eb3312f6578a46306e48320f42467ad881eb4f
     status: maintained
   cpp_polyfills:
     doc:
@@ -1576,7 +1576,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: c68e86e520e92cb9c5274ab0af09e1c16f545fb0
+      version: 865426ff5d91fbd8a5761a8de637af9a5605d14d
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -1929,7 +1929,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: dd3111520cfaa47866615d9d36749314b5dfb6ac
+      version: 914f3fa7dd1e39ff6fa5255b115a485539ebf42f
     status: maintained
   event_camera_codecs:
     doc:
@@ -2401,7 +2401,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: b57a6e76f1128200af91b14a9b16cc0fa0161133
+      version: a7bae8818116253fbed1ce83a79c478f93953770
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2989,7 +2989,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 5c63578f8c5420fa0a2ffdde8c9e48fcb02a3c18
+      version: fd2707a7c637b9182a43e64326fbb0d66bb83929
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3550,7 +3550,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: 83620bbe7634ce3b80cc850aba0e29a87ec00940
+      version: 7275fd0abfa4fc80eab8d770275a1f4028ac0547
     status: developed
   kobuki_core:
     doc:
@@ -3928,7 +3928,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 0d3e543b4d6690f65070b95450aecb5792d0d51f
+      version: 14ba4d168085dd27aed9bcb043996d6a5f28867e
     status: maintained
   libg2o:
     release:
@@ -4903,7 +4903,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mujoco_vendor-release.git
-      version: 0.0.6-1
+      version: 0.0.7-1
     source:
       type: git
       url: https://github.com/pal-robotics/mujoco_vendor.git
@@ -5719,7 +5719,7 @@ repositories:
     source:
       type: git
       url: https://github.com/vtalpaert/ros2-phone-sensors.git
-      version: 3dfc93120843fb21368e3d2c35cd944539b5d170
+      version: bfc2c1a0e1ff6dde8abbf32e64b9942c87200fa4
     status: developed
   pick_ik:
     doc:
@@ -6025,7 +6025,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: d3d23ddc3af1538e35a1f696d2f2457aad1e0e84
+      version: 59b659bc627a3ea82c2e6d54eb8d7c559fb065f2
     status: developed
   px4_msgs:
     doc:
@@ -6584,7 +6584,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclc-release.git
-      version: 6.2.0-1
+      version: 6.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6610,7 +6610,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: aea98d665a2937243891f6d9ca075d497fd04db5
+      version: dea57660b56e8f3859b861609ceb53b5c6332d9f
     status: maintained
   rclpy:
     doc:
@@ -6626,7 +6626,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 04d63d3149624e50cc32570f94f8ea67e579ebbc
+      version: 665070127a0d268710caaa9b50cf6af011d984b9
     status: maintained
   rcpputils:
     doc:
@@ -6756,7 +6756,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: c1339fedff7f353f651801059cfcbb5d88fca6c6
+      version: 8f17a12bfa8b6477209899ad8c32da9269bb5f10
     status: maintained
   reductstore_agent:
     doc:
@@ -7415,7 +7415,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: cb9a98307a5ed41322b56cdb9fdb4d5f51ef8738
+      version: 4c7228fdd0edf40acf0316a2949070bc9d303bea
     status: developed
   ros2_control_cmake:
     doc:
@@ -7430,7 +7430,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
-      version: 281673d71c5b573bbcb82ce91d67ea0151498c23
+      version: 5beb2608880849f0fa11519908d5df0eccbc4c28
     status: developed
   ros2_controllers:
     doc:
@@ -7475,7 +7475,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: eaefb1ebc86f0d82de1085962fd0fd03ba6e6813
+      version: f730c7afd36bd555c86ffee1f326e0f743ed0545
     status: developed
   ros2_easy_test:
     doc:
@@ -7610,7 +7610,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2ai.git
-      version: 34aea186204ea62d0b14614077130facee44ab74
+      version: 572bbba88db74317a4d50bcc3effb4ce3de2d9ee
     status: developed
   ros2cli:
     doc:
@@ -7936,12 +7936,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbridge_suite-release.git
-      version: 3.0.2-1
+      version: 4.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 61860bf4c091fcac33cb64e5b313f5a7f65b038e
+      version: 1901c15a462417f1cf4c7e13cd019d7ca301a8ee
     status: developed
   rosidl:
     doc:
@@ -9642,7 +9642,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: f61dd7c27cc14cf422ea1608c9e80e138a8954fb
+      version: f496102648c5de968cae9e942f138d41ad6e2273
     status: developed
   topic_tools:
     doc:
@@ -9734,7 +9734,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/transport_drivers.git
-      version: 9fff59f66e4e0f9296501b3f671adc6543509996
+      version: 0af598879560099b1069f9ad03d99f10684279ea
     status: developed
   tsid:
     doc:
@@ -10099,7 +10099,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 7b57b661654acfb3d19f4820034fabb39b583c04
+      version: 59db585b8c3983c5e8ba9e9aa7a8c8e0fcf38e4d
     status: developed
   ur_description:
     doc:
@@ -10151,7 +10151,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 142ae85a251de7694c6d357ad3b9aa30c3d2625c
+      version: 79fbf743da82c7c76b106c0fb4514faa0db69fcc
     status: developed
   ur_simulation_gz:
     doc:
@@ -10196,7 +10196,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/urdf_launch-release.git
-      version: 0.1.1-2
+      version: 0.1.2-1
     source:
       test_pull_requests: true
       type: git
@@ -10679,7 +10679,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/zed-ros2-interfaces-release.git
-      version: 5.1.1-1
+      version: 5.2.1-1
     source:
       type: git
       url: https://github.com/stereolabs/zed-ros2-interfaces.git
