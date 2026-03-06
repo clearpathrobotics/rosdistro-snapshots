@@ -1213,7 +1213,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
-      version: f185ae3716ca788afe3b1b806c1341886910dbac
+      version: 82535d9379140101dbe7d683859d6c2cd3dd9030
     status: developed
   coal:
     doc:
@@ -1591,7 +1591,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/demos.git
-      version: 865426ff5d91fbd8a5761a8de637af9a5605d14d
+      version: fe48406e26f34d83ec8ee2b55e6d4380e56dfca9
     status: developed
   depthimage_to_laserscan:
     doc:
@@ -2089,7 +2089,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/examples.git
-      version: 503696eadbdaf881d36f27e26434b0bc4109ac4e
+      version: 361d33798f85c4d5dd3faf23d4dad197c75bb3d9
     status: maintained
   fastcdr:
     release:
@@ -2416,7 +2416,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: ab1e887caf34b8477c9974856a1ecb0549d71218
+      version: d79fb0407108111a4f4049e120693f4efb17d1e1
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2766,6 +2766,12 @@ repositories:
       url: https://github.com/ros-drivers/gscam.git
       version: 20d7743dd09f05db6bf245a874597a65ba20a99c
     status: developed
+  gstreamer_ros_babel_fish:
+    source:
+      type: git
+      url: https://github.com/StefanFabian/gstreamer_ros_babel_fish.git
+      version: f0ad6ea498e19aefdef90aa73651ce184800ccd1
+    status: maintained
   gtsam:
     doc:
       type: git
@@ -2779,7 +2785,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: f4f67facdf3f2c28b9453e57200ecb48ad8dc293
+      version: 06b3457c3c01b1cef57bed5697844ee08dcbca4f
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3188,6 +3194,23 @@ repositories:
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
       version: 545f27388078f0b5781b7c1b43213b1fb4253038
     status: developed
+  hri:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/libhri.git
+      version: humble-devel
+    release:
+      packages:
+      - hri
+      - pyhri
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros4hri/libhri-release.git
+      version: 2.9.0-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/libhri.git
+      version: c079ebd69eaa00f9d8277023456314558806082f
   hri_actions_msgs:
     doc:
       type: git
@@ -3202,6 +3225,20 @@ repositories:
       type: git
       url: https://github.com/ros4hri/hri_actions_msgs.git
       version: cb330f8e33d207cfa211ffa56d4164c951f13bac
+  hri_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_msgs.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros4hri/hri_msgs-release.git
+      version: 2.3.2-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_msgs.git
+      version: 6ff73d659be97b5fe6db94bd6f5facebc3ad411d
   hyveos_bridge:
     source:
       type: git
@@ -4446,7 +4483,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: d62de5ca2d4bd6962ef0580dfccaf132a3ddfbf6
+      version: 5eeb7393be723c964de8069a29ac77af00769ec5
     status: developed
   mola_common:
     doc:
@@ -4506,7 +4543,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 04740cc2dff0dfe4ff9192b4731abd6de8963675
+      version: 023e4cfcaa292b7a7b4d43ad6b6c2206ae993f59
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4921,7 +4958,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 0795d08222e9881bded177e394dd669bc44976ec
+      version: 75389ef8bca0def866093301701c469030776435
     status: developed
   mujoco_vendor:
     doc:
@@ -5554,12 +5591,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ouster-ros-release.git
-      version: 0.13.15-1
+      version: 0.14.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ouster-lidar/ouster-ros.git
-      version: 81387dbb4c93dd0819e0f214b9461efa01b57c75
+      version: 90008e31a302cb3cdea988bf1836904d9db2aeba
     status: developed
   ouxt_common:
     doc:
@@ -7552,7 +7589,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 9a7058bf94bcd0270fcac876161ef2ec9a54e36f
+      version: b43fcaa8c23c75d5946b3908f919deebe5236f1b
     status: developed
   ros2_robotiq_gripper:
     doc:
@@ -7607,7 +7644,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_tracing-release.git
-      version: 8.9.0-1
+      version: 8.10.0-1
     source:
       test_pull_requests: true
       type: git
@@ -7671,7 +7708,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: e7bb62e9e55db2b2ac411406577c87c2648fce94
+      version: ed992f7982716f6c80a5fcd5257561c0d54646a2
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8240,7 +8277,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
-      version: cdb061c2610506a80f805c1526753102e7720788
+      version: ca071cf8101bccc57aa9eb7a5c60fb08204c7cdc
     status: developed
   rot_conv_lib:
     release:
@@ -9512,7 +9549,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tier4/tensorrt_cmake_module.git
-      version: 4e64608db5c500df97b01bb13655142eb0a4e346
+      version: c93843021db6e0006c1857dd8f4e0f66e9b42bc1
     status: maintained
   test_interface_files:
     doc:
@@ -9671,7 +9708,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: f496102648c5de968cae9e942f138d41ad6e2273
+      version: 6bc57e7ce75a9c33718f1fe7721832b32a658be2
     status: developed
   topic_tools:
     doc:
@@ -10264,7 +10301,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_tutorial.git
-      version: 527d3564fe292b32bccc325ace42dbe034df88f5
+      version: 5d61ee8854fe60af007b9a3f1598939e79057d3e
     status: maintained
   urdfdom:
     doc:
@@ -10481,7 +10518,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/visp-release.git
-      version: 3.7.0-2
+      version: 3.7.0-4
     source:
       type: git
       url: https://github.com/lagadic/visp.git
