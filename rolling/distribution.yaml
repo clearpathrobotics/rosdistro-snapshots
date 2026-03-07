@@ -429,7 +429,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AprilRobotics/apriltag.git
-      version: 02674c1f25597115afbd789c521b99c2318feb0b
+      version: 305766652af34cafa5bab68fc2ebb2ca272e1482
     status: maintained
   apriltag_detector:
     doc:
@@ -647,11 +647,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoapms-release.git
-      version: 1.4.2-1
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/AutoAPMS/auto-apms.git
-      version: a2fadf47b36be2b90659ada4885e94a68517a6c8
+      version: 0542dc164f0b92f86803f4d19e34ebc7409e3152
     status: developed
   automatika_embodied_agents:
     doc:
@@ -775,7 +775,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 68219c4793f00317e43a467b963c6d50f33437c6
+      version: 5b1cb2391055c4c661ff4f79c094889d1a1d95aa
     status: developed
   autoware_msgs:
     release:
@@ -1554,7 +1554,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/jlack/data_tamer_tools.git
-      version: 461b273374d0b64c5b69e3952843cfbb72f05f3c
+      version: 0a712ab91f56d176dc738281d5e10557d1779452
     status: developed
   demos:
     doc:
@@ -1796,7 +1796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 16d3909ead3ba2547d49163fa17d679ced8b01a3
+      version: c95d53a22330d69192f06396d5a1331398545954
     status: developed
   ecl_core:
     doc:
@@ -2119,7 +2119,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 64d464671a2c60c87370c200306c2e6486e74ffe
+      version: d72431f5b3dc12e9246ccd3d83947f9ee35de145
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2416,7 +2416,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: d79fb0407108111a4f4049e120693f4efb17d1e1
+      version: 229bc27ed4a51998fedf1351b02208258b40057c
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -3811,6 +3811,21 @@ repositories:
       url: https://github.com/ros-tooling/launch_frontend_py.git
       version: 3b1507848a01f037bf0d18fcb76ba071931e5b80
     status: developed
+  launch_pal:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/launch_pal.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/launch_pal-release.git
+      version: 0.20.3-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/launch_pal.git
+      version: 3f8efcf932e77233bcebd18630323816fd479cbc
+    status: developed
   launch_param_builder:
     doc:
       type: git
@@ -3994,7 +4009,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 14ba4d168085dd27aed9bcb043996d6a5f28867e
+      version: 20ea9ae1e5a7b7193e416fb744ad9890ae1cc7a4
     status: maintained
   libg2o:
     release:
@@ -4085,13 +4100,13 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller.git
-      version: 9f0bc3664fcdb5bb42657be16c846ec6ec7f36c3
+      version: cf65531b327f8fd874124d2b88f52932ade5c110
     status: maintained
   linear_feedback_controller_msgs:
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller-msgs.git
-      version: 9fba519ce5178123e5013de3265f127588e38466
+      version: 1b828986517354dcc6d223d8fb8c276b37343652
     status: maintained
   linux_isolate_process:
     doc:
@@ -4291,7 +4306,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 89f8cb29547a5be99058da8e9b2e74023ce0e926
+      version: 240ffed7c3f044c5e76d7ad9c143890f594892bf
     status: developed
   menge_vendor:
     doc:
@@ -4766,7 +4781,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 295634465982a9db7e85a15cb259229ffad11999
+      version: ac1448d91165522a8997571d650549f8f0decc08
     status: developed
   mp_units_vendor:
     doc:
@@ -5858,7 +5873,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/play_motion2.git
-      version: f1bbfcc4c9fbe9a05181a18214003360480d8575
+      version: 4bc08ba0942a452ad8c4d49e7ab0360ab0e52000
     status: developed
   play_motion_builder:
     doc:
@@ -6555,12 +6570,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 10.3.1-1
+      version: 10.3.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: b5297c8c974539be4819fbe547b7f5c1cd38fc81
+      version: 3815968b393c3ab139642ea062387f1c607bc2c2
     status: maintained
   rcl_interfaces:
     doc:
@@ -6603,12 +6618,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_logging-release.git
-      version: 3.4.0-1
+      version: 3.4.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_logging.git
-      version: b2b037274c99649097504cd022a7fb5f58155af6
+      version: 904c0971bd0b3581094af853b76b56304915248e
     status: maintained
   rcl_logging_rcutils:
     doc:
@@ -6692,7 +6707,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 665070127a0d268710caaa9b50cf6af011d984b9
+      version: f735d5939d59a6aa47e08e8b244ae49b98be50fe
     status: maintained
   rcpputils:
     doc:
@@ -7379,7 +7394,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
-      version: 242342aa9e5b72aee5ce91f4d1ce700baac2d6b5
+      version: c7e4b90cd1b9968db0cdd1a83c2afebd8b91c476
     status: maintained
   robot_state_publisher:
     doc:
@@ -7609,6 +7624,21 @@ repositories:
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
       version: 630ed383916e347701dad750f28e362ca7849228
     status: maintained
+  ros2_snapshot:
+    doc:
+      type: git
+      url: https://github.com/cnurobotics/ros2_snapshot.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/ros2_snapshot-release.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/cnurobotics/ros2_snapshot.git
+      version: 0203b91890c52c709025f4602ebd9d30cd885847
+    status: developed
   ros2_socketcan:
     doc:
       type: git
@@ -7703,12 +7733,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.40.4-1
+      version: 0.40.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: ed992f7982716f6c80a5fcd5257561c0d54646a2
+      version: 401876461924b6bd4d4f9db95e22deb6243fce8b
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8273,11 +8303,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosx_introspection-release.git
-      version: 2.1.0-1
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
-      version: ca071cf8101bccc57aa9eb7a5c60fb08204c7cdc
+      version: cbbe9156fa0fa6c184917353dd4f52f21ead73e6
     status: developed
   rot_conv_lib:
     release:
@@ -9151,7 +9181,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/simple_launch.git
-      version: 01f4b154c75a92abda3729ee2a14ce5e5e8bdfab
+      version: 673371b1b069db4691b57af41a45fddf8c95b1c4
     status: maintained
   simulation_interfaces:
     doc:
@@ -9196,7 +9226,7 @@ repositories:
     source:
       type: git
       url: https://github.com/oKermorgant/slider_publisher.git
-      version: c849c8628e925e062df886fff8067647789ccb2d
+      version: 809488a91f7edf1aa3dc7888d593e175b33c75eb
     status: maintained
   smach:
     doc:
@@ -9472,6 +9502,16 @@ repositories:
       url: https://github.com/ros2/system_tests.git
       version: 3d0fde961fb0462b30a975e6b9d4ec68717e8a3d
     status: developed
+  system_webview:
+    doc:
+      type: git
+      url: https://github.com/namo-robotics/ros2_system_webview.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/namo-robotics/ros2_system_webview.git
+      version: 2108a10d7e45e92657339644340f86fc33a04222
+    status: developed
   tango_icons_vendor:
     release:
       tags:
@@ -9545,7 +9585,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tensorrt_cmake_module-release.git
-      version: 0.0.4-2
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/tier4/tensorrt_cmake_module.git
@@ -9708,7 +9748,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: 6bc57e7ce75a9c33718f1fe7721832b32a658be2
+      version: 95fb7a551539c5f056c79017d9b5508ff33a429c
     status: developed
   topic_tools:
     doc:
@@ -9815,7 +9855,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 1d655bee6ac99cc378aa3af61692bfc923c8c81b
+      version: faadedc6c85594be709b15466e61ca27e89d10b1
     status: maintained
   turbojpeg_compressed_image_transport:
     doc:
@@ -10165,7 +10205,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: c2e7fe518abfbb4dec9de77cf07bfddfed08a165
+      version: 6dd501f0f83e84ff6b81fa1d37d0b16c2dbad1e7
     status: developed
   ur_description:
     doc:
