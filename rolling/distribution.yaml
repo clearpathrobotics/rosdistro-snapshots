@@ -651,7 +651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AutoAPMS/auto-apms.git
-      version: 413e1cbdb754ae40175281a7139fd5c749f75958
+      version: 56998596636ed827a748b7bbddbd500300af4ee4
     status: developed
   automatika_embodied_agents:
     doc:
@@ -666,7 +666,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
-      version: de952d7903b37d251126337e25a99b270be2098c
+      version: e5524d4e0a9ecafad648156ebba1d540b49edabd
     status: developed
   automatika_ros_sugar:
     doc:
@@ -823,7 +823,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: f3c8f34264fe4812da406ab0390e65c95ec386ab
+      version: 2c663f0274f5370b507a3ee238f49bc570745abd
     status: developed
   avt_vimba_camera:
     doc:
@@ -1796,7 +1796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: f1caff91c3cae4497c6b06eeabbae671f003b3f9
+      version: 8c6239e6e4a73bd7385c665d2274bd5efc2cdb13
     status: developed
   ecl_core:
     doc:
@@ -2416,7 +2416,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 0cde332259c24aa183443ca4b1673c1fe23aaa43
+      version: e76adf255a97420cecc6128db195adeec7800d3c
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2746,6 +2746,18 @@ repositories:
       version: 5ec4eb82823d8e63d9fec2523d98d7583c7bf763
     status: maintained
   greenwave_monitor:
+    doc:
+      type: git
+      url: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor.git
+      version: 1.0.0
+    release:
+      packages:
+      - greenwave_monitor
+      - greenwave_monitor_interfaces
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/greenwave_monitor-release.git
+      version: 1.0.0-2
     source:
       type: git
       url: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor.git
@@ -3682,7 +3694,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
-      version: 5c2a558b452a112fdb2314b12c8345db6fc18c45
+      version: 4d797222ed56498358fd03dd6c8b7b0fe84480bb
     status: developed
   lanelet2:
     doc:
@@ -4009,7 +4021,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 02277d4c1a5ae7fee582f635936877435a12db64
+      version: 309b99f3ee430e30ebd06ec20ae04a9243512164
     status: maintained
   libg2o:
     release:
@@ -4100,13 +4112,13 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller.git
-      version: 1cc678550fc8c616a0c858b0614a8348e98ca470
+      version: 5d421c8179c2312150f123da89d4d6c6dd3c4c55
     status: maintained
   linear_feedback_controller_msgs:
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller-msgs.git
-      version: cb56d92bd6dd5dfaef4edd7dc2a7c7386060ddae
+      version: a68b8bd01ed37a900f02646803aab9fce0ba3528
     status: maintained
   linux_isolate_process:
     doc:
@@ -4306,7 +4318,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 99a823acb4863545b8294bf4bbff7094d10dac3c
+      version: efa3561c5f7b09e7804e0d6127fbed053a9aba90
     status: developed
   menge_vendor:
     doc:
@@ -4337,7 +4349,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: e951e8a1786d7ddaf53c12a45a01bcc75e8257d9
+      version: 55a7fd96d26174f907c59d751f6f5ce0a60b5773
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -5855,7 +5867,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 2f0d0ed6dff707a5392397e9905cb9790ab5fda4
+      version: e231244ad26e28e11ad0335cb28568f0a6fe6ddc
     status: developed
   play_motion2:
     doc:
@@ -6118,7 +6130,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 9b3334990756b7b303a6e23fa3c67a7580ab0ceb
+      version: 3a7c790eaee5284f4e48091dd77f697e4fd828d3
     status: maintained
   py_binding_tools:
     doc:
@@ -6571,12 +6583,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 10.3.2-1
+      version: 10.4.0-2
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 33ad697c5386ffd89cea386a2b530649fdb4e5fd
+      version: b29692722bd8fd18cdcde9ce4c2bb289a81c6c6c
     status: maintained
   rcl_interfaces:
     doc:
@@ -6687,12 +6699,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 30.1.5-1
+      version: 31.0.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: e83c6f25e62acbd852d37c6b48a9a3bc6e8494b4
+      version: af78e01bd63933aaa255677277581f069dc9f0d6
     status: maintained
   rclpy:
     doc:
@@ -7557,7 +7569,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 2942d730feecd296ddea9fb7e8f37c3072a2b99f
+      version: a0143224eee179621a77c56491941eab1cb51021
     status: developed
   ros2_easy_test:
     doc:
@@ -8068,7 +8080,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: bab30b0b1f5b7cd72c7c123459742ea509e4a15d
+      version: e61e46df2d4111606eb5a1eb969bae23f97a8e01
     status: maintained
   rosidl_core:
     doc:
@@ -10164,7 +10176,7 @@ repositories:
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
-      version: 9d2d9f7db448240d8e1118e18bfc215403be85ec
+      version: bd0d74b3a4e7abc9bbad8a3a57064f6079d3a8d4
     status: maintained
   udp_msgs:
     doc:
@@ -10221,7 +10233,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f783f1c5685b78cd765fe52d85c6fa34ebfec9d8
+      version: 6ec1ee092f2ede60ac5c9328f00b96f09010ff31
     status: developed
   ur_description:
     doc:
@@ -10247,11 +10259,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ur_msgs-release.git
-      version: 2.3.0-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/ros-industrial/ur_msgs.git
-      version: d10faf75373fb29902661aeb39d6c84f118793ad
+      version: 8107d01cfe87f43d5214ffb47579d554314982e7
     status: developed
   ur_robot_driver:
     doc:
@@ -10273,7 +10285,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 9aff85af599c2361a8ee57cb2c5e6e02b0f1ce5a
+      version: f24afbeef35da7d1933061aa7d85d21fbe483e49
     status: developed
   ur_simulation_gz:
     doc:
