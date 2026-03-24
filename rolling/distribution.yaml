@@ -289,7 +289,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_index.git
-      version: efac620902659ef55231676848eddc3574bb0d65
+      version: a339ebbc3423fdf8412c8a397d4336460957cdaf
     status: maintained
   ament_lint:
     doc:
@@ -662,7 +662,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/automatika_embodied_agents-release.git
-      version: 0.5.1-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
@@ -1419,7 +1419,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cpp_polyfills-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
@@ -1520,7 +1520,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-cyclonedds/cyclonedds.git
-      version: 76360fb73907ce3dba397e89090a7a4ecf4f1246
+      version: 5041f3560c088c99e5088b2b8520b69169621196
     status: maintained
   data_tamer:
     doc:
@@ -1944,7 +1944,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: e1166b5db853cd05126c81d1c66625b88f27821e
+      version: cd5ea4b09ced7d91bf372e2ac1e339ff3c61f081
     status: maintained
   event_camera_codecs:
     doc:
@@ -2416,7 +2416,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 8a166047f9059a5094e7c868569d733239377e74
+      version: 54dd9d8b40029d2e53ab4e406f42a86f1734f7f0
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2524,7 +2524,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/generate_parameter_library-release.git
-      version: 0.7.0-1
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
@@ -2594,7 +2594,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 876d31e6d3393b17773a643d94239c9ec4c37a40
+      version: 8e8d6a439f0e713b406a1bc24efe44f52818db82
     status: maintained
   geometry_tutorials:
     doc:
@@ -3022,7 +3022,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 8f6caa0de307bfc9c7a4e87784f8bdf7bd49c6af
+      version: b7e31d41cfcb140dc88b94a1738e3489fe0b865e
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3251,6 +3251,20 @@ repositories:
       type: git
       url: https://github.com/ros4hri/hri_msgs.git
       version: 6ff73d659be97b5fe6db94bd6f5facebc3ad411d
+  hri_rviz:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_rviz.git
+      version: humble-devel
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/hri_rviz-release.git
+      version: 2.3.0-1
+    source:
+      type: git
+      url: https://github.com/ros4hri/hri_rviz.git
+      version: 981e4d7cc3289a1fd563dbabfea5ffa93d963669
   hyveos_bridge:
     source:
       type: git
@@ -4703,7 +4717,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: f1135a48d1c6c5d53f9c0d9e17a85360e2b9a8f3
+      version: c154f941c0b029e3037b049b5515b68e8a9b3100
     status: developed
   moveit_msgs:
     doc:
@@ -5867,7 +5881,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: e231244ad26e28e11ad0335cb28568f0a6fe6ddc
+      version: 4b2ed738b8342c6820ac12597ef2b3e32ddddd97
     status: developed
   play_motion2:
     doc:
@@ -6025,7 +6039,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_plugins.git
-      version: 14150027dd6599c349c348ad56f4c8b629bc1897
+      version: d17fab0e48151510b5daba8fec84778f7cf3752f
     status: maintained
   point_cloud_transport_tutorial:
     doc:
@@ -6119,7 +6133,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: c67dddfce722b13faeec933e080f5d35431f5342
+      version: 1eeeb6dcb6230e6f7ea59eaba18e6f9f8b1c4654
     status: developed
   px4_msgs:
     doc:
@@ -6588,7 +6602,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: b29692722bd8fd18cdcde9ce4c2bb289a81c6c6c
+      version: 8e44acfebae8159524ae391bd92beb125e08378e
     status: maintained
   rcl_interfaces:
     doc:
@@ -7058,7 +7072,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: 81f0b9315dd018179095e4246944d614dae37d3a
+      version: f31a3e848378972ad2ddab084263d463513b4cba
     status: developed
   rmf_simulation:
     doc:
@@ -7113,7 +7127,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: 41bd791a5ba95dea90b8bd8fb84c35a9d8363e4c
+      version: e7a2e592203fd276da8d30715f0269bbfe5e6786
     status: developed
   rmf_traffic_editor:
     doc:
@@ -7243,7 +7257,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: 08457cbb2ad89764dcd119b533fefaaa8fd15ff1
+      version: 3c8315ae2937e763f74f588d45022cedd866db57
     status: developed
   rmw_cyclonedds:
     doc:
@@ -7324,7 +7338,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: 0fda8bbaa0d075222c8cdc5812c1c1fa94b1d83a
+      version: e5c8a84386fd9059f99ed6710ad4d7ac80f089b0
     status: developed
   rmw_gurumdds:
     doc:
@@ -7509,7 +7523,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 152ed06afe897e9f9f8cdd1ab4d116089a241e35
+      version: 1a35a329b21b842224908e34f59441d1e7b9f2c3
     status: developed
   ros2_control_cmake:
     doc:
@@ -7569,7 +7583,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: a0143224eee179621a77c56491941eab1cb51021
+      version: 80bfe93450b95df379d00a16c75e284c2303c589
     status: developed
   ros2_easy_test:
     doc:
@@ -8774,7 +8788,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 85805a64e8a5fa216a6271ca0d757ba783cc1ae0
+      version: 6dbe96fbefbccc63fb8e17e4fece879bd882ebe7
     status: developed
   rslidar_msg:
     doc:
@@ -8933,7 +8947,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 325ef33fa33255ce2a3145f4d56b239c3360417c
+      version: b48c9a375c43e3a28cc512af33bb446eb0aaae26
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9534,7 +9548,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/system_webview-release.git
-      version: 0.0.1-1
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/namo-robotics/ros2_system_webview.git
@@ -10233,7 +10247,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 6ec1ee092f2ede60ac5c9328f00b96f09010ff31
+      version: 5a1a066d134fec53e95986f628250983ca7c12ac
     status: developed
   ur_description:
     doc:
