@@ -775,7 +775,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 5b1cb2391055c4c661ff4f79c094889d1a1d95aa
+      version: 551c2054d0f056290f1e0b552c406bde34abda46
     status: developed
   autoware_msgs:
     release:
@@ -1554,7 +1554,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/jlack/data_tamer_tools.git
-      version: 4a95b10290d7afc82a267ead1f595e0f4d771420
+      version: 77dcf2dfbcfd27c6a6e078d8b8c82be2332cc03c
     status: developed
   demos:
     doc:
@@ -1796,7 +1796,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 9c6db8eb41c11a89b8371121610bd877a0d2bcfd
+      version: e7b221cad9170e3c0e100a2a504982b5ebeb5286
     status: developed
   ecl_core:
     doc:
@@ -1940,7 +1940,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eiquadprog-release.git
-      version: 1.3.0-1
+      version: 1.3.1-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
@@ -2084,7 +2084,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/examples-release.git
-      version: 0.21.4-1
+      version: 0.21.5-1
     source:
       test_pull_requests: true
       type: git
@@ -2416,7 +2416,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: f62e3e9886c6939cd6a385c79e81e7d9ef86595b
+      version: 9323b15a6c6a5d2ddc8dbdc8097aeaf7dcee492b
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2797,7 +2797,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: cb5ae6c7e8110e94fc025f5d193b17eea2f8a24d
+      version: 572315552134d76c6221c14ad857cef69a10971e
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -4035,7 +4035,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 4937f5489b799e1ce5b0856cc34549abacb1f19a
+      version: 2a1c75504c789b686b5b37ed8729f632ec81d2f0
     status: maintained
   libg2o:
     release:
@@ -4123,12 +4123,30 @@ repositories:
       version: 968aab92e3950f7c75abfe823660697e4d3fcc72
     status: maintained
   linear_feedback_controller:
+    doc:
+      type: git
+      url: https://github.com/loco-3d/linear-feedback-controller.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/linear-feedback-controller-release.git
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller.git
       version: d8ab38b319f8c3a8e943cfa3e9494c94fcb4385b
     status: maintained
   linear_feedback_controller_msgs:
+    doc:
+      type: git
+      url: https://github.com/loco-3d/linear-feedback-controller-msgs.git
+      version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/linear-feedback-controller-msgs-release.git
+      version: 1.2.1-1
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller-msgs.git
@@ -4332,7 +4350,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: efa3561c5f7b09e7804e0d6127fbed053a9aba90
+      version: 66c51cf7709dce1d44bd7cc1dcf0f3caa62698ef
     status: developed
   menge_vendor:
     doc:
@@ -5052,7 +5070,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nanoeigenpy-release.git
-      version: 0.4.0-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/Simple-Robotics/nanoeigenpy.git
@@ -5460,7 +5478,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 3fe21451b61a1d4cc68b29ef8b7069a481dfc321
+      version: 8e9310aa46ba8be216b994e1fb6c0f4ea33c8862
     status: developed
   open3d_vendor:
     doc:
@@ -6718,7 +6736,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 474c10f5899dc31cb96413a68b5b87f6904bc581
+      version: 1e0704597067713be552112ef300788583788fcb
     status: maintained
   rclpy:
     doc:
@@ -7238,7 +7256,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: 403ee71b0a987b701a1e7b6c72f6820917151f69
+      version: fe0c75db6020fbaae99aeb31daf80960b280d7d8
     status: maintained
   rmw_connextdds:
     doc:
@@ -7523,7 +7541,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: a583699101f6d84aa7c8f88bf7d873623170d8df
+      version: 620d4418f1f36d146d97c54876866c7e37f98ebd
     status: developed
   ros2_control_cmake:
     doc:
@@ -7765,7 +7783,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: e88f0eb569b407764fe5507675ad39455110482d
+      version: 8cf474907f3eccff55aa85a34139bd6d34e31e77
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8947,7 +8965,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: e808c6a04a667a16a42292164f95c9c258bf02f8
+      version: 4a145e91643adeb6c7573601c3371c20ed0402ea
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9537,7 +9555,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: 2cec8eaea97cbcd971467614fd74995843265bfb
+      version: cc976b51fe8c82b368cdb0b99d5467c2c3be6217
     status: developed
   system_webview:
     doc:
@@ -9552,7 +9570,7 @@ repositories:
     source:
       type: git
       url: https://github.com/namo-robotics/ros2_system_webview.git
-      version: 09167580b012f7303d647c01b7616587b3e75ca4
+      version: 1e150b087eed73060d9c34636f63977c7a2a9662
     status: developed
   tango_icons_vendor:
     release:
@@ -10243,11 +10261,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 2.8.0-1
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: bd19a4716e0a6bb5df15e021aa4f61fc230a132c
+      version: 4740f63015fee799258e408e6038bf55928ff65b
     status: developed
   ur_description:
     doc:
@@ -10299,7 +10317,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: dab8d42fde8527de1bb41ba7fdbe46b752253854
+      version: 14a402f0ff1c7a0775040725ee1587fde0fcbbe8
     status: developed
   ur_simulation_gz:
     doc:
@@ -10604,7 +10622,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 8f81b441b81b1f0700ad79fb4c718712ddcca499
+      version: 49386029fe9f8686cdcb89ea6dcae7bad2ea0a89
     status: maintained
   vitis_common:
     doc:
