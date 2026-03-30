@@ -958,6 +958,16 @@ repositories:
       url: https://github.com/flynneva/bno055.git
       version: 45e1ff16936101711260c9fda63fbad99376ce3b
     status: maintained
+  bob_launch:
+    doc:
+      type: git
+      url: https://github.com/bob-ros2/bob_launch.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/bob-ros2/bob_launch.git
+      version: b3a07fcfdfb0f5b86bd943c0b30c356f767220d7
+    status: maintained
   bob_llm:
     doc:
       type: git
@@ -971,7 +981,7 @@ repositories:
     source:
       type: git
       url: https://github.com/bob-ros2/bob_llm.git
-      version: 8aaa6e77f1df02762036b6e5874a0aa0e4c27c99
+      version: b09226bfc49d137aed1a19a4a1110294f7f1c44b
     status: maintained
   bond_core:
     doc:
@@ -2797,7 +2807,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 572315552134d76c6221c14ad857cef69a10971e
+      version: 6ec49ac5de01fe5cf384069ac8d40cfebef40147
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3132,7 +3142,7 @@ repositories:
     source:
       type: git
       url: https://github.com/hatchbed/hatchbed_common.git
-      version: 4e35b290e7a94f4fc6a9b15c2ad5c6c67ab4aa99
+      version: 57279f3e08f401bd70d2a4cfddba3b59da6313c9
     status: developed
   heaphook:
     doc:
@@ -4191,7 +4201,7 @@ repositories:
     source:
       type: git
       url: https://github.com/hatchbed/log_view.git
-      version: d4de98a382835118a2ee0e30deebd41090d75826
+      version: 2728bde3f3ea52ab4446e07db8b3a5a330d4f29c
     status: developed
   magic_enum:
     doc:
@@ -6620,7 +6630,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 248a7e7caab2a8b8964cca21f75ac7523f0213c9
+      version: ef352da7c7d3dd8d66174ac9e43be52c11d639e1
     status: maintained
   rcl_interfaces:
     doc:
@@ -7293,7 +7303,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_cyclonedds.git
-      version: e7f44399fbadb474f0136370c232ed7eaf5be581
+      version: 1cf18c066e5c9cc6c4069b68c4b242155d606d2f
     status: developed
   rmw_dds_common:
     doc:
@@ -7356,7 +7366,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: e5c8a84386fd9059f99ed6710ad4d7ac80f089b0
+      version: c76d80067b725ddc3553153fccaa9ea61826f7ec
     status: developed
   rmw_gurumdds:
     doc:
@@ -7410,6 +7420,26 @@ repositories:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
       version: 944a8715f5af6f58e74e318d31510409f69a5e6e
+    status: developed
+  roboplan:
+    doc:
+      type: git
+      url: https://github.com/open-planning/roboplan.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/open-planning/roboplan.git
+      version: 51cb4d91200924bc2859429cfe5bb900086f539c
+    status: developed
+  roboplan_ros:
+    doc:
+      type: git
+      url: https://github.com/open-planning/roboplan-ros.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/open-planning/roboplan-ros.git
+      version: 0ac5a3784de90a96d003dd5540b6c808dc041e3f
     status: developed
   robot_calibration:
     doc:
@@ -7601,7 +7631,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: b23af3b726e138af7edc00bf619c68567329b50e
+      version: fc570f842a52faab6162c83a88a11735a4dd1e27
     status: developed
   ros2_easy_test:
     doc:
@@ -8016,7 +8046,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 8b962b52e0d88da9fd7d3b83bc7bd75ef2043bf4
+      version: be0c6f47701b28814d2458ec8fcd58f244c20d84
     status: developed
   rosbag2_bag_v2:
     source:
@@ -8082,7 +8112,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 5b20a2eddf1a5556ea905739d32c01fc7e37560a
+      version: 54598c273a9913995e6bf8f5b5d9fa234acb30cb
     status: developed
   rosidl:
     doc:
@@ -9828,6 +9858,16 @@ repositories:
       url: https://github.com/ros-tooling/topic_tools.git
       version: ffdac33817721fc37c29a56dd02f1898324a671e
     status: developed
+  toppra:
+    doc:
+      type: git
+      url: https://github.com/hungpham2511/toppra.git
+      version: develop
+    source:
+      type: git
+      url: https://github.com/hungpham2511/toppra.git
+      version: 7509bac9342779a8b8c9cefb57c3271544311906
+    status: maintained
   trac_ik:
     doc:
       type: git
