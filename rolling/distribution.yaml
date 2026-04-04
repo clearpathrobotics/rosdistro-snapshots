@@ -910,11 +910,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/bag2_to_image-release.git
-      version: 0.1.0-4
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/wep21/bag2_to_image.git
-      version: c7e63a71fb4998afdcae9c73ea2fa89df9618d66
+      version: b535bd25c78478a7224d82abdfca11d8d55f5114
     status: maintained
   behaviortree_cpp_v4:
     doc:
@@ -1939,7 +1939,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: e6aae943d5fb4ef1243d29486b14b54870b52b44
+      version: ab5b089a0d0dcf97004c2265a3068f6622c1fb4d
     status: maintained
   eiquadprog:
     doc:
@@ -2123,7 +2123,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 3.4.2-1
+      version: 3.6.0-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -2426,7 +2426,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: cd7cca4be630f1522c4b9890bc9cb305778a60f6
+      version: 7e255915da229e674c6657f6ef7924aba6c3b8f7
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -3600,7 +3600,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: e09061faf02e72baa0dc8f6e8aa006e54d01bff4
+      version: ce48353e7f039017d5351f2011c432d9c02d964b
     status: maintained
   kdl_parser:
     doc:
@@ -4060,7 +4060,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 5f770f748c1d75d1056840bea123060659594b5a
+      version: 4b6c47bd6675c428c19ea76370f0301c24f23bf1
     status: maintained
   libg2o:
     release:
@@ -5503,7 +5503,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: bc847b12867e3ed70eb54284d953b64a79856d65
+      version: 7bd580b9bff7223f922f2821cf1c57d8e78f216c
     status: developed
   onnxruntime_vendor:
     doc:
@@ -6854,7 +6854,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 054468dc94d01be2310bb85ae3f0d9bdc2bc9e59
+      version: 4b4bb326f389f2d9c001f095c25e16e44accd4de
     status: maintained
   reach:
     source:
@@ -7291,7 +7291,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: df475dd41faed9f57e54446c48724fa07137022a
+      version: 970bd470cd9c28a1406d1aba4636ba68ad384b8f
     status: maintained
   rmw_connextdds:
     doc:
@@ -7704,7 +7704,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Kinovarobotics/ros2_kortex.git
-      version: 4a4ccec6a0a1934b6cf9e319ef99038940311ee5
+      version: 1fdbef345954b326627dc3792981e18e2221450b
     status: developed
   ros2_robotiq_gripper:
     doc:
@@ -8071,7 +8071,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: fca6f23284883b3b3f00e64f7ffb0fbf2ecb7007
+      version: 0027003608d8c330c331ef69f3ed35ac6ff12249
     status: developed
   rosbag2_bag_v2:
     source:
@@ -10877,7 +10877,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: d65e0f327de2fa9e929de3780def20497d899b12
+      version: 7ff184138e5d956b23438f3579d7f39f07d8d65b
     status: developed
   zbar_ros:
     doc:
