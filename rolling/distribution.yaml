@@ -647,11 +647,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoapms-release.git
-      version: 1.5.0-1
+      version: 1.5.1-1
     source:
       type: git
       url: https://github.com/AutoAPMS/auto-apms.git
-      version: 2e330a7b0c1b6a76d86d3692c33098955ee4345d
+      version: 19ac8d558e35f657b8464694c5ddc524c6c31861
     status: developed
   automatika_embodied_agents:
     doc:
@@ -681,7 +681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: a1d093d2ee7ccfc510484e7267024e2bd4478c44
+      version: 264628980f0659e3cb0968b5b31cb92f6df855cc
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -931,7 +931,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 67cf6df06919473b58c4a43ad8a9c0e3afdad22f
+      version: e6754eeb550f0c76b82da42e377a4d807ce51a6b
     status: developed
   better_launch:
     doc:
@@ -1303,7 +1303,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/color_util.git
-      version: 909cf67deb19b368240da779b2847315479cf586
+      version: db8c8f6f271d466296c6fa676be0262a7d8a5173
     status: developed
   common_interfaces:
     doc:
@@ -1464,11 +1464,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cras_ros_utils-release.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 07595a9a71012b117c4fad2cd9215d892c1cb15f
+      version: 0736a4930051b5a917ed8fa428e166fbce73c60c
     status: developed
   crazyflie:
     source:
@@ -1806,7 +1806,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 3e86db45120c434c62dcb3e3102365e9588f1845
+      version: 701d87aff31283432c6743ec371b83d15aa04e23
     status: developed
   ecl_core:
     doc:
@@ -1939,7 +1939,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: ab5b089a0d0dcf97004c2265a3068f6622c1fb4d
+      version: 00880074ef5610e4229f58d0cca8afc1df1b3dc6
     status: maintained
   eiquadprog:
     doc:
@@ -2025,11 +2025,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_tools-release.git
-      version: 3.1.1-1
+      version: 3.1.2-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_tools.git
-      version: 5a934d27d99ba9d93f3d8ed73086533eb7ac8e78
+      version: e2d2ec6e17e6f985b3a9295f7aa7b799f7edcddc
     status: developed
   event_image_reconstruction_fibar:
     doc:
@@ -2040,11 +2040,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_image_reconstruction_fibar-release.git
-      version: 3.0.3-1
+      version: 3.0.4-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_image_reconstruction_fibar.git
-      version: 4965df5fdf92b054c0c487cc50a00d6d370b8f1e
+      version: c947754685e99d20198f1bd3d81dc5e576a21101
     status: developed
   example_interfaces:
     doc:
@@ -2426,7 +2426,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: a3546d874a51764f9401a756a3deaceb67c821e2
+      version: 5aca4b76772d7da248d8291d5354d3ffc58f86a7
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2538,7 +2538,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: c9bd79f636a59f818e29a805e17cf78e92418ad5
+      version: 958446a803e41ee0ce64c68e58436eee9e17dcc3
     status: developed
   geographic_info:
     doc:
@@ -3214,7 +3214,7 @@ repositories:
     source:
       type: git
       url: https://github.com/humanoid-path-planner/hpp-fcl.git
-      version: e56cc744501c1de59bb3d6960cc76579407e43d6
+      version: d690e7e971f851d3a08bfaeab7482ce05dff00f9
     status: developed
   hri:
     doc:
@@ -3875,7 +3875,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/launch_pal.git
-      version: aebb2fb35a007a0cdd9c79013e7d4b38cbd03c6c
+      version: 22d9fd76f0af9bb0235127828a9829a13aad2013
     status: developed
   launch_param_builder:
     doc:
@@ -4160,7 +4160,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller.git
-      version: d8ab38b319f8c3a8e943cfa3e9494c94fcb4385b
+      version: a5e9ae53f3556d29f0f721706a913b7368f3795b
     status: maintained
   linear_feedback_controller_msgs:
     doc:
@@ -4175,7 +4175,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller-msgs.git
-      version: 5cc426b1e73fae4fc6c8c3c5502ba2857ee8d1ec
+      version: 766013855fb0f34f7c7749106f7a8c1cefe304b2
     status: maintained
   linux_isolate_process:
     doc:
@@ -4567,7 +4567,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 8851477cc96c905f42d9ab3edd582171c3e981a8
+      version: 3e69736c9d090e85a5f6ffc75e2e92741ba5eccb
     status: developed
   mola_common:
     doc:
@@ -4627,7 +4627,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 054944b2dbfca200ead5961d986f799e1232d759
+      version: f7fab16eb5f29738d0792f26db0c441f9758188e
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4658,7 +4658,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: f0a3f75843454779782d93385506dbc06957c1ad
+      version: 7b3680df3f4a075ae78204e539ce9d3d07d7f11c
     status: developed
   mola_test_datasets:
     doc:
@@ -5934,7 +5934,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 4845b01545a8490bbb9ac1103ae85e25a6fc6a06
+      version: cbdedf5d02adfddbcc1a6f06b61bd94efc02f7fb
     status: developed
   play_motion2:
     doc:
@@ -6186,7 +6186,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 1eeeb6dcb6230e6f7ea59eaba18e6f9f8b1c4654
+      version: 00a6eff9dcb21f31b8990d232d46fba5d6b18cbf
     status: developed
   px4_msgs:
     doc:
@@ -6655,7 +6655,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 4d8f22a7cdcacecc855edf7a09e9809f73e64132
+      version: 7695aa4f00319cb95407f80fcce2a89901660062
     status: maintained
   rcl_interfaces:
     doc:
@@ -6771,7 +6771,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 487eee15dcad03c3e5a0ad5cf0ce57ab4f19fdc3
+      version: 5db3f1173fd7ca551d5c588e27b5b9703405de15
     status: maintained
   rclpy:
     doc:
@@ -7180,7 +7180,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: 12c4b2078d5a31c26106f84710fa73171ec29d19
+      version: d5de7f3a982bd503a7424255a74362337b1fe584
     status: developed
   rmf_traffic_editor:
     doc:
@@ -7444,7 +7444,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 40e4a04f8a9dc05b82bee6abc96671399ccbbbe6
+      version: bdd848fab7cb03b53368c2b1941f1ec6fcc091e5
     status: developed
   roboplan:
     doc:
@@ -7596,7 +7596,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: bb07fdd55a59ea750f06bb2fee7a3a1c113b10dd
+      version: 64f9645a6c948ad9ecf4bb1a51746f7227c45e38
     status: developed
   ros2_control_cmake:
     doc:
@@ -8167,7 +8167,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 334dee9b8de9c3ff5826e53e082a79650145c8d4
+      version: 5e07eae8ce706ae018c63810fed8affbcb7382cf
     status: maintained
   rosidl_core:
     doc:
@@ -8273,7 +8273,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: 3ce862fedc5d8c7aeeebb0ec0b1228de58d7f83b
+      version: 2860e2d0c18e2bb62ea1207145e39182ad57a8c9
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -8580,7 +8580,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_graph-release.git
-      version: 1.8.1-1
+      version: 1.8.2-1
     source:
       test_pull_requests: true
       type: git
@@ -8826,7 +8826,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_tf_tree-release.git
-      version: 1.0.5-1
+      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_tf_tree.git
@@ -9292,11 +9292,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/simulation_interfaces-release.git
-      version: 2.0.0-1
+      version: 2.1.0-1
     source:
       type: git
       url: https://github.com/ros-simulation/simulation_interfaces.git
-      version: 8f08131b8fd59d641e2a3f73d18d02da8f5e0ed9
+      version: 172a1b1c1b3ced62b99cddae9b4143e5bcddee8a
     status: developed
   slg_msgs:
     doc:
@@ -9582,7 +9582,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MetroRobots/ros_system_fingerprint.git
-      version: ca4ed86dc35ff2bab875b65b3b95e8e01ab0c1c0
+      version: ac84bb87d7447310af933d6baa9962663cf8deba
     status: developed
   system_modes:
     doc:
@@ -9985,7 +9985,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 1bed657121fab722df06f6a6fba3cd81374fd668
+      version: c8844f6443751b7a397c1cab56ce94c05218face
     status: maintained
   turbojpeg_compressed_image_transport:
     doc:
@@ -10387,7 +10387,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 86dd19225fb2c116f574e47facc70dbb9c52645f
+      version: 37887bb599075449864e716ba7b00cd22fc410f8
     status: developed
   ur_simulation_gz:
     doc:
@@ -10421,7 +10421,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/urdf.git
-      version: c19f868e66c97a6bdd16927f87d2736d39977af7
+      version: c0783f90e0d0187ccf50978ff89a4800d60ac883
     status: maintained
   urdf_launch:
     doc:
@@ -10437,7 +10437,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_launch.git
-      version: 9c2d5af6e235c7658409939bdb624f5547de8952
+      version: ec0ed1b4db05a1907e697135abbd5f674e0628cc
     status: developed
   urdf_parser_py:
     doc:
@@ -10486,7 +10486,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdf_tutorial.git
-      version: 5d61ee8854fe60af007b9a3f1598939e79057d3e
+      version: 050f1e47cfdb2c5f3eb0746bc15c57e6a870faef
     status: maintained
   urdfdom:
     doc:
@@ -10502,7 +10502,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: bd4d6956d90df4ec7be91bf1ed035481efb7e14c
+      version: 3cd0cc726f8cb42e890974b1d6f5602a87ac3ee4
     status: maintained
   urdfdom_headers:
     doc:
@@ -10847,7 +10847,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/xacro.git
-      version: 38726b3d7ae6771e84484589ba5daeaee2ba6c88
+      version: da4b3849f8320903d625250089f67f0632be86f2
     status: maintained
   yaml_cpp_vendor:
     release:
@@ -10882,7 +10882,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 82452e6696c732be190d4f5794721e44be94bcd7
+      version: b566bcb0ba036b0e2453bad8b16b85e87354f61f
     status: developed
   zbar_ros:
     doc:
