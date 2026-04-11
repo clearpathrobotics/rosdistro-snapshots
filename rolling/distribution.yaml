@@ -1489,7 +1489,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 4d4b09a03724a52a1a7efe2c08e89967799b373e
+      version: c62007d756cd5ad53bbf722c84c02889d44a8f40
     status: maintained
   crx_kinematics:
     doc:
@@ -2426,7 +2426,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 8907dfd3c834cd266c81b58848f22842d2fbb448
+      version: 868c76f43434313b5d7e0aa684d605b53a5a5660
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2789,10 +2789,15 @@ repositories:
       version: 20d7743dd09f05db6bf245a874597a65ba20a99c
     status: developed
   gstreamer_ros_babel_fish:
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/gstreamer_ros_babel_fish-release.git
+      version: 1.26.40-1
     source:
       type: git
       url: https://github.com/StefanFabian/gstreamer_ros_babel_fish.git
-      version: c0f7086f9a50544ccbc98acaef7cb757deb4d2e8
+      version: 9f4ec17f0967a5686c35220ef449e0ae4878c2b9
     status: maintained
   gtsam:
     doc:
@@ -2807,7 +2812,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 3ed41051c189387927ceef3cc7e117a1bb5b471e
+      version: a360e552a690418074dc63fa4dde7d57de36df1c
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3600,7 +3605,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: ce48353e7f039017d5351f2011c432d9c02d964b
+      version: 76fb4cc9a3bf4614228730aaecf07f6f24e2eb67
     status: maintained
   kdl_parser:
     doc:
@@ -3822,7 +3827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ajtudela/laser_segmentation.git
-      version: 8dce3c6ebb09599039eb0ba80c439553e5321116
+      version: cc7d8a498daa3ed4a4dda210732edff97e17cf7e
     status: maintained
   launch:
     doc:
@@ -4567,7 +4572,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: cde83cf8a22188e563814bb0f5a62b4375dda8e3
+      version: d361ee12d1ecd112079ef23ba01004d7f74fae8f
     status: developed
   mola_common:
     doc:
@@ -5742,7 +5747,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stevenlovegrove/Pangolin.git
-      version: 3f01854ba1d32b6574f0ac091de70133e9eb0b37
+      version: 2e86fc08a2eb071ccc685c081d7e85db936ecb24
     status: maintained
   parameter_expression:
     release:
@@ -6412,7 +6417,7 @@ repositories:
     source:
       type: git
       url: https://github.com/StefanFabian/qml6_ros2_plugin.git
-      version: 73b4332d7384e0cec0817de0be0ad13fb0ca0c9c
+      version: a81d881b4a2ee24411dfa5c7d173fb06339e3390
     status: developed
   qml_ros2_plugin:
     doc:
@@ -6655,7 +6660,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: 15b6a62ec1927978eec8001793b2dc0d3c9fb078
+      version: 2fea484f63d36ae8cf1c8c071c43a8f6a811dc55
     status: maintained
   rcl_interfaces:
     doc:
@@ -7454,7 +7459,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: 18eefae12b79d11e73bec4577730381d2516af79
+      version: d17a454624faa84d8cf11aa0c542917e5222b0d0
     status: developed
   roboplan_ros:
     doc:
@@ -7656,7 +7661,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: fafccb546c26c997ebb683fb9f64662cd805f0e2
+      version: 6c1299fd446ad3ff4b0a54a109be1ce2f6f0ac08
     status: developed
   ros2_easy_test:
     doc:
@@ -8454,7 +8459,7 @@ repositories:
     source:
       type: git
       url: https://github.com/StefanFabian/rqml.git
-      version: 3c959eaa514f35f27fe616f2b530cf6b6aea6a3a
+      version: 6af49bae7e82e844169a1dd20212eb7f3e6bd572
     status: maintained
   rqt:
     doc:
@@ -9020,7 +9025,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 5f7848c3688e1fd38f761640ec127bbc51e6638b
+      version: 13e937a17fdd6e31a01bfc6bb768268cd9a78694
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9896,7 +9901,7 @@ repositories:
     source:
       type: git
       url: https://github.com/hungpham2511/toppra.git
-      version: dd95524a651b7e02b8246cc469fe3f895db27ff3
+      version: 408b1f8c57cd56b91dbb8a9222a126c8493e3500
     status: maintained
   trac_ik:
     doc:
