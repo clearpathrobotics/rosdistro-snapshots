@@ -775,7 +775,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: 551c2054d0f056290f1e0b552c406bde34abda46
+      version: 8421dfbc55d2ab9c1d2d1d29b5b7aa2d17228135
     status: developed
   autoware_msgs:
     release:
@@ -1194,7 +1194,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_executive.git
-      version: bc4dd347f8b94483760c3df6935be05e7c3f520b
+      version: 0d66f00f3c15aef2e170ca17d3bb99f80db7d49c
     status: maintained
   clips_vendor:
     release:
@@ -2426,7 +2426,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: b6f3cd0fd981859b6523589ab7c6cb2117aab787
+      version: 3feb21e077ee1081c4f299c0b6820557adf23d56
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2538,7 +2538,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 764ebe799329c7838939d725c7c3d5660e31561a
+      version: 04df0d00607a60e70f36e5b8b0195ebf80de605c
     status: developed
   geographic_info:
     doc:
@@ -3033,7 +3033,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ign_ros2_control-release.git
-      version: 3.0.6-1
+      version: 3.0.7-1
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
@@ -3148,6 +3148,16 @@ repositories:
       type: git
       url: https://github.com/hatchbed/hatchbed_common.git
       version: 57279f3e08f401bd70d2a4cfddba3b59da6313c9
+    status: developed
+  hatchbed_localization:
+    doc:
+      type: git
+      url: https://github.com/hatchbed/hatchbed_localization.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/hatchbed/hatchbed_localization.git
+      version: 879a1e9a704250dd4d675b9996a9e6e049ba3d3e
     status: developed
   heaphook:
     doc:
@@ -4411,7 +4421,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: b8a6cac950ab968d20a0cd891e67f9711cd011b9
+      version: aebbb2e54f3374ccc13216d78f864df5adb4f1ba
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4632,7 +4642,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 67079448e3ac210c724c7a136d178de54cc1578c
+      version: 90a84cf1873e5e68b6517897c1cfa54a95df115e
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -5997,7 +6007,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 59cbb82f4eb1d688b30a92844b66392449da2ea9
+      version: 44eaa55382d07268190d7246e1a0e69d094291e8
     status: developed
   plotjuggler_msgs:
     doc:
@@ -7686,7 +7696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: ab5ce0ccccbbd6707bd9d80310ada7d96058b5a9
+      version: 799f93e8898722bda72e5552627e4b961ab2f506
     status: developed
   ros2_easy_test:
     doc:
@@ -7920,7 +7930,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
-      version: 81d95cac3894deed669f3e03e9d441d8e22fa88b
+      version: 8fbbefc47ea389c7a5c7fbd0b2f7759d19bd65bf
     status: developed
   ros_battery_monitoring:
     doc:
@@ -8100,7 +8110,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 9b422230cd0544e5117408d04620682eb6fc7a42
+      version: d2c4d6de80dc0a15f313a447ea341206255ed3fd
     status: developed
   rosbag2_bag_v2:
     source:
@@ -8372,12 +8382,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
-      version: 3.9.4-1
+      version: 3.9.5-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
-      version: 5993033bb2c0dcac5086ebf0130f55d51edce9df
+      version: fa6cab41fd21f034fc735337b4f3fe9d83829a49
     status: developed
   rosidlcpp:
     doc:
@@ -8487,7 +8497,7 @@ repositories:
     source:
       type: git
       url: https://github.com/StefanFabian/rqml.git
-      version: b1bcc3e6b1ba9b550bdb5d2174a05686ee573c2b
+      version: f9bdf9245fb3770f38b7a57a9787236c4025f759
     status: maintained
   rqt:
     doc:
@@ -10306,7 +10316,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ublox_dgnss-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       type: git
       url: https://github.com/aussierobots/ublox_dgnss.git
