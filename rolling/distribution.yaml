@@ -681,7 +681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-sugar.git
-      version: e153501a68a256d1eacd3db0092a34d66ab6274f
+      version: e1f6bc1fa968cd9d4e31fcdf2f10fd6b0fdde37e
     status: developed
   automotive_autonomy_msgs:
     doc:
@@ -1429,11 +1429,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/cpp_polyfills-release.git
-      version: 2.0.1-1
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
-      version: 4d935226f98730c9bdddb0139e5706c91280f469
+      version: 1342b3db4c470aaf14006b513008ed537d3e3007
     status: maintained
   cras_msgs:
     doc:
@@ -2123,7 +2123,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fastdds-release.git
-      version: 3.6.0-1
+      version: 3.6.1-1
     source:
       test_commits: true
       test_pull_requests: false
@@ -2538,7 +2538,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 332d4e5cbc60c68f27d2bf254a4dd8d010ee9d11
+      version: 008e8f59b18a987ab2c78d0ac20613b146d7610e
     status: developed
   geographic_info:
     doc:
@@ -2838,12 +2838,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_cmake_vendor-release.git
-      version: 0.4.3-1
+      version: 0.4.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: 923633d778f73611fd9399d220725422a9cc4f5b
+      version: b361a910c17efccaf10d3b3d62e17f3acece7480
     status: maintained
   gz_common_vendor:
     doc:
@@ -2934,7 +2934,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_math_vendor-release.git
-      version: 0.4.2-1
+      version: 0.4.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3148,16 +3148,6 @@ repositories:
       type: git
       url: https://github.com/hatchbed/hatchbed_common.git
       version: 0024abcb4d500c4f669b5ad39ddb481e50cf8be5
-    status: developed
-  hatchbed_localization:
-    doc:
-      type: git
-      url: https://github.com/hatchbed/hatchbed_localization.git
-      version: main
-    source:
-      type: git
-      url: https://github.com/hatchbed/hatchbed_localization.git
-      version: 6ac703755b634093f368bd87af90df7d35c71b63
     status: developed
   heaphook:
     doc:
@@ -3406,7 +3396,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
-      version: 0e2f57a371e80dfe0f54105d9d06f92e59774f10
+      version: dae4a43192c82104760b4fbafec68dd2e5342c7b
     status: maintained
   image_transport_plugins:
     doc:
@@ -4578,11 +4568,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 2.6.1-1
+      version: 2.7.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: adaeaf339413bb1d4313bce57b7ceb18d19513d8
+      version: 678da6f90795444e0e8386dcf4a33d76733aab14
     status: developed
   mola_common:
     doc:
@@ -4623,11 +4613,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_imu_preintegration-release.git
-      version: 1.15.0-1
+      version: 1.16.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: 7085cd2ba1ce82da67c84372ae64e49b472238cf
+      version: 56ba74bedacea2e269f213913472ea1608b2659f
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4642,7 +4632,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: fe066832a16fa96cf305be9e42e08224afc0b9e6
+      version: e50d2b04c516a1e43dbd0cffb6808d78dba380e8
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4657,7 +4647,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_sm_loop_closure.git
-      version: c884e7002772a2dbfa36270d1fd6bee7a3834826
+      version: b6599b4758dfb5caea26d3b6f8861204caf50d32
     status: developed
   mola_state_estimation:
     doc:
@@ -4678,7 +4668,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 7b3680df3f4a075ae78204e539ce9d3d07d7f11c
+      version: ebfb4ff8082785d2457c7cd6d01e5cd28a3c0cf1
     status: developed
   mola_test_datasets:
     doc:
@@ -4866,11 +4856,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.8.1-1
+      version: 2.9.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 09dec3a0e8f5b411cc5479df2e419de1011e282f
+      version: 08536ec08c0f4f8f3bdf13b9c14af180b1423413
     status: developed
   mp_units_vendor:
     doc:
@@ -6007,7 +5997,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
-      version: 8704e4529a0102c5c8c4bbac4bb50312e2adfc4d
+      version: bca8ea5840b08bc1c6a6e2ec0d59d8c937884d33
     status: developed
   plotjuggler_msgs:
     doc:
@@ -6869,12 +6859,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcutils-release.git
-      version: 7.0.9-1
+      version: 7.1.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: a7d947e5d7248be23d75f9600c4194901cf0a2ba
+      version: 96aea05e6ce03b851d1123e29faa1d7f8665b6bc
     status: maintained
   reach:
     source:
@@ -7692,11 +7682,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 6.5.0-1
+      version: 6.6.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 5a52e843140f42a6070425012e1378972be36b63
+      version: 27ea5396731e4f7243a21cab7d6373de0de9511e
     status: developed
   ros2_easy_test:
     doc:
@@ -7927,11 +7917,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_babel_fish-release.git
-      version: 4.26.41-1
+      version: 4.26.42-1
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
-      version: e6ebcf599e5646912c260c5511429c4703d69a4e
+      version: d0689dea29934499e93c3e176d398b9215526378
     status: developed
   ros_battery_monitoring:
     doc:
@@ -9029,6 +9019,21 @@ repositories:
       url: https://github.com/tilk/rtcm_msgs.git
       version: 8d27ab5f4d4a581e1bb9c87d572994c25197f6d4
     status: maintained
+  rtest:
+    doc:
+      type: git
+      url: https://github.com/Beam-and-Spyrosoft/rtest.git
+      version: rolling
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rtest-release.git
+      version: 0.2.2-1
+    source:
+      type: git
+      url: https://github.com/Beam-and-Spyrosoft/rtest.git
+      version: 68d22ae748137936afd2a217b96df98f170d7b43
+    status: developed
   rtsp_image_transport:
     doc:
       type: git
@@ -9472,7 +9477,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/socketcan_adapter.git
-      version: 6b0e06f059eb23d98be83d7f00ff935635adeb57
+      version: c31bf48e52f8784849d3893ee4885c38e02024db
     status: maintained
   sol_vendor:
     doc:
@@ -9938,7 +9943,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/topic_tools.git
-      version: 87a00814a57a4e4a48e3bb7f4c53e737510c0548
+      version: 408c58aebfade764f5b223b06b5379fbfc69b2f6
     status: developed
   toppra:
     doc:
