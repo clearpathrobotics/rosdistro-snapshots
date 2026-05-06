@@ -145,7 +145,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: 1472b7317aa420bc594713ca633882588b0121a4
+      version: 2dd20316f60a96eb5799891ae0a4f65b9b30b7f1
     status: developed
   ament_acceleration:
     doc:
@@ -208,12 +208,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_cmake-release.git
-      version: 2.8.7-2
+      version: 2.9.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: 00fedf00148f51eff626cc92a55eae3acca89d59
+      version: 0f9a38681ef12c59673cad9b1303c16de5277b03
     status: developed
   ament_cmake_catch2:
     doc:
@@ -279,12 +279,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_index-release.git
-      version: 1.13.3-2
+      version: 1.14.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_index.git
-      version: fec7e400bb2a50f32e1683482bf93da0b480839d
+      version: 18114f513ef9f3b154fc5e7fe26c2a3f8786f0f0
     status: maintained
   ament_lint:
     doc:
@@ -327,12 +327,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.20.5-3
+      version: 0.21.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: a6e5d530ca425d593b270d7878e64a7739a0917b
+      version: c9fa6344e8ccc6556a0ac6144087fb57717cfec5
     status: developed
   ament_nodl:
     release:
@@ -354,12 +354,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_package-release.git
-      version: 0.18.3-2
+      version: 0.19.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_package.git
-      version: 98089783110f7606a90e8ef9786719c3d0cd32f9
+      version: b8207ceb6354f42b6780ac2381e6f268a1da0c5f
     status: developed
   ament_vitis:
     doc:
@@ -528,7 +528,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/aruco_opencv-release.git
-      version: 6.1.1-2
+      version: 6.1.2-1
     source:
       type: git
       url: https://github.com/fictionlab/ros_aruco_opencv.git
@@ -1201,7 +1201,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
-      version: 9d192978c38c77904139bf00aee353b13efe6e28
+      version: b7c835d4f69b8b60d3385133d9c8222e2996baa9
     status: developed
   coal:
     doc:
@@ -1216,7 +1216,7 @@ repositories:
     source:
       type: git
       url: https://github.com/coal-library/coal.git
-      version: 5121979c638f282a202e06386a840893a16c176a
+      version: 8f11750ece98742ccefed4e15f5285563bc41ef6
     status: developed
   cob_common:
     doc:
@@ -1326,7 +1326,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/compass-release.git
-      version: 3.0.2-2
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/ctu-vras/compass.git
@@ -1466,7 +1466,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 97517bb3e8d436a070c0b66777da0449066123de
+      version: 40eb93c8ebcd8bc920c5e8f41460f6ac5924ae31
     status: maintained
   crx_kinematics:
     doc:
@@ -1780,7 +1780,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: 0f82dba035b3640bae4456c3595914a9cb6d0cfa
+      version: 5824b2f1ce5f34357d0ea4496144e1c366e5545b
     status: developed
   ecl_core:
     doc:
@@ -1913,7 +1913,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 4578eac2c1864c480fad6ad6c57f9071e19ee459
+      version: b217eec03ff3bd7e67cea4408e60d821f0662197
     status: maintained
   eiquadprog:
     doc:
@@ -1999,7 +1999,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/event_camera_tools-release.git
-      version: 3.1.2-2
+      version: 3.1.4-1
     source:
       type: git
       url: https://github.com/ros-event-camera/event_camera_tools.git
@@ -2086,7 +2086,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 14fdcc201c9649357de95b79519a1594d279d6e8
+      version: 9e74964fe0e10863ca10f4e2f3f9ffa1cfa219df
     status: maintained
   fastdds:
     doc:
@@ -2103,7 +2103,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 7dd4b4d17f2ef13931ca261101a21a3334e49a0d
+      version: 43d6be76bb15b781ecd988f2c6f8a905f67cc3ff
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2393,7 +2393,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 92aefe75e7a69ecc78378d8aae155d1a839d0b1e
+      version: c3e12ce8aa10a41b7722d1a31e81469eac5abaa9
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2434,7 +2434,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/frequency_cam-release.git
-      version: 3.1.0-2
+      version: 3.1.1-1
     source:
       type: git
       url: https://github.com/ros-event-camera/frequency_cam.git
@@ -2463,12 +2463,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fuse-release.git
-      version: 1.3.1-2
+      version: 1.3.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/fuse.git
-      version: 586556f9be3650ec472d3551a7d009a3678475a0
+      version: 5fdb02dd07897aee5311819e0488634a4ae31235
     status: maintained
   game_controller_spl:
     doc:
@@ -2601,12 +2601,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/google_benchmark_vendor-release.git
-      version: 0.7.0-2
+      version: 0.8.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/google_benchmark_vendor.git
-      version: 9c4200c9f567bbfb9c24c563236df48b16e8c6c3
+      version: 0e019dee8773e245673c69c1c1d9495704e0df14
     status: maintained
   googletest:
     release:
@@ -2620,7 +2620,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ament/googletest.git
-      version: 359b3f059a7545e66360f4fac7a60309f91662ab
+      version: 96158b523ea38be73ed072eed7454ba4a948b8e9
     status: maintained
   gps_umd:
     doc:
@@ -2764,7 +2764,7 @@ repositories:
     source:
       type: git
       url: https://github.com/StefanFabian/gstreamer_ros_babel_fish.git
-      version: a333493696cba1c7feadeb8036137c4a32742fe4
+      version: dd9c6265bf2affbcb692dbb134d2d2175f4e3aec
     status: maintained
   gtsam:
     doc:
@@ -2779,7 +2779,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: e0b21bd54f0a3ebac12d605019833c3577b31b22
+      version: 21d9ae11b9549e9d11de3ab82d1ad6eeacf10446
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3503,7 +3503,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/joint_state_publisher.git
-      version: e535250131aaccafce227ef124dbbd8b0a466f23
+      version: 3e8b159e5f936c0e643d097cdcd2d8e397444d38
     status: maintained
   joy_tester:
     doc:
@@ -3801,7 +3801,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: a5a6dd7eb7865dbc64d0e18f0229b0ebad826082
+      version: 06308316b46a734188a6688603763185d2b3de54
     status: developed
   launch_frontend_py:
     doc:
@@ -3866,7 +3866,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 830fadbbc97711654010d5cc1c89d2ad28dd7e64
+      version: 1c0a7ae2f1e513111278147e703eb9ce33a652a6
     status: maintained
   ld08_driver:
     release:
@@ -3982,7 +3982,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/libcaer_driver-release.git
-      version: 1.5.3-2
+      version: 1.5.4-1
     source:
       type: git
       url: https://github.com/ros-event-camera/libcaer_driver.git
@@ -4114,7 +4114,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller.git
-      version: b9158d7c715c8d9ee25502951889d210533c3928
+      version: 235c55186c17a8258e476a11418e7f680a84e31e
     status: maintained
   linear_feedback_controller_msgs:
     doc:
@@ -4166,11 +4166,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/log_view-release.git
-      version: 0.3.0-2
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/hatchbed/log_view.git
-      version: 25e5861d0983a9505967aa61758dd32d3cb25b36
+      version: a2c7d7795342e2aaf3aed92e3b7d1590fb600c8d
     status: developed
   magic_enum:
     doc:
@@ -4202,7 +4202,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.6.2-3
+      version: 2.6.3-4
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -4360,7 +4360,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: e8277a60558b32e39beaf4ab98c6312439b03b1c
+      version: 5a77cf8da981cb3a0944d3cc2c237a13094fa79c
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4581,7 +4581,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 602e2ac8d9efc218226e4449f20a18f349c7a6f4
+      version: 2d0005a4fe4e44a5392b464dc1363ba819196202
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4922,11 +4922,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros-release.git
-      version: 2.15.14-2
+      version: 2.15.15-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
-      version: 22ad8a91d52149c093f6e449a0f76d806d789015
+      version: 5a08b7d22661452338b2b841b7cd6ed4c9662e84
     status: developed
   mrpt_ros_bridge:
     doc:
@@ -4940,7 +4940,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
-      version: 3.5.2-2
+      version: 3.5.3-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
@@ -5002,7 +5002,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: a85d6d17bc71dc5018d1d1728427518b30b2062a
+      version: d8a610a537c1a32442974ed3b6921e5f5087ab86
     status: developed
   mujoco_vendor:
     doc:
@@ -7369,7 +7369,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: eb157786ab3346e8d4291bbf8b5eeb6a34f41ced
+      version: fa15754b0f9adcaf97271615b1ff0642f60da5da
     status: developed
   rmw_gurumdds:
     doc:
@@ -7588,7 +7588,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_control_cmake-release.git
-      version: 1.0.0-1
+      version: 1.0.0-2
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control_cmake.git
@@ -7760,7 +7760,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 24c3dea0fcee6f1fd0eb5244c6e1ea390dd479ac
+      version: af649c60fea99965676ce80c1d48efe16a2d706f
     status: developed
   ros2acceleration:
     doc:
@@ -7818,7 +7818,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: cda3643c4062753c39f98e5564da29371cc0a3f7
+      version: 6d13168c64a9169a4de5462132fd336af8d09822
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8093,7 +8093,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fictionlab/rosbag2_to_video.git
-      version: 4a1b4422d102320b57573ff3465836296bc52a41
+      version: 8ea82de6c634ff620fd3a65b8b8c4e0bced96fe6
     status: maintained
   rosbridge_suite:
     doc:
@@ -8165,12 +8165,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_core-release.git
-      version: 0.4.3-2
+      version: 0.5.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_core.git
-      version: 2e34a7cb22db268e2bfac06eb8b47615818051ad
+      version: a4df2a2a09688b2a0e4f828c3bfa335944b86ab1
     status: maintained
   rosidl_dds:
     doc:
@@ -8183,12 +8183,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_dds-release.git
-      version: 0.13.0-2
+      version: 0.14.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dds.git
-      version: 772632eb729ab48f368a0862659224be80caf56b
+      version: 5e8bf2e19ad8c32c92ae34351d10f9a902df1e4a
     status: maintained
   rosidl_defaults:
     doc:
@@ -8202,12 +8202,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_defaults-release.git
-      version: 1.8.1-2
+      version: 1.9.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_defaults.git
-      version: 1c730458cbee50e2941f67e441e0fd5a3d3c7e6b
+      version: d142a0ad2c20ba20b88c21f5e1dc2a4536d029b7
     status: maintained
   rosidl_dynamic_typesupport:
     doc:
@@ -8218,12 +8218,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_dynamic_typesupport-release.git
-      version: 0.4.1-2
+      version: 0.5.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport.git
-      version: f9ee0542b725244ba5633cb3c03d2f9cc0da0064
+      version: ad0534ee514bbe2118ec42595737a8874d9a5bc4
     status: maintained
   rosidl_dynamic_typesupport_fastrtps:
     doc:
@@ -8234,12 +8234,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_dynamic_typesupport_fastrtps-release.git
-      version: 0.5.1-2
+      version: 0.6.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dynamic_typesupport_fastrtps.git
-      version: de01f56ccbf80851b5460a3ca169b4ca71c58b48
+      version: dda009ac61db91893db3a891a2eb90f57a680e41
     status: maintained
   rosidl_python:
     doc:
@@ -8252,12 +8252,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_python-release.git
-      version: 0.27.2-2
+      version: 0.28.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: a7e54557a4f6a910f1c4dfa9cf590e36f8828413
+      version: e210dc31e57ce2701855362499fb14a9e1cb302e
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -8268,12 +8268,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_runtime_py-release.git
-      version: 0.15.2-2
+      version: 0.16.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_runtime_py.git
-      version: 23443e3ed8892c2205727ec3d725761f346b7ec3
+      version: 5a4aaf2f6ad7a215647fa2e09db904c7dd21f892
     status: maintained
   rosidl_rust:
     doc:
@@ -8304,12 +8304,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
-      version: 3.4.2-2
+      version: 3.5.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: f21f4d6cbb76e0da104bd8fdd093fc6a3ade59d2
+      version: d5624d2d5df61e85e1fab18d5705a4023cdd74e4
     status: maintained
   rosidl_typesupport_fastrtps:
     doc:
@@ -8323,12 +8323,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
-      version: 3.9.5-2
+      version: 3.10.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
-      version: fa6cab41fd21f034fc735337b4f3fe9d83829a49
+      version: 1fde1d08f3d108403b3306b1a5772a0f13797143
     status: developed
   rosidlcpp:
     doc:
@@ -8427,12 +8427,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rpyutils-release.git
-      version: 0.7.2-2
+      version: 0.8.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rpyutils.git
-      version: 961945ecfeddba87b86c8c2a9f449d49678b7456
+      version: adddddaf817f27bf1736bf44cc78995e801df14d
     status: developed
   rqml:
     doc:
@@ -8474,7 +8474,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: 18639b982380a57755fa0e71207a1a303705b03f
+      version: 0be02521dc85beb1c72d80764640bdcde7894aeb
     status: maintained
   rqt_action:
     doc:
@@ -9441,12 +9441,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/spdlog_vendor-release.git
-      version: 1.8.0-2
+      version: 1.9.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/spdlog_vendor.git
-      version: 233537fc15af24bc653fcbf7cad64e81a593cc36
+      version: 9e8513ae334620856889fe54313cbf8477df38c8
     status: maintained
   srdfdom:
     doc:
@@ -9475,12 +9475,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/sros2-release.git
-      version: 0.16.4-2
+      version: 0.17.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/sros2.git
-      version: a94f3a47e3945397116a7b9bebf2cb78c50c8c4c
+      version: 950f1b634506221ba58e0368fe1762b32ee91fb7
     status: developed
   steering_functions:
     doc:
@@ -9594,7 +9594,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/system_tests.git
-      version: cc976b51fe8c82b368cdb0b99d5467c2c3be6217
+      version: 1a0d6a0ade40f14d1425101fec024b20112c3656
     status: developed
   system_webview:
     doc:
@@ -9699,12 +9699,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/test_interface_files-release.git
-      version: 0.14.1-2
+      version: 0.15.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/test_interface_files.git
-      version: a565a8927962e5bcbd5667b884a0f0652568c177
+      version: 77c16ec91f51c53421906547cfe8f7f205d46979
     status: maintained
   tf2_2d:
     doc:
@@ -9824,12 +9824,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tlsf-release.git
-      version: 0.11.1-2
+      version: 0.12.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/tlsf.git
-      version: 8179f2cd2a5018aaf752ce11a0cfa50694b0370c
+      version: 18390712accd673a6797ffefa25c2ed84c6cbc65
     status: maintained
   topic_based_hardware_interfaces:
     doc:
@@ -10299,12 +10299,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/unique_identifier_msgs-release.git
-      version: 2.8.1-2
+      version: 2.9.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/unique_identifier_msgs.git
-      version: b4779af6b3d3c45e710802a0e7f86113da281ae8
+      version: c96e89b5edbca1cc6212ae76e260bb9d313678e0
     status: maintained
   ur_client_library:
     doc:
@@ -10315,10 +10315,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
+      version: 2.11.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 01cf607bdaea78b1337c7a8a29905c495f68f6eb
+      version: f96fe15b7b70bc85de9ef9256f414968c7e3a7d9
     status: developed
   ur_description:
     doc:
@@ -10399,12 +10400,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/urdf-release.git
-      version: 2.13.2-2
+      version: 2.14.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/urdf.git
-      version: 44689976498b52798971850061f2e2c8d8b25661
+      version: 5969596dfebd23831350440528c9c10e8ea98352
     status: maintained
   urdf_launch:
     doc:
@@ -10837,12 +10838,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/yaml_cpp_vendor-release.git
-      version: 9.2.1-2
+      version: 9.3.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/yaml_cpp_vendor.git
-      version: 47d916a33edf04cae857abcc651b36f44a442bd4
+      version: 58e9adddaf6eda13d4f49bd85631aefa839df019
     status: maintained
   yasmin:
     doc:
@@ -10899,11 +10900,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/zed-ros2-description-release.git
-      version: 0.1.3-2
+      version: 0.1.5-1
     source:
       type: git
       url: https://github.com/stereolabs/zed-ros2-description.git
-      version: 8bfbc9e4b5e3b1a8481365f75784816c18d58aa4
+      version: 449eef9566a49461cc37d6ac13230fe2886ff2be
     status: developed
   zed-ros2-interfaces:
     doc:
@@ -10916,7 +10917,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/zed-ros2-interfaces-release.git
-      version: 5.2.1-2
+      version: 5.3.0-2
     source:
       type: git
       url: https://github.com/stereolabs/zed-ros2-interfaces.git
