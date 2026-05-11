@@ -1213,11 +1213,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/coal-release.git
-      version: 3.0.2-2
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/coal-library/coal.git
-      version: 9c7d7fcc83cd485be0545d4f23025e605b9b77c3
+      version: c0c8ad19e189b5c0dc12a9bd1c5ab15259c250cd
     status: developed
   cob_common:
     doc:
@@ -1463,7 +1463,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/crocoddyl-release.git
-      version: 3.2.0-4
+      version: 3.2.1-1
     source:
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
@@ -1925,7 +1925,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/eiquadprog-release.git
-      version: 1.3.1-2
+      version: 1.3.2-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
@@ -3866,7 +3866,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 4f7d7e5bc90eb2daf4f7ddb1be11533016ae8096
+      version: 5a8cbb279d3bd05ffd60661bcc9e1f2c952ea9db
     status: maintained
   ld08_driver:
     release:
@@ -4202,11 +4202,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 2.6.3-4
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: bad9fb671c640590b2c0991763feb6ddc499fdfe
+      version: 887ee09dc40c13e8cdb839dd6cdaede59f18ff82
     status: developed
   marine_msgs:
     doc:
@@ -4521,7 +4521,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: a9006f7908c355453cb0356dc836bf0890c4c88e
+      version: bcc9150ac23367187aaaaa7fbf10148e6152227d
     status: developed
   mola_academic_datasets:
     doc:
@@ -4531,7 +4531,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_academic_datasets.git
-      version: 5dcee6929fed46de220f3b8b733f7721038ca080
+      version: 1c4aac85aa7ac185843a36d9514e27ea93d1e9c4
     status: developed
   mola_common:
     doc:
@@ -4546,7 +4546,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: 8744e0707546fe04ade7c50fa7f0d227c4e6a0ad
+      version: 02fad82d2612d3ca0c6db6767b15678bb018975a
     status: developed
   mola_gnss_to_markers:
     doc:
@@ -4561,7 +4561,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_gnss_to_markers.git
-      version: 93963f250ade4dafc3150efa60d0d2f0910f9378
+      version: 38e57a0a27097e14e3fbfb78be81ed607bcfdfac
     status: developed
   mola_imu_preintegration:
     doc:
@@ -4576,7 +4576,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: 1d41ae8c59e1ccb7af9c2dd87c5daa0da93a720c
+      version: 44575a49b5f22ad880f41b4540d6f4f830cc8087
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4591,7 +4591,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: da07b02806756961d978dab5b003f9754106502a
+      version: 2b9465036e814ca335323389fbc267c6f246fd96
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4606,7 +4606,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_sm_loop_closure.git
-      version: c29d8d9b4f5e735d56b36e576efbcab9f982b153
+      version: 80128968f154e3c05d7d7c94abe1d680cb0c75a6
     status: developed
   mola_state_estimation:
     doc:
@@ -4627,7 +4627,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: e853bb78371cbb9c950ef4faac0897071578420f
+      version: ab193e706f419381364c0648ddb2fdbff345418e
     status: developed
   mola_test_datasets:
     doc:
@@ -4652,7 +4652,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_vision.git
-      version: c5b543efb1ef45c14144b1216dcbd4fc7481aacf
+      version: 502221bc4406598ed1b345bc7589a26f96266aee
     status: developed
   motion_capture_tracking:
     doc:
@@ -4819,7 +4819,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 82db4c3b017474cbf65bebf1089a352aee12def7
+      version: 1264770735b6d7e7d283086ed88495deb4cce16e
     status: developed
   mp_units_vendor:
     doc:
@@ -4892,7 +4892,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: b19e4e42ee528ab54286717970e5cdd413ecdbe2
+      version: 818c56e89068ebde2bc50ae6380188690f409185
     status: developed
   mrpt_path_planning:
     doc:
@@ -4977,7 +4977,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_sensors.git
-      version: fea9f160145ee61694bdaf6dc999af7abd3229e9
+      version: 5e198f37471bc7057d0399d0835ab43eab162ef0
     status: developed
   mrt_cmake_modules:
     doc:
@@ -6979,7 +6979,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: d167eb6b094aa41d5e2cc8914cc1bca864eff1e8
+      version: d6a0966ccfe4d480bdebd7ef68dc8b16e838de06
     status: developed
   rmf_api_msgs:
     doc:
@@ -7441,7 +7441,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: 69dd5f9f91870af8937b029ca1f4890e65ce98c5
+      version: 5d5b82a58cfe7a0e1a57f1a601f7196f4b7f414b
     status: developed
   roboplan_ros:
     doc:
@@ -7647,7 +7647,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 4a25b8cc49c510f226155af34e4ebcf7f38ad8a3
+      version: 4d9393d68db18e61b82d888051799a71d9a626f2
     status: developed
   ros2_easy_test:
     doc:
@@ -8061,14 +8061,14 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: 5f5c922c55642755aed3e4db273c0baa38b89c76
+      version: 9c0f7ba876cddfc3314b3de720b0a02c12310cb8
     status: developed
   rosbag2_bag_v2:
     source:
       test_commits: false
       type: git
       url: https://github.com/ros2/rosbag2_bag_v2.git
-      version: 676475d26bfac6fe2eee896f903fd2010af6a95a
+      version: 2bef8e1e9ec54944a05525d5dd4c76f8edfc764e
     status_description: Maintained in source form only since no ROS 1 packages available
       in Rolling
   rosbag2_broll:
@@ -8163,6 +8163,20 @@ repositories:
       url: https://github.com/ros2/rosidl.git
       version: 8d7ed98c36fc3a999aee9350bc423d3949ae002d
     status: maintained
+  rosidl_buffer_backends:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_buffer_backends.git
+      version: ba5edfe7a8d37a5951072cd38319411c3aa49af5
+    status: developed
+  rosidl_buffer_backends_tutorials:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros2/rosidl_buffer_backends_tutorials.git
+      version: 1c8880db2549d7a7b8410154e5d31689bc705b01
+    status: developed
   rosidl_core:
     doc:
       type: git
@@ -8517,7 +8531,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: 80e3e3690ea02a3013b8246e55205ed10b884c84
+      version: 5a44ff0365918cde22ee02c8eb6e1d5bccbdecf9
     status: maintained
   rqt_common_plugins:
     doc:
@@ -9975,7 +9989,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/tsid-release.git
-      version: 1.9.0-2
+      version: 1.10.0-1
     source:
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
