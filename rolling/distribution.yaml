@@ -129,7 +129,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ubi-agni/agni_tf_tools.git
-      version: 13f1c4f111cdeeb9631ad7c2858a8d2431584b35
+      version: 3619777df2cf977964f35e3eab9ca08daaae6e7b
     status: maintained
   ai_worker:
     doc:
@@ -337,12 +337,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ament_lint-release.git
-      version: 0.21.0-1
+      version: 0.21.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: b739a1937c220a0c562bb4e0a4b436485d69663a
+      version: 537a1751ed704c76492e30652b56539ddeef3874
     status: developed
   ament_nodl:
     release:
@@ -973,7 +973,7 @@ repositories:
     source:
       type: git
       url: https://github.com/bob-ros2/bob_llm.git
-      version: e02e89873deffc0cc2c86a737d33de1a232d588d
+      version: 68c08d9fc7deb96e73926be2ff19df1ada9ebf59
     status: maintained
   bond_core:
     doc:
@@ -2398,7 +2398,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 199710bcbd417519de68176359d4dc7569ef2066
+      version: edf87cb54213386ed80b0c944d122d0fec5e96db
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -4118,7 +4118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller.git
-      version: 235c55186c17a8258e476a11418e7f680a84e31e
+      version: 62bbc107770a29e39de0ec5d59cbed5dae774366
     status: maintained
   linear_feedback_controller_msgs:
     doc:
@@ -4520,7 +4520,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 081f480b905ae8839a74f983759bd7e2b413b099
+      version: a5ab6930cf1e9fed65f5b39df4e183ef3c6d11bc
     status: developed
   mola_academic_datasets:
     doc:
@@ -6193,7 +6193,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 7abb73740198f51485c03761458e30f77d8a36dd
+      version: a0b0b15d7c87e4b460be7543b81f7b361082a500
     status: maintained
   py_binding_tools:
     doc:
@@ -6378,7 +6378,8 @@ repositories:
       type: git
       url: https://github.com/MRPT/python_mrpt_ros.git
       version: eb54e72c2e9ca67745be8c0a8bc0b828357b9d8b
-    status: developed
+    status: end-of-life
+    status_description: Deprecated, use mrpt3 instead
   python_qt_binding:
     doc:
       type: git
@@ -6783,7 +6784,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 1e5e2673b51fb68a1d9bdf0468fe96a9c9958f63
+      version: c2b0cb27887b230ef41c81ad9888f7ffe647ffca
     status: maintained
   rcpputils:
     doc:
@@ -6898,7 +6899,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/realtime_support.git
-      version: b72aad99d5122a5ec9bcd13a95b29a863511b85d
+      version: 343433defd484d7bf7622d8b6f7d3db7e8866c25
     status: maintained
   realtime_tools:
     doc:
@@ -8920,12 +8921,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_topic-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_topic.git
-      version: 5d2930000eb3622aacb3c8c012b9ceb68d3edd33
+      version: 06f54d9f4212e1b7566d313d4000b74dcb559247
     status: maintained
   rsl:
     doc:
@@ -9094,7 +9095,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: a84a91cdda84a676a01b6bab4ac0af66137d7e7b
+      version: 96354675ba1ba1d01006f61c654a68dea7a70b32
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
