@@ -476,7 +476,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_msgs-release.git
-      version: 2.0.1-5
+      version: 2.0.2-1
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_msgs.git
@@ -491,7 +491,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/apriltag_ros-release.git
-      version: 3.3.0-2
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/christianrauch/apriltag_ros.git
@@ -2780,7 +2780,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 4b2c4ed9431f0c38279922612121d22794c966e5
+      version: b5c2bd15ae6d144343813572f5eccdd49907e772
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -4066,7 +4066,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
-      version: 9a0dd70db1a2c180b69c6c257cd2ee6120505499
+      version: 1369e1d4403c3b6ad1df442e4574acca5c7e41b4
     status: developed
   libstatistics_collector:
     doc:
@@ -4166,7 +4166,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/log_view-release.git
-      version: 0.3.3-2
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/hatchbed/log_view.git
@@ -4515,7 +4515,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 0ed2ebeb4147f0420354015c3a3f817077518530
+      version: 50a383d5fbec1b2caa9269d7f3b6e6ae0aadbfae
     status: developed
   mola_academic_datasets:
     doc:
@@ -4837,11 +4837,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.10.2-1
+      version: 2.10.3-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 58be56e1d9faa09cca59372c23a9892cac023a62
+      version: 2511b0d5901f0d2e4a73dbec50f85baca551bbd9
     status: developed
   mp_units_vendor:
     doc:
@@ -5035,7 +5035,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 4b6cf94544a5014b8c0e32b18f34d14f7443cfc5
+      version: 9b7975cdf56c4586eea36fb5112cca71da3e75d1
     status: developed
   mujoco_vendor:
     doc:
@@ -6657,7 +6657,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl-release.git
-      version: 10.5.0-1
+      version: 10.5.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6773,7 +6773,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 33.0.0-1
+      version: 33.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6789,7 +6789,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclpy-release.git
-      version: 11.0.0-1
+      version: 11.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -7489,7 +7489,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan-ros.git
-      version: 207d72a5593830da1bf241efec5a7b09ec633913
+      version: 407c7714138f00b7aa446d167403cc52d1a29dec
     status: developed
   robot_calibration:
     doc:
@@ -7546,7 +7546,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robotraconteur-release.git
-      version: 1.2.7-3
+      version: 1.2.8-1
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur.git
@@ -7557,7 +7557,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/robotraconteur_companion-release.git
-      version: 0.4.2-3
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/robotraconteur/robotraconteur_companion.git
@@ -7594,11 +7594,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_canopen-release.git
-      version: 0.3.3-3
+      version: 0.3.4-1
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: c97cd9331a9cd730c3bb54c67ca6657fcb116211
+      version: 6ada19690d3cb81e7606ebb30245e523b4744570
     status: developed
   ros2_control:
     doc:
@@ -10776,7 +10776,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: bda8ba8fabc29025252d3860057f4bc2996de305
+      version: 28bc58fca8860bf74ca16ed4a6cf112dc2fdcd9d
     status: maintained
   vitis_common:
     doc:
