@@ -1454,7 +1454,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: 1b75fa88cbcdda8d500bf6f1f01d4ce1d5178342
+      version: 9ad07c28128c33addcc42c81a64c9a3588104157
     status: developed
   crocoddyl:
     doc:
@@ -1615,12 +1615,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/diagnostics-release.git
-      version: 4.4.6-2
+      version: 4.5.7-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/diagnostics.git
-      version: a3662071db6937f69c55d5db804fee6db53a7bc1
+      version: a33da8be7a40f0e39320690df3f6a4046b26fec6
     status: maintained
   dolly:
     doc:
@@ -1930,7 +1930,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: 09abdd088ff3e79c2f8332bc43e8d14d72850f55
+      version: 9254f821e992c707ed6aee73554b0040394af7ce
     status: maintained
   event_camera_codecs:
     doc:
@@ -2395,7 +2395,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: bf46f2a990629046831d8fd913cb7e3a412ce22f
+      version: 57bc52ec42892279885c6c6819d3c4fb64b9ee85
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2780,7 +2780,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 719696df41e6e51ab82e143074112024df77fb48
+      version: adfd9c153c7edf93e00eea04f89b105db8f83e26
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3556,7 +3556,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: f07de7952b35caf1c7a53a49138772cb9c534cf5
+      version: 6facf32996100c86276f61dada4d10f0993851be
     status: maintained
   kdl_parser:
     doc:
@@ -4066,7 +4066,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
-      version: 1369e1d4403c3b6ad1df442e4574acca5c7e41b4
+      version: 05e3d1e57f3c87e6c9768eaca9e89639966beee2
     status: developed
   libstatistics_collector:
     doc:
@@ -4649,7 +4649,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 2133a43a5f1ca94f1485cbc2516e840cd609535a
+      version: b9f4c9c0bfaa6da90fea23cde18e4f18c3b74dac
     status: developed
   mola_test_datasets:
     doc:
@@ -4688,11 +4688,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/motion_capture_tracking-release.git
-      version: 1.0.6-2
+      version: 1.0.7-1
     source:
       type: git
       url: https://github.com/IMRCLab/motion_capture_tracking.git
-      version: 73da55a005c3c8ccd26e108ba627dbcd438f30f9
+      version: c524edbfd2bb20d9a9fc0c08526c60373122f58b
     status: developed
   moveit:
     doc:
@@ -4841,7 +4841,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 2511b0d5901f0d2e4a73dbec50f85baca551bbd9
+      version: 59abdeabc329e675081c67d55a4d8cbbe083a772
     status: developed
   mp_units_vendor:
     doc:
@@ -5035,7 +5035,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 94515cbb58539ee4463ef59d3a259a892cdb7a04
+      version: 75b1c15f261af2c68a332185d20a089f05f101a0
     status: developed
   mujoco_vendor:
     doc:
@@ -5282,7 +5282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ubuntu-robotics/nodl.git
-      version: 8a57c7a3e6d8422965f04c258157500ca31da601
+      version: 0a23db18b2e69fe8cdf3251c0a87165e1cf94b69
     status: developed
   nodl_to_policy:
     doc:
@@ -5495,7 +5495,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 4e9bbe060ffd4bd069d474d4a861b4de8d7c0701
+      version: c23ca9efc802bcf408eedcc759b0fba8037722f7
     status: developed
   onnxruntime_vendor:
     doc:
@@ -6203,7 +6203,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 75575a3f2b1bb8a03979f6b49ee827aaeda44ab9
+      version: 2bb6771320c277c9fc0088db30b6400129118ec8
     status: maintained
   py_binding_tools:
     doc:
@@ -7479,7 +7479,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: 313aaae05e86ebf6dcbbbd053580f10aedb01ea7
+      version: ae87b37ec35b7050ae12cc5384d7b7b9f98904d3
     status: developed
   roboplan_ros:
     doc:
@@ -7682,7 +7682,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: c9eb964af688c0c0ab95c4c8d7074b31774be3fd
+      version: e05e6c7043ae551ca20efd1bc8087710cb8af142
     status: developed
   ros2_easy_test:
     doc:
@@ -7993,7 +7993,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: fb0399298e1eed95ebdab938c7deb6a4b50e8930
+      version: 4ca9d9a523e0d6b393dc901359bbbf098900b4e2
     status: developed
   ros_image_to_qimage:
     doc:
@@ -8167,7 +8167,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 4ab2ca32b4ee2fe3ca9cb2d2dfebb52693aec9bb
+      version: 44365ffe47ab943f43abf8c64325472fa40337b9
     status: developed
   rosidl:
     doc:
@@ -8201,7 +8201,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 837262f5fc7fa4e45dd7ece2b3cae35c6b276e7f
+      version: 2d5ab8f50ea391a00275a5db3c3db7747d8df79a
     status: maintained
   rosidl_buffer_backends:
     doc:
@@ -8482,7 +8482,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/rosx_introspection.git
-      version: 38f1aa51369f83f4c9978b7187502ea82b934291
+      version: 506a5f9cf2bc8855eff88628b4e6fd18524f8b3f
     status: developed
   rot_conv_lib:
     release:
@@ -9065,7 +9065,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/rtsp_image_transport.git
-      version: 17bec8175e4856c8c14a6c6c69b467b3784aa574
+      version: 4d677b62638cf58b9a1b5c07a985e0965a0ed4a5
     status: maintained
   ruckig:
     release:
@@ -9971,7 +9971,7 @@ repositories:
   trac_ik:
     doc:
       type: git
-      url: https://bitbucket.org/traclabs/trac_ik.git
+      url: https://github.com/traclabs/trac_ik.git
       version: rolling
     release:
       packages:
@@ -9984,8 +9984,8 @@ repositories:
       version: 2.2.0-2
     source:
       type: git
-      url: https://bitbucket.org/traclabs/trac_ik.git
-      version: 56136bbdbab3f323dcf7fe2bb30e31ed4502cba8
+      url: https://github.com/traclabs/trac_ik.git
+      version: 6c15c2b3606e6d20438c44998dd646a2cb961497
     status: developed
   tracetools_acceleration:
     doc:
