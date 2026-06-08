@@ -647,7 +647,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AutoAPMS/auto-apms.git
-      version: 7904dd6ed408ca16edd3b4637403ebf7f9be7b90
+      version: 8b9a838e37c34a4c0c5edb6464770b72a7b00312
     status: developed
   automatika_embodied_agents:
     doc:
@@ -658,7 +658,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/automatika_embodied_agents-release.git
-      version: 0.7.1-1
+      version: 0.7.4-1
     source:
       type: git
       url: https://github.com/automatika-robotics/ros-agents.git
@@ -1040,11 +1040,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/camera_ros-release.git
-      version: 0.6.0-2
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/christianrauch/camera_ros.git
-      version: 400654133908726fd893757d15e7300e0c5b92b0
+      version: f4023dc09cfc5fd36fedbb3656ad3a98733e297a
     status: developed
   canboat_vendor:
     source:
@@ -1455,7 +1455,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: 6bc135f6abbe37e9dd26159268fec41e6f6f0fea
+      version: 99e3853191c308b10018f6fa7a72ee3f7d05d3ce
     status: developed
   crocoddyl:
     doc:
@@ -3696,7 +3696,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/kompass-release.git
-      version: 0.5.0-1
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/automatika-robotics/kompass.git
@@ -4317,7 +4317,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2026.3.3-2
+      version: 2026.6.6-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -4764,7 +4764,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: ab3ca2803c287d508c2345f9026b1b947e88344d
+      version: 77c5894d63157c5d9df355d5956538ee0ae25c94
     status: developed
   moveit_msgs:
     doc:
@@ -4889,6 +4889,58 @@ repositories:
       url: https://github.com/ika-rwth-aachen/mqtt_client.git
       version: 8e061b3e4084be71dbc93062dfe22b5a604393a7
     status: maintained
+  mrpt3:
+    doc:
+      type: git
+      url: https://github.com/MRPT/mrpt.git
+      version: develop
+    release:
+      packages:
+      - mrpt_apps_cli
+      - mrpt_apps_gui
+      - mrpt_bayes
+      - mrpt_common
+      - mrpt_comms
+      - mrpt_config
+      - mrpt_containers
+      - mrpt_core
+      - mrpt_data
+      - mrpt_examples_cpp
+      - mrpt_expr
+      - mrpt_graphs
+      - mrpt_graphslam
+      - mrpt_gui
+      - mrpt_hwdrivers
+      - mrpt_img
+      - mrpt_imgui
+      - mrpt_io
+      - mrpt_kinematics
+      - mrpt_libapps_cli
+      - mrpt_libapps_gui
+      - mrpt_maps
+      - mrpt_math
+      - mrpt_nav
+      - mrpt_obs
+      - mrpt_opengl
+      - mrpt_poses
+      - mrpt_random
+      - mrpt_rtti
+      - mrpt_serialization
+      - mrpt_slam
+      - mrpt_system
+      - mrpt_tfest
+      - mrpt_topography
+      - mrpt_typemeta
+      - mrpt_viz
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/mrpt3-release.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://github.com/MRPT/mrpt.git
+      version: e36246eb70dd775e5c2660140e6047335a12690b
+    status: developed
   mrpt_msgs:
     doc:
       type: git
@@ -5048,7 +5100,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: f99fa310e7fa598f798315cfcfd2d8e2c7a3a2a1
+      version: a033f5ae2a698a20d3ae160a165f437c6ea90ab6
     status: developed
   mujoco_vendor:
     doc:
@@ -5955,7 +6007,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: b432913c28f9a512551fa6dfbaf0eaafee8aa7f9
+      version: 8f212462088e7d8d01f74c6e2d6c1f3e91224e00
     status: developed
   play_motion2:
     doc:
@@ -6825,7 +6877,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcpputils.git
-      version: 32c9d18e269f9558a01ea92edf01b4bf7290c9fa
+      version: b1969b5d6f89d2225f53477433e8090cef260837
     status: developed
   rcss3d_agent:
     doc:
@@ -7186,7 +7238,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_simulation.git
-      version: dd32b1a7b8504108185a5e2a8d7c0f0535fe5c2d
+      version: 974124014d9a5193f5de15ec800806189b5c6237
     status: developed
   rmf_task:
     doc:
@@ -7351,7 +7403,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: b5a1ee0cb7d5a364222dfd9f0cc348de53690c29
+      version: af3b9510c44907f7acf400d0bd8fd753ca194682
     status: developed
   rmw_cyclonedds:
     doc:
@@ -8945,7 +8997,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_tf_tree.git
-      version: 05e0cd50dd6576902a76568afcbada469481d50b
+      version: f8e0d007d06fbd592ca1d1d889246fb689c84b72
     status: maintained
   rqt_topic:
     doc:
@@ -10084,7 +10136,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/tsid.git
-      version: 717e7311cec160165f935006ab8ea028e42c2b82
+      version: 103f784f72157f4b7b5375ab725f061c4748790b
     status: maintained
   turbojpeg_compressed_image_transport:
     doc:
@@ -10434,7 +10486,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 627cf205cec22a727b73e7c317d93fc088f68ce4
+      version: c85ffa826323165a8a718993f8490d0eddf81087
     status: developed
   ur_description:
     doc:
