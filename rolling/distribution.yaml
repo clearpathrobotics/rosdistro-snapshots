@@ -1514,7 +1514,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 60b7624846e583fa28cd54d84020066dbabcfa34
+      version: bfc572ee7908f9532937eb917d82edf4b7812dab
     status: maintained
   crx_kinematics:
     doc:
@@ -1979,6 +1979,16 @@ repositories:
       url: https://github.com/stack-of-tasks/eiquadprog.git
       version: 84b903109c63057519069f02bfad361f8427309a
     status: maintained
+  enpose_tracking:
+    doc:
+      type: git
+      url: https://github.com/enpose-tech/enpose-ros.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/enpose-tech/enpose-ros.git
+      version: a4fd4dedfb5626b166721d4a7f12df04a655a847
+    status: developed
   event_camera_codecs:
     doc:
       type: git
@@ -2442,7 +2452,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 56eb81d4a83a37589906f270d5cfed93cc2104cd
+      version: abc411d9e372dffd3fac02b32fc50c76ca87802f
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -3052,7 +3062,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: f8c09a3ff7c088eecadda106f4e5250ccd547b7b
+      version: e431714620c7348742857dd52e33f49ae63342b9
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3604,7 +3614,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/jrl-umi3218/jrl-cmakemodules.git
-      version: 5b767114b12ff4e8fcb2594fe033812a73ad0e25
+      version: 769363bf27827733b4ad96cf61af6b0f25beb982
     status: maintained
   kddockwidgets_qt6_vendor:
     source:
@@ -4997,7 +5007,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: ef34ae8a152df9a3eada753beb8baef36d68925b
+      version: 3aefb405046f3009e4853f3ff7ef8c3e2e12a695
     status: developed
   mrpt_msgs:
     doc:
@@ -5052,7 +5062,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 9d38d6d645ea1cb042abc908403d022af03a76c1
+      version: 79af6927987f4c008d1f6c5700011880cb1547b9
     status: developed
   mrpt_ros:
     doc:
@@ -6080,7 +6090,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 288af2eb463d885e4469235f7c1a61fae1f0843c
+      version: 9443fe8f60a3551ec2980b4911fae9b855738f92
     status: developed
   play_motion2:
     doc:
@@ -6343,7 +6353,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: dca9fab53e065b848899b601449fc4a1141be276
+      version: 64775a2815731ce13e20c47eddbc5569f5df9d9b
     status: maintained
   py_binding_tools:
     doc:
@@ -7835,7 +7845,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 3f5181666a2c12613d04ce63000999e59cc1e007
+      version: 4888dc1c62f06f2afe2cea27f84c4cdd96040cf5
     status: developed
   ros2_easy_test:
     doc:
@@ -8214,7 +8224,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: 50f2505b94023008ce48032555ea7ecda4d28f74
+      version: d15390f8929fdd31586ee04c75d6aef1b111b365
     status: maintained
   ros_workspace:
     release:
