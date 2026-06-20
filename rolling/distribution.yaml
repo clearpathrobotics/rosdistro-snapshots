@@ -2452,7 +2452,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: eeddd7ed8d84fcd30ce9a449d8639dc4c64b2672
+      version: 2e7ea63015b967a360c34454ac8d4db9ee62158a
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2837,7 +2837,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 4ca8e646de27c019cf3e4ac2af084fdd9a0bcd2b
+      version: 2e6dd9f55ccda9d56100e69439cb04a9b0ef340e
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3515,6 +3515,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/inverse_dynamics_solver-release.git
+      version: 6.0.1-4
     source:
       test_pull_requests: true
       type: git
@@ -4080,7 +4081,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: cde4eddf895cd09d05137bd99425d238cd8a6018
+      version: bd266aa3405d3aea20b407b27e52482b02146030
     status: maintained
   libg2o:
     release:
@@ -4195,7 +4196,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller-msgs.git
-      version: 78b68e1ebd73bdf36ff157591e82a58403fbf324
+      version: 0094b607b1698f430d898e92637d4d414a816857
     status: maintained
   linux_isolate_process:
     doc:
@@ -4370,7 +4371,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-      version: 2026.6.6-1
+      version: 2026.6.19-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -5007,7 +5008,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 71723bbd3c456b6723ba12f6912185e7bc487571
+      version: 7ff9e16ec18c3b9df3aeb0ae225d30fd26d45bb0
     status: developed
   mrpt_msgs:
     doc:
@@ -5092,7 +5093,8 @@ repositories:
       type: git
       url: https://github.com/MRPT/mrpt_ros.git
       version: c24b4a21e6ada8e16d9fa3f1943e8cb5eb59be44
-    status: developed
+    status: end-of-life
+    status_description: Deprecated, replaced by colcon native mrpt3 repository
   mrpt_ros_bridge:
     doc:
       type: git
@@ -5644,7 +5646,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: cf7095db441fef640092eb853809a896249663c2
+      version: afcacfc698b234e7806ab48c60adad84202f2a18
     status: developed
   onnxruntime_vendor:
     doc:
@@ -7059,7 +7061,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/realtime_support.git
-      version: 9f43b1485e5ab14f4ba39d4ce4833b605e4052d1
+      version: 4c76f3a3cc171a69ea5d31c4ff1cc8d2bee41477
     status: maintained
   realtime_tools:
     doc:
@@ -9145,7 +9147,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/RSL.git
-      version: 8105bcbf4a5381421ba2d98776f6c6536dcf1bc2
+      version: 5a7c79b4f84cea1f87419b159ca041499968bd6f
     status: developed
   rslidar_msg:
     doc:
@@ -9262,7 +9264,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fkie/rtsp_image_transport.git
-      version: 46510e1a0714e8dc828046990a32d262a5b3f184
+      version: 3cc9c74b3fed59ff49ef1f5b5860786cda805c89
     status: maintained
   ruckig:
     release:
@@ -10599,11 +10601,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
-      version: 2.12.0-1
+      version: 2.13.0-1
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 03a62bd02421f0cbbe418725068ca6b6d2ce255f
+      version: e01f5f390a8f359cadb63a1dba7bae67064e905a
     status: developed
   ur_description:
     doc:
@@ -10655,7 +10657,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: a7adb801e2628a174c019a03fd581d33b1d428c2
+      version: 1a54989d1e2c58b8c44e0d4ee3676d36b410a0c0
     status: developed
   ur_simulation_gz:
     doc:
