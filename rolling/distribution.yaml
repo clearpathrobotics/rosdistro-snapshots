@@ -737,7 +737,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-      version: 546ee20a582485e82e475f77e1328a6f32fcea24
+      version: 35a7aeb97dfbbbc363c49fc032ded0c8ba172e24
     status: developed
   autoware_auto_msgs:
     doc:
@@ -755,6 +755,10 @@ repositories:
       version: 818d3587d41728422b768898e9c8d2e55bad9e5f
     status: developed
   autoware_cmake:
+    doc:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_cmake.git
+      version: 1.4.0
     release:
       packages:
       - autoware_cmake
@@ -762,11 +766,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/autoware_cmake-release.git
-      version: 1.2.0-1
+      version: 1.4.0-1
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_cmake.git
-      version: 7c6d101f600e1f77dc8462ab9cc3d7be7b5d5ac2
+      version: 7796130d9fe9e45d8ec5e24815db9364dc4300f0
     status: developed
   autoware_internal_msgs:
     release:
@@ -802,7 +806,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: c8c475d7db159b83c494484b20b78d2ad2f9740d
+      version: 28a6e0b5cae5366508f77954dd8710248a9ea809
     status: developed
   autoware_msgs:
     release:
@@ -907,7 +911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 15a679ad18e217c15ee246033a94758c767dfb5a
+      version: 00389b0e1f53470aeeb75d81d0a9ed4483f09a56
     status: maintained
   backward_ros:
     doc:
@@ -1249,7 +1253,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/coal-library/coal.git
-      version: 507bb715a510e50a6060c5c929da52e34e478179
+      version: c0837af2f0024de9de29f9be3de57f9bf31fe7bb
     status: developed
   cob_common:
     doc:
@@ -1514,7 +1518,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 30cbfb21eb9bd340c946fbb820ccb60c3fad8c99
+      version: da3d18068cac75f17719d022a5f79fd2d266dd0a
     status: maintained
   crx_kinematics:
     doc:
@@ -2145,7 +2149,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-CDR.git
-      version: 261b03f1b5ee6ee735b4257973014051739ae077
+      version: 899f8e9eecf53d0dd2f686287b6af195e8f2d351
     status: maintained
   fastdds:
     doc:
@@ -2162,7 +2166,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 66c777fec1001b0d90d81b0778d9abe1da6edc72
+      version: 2ff2b6031f64a92d56c7495b0ecf8fc853bea847
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2300,11 +2304,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fkie_message_filters-release.git
-      version: 3.3.1-1
+      version: 3.4.0-1
     source:
       type: git
       url: https://github.com/fkie/message_filters.git
-      version: 1ebc1f755226c4b1eebf8c0467573bfb41617700
+      version: 9ee8a462b6981528daee7abebcf5756c649e4487
     status: maintained
   fkie_potree_rviz_plugin:
     source:
@@ -3380,7 +3384,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 4059c882160c358261c464f210850dac9c50460a
+      version: a3a29f8f2567643de7ef6e5f416bddf9fe59cfb5
     status: maintained
   image_pipeline:
     doc:
@@ -3428,7 +3432,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: b16a57cda0a533d1212573463d48430400e538dd
+      version: 648b5b74d51ed9572bc1e15eafca577cf5a887e5
     status: maintained
   imu_pipeline:
     doc:
@@ -4081,7 +4085,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: d780e285b593dd12e950777c13f69ce0799981e1
+      version: 29eb112a448f6c1f3cc89de1a74b871671f64f55
     status: maintained
   libg2o:
     release:
@@ -4127,7 +4131,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/librealsense2-release.git
-      version: 2.57.7-2
+      version: 2.58.2-1
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -4427,7 +4431,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: b5d7d397e08f620cf331c897a609903a57468642
+      version: 2ee7d471d227a8c4a4fd4f512e0c0933b2bca282
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4582,7 +4586,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: e928b1783a337fef99bc119be4c302518db7d983
+      version: bb1b468bd8e7395c736d72e2ac26befd5b0bd9b6
     status: developed
   mola_academic_datasets:
     doc:
@@ -4695,7 +4699,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: adb75399319ba86b782d5e37789397b0665baad4
+      version: d023d2e4e276038fd2626b974aed72bce3fe2125
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4833,7 +4837,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: cadd5b41224752e072c90e3886783d018dca7f32
+      version: 4a766fd1ba7798822c8e5997ba8c18ecdff2f113
     status: developed
   moveit_msgs:
     doc:
@@ -4923,7 +4927,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 892ea13f602b99c2deec0705dc5c5e814ab3b4f6
+      version: 8c4402ef0b559ccdaa98cd8cf9812b232c2b02f1
     status: developed
   mp_units_vendor:
     doc:
@@ -5170,7 +5174,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 3b806dfafed095b90d6d3233cd60bbd8d4bc9e42
+      version: e850f914b35bcd2b343c753de82bb0544d0b56e4
     status: developed
   mujoco_vendor:
     doc:
@@ -5334,6 +5338,13 @@ repositories:
       url: https://github.com/ros-planning/navigation_msgs.git
       version: b6df4fdf0f0ab27824f09d89e4bba563403206e4
     status: maintained
+  ndcurves:
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/loco-3d/ndcurves.git
+      version: af10efecd7da21e935202354b3174dbcd86f6111
+    status: maintained
   network_bridge:
     release:
       tags:
@@ -5403,7 +5414,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/nmea_navsat_driver.git
-      version: 3efe940f3b8a97627f2adeaaa7d4697e333b9e04
+      version: bb4f132d9df6aca5ca704f9e38d5c9820c041752
     status: developed
     status_description: ROS2 support is work-in-progress. Help wanted!
   nobleo_socketcan_bridge:
@@ -5642,7 +5653,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ompl-release.git
-      version: 2.0.1-1
+      version: 2.0.1-3
     source:
       type: git
       url: https://github.com/ompl/ompl.git
@@ -5653,10 +5664,15 @@ repositories:
       type: git
       url: https://github.com/ros-controls/onnxruntime_vendor.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/onnxruntime_vendor-release.git
+      version: 0.1.0-2
     source:
       type: git
       url: https://github.com/ros-controls/onnxruntime_vendor.git
-      version: 885a6f4f786559a132801283591e8004ae425862
+      version: f349e1e1b92953f84bfa70d51880497fd2993b45
     status: developed
   open3d_vendor:
     doc:
@@ -5834,7 +5850,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ouster-lidar/ouster-ros.git
-      version: b2e8cc671ae6c98e670cfd49eb106fbbf213b817
+      version: eaaf35d194627a1ddc34f9e7b3f572dfd17d5313
     status: developed
   ouxt_common:
     doc:
@@ -6092,7 +6108,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 9443fe8f60a3551ec2980b4911fae9b855738f92
+      version: 893ed4dab1eba0cf3e488a9446a0e1d5f714522c
     status: developed
   play_motion2:
     doc:
@@ -6228,7 +6244,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 777492bd823516620c1dfcb1a9f77ab5e42b3be0
+      version: 58a8bc0170f5ce4ce02d69f81afb698798b6f922
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -6615,7 +6631,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/qt_gui_core-release.git
-      version: 3.0.0-1
+      version: 3.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -6888,7 +6904,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/rcl_logging_syslog.git
-      version: c8d9211e30a3897fd9ee9d3c6c2d2f04dc5cb40f
+      version: 38a992ebda421484928b2b632e87fb19c9127acb
     status: maintained
   rclc:
     doc:
@@ -7122,7 +7138,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: b1d8e4e2927e06fffc98572277be241e9307ffca
+      version: b062d5f15131ac3f2f47c095cf650665e9b5bdea
     status: maintained
   resource_retriever_service:
     doc:
@@ -7142,7 +7158,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/resource_retriever_service.git
-      version: 3ee6e73c3241550669aa46835e9c3a4ab81128f9
+      version: 06b07ec19790ba842a63c62e210f431f2ddaade2
     status: maintained
   rig_reconfigure:
     release:
@@ -7304,7 +7320,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_ros2.git
-      version: df4914b6ff062d6b02df559186e05c736a53eadc
+      version: 75594b75d99b7b0686d2ef2f302f425c261153a9
     status: developed
   rmf_simulation:
     doc:
@@ -7644,7 +7660,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: 4f5b5d044ef7367d807fc6f70d8d5346303257f9
+      version: 0f71bed010dea27734ebc9b259c06d2d06154b61
     status: developed
   roboplan_ros:
     doc:
@@ -7654,7 +7670,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan-ros.git
-      version: b7c09d4c35116afbf2b0d3686419a0b2264b6bbe
+      version: e9c149e05b32d5fa7f864aa318b30f6b0ee77f34
     status: developed
   robot_calibration:
     doc:
@@ -8011,7 +8027,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2ai.git
-      version: 9e5d6e4e4ce179d8af034d98975cac032b6a8594
+      version: f5b93df7f28ac51e1c1c6c5ef58976ff49fa3aac
     status: developed
   ros2cli:
     doc:
@@ -8757,7 +8773,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt-release.git
-      version: 2.0.0-1
+      version: 2.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -8791,7 +8807,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_bag-release.git
-      version: 2.3.2-1
+      version: 2.3.3-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
@@ -9404,7 +9420,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
-      version: 1.4.6-2
+      version: 1.4.7-2
     source:
       test_pull_requests: true
       type: git
@@ -10991,7 +11007,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 8137737ce9e801c8b4a0f1b4b8306b75f77c8316
+      version: 21c54446f9dd069cc4e3617234b261aaf250d4da
     status: maintained
   vitis_common:
     doc:
