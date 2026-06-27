@@ -855,7 +855,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: d959428d66b40f5e6de2b22b66cdd02dee6e631a
+      version: 7c6643f56f6aa76dbef9b7efd721b8535add8f69
     status: developed
   avt_vimba_camera:
     doc:
@@ -1231,7 +1231,7 @@ repositories:
     source:
       type: git
       url: https://github.com/carologistics/clips_vendor.git
-      version: 721beee51ee68c87aaa7d70f80a3a956b72f8bd4
+      version: 5fe577a04899b9063b2d4c8b10499fd5793472c9
     status: maintained
   cloudini:
     doc:
@@ -1985,7 +1985,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: 84b903109c63057519069f02bfad361f8427309a
+      version: 7855de5fdce45e1ccfc0a05174d2eba69f591a31
     status: maintained
   enpose_tracking:
     doc:
@@ -2845,7 +2845,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 8b87522497e6dc650739ddaa58fe857f52baf020
+      version: 64eeadc118a175b9a06204d883e8ddb5b821902b
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3569,7 +3569,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/joint_state_publisher.git
-      version: 346f78d7328ff4164907d77949cf32b2616a4d86
+      version: 68986c7b1a2ced650213d24a3a6487a472fcd8d1
     status: maintained
   joy_tester:
     doc:
@@ -3994,7 +3994,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LeoRover/leo_examples-ros2.git
-      version: a28ba82f537db3425770c56b1b70a424e1fa4fa2
+      version: 56d620ac159a7b13cdea28226ee52fdcd3b738b2
     status: maintained
   leo_robot:
     doc:
@@ -4404,7 +4404,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 73054df39bd15b30164a71a9667f3e1897a7bb4f
+      version: bdb026b6fed3691d25c464b34d3c7abbb2e4dd26
     status: developed
   menge_vendor:
     doc:
@@ -4590,7 +4590,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 5737e6a230739aef479576dd4499ce5e4ac6d599
+      version: 4280f85c26ead1c1c5f487318ba8bcb30a9d1900
     status: developed
   mola_academic_datasets:
     doc:
@@ -4703,7 +4703,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 587efc4b1e77cd8ba2ed7ab5000e8084f9011d09
+      version: 11c1b85b45df717b9438f3d7885662d85c1b62d4
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4739,7 +4739,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: a7240c5f31af50564a078374cc00960433eecca8
+      version: 3d771dc1dd2fa65a5f472cb2a7b91ab02f7ff620
     status: developed
   mola_test_datasets:
     doc:
@@ -5178,7 +5178,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: e850f914b35bcd2b343c753de82bb0544d0b56e4
+      version: adb56c36c56155450b0d6fef590cbfac54ff6703
     status: developed
   mujoco_vendor:
     doc:
@@ -6073,7 +6073,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/pick_ik.git
-      version: b30065814650fec70e8e5185b9861c2198dfe0c3
+      version: 8c999995dec2a71cb950850bd5ee56beed8d4563
     status: developed
   picknik_ament_copyright:
     release:
@@ -6243,12 +6243,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 6.0.1-1
+      version: 6.0.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 2428a93c0542bf6e68a2adecfdabfb82a2db3fd6
+      version: 96a4908a169ae0bf74d96c19dd7dd9dbed702563
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -6379,7 +6379,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 1e2949625498b9a30a10bc8385fea9d6c0f57467
+      version: fbf499b1ab34207821de508f64a1677057bdda3a
     status: maintained
   py_binding_tools:
     doc:
@@ -7512,7 +7512,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_connextdds.git
-      version: caedbb228a4b4855bd09e697712022e7e381294a
+      version: 85c15aa385498d439b3e65c5b2d812db9bf5c3b0
     status: developed
   rmw_cyclonedds:
     doc:
@@ -8191,7 +8191,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebosim/ros_gz.git
-      version: 44e134d0c84be74731f4aed70331191ec281aef8
+      version: ea2cc7c2b95c21a463c345969a8cbf792d29037f
     status: developed
   ros_image_to_qimage:
     doc:
@@ -10697,7 +10697,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: c3f82830d1e09f1c14575b427c688a7ef6726837
+      version: f11fee887cb1aaaa6b2e0111ab2347b67dcc345e
     status: developed
   ur_simulation_gz:
     doc:
@@ -11031,7 +11031,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 17e0b38ed52a85fcfb1aa4ebde36c0f5bf0f688a
+      version: dbfea246ad3150b462d9303ae3a08ce287ab7397
     status: maintained
   vitis_common:
     doc:
@@ -11209,7 +11209,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 9680e6e464938a07d2fc0ffed1d3cfb5428089db
+      version: 97a942a20e1355298546c70dee34f364b788a5b7
     status: developed
   zbar_ros:
     doc:
