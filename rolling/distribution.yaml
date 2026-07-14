@@ -373,7 +373,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_package.git
-      version: 4111ca9305822216a1d9b401b649b3c9e7a406ce
+      version: abb8b3134b79094f7c11f94c79de1c43c068e788
     status: developed
   ament_vitis:
     doc:
@@ -1046,7 +1046,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
-      version: f33d141b4d9f48f3edfcc41f9067c15037ef60d5
+      version: 340e2f9ec18eeac33110dd33ff0a73243f1f582a
   boost_sml_vendor:
     doc:
       type: git
@@ -2461,7 +2461,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: de0efbd26e9e9a2a8d0464080057b84d9b7ef183
+      version: f590fd38686a46a347d51443b71f0e467023d956
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2638,7 +2638,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: f80f03c16051a7be1e39d85109f476191fed5add
+      version: 40407294b448da263f02a051752d2fc0285aa0ce
     status: maintained
   geometry_tutorials:
     doc:
@@ -3256,7 +3256,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
-      version: c079ebd69eaa00f9d8277023456314558806082f
+      version: 2de0dd8f6e51a1d0a9aa785cc9072fda10fd0dee
   hri_actions_msgs:
     doc:
       type: git
@@ -3389,7 +3389,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 70734fa12f6ef2ea50627ed357581033896a3065
+      version: d66758dbf800c30f6e482c4fb0757e15bcb80701
     status: maintained
   image_pipeline:
     doc:
@@ -4090,7 +4090,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 191e202178f02430b5942397c70d215cdd2056fa
+      version: b053295b782466285cfd047bd44c2b8c56b9cfad
     status: maintained
   libg2o:
     release:
@@ -4282,7 +4282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: a6d9eb903fce92e2605573ec44c61df3db405cdb
+      version: 6c8896bc4f7985869ba381a550259cd5a1fceafc
     status: developed
   marine_msgs:
     doc:
@@ -4877,11 +4877,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_resources-release.git
-      version: 3.1.1-2
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
-      version: 647bbf84846f2846f1b254beb55e9a72ea9ada01
+      version: c55b102711fc0aebe80c6952d2ce97c38110abba
     status: developed
   moveit_task_constructor:
     doc:
@@ -5077,7 +5077,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: edfce049032167e287d0c2324e0c53b065a4c36e
+      version: f4cc8577b4b4a7a53519d2f9ec94119d05cfed48
     status: developed
   mrpt_ros:
     doc:
@@ -5184,7 +5184,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: b04e5beb6c711b288cc77f0bab2b19b2642bac2f
+      version: 1ab854ec20b0991245fdd3dde428dcd3d2faa559
     status: developed
   mujoco_vendor:
     doc:
@@ -6385,7 +6385,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: a5aec95ed69086467b1f92de30093a04d03fd1d4
+      version: 00498a120a07a3d8374d9567677a99e99bd1d731
     status: maintained
   py_binding_tools:
     doc:
@@ -6416,7 +6416,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 17b6e7cdb2e8da9c17fe648cc7940dcb542c4792
+      version: 4ab83690e20ce50e87cde3729e1bf3f428901b99
     status: developed
   py_trees_js:
     doc:
@@ -6432,7 +6432,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_js.git
-      version: 1deaef2ae602adc39b34f4aee94ddb154000b233
+      version: c4da565633c11cc81f41e4897d1067261c09bacd
     status: maintained
   py_trees_ros:
     doc:
@@ -6448,7 +6448,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_ros.git
-      version: 84c4e5c226d4a3edbc4e7ef85329bae36d1a403c
+      version: 6d49dee91529f04ea96289213827344de3cd55c5
     status: developed
   py_trees_ros_interfaces:
     doc:
@@ -6464,7 +6464,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_interfaces.git
-      version: 4b87950df648f24e1bbd19178fe7d09663cc2e3b
+      version: 2cd9d9cc662125272c7657e59a48da33f751ad4b
     status: developed
   py_trees_ros_tutorials:
     doc:
@@ -6480,7 +6480,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_tutorials.git
-      version: 449145b814b188d7bac728d68376bfafb2deda4d
+      version: c1a01991681198d038b0bfc5d00491a2f1134110
     status: developed
   py_trees_ros_viewer:
     doc:
@@ -6496,7 +6496,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_ros_viewer.git
-      version: b15dbe5d889e68dea3aa0220548b2fc50adf337b
+      version: 69cc11feda8c6ab72466db826798dac0b1343121
     status: developed
   pybind11_json_vendor:
     doc:
@@ -7172,7 +7172,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/resource_retriever_service.git
-      version: 06b07ec19790ba842a63c62e210f431f2ddaade2
+      version: 0b0cd62daef93b3458963615778d2eb1c2ede856
     status: maintained
   rig_reconfigure:
     release:
@@ -7681,7 +7681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: 3ba114886c52b43ba19650db73ac4c4b963358f0
+      version: e06d1a2f1b749c38742aee9e401bbe97fa967f7b
     status: developed
   roboplan_ros:
     doc:
@@ -7827,7 +7827,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 4027aadfa4b156d7bfc278d9de240e743fba57b0
+      version: 427cb38bf4ac34c4bcee34a3316918dc19d08f64
     status: developed
   ros2_control_cmake:
     doc:
@@ -8049,7 +8049,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2ai.git
-      version: f5b93df7f28ac51e1c1c6c5ef58976ff49fa3aac
+      version: 36e04e4aa79fea8f22378d90ee13154391852070
     status: developed
   ros2cli:
     doc:
@@ -8800,7 +8800,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: adff48e951ad5c118dcfbf2c6f2067e64cd15469
+      version: 56b988992b12c008e021e4e004521ef28021f45e
     status: maintained
   rqt_action:
     doc:
@@ -9313,7 +9313,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pantor/ruckig.git
-      version: 2249d57ffaa19ecdadeaab62daf97857813629ff
+      version: 79cb1b2fab806621321472df588c44765ac7eab1
     status: developed
   rviz:
     doc:
@@ -9742,7 +9742,7 @@ repositories:
     source:
       type: git
       url: https://github.com/polymathrobotics/socketcan_adapter.git
-      version: 78c0a8ff5d011bb1586bdc998b8dc633c94f9c4d
+      version: 0b4c6fdde6a283e8deceaf8af3df1f97c6a2ac2c
     status: maintained
   sol_vendor:
     doc:
@@ -10923,7 +10923,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
-      version: 2afb2d42e8ce30cbd4b11f394eaa3acfe537fb5e
+      version: ea6462f6a34d5d296d9fd4dfcd5b87e40fa78e71
     status: developed
   variants:
     doc:
@@ -11228,7 +11228,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 2cbfbbe73e127eefeef427b0367cd4b84e21a46f
+      version: a3827ccaf495582e7b070af6f623bdf69d3553c8
     status: developed
   zbar_ros:
     doc:
