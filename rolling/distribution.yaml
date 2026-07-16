@@ -651,7 +651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/audio_common.git
-      version: af901dfa2632e43b0db95bc1d4c50b7ec333f187
+      version: e6c4d258841b1b40e8e36bb67f268801dab5d274
     status: maintained
   autoapms:
     doc:
@@ -958,7 +958,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 4630e066f842f4f7509d3362b43b651106876cd6
+      version: c3ffb7f5a0675b46868984dc7d378c289af3051f
     status: developed
   better_launch:
     doc:
@@ -2272,7 +2272,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 9c8764c385ae8a684654197ff6ade4a4d925d6f5
+      version: 92b9f2fcf72d26c44202f9d2ab54fbf25ed87426
     status: developed
   filters:
     doc:
@@ -2461,7 +2461,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 65d036633051bfe17a0749d7d82f307e2cf163e2
+      version: b4717adf87d015a592ec44970146008408cd8a78
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2572,7 +2572,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: 8b118dfc155a33e855fbb316d1d586279e4ea5c0
+      version: ba76355828a0654fcfa30bb2a74bdd38e0ca25db
     status: developed
   geographic_info:
     doc:
@@ -4282,7 +4282,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: e6b688961c33ec6ec5af901f04220fb798d9c604
+      version: d8e4f7177bb284e5b16a93e80ec2073f096e0964
     status: developed
   marine_msgs:
     doc:
@@ -4405,7 +4405,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 8cd1ac6a64405ca2765b9d6474d6973d50f83e8f
+      version: a09a4024c4702e0053c3cc2e387b005456ad7dd5
     status: developed
   menge_vendor:
     doc:
@@ -5062,7 +5062,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 5d59053d09630faf21f5262391c70e339bc97097
+      version: fdf64b492ceac76ec3d2d4037792815699b6001b
     status: developed
   mrpt_path_planning:
     doc:
@@ -5077,7 +5077,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: 3f78ac82016c26983b245c1c06d5f1e177d00df9
+      version: f92a4c9cd0043b931dda8a5c5cae79dd0e50c168
     status: developed
   mrpt_ros:
     doc:
@@ -5184,7 +5184,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: fa11ca9fd2924dde1361baf6000f438a95927cc7
+      version: eb1b40151764ca734c93ad95d53a5d56c5880bbb
     status: developed
   mujoco_vendor:
     doc:
@@ -5225,7 +5225,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 6e661f43fe414fe646b48865755ead44c12e51f1
+      version: ad3633b07c10c23686ec5b01955214fb0e29d4fd
     status: developed
   nanoeigenpy:
     doc:
@@ -6385,7 +6385,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 00498a120a07a3d8374d9567677a99e99bd1d731
+      version: 18ecff03041c6f8d8a0012fbc63af0b23dd60af1
     status: maintained
   py_binding_tools:
     doc:
@@ -6416,7 +6416,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 160a2a3ff22d299165d011690871eafc7b19375b
+      version: 48d0f7afe23dc67d591003740667cacb4c164937
     status: developed
   py_trees_js:
     doc:
@@ -6432,7 +6432,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees_js.git
-      version: 6472f4929d4f93f52c16af7fca08b906de126a63
+      version: 4991e1ac6b083655f0e47cbd5915703d6203b76a
     status: maintained
   py_trees_ros:
     doc:
@@ -6866,12 +6866,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-      version: 2.5.0-1
+      version: 2.5.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl_interfaces.git
-      version: d2dabffa77e4609f92af07a1aa0b502f0967adab
+      version: ce3f0f268ab5fb50d690be9a967acb7162773048
     status: maintained
   rcl_logging:
     doc:
@@ -6960,7 +6960,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: d0312175e380cf09bc975e844e42d3094b607bc7
+      version: d2d94d0357b6602c6a4d457b3eb6ed57106b9427
     status: maintained
   rclpy:
     doc:
@@ -7086,12 +7086,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_support-release.git
-      version: 1.0.0-1
+      version: 1.0.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/realtime_support.git
-      version: d9365db2b51ce2719575a9e56ad34ab7b4fa4824
+      version: 02deb7967b52d5f24552682be0d46c5cf24039fc
     status: maintained
   realtime_tools:
     doc:
@@ -7494,12 +7494,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw-release.git
-      version: 7.11.0-1
+      version: 7.11.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw.git
-      version: 033fa7e6aad000fffd3b6cc731e1c84455b59616
+      version: 8a08db2fb7c8d5986fa5ec449bb422f77e257ceb
     status: maintained
   rmw_connextdds:
     doc:
@@ -7547,12 +7547,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_dds_common-release.git
-      version: 6.1.0-1
+      version: 6.1.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_dds_common.git
-      version: 2685d323f390091680d9065e0b7477966ebeb955
+      version: 142289276854ecaf8795ba86db91e2d9d2c9b40f
     status: maintained
   rmw_desert:
     doc:
@@ -7634,6 +7634,16 @@ repositories:
       url: https://github.com/ros2/rmw_implementation.git
       version: 6407a342baa8eed00f0fd1460984a6070f8acc3a
     status: developed
+  rmw_int2dds:
+    doc:
+      type: git
+      url: https://github.com/IntellectusCorp/rmw_int2dds.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/IntellectusCorp/rmw_int2dds.git
+      version: 4f4359e7e0f805a408829a4dc829ed742232a1b8
+    status: developed
   rmw_swiftdds:
     source:
       type: git
@@ -7681,7 +7691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: e06d1a2f1b749c38742aee9e401bbe97fa967f7b
+      version: 96e1a37bb42f76029a84924be81dae5843103f3f
     status: developed
   roboplan_ros:
     doc:
@@ -7837,7 +7847,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: e300553e0eec266ac6be1d5291fdf62a41a72360
+      version: e4ebcc352d9aeb69969308428b051bdd3105b88f
     status: developed
   ros2_control_cmake:
     doc:
@@ -8086,12 +8096,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2cli-release.git
-      version: 0.41.0-1
+      version: 0.41.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: e48ad38e86040320e2592555ae80396aca609f64
+      version: 33f4c37a65e7f97dfb355ee522d73c53cc23ac18
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -9160,11 +9170,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_tf_tree-release.git
-      version: 1.1.0-1
+      version: 1.1.1-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_tf_tree.git
-      version: 2db85311540be94a986f562cd857b87a1abb5438
+      version: 8e49d77a3ed1f6c7f412a06d6a580498165f4dda
     status: maintained
   rqt_topic:
     doc:
@@ -11060,7 +11070,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 30224eb8935da243f6367012f41172dd59c46a21
+      version: 062ccde0c5ed68bdfb852273651fef46dfd6d112
     status: maintained
   vitis_common:
     doc:
