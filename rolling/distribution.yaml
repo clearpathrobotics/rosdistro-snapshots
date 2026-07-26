@@ -1449,7 +1449,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
-      version: 31caab91b0519da80d9c405051a6910fa69147bc
+      version: b93e17e3c62b9ad1c7614d094aad194dc67768a4
     status: maintained
   cras_msgs:
     doc:
@@ -1741,10 +1741,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/dynamixel_hardware-release.git
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/dynamixel-community/dynamixel_hardware.git
-      version: fd4d05baa684cdc0f53c1e654fec66f13f644a89
+      version: 54aed8d03e2495486b1bcdbede797e0deb9024a8
     status: developed
   dynamixel_hardware_interface:
     doc:
@@ -4592,7 +4593,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 2534ba39aae32c025ccd202f48c3f7f118f6934d
+      version: b5e88320be6ef7b374d360021b429da8b19531a8
     status: developed
   mola_academic_datasets:
     doc:
@@ -4705,7 +4706,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: b0155ca54fa7c71daa56d9e010937bd296466bb7
+      version: 15bcf69921c0c63481471e96a36358327c2a7d72
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4937,7 +4938,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 4878bcbbcf4bd79eb0f2c780078b388e85c91c2b
+      version: 46efcadaa823a63b55a1f7faf01d4e7c89128ee7
     status: developed
   mp_units_vendor:
     doc:
@@ -5256,7 +5257,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
-      version: ff0eb50a4b972c642c54fe453095b724d9ae7c60
+      version: 8c2d1e3fe75b0b726f516ad62fb301fef71eef45
     status: developed
   nao_button_sim:
     doc:
@@ -6385,8 +6386,9 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/proxsuite-release.git
-      version: 0.6.5-2
+      version: 0.7.3-1
     source:
+      test_commits: false
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
       version: ae63369be49f623ac0079d3dc848d8da2494dd87
@@ -9361,7 +9363,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rtest-release.git
-      version: 0.2.2-2
+      version: 0.2.3-1
     source:
       type: git
       url: https://github.com/Beam-and-Spyrosoft/rtest.git
@@ -11306,7 +11308,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 2a20eb9865b9e1eb840e065b7fe132fb0a24117a
+      version: 2622b4a5015b4b33e194b823e75aee9acd3e7ece
     status: developed
   zbar_ros:
     doc:
