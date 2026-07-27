@@ -674,7 +674,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AutoAPMS/auto-apms.git
-      version: 23e22a4727319ec782646db513f7ddd46308a61e
+      version: b220cb67d22394b706273666c9211bf468a229d1
     status: developed
   automatika_embodied_agents:
     doc:
@@ -1583,7 +1583,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PickNikRobotics/data_tamer.git
-      version: b42dbd26013e62f9f56ef24979ed46c3de4d7f53
+      version: e761f4f153b7a88138d99c843e59392c57b346da
     status: developed
   data_tamer_tools:
     doc:
@@ -1746,7 +1746,8 @@ repositories:
       type: git
       url: https://github.com/dynamixel-community/dynamixel_hardware.git
       version: 54aed8d03e2495486b1bcdbede797e0deb9024a8
-    status: developed
+    status: end-of-life
+    status_description: Use dynamixel_hardware_interface; see https://github.com/dynamixel-community/dynamixel_hardware
   dynamixel_hardware_interface:
     doc:
       type: git
@@ -1987,7 +1988,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/eiquadprog.git
-      version: 9a93cdf1319ef75b20d1a9452b6d7e7c185d4f30
+      version: a9ac2ba7901b54419083db1acd28d0a92692ae30
     status: maintained
   enpose_tracking:
     doc:
@@ -2847,7 +2848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 6c59503fea13bb9025b4f098bb3412e57b3531c2
+      version: ab2843186aa1b15cd22ac03641063aaaee40c770
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -4437,7 +4438,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/message_filters.git
-      version: 0697465e25af44588459cd7cf3fdea02b87f0079
+      version: 7ab59aa672c9130fa9d1feecacc593d54072db78
     status: maintained
   message_tf_frame_transformer:
     doc:
@@ -4593,7 +4594,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: b5e88320be6ef7b374d360021b429da8b19531a8
+      version: e930aa69a6da584ef09b0282bacebfc956d55097
     status: developed
   mola_academic_datasets:
     doc:
@@ -4706,7 +4707,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 15bcf69921c0c63481471e96a36358327c2a7d72
+      version: 0386cc98a07087be572efef3116c7a331313d123
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4721,7 +4722,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_sm_loop_closure.git
-      version: 310ec3224cbc18aa7269ee8f81bf0cd568754ee8
+      version: 7d9481d51ccd9dcd9649e06bf6e020ff14a9b38a
     status: developed
   mola_state_estimation:
     doc:
@@ -4742,7 +4743,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: c2dd480661558ae25504155b5f18c9b50500a255
+      version: 677a933936fad9b9e2adc2fc586b616178de1168
     status: developed
   mola_test_datasets:
     doc:
@@ -4938,7 +4939,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 46efcadaa823a63b55a1f7faf01d4e7c89128ee7
+      version: a3b72bc22a8c200075bbb71c2b195a43f1ee4cf3
     status: developed
   mp_units_vendor:
     doc:
@@ -5185,7 +5186,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: c45940bf1296673fd690163bca355ac70c61ad39
+      version: 70ef9733df55363cf06adb32b17956651338da5f
     status: developed
   mujoco_vendor:
     doc:
@@ -6118,7 +6119,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/picknik_controllers.git
-      version: 1c7cc82c7bcfb1692943308eedc225292d54a33c
+      version: d516075a03619c87691ad22cbc2f1b4ea14b26ad
     status: developed
   pinocchio:
     doc:
@@ -6236,7 +6237,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
-      version: b6b5ec5f1640ad75274a168690b16e4184e2ceab
+      version: 5a129e1badb00305897092f04082b4291b0a3322
     status: maintained
   point_cloud_msg_wrapper:
     doc:
@@ -7553,7 +7554,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_cyclonedds.git
-      version: d192944e0379cf35198099f4b9dd5d7eeb4705e2
+      version: 6ec492b96f03206b8247716f82ae8b018e0a4d46
     status: developed
   rmw_dds_common:
     doc:
@@ -8020,7 +8021,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-      version: 3b6cf8ff9106384e72c23de7d3ba989fb6b41141
+      version: 2c047340aeb2440f7a60e429264221aab9658707
     status: maintained
   ros2_snapshot:
     doc:
@@ -10796,7 +10797,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: 696e1a7b7f46edd7092c9a9237f33b526a981cf1
+      version: 8900b034305199b12224b81f71f2a18700061d2f
     status: developed
   ur_simulation_gz:
     doc:
@@ -10911,7 +10912,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: 557bac46a1522c20e4ecb3f35203fd0b083fc513
+      version: c2dac2ea8b6272e85448e56741ffc14ccf049bb6
     status: maintained
   urdfdom_headers:
     doc:
@@ -11308,7 +11309,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 2622b4a5015b4b33e194b823e75aee9acd3e7ece
+      version: f28363379d9661e1c6048e304427488ee903be2c
     status: developed
   zbar_ros:
     doc:
