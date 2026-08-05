@@ -159,7 +159,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: 01baa2faff866dff5532471806f646dcff7e1b0e
+      version: a960381bf6aa7488521006792ac387e82d1c7e59
     status: developed
   ament_acceleration:
     doc:
@@ -651,7 +651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/audio_common.git
-      version: e6c4d258841b1b40e8e36bb67f268801dab5d274
+      version: 3d994360da67bda3ab22dbbdbb3b7df131ed4ca4
     status: maintained
   autoapms:
     doc:
@@ -911,7 +911,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 70f9fa28adb2e76071798b5caec1ca90f1c83836
+      version: 9ebe87a8d379e96b39d019191d27302b5db5fc3e
     status: maintained
   backward_ros:
     doc:
@@ -1523,7 +1523,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 6e9f21f28ed1dd30db9fae436f0a9c80ecd1aa56
+      version: 6f6d3d9dbfa342ecf5db43cd756902090641360f
     status: maintained
   crx_kinematics:
     doc:
@@ -2848,7 +2848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 127fd8f85c5d8545bb8a9b5bac32f1798c19e4e0
+      version: d187e5eaaea1c1e7419556ef994da0891db69d5d
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3073,7 +3073,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 346ed5d0e3556b647467e418e1f398ebd7acc731
+      version: 2d4f07d59b34ac790dcbf4d2841a4cb2dfe3bd50
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -4407,7 +4407,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 18a1d403bca110d7a99e9d1a0aeab9748b681194
+      version: e11ee9863f0913a0a827056459ea0e7a98210d36
     status: developed
   menge_vendor:
     doc:
@@ -4594,7 +4594,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 5b7e3d7425371627d9b73d50a39fcb53575317c3
+      version: 09deb418f762d7aa2961f06fc90a071faac82105
     status: developed
   mola_academic_datasets:
     doc:
@@ -4916,7 +4916,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_visual_tools-release.git
-      version: 4.1.2-2
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_visual_tools.git
@@ -5186,7 +5186,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 34290ff7df4fc09da8c9de7deb36cd9e868ed691
+      version: 7522be140a2f226117451a675ae108fba3144cd6
     status: developed
   mujoco_vendor:
     doc:
@@ -5258,7 +5258,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
-      version: 8ff38cfa530ce19ccf4d88d7f8abd74d724122a4
+      version: 07748dc2449b2da2f0ebeae2827073cf40e0b565
     status: developed
   nao_button_sim:
     doc:
@@ -5465,7 +5465,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ubuntu-robotics/nodl.git
-      version: 427369df8af2e172797e088f7ec6d2bbe812b277
+      version: 89ee1b4f85d50215a66792445b1a002eedf6b3c3
     status: developed
   nodl_to_policy:
     doc:
@@ -5735,7 +5735,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator.git
-      version: 26807fca45c472c315ad163b732aa6cc391ec999
+      version: 9187eca0920458be04d2399906388f55242f81f1
     status: developed
   openeb_vendor:
     doc:
@@ -7217,7 +7217,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 5057bdbde1e913db45fcd70df91c196294efec3d
+      version: 446c8a559fc70177c51b2b8234b6cc38803c9670
     status: developed
   rmf_api_msgs:
     doc:
@@ -7720,13 +7720,24 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: 2f40f36656a3964178f46d674e75eaefa2555dbe
+      version: 08392571ade5c5381e685e989571d3848ebb68c6
     status: developed
   roboplan_ros:
     doc:
       type: git
       url: https://github.com/open-planning/roboplan-ros.git
       version: main
+    release:
+      packages:
+      - roboplan_ros_cpp
+      - roboplan_ros_examples
+      - roboplan_ros_franka
+      - roboplan_ros_py
+      - roboplan_ros_visualization
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/roboplan_ros-release.git
+      version: 0.6.0-1
     source:
       type: git
       url: https://github.com/open-planning/roboplan-ros.git
@@ -7818,7 +7829,7 @@ repositories:
     source:
       type: git
       url: https://github.com/netft/ros-netft.git
-      version: 2870c727c7b83034c39403d33ae2a62fb2468378
+      version: ecd4e2b2b08ce4394b2c22bff2ae450ee0177fa8
     status: maintained
   ros1_bridge:
     source:
@@ -7940,7 +7951,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 5c1cb915052260f24ed8522190500dd00e93adb7
+      version: 4d4dd6f4be77f49ac5b005435cebdc11ca7ac289
     status: developed
   ros2_easy_test:
     doc:
@@ -9468,6 +9479,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz_visual_tools-release.git
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
@@ -9756,21 +9768,6 @@ repositories:
       type: git
       url: https://github.com/ros/executive_smach.git
       version: 7fb264e1d50c29fc03be082b9c33537eea41c5ca
-    status: maintained
-  snowbot_operating_system:
-    doc:
-      type: git
-      url: https://github.com/PickNikRobotics/snowbot_operating_system.git
-      version: ros2
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/snowbot_release.git
-      version: 0.1.2-5
-    source:
-      type: git
-      url: https://github.com/PickNikRobotics/snowbot_operating_system.git
-      version: 82819e20185a964a9b94a17293d1c65c6b78e26f
     status: maintained
   soar_ros:
     doc:
@@ -11131,7 +11128,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 885f8754a71d94e5a693621698a849814bacd28c
+      version: 53c85cf0bac7a557d4e5948799c146c9ad4f0100
     status: maintained
   vitis_common:
     doc:
