@@ -159,7 +159,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: a9bd466ba9f1ad762bc20cab307e10d91bee1478
+      version: e02c883f57fed84e06d0be6728334036cb362acf
     status: developed
   ament_acceleration:
     doc:
@@ -1428,11 +1428,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/control_toolbox-release.git
-      version: 6.3.0-2
+      version: 6.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 92bcab28b1c286ec28140df956d99569e5502d9b
+      version: a8a90564bddd305b8364b15680fab481150b65fe
     status: maintained
   cpp_polyfills:
     doc:
@@ -1449,7 +1449,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/cpp_polyfills.git
-      version: b93e17e3c62b9ad1c7614d094aad194dc67768a4
+      version: f3916a9a4b80c9fcb9a697898130be04670e5bd1
     status: maintained
   cras_msgs:
     doc:
@@ -1523,7 +1523,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 46974c3c49ed956e41f8f95a329cf8537af7550b
+      version: def83708ac662b92063e249e809fbbba85c9ebcf
     status: maintained
   crx_kinematics:
     doc:
@@ -1838,7 +1838,7 @@ repositories:
     source:
       type: git
       url: https://github.com/eclipse-ecal/ecal.git
-      version: c64db54112d63254a2e87fd0485d3203e8363e4e
+      version: 652e92f7cda2ab1f2d0056cb296b66c7a30c8fa8
     status: developed
   ecl_core:
     doc:
@@ -2807,7 +2807,7 @@ repositories:
     source:
       type: git
       url: https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor.git
-      version: 544eab035178d0aaae9b66711cc59fb80a664b55
+      version: 94c3927a407b9ba04275d894505bebc912de910f
     status: maintained
   gscam:
     doc:
@@ -2848,7 +2848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: baed2b604ae16356be5d076b6bac5e3a4014437b
+      version: 23afb40ed4bf28bdbda9b25832afeb61d8c5eb50
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3073,7 +3073,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: e780a749e8cb7e7cfc223f97980f20cf583ab5bc
+      version: 189f35a597607143579c1a2c70b767929a0bf3e4
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3807,7 +3807,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
-      version: c09223ac6ad7cf2ada0028ac15fb03819a9c0e78
+      version: 959c848b34af41aef87595ec0d84631aa85f3842
     status: maintained
   laser_geometry:
     doc:
@@ -4284,7 +4284,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 9fb2bbbfd5dc24b1032a6b8c106908d952370dad
+      version: 9c888ccc391d88d0b0ddef9f13859b46a0ff0b6a
     status: developed
   marine_msgs:
     doc:
@@ -4594,7 +4594,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: e0462ea144d1ea7977959c139fb422b7693afd8e
+      version: 469922632ece6a7e02cf5a0554006ecf6f7bc5ff
     status: developed
   mola_academic_datasets:
     doc:
@@ -4707,7 +4707,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 2dc2d1cd0fe52bc253bc8fe2b8baacf5ea255863
+      version: c541a26253eb17317dc235c5a83bb6fb536e05bf
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4743,7 +4743,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: e8916d320d4734962a989ff07d4385142d35e6c7
+      version: 3fe3a7499bb6a2b9a56cba86aefbef914fe12f55
     status: developed
   mola_test_datasets:
     doc:
@@ -4845,7 +4845,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 4a5021bf2c410f0152172e17eac9704db7dce11b
+      version: 0b5a5420630ddce212b69c5b5ddef3928783ce26
     status: developed
   moveit_msgs:
     doc:
@@ -4939,7 +4939,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: e555230622b0b138efaa99a65cc75b0b725c21f2
+      version: b3fa20a4f37680bb23ed58fbda2549c09802ef7a
     status: developed
   mp_units_vendor:
     doc:
@@ -5186,7 +5186,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: bda2b674bfea25b8beed391ee36369f116419c5b
+      version: 810c11114a1722f088deb6c3c2eb0861e38c6649
     status: developed
   mujoco_vendor:
     doc:
@@ -5245,7 +5245,7 @@ repositories:
       url: https://github.com/Simple-Robotics/nanoeigenpy.git
       version: a762e59ce656859a58d3c21d5822777973c1b952
     status: developed
-  nanoflann:
+  nanoflann_vendor:
     doc:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
@@ -5254,7 +5254,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/nanoflann-release.git
-      version: 1.11.0-1
+      version: 1.12.1-1
     source:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
@@ -5465,7 +5465,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ubuntu-robotics/nodl.git
-      version: 5327a0d3de83f13db3f45598e0a1162516264a4e
+      version: 570e70c9a918c017a3ded136acec90958f3eb999
     status: developed
   nodl_to_policy:
     doc:
@@ -7925,6 +7925,7 @@ repositories:
       packages:
       - ackermann_steering_controller
       - admittance_controller
+      - battery_state_broadcaster
       - bicycle_steering_controller
       - chained_filter_controller
       - diff_drive_controller
@@ -7953,11 +7954,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros2_controllers-release.git
-      version: 6.8.0-1
+      version: 6.9.0-1
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 3aa57b4856ea1ae3655d25a488a736301a656c7f
+      version: 78d6508ebc82fb1692cfed6e9840b6ebfc0c6756
     status: developed
   ros2_easy_test:
     doc:
@@ -8475,12 +8476,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rosbridge_suite-release.git
-      version: 4.2.0-1
+      version: 4.2.1-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 4be930c1250db06abc36be48fe004794aaaad8a5
+      version: 664cc950fcf9814a800934be5b0785c7f9bc8586
     status: developed
   rosidl:
     doc:
@@ -9946,7 +9947,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git
-      version: e9a6198ee7baf82477e4290ade67704e6b9da9b8
+      version: f582497bbe779541a74440951c47124b3dfe952f
     status: developed
   synapticon_ros2_control:
     doc:
@@ -11197,7 +11198,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/warehouse_ros-release.git
-      version: 2.0.7-1
+      version: 2.0.8-1
     source:
       type: git
       url: https://github.com/ros-planning/warehouse_ros.git
