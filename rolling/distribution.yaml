@@ -855,7 +855,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/autowarefoundation/autoware_utils.git
-      version: 1a0ebbc8cb955e49ec28163a3a7953dc7fa4c312
+      version: a17a086127d71ca3030d8b55a412d6963f02789a
     status: developed
   avt_vimba_camera:
     doc:
@@ -1432,7 +1432,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: a8a90564bddd305b8364b15680fab481150b65fe
+      version: f2d1a85c2cf5a61b17218790d5969eaef171370d
     status: maintained
   cpp_polyfills:
     doc:
@@ -2463,7 +2463,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 7cf3522218633ecbf3529949609dcd1718c0736c
+      version: ca8a1ced73b2737d03e2e3f282b57359a1a4cb72
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2574,7 +2574,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/generate_parameter_library.git
-      version: d855cda2bf6fc9dd5d5ff04b741c620658772b90
+      version: 02e8f0d2d4ab897934e993969ca04b9681405864
     status: developed
   geographic_info:
     doc:
@@ -2594,7 +2594,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-geographic-info/geographic_info.git
-      version: 6ad4ef3fcdc7cfbb50689a873cb9607758f601a4
+      version: f70b81a438172cd7a066dc1b18314d70e0eb6389
     status: maintained
   geometric_shapes:
     doc:
@@ -2705,7 +2705,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gps_umd-release.git
-      version: 3.1.0-1
+      version: 3.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2848,7 +2848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 1665be6ae008a356c206dedf3af9db84520c885a
+      version: eef391deea458e4641709987212ca34d6282f71d
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3073,7 +3073,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 189f35a597607143579c1a2c70b767929a0bf3e4
+      version: 5c35389e018f5114e9cc57a8ecab31e5b5f5dbc7
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -4092,7 +4092,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: b8910c9a4961b992a6c5bbe836e2cd1c30626e31
+      version: 4501b8a17a70fa1f08e80bb6553a56051a1bd312
     status: maintained
   libg2o:
     release:
@@ -4207,7 +4207,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller-msgs.git
-      version: e08925a93ef258cd9595a49dbf30be8f5d1f8977
+      version: aad59d0133fe5c49d4f53581fe17255dfd4a6d12
     status: maintained
   linux_isolate_process:
     doc:
@@ -4280,7 +4280,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 4.0.1-1
+      version: 4.0.2-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -4901,11 +4901,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_task_constructor-release.git
-      version: 0.1.5-2
+      version: 0.1.6-1
     source:
       type: git
       url: https://github.com/moveit/moveit_task_constructor.git
-      version: d18314465074d48b2d50f4ec20f10f5646e58855
+      version: c411289d0bf3c9b223e3e5771a4cb3abc15fe3bb
     status: maintained
   moveit_visual_tools:
     doc:
@@ -5186,7 +5186,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 7ee969776fe097f0aedbb3ae6edcf9f85fb31244
+      version: a5df33d77059913bdf4ad12a0e6bfdb757734caf
     status: developed
   mujoco_vendor:
     doc:
@@ -6833,7 +6833,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/roboception/rc_reason_clients_ros2.git
-      version: fce3abe28a25bb8bbf028a527263a677278aa0bb
+      version: bc987bbfa5cc40efb4be90a56ec44cf7dba851c5
     status: developed
   rcdiscover:
     doc:
@@ -7907,7 +7907,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 4052b56d53bdcb562653935255d118f203398b22
+      version: 4cdeb479fc9777c5447bf46bdc3cfac814bb18df
     status: developed
   ros2_control_cmake:
     doc:
@@ -7966,7 +7966,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 1152eb3b275393dfb64dc6140c45f565f3860144
+      version: 74ff2bbd7e3df43ce33612a757a1d0e3269cc037
     status: developed
   ros2_easy_test:
     doc:
@@ -8006,7 +8006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/ros2_fmt_logger.git
-      version: b84ee38b3eb936aafcd8877271fb5554587f71f6
+      version: a02fca6568b92d10da6d6211ada2c14cd17b722a
     status: developed
   ros2_kortex:
     doc:
@@ -8489,7 +8489,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
-      version: 664cc950fcf9814a800934be5b0785c7f9bc8586
+      version: aa9a7a33ddb3b1b45ddd6d2eead4c3d5eb800b14
     status: developed
   rosidl:
     doc:
@@ -9482,7 +9482,7 @@ repositories:
     source:
       type: git
       url: https://github.com/splat-ros/RVizSplat.git
-      version: 30311c5881f8d736de7d958bae56085b68c09249
+      version: a1b476670c05b404ed8889ac4be7781134517925
     status: developed
   rviz_visual_tools:
     doc:
@@ -11147,7 +11147,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 53c85cf0bac7a557d4e5948799c146c9ad4f0100
+      version: 0e4182b44a119b634d1b15312cba090fb75d1d0f
     status: maintained
   vitis_common:
     doc:
