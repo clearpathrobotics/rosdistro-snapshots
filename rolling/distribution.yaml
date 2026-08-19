@@ -101,7 +101,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/iio_ros2.git
-      version: de1f7e34c3fbea4c2bfc7c578d48c4d1178eae0b
+      version: 5f32826a01ab17f2afce2b487a908aba78a83d52
     status: maintained
   adi_imu:
     doc:
@@ -111,7 +111,7 @@ repositories:
     source:
       type: git
       url: https://github.com/analogdevicesinc/imu_ros2.git
-      version: rolling
+      version: 1f2ce905934045587878eac34c4d1df3cf07be0f
     status: maintained
   ads_vendor:
     source:
@@ -159,7 +159,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: e02c883f57fed84e06d0be6728334036cb362acf
+      version: 2e29aae2dee9926691922fc0fa58d97ad88e068f
     status: developed
   ament_acceleration:
     doc:
@@ -1507,7 +1507,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: 2d733bd7a2ef2fb329c6263528123854374c7f01
+      version: 91822ec107e215642dbe91914a5b0d4b1cb9384e
     status: developed
   crocoddyl:
     doc:
@@ -1523,7 +1523,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: b3a5bc80315a00349522ab9c368a163f9a5e1bc1
+      version: 053d14aa7427e21ce8aa49c066fe42037b728af3
     status: maintained
   crx_kinematics:
     doc:
@@ -2274,7 +2274,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: b01c252d5223a3aec27f7e842881d50058c2c4cd
+      version: aa4fc2d14f4c5cd7e3dfae6fdaf8af34e9b12082
     status: developed
   filters:
     doc:
@@ -2729,7 +2729,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/graph-monitor.git
-      version: 88750eb5b88cf93b1f9784313f5599fe3da90855
+      version: f3c4ded622f0f134a12885b5aead1302b68e75d5
     status: developed
   graph_msgs:
     doc:
@@ -2848,7 +2848,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: eef391deea458e4641709987212ca34d6282f71d
+      version: 493d755800e9a28123d63b00a3b0ef8174886976
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -2890,12 +2890,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gz_common_vendor-release.git
-      version: 0.4.1-1
+      version: 0.4.2-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_common_vendor.git
-      version: 9c7eb602e155b68d95cb3f8d121005f9008071bc
+      version: 73a2870ca49f2cf62fad1e77acac78c2d5ed1b19
     status: maintained
   gz_dartsim_vendor:
     doc:
@@ -3121,7 +3121,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_tools_vendor.git
-      version: 0a6001339dfd7cae3da4d8c6f4198a619092388e
+      version: 58d8b64c02eb5ab4f5de32f261ed85fd25f5a986
     status: maintained
   gz_transport_vendor:
     doc:
@@ -4284,7 +4284,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: da7fffbffbf80ac8ab81ee50450626138fdebfb2
+      version: 5dfc66518e3e5e1ee068c081e17d769cc062cd5a
     status: developed
   marine_msgs:
     doc:
@@ -4371,7 +4371,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: 2b40469f6d8d331d1f2cacaa74a6b8090c61ea96
+      version: 6b79b8d79d59ad5df9704a5a686da77c7e96d59b
     status: developed
   mavlink:
     doc:
@@ -4707,7 +4707,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 9f1c84542f5cb274e4a975f76881acb75b7ffe22
+      version: 94d934acc7b2fc2e787dd20ae39fc0c17a40d7e7
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4845,7 +4845,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: 2970a08943ffdbda05b3bf49e4a1b0882923cb51
+      version: 7ae8653055c07016108307423c7557ee0767e7d9
     status: developed
   moveit_msgs:
     doc:
@@ -5186,7 +5186,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: a5df33d77059913bdf4ad12a0e6bfdb757734caf
+      version: 4158aeec0985b53750a7a580ba2f4ca4f4ba9be2
     status: developed
   mujoco_vendor:
     doc:
@@ -5921,7 +5921,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/pal_statistics.git
-      version: b8cc7344b51eeef8956e92bac9a31d2327b563b2
+      version: fb01203897860844c038663b813a7ca7de7ba520
     status: maintained
   pangolin:
     doc:
@@ -7907,7 +7907,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 4cdeb479fc9777c5447bf46bdc3cfac814bb18df
+      version: b4317d011594518968e6b788da0ea54c5b067004
     status: developed
   ros2_control_cmake:
     doc:
@@ -7966,7 +7966,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: 74ff2bbd7e3df43ce33612a757a1d0e3269cc037
+      version: 94e74de35f9d04f313aca8f29df66c3a76004aa7
     status: developed
   ros2_easy_test:
     doc:
