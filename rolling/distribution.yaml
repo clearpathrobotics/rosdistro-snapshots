@@ -1370,7 +1370,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/compass.git
-      version: 8526cb40ff5ccb6ddb2fc0e05a32ca901321afd9
+      version: 69857643d2d7b580eb2a6249f1f6be060628933a
     status: maintained
   console_bridge_vendor:
     doc:
@@ -1484,7 +1484,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ctu-vras/ros-utils.git
-      version: 2ad59665523ce817027403a77b19e8533a6128a5
+      version: 588bd78b1375c106e21cf3e2681a51923df5007a
     status: developed
   crazyswarm2:
     doc:
@@ -2275,7 +2275,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: aa4fc2d14f4c5cd7e3dfae6fdaf8af34e9b12082
+      version: 1972617cf6e20aa718c797e5530626d1b2201551
     status: developed
   filters:
     doc:
@@ -2490,7 +2490,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_sdk_vendor-release.git
-      version: 0.2.0-3
+      version: 0.3.0-1
     source:
       type: git
       url: https://gitlab.com/jlack/foxglove_sdk_vendor.git
@@ -2849,7 +2849,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: bcd454c8a8552484571ee8e838e4d090ef1cb86d
+      version: 06c77c48c01bde44283726b7ba2b5bb432e51ee3
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3622,7 +3622,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/jrl_cmakemodules-release.git
-      version: 2.2.4-1
+      version: 2.3.0-1
     source:
       test_commits: false
       type: git
@@ -4281,11 +4281,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 4.0.2-1
+      version: 4.0.3-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: c514e71fa7ab2adb948033cf05e9fac3c3589c4c
+      version: 2c2f14bab711685ea68742b5829a8f86efc4d265
     status: developed
   marine_msgs:
     doc:
@@ -4403,11 +4403,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.15.0-1
+      version: 2.15.1-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: f901f0c089f6964ed7acdac12ea89398a7c0373a
+      version: 22ae5b7cc7cdb4cb9c2070a8213c72dae445a23e
     status: developed
   memfd_buffer_backend:
     source:
@@ -4600,7 +4600,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 0888abca0f1fc369fe71315d05f6ba274673e2f4
+      version: 3784c600158daa07bede776cb35af951f6ded727
     status: developed
   mola_academic_datasets:
     doc:
@@ -4668,7 +4668,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: e7938cbfeae446ab2068b217a527e3088e9b856c
+      version: 05b73c2dc550f98f28159b9d4c552898ab32fead
     status: developed
   mola_input_ouster:
     doc:
@@ -4713,7 +4713,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 7267828daf83eef47754fc35757a326fef8cb4bf
+      version: efc08d8779b9711186841384db2491fbb139921b
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4749,7 +4749,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 29bb709af491ab9bb38ab6b5bf64d361680d13b5
+      version: a88a01eaae97e8500533aaeb2d1e169eb6e517cf
     status: developed
   mola_test_datasets:
     doc:
@@ -4945,7 +4945,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: c0fd49a4f4d69a0d63f22bf341a9bb3e574a5ade
+      version: 064c5540a1622f4cb3aae890ee42b46db4ec324c
     status: developed
   mp_units_vendor:
     doc:
@@ -5265,7 +5265,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
-      version: 7812aa08260b6971af2230b1ac446d54f7939822
+      version: 3fd375ff77c7fbbc0911a284b17e850cdda6a417
     status: developed
   nao_button_sim:
     doc:
@@ -5892,7 +5892,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ouster-lidar/ouster-ros.git
-      version: eaaf35d194627a1ddc34f9e7b3f572dfd17d5313
+      version: 73cf03684ae3576b40a263ae31bb64a617268aca
     status: developed
   ouxt_common:
     doc:
@@ -7020,7 +7020,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 4eea19f5c65c87e1acfd164edea809635c023cd0
+      version: 64491410c681fe76ed04ce5d193a20b796a1b984
     status: maintained
   rcpputils:
     doc:
@@ -7150,7 +7150,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: b6d7d81e65d3ff0f0980bea9e9e8718c5c6e5201
+      version: f2378660935cb392fd31dc02f7093898d8c22266
     status: maintained
   reductstore_agent:
     doc:
@@ -7742,7 +7742,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/roboplan-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
@@ -7763,7 +7763,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/roboplan_ros-release.git
-      version: 0.6.0-1
+      version: 0.6.1-1
     source:
       type: git
       url: https://github.com/open-planning/roboplan-ros.git
@@ -8550,7 +8550,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 217324c7a90bc5b54d70045b4d8b7e2551b15b19
+      version: 8cd34c3a03bce8f02bed1f9f4cadb136a9dfb3ce
     status: maintained
   rosidl_buffer_backends:
     doc:
