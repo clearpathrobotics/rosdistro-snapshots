@@ -346,7 +346,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 537a1751ed704c76492e30652b56539ddeef3874
+      version: 6afbc0063295d4657f2fd99422cd7c1fe3767266
     status: developed
   ament_nodl:
     release:
@@ -1077,11 +1077,17 @@ repositories:
       url: https://github.com/christianrauch/camera_ros.git
       version: ac71910ca47bd2110a26892a5bc1b2be664abe29
     status: developed
+  canary:
+    source:
+      type: git
+      url: https://github.com/knmcguire/canary.git
+      version: 849bdb19ad0bddf9c2c0cd9f8b03ccd72679781b
+    status: developed
   canboat_vendor:
     source:
       type: git
       url: https://github.com/robotic-esp/canboat_vendor.git
-      version: abd50a9548f4c787115da2a721feee1d1e0c9908
+      version: 2d8a89cb58c03b8a7c57933dcfca4deb6ff013a2
     status: developed
   cartographer:
     doc:
@@ -1599,7 +1605,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.com/jlack/data_tamer_tools.git
-      version: a9dbeb6aabeb011bad29e37cff465df679e2eb02
+      version: 035511989e31a52ffabaa9f61d4de5078339a21c
     status: developed
   demos:
     doc:
@@ -2275,7 +2281,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 245abf4b55c3a6953730ad3124acb3136900ff3b
+      version: 9fb4f5c94dacc7d72a7d8709fd9acaf07dbb1ef4
     status: developed
   filters:
     doc:
@@ -2460,11 +2466,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/foxglove_bridge-release.git
-      version: 3.4.3-1
+      version: 3.5.0-2
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: dd824659352b66b084b3f40d361c7b3ee6239819
+      version: deebca2aaab3e63e8ef1960b32ef5b1a8c09ca0a
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2849,7 +2855,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 57c0496c40e9089fcf377ff3f01b413cab6a1471
+      version: 1f66918a4c4b6a2e87dd85578abe9275206ece72
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -2880,7 +2886,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_cmake_vendor.git
-      version: 2d946eb16c69bc424c8df52427deb571defa0403
+      version: de0403f961833227b76d20a2fb0d780087e78db1
     status: maintained
   gz_common_vendor:
     doc:
@@ -2896,7 +2902,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_common_vendor.git
-      version: 73a2870ca49f2cf62fad1e77acac78c2d5ed1b19
+      version: d1b308810dbe77c09da7488b409bf8c945b6481e
     status: maintained
   gz_dartsim_vendor:
     doc:
@@ -2928,7 +2934,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_fuel_tools_vendor.git
-      version: 73ee30207cbbe54862f87d5229df32dd85530d89
+      version: c0e84932e6c6e9c3b902c9b0698700101a1bdfc4
     status: maintained
   gz_gui_vendor:
     doc:
@@ -2944,7 +2950,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_gui_vendor.git
-      version: bdec5034e7de1082697f5c9426aafed05c25fbe6
+      version: ba06aed5fe17d4441926ae830c7b7eaa875580f4
     status: maintained
   gz_launch_vendor:
     doc:
@@ -2976,7 +2982,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_math_vendor.git
-      version: 86b517a863c744e0bb9de2ad62a55f925493a010
+      version: e2b469165e4354ccbb2cb564a13348cbb06e65a9
     status: maintained
   gz_msgs_vendor:
     doc:
@@ -2992,7 +2998,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_msgs_vendor.git
-      version: 35bd0b9ff9e9f741f89156c05c6e63be3b999313
+      version: b96cab82e4a8c24a97d0ca81fce4aee6262c2dcc
     status: maintained
   gz_ogre_next_vendor:
     doc:
@@ -3024,7 +3030,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_physics_vendor.git
-      version: 3e71a6a24ead64e3096896d65887e2f6d08bb619
+      version: d3a3bc3c7663b3825dc9a6cb340e61165728d985
     status: maintained
   gz_plugin_vendor:
     doc:
@@ -3040,7 +3046,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_plugin_vendor.git
-      version: 3a8adb31f80a9ff63b23bff320618bf4c691d757
+      version: 7eb65dfa8c7b35aade3568d7d0fa55671dcde2c4
     status: maintained
   gz_rendering_vendor:
     doc:
@@ -3056,7 +3062,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_rendering_vendor.git
-      version: b3253d026fd3a355be6d0bcf1787b6e5f5fcc48e
+      version: 26aee412f8926a05b1ef7219da7b4ef44d225b57
     status: maintained
   gz_ros2_control:
     doc:
@@ -3074,7 +3080,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 1d5c2648f4b2db50c51c369e4be7e15018d9cc28
+      version: 88d487bab1b8b5e24df10cd4a9a8564c46c51d67
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3090,7 +3096,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_sensors_vendor.git
-      version: bf19f73bbe6029bcaddc07d11d49b153a8c5f7ff
+      version: d4b758dc9456c6c872af3fd584b1b3513be85f23
     status: maintained
   gz_sim_vendor:
     doc:
@@ -3106,7 +3112,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_sim_vendor.git
-      version: 9ac33cb78c52ad8c4e354415176ed6fa1f7c91a2
+      version: a54c704916d99763696918ff37e0382f40fd52f0
     status: maintained
   gz_tools_vendor:
     doc:
@@ -3122,7 +3128,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_tools_vendor.git
-      version: 58d8b64c02eb5ab4f5de32f261ed85fd25f5a986
+      version: 46c088a5c0692db9ee67c806b09bb55f9e5e754a
     status: maintained
   gz_transport_vendor:
     doc:
@@ -3138,7 +3144,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_transport_vendor.git
-      version: d3887d2b15f970936eede7e73929a3964c0d5858
+      version: 7a5263084b5c0692d5f60e1cb6897036c93797c8
     status: maintained
   gz_utils_vendor:
     doc:
@@ -3154,7 +3160,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_utils_vendor.git
-      version: 6e0c60a44be0f61f157551f0cb9f4e0072cbc5a6
+      version: 5f577eb50634e8974e7d0a05c2ac50abefc7a6f0
     status: maintained
   hash_library_vendor:
     doc:
@@ -3259,7 +3265,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros4hri/libhri.git
-      version: 2de0dd8f6e51a1d0a9aa785cc9072fda10fd0dee
+      version: 3687094211279dcc3cc4d8ca9c97d0b5808db386
   hri_actions_msgs:
     doc:
       type: git
@@ -3392,7 +3398,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 4ac083fcae163d35f75408e6516ba3688681e7d1
+      version: feefca6c40369b547fc1a1919313449913d25850
     status: maintained
   image_pipeline:
     doc:
@@ -3440,7 +3446,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: d904df3bfff5a32fda23850014089e0515a428fd
+      version: 66ab9ba9ad43166cb1ea048851007b19aff13ec4
     status: maintained
   imu_pipeline:
     doc:
@@ -3878,7 +3884,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 2fd84e320b7f4a4eca0d4754341a0b8dd72f5af4
+      version: 183b1c5d05685ab3604d3de1df964a0c1600852e
     status: developed
   launch_frontend_py:
     doc:
@@ -4345,7 +4351,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: a1dfd1112ef2f554bfe2dd02f43a23b6c9be8d94
+      version: 5e3a8e900ae40305a5d9d9d13be86ade9bd75e8e
     status: developed
   marti_messages:
     doc:
@@ -4413,7 +4419,7 @@ repositories:
     source:
       type: git
       url: https://github.com/dskkato/memfd_buffer_backend.git
-      version: 47babe668b3464cd7c5307886936888ae90b3e59
+      version: 5535859a7da9e711797282738366f862a6e56e3f
     status: developed
   menge_vendor:
     doc:
@@ -4600,7 +4606,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 3784c600158daa07bede776cb35af951f6ded727
+      version: 870e2c13099e5e9779477fa6b6a33e7eee2d931b
     status: developed
   mola_academic_datasets:
     doc:
@@ -4713,7 +4719,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: d1acc521bdd20347bf8a77a0c6956ba63261a915
+      version: 779d6ea4da65864840626e31cc14732363a44852
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4945,7 +4951,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 064c5540a1622f4cb3aae890ee42b46db4ec324c
+      version: 4c6fbba5a2506a9900f5c18bd9d69404997645c4
     status: developed
   mp_units_vendor:
     doc:
@@ -5189,11 +5195,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mujoco_ros2_control-release.git
-      version: 0.1.0-2
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: 57fc6744844902d4532160b403fa95840c1d6f96
+      version: bb26c285d35efc95297262f7821d95f5e11e2e37
     status: developed
   mujoco_vendor:
     doc:
@@ -5265,7 +5271,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
-      version: 3fd375ff77c7fbbc0911a284b17e850cdda6a417
+      version: 29e8e26e9e7282b995de5e67a4c5b8ed06bfe68d
     status: developed
   nao_button_sim:
     doc:
@@ -5472,7 +5478,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ubuntu-robotics/nodl.git
-      version: f541fe316e0716cdbc4b0ba1b057f8d2fbf31966
+      version: 75e9a4c11f703705b764b33ce8ea7037de86eb5e
     status: developed
   nodl_to_policy:
     doc:
@@ -5685,7 +5691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 1ae6ac0bf7e9cb67d8994a8b8742833f813fdd39
+      version: 48552087421d86c0def3ace22e8733dc7fc75601
     status: developed
   onnxruntime_vendor:
     doc:
@@ -5873,7 +5879,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/osrf/osrf_testing_tools_cpp.git
-      version: 8238d9a5dadcfb4a2c74aa3f0629f5fcbe177002
+      version: 59e4ca5e5ecb8c2df120c91f3e8e6b03998f6448
     status: maintained
   ouster-ros:
     doc:
@@ -5939,7 +5945,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/pal_urdf_utils.git
-      version: 775cdd6886296e6c00f17dbdfd9bcdd20e0e6622
+      version: 86c416bf60f2748b07bf6a341e81c5eada5171cf
     status: maintained
   pangolin:
     doc:
@@ -6161,7 +6167,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: eac765ef186da6714a6d5f8ed651f6b96718e9eb
+      version: b624da69eafeb5184681b827c4cadd1c1a764af0
     status: developed
   play_motion2:
     doc:
@@ -6335,7 +6341,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport_tutorial.git
-      version: 975d39f3b1a1c6818e35d35d51fcaf6b9dc0faf3
+      version: 080a1c739d48802ab36bd95e06c5844bea5b3230
     status: maintained
   pointcloud_to_laserscan:
     doc:
@@ -6429,7 +6435,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 9d164884ff4e416bad4b163616aef3a1e6f4ac6b
+      version: ee2e90ca543ee95cbf552fd2a4f0dfd9cc09092e
     status: maintained
   py_binding_tools:
     doc:
@@ -7004,7 +7010,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 4528e3caef150eba5f2641fd290fd85796dbdc1a
+      version: 90a1e565ee6870c13b21f6c1a58fbc9f7dfcde9d
     status: maintained
   rclpy:
     doc:
@@ -7087,7 +7093,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcutils.git
-      version: 8361bc43ab1d36ef2625dbe489e03fc46b3dd17a
+      version: bbf173204d9f9f1ce92325e29eb79cb5781e7dea
     status: maintained
   reach:
     source:
@@ -7243,7 +7249,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: a335c17dc00bff8d2fad9e723fbb066c95dfd7cf
+      version: 8f1e4fc774aa0e52d5eaa9aa7882ac0e0d4408b9
     status: developed
   rmf_api_msgs:
     doc:
@@ -7683,6 +7689,15 @@ repositories:
       type: git
       url: https://github.com/IntellectusCorp/rmw_int2dds.git
       version: rolling
+    release:
+      packages:
+      - int2dds_ffi_vendor
+      - rmw_int2dds_cpp
+      - rmw_int2dds_validation
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/rmw_int2dds-release.git
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/IntellectusCorp/rmw_int2dds.git
@@ -7852,6 +7867,16 @@ repositories:
       version: ddea3c05d670e3982e80d79bd9e1e4db3828faf7
     status: maintained
   robstride_ros2:
+    release:
+      packages:
+      - robstride_driver
+      - robstride_examples
+      - robstride_ros2
+      - robstride_ros2_control
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/robstride_ros2-release.git
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/s2015-turtle/robstride_ros2.git
@@ -8180,7 +8205,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: ae02850aea1b03e8ceac4141847c491ed05db2d9
+      version: 791e537439aebb5c0a08f20f05ed9a8c7bc91be1
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8385,7 +8410,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/ros_tutorials.git
-      version: d93381ea0f6ab0b874dafd38f79a65de8fe02290
+      version: f377e29d7f00ddcefd31612e0c2b77c00e39c109
     status: maintained
   ros_workspace:
     release:
@@ -8550,7 +8575,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 8cd34c3a03bce8f02bed1f9f4cadb136a9dfb3ce
+      version: d7b239addb75a20de65165ad44719b603debffad
     status: maintained
   rosidl_buffer_backends:
     doc:
@@ -8697,7 +8722,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: e210dc31e57ce2701855362499fb14a9e1cb302e
+      version: 3100e99ddf830db9bdd941dcc800f348108b034c
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -8749,7 +8774,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: ee76f6fde5833c3b424b8e8a07c0f77104082086
+      version: 837180bc1e36b1e1b5df4c15db22478ed95f7a92
     status: maintained
   rosidl_typesupport_fastrtps:
     doc:
@@ -8768,7 +8793,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
-      version: 2c65ee1d8ad9e3c00a514a27ba17f838b7b9775c
+      version: b71af87201de38a54a3cef8e552ca089ccba08fc
     status: developed
   rosidlcpp:
     doc:
@@ -8962,7 +8987,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rqt_bag-release.git
-      version: 2.3.3-1
+      version: 2.3.4-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
@@ -9470,7 +9495,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 9c165f828f1cf5fa67bd4f4bfdb1ddafe05d557b
+      version: da8d34b121412c5047ac7cc9353d4ea07ca98e1f
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -9570,7 +9595,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/sdformat_vendor.git
-      version: e57c44597133450a1c9968e3f5d9348bf6f5528a
+      version: 18ce2aac481432e854c13db3c16dd6fcc1013815
     status: maintained
   sensor_filters:
     doc:
@@ -9626,7 +9651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/SICKAG/sick_safetyscanners2.git
-      version: c8d787f45d0679f11a75085553f39e7555c359b5
+      version: f30c60105d146591007e2b82b883396edf500ee2
     status: developed
   sick_safetyscanners2_interfaces:
     doc:
@@ -9641,7 +9666,7 @@ repositories:
     source:
       type: git
       url: https://github.com/SICKAG/sick_safetyscanners2_interfaces.git
-      version: 455550b1c0f1019337d543963c74646de7e6d9c0
+      version: 368fe501defa9fe9e69ae4deec87629f61665efa
     status: developed
   sick_safetyscanners_base:
     doc:
@@ -9656,7 +9681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/SICKAG/sick_safetyscanners_base.git
-      version: 0909d14154742e6b2d97af03110c7bcb54010590
+      version: 08ae4b75d3ae3de0c6105436c447e9465fd87b11
     status: developed
   sick_safevisionary_base:
     doc:
@@ -9671,7 +9696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/SICKAG/sick_safevisionary_base.git
-      version: c5624d85347c996452e6be47300f31f073bf9c0f
+      version: 1ab322e3fb1644cdb6d823c04d1463df706d25d1
     status: developed
   sick_safevisionary_ros2:
     doc:
@@ -10343,7 +10368,7 @@ repositories:
     source:
       type: git
       url: https://github.com/hungpham2511/toppra.git
-      version: 807226854b30269518d85d1fba1669ae409fbcb8
+      version: a8da2fa8265c2c2908c67ffaed9f30c7179f67d0
     status: maintained
   trac_ik:
     doc:
@@ -10884,7 +10909,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/urdf.git
-      version: 649e4bf8e97c06d174dbdc2c10a99392b889cb06
+      version: 0b2fd60d205dd67ffc2a645517c9b8c5d1c3b7c1
     status: maintained
   urdf_launch:
     doc:
@@ -11184,7 +11209,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: ed43de08f1c6b8ccba16d3faaeca1ee2eb8176df
+      version: 20e011354ba8ecd3256bba595ac1fd7395e3d8bc
     status: maintained
   vitis_common:
     doc:
