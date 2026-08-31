@@ -947,7 +947,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: c88a9f429a421b312599a07fa8902524b09bf90a
+      version: 9b63b505983f76e46d90d71c87d21fad0001f8a3
     status: developed
   better_launch:
     doc:
@@ -1070,7 +1070,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: 70f0a96f7f460207b1f92ec90f927ee860e5ee6d
+      version: 5386211fef53c1299a43d1bbb41a4d3254f6263f
     status: developed
   canboat_vendor:
     source:
@@ -1968,7 +1968,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/eigenpy.git
-      version: 6fb4e9feab6b92518fa8201f22e53f951f4d84ac
+      version: 1a7f6e149493eedfd7c0982fd418068ad5eddcee
     status: maintained
   eiquadprog:
     doc:
@@ -2270,7 +2270,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 00c79b080f986158b17adc17ca3f8ef887a6c22d
+      version: 5b205c2d44ece4c5a741a48f83724932675daa41
     status: developed
   filters:
     doc:
@@ -2844,7 +2844,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: d9e029ca6687ae230af265eec6317c4cee753e3c
+      version: fbe906da6b04e58476ab1dcc253db3eab1d23b62
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -4134,11 +4134,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/librealsense2-release.git
-      version: 2.58.3-2
+      version: 2.58.4-1
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
-      version: 7c3ee3fb7c640e9f315e663907208cb56c4febfd
+      version: e15c5d6bb1563e778d116f682aeefffbae2daedc
     status: developed
   libstatistics_collector:
     doc:
@@ -4708,7 +4708,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: ae9b1c592b7be90810bbf385527124f8df0a4174
+      version: 7acdfd9d3d34dc406dd4d10d9f1b77ac30b95093
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4723,7 +4723,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_sm_loop_closure.git
-      version: 7d9481d51ccd9dcd9649e06bf6e020ff14a9b38a
+      version: d933d7891fe934556aa98bcae45cdc54ff1fc02a
     status: developed
   mola_state_estimation:
     doc:
@@ -4744,7 +4744,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 73fdbba10344dcb164e7f474094d266373ab2153
+      version: 7ef2ef10b52fae4cf77f698ae152d3c19c5c7377
     status: developed
   mola_test_datasets:
     doc:
@@ -4940,7 +4940,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: fce291041b29e9291c5cbf9a908f481daa7e8c41
+      version: 3bf33de9cf82ea9e5d365ef263609da9a1caf593
     status: developed
   mp_units_vendor:
     doc:
@@ -5245,7 +5245,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Simple-Robotics/nanoeigenpy.git
-      version: 6afffe3a68202be95da3ef8b62c7cd2ede93ef4f
+      version: d7a69635d44a1a798a3b9810ae04fa605eb3bdcf
     status: developed
   nanoflann_vendor:
     doc:
@@ -5501,7 +5501,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
-      version: e4cd43310ad801aacc2f01c0bc687819e562ea9a
+      version: 5785ffd1fd5c9b92c701f11f8315172989f8c0b4
     status: developed
   ntpd_driver:
     doc:
@@ -5576,7 +5576,7 @@ repositories:
     source:
       type: git
       url: https://github.com/octomap/octomap_msgs.git
-      version: 50eece2bfc2f3163b2fb70b9157356e12d375dff
+      version: 11a73b18b91002129dd686dedf971dcfac4ae601
     status: maintained
   octomap_ros:
     doc:
@@ -6424,7 +6424,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: ed9ddeedeee4130365b4a62ecc50d0b68604789d
+      version: 2312ff3b585640aebe47326f2aa38fa1698d39d4
     status: maintained
   py_binding_tools:
     doc:
@@ -7015,7 +7015,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: c9417b117e8a7e877f09745461117a275a6c6e29
+      version: d60cfa7299742f70ed8c4f9a0c7a757cddad8417
     status: maintained
   rcpputils:
     doc:
@@ -7107,11 +7107,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realsense-ros-release.git
-      version: 4.58.3-1
+      version: 4.58.4-1
     source:
       type: git
       url: https://github.com/IntelRealSense/realsense-ros.git
-      version: 60c850958d651130fc2cc3d10efb37ff5be93da5
+      version: 9a11121700cb4780e273e34141f6402fe184321d
     status: developed
   realtime_support:
     doc:
@@ -7638,7 +7638,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: e5cc0e6422b5311691228953cea9ace87fc109e3
+      version: 249aa471437e13a4a0c95fa3bdc8f8463e137f09
     status: developed
   rmw_gurumdds:
     doc:
@@ -7671,7 +7671,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_implementation.git
-      version: 70218ee77879a489f082731e9881ee02c98899fd
+      version: 23b8aef0b448e206b66951b5635b373a9527969c
     status: developed
   rmw_int2dds:
     doc:
@@ -7912,7 +7912,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-industrial/ros2_canopen.git
-      version: faa2a77551e2ab2dd54aae1a9a7d17ede874647b
+      version: 5b9a10c1e36a7d2aa836e2ce856b7b5ea58928f3
     status: developed
   ros2_control:
     doc:
@@ -8194,7 +8194,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: 7b47206ab04c27d4597c692240a68ac1f7059790
+      version: 7c6e0977aa949cc40e49b4125d62196cae2e67a8
     status: maintained
   ros2cli_common_extensions:
     doc:
