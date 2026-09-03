@@ -1,6 +1,6 @@
 %YAML 1.1
 # ROS distribution file
-# see REP 143: http://ros.org/reps/rep-0143.html
+# see REP 143: https://reps.openrobotics.org/rep-0143/
 ---
 release_platforms:
   ubuntu:
@@ -920,7 +920,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/catkin_virtualenv.git
-      version: dd4bb7a9fe3a347a898056594b458b0902ff55c0
+      version: e178e9689aadf080e724bb1582fc4d188bda481b
     status: maintained
   cedri_node_monitoring:
     doc:
@@ -2983,7 +2983,7 @@ repositories:
     source:
       type: git
       url: https://github.com/flexible-collision-library/fcl.git
-      version: e5efcc41b57b2d0da3bf183480f1298a6d531f44
+      version: 0c178c78abb7aeea6c33c30fb9b14267418adff3
     status: maintained
   fcl_catkin:
     release:
@@ -3327,7 +3327,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 06536e5b8badf72eba88a2def85dd31780c1ca6c
+      version: 2628b1597198500ed489f0a31255e51dc9e7f3ba
     status: developed
   frame_editor:
     doc:
@@ -3949,7 +3949,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: ed9057bd054f85f11c8d3f9c0cca93b780b3075e
+      version: 7c74831d149cb5e05d7342300ee132608f3eea5d
     status: developed
   haf_grasping:
     doc:
@@ -5665,7 +5665,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: a99f69495f48e8dff89b14b40a233163248c38c4
+      version: be66674517474760bb98c238367544705212bce7
     status: maintained
   mapviz:
     doc:
@@ -8003,7 +8003,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: e2b0d97ab714f8727bf176e2585c679b5be2a125
+      version: 0722de93cee278c5c071deeecf17280a992b56a5
     status: developed
   plotjuggler:
     doc:
@@ -11805,7 +11805,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PickNikRobotics/snowbot_operating_system.git
-      version: 546d15b3f9a682d35f578907d2b361841e8e6cbc
+      version: 9da80b127c251dc7edbc8bf4e2b0fa4d73e7d011
     status: maintained
   sob_layer:
     doc:
@@ -12238,7 +12238,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/locusrobotics/tf2_2d.git
-      version: 6cdce3c5a6bc9c440531067ec1f7b487d59e3d54
+      version: 16a6254a651520e29049b9a0b0226c0ee89d927f
     status: developed
   tf2_client:
     doc:
@@ -12686,7 +12686,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 01292bdf4ebb7e45a436c8930042e0001ed7e92c
+      version: f4f8870fa658d54a8bdcc90284e7a66fc140d57a
     status: developed
   ur_msgs:
     doc:
