@@ -159,7 +159,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: 2e29aae2dee9926691922fc0fa58d97ad88e068f
+      version: be8ed62384076bd3979ce55b6d5313f435f81475
     status: developed
   ament_acceleration:
     doc:
@@ -227,7 +227,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_cmake.git
-      version: eb6039077fc34e16e3e34edf8a8f49dc5e127c16
+      version: 768b6169686e032093ce61d1ea913007c981cc27
     status: developed
   ament_cmake_catch2:
     doc:
@@ -346,7 +346,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ament/ament_lint.git
-      version: 6afbc0063295d4657f2fd99422cd7c1fe3767266
+      version: 1532051a90359736a365d0e5122f69bb612ed1e0
     status: developed
   ament_package:
     doc:
@@ -777,7 +777,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-      version: fe11c447525583b543c30d96c003033a3be4b121
+      version: 4144effa727d194554ad78d343683201bbbbc427
     status: developed
   autoware_lanelet2_extension:
     doc:
@@ -1070,7 +1070,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: fc952829838b275ebd56498f4a366bd190abd17d
+      version: 500c9fc1fd1813ad621d04f6c8b05597f91f8850
     status: developed
   canboat_vendor:
     source:
@@ -1676,7 +1676,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nasa-jpl/dispatcher.git
-      version: 623cacc919d95a8c5693e9df91db5150df1455b7
+      version: e79ae173b20956ab6c0e6243c8efa14c8dd1f3d6
     status: maintained
   dolly:
     doc:
@@ -2175,7 +2175,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: e9d7be382abd2c60d5d97465550a513d2bdc7f19
+      version: 0f5c9b94e284b08c861eea43cffec54a0ee67341
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2276,7 +2276,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: 5b205c2d44ece4c5a741a48f83724932675daa41
+      version: ed34e2815d8ceee3ed5981534f26ee237c03e73f
     status: developed
   filters:
     doc:
@@ -2465,7 +2465,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 2628b1597198500ed489f0a31255e51dc9e7f3ba
+      version: 509c001e9055c3c23eaf589cc6a96fbba1087c91
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -3377,7 +3377,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: 8c6c1121f03952a513bd68d31123b5ed94581797
+      version: a0c746f71d83cf20702968f4c3d3244436215197
     status: maintained
   image_pipeline:
     doc:
@@ -3496,7 +3496,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
-      version: 6e516de7482c9ae563cbdee0f2aec7c859b8cf25
+      version: 6216c6828f0d8517d9ca3b51318eaca59ce7f070
     status: maintained
   inverse_dynamics_solver:
     doc:
@@ -4078,7 +4078,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 849cd2dba7834009c1c6452b5586c469f9020f92
+      version: aebe4861c087ce9a0cb417151d5316a1fdb2e792
     status: maintained
   libg2o:
     release:
@@ -4892,11 +4892,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/moveit_task_constructor-release.git
-      version: 0.1.6-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/moveit/moveit_task_constructor.git
-      version: c411289d0bf3c9b223e3e5771a4cb3abc15fe3bb
+      version: c7dc861f8a6dfaff89e1448770b399b68b256916
     status: maintained
   moveit_visual_tools:
     doc:
@@ -5015,7 +5015,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 45f0e81df6acd15254c8a6178cf2de15e21a737e
+      version: f5e9bfe1092a71d49d9777017f7a5b2bd92a227e
     status: developed
   mrpt_msgs:
     doc:
@@ -5178,7 +5178,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
-      version: e6a6160c471a48609fc3f1f7508d7f571e8fa18e
+      version: 7f0aa57c19057f141cb2b74c875cca0064109c0e
     status: developed
   mujoco_vendor:
     doc:
@@ -5457,7 +5457,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/nodl.git
-      version: ab690fee2e3eae93e0a99c75b880e4a6f6cabf8b
+      version: 9e32f40ef637f7fb53663b54dddea996b7215da3
     status: developed
   nodl_to_policy:
     doc:
@@ -6146,7 +6146,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 0722de93cee278c5c071deeecf17280a992b56a5
+      version: e7792444951a191c13e81aede4608c34d3012440
     status: developed
   play_motion2:
     doc:
@@ -6282,7 +6282,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 1a172215234a52d74acd80de09f3aaebc2f1ac5e
+      version: ec931e3eb7429902106b1a068f39993aa152a453
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -6615,7 +6615,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
-      version: 1cdb98a473faa5ee4140a596796e4c14e994485d
+      version: 853bfd01022783f4008db6ac7fadc447859072d6
     status: maintained
   qml6_ros2_plugin:
     doc:
@@ -6679,7 +6679,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
-      version: b3f390d44e7a316780c46ce8260e023fb2f934ff
+      version: 895d1c4ab741a805acff561cab89caeead2adab4
     status: maintained
   quaternion_operation:
     doc:
@@ -6989,7 +6989,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: fbc8399778b645fb50a146b9532fb7feaeda5b00
+      version: 26d08f283f34e05810c497e11243e12db54b9ae6
     status: maintained
   rclpy:
     doc:
@@ -7131,11 +7131,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 5.2.0-2
+      version: 5.3.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: e951e10b61a0c8b236b35ef280e03a9ac5fc177e
+      version: 7dc3ccb8b39b48dc1ea030266305b06437e45bb2
     status: maintained
   reductstore_agent:
     doc:
@@ -7679,7 +7679,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IntellectusCorp/rmw_int2dds.git
-      version: 3226e4c0ece6601d99a55f11a309144aa7ea8d7d
+      version: ff47c064485a7bc045f6a827c2db0a84eb921212
     status: developed
   rmw_swiftdds:
     doc:
@@ -7739,7 +7739,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: 10f48464198e1f556c9592f366e1dc93a2b58ad3
+      version: 92022a061a1611426e764551b5ac2e3438ba9802
     status: developed
   roboplan_ros:
     doc:
@@ -8199,7 +8199,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/ros2cli_common_extensions.git
-      version: 38bd7ecca22a6846fc6762e6bf8c47d3d4e66ca0
+      version: c29ec292341d59c898365efad511b696772fa094
     status: maintained
   ros2launch_security:
     doc:
@@ -8439,7 +8439,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosbag2.git
-      version: adadce6dfbf019a7b8c5f055282e7e225f308721
+      version: 96eddfa7f5ea42ac75c4a882893d89ac969532f9
     status: developed
   rosbag2_bag_v2:
     source:
@@ -8937,7 +8937,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt.git
-      version: 3037166b47001a2ddb90f360da804a1f24b46f34
+      version: 4ed733ff53b69171be9ba2904b8860dab9ccee81
     status: maintained
   rqt_action:
     doc:
@@ -8970,7 +8970,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: fa5ea5e4234dc7c5201157dabed5c2538d1bed2b
+      version: 903ba48e0a6f85cb7691d7791e3dca804d7c747a
     status: maintained
   rqt_common_plugins:
     doc:
@@ -9000,7 +9000,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_console.git
-      version: 47c513fc1667963884e2159fb330c71af5c890df
+      version: 0a850ecd8e5478d66d4deecea8df5c113ea67ca7
     status: maintained
   rqt_dotgraph:
     doc:
@@ -9046,7 +9046,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_graph.git
-      version: fd329ecb514dca6cc083014fa5ce72f5c198ddbe
+      version: d5ad34bdc7e621071b1bffe55289ab998b0c3238
     status: maintained
   rqt_image_overlay:
     doc:
@@ -9125,7 +9125,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_msg.git
-      version: 2521417d0d6cfc00bc25ee777bda31bfc4d87390
+      version: a5c353f59732cab3ccbc7ea77ca878e836d85173
     status: maintained
   rqt_plot:
     doc:
@@ -9140,7 +9140,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_plot.git
-      version: c394b47c11faab91c83c95e8fe3b753ca27cbbb7
+      version: a37e18d26a9e3b8932d155c0063cc18505db2bda
     status: maintained
   rqt_publisher:
     doc:
@@ -9155,7 +9155,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_publisher.git
-      version: 43646c9ec7294705813d75321fe77f6e64fea278
+      version: 93e46491286a2ec8081f35178b17697e4616af3e
     status: maintained
   rqt_py_console:
     doc:
@@ -9489,7 +9489,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: d220e41e123db70ccab1be6bbdad7e1dfc1673db
+      version: 371f2ecdecdd3b2c076fc2a330f450bdb14bb6e4
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -10822,7 +10822,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: f4f8870fa658d54a8bdcc90284e7a66fc140d57a
+      version: 57bf3f63955956f41ee4339290dd794396d5caa2
     status: developed
   ur_description:
     doc:
@@ -10874,7 +10874,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-      version: b0a8be28c1025d0c4f0ef9b8053b500b6345221b
+      version: c67d59d01abf2f19fe4c56d79cf90fd227732d73
     status: developed
   ur_simulation_gz:
     doc:
@@ -11241,7 +11241,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/vrpn/vrpn.git
-      version: 893c7496435eb63e124166dfdb9025fa30ea8975
+      version: c672040788ad9c36cf43d98779e050c99bc896e6
     status: maintained
   vrpn_mocap:
     doc:
