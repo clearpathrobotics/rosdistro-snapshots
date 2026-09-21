@@ -636,7 +636,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/audio_common-release.git
-      version: 0.4.0-2
+      version: 0.4.1-1
     source:
       type: git
       url: https://github.com/ros-drivers/audio_common.git
@@ -947,7 +947,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 9b63b505983f76e46d90d71c87d21fad0001f8a3
+      version: ca4edbf39366157e644c2757f7207f10feb1d050
     status: developed
   better_launch:
     doc:
@@ -1080,7 +1080,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: 41df3fac215b27d778fdc4aeb46a97a2b8e28eaa
+      version: 651ce0c7929b93e0aec96f8341f84e21d38fea32
     status: developed
   canboat_vendor:
     source:
@@ -1246,7 +1246,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
-      version: 1137ba20949cc6d7d35a695dcd3d29e71cf778bd
+      version: 57531dbbbe26e8ca56be41caa813d49a8d85c909
     status: developed
   coal:
     doc:
@@ -2286,7 +2286,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
-      version: ed34e2815d8ceee3ed5981534f26ee237c03e73f
+      version: 93c0989ab2fc4a3f3d0a18bbd224d0e267a03fcc
     status: developed
   filters:
     doc:
@@ -2722,7 +2722,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/gps_umd.git
-      version: 26433dc1a11faffc29d34234f97ea735fe558e8d
+      version: ad0b508965282807ab07045b028ebc43ab942b98
     status: developed
   graph_monitor:
     doc:
@@ -3799,7 +3799,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/laser_filters-release.git
-      version: 2.3.2-2
+      version: 2.3.3-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -3938,7 +3938,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch_ros.git
-      version: 4805b39171ad69d12370edbcbb0048ccf8a92ec8
+      version: b1278202b0afb83501b4f2d8132a47ded61cf12b
     status: maintained
   ld08_driver:
     release:
@@ -4088,7 +4088,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 279d355ef8f7a4f98bb0a3004c0f788387814506
+      version: 330f9c6274a550535a95354d686a2b31ff1ca161
     status: maintained
   libg2o:
     release:
@@ -4276,11 +4276,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 4.0.3-1
+      version: 4.0.4-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: f881550a7803c8b67a2839f3b8b6f0482b5bf972
+      version: 13e1c47526e8becc07a2a022a873a11b68e7660c
     status: developed
   marine_msgs:
     doc:
@@ -4340,7 +4340,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 0f24a658c3dfca23708964b696cbf518207ba0df
+      version: 41e5a8fc3c3424bd7bb18d6daa0eddd2f9619e3f
     status: developed
   marti_messages:
     doc:
@@ -4366,7 +4366,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
-      version: 6b79b8d79d59ad5df9704a5a686da77c7e96d59b
+      version: 2c7215f88d1466b698f77b8020533ac5fc75a3da
     status: developed
   mavlink:
     doc:
@@ -4644,7 +4644,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_gnss_to_markers-release.git
-      version: 0.1.2-2
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_gnss_to_markers.git
@@ -4708,7 +4708,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 6ae89bbe5abe511495d5e01bf099f789b8291a4e
+      version: e59d9805b86aaa41088e226c09e8450e7a90c5d1
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4940,7 +4940,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 6da7c03ef77e947c9bb1542ddf5259715c3f20b0
+      version: 439184ff930e0e67bda2b762017b0c5344aeba28
     status: developed
   mp_units_vendor:
     doc:
@@ -5021,7 +5021,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt3-release.git
-      version: 3.1.3-1
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
@@ -5124,7 +5124,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
-      version: 3.5.3-1
+      version: 4.0.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
@@ -5508,7 +5508,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
-      version: 4bfbaa9a15c3964876703ac4b3b8bd8ebbe13f58
+      version: 3cace11168e2e2247ab759274c82dcc313d781d5
     status: developed
   ntpd_driver:
     doc:
@@ -5687,7 +5687,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ompl/ompl.git
-      version: 68614a0b1a0124049d2bbcdbbfe40cc8089c6bfa
+      version: 93e8fa117a2e9c03cf73a4e3046f57a91af0393a
     status: developed
   onnxruntime_vendor:
     doc:
@@ -5845,21 +5845,6 @@ repositories:
       type: git
       url: https://github.com/moveit/osqp_vendor.git
       version: 1df43ba1250bf93347a23a6a1cd481efd1cd2f68
-    status: maintained
-  osrf_pycommon:
-    doc:
-      type: git
-      url: https://github.com/osrf/osrf_pycommon.git
-      version: master
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/osrf_pycommon-release.git
-      version: 2.1.7-2
-    source:
-      type: git
-      url: https://github.com/osrf/osrf_pycommon.git
-      version: 7dc6da97b4765af5db43fa475ddee2c3e5999fbd
     status: maintained
   osrf_testing_tools_cpp:
     doc:
@@ -6580,7 +6565,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/pymoveit2-release.git
-      version: 4.2.0-2
+      version: 5.0.0-1
     source:
       type: git
       url: https://github.com/AndrejOrsula/pymoveit2.git
@@ -7214,7 +7199,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/resource_retriever_service-release.git
-      version: 1.0.1-1
+      version: 1.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -7743,6 +7728,8 @@ repositories:
       packages:
       - roboplan
       - roboplan_cartesian_planning
+      - roboplan_common
+      - roboplan_core
       - roboplan_example_models
       - roboplan_examples
       - roboplan_oink
@@ -7752,7 +7739,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/roboplan-release.git
-      version: 0.6.1-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
@@ -7773,7 +7760,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/roboplan_ros-release.git
-      version: 0.6.1-1
+      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/open-planning/roboplan-ros.git
@@ -8250,7 +8237,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/ros_babel_fish-release.git
-      version: 4.26.43-2
+      version: 5.26.90-1
     source:
       type: git
       url: https://github.com/LOEWE-emergenCITY/ros2_babel_fish.git
@@ -10082,27 +10069,6 @@ repositories:
       url: https://github.com/MetroRobots/ros_system_fingerprint.git
       version: ac84bb87d7447310af933d6baa9962663cf8deba
     status: developed
-  system_modes:
-    doc:
-      type: git
-      url: https://github.com/micro-ROS/system_modes.git
-      version: master
-    release:
-      packages:
-      - launch_system_modes
-      - system_modes
-      - system_modes_examples
-      - system_modes_msgs
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/system_modes-release.git
-      version: 0.9.0-6
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/micro-ROS/system_modes.git
-      version: b8679e9781914c6bdb533750bbe7183d7661f63a
-    status: developed
   system_tests:
     source:
       test_pull_requests: true
@@ -11235,7 +11201,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 82153d79c772802d694e812d99c1f5b31d99180d
+      version: 921c4a035dea0e3fedf2910bb39c8b44d37f473a
     status: maintained
   vitis_common:
     doc:
@@ -11409,7 +11375,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/yasmin-release.git
-      version: 6.1.1-1
+      version: 6.1.2-1
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
