@@ -1080,7 +1080,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: 651ce0c7929b93e0aec96f8341f84e21d38fea32
+      version: 5a2b252f3d7efb5c5a18a70c12fee92e1c45136c
     status: developed
   canboat_vendor:
     source:
@@ -1529,7 +1529,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/crocoddyl.git
-      version: 8bdbbe5318f7289d59ef606e74f7196650cd6b56
+      version: 4dfca1fb37f2acf95efd3d44916c0137efd292ca
     status: maintained
   crx_kinematics:
     doc:
@@ -1683,6 +1683,15 @@ repositories:
       version: 81b53fad4dfdd5169d7db4aa77b60602e4b46d86
     status: maintained
   dispatcher:
+    doc:
+      type: git
+      url: https://github.com/nasa-jpl/dispatcher.git
+      version: master
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/dispatcher-release.git
+      version: 0.4.4-2
     source:
       type: git
       url: https://github.com/nasa-jpl/dispatcher.git
@@ -2185,7 +2194,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: f6376882050013616d1b0aeacaca2ccc9ee06874
+      version: dcd9b80be1f97cd950d7f414da31ff97f77d14f4
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2282,7 +2291,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/fields2cover-release.git
-      version: 2.1.0-1
+      version: 2.1.1-1
     source:
       type: git
       url: https://github.com/Fields2Cover/fields2cover.git
@@ -2475,7 +2484,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: e86a94e9d4d259cdde71872f18336a7a055bf9ba
+      version: c66b38fe8230de03585db254c1e34c14c93430de
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2860,7 +2869,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 6e63185d9bdb3af2ee3f40e4d45acea5c9938fce
+      version: 182cb579332947f740839de8e234949593105312
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -4335,12 +4344,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/marti_common-release.git
-      version: 3.11.0-1
+      version: 3.12.0-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/swri-robotics/marti_common.git
-      version: 41e5a8fc3c3424bd7bb18d6daa0eddd2f9619e3f
+      version: f79318d8288ad4a596b7a27906a7c1347a3a47d7
     status: developed
   marti_messages:
     doc:
@@ -4708,7 +4717,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: e59d9805b86aaa41088e226c09e8450e7a90c5d1
+      version: 651ed5eeb9fe4795919eda8654b621621cf72397
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4744,7 +4753,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: f0d401fd4a2af2685dce9f7cb1c0161231d8f7b5
+      version: d635644852ce4d75b7c1a8773ff1b19f3e0291f1
     status: developed
   mola_test_datasets:
     doc:
@@ -5025,7 +5034,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: c8407e0382d63497c7c951edce0fab845e802283
+      version: 36ae0438523b4f7cdae7bf854ccbd524dd0698f2
     status: developed
   mrpt_msgs:
     doc:
@@ -5332,7 +5341,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation.git
-      version: fbfeff68afd95dfa0f48f78b93d1981d337f5446
+      version: f2e881b71061bd0569d5df449b43f9336dd62ff5
     status: maintained
   navigation_msgs:
     doc:
@@ -5926,7 +5935,7 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/pal_urdf_utils.git
-      version: fb38c853c93d480167a9ad0d4466306bbc157ad3
+      version: 171a1fe521e42eaf2b6cff71d5339551feaa0191
     status: maintained
   pangolin:
     doc:
@@ -6149,7 +6158,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 2b7544df404c2eeafcb0952c78154f8c8bbbfabc
+      version: ac4aae0b9f9997c33a83bf3090618f08b9f417dd
     status: developed
   play_motion2:
     doc:
@@ -6417,7 +6426,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 72fcfaa2750306c9fde8e30e14b5a6d67eb3264f
+      version: d49263b903a6a3c976f2f817b95262a7891468af
     status: maintained
   py_binding_tools:
     doc:
@@ -6538,7 +6547,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/pybind11_json_vendor.git
-      version: cba8192a27a3424ba093079352b3a16187824732
+      version: 396efaf1d8298227090af03fec3ecb29a0da5ea6
     status: unmaintained
   pybind11_vendor:
     doc:
@@ -7231,7 +7240,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: c481772c5ac4772617cb534c394a61284a192a7a
+      version: 2865c1cff98eacb1e2270c36eb97f3e2684a51e8
     status: developed
   rmf_api_msgs:
     doc:
@@ -7456,7 +7465,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_utils.git
-      version: 54cc7f6842b88b72bd125d34a8000833dd2b8a38
+      version: 01f07e969b7161b39508fbfe0c2ecf12219cddbf
     status: developed
   rmf_variants:
     doc:
@@ -7682,7 +7691,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IntellectusCorp/rmw_int2dds.git
-      version: 83a18d8702b662d5583775907c4b9d878a21b707
+      version: cd31b4e5dab031612af5372e683a86c23340fcc3
     status: developed
   rmw_swiftdds:
     doc:
@@ -11379,7 +11388,7 @@ repositories:
     source:
       type: git
       url: https://github.com/uleroboticsgroup/yasmin.git
-      version: 1af9dbf8cfe7bacee93fd3db37893db50caa99a8
+      version: 1a724c401fbd2b86b27777074cd9e0e1d64426cc
     status: developed
   zbar_ros:
     doc:
