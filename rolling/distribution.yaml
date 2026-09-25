@@ -819,7 +819,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_msgs.git
-      version: bb8e7bf5d97168663e0e7b357929e4fcdbd3a967
+      version: 26b4627ef08c55d8dee1103395594bfb803f7111
     status: developed
   autoware_utils:
     release:
@@ -1080,7 +1080,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: 15c938e6323ec48e4bfc6cb4b081bb66a4f039e0
+      version: 36c30d8a0170bdc338161f075fcda935dd6959ca
     status: developed
   canboat_vendor:
     source:
@@ -1437,7 +1437,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
-      version: 96a7893ce5ee645b3ee6e640a7698c7de4cd86b4
+      version: c27a1701f7243b529ef3948dfe8dfe506bada56e
     status: maintained
   cpp_polyfills:
     doc:
@@ -2016,10 +2016,15 @@ repositories:
       type: git
       url: https://github.com/enpose-tech/enpose-ros.git
       version: main
+    release:
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/enpose-ros-release.git
+      version: 0.2.0-4
     source:
       type: git
       url: https://github.com/enpose-tech/enpose-ros.git
-      version: 1de58f28b444d51b54e3a6d8e30a915228179fdd
+      version: cfea858869aa14469bbcc98e6ee2b3c37808a796
     status: developed
   event_camera_codecs:
     doc:
@@ -2194,7 +2199,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 26ec83a174b3ca03ecf2b81cff7b4b2366c9c651
+      version: 1eb667d95f6fb6d9bc043794e0d276ad88060e8d
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2484,7 +2489,7 @@ repositories:
     source:
       type: git
       url: https://github.com/foxglove/foxglove-sdk.git
-      version: 27655cda76483bbe98672049d1e64ee51bfff839
+      version: dcbc66776e8704f5b4f9aa0c6e3ef695ed4c297b
     status: developed
   foxglove_compressed_video_transport:
     doc:
@@ -2661,7 +2666,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/geometry2.git
-      version: 141cfebad7b31b1163e56c21c8632f4336b2c3a7
+      version: 77f7559fd41311dd248168fb0249fdd272ca23cb
     status: maintained
   geometry_tutorials:
     doc:
@@ -2865,11 +2870,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gtsam-release.git
-      version: 4.3.0-4
+      version: 4.3.1-1
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: f3b962971c5bc3ec1677e91a6a6ce08b5e76115a
+      version: 68faebbf463b0a079c9d82fb774a897e4786e844
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -2880,7 +2885,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gtsam2mrpt_serial-release.git
-      version: 0.2.0-2
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/MRPT/gtsam2mrpt_serial.git
@@ -3230,7 +3235,7 @@ repositories:
     source:
       type: git
       url: https://github.com/HebiRobotics/hebi_msgs.git
-      version: d97c9ad6cabd373874ed59a5482ce708c923731c
+      version: bba077678310c6e210d74201340836571b30bc45
     status: maintained
   hls_lfcd_lds_driver:
     doc:
@@ -3704,7 +3709,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/kinematics_interface.git
-      version: a143ea5acb341a2e18d2b95c9ffb0ddaacab36cb
+      version: 0cfd103e71e92d24c33ff76ceae41d484d638ab2
     status: developed
   kobuki_core:
     doc:
@@ -4268,7 +4273,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 61eea2208ce7498e9f426531c24758cef9ba7d0b
+      version: a73d049b842e697e48e6798d0f1579ed5c1d92ca
     status: maintained
   mapviz:
     doc:
@@ -4285,11 +4290,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 4.0.4-1
+      version: 4.1.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 13e1c47526e8becc07a2a022a873a11b68e7660c
+      version: 81dcf9e6870e61fbc5d24c890f7ac83507cc1359
     status: developed
   marine_msgs:
     doc:
@@ -4600,11 +4605,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola-release.git
-      version: 3.2.1-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: 89816d8de645950d473d1f5fa38efaad81f5558e
+      version: f2f4ac9a86b784ad391a3ef85f4779829435a8b3
     status: developed
   mola_academic_datasets:
     doc:
@@ -4623,11 +4628,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_academic_datasets-release.git
-      version: 3.0.0-2
+      version: 3.1.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_academic_datasets.git
-      version: 846cc7718fee1493a348a00aac7c7419d6f9658b
+      version: f548e61d56790f17f8dab126862d924d00906b86
     status: developed
   mola_common:
     doc:
@@ -4657,7 +4662,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_gnss_to_markers.git
-      version: 1ea797842c38139afe45312baf7301d9a17b1849
+      version: 93fee661324f3dc36114a0b9a34f563b5e3ee648
     status: developed
   mola_imu_preintegration:
     doc:
@@ -4668,11 +4673,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_imu_preintegration-release.git
-      version: 2.0.0-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: 6a616aad55667033d293e96da492928076801ec8
+      version: 2b220f5c8bc14c9fcd68330f136ba78e462a648b
     status: developed
   mola_input_ouster:
     doc:
@@ -4687,7 +4692,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_input_ouster.git
-      version: f3c2cc30ecb25373a97f0529d9be445edac56210
+      version: 787423552ed8d06b8560aced188cb9ea6862333b
     status: developed
   mola_input_rosbag1:
     doc:
@@ -4702,7 +4707,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_input_rosbag1.git
-      version: 46cb4500b2b36a64ace12cfc20349683c8dcf4c3
+      version: c3d1734784211482f8b3eba2074d26e9c3451156
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4717,7 +4722,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 5d0fcf870cea32756fbcd7ae557df82856009311
+      version: 01789e795f16c8b9e871b93132b16b0ff00c868f
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4732,7 +4737,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_sm_loop_closure.git
-      version: 048c19d960ae3e43b61c682195ded2ee9c8baa63
+      version: 1cd5fb89471a175f77c71744001bffee26a25844
     status: developed
   mola_state_estimation:
     doc:
@@ -4753,7 +4758,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: 26fc6b742040b4de1195d12f7822ee9eafcbeb29
+      version: 4d063c0e3f5076f87556d4e545e327855b2ec849
     status: developed
   mola_test_datasets:
     doc:
@@ -4855,7 +4860,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: b222baf2272980e758b90727fa90177d556fb5fa
+      version: 6194fb1f29d9e05a594d8afeb5fc06d0b88b5c24
     status: developed
   moveit_msgs:
     doc:
@@ -4949,7 +4954,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: afb9b35a1fc461d57f58e766c2bfaab48f16dc3e
+      version: 48cd06f40d559316b5a05f91813b154a35f3f004
     status: developed
   mp_units_vendor:
     doc:
@@ -5034,7 +5039,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: a0ec53700dd1669dd6424eca0c7895d5bf796c11
+      version: 0f183a08e58591e8291624b424df8ed6c6d97d90
     status: developed
   mrpt_msgs:
     doc:
@@ -5269,7 +5274,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
-      version: a9051da7436ec43d2503ff6414e9e53ed2eebd0c
+      version: 2c060ce94429ed7efea9aaa5143efa5b5abe761f
     status: developed
   nao_button_sim:
     doc:
@@ -6158,7 +6163,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/stack-of-tasks/pinocchio.git
-      version: 6d53a7bede3f70c8bb949aefde7ba9c6ef01d472
+      version: 14151ce8aa3edce302108bd540f6d218487077d6
     status: developed
   play_motion2:
     doc:
@@ -6426,7 +6431,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: d49263b903a6a3c976f2f817b95262a7891468af
+      version: 6bcc947769de6fe545434be3ae6c18bb0aebe72a
     status: maintained
   py_binding_tools:
     doc:
@@ -6643,21 +6648,6 @@ repositories:
       type: git
       url: https://github.com/StefanFabian/qml6_ros2_plugin.git
       version: 87b868a91bb0946dd6d9171087d37defffc6526a
-    status: developed
-  qml_ros2_plugin:
-    doc:
-      type: git
-      url: https://github.com/StefanFabian/qml_ros2_plugin.git
-      version: master
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/qml_ros2_plugin-release.git
-      version: 3.26.30-2
-    source:
-      type: git
-      url: https://github.com/StefanFabian/qml_ros2_plugin.git
-      version: 6b7472448b1eefe47ee514fa699adbea7dc104cd
     status: developed
   qpoases_vendor:
     release:
@@ -6935,6 +6925,16 @@ repositories:
       url: https://github.com/ros2/rcl_logging.git
       version: ebfe43a81a6dc830295b2ca82099c150c95e24ca
     status: maintained
+  rcl_logging_journal:
+    doc:
+      type: git
+      url: https://github.com/fujitatomoya/rcl_logging_journal.git
+      version: main
+    source:
+      type: git
+      url: https://github.com/fujitatomoya/rcl_logging_journal.git
+      version: 74801f41ae289d58192ae26e9b1a64175a6e2223
+    status: maintained
   rcl_logging_rcutils:
     doc:
       type: git
@@ -7143,11 +7143,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/realtime_tools-release.git
-      version: 5.3.0-1
+      version: 5.4.0-1
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: f2f8ee08580659e0ee673a8cdbd1a83b274e9d4a
+      version: bdc4400d332f08a9fb3df0ca919e8ab40d3d8452
     status: maintained
   reductstore_agent:
     doc:
@@ -7240,7 +7240,13 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 2865c1cff98eacb1e2270c36eb97f3e2684a51e8
+      version: b2eec8d1b0f041adf76c6410ff4c0895486b60fe
+    status: developed
+  rko_slam:
+    source:
+      type: git
+      url: https://github.com/PRBonn/rko_slam.git
+      version: 7bc2c4f87cbde5670a77c079f6ec0af740a838f1
     status: developed
   rmf_api_msgs:
     doc:
@@ -7430,7 +7436,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: 39f09e7971c8e666e12c8e9b12199014f631c0bb
+      version: 4e8e03cf82ded6c1e5bd032efe4ac9131bc8627c
     status: developed
   rmf_traffic_editor:
     doc:
@@ -7687,7 +7693,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rmw_int2dds-release.git
-      version: 0.1.5-1
+      version: 0.1.7-1
     source:
       type: git
       url: https://github.com/IntellectusCorp/rmw_int2dds.git
@@ -7726,7 +7732,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 1f7c62a264cda95f4a69462c92749ccc42bc4dd3
+      version: 35eb27e2136b242710ba675264434cc5dd807d20
     status: developed
   roboplan:
     doc:
@@ -7941,7 +7947,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: b0c14b5edca8d17fc2996be1909815e8fcb587c6
+      version: a0f133d921e043aa2cfec8bd7c61effbb8ac132c
     status: developed
   ros2_control_cmake:
     doc:
@@ -8000,7 +8006,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: c175abba75f767895eda58649cd0b08529723279
+      version: 2520ae5b6d18c01f44083491cd9a285b1e2cdfe0
     status: developed
   ros2_easy_test:
     doc:
@@ -10336,7 +10342,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/topic_based_hardware_interfaces.git
-      version: 963f737d8f1c07d419c0bdef568767b82263a98e
+      version: 27ef8d17552a699147ecfd18dfd54a7db1a1785b
     status: developed
   topic_tools:
     doc:
@@ -10991,7 +10997,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/urdfdom.git
-      version: 57cb55f016b6503a6e0a5a4fb495871321b220bc
+      version: c3def983918a8bb28dc7c94e63ff8c2d0e6e2f43
     status: maintained
   urdfdom_headers:
     doc:
@@ -11237,7 +11243,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/vrpn-release.git
-      version: 7.35.0-21
+      version: 7.36.0-1
     source:
       test_commits: false
       test_pull_requests: false
@@ -11258,7 +11264,7 @@ repositories:
     source:
       type: git
       url: https://github.com/alvinsunyixiao/vrpn_mocap.git
-      version: db3965669377837ebd089a9913295b66fa1bca6c
+      version: 1414a4fdc570c1b5b8c7a17a32a29eaa8bb87895
     status: developed
   warehouse_ros:
     doc:
