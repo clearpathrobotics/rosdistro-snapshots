@@ -148,7 +148,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ai_worker.git
-      version: 897ef342ff0e1b2ef59d6afbb5195b410d57b85f
+      version: 9bc7f7b93ee118f4f3f47016d2f2314c0d0895e4
     status: developed
   ament_acceleration:
     doc:
@@ -1069,7 +1069,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: 82f154317fa76ad2195a0343b35e37ef3e67c81f
+      version: 22197f97a305b46c22cc5095f330be09cb0260b3
     status: developed
   canboat_vendor:
     source:
@@ -1235,7 +1235,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
-      version: c828a39f63c3cba867bbd94a5a1dc3ebd835b370
+      version: 2500729552f93e4aaa453ff931f6dcea3758d777
     status: developed
   coal:
     doc:
@@ -2859,11 +2859,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/gtsam-release.git
-      version: 4.3.1-1
+      version: 4.3.1-2
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 5425e6a74f0922eaa4b86771dd14d1677b7c6d70
+      version: f1780021348397b50f35d479acbe41210f49681a
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -4283,7 +4283,7 @@ repositories:
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 81dcf9e6870e61fbc5d24c890f7ac83507cc1359
+      version: 90ec67b3e5e99ba99c816b9ab73ca33633e2ff79
     status: developed
   marine_msgs:
     doc:
@@ -4401,11 +4401,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mavros-release.git
-      version: 2.15.1-1
+      version: 2.16.0-1
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: 31d3c20ba009797525de11e738fc649602bd3b39
+      version: 5c68b905ab30de6ce630822dc46c33467e8f23ea
     status: developed
   memfd_buffer_backend:
     source:
@@ -4598,7 +4598,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: f71bb7c8b0ba60170b546631634bf62351c09846
+      version: 7668796151540dee8ddaf46fb7ae922b99493ee1
     status: developed
   mola_academic_datasets:
     doc:
@@ -4621,7 +4621,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_academic_datasets.git
-      version: f548e61d56790f17f8dab126862d924d00906b86
+      version: 5cef3d55fa9716333741b0c77e7b0c7728822ec9
     status: developed
   mola_common:
     doc:
@@ -4636,7 +4636,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_common.git
-      version: b5c4afc83355d09ac8674ada30bab4132d372f12
+      version: 6ea772f3dc65dd115c75d1a0bdccda5bd360b29e
     status: developed
   mola_gnss_to_markers:
     doc:
@@ -4651,7 +4651,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_gnss_to_markers.git
-      version: 93fee661324f3dc36114a0b9a34f563b5e3ee648
+      version: 78b4c660c4124fbbc8e5a7ab21eec8d6ffcda4a7
     status: developed
   mola_imu_preintegration:
     doc:
@@ -4666,7 +4666,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_imu_preintegration.git
-      version: f3df67c0273e79b7e65d3962fd8bd3f51a8b402a
+      version: 626288750248e12eded206362dcc702fd0360029
     status: developed
   mola_input_ouster:
     doc:
@@ -4681,7 +4681,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_input_ouster.git
-      version: 34e535cd883a07729258f374ca6b513f8b4da017
+      version: 5d354c1c05969f3de235be181a852d36253bb8c8
     status: developed
   mola_input_rosbag1:
     doc:
@@ -4696,7 +4696,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_input_rosbag1.git
-      version: adae8b53676eae852485eecad8bad8327fe83168
+      version: d1079e427343b5eff108dce4e9ff34008aadda15
     status: developed
   mola_lidar_odometry:
     doc:
@@ -4707,11 +4707,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_lidar_odometry-release.git
-      version: 3.2.0-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 506a8fac206ce53d4cfd73acacd19cb88d2371bc
+      version: 0c0ee038a6ee72283cb7a42efedbf807fc89ef0d
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4726,7 +4726,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_sm_loop_closure.git
-      version: 1cd5fb89471a175f77c71744001bffee26a25844
+      version: c39b8bda695cec8f8091bfeca1558696d8a0ba83
     status: developed
   mola_state_estimation:
     doc:
@@ -4743,11 +4743,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mola_state_estimation-release.git
-      version: 2.4.2-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mola_state_estimation.git
-      version: c15c076c8be9dd0e0b97e9a88be86f491cfd7352
+      version: 6fa311b717dcd81bcf6929a2aec8e83a58fc911b
     status: developed
   mola_test_datasets:
     doc:
@@ -4762,7 +4762,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_test_datasets.git
-      version: e3f9e14ee00a07edcb13cebf5a019bfdf0eff11b
+      version: e94ac61699576e03df5f1336dd4f295731e9c9ac
     status: developed
   mola_vision:
     doc:
@@ -4772,7 +4772,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_vision.git
-      version: 060cb38fe47f99c3174b834fa68fe890d52db825
+      version: 5606112b6de1a0d41e7d3bf1dec43392ccd9b3f4
     status: developed
   motion_capture_tracking:
     doc:
@@ -4849,7 +4849,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/ros-planning/moveit2.git
-      version: dcf951509c3a1a4c59d7c683bb08afe9109a0ffc
+      version: 277a3340839f0297c2dd1365be84e350d49acac9
     status: developed
   moveit_msgs:
     doc:
@@ -4939,11 +4939,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mp2p_icp-release.git
-      version: 2.14.1-1
+      version: 3.0.0-1
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 4653558c859384cbf90048fa3804269e6c132210
+      version: 2ef02f0ee24330f3f8926f7cdd75fdade9c3c649
     status: developed
   mp_units_vendor:
     doc:
@@ -5002,6 +5002,7 @@ repositories:
       - mrpt_hwdrivers
       - mrpt_img
       - mrpt_imgui
+      - mrpt_imgui_vendor
       - mrpt_io
       - mrpt_kinematics
       - mrpt_libapps_cli
@@ -5024,11 +5025,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt3-release.git
-      version: 3.2.0-1
+      version: 3.3.0-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 12c0de08e0f763fef66c3f7b2122dae0a15b5ee2
+      version: 3509f4e12153ef3e27537ed90e2bb56bcb14c30f
     status: developed
   mrpt_msgs:
     doc:
@@ -5083,7 +5084,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: f09312fdfe07d69824608abbad4db81a84c55307
+      version: 6de2f4b508741960caf70c66df1bd74b8426aa7a
     status: developed
   mrpt_ros:
     doc:
@@ -5747,7 +5748,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/open_manipulator.git
-      version: 0a4af6a923b8b7d80b8c20506d1839c54d2e993e
+      version: d31000d90c679af9c982e73de8b12d777c5ff7dd
     status: developed
   openeb_vendor:
     doc:
@@ -7235,7 +7236,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_slam.git
-      version: 69c2730c365d3efb547c3818b7010fdb1ed03908
+      version: 4f305c9930f5a056097ad47242aa183f3d5caa2d
     status: developed
   rmf_api_msgs:
     doc:
@@ -7768,7 +7769,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan-ros.git
-      version: 61f4b679aa4caa553689cfe4d96ed25644b10b69
+      version: 2d5441238348af657fd380bbc5f91cd6eb444922
     status: developed
   robot_body_filter:
     doc:
@@ -8504,7 +8505,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/rosbag_timing_inspector.git
-      version: 74161594bd5f74084a400c2fc5dfc5c1eaa25a29
+      version: 89ae3aa4ee4d1e1a37f648b2375969d638958c6e
     status: developed
   rosbridge_suite:
     doc:
@@ -10819,7 +10820,7 @@ repositories:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
-      version: 47b5f70a44c23d43c97c025905e34c119d5913b3
+      version: 00893ffb87569d5bf3a508604054db3e56562fb0
     status: developed
   ur_description:
     doc:
@@ -11205,7 +11206,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 9706080fef3e5f5f9b5591b6c9e382a3ab3e6349
+      version: 8242d7bc00160d898c14c9d65bbc9da31c62d42e
     status: maintained
   vitis_common:
     doc:
@@ -11330,7 +11331,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/cyberbotics/webots_ros2.git
-      version: db4a77c84ee91445d39de9a631e5b57a888814e2
+      version: 85368b74aa9d2040d0ebd96655cf198b4d9066ca
     status: maintained
   xacro:
     doc:
