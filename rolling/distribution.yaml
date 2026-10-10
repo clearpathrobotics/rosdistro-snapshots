@@ -5,6 +5,8 @@
 release_platforms:
   debian:
   - trixie
+  fedora:
+  - '44'
   rhel:
   - '10'
   ubuntu:
@@ -889,7 +891,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Azure/azure-iot-sdk-c.git
-      version: 79ee0b263fc833e87ece1be8a5d5ed1924b955ff
+      version: 9931146fb57625f7750dff4a1395fcab6c7d285e
     status: maintained
   backward_ros:
     doc:
@@ -941,7 +943,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 6a3b33702f3c50179f752d61b1aac99ac78199ea
+      version: 62c4bb4ce0c4ce47c77f95e091b348f02ace6a32
     status: developed
   better_launch:
     doc:
@@ -1074,7 +1076,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: 4a918c9d770e768ba35235e16f758d709764a459
+      version: 04fc4bac2690477dda5807108e04a96cbe2758c1
     status: developed
   canboat_vendor:
     source:
@@ -2890,7 +2892,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: 2cd40945d2f92bd31254508e02c7cf996d1469ef
+      version: a74146dbea788ea25828041065d82674d6430ada
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -4118,7 +4120,7 @@ repositories:
     source:
       type: git
       url: https://git.libcamera.org/libcamera/libcamera.git
-      version: 8103c3f29fba61dbd1d3bbf1a099280c5f3217e3
+      version: 06c3e2d719490aad8ce789fb5d2ad4dfa1459bfb
     status: maintained
   libg2o:
     release:
@@ -4970,7 +4972,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: bcb2de6da239ece26633dccd8f146cc8141fee66
+      version: 9326109ceb421e40a40b966697312bdeaabed56f
     status: developed
   mp_units_vendor:
     doc:
@@ -5052,11 +5054,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt3-release.git
-      version: 3.5.0-1
+      version: 3.5.1-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: dade0c617ddd111f722ef61a5e7204a0048ee93d
+      version: c1c9b7b007f0a9d2f42c852a303a2c3010e89c33
     status: developed
   mrpt_msgs:
     doc:
@@ -5220,7 +5222,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mujoco_ros2_control-release.git
-      version: 0.1.2-1
+      version: 0.1.3-1
     source:
       type: git
       url: https://github.com/ros-controls/mujoco_ros2_control.git
@@ -5265,7 +5267,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 53eec9d789ddf034d2be35bce3354dc5df34cee4
+      version: 51aa37328eb3d08a4ac4553bd109928a3c8b4d42
     status: developed
   nanoeigenpy:
     doc:
@@ -5510,7 +5512,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/nodl.git
-      version: 5d7e842298cc81294441118521a14ba38a62a28a
+      version: cd56cb6449191265a431fcd7a889a33535a0dd93
     status: developed
   nodl_to_policy:
     doc:
@@ -6316,12 +6318,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/point_cloud_transport-release.git
-      version: 6.0.3-1
+      version: 6.0.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/point_cloud_transport.git
-      version: 247b0adad3eb1d552e381b6b2d279c0ad4638282
+      version: f9fbb779f41ae65cd40fb859d75b4025f27f0fe8
     status: maintained
   point_cloud_transport_plugins:
     doc:
@@ -7969,7 +7971,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 9471d0daee0979470027188bada64936fd633a55
+      version: 0b869a42108c18418e206a9f2ca7b84ab8d0a303
     status: developed
   ros2_control_cmake:
     doc:
@@ -8166,7 +8168,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2_tracing.git
-      version: 9ddeccc82db6cbfe95e44895b50e6b6fffc26e56
+      version: f7e56374a0d48fac69eb816d41d53312e0348f73
     status: developed
   ros2acceleration:
     doc:
@@ -9531,12 +9533,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rviz-release.git
-      version: 16.0.3-1
+      version: 16.0.4-1
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 506455c8fc6b136f27e0da2222530f36939acbbe
+      version: 0d5c197fabebb0fe25ad4ca1076e28a7be967b5c
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
