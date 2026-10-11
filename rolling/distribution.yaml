@@ -786,7 +786,7 @@ repositories:
     source:
       type: git
       url: https://github.com/autowarefoundation/autoware_lanelet2_extension.git
-      version: b1df9ed04d361562b08b1a0ac33451c2031b8f8c
+      version: 133cc1e23aafc251907b129c433261d1689b41ab
     status: developed
   autoware_msgs:
     release:
@@ -943,7 +943,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 62c4bb4ce0c4ce47c77f95e091b348f02ace6a32
+      version: 03ec870a07b384f0766bbfe81f77c64a9f994a2b
     status: developed
   better_launch:
     doc:
@@ -1076,7 +1076,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: 04fc4bac2690477dda5807108e04a96cbe2758c1
+      version: 6fc8f77ed8409ebb49d146559ea7c573e7988341
     status: developed
   canboat_vendor:
     source:
@@ -3820,7 +3820,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
-      version: ae39c8d673264afac2339c4f0252df53a7ba82dd
+      version: de0b1789fa2c8966815dd6f99eeb1d09825f0111
     status: maintained
   laser_filters:
     doc:
@@ -5058,7 +5058,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: c1c9b7b007f0a9d2f42c852a303a2c3010e89c33
+      version: dfa5194b3f613a5cfdafb035915e06a8c63e7b77
     status: developed
   mrpt_msgs:
     doc:
@@ -5099,7 +5099,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: 06ae95648b0e5a7282a79c9a4ca097e1f26d33b3
+      version: afefff46c53ecf9b295ec954fab11a48794170de
     status: developed
   mrpt_path_planning:
     doc:
@@ -5118,7 +5118,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_path_planning.git
-      version: dfbda839ecc6c573e180662f0e73806e5af18856
+      version: 61b3dab9be8b96a4b4443b7e18e5ee00bce1cb99
     status: developed
   mrpt_ros:
     doc:
@@ -5267,7 +5267,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: 51aa37328eb3d08a4ac4553bd109928a3c8b4d42
+      version: bac5c96fb11ab4367a9d5548fb1dd8bccfbfbae6
     status: developed
   nanoeigenpy:
     doc:
@@ -5298,7 +5298,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
-      version: 2c060ce94429ed7efea9aaa5143efa5b5abe761f
+      version: c1199344019d1b843aa601f34100fb89d13f4630
     status: developed
   nao_button_sim:
     doc:
@@ -5834,6 +5834,25 @@ repositories:
       url: https://github.com/hatchbed/opensw_ros.git
       version: 4c0fcad1daa180728291451fa97e38cc37492f10
     status: developed
+  orbbec_camera_v2:
+    doc:
+      type: git
+      url: https://github.com/orbbec/OrbbecSDK_ROS2.git
+      version: v2-main
+    release:
+      packages:
+      - orbbec_camera
+      - orbbec_camera_msgs
+      - orbbec_description
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/orbbec_camera_v2-release.git
+      version: 2.10.6-1
+    source:
+      type: git
+      url: https://github.com/orbbec/OrbbecSDK_ROS2.git
+      version: c153462518ad674650bafa4464fda72c27ab797a
+    status: maintained
   orocos_kdl_vendor:
     release:
       packages:
@@ -6607,7 +6626,7 @@ repositories:
     source:
       type: git
       url: https://github.com/AndrejOrsula/pymoveit2.git
-      version: 4c83fb30f1004aa26bb75483637fbc7e917e508b
+      version: 33314af864f86403e33f33d0c47e0c303e81630b
     status: maintained
   python_cmake_module:
     doc:
@@ -6899,7 +6918,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rcl.git
-      version: cd7b683f97dbf37b7ce34f3604c1a0e8f9801d50
+      version: e5754f0d6fa3313669271a76e116bf9b01ba7f15
     status: maintained
   rcl_interfaces:
     doc:
@@ -7971,7 +7990,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_control.git
-      version: 0b869a42108c18418e206a9f2ca7b84ab8d0a303
+      version: 9e5197ed4207f7015e5200373cdd5b2f06de281a
     status: developed
   ros2_control_cmake:
     doc:
@@ -11246,7 +11265,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 7c0a3eb8bd9fcc69c00e19880cc8d63721810db1
+      version: 66968547e9ddec55f25670d767ac267f659519df
     status: maintained
   vitis_common:
     doc:
