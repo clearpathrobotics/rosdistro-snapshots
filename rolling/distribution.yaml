@@ -943,7 +943,7 @@ repositories:
     source:
       type: git
       url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
-      version: 430ea97bc26a24c61c99b351c793e29963c66210
+      version: a9d6e5637f4a4fcd29fcd16b8db049de7c42006b
     status: developed
   better_launch:
     doc:
@@ -1076,7 +1076,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: c5e075d2e93baaa04c7624b23482b783ff4bcf1c
+      version: 43486153e74473ccaf2dab62cf5f64da2eb277ac
     status: developed
   canboat_vendor:
     source:
@@ -1242,7 +1242,7 @@ repositories:
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
-      version: e9b227e8333f361db47529f903d5ca2261e1ef1c
+      version: 60ddb44740f24a8c4d9585d7e3764443ff7c385a
     status: developed
   coal:
     doc:
@@ -2897,7 +2897,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: bae782b3481e8e0c84c94b8b66d28743426dd095
+      version: 901da5e1c9d8ae699253243fb9df161df040346c
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -3106,7 +3106,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/gz_ros2_control.git
-      version: 75d25e283a09bc72788d2b3907c56922b06fba11
+      version: 762aacb0af73874327e7fd3f97f3a3701f5eb0c3
     status: maintained
   gz_sensors_vendor:
     doc:
@@ -3910,7 +3910,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/launch.git
-      version: 2288aa3fbfbf8a0668d0740201712053993f1263
+      version: f8b1b5ae4d9486fe14b9a8316c6e063a9e39cddc
     status: developed
   launch_frontend_py:
     doc:
@@ -4626,7 +4626,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: ce16aae9ec3ad92f7cfbda9f62d7ef218ebeda83
+      version: 9478173b2a6c4f0f1ff41e00a9560a0d62b6cd7e
     status: developed
   mola_academic_datasets:
     doc:
@@ -4739,7 +4739,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_lidar_odometry.git
-      version: 19c5c3a939a771c585cb2d1de4080c7c96f54526
+      version: 4b59eb5909fc254c812be44206259191b77c56ce
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4971,7 +4971,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: e5f6128a48bdb4484bc9271f82c4b49166fc6f46
+      version: 5a6b5192cd82e60d8c50b3c69f6dd9f112ab9828
     status: developed
   mp_units_vendor:
     doc:
@@ -5057,7 +5057,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: c32f9cf2b748a22694d58fe98b235652a396be4a
+      version: 13ee06d07952fb0dd26d5ef5c98921b00b8802af
     status: developed
   mrpt_msgs:
     doc:
@@ -5161,7 +5161,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mrpt_ros_bridge-release.git
-      version: 4.0.0-1
+      version: 4.0.1-1
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
@@ -5297,7 +5297,7 @@ repositories:
     source:
       type: git
       url: https://github.com/jlblancoc/nanoflann.git
-      version: 9c930ba410f545b0b76330acb502850cd1816920
+      version: b24157dd90cbb8fb8f5aa058f5fd001ce3338571
     status: developed
   nao_button_sim:
     doc:
@@ -6397,6 +6397,16 @@ repositories:
       url: https://github.com/ros-perception/pointcloud_to_laserscan.git
       version: 595bc926f2df2e1a199e776c42d43ade868e3777
     status: maintained
+  polka:
+    doc:
+      type: git
+      url: https://github.com/Pana1v/polka.git
+      version: rolling
+    source:
+      type: git
+      url: https://github.com/Pana1v/polka.git
+      version: cab4efd70f7692b3cb5bffd5e0b8162411df0139
+    status: developed
   polygon_ros:
     doc:
       type: git
@@ -6504,7 +6514,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/splintered-reality/py_trees.git
-      version: 41ec377108b3786f2cfe529facb0566332691766
+      version: f94b8f8c1af5f60ebc3c7482d838470711d0cfa7
     status: developed
   py_trees_js:
     doc:
@@ -7043,7 +7053,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: e2386a0ec6d062579d44ca2f27574c554b42adc1
+      version: b2ff681e47a264492a985c40b48b241e41d5d755
     status: maintained
   rclpy:
     doc:
@@ -7342,7 +7352,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_building_map_msgs.git
-      version: 51bf2927acfe1965f13b8f727ee2e1d91ff90af1
+      version: 6dbfdefd4d9659a81c497ce247aa45f759e1fc86
     status: developed
   rmf_cmake_uncrustify:
     doc:
@@ -7409,7 +7419,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_internal_msgs.git
-      version: 081143054f09a34b5ead25488a37298d9aadb41a
+      version: 0e7ab42dd9f3b47a810e5a881c525601baf2f02c
     status: developed
   rmf_ros2:
     doc:
@@ -7487,7 +7497,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-rmf/rmf_traffic.git
-      version: 55e15dbc6c302b9fb46ad0933764e6b930d49f47
+      version: c1a19e8a6dc026ef54bb6c8444775e29bf7e5b38
     status: developed
   rmf_traffic_editor:
     doc:
@@ -7697,7 +7707,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: 6a17a7bee4c34f18939fd33711cd3e4a62f6f699
+      version: 63a36e9d61e1da6158c9d3a21c37c86dc4587e14
     status: developed
   rmw_gurumdds:
     doc:
@@ -8624,7 +8634,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: 7d8b2224086909c05f4dda922dc5d94f8bdcec41
+      version: ad8357247b28ba0a5d555fb08927d8f38d78b87a
     status: maintained
   rosidl_buffer_backends:
     doc:
@@ -8702,7 +8712,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_dds.git
-      version: 704586af2270edf0260056ef923709a43850697b
+      version: 02c25ced30cc2e8986f35fec3d1f1e5926cddf7f
     status: maintained
   rosidl_defaults:
     doc:
@@ -8771,7 +8781,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_python.git
-      version: fb4cb9a9ee8c33c6fd8861f42ef28c3c8628a48d
+      version: f99517a26d277002e16ff51b87918c7a4dc1e80f
     status: maintained
   rosidl_runtime_py:
     doc:
@@ -8823,7 +8833,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: 6ee2aff71b5f547d707450b94a911d06ec29347e
+      version: dbf8467c4a73e852f90b50923674f572d62569d0
     status: maintained
   rosidl_typesupport_fastrtps:
     doc:
@@ -8842,7 +8852,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
-      version: 55bc71056c17097e316fd75116e709656d032a5c
+      version: b61546a790ff6497641677bcee0329bb429ef087
     status: developed
   rosidlcpp:
     doc:
@@ -9622,7 +9632,7 @@ repositories:
     source:
       type: git
       url: https://github.com/nobleo/rviz_satellite.git
-      version: 1d011b75f5606ec6b7e1aa9839c5b9284408ab84
+      version: 15bf17ec3be6c805c98a7a9714df7311ff679c1a
     status: maintained
   rviz_splat:
     source:
@@ -10337,7 +10347,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/DLu/tf_transformations.git
-      version: 457aa9be013e308e70c3f9cca04392ea2e430725
+      version: ef0374daca8f35dd0ee641de8a92e50b73123fec
     status: maintained
   tf_tree_terminal:
     doc:
@@ -10468,7 +10478,7 @@ repositories:
     source:
       type: git
       url: https://github.com/hungpham2511/toppra.git
-      version: 8121e9af72f5aa589b515aa15e0dc408344c3220
+      version: ad1f2ae2c5e4055de9280d15294f91073df289e9
     status: maintained
   trac_ik:
     doc:
@@ -11309,7 +11319,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: e9f384d0ed2e994af2c2b74500a1334e3686d100
+      version: 53a7da87095813c8b4376acc52a6ea55fcb14f62
     status: maintained
   vitis_common:
     doc:
