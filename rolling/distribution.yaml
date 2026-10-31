@@ -1040,7 +1040,7 @@ repositories:
     source:
       type: git
       url: https://github.com/tesseract-robotics/boost_plugin_loader.git
-      version: 71b4d4a0c1704a2e533c31961ea40fee6763256b
+      version: fa00832496eea01ef096c65126813fec190e055c
     status: developed
   boost_sml_vendor:
     doc:
@@ -1076,7 +1076,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: cd753e546621f1f67128a1f47fb0f28593cb341f
+      version: 481dfb0e14059e64bbecdee74f9604facf0d66b6
     status: developed
   canboat_vendor:
     source:
@@ -1509,7 +1509,7 @@ repositories:
     source:
       type: git
       url: https://github.com/IMRCLab/crazyswarm2.git
-      version: f1e09954f56cd08e7d9aff5e13dc9a68795914a3
+      version: 2cb287199b48c904f0758b5897902ae4b9d8e44a
     status: developed
   crocoddyl:
     doc:
@@ -1876,37 +1876,6 @@ repositories:
       type: git
       url: https://github.com/stonier/ecl_core.git
       version: release/1.2.x
-    release:
-      packages:
-      - ecl_command_line
-      - ecl_concepts
-      - ecl_containers
-      - ecl_converters
-      - ecl_core
-      - ecl_core_apps
-      - ecl_devices
-      - ecl_eigen
-      - ecl_exceptions
-      - ecl_filesystem
-      - ecl_formatters
-      - ecl_geometry
-      - ecl_ipc
-      - ecl_linear_algebra
-      - ecl_manipulators
-      - ecl_math
-      - ecl_mobile_robot
-      - ecl_mpl
-      - ecl_sigslots
-      - ecl_statistics
-      - ecl_streams
-      - ecl_threads
-      - ecl_time
-      - ecl_type_traits
-      - ecl_utilities
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ecl_core-release.git
-      version: 1.2.1-5
     source:
       test_pull_requests: true
       type: git
@@ -1918,20 +1887,6 @@ repositories:
       type: git
       url: https://github.com/stonier/ecl_lite.git
       version: release/1.2.x
-    release:
-      packages:
-      - ecl_config
-      - ecl_console
-      - ecl_converters_lite
-      - ecl_errors
-      - ecl_io
-      - ecl_lite
-      - ecl_sigslots_lite
-      - ecl_time_lite
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ecl_lite-release.git
-      version: 1.2.0-5
     source:
       test_pull_requests: true
       type: git
@@ -1943,15 +1898,6 @@ repositories:
       type: git
       url: https://github.com/stonier/ecl_tools.git
       version: release/1.0.x
-    release:
-      packages:
-      - ecl_build
-      - ecl_license
-      - ecl_tools
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ecl_tools-release.git
-      version: 1.0.3-5
     source:
       test_pull_requests: true
       type: git
@@ -2226,7 +2172,7 @@ repositories:
       test_pull_requests: false
       type: git
       url: https://github.com/eProsima/Fast-DDS.git
-      version: 24141edc4c20207c81cd30d60e4e356e1c1d1c43
+      version: b9e087308b4ef02f2c8c8982abaf8286166f8457
     status: maintained
   feetech_ros2_driver:
     release:
@@ -2906,7 +2852,7 @@ repositories:
     source:
       type: git
       url: https://github.com/borglab/gtsam.git
-      version: ba4cfa8aa261543843439ddd10c1a8563f13e43f
+      version: 8fb5dfbc40fe208c2acad5db4cc119e3197cd928
     status: developed
   gtsam2mrpt_serial:
     doc:
@@ -2969,7 +2915,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/gazebo-release/gz_dartsim_vendor.git
-      version: 2dead6d75a11aa68e7818473d79048eb334c20d1
+      version: 160ee5d1d106a2e5f31d1f213b4061d78389958d
     status: maintained
   gz_fuel_tools_vendor:
     doc:
@@ -3748,11 +3694,6 @@ repositories:
       type: git
       url: https://github.com/kobuki-base/kobuki_core.git
       version: release/1.4.x
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/kobuki_core-release.git
-      version: 1.4.0-4
     source:
       test_pull_requests: true
       type: git
@@ -3780,11 +3721,6 @@ repositories:
       type: git
       url: https://github.com/kobuki-base/kobuki_velocity_smoother.git
       version: release/0.15.x
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/kobuki_velocity_smoother-release.git
-      version: 0.15.1-2
     source:
       test_pull_requests: true
       type: git
@@ -4134,7 +4070,7 @@ repositories:
     source:
       type: git
       url: https://gitlab.freedesktop.org/camera/libcamera.git
-      version: 212c689fcf2450bbfbaab25c7472895ac277b5d6
+      version: 293d751a814e0d4c34e85ad457ccd9d5eefd1a61
     status: maintained
   libg2o:
     release:
@@ -4228,12 +4164,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/linear-feedback-controller-release.git
-      version: 4.0.4-1
+      version: 4.1.0-1
     source:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller.git
-      version: 0119c4777d51d6020979073123e07c1385d5b198
+      version: 0965ed3f237cbb50d08f4627fc70b6bdc83e7a95
     status: maintained
   linear_feedback_controller_msgs:
     doc:
@@ -4249,7 +4185,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/loco-3d/linear-feedback-controller-msgs.git
-      version: 8336f68a1283845b4c6ff98f859dae7a98655d7c
+      version: f9bd5b606ed821a154758b7f3bcb0c63c386e9ec
     status: maintained
   linux_isolate_process:
     doc:
@@ -4322,11 +4258,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/mapviz-release.git
-      version: 4.1.2-1
+      version: 4.2.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
-      version: 6520d6f8339a05f0eba355d5cbfe27238b20ce6e
+      version: 634bd8370079571d36b25b8e49da8109530f2d7b
     status: developed
   marine_msgs:
     doc:
@@ -4635,7 +4571,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: f7950d7f95f185ca7622e611b7d9e7f3640044f0
+      version: 74dd70f4621f8cb250c6c62b36d34d1f29eab651
     status: developed
   mola_academic_datasets:
     doc:
@@ -5066,7 +5002,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: dda45600978a0310dc6640f51b864515a05c0a17
+      version: 7415f03b250d57dbb248e9dace819f146bd841d4
     status: developed
   mrpt_msgs:
     doc:
@@ -5520,7 +5456,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-tooling/nodl.git
-      version: 60adf890ea66c1d870e24a79914200310c977a41
+      version: 7417fecfd05f586ee8d9696c4d9761fd534abcde
     status: developed
   nodl_to_policy:
     doc:
@@ -5550,11 +5486,11 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/novatel_gps_driver-release.git
-      version: 5.0.0-1
+      version: 5.1.0-1
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
-      version: 3cace11168e2e2247ab759274c82dcc313d781d5
+      version: 500a635c72ed2d924aa5ba8675ac8e6d66301b64
     status: developed
   ntpd_driver:
     doc:
@@ -6492,7 +6428,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/PX4/px4_msgs.git
-      version: 2e892300d8c20d3c29e198e324a10854b40ab8d3
+      version: 83cd9920d697e6c73026df1b36b21465dcbe8abd
     status: maintained
   py_binding_tools:
     doc:
@@ -7057,12 +6993,12 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/rclcpp-release.git
-      version: 33.1.0-1
+      version: 33.2.0-2
     source:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclcpp.git
-      version: 685402cf7e1b3abfb714935b94d20051cda58d23
+      version: e7e618da6d3fb60dafc9341f0744118d7ae2315a
     status: maintained
   rclpy:
     doc:
@@ -7078,7 +7014,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rclpy.git
-      version: 2f9adaeb269de87c814b504aa1d40e724b33c3b0
+      version: f69e0c2df624deb540f4163177e0c345b0c78a9e
     status: maintained
   rcpputils:
     doc:
@@ -7828,7 +7764,7 @@ repositories:
     source:
       type: git
       url: https://github.com/open-planning/roboplan.git
-      version: c0f014508237bfbd5abbf55aff4b8059902c17e0
+      version: ec4d52795f1a1e620d3383174ab57de2339a6af2
     status: developed
   roboplan_ros:
     doc:
@@ -8076,7 +8012,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-controls/ros2_controllers.git
-      version: e70c3573807076e93583a022620348d1a9244a3e
+      version: 31340686167611bd1ede1962bc05bcbe73ee541e
     status: developed
   ros2_easy_test:
     doc:
@@ -8273,7 +8209,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/ros2cli.git
-      version: c538c9f1d2a3cd93ced50fa6b27f941525f848d0
+      version: 21537acb6a2e16f5e568206381e4d45c7ea314fd
     status: maintained
   ros2cli_common_extensions:
     doc:
@@ -8643,7 +8579,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl.git
-      version: dae40aa358cf2b726abcb904079fc11b0548ffb3
+      version: e4368a65c740782c983d7b802b9d629985f27f4e
     status: maintained
   rosidl_buffer_backends:
     doc:
@@ -8842,7 +8778,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_typesupport.git
-      version: dbf8467c4a73e852f90b50923674f572d62569d0
+      version: 539fb1ea00cfb68d462e8cbf2701978c63a1fda4
     status: maintained
   rosidl_typesupport_fastrtps:
     doc:
@@ -9004,7 +8940,7 @@ repositories:
     source:
       type: git
       url: https://github.com/StefanFabian/rqml.git
-      version: 0afe62fd6d660423d825e055ff287448d30f578e
+      version: c18a02312856163a5d5fe23512a9fe0c418e41f1
     status: maintained
   rqt:
     doc:
@@ -9059,7 +8995,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_bag.git
-      version: 62f01ad5a61e2c2137d0b05c0fa898443d78c400
+      version: c465727c4a639a23021aa26f896a703d0e0336ce
     status: maintained
   rqt_common_plugins:
     doc:
@@ -9608,7 +9544,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 889cc4fc62793636b98ff0c805c7cb2dbc98c9d9
+      version: 3756da1f1ee5f2c1e71fc073fb02f39fde0b0bf4
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -10900,7 +10836,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ika-rwth-aachen/ros2_unbag.git
-      version: aa2a68cde2d5fb6f914cf2d6abe6a9eb1a7b6d30
+      version: 99109daea775195d936f7a27526c91ceef285092
     status: maintained
   uncrustify_vendor:
     release:
@@ -11558,7 +11494,7 @@ repositories:
     source:
       type: git
       url: https://github.com/stereolabs/zed-ros2-interfaces.git
-      version: 3ecc131be336e64f697abf70389334bae675e30e
+      version: 1e0594d6f8c39f6991d64f6ea0df8f36be6840ac
     status: maintained
   zenoh_bridge_dds:
     doc:
