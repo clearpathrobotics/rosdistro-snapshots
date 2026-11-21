@@ -1060,7 +1060,7 @@ repositories:
     source:
       type: git
       url: https://github.com/knmcguire/canary.git
-      version: 108d233ec3753a84144326af21c515cac1f3a23a
+      version: 7dce4e0959226911469f0ada412078c2728ab826
     status: developed
   canboat_vendor:
     source:
@@ -1223,10 +1223,18 @@ repositories:
       type: git
       url: https://github.com/facontidavide/cloudini.git
       version: main
+    release:
+      packages:
+      - cloudini_lib
+      - cloudini_ros
+      tags:
+        release: release/rolling/{package}/{version}
+      url: https://github.com/ros2-gbp/cloudini-release.git
+      version: 1.5.0-2
     source:
       type: git
       url: https://github.com/facontidavide/cloudini.git
-      version: 9238eb155b4566a5dab94e6134e8c67a9e9d5b39
+      version: 0dadbbbf2cf35157195c348f4f61b15ab8febba0
     status: developed
   coal:
     doc:
@@ -3390,7 +3398,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_common.git
-      version: be5406b4b960db4c5c9f04c89c942ff9bdea1a3e
+      version: 5e0d66048aaf654554d6bc846486bece06ce1510
     status: maintained
   image_pipeline:
     doc:
@@ -3438,7 +3446,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
-      version: 9e8728c18a88473e31cfd7969a9b2815eb8496a1
+      version: a95886fb46817558e76c0c499166d58cd90444cf
     status: maintained
   imu_pipeline:
     doc:
@@ -3850,7 +3858,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
-      version: 424847a78f997bf575ca5eb6b8422b38e8e147a8
+      version: 35584c5cc35b50d3a146e038d7fe7545bf2878e1
     status: maintained
   laser_proc:
     doc:
@@ -4290,7 +4298,7 @@ repositories:
     source:
       type: git
       url: https://github.com/Neargye/magic_enum.git
-      version: 1bb6ca4092b8b8ca1527f6ddc167c7a1fb7c67c7
+      version: 257a70ff6a953612afb0aabde74cfed29759ff5e
     status: maintained
   mapviz:
     doc:
@@ -4620,7 +4628,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola.git
-      version: e202739985db27248b9137867ba85b5e6bd1860a
+      version: 7516042fd64766495911fb6cc4c311188f84c7f6
     status: developed
   mola_academic_datasets:
     doc:
@@ -4743,7 +4751,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_mapper.git
-      version: 6cd1ee3d0f85de5577ff9ceac4a989244194b892
+      version: 11e03cd43f9f6404ef51817ee18479e730de5066
     status: developed
   mola_sm_loop_closure:
     doc:
@@ -4804,7 +4812,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mola_vision.git
-      version: 7a995cd61faaaf3baaf23c359f1a8461784452e2
+      version: 6668d24a20dfdaf87c960b41f9a912bb796eb8d5
     status: developed
   motion_capture_tracking:
     doc:
@@ -4975,7 +4983,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MOLAorg/mp2p_icp.git
-      version: 8b254e11fe0fc73349a496dd7fc8ee19923a40db
+      version: 1f9b11e6f0c9b4691b150fdb621f985a8e538f1d
     status: developed
   mp_units_vendor:
     doc:
@@ -5061,7 +5069,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt.git
-      version: 8605ac46f25bc684cfb9f030fa0f6fa142454e72
+      version: b0de82859f30912beb8730874cdb15e47c61bb36
     status: developed
   mrpt_msgs:
     doc:
@@ -5169,7 +5177,7 @@ repositories:
     source:
       type: git
       url: https://github.com/MRPT/mrpt_ros_bridge.git
-      version: 8e27856af71fc2161494cfb5bc5b5b8d4aece9a3
+      version: 192b86b39043dc0362acecc99cac5e6a8868abb1
     status: developed
   mrpt_sensors:
     doc:
@@ -5270,7 +5278,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/MRPT/mvsim.git
-      version: dadd2cac1209dd85a337e6f518aa053d3339f69e
+      version: 8a45b9e1456144cadd43411de96b9ae907319e4f
     status: developed
   nanoeigenpy:
     doc:
@@ -6099,7 +6107,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fujitatomoya/ros2_persist_parameter_server.git
-      version: 3de7c206228064062b87da7d31d455306b71c4ab
+      version: e4552d3cb281d9cc3d9c155ce28768247fba329d
     status: maintained
   pfs:
     doc:
@@ -6446,7 +6454,7 @@ repositories:
       test_commits: false
       type: git
       url: https://github.com/Simple-Robotics/proxsuite.git
-      version: 9ec5ea5df267d477904318147bf454815cd416c2
+      version: f97104abefa9b7f34bd99b3c89aae8750e583530
     status: developed
   px4_msgs:
     doc:
@@ -7224,7 +7232,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/resource_retriever.git
-      version: e8bbc19928fba26bdb2c7349edaa297ac48f84b6
+      version: 03929f236c9792bf0ff1457c67bf51591cbc014d
     status: maintained
   resource_retriever_service:
     doc:
@@ -7271,7 +7279,7 @@ repositories:
     source:
       type: git
       url: https://github.com/PRBonn/rko_lio.git
-      version: 04566e598f700bc7d5efcfcf3a83327ce842f4f7
+      version: 500d61627a72e6a40fd18574a6d45fe836afc623
     status: developed
   rko_slam:
     doc:
@@ -7685,7 +7693,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rmw_fastrtps.git
-      version: c34b5b2638a65b08001eea6073062e413289d185
+      version: 91b33be3dedff59777c0164724a5fee7100fed5e
     status: developed
   rmw_gurumdds:
     doc:
@@ -7771,7 +7779,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros2/rmw_zenoh.git
-      version: 0df786f7e378c429e780bb3c46d25b9eb6b8c4e8
+      version: 5a2ea3622b25ea430923d3d71bc3379717179481
     status: developed
   roboplan:
     doc:
@@ -8651,7 +8659,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rosidl_buffer_backends.git
-      version: c0c9df3c799d90e539adc901d22649b978c23b21
+      version: a846e42cf4134725725c4adac49dc6cc482a5327
     status: developed
   rosidl_buffer_backends_tutorials:
     doc:
@@ -9593,7 +9601,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros2/rviz.git
-      version: 1c67a00327b52d63c966375f3f208e896ac6da8e
+      version: e25c2eaa0f82f7d1a180bc34799867473b5fffba
     status: maintained
   rviz_2d_overlay_plugins:
     doc:
@@ -10431,7 +10439,7 @@ repositories:
     source:
       type: git
       url: https://github.com/TobasFlightControl/tobas.git
-      version: e5746cff801928c26d3ed898b772f01848b8b1e8
+      version: 5e4c7c9e2796e2cd50edee2740994989df184e7b
     status: developed
   topic_based_hardware_interfaces:
     doc:
@@ -11325,7 +11333,7 @@ repositories:
     source:
       type: git
       url: https://github.com/lagadic/visp.git
-      version: 4668d12c8453fdc9672e45829f3b4f78e28f9edc
+      version: 074c78953c52f415b359ea4323fbb3765ba67557
     status: maintained
   vitis_common:
     doc:
